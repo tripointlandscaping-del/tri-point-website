@@ -490,7 +490,7 @@ export default function HomePage() {
             <div className="flex items-center gap-4">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <p className="text-white/70 text-sm">
-                <span className="text-white font-semibold">Accepting new clients</span> in Washington Township, Shelby Township, Macomb Township &amp; more.
+                <span className="text-white font-semibold">Accepting new clients</span>{' '}in Washington Township, Shelby Township, Macomb Township &amp; more.
               </p>
             </div>
             <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="shrink-0 inline-flex items-center gap-2 text-white px-6 py-2.5 text-sm font-semibold hover:opacity-90 transition-opacity">
