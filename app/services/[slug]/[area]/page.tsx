@@ -1,0 +1,538 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
+import AnimateOnScroll from "../../../components/AnimateOnScroll";
+
+/* ─────────────────────────────────────────
+   SERVICE DATA
+───────────────────────────────────────── */
+const services: Record<string, {
+  name: string;
+  shortDesc: string;
+  heroImage: string;
+  included: string[];
+  benefits: string[];
+  bodyTemplate: (area: string, roads: string) => string;
+}> = {
+  "lawn-maintenance": {
+    name: "Lawn Maintenance",
+    shortDesc: "Weekly mowing, edging, trimming & blowing — April through October.",
+    heroImage: "/photos/1.png",
+    included: [
+      "Weekly mowing at the correct cutting height",
+      "Crisp, clean edging along all beds and hardscapes",
+      "String trimming around obstacles, fences & trees",
+      "Full blowing of walks, drives & patios after each visit",
+      "Spring startup and end-of-season shutdown",
+      "Schedule adjustments during drought or heavy growth",
+    ],
+    benefits: [
+      "Consistent curb appeal that stands out in your neighborhood",
+      "Healthy turf — proper mowing height prevents disease and drought stress",
+      "Time back in your week — let us handle it every time",
+      "Reliable professionals who show up and communicate proactively",
+    ],
+    bodyTemplate: (area, roads) =>
+      `Maintaining a lawn in ${area} takes more than showing up with a mower. Michigan's variable seasons — from soggy springs to dry July stretches — demand a crew that adapts to what your turf actually needs week-to-week. Tri-Point Landscaping has been providing professional lawn maintenance to homeowners across ${area} and all of northern Macomb County. We service properties along ${roads} and throughout the community's established subdivisions. Our crews work with precision — every edge is clean, every visit is consistent, and every property is treated with the same attention to detail we'd give our own. Whether you're looking for a reliable weekly service or want to free up your weekends for good, Tri-Point Landscaping is the team ${area} homeowners trust.`,
+  },
+  "landscaping": {
+    name: "Landscaping",
+    shortDesc: "Custom bed design, plantings, stone features & full landscape installations.",
+    heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
+    included: [
+      "Custom landscape design consultation",
+      "New planting bed creation and edging",
+      "Plant and tree selection tailored to Michigan climate",
+      "Sod installation and lawn establishment",
+      "Stone features, retaining walls & borders",
+      "Full landscape renovation and renovation planning",
+    ],
+    benefits: [
+      "Dramatically improved curb appeal and property value",
+      "Plants chosen to thrive in Macomb County's climate and soil",
+      "One team handles design, installation, and follow-up care",
+      "Clean, professional results that last season after season",
+    ],
+    bodyTemplate: (area, roads) =>
+      `A well-designed landscape transforms a property — and in ${area}, where homeowners take pride in their properties, great landscaping stands out. Whether you're starting from scratch on a new build or renovating an established yard, Tri-Point Landscaping brings the expertise to make your vision real. We serve properties throughout ${area}, from homes along ${roads} to newer subdivisions and established neighborhoods. Our team handles every phase: design consultation, plant selection, installation, and cleanup. We know what thrives in Michigan's soil and climate, and we select every plant with longevity in mind. The result is a landscape that looks stunning the day we finish — and keeps improving for years to come.`,
+  },
+  "mulch-and-stone": {
+    name: "Mulch & Stone",
+    shortDesc: "Premium mulch installation, decorative stone & crisp bed edging.",
+    heroImage: "/photos/mulch.jpg",
+    included: [
+      "Premium shredded hardwood or dyed mulch",
+      "Decorative stone: river rock, crushed granite, lava rock & more",
+      "Sharp, clean spade bed edging",
+      "Removal and disposal of old mulch",
+      "Weed barrier installation where needed",
+      "Tree ring and garden bed preparation",
+    ],
+    benefits: [
+      "Instant, dramatic curb appeal improvement",
+      "Moisture retention and weed suppression for your plants",
+      "Clean lines and consistent color across all your beds",
+      "Professional results that take hours to DIY — done in one visit",
+    ],
+    bodyTemplate: (area, roads) =>
+      `Nothing refreshes a property's appearance faster than fresh mulch and clean bed edges — and in ${area}, where curb appeal matters, Tri-Point Landscaping delivers results that turn heads. We serve homeowners throughout ${area}, including properties along ${roads} and all surrounding neighborhoods. Our mulch and stone installations are done right: beds are edged with a sharp spade before any material goes down, old mulch is removed if needed, and every inch of ground coverage is installed at the right depth. We carry premium hardwood, dyed mulch, and a full selection of decorative stone options. One visit can transform a tired-looking front yard into a polished, professional landscape that makes the whole property look cared for.`,
+  },
+  "seasonal-cleanup": {
+    name: "Seasonal Cleanup",
+    shortDesc: "Spring and fall cleanups that protect and prepare your property.",
+    heroImage: "/photos/spring.jpg",
+    included: [
+      "Complete leaf removal and hauling",
+      "Perennial cutback and bed cleanup",
+      "Debris removal from all beds and lawns",
+      "Edge cleanup and border refresh",
+      "Gutter clearing (add-on available)",
+      "Property walk-through and condition report",
+    ],
+    benefits: [
+      "Your property looks pristine before and after every season",
+      "Prevents disease and pests caused by leaf accumulation",
+      "Protects your plantings from winter damage",
+      "Saves 4–8 hours of hard labor you don't have to do",
+    ],
+    bodyTemplate: (area, roads) =>
+      `Michigan's springs and falls are beautiful — but they leave a lot of work behind. In ${area}, where mature trees line many neighborhoods, fall leaf cleanup alone can take a full weekend. Tri-Point Landscaping handles it all so you don't have to. We serve properties throughout ${area}, from neighborhoods along ${roads} to newer developments across the township. Our spring cleanups prep your property for the growing season: beds are cut back, debris is cleared, and everything is reset after the winter. Our fall cleanups go deep — leaves are fully removed, perennials are cut down, and beds are cleaned before the freeze. We haul everything away, leaving your property looking its best when it matters most.`,
+  },
+  "snow-removal": {
+    name: "Snow & Ice Management",
+    shortDesc: "Driveway plowing, salting & de-icing across Macomb County.",
+    heroImage: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
+    included: [
+      "Residential driveway and parking area plowing",
+      "Sidewalk and walkway clearing",
+      "Rock salt and calcium chloride application",
+      "Ice management and de-icing treatments",
+      "Seasonal service contracts",
+      "Per-push pricing also available",
+    ],
+    benefits: [
+      "Safe, passable driveways and walkways every storm",
+      "Priority service — you're never waiting all day",
+      "Seasonal contracts mean no phone calls during storms",
+      "Reliable local crew that knows Macomb County weather",
+    ],
+    bodyTemplate: (area, roads) =>
+      `Michigan winters in ${area} are serious — and a driveway buried in snow or covered in ice shouldn't be your problem at 6 AM. Tri-Point Landscaping provides dependable residential snow removal throughout ${area}, serving properties along ${roads} and across the township. We offer both seasonal service contracts (the simplest option — one payment covers the whole winter) and per-push pricing for homeowners who prefer flexibility. Our crews are out early and working efficiently so you can get where you need to go. Ice management is included — we apply salt and calcium chloride after plowing to keep driveways and walkways safe. Don't wait until the first storm. Reach out now and get on our route before winter hits.`,
+  },
+  "lawn-renovations": {
+    name: "Lawn Renovations",
+    shortDesc: "Core aeration, overseeding, dethatching & top dressing for a thicker, healthier lawn.",
+    heroImage: "/photos/Aeration-with-aerator.jpg",
+    included: [
+      "Core aeration — relieves compaction and opens root channels",
+      "Overseeding with premium Michigan-adapted grass seed",
+      "Dethatching to remove dead buildup and improve water absorption",
+      "Top dressing with compost or sand blend",
+      "Starter fertilizer application after seeding",
+      "Watering and aftercare guidance",
+    ],
+    benefits: [
+      "Dramatically thicker turf — results visible within 2–3 weeks",
+      "Healthier root systems that hold up through drought and cold",
+      "Reduced weed pressure as dense grass crowds out competition",
+      "Science-backed process — the same approach used on professional turf",
+    ],
+    bodyTemplate: (area, roads) =>
+      `A thin, struggling lawn in ${area} doesn't need to be replaced — it needs to be renovated. Tri-Point Landscaping's lawn renovation programs use core aeration, overseeding, and dethatching to transform weak, patchy turf into a dense, healthy lawn that stands up to Michigan's climate. We serve homeowners throughout ${area}, including properties along ${roads} and across the community. Core aeration breaks up compaction and creates seed-to-soil contact, while overseeding fills in bare areas with premium grass varieties proven to thrive in Macomb County. Dethatching removes the layer of dead material that chokes new growth and blocks water penetration. The results are visible in weeks and build year over year. If your lawn hasn't been aerated in the last two seasons, it's time — and Tri-Point Landscaping makes the process easy, affordable, and effective.`,
+  },
+  "commercial": {
+    name: "Commercial Landscaping",
+    shortDesc: "Full-service landscaping for offices, HOAs, retail centers & commercial properties.",
+    heroImage: "/photos/boxwood.jpg",
+    included: [
+      "Weekly or bi-weekly commercial mowing programs",
+      "Commercial bed maintenance and mulching",
+      "Seasonal commercial plantings and color rotation",
+      "Snow removal and ice management",
+      "Irrigation system management",
+      "HOA common area maintenance",
+    ],
+    benefits: [
+      "Consistent, professional appearance that impresses clients",
+      "Reliable scheduling — we show up every time, no excuses",
+      "Single point of contact for all your property needs",
+      "Competitive commercial pricing with transparent contracts",
+    ],
+    bodyTemplate: (area, roads) =>
+      `The appearance of your commercial property in ${area} is one of the first things clients, customers, and tenants notice. A well-maintained commercial landscape communicates professionalism, attention to detail, and a business that cares. Tri-Point Landscaping provides full-service commercial landscaping to offices, HOAs, retail centers, and businesses throughout ${area}, including properties along ${roads} and across the commercial corridors. We offer flexible commercial programs: weekly mowing, seasonal bed maintenance, mulching, snow removal, and more — all under one reliable contract. Our crews show up consistently, communicate proactively, and hold commercial properties to the same high standard as our residential clients. If you manage a commercial property in ${area} and want a landscaping partner who delivers, call Tri-Point Landscaping today.`,
+  },
+};
+
+/* ─────────────────────────────────────────
+   AREA DATA
+───────────────────────────────────────── */
+const areas: Record<string, {
+  name: string;
+  county: string;
+  roads: string;
+  heroImage: string;
+  localDesc: string;
+}> = {
+  "washington-township": {
+    name: "Washington Township",
+    county: "Macomb County",
+    roads: "26 Mile Road, 28 Mile Road, Van Dyke Avenue & Romeo Plank Road",
+    heroImage: "/photos/weekly-mowing-shelby-township-mi.jpg.png",
+    localDesc: "Washington Township is Macomb County's premier residential community, with well-established subdivisions and beautifully maintained properties throughout.",
+  },
+  "shelby-township": {
+    name: "Shelby Township",
+    county: "Macomb County",
+    roads: "23 Mile Road, 24 Mile Road, Schoenherr & M-59",
+    heroImage: "/photos/IMG_4417.jpeg",
+    localDesc: "Shelby Township's growing residential and commercial landscape makes it one of Macomb County's most active markets for property care services.",
+  },
+  "macomb-township": {
+    name: "Macomb Township",
+    county: "Macomb County",
+    roads: "25 Mile Road, 26 Mile Road & Hall Road",
+    heroImage: "/photos/mulch.jpg",
+    localDesc: "Macomb Township's rapid residential growth has created a vibrant community of homeowners who take pride in their properties.",
+  },
+  "romeo": {
+    name: "Romeo",
+    county: "Macomb County",
+    roads: "Main Street, Thirty-two Mile Road & Van Dyke Avenue",
+    heroImage: "/photos/spring.jpg",
+    localDesc: "Romeo's historic village character and mix of residential and rural properties create a unique landscape environment that rewards careful, expert care.",
+  },
+  "ray-township": {
+    name: "Ray Township",
+    county: "Macomb County",
+    roads: "30 Mile Road, 31 Mile Road & Card Road",
+    heroImage: "/photos/IMG_3369.jpeg",
+    localDesc: "Ray Township's rural properties and larger lots require equipment and expertise that Tri-Point Landscaping provides on every visit.",
+  },
+  "bruce-township": {
+    name: "Bruce Township",
+    county: "Macomb County",
+    roads: "32 Mile Road, 33 Mile Road & Van Dyke Avenue",
+    heroImage: "/photos/boxwood.jpg",
+    localDesc: "Bruce Township sits at the northern edge of Macomb County's residential growth corridor, offering a blend of rural character and residential development.",
+  },
+};
+
+const allServiceSlugs = Object.keys(services);
+const allAreaSlugs = Object.keys(areas);
+
+/* ─────────────────────────────────────────
+   GENERATE STATIC PARAMS (42 pages)
+───────────────────────────────────────── */
+export function generateStaticParams() {
+  const params: { slug: string; area: string }[] = [];
+  for (const slug of allServiceSlugs) {
+    for (const area of allAreaSlugs) {
+      params.push({ slug, area });
+    }
+  }
+  return params;
+}
+
+/* ─────────────────────────────────────────
+   METADATA
+───────────────────────────────────────── */
+type Props = { params: Promise<{ slug: string; area: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug, area } = await params;
+  const svc = services[slug];
+  const areaData = areas[area];
+  if (!svc || !areaData) return {};
+
+  return {
+    title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
+    description: `Professional ${svc.name.toLowerCase()} in ${areaData.name}, Michigan. ${svc.shortDesc} Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
+    alternates: {
+      canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
+    },
+    openGraph: {
+      title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
+      description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
+      url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
+    },
+  };
+}
+
+/* ─────────────────────────────────────────
+   PAGE
+───────────────────────────────────────── */
+export default async function ServiceAreaPage({ params }: Props) {
+  const { slug, area } = await params;
+  const svc = services[slug];
+  const areaData = areas[area];
+  if (!svc || !areaData) notFound();
+
+  const otherAreas = allAreaSlugs.filter((a) => a !== area);
+  const otherServices = allServiceSlugs.filter((s) => s !== slug);
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://www.tripointlandscaping.com/services/lawn-maintenance" },
+      { "@type": "ListItem", position: 3, name: svc.name, item: `https://www.tripointlandscaping.com/services/${slug}` },
+      { "@type": "ListItem", position: 4, name: areaData.name, item: `https://www.tripointlandscaping.com/services/${slug}/${area}` },
+    ],
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `${svc.name} in ${areaData.name}, MI`,
+    description: svc.shortDesc,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Tri-Point Landscaping LLC",
+      telephone: "+15863278080",
+      address: { "@type": "PostalAddress", addressLocality: "Washington Township", addressRegion: "MI" },
+    },
+    areaServed: { "@type": "City", name: areaData.name, addressRegion: "MI" },
+  };
+
+  const serviceDisplayName = svc.name.replace(" Landscaping", "");
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <Navbar />
+      <main>
+
+        {/* ── HERO ── */}
+        <section className="relative min-h-[580px] flex items-end overflow-hidden">
+          <Image src={areaData.heroImage} alt={`${svc.name} in ${areaData.name} Michigan by Tri-Point Landscaping`} fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
+
+          {/* Breadcrumb */}
+          <div className="absolute top-6 left-0 right-0 z-10">
+            <div className="max-w-7xl mx-auto px-6">
+              <nav className="flex items-center flex-wrap gap-1.5 text-white/45 text-xs">
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+                <span>/</span>
+                <Link href={`/services/${slug}`} className="hover:text-white transition-colors">Services</Link>
+                <span>/</span>
+                <Link href={`/services/${slug}`} className="hover:text-white transition-colors">{svc.name}</Link>
+                <span>/</span>
+                <span className="text-white">{areaData.name}</span>
+              </nav>
+            </div>
+          </div>
+
+          <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-16 pt-28">
+            <div className="max-w-3xl">
+              <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">{areaData.name}, {areaData.county}</p>
+              <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl md:text-6xl font-bold text-white leading-[1.05] mb-5">
+                {serviceDisplayName}<br />
+                <span style={{ color: "#7ecb82" }}>in {areaData.name}, MI</span>
+              </h1>
+              <p className="text-lg text-white/65 mb-8 max-w-xl leading-relaxed">{svc.shortDesc}</p>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center gap-2 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
+                  Get a Free Estimate
+                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+                <a href="tel:+15863278080" className="inline-flex items-center gap-2 border border-white/40 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:bg-white/10 transition-colors">
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
+                  (586) 327-8080
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── MAIN CONTENT + SIDEBAR ── */}
+        <section style={{ backgroundColor: "#f5f0e8" }} className="py-20">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+              {/* Main content */}
+              <div className="lg:col-span-2 space-y-10">
+
+                {/* Intro */}
+                <AnimateOnScroll animation="fade-up">
+                  <div className="bg-white p-10">
+                    <span className="section-line" />
+                    <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Professional Service</p>
+                    <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900 mb-5">
+                      {svc.name} in {areaData.name}
+                    </h2>
+                    <p className="text-gray-600 leading-relaxed">{areaData.localDesc}</p>
+                    <p className="text-gray-600 leading-relaxed mt-4">
+                      {svc.bodyTemplate(areaData.name, areaData.roads)}
+                    </p>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* What's Included */}
+                <AnimateOnScroll animation="fade-up" delay={100}>
+                  <div style={{ backgroundColor: "#111111" }} className="p-10">
+                    <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">What&apos;s Included</p>
+                    <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-white mb-6">
+                      Everything You Need, Nothing You Don&apos;t
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {svc.included.map((item, i) => (
+                        <div key={i} className="flex items-start gap-3">
+                          <div style={{ backgroundColor: "#2C5F2E" }} className="w-5 h-5 flex items-center justify-center mt-0.5 shrink-0">
+                            <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                            </svg>
+                          </div>
+                          <p className="text-white/75 text-sm leading-relaxed">{item}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Benefits */}
+                <AnimateOnScroll animation="fade-up" delay={80}>
+                  <div className="bg-white p-10">
+                    <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Why It Matters</p>
+                    <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-6">
+                      The Tri-Point Difference in {areaData.name}
+                    </h3>
+                    <div className="space-y-4">
+                      {svc.benefits.map((benefit, i) => (
+                        <div key={i} className="flex items-start gap-4 p-4 border border-gray-100 hover:border-green-200 transition-colors">
+                          <div style={{ backgroundColor: "#2C5F2E" }} className="w-8 h-8 flex items-center justify-center shrink-0">
+                            <span style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-white text-xs font-bold">
+                              {String(i + 1).padStart(2, "0")}
+                            </span>
+                          </div>
+                          <p className="text-gray-700 text-sm leading-relaxed pt-1">{benefit}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Other areas for this service */}
+                <AnimateOnScroll animation="fade-up">
+                  <div style={{ backgroundColor: "#f5f0e8" }} className="p-8 border border-gray-200">
+                    <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Also Available In</p>
+                    <h3 className="font-bold text-gray-900 mb-4">{svc.name} — All Service Areas</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {otherAreas.map((a) => (
+                        <Link
+                          key={a}
+                          href={`/services/${slug}/${a}`}
+                          style={{ borderColor: "#2C5F2E", color: "#2C5F2E" }}
+                          className="border text-xs font-semibold px-4 py-2 hover:bg-green-50 transition-colors"
+                        >
+                          {areas[a].name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </AnimateOnScroll>
+              </div>
+
+              {/* SIDEBAR */}
+              <div className="space-y-6">
+
+                {/* Estimate CTA */}
+                <AnimateOnScroll animation="fade-left">
+                  <div style={{ backgroundColor: "#111111" }} className="p-8">
+                    <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-white mb-2">
+                      Free Estimate
+                    </p>
+                    <p className="text-white/50 text-sm mb-6 leading-relaxed">
+                      Get a free, no-obligation quote for {svc.name.toLowerCase()} in {areaData.name}. Same-day response.
+                    </p>
+                    <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="block text-center text-white font-semibold py-4 text-sm tracking-wide hover:opacity-90 transition-opacity mb-4">
+                      Request a Free Estimate
+                    </Link>
+                    <a href="tel:+15863278080" className="flex items-center justify-center gap-2 border border-white/20 text-white/70 py-3.5 text-sm font-semibold hover:border-white/50 hover:text-white transition-all">
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
+                      (586) 327-8080
+                    </a>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Trust signals */}
+                <AnimateOnScroll animation="fade-left" delay={100}>
+                  <div className="bg-white p-7 border border-gray-100">
+                    <h4 className="font-bold text-gray-900 text-sm uppercase tracking-wider mb-5">Why Tri-Point</h4>
+                    <div className="space-y-4">
+                      {[
+                        ["5.0★ Google Rating", "Rated by real Macomb County homeowners"],
+                        ["Fully Insured LLC", "Your property is protected on every job"],
+                        ["Same-Day Response", "We respond to estimates within hours"],
+                        ["Locally Owned", "Macomb County based — your neighbors"],
+                      ].map(([title, desc]) => (
+                        <div key={title} className="flex items-start gap-3">
+                          <svg className="w-4 h-4 mt-0.5 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                          </svg>
+                          <div>
+                            <p className="font-bold text-gray-900 text-sm">{title}</p>
+                            <p className="text-gray-400 text-xs">{desc}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Other services in this area */}
+                <AnimateOnScroll animation="fade-left" delay={150}>
+                  <div style={{ backgroundColor: "#f5f0e8" }} className="p-7">
+                    <h4 className="font-bold text-gray-900 text-sm uppercase tracking-wider mb-4">More Services in {areaData.name}</h4>
+                    <div className="space-y-2">
+                      {otherServices.map((s) => (
+                        <Link
+                          key={s}
+                          href={`/services/${s}/${area}`}
+                          className="flex items-center gap-2 text-sm text-gray-700 hover:text-green-800 font-medium group py-1"
+                        >
+                          <div style={{ backgroundColor: "#2C5F2E" }} className="w-1.5 h-1.5 shrink-0" />
+                          {services[s].name}
+                          <svg className="w-3 h-3 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </AnimateOnScroll>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── BOTTOM CTA ── */}
+        <section className="relative py-32 overflow-hidden">
+          <Image src="/photos/mulch1.jpeg" alt={`${svc.name} in ${areaData.name} Michigan`} fill className="object-cover" />
+          <div className="absolute inset-0 bg-black/80" />
+          <div className="relative z-10 max-w-3xl mx-auto px-6 text-center text-white">
+            <p className="text-green-300 text-sm font-semibold uppercase tracking-widest mb-4">Serving {areaData.name}</p>
+            <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+              Ready for Professional<br />{serviceDisplayName}?
+            </h2>
+            <p className="text-white/60 mb-8 max-w-md mx-auto">Free estimate. Same-day response. {areaData.name}&apos;s most reliable landscaping crew — ready when you are.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
+                Get Your Free Estimate
+              </Link>
+              <a href="tel:+15863278080" className="inline-flex items-center justify-center gap-2 border border-white/40 text-white px-10 py-4 font-semibold tracking-wide hover:bg-white/10 transition-colors">
+                Call (586) 327-8080
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </main>
+      <Footer />
+    </>
+  );
+}
