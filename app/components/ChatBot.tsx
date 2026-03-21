@@ -295,7 +295,7 @@ export default function ChatBot() {
           </div>
           <button onClick={handleOpen} className="w-full text-left px-4 py-4 bg-white hover:bg-gray-50 transition-colors">
             <p className="text-gray-800 text-sm leading-relaxed">
-              Hey! 👋 I&apos;m {EMPLOYEE.name} from Tri-Point. Have a question about services or pricing? I&apos;m online right now!
+              {`Hey! 👋 I'm ${EMPLOYEE.name} from Tri-Point. Have a question about services or pricing? I'm online right now!`}
             </p>
             <p className="text-green-600 text-xs font-semibold mt-2">Tap to reply →</p>
           </button>
