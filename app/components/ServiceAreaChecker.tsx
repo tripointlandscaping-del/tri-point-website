@@ -106,10 +106,11 @@ function findMatch(input: string): typeof serviceAreas[0] | "macomb-county" | nu
 export default function ServiceAreaChecker() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<{ inArea: boolean; area?: string; slug?: string } | null>(null);
+  const [locating, setLocating] = useState(false);
+  const [locError, setLocError] = useState("");
 
-  function checkArea() {
-    if (!input.trim()) return;
-    const match = findMatch(input);
+  function applyMatch(searchVal: string) {
+    const match = findMatch(searchVal);
     if (!match) {
       setResult({ inArea: false });
     } else if (match === "macomb-county") {
@@ -117,6 +118,60 @@ export default function ServiceAreaChecker() {
     } else {
       setResult({ inArea: true, area: match.name, slug: match.slug });
     }
+  }
+
+  function checkArea() {
+    if (!input.trim()) return;
+    applyMatch(input);
+  }
+
+  function useMyLocation() {
+    if (!navigator.geolocation) {
+      setLocError("Geolocation is not supported by your browser.");
+      return;
+    }
+    setLocating(true);
+    setLocError("");
+    setResult(null);
+
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        try {
+          const { latitude, longitude } = pos.coords;
+          const res = await fetch(
+            `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`,
+            { headers: { "Accept-Language": "en" } }
+          );
+          const data = await res.json();
+          const addr = data.address || {};
+          // Nominatim returns township, city, town, village — try each
+          const place =
+            addr.township ||
+            addr.city ||
+            addr.town ||
+            addr.village ||
+            addr.county ||
+            "";
+          const postcode = addr.postcode || "";
+          const searchVal = `${place} ${postcode}`.trim();
+          if (searchVal) {
+            setInput(place || postcode);
+            applyMatch(searchVal);
+          } else {
+            setLocError("Couldn't detect your location. Please type it manually.");
+          }
+        } catch {
+          setLocError("Location lookup failed. Please type your city.");
+        } finally {
+          setLocating(false);
+        }
+      },
+      () => {
+        setLocating(false);
+        setLocError("Location access denied. Please type your city or zip.");
+      },
+      { timeout: 10000 }
+    );
   }
 
   return (
@@ -132,9 +187,9 @@ export default function ServiceAreaChecker() {
           Are You in Our Service Area?
         </h3>
       </div>
-      <p className="text-white/50 text-sm mb-4">Enter your city, township, or zip code to find out.</p>
+      <p className="text-white/50 text-sm mb-4">Enter your city, township, or zip code — or use your location.</p>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 mb-3">
         <input
           type="text"
           value={input}
@@ -152,6 +207,19 @@ export default function ServiceAreaChecker() {
           Check
         </button>
       </div>
+
+      <button
+        onClick={useMyLocation}
+        disabled={locating}
+        className="flex items-center gap-2 text-white/50 hover:text-white/80 text-xs transition-colors disabled:opacity-50"
+      >
+        <svg className={`w-3.5 h-3.5 shrink-0 ${locating ? "animate-pulse" : ""}`} style={{ color: "#7ecb82" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        {locating ? "Detecting your location..." : "Use my location"}
+      </button>
+      {locError && <p className="text-red-400 text-xs mt-2">{locError}</p>}
 
       {result && (
         <div className={`mt-4 p-4 flex items-start gap-3 ${result.inArea ? "bg-green-900/30 border border-green-700/40" : "bg-red-900/20 border border-red-700/30"}`}>
