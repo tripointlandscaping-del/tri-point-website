@@ -903,4 +903,65 @@ More importantly, preventive care is almost always cheaper than corrective care.
 Ready to stop reacting and start getting ahead of your lawn? Tri-Point Landscaping offers customized year-round lawn care programs for Washington Township, Shelby Township, and all of Macomb County. [Contact us today](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   },
+,
+  {
+    slug: "how-to-fix-bare-spots-in-your-lawn-michigan",
+    title: "How to Fix Bare Spots in Your Lawn in Michigan (Macomb County Guide)",
+    description: "Learn exactly how to repair bare spots in your Michigan lawn with timing, seed selection, and soil prep tips from a Washington Township landscaping expert.",
+    date: "March 22, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+That patchy, brown stretch of lawn staring back at you every time you pull into the driveway? You're not stuck with it. Bare spots are one of the most fixable lawn problems out there — but only if you approach them the right way. Michigan's climate and soil conditions make the *how* and *when* matter more than most homeowners realize.
+
+## Why Bare Spots Happen in the First Place
+
+Before you throw seed at the problem, figure out why the grass died. If you skip this step, the same patch will go bare again by fall.
+
+Common causes here in Macomb County include:
+
+- **Heavy clay soil** — Southeast Michigan is notorious for dense clay that compacts easily, suffocating grass roots and pooling water after rain
+- **Grub damage** — Japanese beetle grubs are widespread in Washington Township and surrounding areas; they chew through grass roots just below the surface, causing patches that peel back like carpet
+- **Dog urine** — Concentrated nitrogen burns grass and leaves round, yellow-edged dead zones
+- **Salt damage** — Road and sidewalk salt drift kills grass along driveways and curbs every winter
+- **Shade and foot traffic** — Thin, high-traffic areas under trees rarely recover without intervention
+
+Poke around the bare patch before you do anything else. If the dead turf lifts up easily like a loose rug, you've got grubs — treat with a grub control product containing **imidacloprid or chlorantranilprole** before reseeding, or you'll be right back here next summer.
+
+## The Right Time to Reseed in Michigan
+
+Timing is everything with grass seed in Michigan, and most homeowners get this wrong by trying to seed too early in spring or too late in fall.
+
+**Late August through mid-September is the single best window** for overseeding and bare spot repair in Macomb County. Soil temperatures are still warm (above 50°F, ideally 60–65°F), the brutal summer heat has broken, fall rains are more reliable, and new seedlings have weeks to establish before the first frost — which typically hits Washington Township around mid-October.
+
+Spring seeding (mid-April through May) works as a second option, but you're racing against summer heat stress. If you go the spring route, get seed down by **May 15th at the latest** so it has time to root before temperatures push into the 80s.
+
+## How to Actually Repair the Bare Spot
+
+Here's the step-by-step process that actually works:
+
+1. **Rake out all dead material** — Remove dead grass, thatch, and debris down to bare soil. Don't just seed over it.
+2. **Loosen the soil 2–3 inches deep** — Use a hand rake or cultivator. Michigan clay needs this. Compacted soil won't let roots penetrate.
+3. **Amend if needed** — Mix in a thin layer of compost or high-quality topsoil if the area looks depleted. About a half-inch is enough for small patches.
+4. **Choose the right seed mix** — For sunny Macomb County lawns, a **Kentucky bluegrass and perennial ryegrass blend** performs best. For shaded spots under trees, look for a fine fescue mix rated for shade tolerance.
+5. **Seed at the right rate** — For bare spots, apply seed at roughly **6–8 lbs per 1,000 sq ft** — slightly heavier than overseeding.
+6. **Rake seed lightly into the soil** — Seed needs soil contact to germinate. A light raking after spreading makes a real difference.
+7. **Mulch with straw or peat moss** — A thin layer holds moisture and protects seed from birds. Avoid thick layers that block light.
+8. **Water twice daily** — Keep the top inch of soil consistently moist until germination (usually 7–14 days for ryegrass, 14–21 days for bluegrass). Then taper to deeper, less frequent watering.
+
+**Don't mow the new grass until it reaches 3.5 inches.** Mowing too early tears out seedlings before they've anchored.
+
+## One Thing Most People Forget: Soil pH
+
+Michigan lawns, especially in Macomb County, tend to run slightly acidic. Grass struggles to absorb nutrients when pH drops below 6.0. If your bare spots keep coming back despite good seed and care, a **soil pH test** (available at most garden centers for under $15) can tell you whether you need to apply **pelletized lime** to bring the pH back into the 6.0–7.0 sweet spot. This one fix can transform a stubborn lawn.
+
+## Let Tri-Point Handle It This Season
+
+If your lawn has multiple bare spots, widespread thinning, or a grub problem that keeps coming back, this spring and summer are the right time to get a professional set of eyes on it — so you're set up for a perfect fall seeding window in late August.
+
+[Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk your property, diagnose what's actually causing the damage, and put together a plan that fits your lawn and your budget. We've been working in Washington Township and across Macomb County long enough to know exactly what local soil and climate conditions demand.
+
+Call us at [(586) 327-8080](tel:+15863278080) or reach out online at [tripointlandscaping.com](https://tripointlandscaping.com). Don't wait until August to start the conversation — the best results come from planning ahead.
+    `,
+  },
 ];
