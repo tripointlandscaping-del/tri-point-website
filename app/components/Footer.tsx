@@ -83,7 +83,7 @@ export default function Footer() {
                 ["Seasonal Cleanup", "/services/seasonal-cleanup"],
                 ["Snow & Ice Management", "/services/snow-removal"],
                 ["Lawn Renovations", "/services/lawn-renovations"],
-                ["Commercial", "/services/commercial"],
+                ["Commercial", "/commercial"],
               ].map(([name, href]) => (
                 <li key={href}>
                   <Link href={href} className="text-white/55 hover:text-white text-sm transition-colors flex items-center gap-2 group">

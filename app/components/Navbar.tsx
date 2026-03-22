@@ -11,7 +11,7 @@ const services = [
   { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
   { name: "Snow & Ice Management", href: "/services/snow-removal" },
   { name: "Lawn Renovations", href: "/services/lawn-renovations" },
-  { name: "Commercial", href: "/services/commercial" },
+  { name: "Commercial", href: "/commercial" },
 ];
 
 const areas = [
