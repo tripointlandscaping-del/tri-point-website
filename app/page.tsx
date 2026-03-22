@@ -8,7 +8,7 @@ import StatCounter from "./components/StatCounter";
 import MagneticButton from "./components/MagneticButton";
 import InteractiveServices from "./components/InteractiveServices";
 import CursorGlow from "./components/CursorGlow";
-import ReviewsCarousel from "./components/ReviewsCarousel";
+import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 
 export const metadata: Metadata = {
@@ -639,7 +639,7 @@ export default function HomePage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll animation="fade-up" delay={100}>
-                <ReviewsCarousel />
+                <LiveReviewFeed />
               </AnimateOnScroll>
             </div>
           </div>

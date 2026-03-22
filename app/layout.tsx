@@ -4,6 +4,9 @@ import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import ChatBot from "./components/ChatBot";
 import ScrollProgress from "./components/ScrollProgress";
+import UrgencyBanner from "./components/UrgencyBanner";
+import StickyMobileBar from "./components/StickyMobileBar";
+import ExitIntentPopup from "./components/ExitIntentPopup";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -120,9 +123,14 @@ export default function RootLayout({
         />
       </head>
       <body className={`${playfair.variable} ${inter.variable} min-h-screen flex flex-col`}>
+        <UrgencyBanner />
         <ScrollProgress />
         {children}
         <ChatBot />
+        <StickyMobileBar />
+        <ExitIntentPopup />
+        {/* Spacer so StickyMobileBar doesn't overlap content on mobile */}
+        <div className="h-16 md:hidden" aria-hidden="true" />
       </body>
     </html>
   );
