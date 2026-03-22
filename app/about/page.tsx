@@ -191,16 +191,16 @@ export default function AboutPage() {
 
               {/* Image grid */}
               <div className="grid grid-cols-2 gap-3">
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-44 sm:h-56 overflow-hidden">
                   <Image src="/photos/mulch.jpg" alt="Mulch installation in Washington Township Michigan by Tri-Point Landscaping" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
-                <div className="relative h-56 overflow-hidden mt-6">
+                <div className="relative h-44 sm:h-56 overflow-hidden md:mt-6">
                   <Image src="/photos/IMG_4417.jpeg" alt="Custom landscaping in Macomb County Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-44 sm:h-56 overflow-hidden">
                   <Image src="/photos/spring.jpg" alt="Spring cleanup in Washington Township Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
-                <div className="relative h-56 overflow-hidden mt-6">
+                <div className="relative h-44 sm:h-56 overflow-hidden md:mt-6">
                   <Image src="/photos/boxwood.jpg" alt="Professional hedge trimming in Macomb County" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>

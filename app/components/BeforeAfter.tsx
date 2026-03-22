@@ -60,7 +60,7 @@ export default function BeforeAfter({ before, after, beforeAlt, afterAlt, label 
         ref={containerRef}
         className="relative w-full overflow-hidden select-none"
         style={{
-          height: "500px",
+          height: "clamp(260px, 50vw, 500px)",
           cursor: isDragging ? "grabbing" : "ew-resize",
         }}
         onMouseDown={handleMouseDown}
