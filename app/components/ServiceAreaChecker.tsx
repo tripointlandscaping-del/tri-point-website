@@ -3,71 +3,120 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const serviceAreas: { name: string; slug: string; keywords: string[]; zips: string[] }[] = [
+const serviceAreas: { name: string; slug: string; coreNames: string[]; zips: string[] }[] = [
   {
     name: "Washington Township",
     slug: "washington-township",
-    keywords: ["washington township", "washington twp", "washington, mi"],
+    coreNames: ["washington"],
     zips: ["48094", "48095"],
   },
   {
     name: "Shelby Township",
     slug: "shelby-township",
-    keywords: ["shelby township", "shelby twp", "shelby, mi"],
+    coreNames: ["shelby"],
     zips: ["48315", "48316", "48317"],
   },
   {
     name: "Macomb Township",
     slug: "macomb-township",
-    keywords: ["macomb township", "macomb twp", "macomb, mi"],
+    coreNames: ["macomb"],
     zips: ["48042", "48044"],
   },
   {
     name: "Romeo",
     slug: "romeo",
-    keywords: ["romeo", "romeo, mi", "village of romeo"],
+    coreNames: ["romeo"],
     zips: ["48065"],
   },
   {
     name: "Ray Township",
     slug: "ray-township",
-    keywords: ["ray township", "ray twp", "ray, mi"],
+    coreNames: ["ray"],
     zips: ["48096"],
   },
   {
     name: "Bruce Township",
     slug: "bruce-township",
-    keywords: ["bruce township", "bruce twp", "bruce, mi"],
+    coreNames: ["bruce"],
     zips: ["48065", "48097"],
   },
 ];
+
+// Levenshtein distance — measures how many edits between two strings
+function levenshtein(a: string, b: string): number {
+  const m = a.length, n = b.length;
+  const dp: number[][] = Array.from({ length: m + 1 }, (_, i) =>
+    Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0))
+  );
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+// Strip filler words so "washingtn township mi" → "washingtn"
+function normalize(val: string): string {
+  return val
+    .toLowerCase()
+    .replace(/\b(township|twp|village|city|of|mi|michigan|,)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function findMatch(input: string): typeof serviceAreas[0] | "macomb-county" | null {
+  const val = input.toLowerCase().trim();
+
+  // Zip code exact match
+  for (const area of serviceAreas) {
+    if (area.zips.some((z) => val.includes(z))) return area;
+  }
+
+  // Macomb County shorthand
+  if (val.includes("macomb county") || val.includes("macomb co")) return "macomb-county";
+
+  const core = normalize(val);
+  if (!core) return null;
+
+  // Exact or substring match on core names
+  for (const area of serviceAreas) {
+    for (const name of area.coreNames) {
+      if (core.includes(name) || name.includes(core)) return area;
+    }
+  }
+
+  // Fuzzy match — allow up to 2 typos for names ≥5 chars, 1 typo for shorter
+  for (const area of serviceAreas) {
+    for (const name of area.coreNames) {
+      const threshold = name.length >= 5 ? 2 : 1;
+      // Check word by word in case they typed "shelbi township"
+      const words = core.split(" ");
+      for (const word of words) {
+        if (word.length >= 3 && levenshtein(word, name) <= threshold) return area;
+      }
+    }
+  }
+
+  return null;
+}
 
 export default function ServiceAreaChecker() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<{ inArea: boolean; area?: string; slug?: string } | null>(null);
 
   function checkArea() {
-    const val = input.toLowerCase().trim();
-    if (!val) return;
-
-    for (const area of serviceAreas) {
-      if (area.keywords.some((k) => val.includes(k))) {
-        setResult({ inArea: true, area: area.name, slug: area.slug });
-        return;
-      }
-      if (area.zips.some((z) => val.includes(z))) {
-        setResult({ inArea: true, area: area.name, slug: area.slug });
-        return;
-      }
-    }
-
-    // Check for general Macomb County terms
-    if (val.includes("macomb county") || val.includes("macomb co")) {
+    if (!input.trim()) return;
+    const match = findMatch(input);
+    if (!match) {
+      setResult({ inArea: false });
+    } else if (match === "macomb-county") {
       setResult({ inArea: true, area: "Macomb County" });
-      return;
+    } else {
+      setResult({ inArea: true, area: match.name, slug: match.slug });
     }
-
-    setResult({ inArea: false });
   }
 
   return (
