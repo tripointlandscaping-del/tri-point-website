@@ -82,9 +82,9 @@ export default function HomePage() {
 
               {/* Headline */}
               <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="font-bold text-white leading-[1.0] mb-8">
-                <span className="block text-6xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Precision.</span>
-                <span className="block text-6xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200 shimmer-text">Passion.</span>
-                <span className="block text-6xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Perfection.</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Precision.</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200 shimmer-text">Passion.</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Perfection.</span>
               </h1>
 
               <p className="text-xl text-white/65 mb-12 leading-relaxed max-w-xl anim-hidden animate-fade-up delay-400">
@@ -152,7 +152,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-6">
             <AnimateOnScroll animation="fade-up" className="text-center mb-14">
               <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">Our Work Speaks</p>
-              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white mb-4">
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
                 The Tri-Point Standard
               </h2>
               <p className="text-white/40 max-w-md mx-auto text-sm leading-relaxed">
@@ -161,7 +161,7 @@ export default function HomePage() {
             </AnimateOnScroll>
 
             {/* 3-panel showcase */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3" style={{ height: "520px" }}>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               {[
                 {
                   img: "/photos/mulch1.jpeg",
@@ -191,11 +191,10 @@ export default function HomePage() {
                   href: "/services/lawn-renovations",
                 },
               ].map((card) => (
-                <AnimateOnScroll key={card.num} animation="scale-in" delay={Number(card.num) * 80} className="h-full">
+                <AnimateOnScroll key={card.num} animation="scale-in" delay={Number(card.num) * 80}>
                   <Link
                     href={card.href}
-                    className="showcase-card group relative overflow-hidden block h-full"
-                    style={{ minHeight: "520px" }}
+                    className="showcase-card group relative overflow-hidden block h-64 sm:h-80 md:h-[520px]"
                   >
                     <Image
                       src={card.img}
@@ -369,11 +368,11 @@ export default function HomePage() {
               <AnimateOnScroll animation="fade-up" className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                 <div>
                   <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">What We Do</p>
-                  <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white leading-tight">
+                  <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
                     Full-Service<br />Property Care
                   </h2>
                 </div>
-                <p className="text-white/40 max-w-xs text-sm leading-relaxed">Hover each service to explore. Serving all of northern Macomb County, Michigan — every season.</p>
+                <p className="text-white/40 max-w-xs text-sm leading-relaxed">Tap a service to explore. Serving all of northern Macomb County, Michigan — every season.</p>
               </AnimateOnScroll>
             </div>
             <AnimateOnScroll animation="fade-up" delay={100}>
@@ -397,7 +396,7 @@ export default function HomePage() {
               <AnimateOnScroll animation="fade-left">
                 <span className="section-line" />
                 <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-4">The Difference</p>
-                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-gray-900 leading-tight mb-6">
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
                   Why Homeowners<br />Choose Tri-Point
                 </h2>
                 <p className="text-gray-500 leading-relaxed mb-10">
@@ -461,7 +460,7 @@ export default function HomePage() {
             <div className="max-w-7xl mx-auto px-6">
               <AnimateOnScroll animation="fade-up" className="text-center mb-16">
                 <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">By the Numbers</p>
-                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white">Results That Speak</h2>
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Results That Speak</h2>
               </AnimateOnScroll>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/5">
                 {[
@@ -471,8 +470,8 @@ export default function HomePage() {
                   { end: 8, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to snow removal" },
                 ].map(({ end, suffix, decimals, label, sub }, i) => (
                   <AnimateOnScroll key={label} animation="fade-up" delay={i * 100} className="h-full">
-                    <div style={{ backgroundColor: "#111111" }} className="stat-card text-center px-8 py-14 hover:bg-[#1a1a1a] transition-colors h-full">
-                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-6xl font-bold text-white mb-2">
+                    <div style={{ backgroundColor: "#111111" }} className="stat-card text-center px-4 py-10 md:px-8 md:py-14 hover:bg-[#1a1a1a] transition-colors h-full">
+                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl md:text-6xl font-bold text-white mb-2">
                         <StatCounter end={end} suffix={suffix} decimals={decimals} />
                       </div>
                       <p className="text-white font-semibold text-sm tracking-wide mb-1">{label}</p>
@@ -531,7 +530,7 @@ export default function HomePage() {
                 </div>
               </AnimateOnScroll>
               <AnimateOnScroll animation="fade-right" delay={100} className="h-full">
-                <div className="bg-white px-12 lg:px-16 py-16 lg:py-20 h-full flex flex-col justify-center">
+                <div className="bg-white px-6 sm:px-10 lg:px-16 py-12 lg:py-20 h-full flex flex-col justify-center">
                   <span className="section-line" />
                   <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-4">About Tri-Point</p>
                   <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -582,7 +581,7 @@ export default function HomePage() {
               <div>
                 <span className="section-line" />
                 <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Our Work</p>
-                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-gray-900">
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
                   Results You Can See
                 </h2>
               </div>
@@ -624,13 +623,13 @@ export default function HomePage() {
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
                   <div>
                     <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">Customer Reviews</p>
-                    <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white">
+                    <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
                       What Macomb County<br />Homeowners Say
                     </h2>
                   </div>
                   <div className="flex items-center gap-4 shrink-0">
                     <div className="text-center">
-                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white">5.0</div>
+                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">5.0</div>
                       <div className="text-yellow-400 text-lg mt-1">★★★★★</div>
                       <div className="text-white/40 text-xs uppercase tracking-widest mt-1">Google Rating</div>
                     </div>
@@ -652,7 +651,7 @@ export default function HomePage() {
               <span className="section-line" />
               <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Where We Work</p>
               <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-gray-900">
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
                   Serving All of<br />Macomb County
                 </h2>
                 <p className="text-gray-500 max-w-sm leading-relaxed text-sm">
@@ -684,7 +683,7 @@ export default function HomePage() {
             <AnimateOnScroll animation="fade-up" className="text-center mb-20">
               <span className="section-line" style={{ display: "block", margin: "0 auto 16px" }} />
               <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Simple Process</p>
-              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-gray-900">Getting Started Is Easy</h2>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">Getting Started Is Easy</h2>
               <p className="text-gray-400 mt-4 max-w-md mx-auto text-sm">Three steps from &ldquo;I need help&rdquo; to a property you&apos;re proud of.</p>
             </AnimateOnScroll>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-px">

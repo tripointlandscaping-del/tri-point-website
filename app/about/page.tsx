@@ -213,7 +213,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">What Drives Us</p>
-              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl font-bold text-white leading-tight">
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
                 Three Words.<br />One Standard.
               </h2>
             </div>
