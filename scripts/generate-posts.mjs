@@ -152,7 +152,9 @@ ${post.content}
     \`,
   }`;
 
-  const updated = currentContent.replace(/\];\s*$/, `,\n${newEntry},\n];\n`);
+  // Normalize any trailing comma before ]; to avoid double-comma bugs
+  const normalized = currentContent.replace(/,(\s*\];\s*)$/, "$1");
+  const updated = normalized.replace(/\];\s*$/, `,\n${newEntry},\n];\n`);
   writeFileSync(POSTS_FILE, updated);
 
   console.log(`✅ Added: ${post.title}`);

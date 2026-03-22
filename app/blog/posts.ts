@@ -903,7 +903,6 @@ More importantly, preventive care is almost always cheaper than corrective care.
 Ready to stop reacting and start getting ahead of your lawn? Tri-Point Landscaping offers customized year-round lawn care programs for Washington Township, Shelby Township, and all of Macomb County. [Contact us today](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   },
-,
   {
     slug: "how-to-fix-bare-spots-in-your-lawn-michigan",
     title: "How to Fix Bare Spots in Your Lawn in Michigan (Macomb County Guide)",
