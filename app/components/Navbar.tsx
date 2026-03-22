@@ -52,6 +52,12 @@ export default function Navbar() {
               </svg>
               (586) 327-8080
             </a>
+            <a href="sms:+15863278080" className="hidden sm:flex items-center gap-1.5 hover:text-green-300 transition-colors font-medium tracking-wide">
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+              </svg>
+              Text Us
+            </a>
             <div className="hidden sm:flex items-center gap-1 text-yellow-400 text-xs font-medium">
               ★★★★★ <span className="text-white/60 ml-1">5.0 Google</span>
             </div>
@@ -139,6 +145,9 @@ export default function Navbar() {
             <Link href="/about" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
               About
             </Link>
+            <Link href="/blog" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
+              Blog
+            </Link>
             <Link href="/faq" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
               FAQ
             </Link>
@@ -223,6 +232,7 @@ export default function Navbar() {
             </div>
 
             <Link href="/about" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/blog" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Blog</Link>
             <Link href="/faq" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>FAQ</Link>
             <Link href="/contact" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Contact</Link>
 
@@ -240,6 +250,12 @@ export default function Navbar() {
                 className="block text-center border border-gray-300 text-gray-700 px-4 py-3 font-semibold text-sm"
               >
                 Call (586) 327-8080
+              </a>
+              <a
+                href="sms:+15863278080"
+                className="block text-center border border-gray-300 text-gray-700 px-4 py-3 font-semibold text-sm"
+              >
+                Text (586) 327-8080
               </a>
               <a
                 href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login"
