@@ -139,6 +139,9 @@ export default function Navbar() {
             <Link href="/about" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
               About
             </Link>
+            <Link href="/faq" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
+              FAQ
+            </Link>
             <Link href="/contact" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
               Contact
             </Link>
@@ -220,6 +223,7 @@ export default function Navbar() {
             </div>
 
             <Link href="/about" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/faq" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>FAQ</Link>
             <Link href="/contact" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Contact</Link>
 
             <div className="pt-4 flex flex-col gap-3">

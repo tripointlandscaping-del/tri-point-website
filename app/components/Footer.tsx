@@ -195,6 +195,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/25">
           <p>© {new Date().getFullYear()} Tri-Point Landscaping LLC · Macomb County, Michigan · All rights reserved.</p>
           <div className="flex items-center gap-5">
+            <Link href="/faq" className="hover:text-white/60 transition-colors">FAQ</Link>
             <Link href="/privacy-policy" className="hover:text-white/60 transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="hover:text-white/60 transition-colors">Terms &amp; Conditions</Link>
             <a href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">Client Login</a>
