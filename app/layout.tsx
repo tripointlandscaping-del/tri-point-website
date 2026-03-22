@@ -7,6 +7,7 @@ import ScrollProgress from "./components/ScrollProgress";
 import UrgencyBanner from "./components/UrgencyBanner";
 import StickyMobileBar from "./components/StickyMobileBar";
 import ExitIntentPopup from "./components/ExitIntentPopup";
+import CookieBanner from "./components/CookieBanner";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -129,6 +130,7 @@ export default function RootLayout({
         <ChatBot />
         <StickyMobileBar />
         <ExitIntentPopup />
+        <CookieBanner />
         {/* Spacer so StickyMobileBar doesn't overlap content on mobile */}
         <div className="h-16 md:hidden" aria-hidden="true" />
       </body>
