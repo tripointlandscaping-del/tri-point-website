@@ -4,6 +4,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { posts } from "./posts";
 
+function getPublishedPosts() {
+  const today = new Date();
+  today.setHours(23, 59, 59, 999);
+  return posts
+    .filter((p) => new Date(p.date) <= today)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
 export const metadata: Metadata = {
   title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
   description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
@@ -33,7 +41,7 @@ export default function BlogPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {posts.map((post) => (
+            {getPublishedPosts().map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
