@@ -484,7 +484,7 @@ export default async function ServicePage({ params }: Props) {
                     alt={service.image2Alt || ""}
                     width={700}
                     height={520}
-                    className="object-cover w-full h-[480px]"
+                    className="object-cover w-full h-[260px] sm:h-[380px] lg:h-[480px]"
                   />
                   {/* Decorative accent */}
                   <div style={{ backgroundColor: "#2C5F2E" }} className="absolute -bottom-4 -left-4 w-24 h-24 hidden lg:block" />

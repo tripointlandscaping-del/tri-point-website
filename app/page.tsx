@@ -708,8 +708,8 @@ export default function HomePage() {
                 },
               ].map(({ num, title, desc, icon }, i) => (
                 <AnimateOnScroll key={num} animation="fade-up" delay={i * 120} className="h-full">
-                  <div className="relative flex flex-col items-center text-center px-10 py-14 h-full group hover:shadow-xl transition-shadow border border-transparent hover:border-gray-100">
-                    <div style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#f2f2f2" }} className="absolute top-6 right-8 text-8xl font-bold leading-none select-none">{num}</div>
+                  <div className="relative flex flex-col items-center text-center px-5 py-10 md:px-10 md:py-14 h-full group hover:shadow-xl transition-shadow border border-transparent hover:border-gray-100">
+                    <div style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#f2f2f2" }} className="absolute top-6 right-8 text-6xl md:text-8xl font-bold leading-none select-none">{num}</div>
                     <div style={{ backgroundColor: "#2C5F2E" }} className="w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                       <div className="text-white">{icon}</div>
                     </div>
@@ -763,7 +763,7 @@ export default function HomePage() {
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
             <AnimateOnScroll animation="fade-up">
               <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-5">Ready to Get Started?</p>
-              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-6xl md:text-7xl font-bold mb-6 leading-[1.0]">
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-[1.0]">
                 Let&apos;s Transform<br />Your Property
               </h2>
               <p className="text-xl text-white/55 mb-4 max-w-lg mx-auto">

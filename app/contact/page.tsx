@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-4">Free · No Obligation · Same-Day Response</p>
                 <h1
                   style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
-                  className="text-5xl md:text-6xl font-bold leading-[1.05] mb-6"
+                  className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.05] mb-6"
                 >
                   Get Your<br />
                   <span style={{ color: "#7ecb82" }}>Free Estimate</span>

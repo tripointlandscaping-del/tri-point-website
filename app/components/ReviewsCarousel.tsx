@@ -118,7 +118,7 @@ export default function ReviewsCarousel() {
         {/* Large quote mark background */}
         <div
           style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "rgba(44,95,46,0.08)", lineHeight: 1 }}
-          className="absolute -top-6 left-8 text-[220px] font-bold select-none pointer-events-none"
+          className="absolute -top-6 left-8 text-[120px] md:text-[220px] font-bold select-none pointer-events-none"
         >
           &ldquo;
         </div>
