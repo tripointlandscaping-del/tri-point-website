@@ -645,15 +645,16 @@ export default function HomePage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll animation="fade-up" delay={100}>
-                <SeasonalTip />
-              </AnimateOnScroll>
-
-              <AnimateOnScroll animation="fade-up" delay={200}>
                 <LiveReviewFeed />
               </AnimateOnScroll>
             </div>
           </div>
         </CursorGlow>
+
+        {/* ═══ SEASONAL TIP ═══ */}
+        <AnimateOnScroll animation="fade-up">
+          <SeasonalTip />
+        </AnimateOnScroll>
 
         {/* ═══ SERVICE AREAS ═══ */}
         <section style={{ backgroundColor: "#f5f0e8" }} className="py-24">
