@@ -83,7 +83,7 @@ export default function HomePage() {
               {/* Headline */}
               <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="font-bold text-white leading-[1.0] mb-8">
                 <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Precision.</span>
-                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200 shimmer-text">Passion.</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200" style={{ color: "#7ecb82" }}>Passion.</span>
                 <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Perfection.</span>
               </h1>
 
