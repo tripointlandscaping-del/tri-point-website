@@ -111,6 +111,19 @@ export default function HomePage() {
                   </a>
                 </MagneticButton>
               </div>
+
+              {/* Big bold phone number */}
+              <div className="mt-8 anim-hidden animate-fade-up delay-500">
+                <a href="tel:+15863278080" className="inline-flex items-center gap-3 group">
+                  <svg className="w-6 h-6 shrink-0" style={{ color: "#7ecb82" }} fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  <span className="text-3xl sm:text-4xl font-bold text-white tracking-wide group-hover:text-[#7ecb82] transition-colors" style={{ fontFamily: "var(--font-inter), sans-serif" }}>
+                    (586) 327-8080
+                  </span>
+                </a>
+                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Mon–Sat 7AM–9PM</p>
+              </div>
             </div>
           </div>
 

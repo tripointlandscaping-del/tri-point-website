@@ -237,6 +237,15 @@ export default function Navbar() {
               >
                 Call (586) 327-8080
               </a>
+              <a
+                href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border border-gray-200 text-gray-500 px-4 py-3 text-sm"
+                onClick={() => setMobileOpen(false)}
+              >
+                Client Login
+              </a>
             </div>
           </div>
         </div>
