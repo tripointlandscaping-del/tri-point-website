@@ -196,6 +196,7 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Tri-Point Landscaping LLC · Macomb County, Michigan · All rights reserved.</p>
           <div className="flex items-center gap-5">
             <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
+            <Link href="/careers" className="hover:text-white/60 transition-colors">Careers</Link>
             <Link href="/faq" className="hover:text-white/60 transition-colors">FAQ</Link>
             <Link href="/privacy-policy" className="hover:text-white/60 transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="hover:text-white/60 transition-colors">Terms &amp; Conditions</Link>
