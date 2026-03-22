@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import JobberForm from "../components/JobberForm";
+import ServiceAreaChecker from "../components/ServiceAreaChecker";
 
 export const metadata: Metadata = {
   title: "Free Estimate | Contact Tri-Point Landscaping — Macomb County, MI",
@@ -260,23 +261,44 @@ export default function ContactPage() {
               </div>
 
               {/* FORM — takes up 2/3 */}
-              <div className="xl:col-span-2 bg-white shadow-sm">
-                {/* Form header inside the white box */}
-                <div style={{ backgroundColor: "#111111" }} className="px-10 py-8">
-                  <h2
-                    style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
-                    className="text-2xl font-bold text-white mb-1"
-                  >
-                    Request Your Free Estimate
-                  </h2>
-                  <p className="text-white/50 text-sm">
-                    Tell us about your property. We&apos;ll follow up same day with a clear quote.
-                  </p>
-                </div>
+              <div className="xl:col-span-2 space-y-4">
 
-                {/* Jobber form fills the rest */}
-                <div className="px-10 py-8">
-                  <JobberForm />
+                {/* Service area checker */}
+                <ServiceAreaChecker />
+
+                <div className="bg-white shadow-sm">
+                  {/* Form header */}
+                  <div style={{ backgroundColor: "#111111" }} className="px-6 sm:px-10 py-6 sm:py-8">
+                    <h2
+                      style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                      className="text-2xl font-bold text-white mb-1"
+                    >
+                      Request Your Free Estimate
+                    </h2>
+                    <p className="text-white/50 text-sm">
+                      Tell us about your property. We&apos;ll follow up same day with a clear quote.
+                    </p>
+                  </div>
+
+                  {/* Quick call prompt above form */}
+                  <div className="px-6 sm:px-10 pt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 border-b border-gray-100 pb-6">
+                    <p className="text-gray-500 text-sm flex-1">Prefer to talk? We respond faster by phone.</p>
+                    <a
+                      href="tel:+15863278080"
+                      style={{ backgroundColor: "#2C5F2E" }}
+                      className="inline-flex items-center gap-2 text-white px-5 py-2.5 text-sm font-semibold hover:opacity-90 transition-opacity shrink-0"
+                    >
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                      </svg>
+                      Call (586) 327-8080
+                    </a>
+                  </div>
+
+                  {/* Jobber form */}
+                  <div className="px-6 sm:px-10 py-8">
+                    <JobberForm />
+                  </div>
                 </div>
               </div>
 

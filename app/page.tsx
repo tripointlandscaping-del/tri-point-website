@@ -9,6 +9,7 @@ import MagneticButton from "./components/MagneticButton";
 import InteractiveServices from "./components/InteractiveServices";
 import CursorGlow from "./components/CursorGlow";
 import ReviewsCarousel from "./components/ReviewsCarousel";
+import ServiceAreaChecker from "./components/ServiceAreaChecker";
 
 export const metadata: Metadata = {
   title: "Tri-Point Landscaping | Macomb County's #1 Lawn Care, Landscaping & Snow Removal",
@@ -659,6 +660,9 @@ export default function HomePage() {
                 </p>
               </div>
             </AnimateOnScroll>
+            <div className="mb-8">
+              <ServiceAreaChecker />
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {serviceAreas.map((area, i) => (
                 <AnimateOnScroll key={area.slug} animation="fade-up" delay={i * 80}>
