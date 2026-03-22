@@ -114,7 +114,7 @@ export default function HomePage() {
                     (586) 327-8080
                   </span>
                 </a>
-                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Mon–Sat 7AM–9PM</p>
+                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Available 24/7</p>
               </div>
             </div>
           </div>

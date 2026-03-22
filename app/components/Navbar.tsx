@@ -43,7 +43,7 @@ export default function Navbar() {
           <span className="hidden sm:flex items-center gap-4 text-white/60">
             <span>Proudly Serving All of Macomb County, MI</span>
             <span className="w-px h-3 bg-white/20" />
-            <span>Mon–Sat: 7AM–9PM</span>
+            <span>Available 24/7</span>
           </span>
           <div className="flex items-center gap-6 ml-auto">
             <a href="tel:+15863278080" className="flex items-center gap-1.5 hover:text-green-300 transition-colors font-medium tracking-wide">
