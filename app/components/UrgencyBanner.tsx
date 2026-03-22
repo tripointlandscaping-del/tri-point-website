@@ -3,6 +3,19 @@
 import { useState } from "react";
 import Link from "next/link";
 
+function getBannerMessage(): string {
+  const now = new Date();
+  const month = now.getMonth() + 1; // 1-12
+  const day = now.getDate();
+  const mmdd = month * 100 + day; // e.g. March 15 = 315
+
+  if (mmdd >= 301 && mmdd < 515) return "🌿 Spring cleanup spots are filling fast — Book your free estimate now →";
+  if (mmdd >= 515 && mmdd < 701) return "🌳 Landscaping slots are booking up — Get your free estimate now →";
+  if (mmdd >= 701 && mmdd < 1015) return "🌿 Lawn care spots are limited — Book your free estimate now →";
+  if (mmdd >= 1015 && mmdd < 1120) return "🍂 Fall cleanup bookings are filling up — Schedule your free estimate now →";
+  return "❄️ Snow removal contracts are going fast — Secure your spot now →";
+}
+
 export default function UrgencyBanner() {
   const [dismissed, setDismissed] = useState(false);
 
@@ -14,12 +27,11 @@ export default function UrgencyBanner() {
       style={{ backgroundColor: "#2C5F2E" }}
     >
       <p className="leading-snug">
-        🌿 Spring spots are filling fast —{" "}
         <Link
           href="/contact"
           className="font-semibold underline underline-offset-2 hover:text-[#7ecb82] transition-colors"
         >
-          Book your free estimate now →
+          {getBannerMessage()}
         </Link>
       </p>
 
