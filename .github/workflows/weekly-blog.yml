@@ -2,7 +2,8 @@ name: Weekly Blog Posts
 
 on:
   schedule:
-    - cron: "0 9 * * 1" # Every Monday at 9am UTC
+    - cron: "0 14 * * 2" # Tuesday 9am EST (14:00 UTC)
+    - cron: "0 14 * * 4" # Thursday 9am EST (14:00 UTC)
   workflow_dispatch: # Allow manual trigger from GitHub
 
 jobs:
@@ -20,15 +21,15 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate 2 new blog posts
+      - name: Generate new blog post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-posts.mjs
 
-      - name: Commit and push new posts
+      - name: Commit and push new post
         run: |
           git config user.name "Tri-Point Blog Bot"
           git config user.email "tripointlandscaping@gmail.com"
           git add app/blog/posts.ts
-          git diff --staged --quiet || git commit -m "Add 2 new blog posts - $(date +'%B %d, %Y')"
+          git diff --staged --quiet || git commit -m "Add new blog post - $(date +'%B %d, %Y')"
           git push

@@ -36,49 +36,79 @@ const TOPIC_POOL = [
   "How to prevent ice dams on your property",
   "Lawn renovation vs lawn replacement: which do you need",
   "How to find a trustworthy landscaping company in Macomb County",
+  "The benefits of mulching your lawn clippings in Michigan",
+  "How to maintain a healthy lawn on a budget in Macomb County",
+  "What to do when your lawn care company lets you down",
+  "Spring landscaping checklist for Macomb County homeowners",
+  "How to create curb appeal with landscaping in Michigan",
+  "Landscaping mistakes Michigan homeowners make every year",
+  "How to get rid of weeds in garden beds without chemicals",
+  "What does a landscaping contract include in Macomb County",
+  "How to winterize your irrigation system in Michigan",
+  "The best time to plant trees and shrubs in Macomb County",
 ];
 
 async function generatePosts() {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) throw new Error("ANTHROPIC_API_KEY not set");
 
-  // Read current posts file to extract existing slugs and pick new topics
   const currentContent = readFileSync(POSTS_FILE, "utf8");
   const existingSlugs = [...currentContent.matchAll(/slug:\s*["']([^"']+)["']/g)].map((m) => m[1]);
 
-  // Pick 2 topics not yet used (based on slug similarity)
-  const usedTopics = new Set(existingSlugs.map((s) => s.replace(/-/g, " ")));
   const available = TOPIC_POOL.filter(
     (t) => !existingSlugs.some((s) => s.includes(t.toLowerCase().split(" ").slice(0, 3).join("-")))
   );
 
-  if (available.length < 2) {
-    console.log("Topic pool running low — using first 2 available");
-  }
+  const topics = available.slice(0, 1); // 1 topic per run (runs twice a week = 2 posts/week)
+  console.log("Generating post for topic:", topics[0]);
 
-  const topics = available.slice(0, 2);
-  console.log("Generating posts for topics:", topics);
-
-  // Get today's date as publish date
   const today = new Date();
   const publishDate = today.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 
-  const prompt = `Write 2 detailed, helpful blog posts for Tri-Point Landscaping, a local landscaping company in Washington Township, Macomb County, Michigan. Phone: (586) 327-8080.
+  const prompt = `You are a professional content writer for Tri-Point Landscaping, a highly-rated local landscaping company based in Washington Township, Macomb County, Michigan. Phone: (586) 327-8080. Website: tripointlandscaping.com.
 
-Topics:
-1. ${topics[0]}
-2. ${topics[1]}
+Write ONE detailed, genuinely helpful blog post on this topic: "${topics[0]}"
 
-For EACH post return a JSON object with these exact fields:
-- slug: URL-friendly slug (lowercase, hyphens)
-- title: SEO-optimized title including location when natural
-- description: 1-2 sentence meta description (under 160 chars)
-- date: "${publishDate}"
-- category: one of "Lawn Care", "Landscaping", "Snow & Ice", "Seasonal"
-- readTime: "X min read"
-- content: Full article 500-700 words using ## for headings, **bold text** for emphasis, - for bullet points. Mention Macomb County, Washington Township, or Michigan naturally throughout. End with a CTA paragraph mentioning [contact Tri-Point](/contact) or [(586) 327-8080](tel:+15863278080).
+WRITING GUIDELINES — follow these exactly:
 
-Return ONLY a valid JSON array with 2 objects, no markdown fencing, no explanation.`;
+TONE & QUALITY:
+- Write like a knowledgeable local expert talking to a neighbor, not a corporate website
+- Be specific and practical — give real advice people can actually use today
+- Use exact details: specific temperatures, dates, measurements, product types
+- Avoid vague filler like "it's important to..." — just say what to do and why
+- Every paragraph should teach the reader something they didn't know
+
+STRUCTURE:
+- Start with a hook that immediately addresses the reader's problem or question
+- Use ## headings to break up sections (3-5 sections minimum)
+- Use **bold** for key terms, warnings, and important takeaways
+- Use bullet lists for steps, checklists, and comparisons
+- Include at least one specific Michigan/Macomb County detail per section (soil type, climate, local timing, etc.)
+- End with a strong CTA section that naturally leads to contacting Tri-Point
+
+LENGTH: 600-800 words of actual useful content (not padding)
+
+SEO:
+- Naturally include "Macomb County", "Washington Township", or "Michigan" throughout
+- The title should include the location where it reads naturally
+- Write for humans first, Google second
+
+CALL TO ACTION (final section):
+- Don't just say "contact us" — give a reason why NOW is the right time
+- Reference the season or specific timing
+- Link to [contact Tri-Point Landscaping](/contact) and mention [(586) 327-8080](tel:+15863278080)
+- Mention that estimates are free
+
+Return ONLY a valid JSON object (no markdown fencing, no explanation) with these exact fields:
+{
+  "slug": "url-friendly-slug",
+  "title": "SEO Title Here",
+  "description": "Meta description under 155 characters",
+  "date": "${publishDate}",
+  "category": "Lawn Care|Landscaping|Snow & Ice|Seasonal",
+  "readTime": "X min read",
+  "content": "full article content here"
+}`;
 
   const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -88,8 +118,8 @@ Return ONLY a valid JSON array with 2 objects, no markdown fencing, no explanati
       "content-type": "application/json",
     },
     body: JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 4000,
+      model: "claude-sonnet-4-6",
+      max_tokens: 2000,
       messages: [{ role: "user", content: prompt }],
     }),
   });
@@ -99,22 +129,18 @@ Return ONLY a valid JSON array with 2 objects, no markdown fencing, no explanati
   const data = await response.json();
   const text = data.content[0].text.trim();
 
-  let newPosts;
+  let post;
   try {
-    newPosts = JSON.parse(text);
+    post = JSON.parse(text);
   } catch {
-    // Try to extract JSON array from response
-    const match = text.match(/\[[\s\S]*\]/);
+    const match = text.match(/\{[\s\S]*\}/);
     if (!match) throw new Error("Could not parse JSON from response");
-    newPosts = JSON.parse(match[0]);
+    post = JSON.parse(match[0]);
   }
 
-  if (!Array.isArray(newPosts) || newPosts.length === 0) {
-    throw new Error("No posts returned from API");
-  }
+  if (!post.slug || !post.content) throw new Error("Invalid post returned from API");
 
-  // Build TypeScript entries to append
-  const newEntries = newPosts.map((post) => `  {
+  const newEntry = `  {
     slug: "${post.slug}",
     title: "${post.title.replace(/"/g, '\\"')}",
     description: "${post.description.replace(/"/g, '\\"')}",
@@ -124,14 +150,12 @@ Return ONLY a valid JSON array with 2 objects, no markdown fencing, no explanati
     content: \`
 ${post.content}
     \`,
-  }`).join(",\n");
+  }`;
 
-  // Insert before the closing `];`
-  const updated = currentContent.replace(/\];\s*$/, `,\n${newEntries},\n];\n`);
+  const updated = currentContent.replace(/\];\s*$/, `,\n${newEntry},\n];\n`);
   writeFileSync(POSTS_FILE, updated);
 
-  console.log(`✅ Added ${newPosts.length} new posts:`);
-  newPosts.forEach((p) => console.log(`  - ${p.title}`));
+  console.log(`✅ Added: ${post.title}`);
 }
 
 generatePosts().catch((err) => {
