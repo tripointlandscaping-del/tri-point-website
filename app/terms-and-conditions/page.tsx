@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | Tri-Point Landscaping",
   description:
     "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, cancellation policy, and more.",
-  alternates: { canonical: "https://tripointlandscaping.com/terms-and-conditions" },
+  alternates: { canonical: "https://www.tripointlandscaping.com/terms-and-conditions" },
 };
 
 const sections = [

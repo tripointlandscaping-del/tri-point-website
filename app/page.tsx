@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "lawn aeration Macomb County MI",
     "Tri-Point Landscaping",
   ],
+  alternates: { canonical: "https://www.tripointlandscaping.com" },
 };
 
 const marqueeItems = [

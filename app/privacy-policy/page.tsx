@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy | Tri-Point Landscaping",
   description: "Privacy Policy for Tri-Point Landscaping LLC — Washington Township, Michigan. How we collect, use, and protect your personal information.",
-  alternates: { canonical: "https://tripointlandscaping.com/privacy-policy" },
+  alternates: { canonical: "https://www.tripointlandscaping.com/privacy-policy" },
 };
 
 const sections = [

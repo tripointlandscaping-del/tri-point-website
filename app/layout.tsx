@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   metadataBase: new URL("https://tripointlandscaping.com"),
+  alternates: {
+    canonical: "https://www.tripointlandscaping.com",
+  },
 };
 
 export default function RootLayout({
