@@ -10,6 +10,7 @@ import InteractiveServices from "./components/InteractiveServices";
 import CursorGlow from "./components/CursorGlow";
 import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
+import SeasonalTip from "./components/SeasonalTip";
 
 export const metadata: Metadata = {
   title: "Tri-Point Landscaping | Macomb County's #1 Lawn Care, Landscaping & Snow Removal",
@@ -644,6 +645,10 @@ export default function HomePage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll animation="fade-up" delay={100}>
+                <SeasonalTip />
+              </AnimateOnScroll>
+
+              <AnimateOnScroll animation="fade-up" delay={200}>
                 <LiveReviewFeed />
               </AnimateOnScroll>
             </div>
