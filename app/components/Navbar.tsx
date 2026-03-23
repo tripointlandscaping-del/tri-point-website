@@ -142,6 +142,9 @@ export default function Navbar() {
               )}
             </div>
 
+            <Link href="/gallery" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
+              Gallery
+            </Link>
             <Link href="/about" className="px-4 py-2 text-gray-700 hover:text-[#2C5F2E] font-medium text-sm transition-colors tracking-wide">
               About
             </Link>
@@ -234,6 +237,7 @@ export default function Navbar() {
               )}
             </div>
 
+            <Link href="/gallery" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Gallery</Link>
             <Link href="/about" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>About</Link>
             <Link href="/careers" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Careers</Link>
             <Link href="/blog" className="block py-2.5 text-gray-800 font-medium border-b border-gray-50" onClick={() => setMobileOpen(false)}>Blog</Link>
