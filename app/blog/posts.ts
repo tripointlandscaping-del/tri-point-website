@@ -962,5 +962,50 @@ If your lawn has multiple bare spots, widespread thinning, or a grub problem tha
 
 Call us at [(586) 327-8080](tel:+15863278080) or reach out online at [tripointlandscaping.com](https://tripointlandscaping.com). Don't wait until August to start the conversation — the best results come from planning ahead.
     `,
+  }
+,
+  {
+    slug: "best-fertilizer-schedule-macomb-county-lawns",
+    title: "The Best Fertilizer Schedule for Macomb County Lawns",
+    description: "A practical, season-by-season fertilizer schedule built for Macomb County's clay-heavy soils and Michigan's unpredictable climate. Real timing, real products.",
+    date: "March 24, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+Most Macomb County homeowners fertilize too early in spring, skip the most important fall application, and wonder why their lawn looks thin and pale by July. The fix isn't an expensive product — it's a better schedule built around what's actually happening in the soil here in southeast Michigan.
+
+## Why Macomb County Lawns Need a Different Approach
+
+If you've ever pushed a shovel into your yard in Washington Township or Sterling Heights and hit that heavy, sticky clay about 4–6 inches down, you already know the problem. **Macomb County soils are predominantly clay-loam**, which drains slowly, compacts under foot traffic, and holds nutrients inconsistently. That means fertilizer you apply at the wrong time either locks up in the soil before grass roots can reach it or washes away in our spring rain events.
+
+We're also in **USDA Hardiness Zone 6a**, which means soil temperatures in March can still be hovering around 40°F — way too cold for cool-season grass (Kentucky bluegrass, tall fescue, and perennial ryegrass, which make up most local lawns) to actually absorb nitrogen. Fertilizing frozen or near-frozen ground is money down the drain.
+
+## The 4-Application Schedule That Actually Works Here
+
+**Application 1 — Late April to Early May ("Starter Round")**
+Wait until soil temperatures consistently hit **50–55°F** — usually around the last week of April in Macomb County. Use a **slow-release nitrogen fertilizer** with a ratio around 20-5-10. Slow-release formulas (look for sulfur-coated urea or polymer-coated urea on the label) feed over 6–8 weeks instead of spiking growth all at once. Target rate: **0.5–0.75 lbs of actual nitrogen per 1,000 sq ft**. Going heavier early just forces weak, fast growth that burns out in summer heat.
+
+**Application 2 — Late May to Early June ("Transition Boost")**
+This is often skipped, but it matters. Before the heat of summer sets in, a lighter feeding with a **balanced formula (like 15-5-15)** with added potassium helps roots go deeper. Potassium strengthens cell walls and improves drought resistance — critical before Michigan's July and August dry stretches. Rate: **0.5 lbs nitrogen per 1,000 sq ft**.
+
+**Application 3 — Early September ("Recovery Round")**
+After a tough Michigan summer, cool-season grasses are ready to bounce back the moment temperatures drop below 85°F consistently — typically right after Labor Day in southeast Michigan. This is the application most homeowners miss. Use a **quick-release nitrogen source** like urea (46-0-0) blended with slow-release for a two-phase effect. Rate: **0.75–1 lb nitrogen per 1,000 sq ft**. This feeds recovery growth and root repair after summer stress.
+
+**Application 4 — Late October to Early November ("Winterizer")**
+This is the **single most important fertilization of the year** for Macomb County lawns. Apply after the grass has mostly stopped growing (soil temps near 40°F) but before the ground freezes — typically mid to late October here. Use a **high-potassium formula** like 10-0-20 or a dedicated winterizer blend. Roots are still active and store nutrients that fuel spring green-up before you ever open the fertilizer bag again. Skip this and you're starting from zero every April.
+
+## What to Pair With Your Fertilizer Schedule
+
+- **Soil test first**: Macomb County soils often run slightly acidic (pH 5.8–6.4). If your pH is off, fertilizer efficiency drops dramatically. A basic test from MSU Extension runs about $25 and tells you exactly what your lawn needs.
+- **Lime if needed**: If pH is below 6.0, apply **pelletized lime at 40–50 lbs per 1,000 sq ft** in fall alongside your winterizer.
+- **Water within 24–48 hours**: Clay soils need watering after application to move nutrients past the thatch layer and into the root zone. Without it, granules just sit.
+- **Never fertilize dormant or drought-stressed grass**: If it's August and your lawn is brown from heat stress, hold off. Fertilizing stressed turf causes more damage than skipping it.
+
+## Get Your Lawn on the Right Schedule This Season
+
+Spring is the easiest time to get ahead of a thin, struggling lawn — and right now is exactly when that first application window opens up in Macomb County. If you're not sure what your lawn actually needs, we'll come out and take a look at no charge.
+
+[Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk you through what your specific yard needs this season — whether that's a full fertilization program, aeration before the first feeding, or just some honest advice. Call us directly at [(586) 327-8080](tel:+15863278080). We're local to Washington Township and we know these soils — no guesswork, no generic programs.
+    `,
   },
 ];
