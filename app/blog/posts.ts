@@ -1064,5 +1064,68 @@ If you're not sure what's causing the problem — or you've already tried a few 
 
 **Free estimates, no pressure.** Call us at [(586) 327-8080](tel:+15863278080) or reach out through [our contact page](/contact) and we'll come take a look. The sooner you catch a yellowing problem, the less turf you have to replace — and that saves you real money come fall.
     `,
+  }
+,
+  {
+    slug: "how-to-get-rid-of-dandelions-without-killing-your-lawn-macomb-county",
+    title: "How to Get Rid of Dandelions Without Killing Your Lawn in Macomb County",
+    description: "Learn how to eliminate dandelions from your Macomb County lawn without damaging the grass — with local timing tips and proven methods.",
+    date: "March 26, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## That Yellow Carpet in Your Lawn Isn't a Feature
+
+Every spring in Washington Township and across Macomb County, lawns that looked decent enough in October suddenly erupt in dandelions by mid-April. You're not imagining it — dandelion seeds can remain viable in our heavy clay-loam soils for years, and a single mature plant produces up to 15,000 seeds. The good news: you can get them under control without scorching your turf or resorting to nuclear herbicide applications. Here's what actually works.
+
+## Why Dandelions Win (If You Let Them)
+
+Dandelions aren't random. They thrive in compacted soil, low-mowing situations, and thin turf — all three of which are extremely common in Macomb County's clay-heavy ground. That taproot can reach **10–12 inches deep**, which is why pulling the top off just starts a new plant. The real problem isn't the dandelion — it's that your lawn gave it an opening.
+
+**Key fact:** Dandelions prefer a soil pH above 7.5. Macomb County soils frequently test between 7.2 and 7.8, which is slightly alkaline and dandelion-friendly. A simple soil test (MSU Extension offers them for about $25) can confirm whether lime adjustment is making things worse.
+
+## Manual Removal: When It Actually Makes Sense
+
+For smaller infestations — say, under 20 plants per 1,000 sq ft — hand-pulling is genuinely effective **if you do it right**:
+
+- **Do it in early spring**, when the soil is moist from snowmelt and the taproot hasn't fully hardened yet (late March through mid-April in most of Macomb County)
+- Use a **fishtail weeder or dandelion puller**, not your hands — you need to get 4–6 inches of that taproot out
+- Pull **before the yellow flower turns white** — once it goes to seed, you've already lost the battle for that plant
+- Fill the hole left behind with a pinch of grass seed and a little topsoil so another weed doesn't claim the vacancy
+
+Skipping that last step is the most common mistake homeowners make. An empty soil pocket is an open invitation.
+
+## Targeted Herbicide: The Right Product at the Right Time
+
+If your lawn has a heavy infestation, selective broadleaf herbicides are your fastest tool — but timing and temperature matter enormously here in Michigan.
+
+**Do not spray when temps are below 50°F or above 85°F.** In Macomb County, that puts your ideal spray window between late April and early June, and again in September. Spraying in summer heat stresses your grass and reduces herbicide effectiveness.
+
+Look for products containing **2,4-D, MCPP, or dicamba** (many combination products like Weed-B-Gon or Trimec contain all three). These are selective — they kill broadleaf weeds without harming established turf grass when used at label rates.
+
+- Spray on a calm day with no rain forecast for 24 hours
+- Dandelions should be actively growing for the product to translocate to the root
+- **Do not mow 3 days before or after application** — the leaf surface needs to absorb the chemical
+- One application handles most plants; a second spot-treatment 3–4 weeks later cleans up survivors
+
+**Avoid blanket-spraying your entire lawn** unless the infestation genuinely covers more than 30–40% of the surface. Targeted spot spraying saves product, protects soil biology, and gets better results.
+
+## The Real Fix: A Thick, Healthy Lawn
+
+Herbicides treat symptoms. A dense lawn prevents dandelions from establishing in the first place. In Macomb County's climate, that means:
+
+- **Overseed bare or thin areas in late August through mid-September** — our cooler fall temps are ideal for Kentucky bluegrass and tall fescue germination
+- **Mow at 3.5 inches**, not 2. Taller turf shades the soil and blocks dandelion seedlings from getting sunlight
+- **Core aerate every fall** to address Macomb County's compaction issues — a hollow-tine aerator pulls plugs and lets water and nutrients reach roots
+- Fertilize with a **slow-release nitrogen fertilizer** in May and September to thicken turf density over time
+
+A lawn that's genuinely thick at ground level is your best long-term dandelion barrier — no chemicals required.
+
+## Ready to Get Ahead of Dandelion Season This Year?
+
+Spring moves fast in Macomb County. By the time you see the first dandelion flower, you're already a few weeks behind the ideal treatment window. **Now — late March through April — is exactly when pre-emergent and early post-emergent treatments do their best work.**
+
+If your lawn needs a professional eye this spring, [contact Tri-Point Landscaping](/contact) for a free estimate. We serve Washington Township and the surrounding Macomb County area and can assess what your lawn actually needs — whether that's a targeted herbicide program, overseeding, aeration, or all three. Give us a call at [(586) 327-8080](tel:+15863278080) and let's get your lawn looking the way it should before summer hits.
+    `,
   },
 ];
