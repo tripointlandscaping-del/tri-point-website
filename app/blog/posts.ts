@@ -1007,5 +1007,62 @@ Spring is the easiest time to get ahead of a thin, struggling lawn — and right
 
 [Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk you through what your specific yard needs this season — whether that's a full fertilization program, aeration before the first feeding, or just some honest advice. Call us directly at [(586) 327-8080](tel:+15863278080). We're local to Washington Township and we know these soils — no guesswork, no generic programs.
     `,
+  }
+,
+  {
+    slug: "why-grass-turns-yellow-michigan-fix",
+    title: "Why Your Grass Turns Yellow and How to Fix It in Michigan",
+    description: "Yellow grass in Macomb County? Learn the real causes and exact fixes for yellowing lawns in Michigan's climate — from iron deficiency to overwatering.",
+    date: "March 26, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Your Grass Is Telling You Something — Here's How to Read It
+
+Yellow grass is one of those problems that looks simple but almost never has a single cause. Michigan homeowners in Washington Township and across Macomb County deal with it every season, and the fix depends entirely on *why* it's happening — not just throwing fertilizer at it and hoping for the best. Get the diagnosis wrong and you'll either waste money or make the problem worse. Here's how to actually figure out what's going on and correct it.
+
+## The Most Common Culprits Behind Yellow Grass in Michigan
+
+Michigan's climate and soil create a specific set of conditions that lead to yellowing, and they're different from what you'd deal with in, say, Ohio or Indiana. Macomb County sits on heavy clay-loam soils left behind by glacial activity, which means drainage is often the first suspect.
+
+**Here are the most likely causes, in order of how often we see them:**
+
+- **Nitrogen deficiency** — The most common cause. Grass turns uniformly pale yellow, starting with older growth. This usually hits in early spring (late April into May) after a wet winter leaches nitrogen out of the soil.
+- **Iron chlorosis** — Shows up as yellowing between the leaf veins while the veins stay green. Extremely common in Macomb County's high-pH clay soils, especially after heavy spring rains raise the soil pH temporarily.
+- **Overwatering or poor drainage** — Clay soil doesn't drain fast. If your lawn sits wet for 24+ hours after rain, roots suffocate and turn yellow. Look for this in low spots or areas near downspouts.
+- **Compaction** — Dense clay soil compacts under foot traffic and freezing winters, blocking nutrient and water uptake. If your lawn feels like concrete when you press a screwdriver into it, compaction is likely contributing.
+- **Grub damage** — Japanese beetle and European chafer grubs feed on roots from July through September. Yellow patches that pull up like loose carpet are a dead giveaway. Michigan has heavy grub pressure, and Macomb County is no exception.
+- **Dormancy stress** — In late July and August, when temperatures stay above 85°F for two or more weeks, cool-season grasses like Kentucky bluegrass and tall fescue (the standard for Michigan lawns) go dormant. The lawn turns tan-yellow and stops growing — this is survival mode, not death.
+
+## How to Diagnose What's Actually Wrong
+
+Before you buy anything, spend five minutes doing this:
+
+1. **Look at the pattern.** Uniform yellowing across the whole lawn usually means a nutrient issue. Patches point to drainage, grubs, or disease.
+2. **Pull a plug of grass.** If roots are short, brown, or smell like rot, you have a drainage or grub problem. Healthy roots are white and firm.
+3. **Do the screwdriver test.** Push a standard screwdriver 6 inches into moist soil. If it's a struggle, you have compaction.
+4. **Check your watering schedule.** Most Michigan lawns need about 1 inch of water per week in summer. More than that on clay soil invites root rot.
+5. **Get a soil test.** MSU Extension offers soil testing for around $25. It tells you exact pH and nutrient levels, which takes the guesswork out of fertilizing. **This is the single best $25 you'll spend on your lawn.**
+
+## The Right Fixes — Matched to the Right Problem
+
+**For nitrogen deficiency:** Apply a slow-release granular fertilizer with a 3-1-2 NPK ratio (something like 24-8-16). In Michigan, the ideal application windows are late April and again in early September. Avoid fertilizing after October 15 — late feeding pushes tender growth that gets wiped out by frost.
+
+**For iron chlorosis:** Use a chelated iron spray (not granular — it won't absorb well in high-pH soil). You'll see greening within 5–7 days. Repeat every 6–8 weeks through the growing season if your soil pH stays above 7.0.
+
+**For drainage and compaction:** Core aeration in late August or early September is the most effective tool for Macomb County's clay soils. Pull 3-inch plugs, let them break down, and follow with overseeding. This opens the soil, improves drainage, and gives grass roots room to breathe.
+
+**For grubs:** Apply a preventive grub control product containing imidacloprid or chlorantraniliprole in **late June**, before eggs hatch. Curative treatments with trichlorfon work on active grubs in August but are less effective — prevention is always the better play here.
+
+**For summer dormancy:** Stop worrying and stop overwatering. Let the lawn go dormant naturally. Water once a week with about ½ inch just to keep the crown alive, and it'll bounce back on its own once temperatures drop below 80°F in late August.
+
+## Don't Let Yellow Grass Wait — Here's Why Spring Timing Matters
+
+Spring is the most important window to address yellow grass in Michigan. The soil is workable, grass is actively growing, and treatments have the whole season to take effect. Wait until mid-summer to act and you're playing catch-up in the heat — which is harder on both you and your lawn.
+
+If you're not sure what's causing the problem — or you've already tried a few things and nothing worked — that's exactly what [Tri-Point Landscaping](/contact) is here for. We've been working in Washington Township and across Macomb County long enough to know how local soils and Michigan's season swings affect lawns differently here than anywhere else.
+
+**Free estimates, no pressure.** Call us at [(586) 327-8080](tel:+15863278080) or reach out through [our contact page](/contact) and we'll come take a look. The sooner you catch a yellowing problem, the less turf you have to replace — and that saves you real money come fall.
+    `,
   },
 ];
