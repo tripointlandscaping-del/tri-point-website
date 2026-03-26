@@ -8,6 +8,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function getAccessToken(serviceAccountJson) {
   const key = JSON.parse(serviceAccountJson);
+  // Normalize private key — GitHub secrets can sometimes alter newline encoding
+  key.private_key = key.private_key.replace(/\\n/g, "\n");
   const now = Math.floor(Date.now() / 1000);
 
   const header = Buffer.from(JSON.stringify({ alg: "RS256", typ: "JWT" })).toString("base64url");
