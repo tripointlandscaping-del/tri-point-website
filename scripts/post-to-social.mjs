@@ -18,15 +18,28 @@ function getLatestPost() {
   };
 }
 
+async function getPageAccessToken(userToken, pageId) {
+  // Exchange user token for page-specific access token
+  const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}?fields=access_token&access_token=${userToken}`);
+  const data = await res.json();
+  if (data.access_token) {
+    console.log("✅ Got page access token");
+    return data.access_token;
+  }
+  console.log("⚠️ Could not get page token, using stored token");
+  return userToken;
+}
+
 async function postToFacebook(post) {
   const pageId = process.env.FACEBOOK_PAGE_ID;
-  const accessToken = process.env.FACEBOOK_ACCESS_TOKEN;
+  const userToken = process.env.FACEBOOK_ACCESS_TOKEN;
 
-  if (!pageId || !accessToken) {
+  if (!pageId || !userToken) {
     console.log("Facebook credentials not set — skipping Facebook post");
     return;
   }
 
+  const pageToken = await getPageAccessToken(userToken, pageId);
   const postUrl = `https://tripointlandscaping.com/blog/${post.slug}`;
   const message = `New on the Tri-Point Blog:\n\n📖 ${post.title}\n\n${post.description}\n\nRead the full article → ${postUrl}\n\n#MacombCounty #WashingtonTownship #Landscaping #LawnCare #Michigan #TriPointLandscaping`;
 
@@ -35,7 +48,7 @@ async function postToFacebook(post) {
   const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ message, link: postUrl, access_token: accessToken }),
+    body: JSON.stringify({ message, link: postUrl, access_token: pageToken }),
   });
 
   const data = await res.json();
@@ -43,7 +56,6 @@ async function postToFacebook(post) {
     console.log(`✅ Posted to Facebook (post ID: ${data.id})`);
   } else {
     console.error("❌ Facebook API error:", JSON.stringify(data));
-    // Non-fatal — don't fail the whole workflow over a social post
   }
 }
 

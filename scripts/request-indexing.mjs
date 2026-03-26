@@ -6,32 +6,35 @@ import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+function toBase64Url(buf) {
+  return buf.toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
 async function getAccessToken(serviceAccountJson) {
   const key = JSON.parse(serviceAccountJson);
-  // Normalize private key — GitHub secrets can sometimes alter newline encoding
+  // Normalize private key newlines — GitHub secrets can double-escape them
   key.private_key = key.private_key.replace(/\\n/g, "\n");
-  const now = Math.floor(Date.now() / 1000);
 
-  const header = Buffer.from(JSON.stringify({ alg: "RS256", typ: "JWT" })).toString("base64url");
-  const payload = Buffer.from(JSON.stringify({
+  const now = Math.floor(Date.now() / 1000);
+  const header = toBase64Url(Buffer.from(JSON.stringify({ alg: "RS256", typ: "JWT" })));
+  const payload = toBase64Url(Buffer.from(JSON.stringify({
     iss: key.client_email,
     scope: "https://www.googleapis.com/auth/indexing",
     aud: "https://oauth2.googleapis.com/token",
     exp: now + 3600,
     iat: now,
-  })).toString("base64url");
+  })));
 
   const sign = createSign("RSA-SHA256");
   sign.update(`${header}.${payload}`);
-  const signature = sign.sign(key.private_key, "base64url");
+  const signature = toBase64Url(sign.sign(key.private_key));
+
+  const assertion = `${header}.${payload}.${signature}`;
 
   const res = await fetch("https://oauth2.googleapis.com/token", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({
-      grant_type: "urn:ietf:params:oauth2:grant-type:jwt-bearer",
-      assertion: `${header}.${payload}.${signature}`,
-    }),
+    body: `grant_type=urn%3Aietf%3Aparams%3Aoauth2%3Agrant-type%3Ajwt-bearer&assertion=${encodeURIComponent(assertion)}`,
   });
 
   const data = await res.json();
