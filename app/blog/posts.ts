@@ -1127,5 +1127,59 @@ Spring moves fast in Macomb County. By the time you see the first dandelion flow
 
 If your lawn needs a professional eye this spring, [contact Tri-Point Landscaping](/contact) for a free estimate. We serve Washington Township and the surrounding Macomb County area and can assess what your lawn actually needs — whether that's a targeted herbicide program, overseeding, aeration, or all three. Give us a call at [(586) 327-8080](tel:+15863278080) and let's get your lawn looking the way it should before summer hits.
     `,
+  }
+,
+  {
+    slug: "lawn-striping-professional-mowing-patterns-michigan",
+    title: "Lawn Striping: How to Get Those Professional Mowing Patterns in Michigan",
+    description: "Learn how to create professional lawn stripes at home with real tips on equipment, technique, and grass types for Macomb County homeowners.",
+    date: "March 26, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Why Your Neighbor's Lawn Looks Like a Baseball Field (And Yours Doesn't)
+
+You've seen it — that crisp checkerboard or razor-straight stripe pattern on a lawn down the street that makes it look like a grounds crew just left. It's not magic, and it's not a special variety of grass. It's all about light, blade angle, and a little technique. The good news: you can pull this off yourself with the mower you already own. Here's exactly how.
+
+## How Lawn Striping Actually Works
+
+Stripes aren't created by cutting grass to different heights. They're created by **bending the grass blades in opposite directions**. When grass leans toward you, it reflects less light and looks darker. When it leans away, it catches more sunlight and looks lighter. That's it. The contrast between those two angles is what creates the stripe effect.
+
+The key tool is a **striping roller** — a weighted cylinder that drags behind your mower deck and bends the grass flat as you pass. Many commercial mowers have these built in. Residential mowers usually don't, but aftermarket rollers are available for most major brands (Husqvarna, Toro, Cub Cadet) for $80–$150 and bolt on in under an hour.
+
+If you don't want to buy a roller yet, you can also get a subtle stripe effect using just your rear-discharge mower bag or a piece of rubber flap attached behind the deck — it won't be as dramatic, but it works on healthy turf.
+
+## The Right Grass Makes a Huge Difference
+
+This is where Michigan homeowners have a real advantage. **Cool-season grasses** — Kentucky bluegrass, tall fescue, and perennial ryegrass — stripe beautifully because their blades are long and flexible enough to lay flat and hold the bend. These are exactly the grasses that thrive in Macomb County's climate.
+
+Warm-season grasses like Bermuda or Zoysia are stiff and short, and they barely show stripes at all. You won't find much of those around Washington Township anyway, so you're already working with the right material.
+
+For the sharpest stripes possible:
+- **Mow at 3 to 3.5 inches** — taller grass bends more dramatically and holds the pattern longer
+- **Never cut more than one-third of the blade at once** — scalped grass doesn't stripe, it just looks stressed
+- **Mow when the grass is dry** — wet grass clumps and lays flat randomly instead of in clean lines
+- **Sharpen your blades at least twice per season** — a dull blade tears grass, which frays the tips and blurs the stripe edges
+
+## Patterns to Try and How to Run Them
+
+Start simple before you go for the checkerboard.
+
+**Straight stripes** are your foundation. Make one pass along the longest straight edge of your lawn (usually parallel to the street or a fence line). Use that first stripe as your guide for every pass after. Overlap each pass by about 2–3 inches so you don't leave uncut strips between rows.
+
+**Checkerboard patterns** are just straight stripes mowed in two perpendicular directions. Mow your straight stripes first, then mow the entire lawn again at a 90-degree angle. Takes twice as long but the result is genuinely striking.
+
+**Diagonal stripes** at 45 degrees give your yard a more dynamic look and are great for hiding an irregular lot shape — which matters in older Washington Township neighborhoods where lots aren't always perfectly square.
+
+**Pro tip:** Always finish with a perimeter pass around the outer edge of your lawn. This cleans up the turn marks at the end of each stripe and gives the whole yard a finished, intentional look.
+
+Rotate your stripe direction every two to three mowings. Mowing the same direction every week causes the soil to compact in ruts and trains the grass to permanently lean one way, which actually makes future stripes look worse.
+
+## Get a Flawless Lawn This Season — Free Estimate from Tri-Point
+
+Spring in Macomb County moves fast. Once soil temps consistently hit 50°F — typically mid-April around Washington Township — cool-season grasses wake up and start growing quickly. That's the best window to establish clean mowing patterns before the lawn gets ahead of you.
+
+If you'd rather have a professional crew handle it — with commercial-grade striping equipment, sharp blades, and a consistent schedule — [contact Tri-Point Landscaping](/contact) for a **free estimate**. We serve Washington Township and surrounding Macomb County communities, and we'd love to show you what a properly maintained lawn actually looks like up close. Give us a call at [(586) 327-8080](tel:+15863278080) and let's get your lawn looking like it belongs on a highlight reel.
+    `,
   },
 ];
