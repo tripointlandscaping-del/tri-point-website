@@ -1231,5 +1231,58 @@ We offer **free estimates** with no obligation, and we'd rather spend 20 minutes
 
 [Contact Tri-Point Landscaping](/contact) to schedule your free estimate, or give us a call at [(586) 327-8080](tel:+15863278080). A healthy lawn starts with the right plan — let's build yours.
     `,
+  }
+,
+  {
+    slug: "grub-control-michigan-signs-timing-treatment",
+    title: "Grub Control in Michigan: Signs, Timing, and Treatment for Macomb County Lawns",
+    description: "Learn how to identify, prevent, and treat grubs in Michigan lawns. Timing and product advice specific to Macomb County soil and climate.",
+    date: "March 26, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Your Lawn Isn't Dying — It Might Have Grubs
+
+If you walked out to your Washington Township lawn last August and found patches of grass that peeled back like loose carpet, you already know what grub damage looks like. What most homeowners don't realize is that by the time you see that damage, the window for easy treatment has already closed. Grub control in Michigan is almost entirely a timing game — treat at the right moment and you can wipe out 80–90% of a grub population with a single application. Miss that window, and you're stuck reacting to damage instead of preventing it.
+
+Here's what you need to know to stay ahead of them this year.
+
+## What Are Grubs and Why Does Macomb County Have So Many?
+
+**White grubs** are the larvae of several beetle species, but in Macomb County the two most common culprits are the **Japanese beetle** and the **European chafer**. Both lay eggs in your lawn during mid-to-late July, and those eggs hatch into small, C-shaped larvae that immediately start feeding on grass roots just below the soil surface.
+
+Macomb County's soil — a mix of sandy loam and heavier clay depending on your specific neighborhood — creates near-ideal conditions for grub survival. Sandy soil in particular drains quickly and stays warm, which accelerates egg development. If your yard gets full afternoon sun and you water regularly (which beetles find irresistible when surrounding areas are dry), you're essentially putting out a welcome mat.
+
+**Signs you have a grub problem:**
+- Irregular brown patches that appear suddenly in July or August
+- Grass that lifts up from the soil in chunks with no roots attached
+- Spongy turf that feels soft underfoot even when it hasn't rained
+- Increased activity from crows, starlings, skunks, or raccoons digging overnight
+- Mole tunnels appearing in your lawn (moles eat grubs)
+
+To confirm, cut a 1-square-foot section of turf about 2–3 inches deep and count the grubs. **Finding 10 or more grubs per square foot means treatment is warranted.** Five to nine is a gray area depending on your grass health. Fewer than five and a healthy lawn can usually tolerate it.
+
+## The Treatment Window: Don't Miss It
+
+This is where most DIY grub control fails. There are two effective treatment windows in Michigan, and they work very differently.
+
+**Preventive treatment (the preferred approach):** Apply between **late May and early July**, ideally when soil temperatures at a 2-inch depth reach about 60°F. In Macomb County, that typically falls between Memorial Day weekend and the Fourth of July. Preventive products contain active ingredients like **chlorantraniliprole (Acelepryn)** or **imidacloprid**, which need to be watered into the soil before eggs hatch. Chlorantraniliprole is the gold standard — it's highly effective at low rates, has a favorable environmental profile, and works even if applied a bit early. Apply it, then water with at least a half inch of irrigation within 24 hours.
+
+**Curative treatment (emergency use only):** If you missed the preventive window and you're seeing damage in August, **trichlorfon** (sold as Dylox) can knock back active grubs fast. It needs to be applied when grubs are still near the surface — once temperatures drop and grubs move deeper in September, even curative products lose effectiveness. Water heavily before and after application. This approach saves your lawn but costs more and stresses an already-damaged stand of grass.
+
+**Never apply granular grub control during a drought without irrigation.** The product sits on top of dry soil and does almost nothing. Water is what activates it.
+
+## What About Grub-Damaged Turf?
+
+Killing the grubs stops the damage but doesn't restore dead grass. Depending on how severe the injury is, you may need overseeding, slice seeding, or in bad cases, a full lawn renovation. In Macomb County, **late August through mid-September** is the best window for reseeding cool-season grasses like Kentucky bluegrass and tall fescue — soil is warm enough for quick germination and fall rains help establishment without the stress of summer heat.
+
+If skunks or raccoons have been digging, repair that physical damage first by raking and tamping the soil back down, then seed. Those animals will stop once the food source is gone.
+
+## Ready to Protect Your Lawn Before Grubs Strike This Summer?
+
+The preventive treatment window opens up fast — typically right around Memorial Day here in Macomb County — and once it closes, your options get more expensive and less effective. If you're not sure whether your lawn had grub activity last season, or if you want a professional eye on your turf before the season kicks off, now is the right time to get a plan in place.
+
+[Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll assess your lawn, recommend the right product and timing for your specific property in Washington Township or anywhere in Macomb County, and take grub control completely off your plate. Give us a call at [(586) 327-8080](tel:+15863278080) — we'd rather help you prevent the damage than clean it up in August.
+    `,
   },
 ];
