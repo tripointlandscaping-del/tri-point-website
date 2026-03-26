@@ -5,47 +5,86 @@ import { dirname, join } from "path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const POSTS_FILE = join(__dirname, "../app/blog/posts.ts");
 
+// Topics organized by service category so posts rotate across all services
 const TOPIC_POOL = [
-  "How to fix bare spots in your lawn in Michigan",
-  "The best fertilizer schedule for Macomb County lawns",
-  "Why your grass turns yellow and how to fix it",
-  "How to get rid of dandelions without killing your lawn",
+  // ── LAWN CARE ──
+  "Why your grass turns yellow and how to fix it in Michigan",
+  "How to get rid of dandelions without killing your lawn in Macomb County",
   "Lawn striping: how to get those professional mowing patterns",
   "How to choose the right grass seed for Michigan",
-  "When to plant flowers in Macomb County Michigan",
-  "How to fix lawn damage caused by snow plowing",
   "Grub control in Michigan: signs, timing, and treatment",
   "How to edge a lawn like a professional",
   "Irrigation tips for Michigan homeowners",
   "How to revive a neglected lawn in Macomb County",
-  "Tree trimming vs tree removal: what you need to know",
-  "How to attract pollinators to your Michigan landscape",
-  "The best shrubs for Michigan winters",
-  "How to install landscape edging in Michigan",
-  "Why fall is the best time for landscaping projects",
   "How to deal with lawn fungus in Michigan",
   "Hydroseeding vs traditional overseeding in Michigan",
   "How to keep your lawn green during a Michigan drought",
-  "The difference between topsoil, compost, and mulch",
-  "How to price landscaping services: what to expect in Macomb County",
   "Tips for maintaining a lawn near trees in Michigan",
   "How to remove moss from your lawn in Michigan",
-  "Winter landscaping ideas for Michigan homes",
-  "How to plant a new lawn from scratch in Macomb County",
-  "The best time to trim hedges in Michigan",
-  "How to prevent ice dams on your property",
-  "Lawn renovation vs lawn replacement: which do you need",
-  "How to find a trustworthy landscaping company in Macomb County",
-  "The benefits of mulching your lawn clippings in Michigan",
   "How to maintain a healthy lawn on a budget in Macomb County",
-  "What to do when your lawn care company lets you down",
-  "Spring landscaping checklist for Macomb County homeowners",
-  "How to create curb appeal with landscaping in Michigan",
-  "Landscaping mistakes Michigan homeowners make every year",
   "How to get rid of weeds in garden beds without chemicals",
-  "What does a landscaping contract include in Macomb County",
-  "How to winterize your irrigation system in Michigan",
-  "The best time to plant trees and shrubs in Macomb County",
+  "What is the right mowing height for Michigan grass",
+  "How to water your lawn correctly in Macomb County",
+  "Why your lawn has stripes or uneven color after mowing",
+
+  // ── LANDSCAPING ──
+  "How to create curb appeal with landscaping in Michigan",
+  "The best plants for a low-maintenance Michigan landscape",
+  "How to attract pollinators to your Michigan landscape",
+  "The best shrubs for Michigan winters",
+  "How to install landscape edging in Michigan",
+  "Why fall is the best time for landscaping projects in Macomb County",
+  "How to plant trees and shrubs in Macomb County",
+  "Landscaping mistakes Michigan homeowners make every year",
+  "How to design a front yard landscape in Washington Township",
+  "The best flowering plants for Macomb County landscapes",
+  "How to add privacy to your yard with landscaping in Michigan",
+  "Native plants for Michigan landscaping: what to choose",
+  "How to landscape around a pool in Macomb County",
+
+  // ── MULCH & STONE ──
+  "The difference between topsoil, compost, and mulch",
+  "How much mulch do you need: a guide for Macomb County homeowners",
+  "Mulch vs decorative stone: which is better for Michigan landscapes",
+  "How often should you replace mulch in Michigan",
+  "The best mulch colors for homes in Macomb County",
+  "How to prevent weeds in mulch beds in Michigan",
+  "River rock vs lava rock: which is better for Michigan landscaping",
+
+  // ── SEASONAL CLEANUP ──
+  "Spring landscaping checklist for Macomb County homeowners",
+  "When to plant flowers in Macomb County Michigan",
+  "How to prepare garden beds for spring in Michigan",
+  "Fall cleanup checklist for Macomb County homeowners",
+  "How to clean up leaves without damaging your lawn in Michigan",
+  "When to cut back perennials in Michigan",
+  "How to prepare your yard for winter in Macomb County",
+  "Why spring cleanup matters for your lawn and landscape",
+
+  // ── SNOW & ICE ──
+  "How to fix lawn damage caused by snow plowing in Michigan",
+  "How to prevent ice dams on your property",
+  "Rock salt vs calcium chloride: what to use on Michigan driveways",
+  "How to protect your landscaping from snow plow damage",
+  "When to hire a snow removal company vs doing it yourself",
+  "How to prepare your driveway for winter in Macomb County",
+  "Commercial snow removal: what to expect from a contractor",
+  "How salt damage affects your lawn and how to fix it in spring",
+
+  // ── LAWN RENOVATIONS ──
+  "Lawn renovation vs lawn replacement: which do you need",
+  "How to aerate your lawn in Michigan: timing and technique",
+  "What is dethatching and when should you do it in Macomb County",
+  "Top dressing a lawn: how and when to do it in Michigan",
+  "How long does it take to grow a new lawn from seed in Michigan",
+  "Core aeration vs liquid aeration: which is better for Michigan soil",
+
+  // ── COMMERCIAL ──
+  "What to look for in a commercial landscaping contract in Michigan",
+  "How commercial snow removal contracts work in Macomb County",
+  "Why consistent landscaping matters for commercial properties",
+  "How to find a reliable commercial lawn care company in Macomb County",
+  "HOA landscaping requirements: what property managers need to know",
 ];
 
 async function generatePosts() {
@@ -53,11 +92,12 @@ async function generatePosts() {
   if (!apiKey) throw new Error("ANTHROPIC_API_KEY not set");
 
   const currentContent = readFileSync(POSTS_FILE, "utf8");
-  const existingSlugs = [...currentContent.matchAll(/slug:\s*["']([^"']+)["']/g)].map((m) => m[1]);
+  const existingTitles = [...currentContent.matchAll(/title:\s*["']([^"']+)["']/g)].map((m) => m[1].toLowerCase());
 
-  const available = TOPIC_POOL.filter(
-    (t) => !existingSlugs.some((s) => s.includes(t.toLowerCase().split(" ").slice(0, 3).join("-")))
-  );
+  const available = TOPIC_POOL.filter((topic) => {
+    const keywords = topic.toLowerCase().split(" ").filter((w) => w.length > 4);
+    return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 3);
+  });
 
   const topics = available.slice(0, 1); // 1 topic per run (runs twice a week = 2 posts/week)
   console.log("Generating post for topic:", topics[0]);
@@ -105,7 +145,7 @@ Return ONLY a valid JSON object (no markdown fencing, no explanation) with these
   "title": "SEO Title Here",
   "description": "Meta description under 155 characters",
   "date": "${publishDate}",
-  "category": "Lawn Care|Landscaping|Snow & Ice|Seasonal",
+  "category": "Lawn Care|Landscaping|Mulch & Stone|Seasonal|Snow & Ice|Lawn Renovations|Commercial",
   "readTime": "X min read",
   "content": "full article content here"
 }`;

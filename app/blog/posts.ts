@@ -1007,55 +1007,5 @@ Spring is the easiest time to get ahead of a thin, struggling lawn — and right
 
 [Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk you through what your specific yard needs this season — whether that's a full fertilization program, aeration before the first feeding, or just some honest advice. Call us directly at [(586) 327-8080](tel:+15863278080). We're local to Washington Township and we know these soils — no guesswork, no generic programs.
     `,
-  }
-,
-  {
-    slug: "best-fertilizer-schedule-macomb-county-lawns",
-    title: "The Best Fertilizer Schedule for Macomb County Lawns",
-    description: "A practical, season-by-season fertilizer schedule built for Macomb County's clay-heavy soils and Michigan's unpredictable growing season.",
-    date: "March 26, 2026",
-    category: "Lawn Care",
-    readTime: "5 min read",
-    content: `
-## Stop Guessing at the Garden Center — Here's the Schedule Your Macomb County Lawn Actually Needs
-
-Most homeowners in Washington Township and across Macomb County pick up a bag of fertilizer whenever it goes on sale and throw it down when they get around to it. Then they wonder why their lawn looks patchy in July and burns out by August. The truth is, timing and product type matter more than the brand on the bag. Michigan's climate — with its late frosts, hot humid summers, and heavy clay soils — demands a specific approach. Here's exactly what to do and when.
-
-## Understanding Your Soil First: Macomb County's Clay Problem
-
-Before you spread a single granule, you need to know what you're working with. Most of Macomb County sits on heavy clay-loam soil left behind by glacial activity. Clay soil holds nutrients longer than sandy soil, which means **over-fertilizing is a real and common mistake here**. It also compacts easily, which blocks root access to whatever you do apply.
-
-If you've never done a soil test, do one before this season. Michigan State University Extension offers tests through their lab for around $25, and the results will tell you your exact pH and nutrient levels. Most Macomb County lawns trend slightly acidic (pH 6.0–6.5), which is actually fine for turf — but if you're below 6.0, lime applications in fall will make every dollar you spend on fertilizer work harder.
-
-## The 4-Application Schedule That Works for Michigan Turf
-
-For cool-season grasses — which is what almost every lawn in Washington Township is seeded with (Kentucky bluegrass, tall fescue, and perennial ryegrass blends) — this four-step schedule is proven:
-
-**Step 1 — Late April to Early May (Soil Temp: 50–55°F)**
-This is your starter application. Use a **slow-release nitrogen fertilizer with a ratio around 20-5-10**. Do NOT apply too early — if the ground is still cold, roots can't absorb nitrogen and you'll just feed the weeds that green up faster than turf. Wait until overnight lows are consistently above 40°F. For 2026, that window typically opens in the last week of April in Macomb County.
-
-**Step 2 — Late May to Early June**
-A lighter application here supports the turf as it fills in and thickens before summer heat. This is also the right time for a **pre-emergent combination product if crabgrass is an issue** on your property. Look for a fertilizer with crabgrass preventer built in — just make sure you apply it before soil temps hit 55°F consistently, which in Michigan is typically right around Memorial Day.
-
-**Step 3 — Skip the Summer. Seriously.**
-This one surprises people. Do not fertilize in July or August. When air temps climb above 85°F, cool-season grasses go semi-dormant. Pushing nitrogen into stressed turf causes burn, disease pressure, and long-term root damage. Water deeply (1 inch per week) and leave the fertilizer in the garage. Your lawn will look a little tired — that's normal and healthy.
-
-**Step 4 — Labor Day Through October (The Most Important Application)**
-This is the application most homeowners skip, and it's the single biggest mistake you can make. **A high-nitrogen fall fertilizer applied between Labor Day and mid-October** does more for your lawn's health than all other applications combined. The grass is actively storing energy in its root system for winter. A 32-0-10 or similar high-nitrogen, low-phosphorus formula feeds that process directly. Apply while the grass is still actively growing — ideally before October 15th in Washington Township, as hard frosts typically arrive by late October.
-
-## Granular vs. Liquid: Which Should You Use?
-
-For DIY homeowners, **granular slow-release fertilizer is almost always the better choice** in Macomb County. It's harder to over-apply, it feeds more evenly, and it works with clay soil's natural tendency to hold nutrients. Liquid fertilizers work faster but require more precise timing and more frequent applications to be effective — that's fine if you're checking your lawn weekly, but most people aren't.
-
-One product worth knowing: Milorganite (a slow-release organic option) works well as a summer supplement if your lawn needs a boost without the burn risk. It won't green things up overnight, but it feeds gently through heat stress.
-
-## Ready to Stop Guessing? Let's Get Your Lawn on the Right Schedule
-
-Spring is the most critical window for setting your lawn up for a great year, and **that window opens fast in Michigan**. If you're not sure what your turf needs, or you'd rather have a professional handle the timing and applications correctly the first time, now is the right moment to reach out.
-
-Tri-Point Landscaping serves homeowners throughout Washington Township and Macomb County with fertilization programs built around local conditions — not generic regional guides. **Free estimates are available**, and our team can assess your lawn's specific needs before recommending a plan.
-
-[Contact Tri-Point Landscaping](/contact) today or call us directly at [(586) 327-8080](tel:+15863278080). Don't let another season start without a real plan in place.
-    `,
   },
 ];

@@ -274,9 +274,47 @@ export default async function ServiceAreaPage({ params }: Props) {
     ],
   };
 
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LandscapingBusiness",
+    "@id": `https://tripointlandscaping.com/service-areas/${slug}`,
+    name: "Tri-Point Landscaping LLC",
+    image: "https://tripointlandscaping.com/logo-black.png",
+    url: `https://tripointlandscaping.com/service-areas/${slug}`,
+    telephone: "+15863278080",
+    email: "tripointlandscaping@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Washington Township",
+      addressRegion: "MI",
+      addressCountry: "US",
+      postalCode: "48094",
+    },
+    areaServed: {
+      "@type": "City",
+      name: area.name,
+      containedInPlace: { "@type": "AdministrativeArea", name: "Macomb County, Michigan" },
+    },
+    description: `Professional landscaping, lawn care, snow removal, and property services in ${area.name}, Michigan. Serving all of Macomb County. Free estimates — call (586) 327-8080.`,
+    priceRange: "$$",
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "10" },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: area.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <main>
 
