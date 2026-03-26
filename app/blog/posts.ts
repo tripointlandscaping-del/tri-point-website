@@ -1181,5 +1181,55 @@ Spring in Macomb County moves fast. Once soil temps consistently hit 50°F — t
 
 If you'd rather have a professional crew handle it — with commercial-grade striping equipment, sharp blades, and a consistent schedule — [contact Tri-Point Landscaping](/contact) for a **free estimate**. We serve Washington Township and surrounding Macomb County communities, and we'd love to show you what a properly maintained lawn actually looks like up close. Give us a call at [(586) 327-8080](tel:+15863278080) and let's get your lawn looking like it belongs on a highlight reel.
     `,
+  }
+,
+  {
+    slug: "how-to-choose-the-right-grass-seed-michigan",
+    title: "How to Choose the Right Grass Seed for Michigan Lawns",
+    description: "Not all grass seed works in Michigan's climate. Learn which varieties thrive in Macomb County and how to get a thick, healthy lawn that lasts.",
+    date: "March 26, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Stop Wasting Money on the Wrong Grass Seed
+
+Every spring, homeowners across Macomb County grab a bag of grass seed off the shelf at the hardware store, throw it down, water it for two weeks, and wonder why half of it dies by August. The problem usually isn't the watering — it's that they picked the wrong seed for Michigan's climate in the first place. Michigan is brutal on turf. You're dealing with cold winters that dip well below freezing, hot and dry stretches in July and August, and clay-heavy soils that drain poorly. The right grass seed makes all the difference between a lawn you're proud of and one you're fighting all season.
+
+## Michigan Is Cool-Season Grass Country
+
+First thing to understand: **Michigan lawns need cool-season grasses**, not warm-season varieties like Bermuda or Zoysia. Those grasses go dormant — or die outright — when soil temps drop below 50°F, which happens every October in Washington Township without fail.
+
+The three cool-season grasses that actually perform well here are:
+
+- **Kentucky Bluegrass** — Dense, beautiful, and self-repairing thanks to spreading rhizomes. It's the gold standard for Macomb County front lawns. Downside: it's slow to establish (up to 21 days to germinate) and doesn't love shade.
+- **Tall Fescue** — The workhorse. Deep roots make it drought-tolerant, which matters during Michigan's dry July stretches. It handles shade better than bluegrass and tolerates the clay soils common throughout Washington Township. Germinates in 7–12 days.
+- **Perennial Ryegrass** — Fast germinator (5–7 days), which makes it great for overseeding bare spots. It blends well with bluegrass but doesn't spread on its own, so thin areas stay thin over time.
+
+**Our honest recommendation for most Macomb County lawns:** a blended mix of 60–70% Kentucky Bluegrass and 30–40% Perennial Ryegrass. The ryegrass establishes fast and protects the soil while the bluegrass fills in and takes over long-term.
+
+## Don't Ignore Your Soil Before You Seed
+
+Here's the step most people skip entirely: **testing your soil before seeding**. Michigan State University Extension offers soil testing kits for around $25, and it tells you your pH and nutrient levels. Most soil in Macomb County runs slightly acidic — around 5.8 to 6.2 — and grass seed wants a pH between 6.0 and 7.0 to germinate well. If your soil is too acidic, the seed will struggle no matter how much you water it.
+
+If your test shows low pH, apply **pelletized lime at about 50 lbs per 1,000 square feet** a few weeks before seeding. If your soil is compacted — and clay-heavy Washington Township soil often is — core aerate first. Seeding into aerated holes gives roots a real foothold and dramatically improves germination rates.
+
+## Timing Is Everything in Michigan
+
+The single biggest mistake people make is seeding too early in spring or too late in fall. Here's the truth:
+
+- **Best window: Late August through mid-September.** Soil temps are still 50–65°F (ideal for germination), air temps are cooling down, and you get fall rains to help establishment without summer heat stress. This is the professional's preferred time.
+- **Spring seeding window: Mid-April through mid-May**, once soil temps consistently hit 50°F. In Macomb County, that typically means waiting until after the last frost — usually late April.
+- **Avoid seeding in June or July.** Young grass seedlings can't survive 85°F heat with no established root system.
+
+After seeding, keep the top inch of soil consistently moist with light, frequent watering — twice daily if needed — for the first 3 weeks until germination is complete. Then shift to deeper, less frequent watering to encourage roots to go down.
+
+## Ready for a Lawn That Actually Looks Good?
+
+If you're planning a lawn renovation or overseeding project this season, now is the time to get your plan in place before the ideal seeding window arrives. At **Tri-Point Landscaping**, we work with homeowners across Washington Township and all of Macomb County to assess their lawn, recommend the right seed blend, and handle the prep work — aeration, soil amendment, seeding — so it's done right the first time.
+
+We offer **free estimates** with no obligation, and we'd rather spend 20 minutes walking your yard with you than have you spend money on seed that won't perform.
+
+[Contact Tri-Point Landscaping](/contact) to schedule your free estimate, or give us a call at [(586) 327-8080](tel:+15863278080). A healthy lawn starts with the right plan — let's build yours.
+    `,
   },
 ];
