@@ -32,6 +32,7 @@ jobs:
           git config user.email "tripointlandscaping@gmail.com"
           git add app/blog/posts.ts
           git diff --staged --quiet || git commit -m "Add new blog post - $(date +'%B %d, %Y')"
+          git pull --rebase origin main
           git push
 
       - name: Ping Google and Bing with updated sitemap
