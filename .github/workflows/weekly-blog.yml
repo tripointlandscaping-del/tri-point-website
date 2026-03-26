@@ -47,9 +47,4 @@ jobs:
           curl -s "https://www.bing.com/ping?sitemap=https://tripointlandscaping.com/sitemap.xml" \
             && echo "✅ Bing pinged" || echo "⚠️ Bing ping failed (non-fatal)"
 
-      - name: Request Google indexing for new post
-        continue-on-error: true
-        env:
-          GOOGLE_INDEXING_KEY: ${{ secrets.GOOGLE_INDEXING_KEY }}
-        run: node scripts/request-indexing.mjs
 
