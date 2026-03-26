@@ -1,0 +1,103 @@
+name: Monthly SEO Maintenance
+
+on:
+  schedule:
+    - cron: "0 13 1 * *" # 1st of every month at 9am EST (13:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check homepage is live
+        run: |
+          echo "=== Site Health Check ==="
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://tripointlandscaping.com)
+          echo "Homepage: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "❌ Homepage returned $STATUS — site may be down!"
+            exit 1
+          fi
+          echo "✅ Homepage OK"
+
+      - name: Check all key pages
+        run: |
+          echo "=== Key Page Status ==="
+          pages=(
+            "/"
+            "/services/lawn-maintenance"
+            "/services/landscaping"
+            "/services/mulch-and-stone"
+            "/services/seasonal-cleanup"
+            "/services/snow-removal"
+            "/services/lawn-renovations"
+            "/commercial"
+            "/contact"
+            "/gallery"
+            "/blog"
+            "/about"
+            "/careers"
+            "/faq"
+            "/service-areas/washington-township"
+            "/service-areas/shelby-township"
+            "/service-areas/macomb-township"
+            "/service-areas/romeo"
+            "/service-areas/ray-township"
+            "/service-areas/bruce-township"
+            "/privacy-policy"
+            "/terms-of-service"
+          )
+          failed=0
+          for page in "${pages[@]}"; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://tripointlandscaping.com$page")
+            if [ "$STATUS" = "200" ]; then
+              echo "✅ $page → $STATUS"
+            else
+              echo "❌ $page → $STATUS"
+              failed=$((failed + 1))
+            fi
+          done
+          if [ $failed -gt 0 ]; then
+            echo ""
+            echo "⚠️  $failed page(s) returned non-200 status — review above"
+          else
+            echo ""
+            echo "✅ All pages healthy"
+          fi
+
+      - name: Check sitemap is accessible
+        run: |
+          echo "=== Sitemap Check ==="
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://tripointlandscaping.com/sitemap.xml)
+          if [ "$STATUS" = "200" ]; then
+            echo "✅ Sitemap accessible ($STATUS)"
+          else
+            echo "❌ Sitemap returned $STATUS"
+          fi
+
+      - name: Ping Google and Bing with updated sitemap
+        run: |
+          echo "=== Sitemap Ping ==="
+          curl -s "https://www.google.com/ping?sitemap=https://tripointlandscaping.com/sitemap.xml" \
+            && echo "✅ Google pinged" || echo "⚠️  Google ping failed (non-fatal)"
+          curl -s "https://www.bing.com/ping?sitemap=https://tripointlandscaping.com/sitemap.xml" \
+            && echo "✅ Bing pinged" || echo "⚠️  Bing ping failed (non-fatal)"
+
+      - name: Check robots.txt
+        run: |
+          echo "=== Robots.txt Check ==="
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://tripointlandscaping.com/robots.txt)
+          if [ "$STATUS" = "200" ]; then
+            echo "✅ robots.txt accessible"
+          else
+            echo "⚠️  robots.txt returned $STATUS"
+          fi
+
+      - name: Summary
+        run: |
+          echo ""
+          echo "=== Monthly SEO Maintenance Complete ==="
+          echo "Date: $(date)"
+          echo "Site: https://tripointlandscaping.com"
+          echo "All checks done. Review any ❌ items above."

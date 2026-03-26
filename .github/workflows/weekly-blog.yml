@@ -33,3 +33,22 @@ jobs:
           git add app/blog/posts.ts
           git diff --staged --quiet || git commit -m "Add new blog post - $(date +'%B %d, %Y')"
           git push
+
+      - name: Ping Google and Bing with updated sitemap
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://tripointlandscaping.com/sitemap.xml" \
+            && echo "✅ Google pinged" || echo "⚠️ Google ping failed (non-fatal)"
+          curl -s "https://www.bing.com/ping?sitemap=https://tripointlandscaping.com/sitemap.xml" \
+            && echo "✅ Bing pinged" || echo "⚠️ Bing ping failed (non-fatal)"
+
+      - name: Request Google indexing for new post
+        env:
+          GOOGLE_INDEXING_KEY: ${{ secrets.GOOGLE_INDEXING_KEY }}
+        run: node scripts/request-indexing.mjs
+
+      - name: Post to Facebook and Instagram
+        env:
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+        run: node scripts/post-to-social.mjs
