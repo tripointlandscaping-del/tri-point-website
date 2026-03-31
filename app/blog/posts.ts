@@ -1341,5 +1341,63 @@ Spring is the busiest time for lawn care in Washington Township, and our schedul
 
 Tri-Point Landscaping provides professional lawn edging, full lawn maintenance programs, and landscape detailing for homeowners across Macomb County. We offer **free estimates** — no obligation, no pressure. [Contact Tri-Point Landscaping](/contact) today or call us directly at [(586) 327-8080](tel:+15863278080) to get scheduled before the spring rush hits.
     `,
+  }
+,
+  {
+    slug: "how-to-edge-a-lawn-like-a-professional-macomb-county",
+    title: "How to Edge a Lawn Like a Professional in Macomb County, Michigan",
+    description: "Learn professional lawn edging techniques specific to Michigan lawns — tools, timing, angles, and mistakes to avoid for crisp, clean edges all season.",
+    date: "March 31, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## That One Thing That Makes a Lawn Look Professional
+
+You can mow your lawn perfectly, fertilize on schedule, and keep it lush and green — but if the edges are ragged and overgrown, the whole yard looks unkempt. Crisp edges are the single biggest visual difference between a lawn that looks "maintained" and one that looks *professionally* maintained. The good news? With the right tools and technique, you can get that same sharp-cut look yourself. Here's exactly how to do it.
+
+## Choose the Right Edging Tool for the Job
+
+Not all edgers are equal, and using the wrong one is the most common mistake homeowners make.
+
+- **Rotary (stick) edgers** are best for redefining overgrown edges along sidewalks and driveways. The vertical spinning blade cuts straight down through the soil and slices off any grass that has crept over the pavement.
+- **String trimmers used as edgers** work well for maintenance once a clean edge already exists. Flip the trimmer 90 degrees so the string spins vertically — this keeps the line parallel to the pavement and cuts cleanly instead of scalping.
+- **Manual half-moon edgers** are ideal for curved garden beds and tight corners where a power tool is too bulky.
+
+**Pro tip:** In Macomb County, our clay-heavy soil makes edges heal over and fill back in faster than sandier soils downstate. That means you'll need to re-edge sidewalk and driveway borders more aggressively — at least every 2–3 weeks during peak growing season (May through September) rather than just running a trimmer over the surface.
+
+## Timing: When to Edge in Michigan
+
+Don't edge too early in spring. Wait until soil temperatures in Washington Township consistently hit **50°F** — typically around **mid-April to early May** — before you start redefining your edges. Edging frozen or waterlogged clay soil creates a ragged cut that won't heal cleanly and can actually accelerate erosion along the edge.
+
+The best time of day to edge is **mid-morning after the dew has dried** but before afternoon heat. Dry grass cuts cleaner and doesn't clump in the blade. Avoid edging during drought stress periods in July and August; you want the grass healthy enough to recover from the cut.
+
+## The Right Technique: Angle, Depth, and Direction
+
+This is where most DIYers go wrong. Here's the step-by-step professional method:
+
+1. **Mark your line first.** For long straight runs along a sidewalk or driveway, use a taut string line or chalk line as a guide. Your eyes will lie to you — what feels straight rarely is.
+2. **Cut at a 90-degree angle.** The blade should go straight down, not angled inward or outward. Angling inward undercuts the root zone and weakens the turf; angling outward creates a wider gap than necessary.
+3. **Cut 1.5 to 2 inches deep.** This is deep enough to sever the lateral stolons that Kentucky bluegrass and creeping red fescue — common in Macomb County lawns — send out horizontally underground.
+4. **Work in one consistent direction.** Move steadily forward without stopping and starting. Pausing with a rotary edger in one spot will dig a notch instead of a clean line.
+5. **Clean up immediately.** Blow or sweep the cut soil and grass clippings off the pavement right away. Leaving them on a hot driveway in June will stain the concrete and looks sloppy.
+
+**Warning:** Never edge within 3 inches of a buried irrigation head. Mark all heads with small flags before you start, especially if you installed a system within the last few seasons.
+
+## Maintaining Garden Bed Edges All Season
+
+For curved landscape beds, the goal is a **clean, slightly beveled trench** — about 2 inches wide and 2 inches deep — between your mulch and the turf. This acts as a physical barrier that slows grass encroachment and keeps mulch from spilling onto the lawn.
+
+After cutting the edge, remove the soil plug and add it to your compost. Then apply a **2–3 inch layer of fresh mulch** right up to the edge. In Washington Township's hot summers, that mulch layer also reduces moisture loss from the bed significantly — you'll water less and your perennials will thank you.
+
+Recheck bed edges every 4–6 weeks. A quick pass with a half-moon edger or string trimmer is all it takes once the initial edge is established.
+
+## Want Edges That Stay Sharp All Season Without the Work?
+
+Spring is here, and right now is the ideal window to get your lawn's edges properly established before the aggressive Michigan growing season kicks into full gear. A professional first-cut edge set in May makes every maintenance pass easier for the next five months.
+
+At **Tri-Point Landscaping**, we serve homeowners throughout Washington Township and Macomb County with lawn maintenance programs that include professional edging, trimming, and cleanup. We know this area's soil, its clay, its growth patterns, and what it takes to keep a yard looking sharp from May through the first frost.
+
+**Free estimates are available right now** — no obligation, no pressure. [Contact Tri-Point Landscaping](/contact) online or call us directly at [(586) 327-8080](tel:+15863278080) to schedule yours. The sooner you call, the sooner your lawn becomes the one the neighbors are looking at.
+    `,
   },
 ];
