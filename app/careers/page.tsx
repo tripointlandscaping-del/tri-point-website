@@ -7,7 +7,15 @@ export const metadata: Metadata = {
   title: "Join the Team | Tri-Point Landscaping | Macomb County, MI",
   description:
     "Join the Tri-Point Landscaping team in Macomb County, MI. We're hiring crew members for lawn care, landscaping, and snow removal. Apply online today.",
+  keywords: ["landscaping jobs Macomb County", "lawn care jobs Michigan", "landscaping hiring near me", "outdoor jobs Washington Township MI"],
   alternates: { canonical: "https://www.tripointlandscaping.com/careers" },
+  openGraph: {
+    title: "Join the Team | Tri-Point Landscaping | Macomb County, MI",
+    description: "Join the Tri-Point Landscaping team in Macomb County, MI. We're hiring crew members for lawn care, landscaping, and snow removal.",
+    url: "https://www.tripointlandscaping.com/careers",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+  },
 };
 
 const perks = [

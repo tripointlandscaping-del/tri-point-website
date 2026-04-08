@@ -50,10 +50,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 48 service × area pages (e.g. /services/lawn-maintenance/washington-township)
   const serviceAreaPages: MetadataRoute.Sitemap = [];
-  for (const serviceSlag of serviceSlugs) {
-    for (const areaSlag of areaSlugs) {
+  for (const serviceSlug of serviceSlugs) {
+    for (const areaSlug of areaSlugs) {
       serviceAreaPages.push({
-        url: `${BASE}/services/${serviceSlag}/${areaSlag}`,
+        url: `${BASE}/services/${serviceSlug}/${areaSlug}`,
         priority: 0.75,
         changeFrequency: "monthly" as const,
         lastModified: now,

@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.tripointlandscaping.com",
   },
+  other: {
+    "ai-content-declaration": "This website represents a real local business: Tri-Point Landscaping LLC, a professional landscaping company serving Macomb County, Michigan. Phone: (586) 327-8080.",
+  },
 };
 
 export default function RootLayout({
@@ -96,12 +99,14 @@ export default function RootLayout({
                 latitude: 42.7367,
                 longitude: -82.9929,
               },
-              openingHoursSpecification: {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                opens: "00:00",
-                closes: "23:59",
-              },
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  opens: "07:00",
+                  closes: "21:00",
+                },
+              ],
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "5.0",

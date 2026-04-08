@@ -8,8 +8,16 @@ export const metadata: Metadata = {
   title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
   description:
     "Answers to common questions about Tri-Point Landscaping's services, pricing, service areas, insurance, and more. Serving Washington Township, Shelby Township & all of Macomb County, MI.",
+  keywords: ["landscaping FAQ Macomb County", "lawn care questions Michigan", "how much does lawn care cost", "landscaping company near me", "Tri-Point Landscaping FAQ"],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/faq",
+  },
+  openGraph: {
+    title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
+    description: "Answers to common questions about Tri-Point Landscaping's services, pricing, service areas, and more. Serving all of Macomb County, MI.",
+    url: "https://www.tripointlandscaping.com/faq",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
   },
 };
 

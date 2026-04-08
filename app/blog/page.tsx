@@ -15,7 +15,15 @@ function getPublishedPosts() {
 export const metadata: Metadata = {
   title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
   description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+  keywords: ["lawn care tips Macomb County", "landscaping advice Michigan", "lawn maintenance guide", "seasonal lawn care Michigan", "Tri-Point Landscaping blog"],
   alternates: { canonical: "https://www.tripointlandscaping.com/blog" },
+  openGraph: {
+    title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+    url: "https://www.tripointlandscaping.com/blog",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+  },
 };
 
 export default function BlogPage() {
