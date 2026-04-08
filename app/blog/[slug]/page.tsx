@@ -17,6 +17,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: post.title,
     description: post.description,
     alternates: { canonical: `https://www.tripointlandscaping.com/blog/${post.slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
+      siteName: "Tri-Point Landscaping",
+      type: "article",
+      publishedTime: new Date(post.date).toISOString(),
+    },
   };
 }
 

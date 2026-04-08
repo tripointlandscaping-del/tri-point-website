@@ -44,9 +44,49 @@ const serviceAreas = [
   { name: "Bruce Township", slug: "bruce-township", detail: "Northern Macomb County" },
 ];
 
+const homepageFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What landscaping services does Tri-Point Landscaping offer?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, snow removal & ice management, and lawn renovations throughout Macomb County, Michigan.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What areas does Tri-Point Landscaping serve?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township — all in Macomb County, Michigan.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I get a free estimate from Tri-Point Landscaping?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Call or text (586) 327-8080 or fill out our online estimate form at tripointlandscaping.com/contact. We respond same day and estimates are always free with no obligation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Tri-Point Landscaping insured?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Tri-Point Landscaping LLC is fully insured with general liability coverage. We are a licensed Michigan LLC.",
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageFaqSchema) }} />
       <Navbar />
       <main>
 

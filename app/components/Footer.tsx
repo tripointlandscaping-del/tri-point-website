@@ -84,6 +84,8 @@ export default function Footer() {
                 ["Snow & Ice Management", "/services/snow-removal"],
                 ["Lawn Renovations", "/services/lawn-renovations"],
                 ["Commercial", "/commercial"],
+                ["Spring Cleanup", "/spring-cleanup"],
+                ["Pricing", "/pricing"],
               ].map(([name, href]) => (
                 <li key={href}>
                   <Link href={href} className="text-white/55 hover:text-white text-sm transition-colors flex items-center gap-2 group">
@@ -151,7 +153,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-white/30 uppercase tracking-wider">Hours</p>
-                  <p className="text-white/70 text-sm">Mon–Sat: 7AM – 9PM</p>
+                  <p className="text-white/70 text-sm">24/7 — Call or Text Anytime</p>
                 </div>
               </div>
             </div>
@@ -199,6 +201,9 @@ export default function Footer() {
             <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
             <Link href="/careers" className="hover:text-white/60 transition-colors">Careers</Link>
             <Link href="/faq" className="hover:text-white/60 transition-colors">FAQ</Link>
+            <Link href="/pricing" className="hover:text-white/60 transition-colors">Pricing</Link>
+            <Link href="/spring-cleanup" className="hover:text-white/60 transition-colors">Spring Cleanup</Link>
+            <Link href="/service-areas" className="hover:text-white/60 transition-colors">Service Areas</Link>
             <Link href="/privacy-policy" className="hover:text-white/60 transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="hover:text-white/60 transition-colors">Terms &amp; Conditions</Link>
             <a href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">Client Login</a>

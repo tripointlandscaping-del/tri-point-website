@@ -18,6 +18,48 @@ export const metadata: Metadata = {
   },
 };
 
+const jobPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  title: "Landscaping Crew Member",
+  description: "Join Tri-Point Landscaping's growing crew in Macomb County, MI. We're hiring for lawn maintenance, landscaping, and snow removal positions. Full-time and part-time available. Competitive pay based on experience.",
+  hiringOrganization: {
+    "@type": "Organization",
+    name: "Tri-Point Landscaping LLC",
+    sameAs: "https://www.tripointlandscaping.com",
+    logo: "https://www.tripointlandscaping.com/logo-black.png",
+  },
+  jobLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Washington Township",
+      addressRegion: "MI",
+      postalCode: "48094",
+      addressCountry: "US",
+    },
+  },
+  employmentType: ["FULL_TIME", "PART_TIME"],
+  industry: "Landscaping",
+  occupationalCategory: "37-3011.00",
+  datePosted: new Date().toISOString().split("T")[0],
+  validThrough: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split("T")[0],
+  baseSalary: {
+    "@type": "MonetaryAmount",
+    currency: "USD",
+    value: {
+      "@type": "QuantitativeValue",
+      minValue: 16,
+      maxValue: 25,
+      unitText: "HOUR",
+    },
+  },
+  applicantLocationRequirements: {
+    "@type": "Country",
+    name: "US",
+  },
+};
+
 const perks = [
   { emoji: "💰", title: "Competitive Pay", desc: "Paid based on experience and performance. We reward hard workers." },
   { emoji: "📅", title: "Consistent Schedule", desc: "Full-time and part-time positions available. Know your hours in advance." },
@@ -30,6 +72,7 @@ const perks = [
 export default function CareersPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }} />
       <Navbar />
 
       {/* Hero */}
