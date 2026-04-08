@@ -83,10 +83,35 @@ const homepageFaqSchema = {
   ],
 };
 
+const homepageBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LandscapingBusiness",
+  name: "Tri-Point Landscaping LLC",
+  url: "https://www.tripointlandscaping.com",
+  telephone: "+15863278080",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Washington Township",
+    addressRegion: "MI",
+    postalCode: "48094",
+    addressCountry: "US",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "10",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  priceRange: "$$",
+  areaServed: "Macomb County, Michigan",
+};
+
 export default function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageFaqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageBusinessSchema) }} />
       <Navbar />
       <main>
 

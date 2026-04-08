@@ -27,8 +27,43 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
+  const publishedPosts = getPublishedPosts();
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "Tri-Point Landscaping Blog",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners.",
+    url: "https://www.tripointlandscaping.com/blog",
+    publisher: {
+      "@type": "Organization",
+      name: "Tri-Point Landscaping LLC",
+      url: "https://www.tripointlandscaping.com",
+      logo: "https://www.tripointlandscaping.com/logo-black.png",
+    },
+    blogPost: publishedPosts.map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.title,
+      description: p.description,
+      url: `https://www.tripointlandscaping.com/blog/${p.slug}`,
+      datePublished: p.date,
+      author: { "@type": "Organization", name: "Tri-Point Landscaping LLC" },
+    })),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.tripointlandscaping.com/blog" },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Navbar />
 
       <section className="py-20 px-6" style={{ backgroundColor: "#f9f7f4" }}>
@@ -49,7 +84,7 @@ export default function BlogPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {getPublishedPosts().map((post) => (
+            {publishedPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}

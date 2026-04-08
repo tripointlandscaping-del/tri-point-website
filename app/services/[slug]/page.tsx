@@ -412,10 +412,33 @@ export default async function ServicePage({ params }: Props) {
     ],
   };
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.metaDescription,
+    url: `https://www.tripointlandscaping.com/services/${slug}`,
+    provider: {
+      "@type": "LandscapingBusiness",
+      name: "Tri-Point Landscaping LLC",
+      telephone: "+15863278080",
+      url: "https://www.tripointlandscaping.com",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5.0",
+        reviewCount: "10",
+        bestRating: "5",
+        worstRating: "1",
+      },
+    },
+    areaServed: "Macomb County, Michigan",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <Navbar />
       <main>
 

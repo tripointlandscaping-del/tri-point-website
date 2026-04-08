@@ -89,8 +89,19 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
   const relatedServices = categoryServiceMap[post.category] ?? [];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.tripointlandscaping.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.tripointlandscaping.com/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -109,10 +120,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <Navbar />
 
       <article className="max-w-3xl mx-auto px-6 py-20">
-        {/* Back */}
-        <Link href="/blog" className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-gray-700 transition-colors mb-10">
-          ← Back to Blog
-        </Link>
+        {/* Breadcrumb */}
+        <nav className="flex items-center gap-2 text-sm text-gray-400 mb-10" aria-label="Breadcrumb">
+          <Link href="/" className="hover:text-gray-700 transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-gray-700 transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-600 truncate max-w-[200px]">{post.title}</span>
+        </nav>
 
         {/* Header */}
         <div className="mb-10">
