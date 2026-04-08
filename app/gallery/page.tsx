@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Project Gallery | Tri-Point Landscaping",
     description: "Real work. Real results. Browse our project photos from across Macomb County, MI.",
+    url: "https://www.tripointlandscaping.com/gallery",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
   },
 };
 
@@ -104,9 +107,25 @@ const photos = [
 
 const categories = ["All", "Lawn Care", "Landscaping", "Mulch & Stone", "Seasonal Cleanup", "Snow Removal"];
 
+const imageGallerySchema = {
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  name: "Tri-Point Landscaping Project Gallery",
+  description: "Real photos of landscaping, lawn care, mulch installation, and snow removal projects completed by Tri-Point Landscaping in Macomb County, Michigan.",
+  url: "https://www.tripointlandscaping.com/gallery",
+  author: { "@type": "Organization", name: "Tri-Point Landscaping LLC" },
+  image: photos.map((p) => ({
+    "@type": "ImageObject",
+    contentUrl: `https://www.tripointlandscaping.com${p.src}`,
+    description: p.alt,
+    name: p.label,
+  })),
+};
+
 export default function GalleryPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(imageGallerySchema) }} />
       <Navbar />
 
       {/* Hero */}

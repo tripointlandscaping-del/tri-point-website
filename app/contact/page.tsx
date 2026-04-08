@@ -69,12 +69,38 @@ export default function ContactPage() {
     ],
   };
 
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact Tri-Point Landscaping",
+    url: "https://www.tripointlandscaping.com/contact",
+    description: "Request a free landscaping or lawn care estimate from Tri-Point Landscaping in Macomb County, MI.",
+    mainEntity: {
+      "@type": "LandscapingBusiness",
+      name: "Tri-Point Landscaping LLC",
+      telephone: "+15863278080",
+      email: "tripointlandscaping@gmail.com",
+      url: "https://www.tripointlandscaping.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Washington Township",
+        addressRegion: "MI",
+        postalCode: "48094",
+        addressCountry: "US",
+      },
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    },
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
       <Navbar />
       <main>
 
@@ -155,8 +181,7 @@ export default function ContactPage() {
                   <div className="flex-1">
                     <p className="text-xs text-white/40 uppercase tracking-wider mb-0.5">Business Hours</p>
                     <div className="flex flex-wrap gap-x-6 gap-y-1">
-                      <p className="font-bold text-white text-sm">Mon – Sat: 7:00 AM – 9:00 PM</p>
-                      <p className="text-white/50 text-sm">Sunday: Closed</p>
+                      <p className="font-bold text-white text-sm">24/7 — Call or Text Anytime</p>
                     </div>
                   </div>
                 </div>
@@ -183,19 +208,17 @@ export default function ContactPage() {
                   </h3>
                   <div className="space-y-2 text-sm">
                     {[
-                      ["Monday", "7:00 AM – 9:00 PM"],
-                      ["Tuesday", "7:00 AM – 9:00 PM"],
-                      ["Wednesday", "7:00 AM – 9:00 PM"],
-                      ["Thursday", "7:00 AM – 9:00 PM"],
-                      ["Friday", "7:00 AM – 9:00 PM"],
-                      ["Saturday", "7:00 AM – 9:00 PM"],
-                      ["Sunday", "Closed"],
+                      ["Monday", "24/7 — Call or Text"],
+                      ["Tuesday", "24/7 — Call or Text"],
+                      ["Wednesday", "24/7 — Call or Text"],
+                      ["Thursday", "24/7 — Call or Text"],
+                      ["Friday", "24/7 — Call or Text"],
+                      ["Saturday", "24/7 — Call or Text"],
+                      ["Sunday", "24/7 — Call or Text"],
                     ].map(([day, hours]) => (
                       <div key={day} className="flex justify-between items-center py-1.5 border-b border-gray-50 last:border-0">
                         <span className="text-gray-500">{day}</span>
-                        <span className={`font-semibold text-xs ${hours === "Closed" ? "text-red-400" : "text-gray-900"}`}>
-                          {hours}
-                        </span>
+                        <span className="font-semibold text-xs text-gray-900">{hours}</span>
                       </div>
                     ))}
                   </div>
@@ -371,7 +394,7 @@ export default function ContactPage() {
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#7ecb82" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Mon – Sat · 7AM – 9PM
+                24/7 — Call or Text Anytime
               </span>
             </div>
           </div>

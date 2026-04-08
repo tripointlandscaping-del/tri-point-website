@@ -5,6 +5,45 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import FaqAccordion from "../../components/FaqAccordion";
+import { posts } from "../../blog/posts";
+
+const serviceBlogMap: Record<string, string[]> = {
+  "lawn-maintenance": [
+    "how-often-to-mow-lawn-michigan",
+    "how-to-edge-a-lawn-like-a-professional-macomb-county",
+    "michigan-lawn-care-calendar",
+  ],
+  "landscaping": [
+    "best-plants-for-michigan-landscaping",
+    "low-maintenance-landscaping-ideas-macomb-county",
+    "landscaping-washington-township-mi",
+  ],
+  "mulch-and-stone": [
+    "benefits-of-professional-mulching-macomb-county",
+    "how-to-prepare-garden-beds-spring-michigan",
+    "best-plants-for-michigan-landscaping",
+  ],
+  "seasonal-cleanup": [
+    "when-to-schedule-spring-cleanup-macomb-county",
+    "fall-lawn-care-checklist-macomb-county",
+    "how-to-prepare-lawn-for-winter-michigan",
+  ],
+  "snow-removal": [
+    "snow-removal-tips-macomb-county",
+    "how-to-choose-snow-removal-company-macomb-county",
+    "how-to-prepare-lawn-for-winter-michigan",
+  ],
+  "lawn-renovations": [
+    "best-time-to-overseed-lawn-michigan",
+    "how-to-fix-bare-spots-in-your-lawn-michigan",
+    "how-to-choose-the-right-grass-seed-michigan",
+  ],
+  "commercial": [
+    "benefits-of-year-round-lawn-care-contract",
+    "low-maintenance-landscaping-ideas-macomb-county",
+    "michigan-lawn-care-calendar",
+  ],
+};
 
 type ServiceData = {
   title: string;
@@ -349,6 +388,10 @@ export default async function ServicePage({ params }: Props) {
   const service = services[slug];
   if (!service) notFound();
 
+  const relatedPosts = (serviceBlogMap[slug] ?? [])
+    .map((s) => posts.find((p) => p.slug === s))
+    .filter(Boolean) as typeof posts;
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -598,6 +641,34 @@ export default async function ServicePage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* ── RELATED BLOG POSTS ── */}
+        {relatedPosts.length > 0 && (
+          <section className="py-20 bg-[#f9f7f4] border-t border-gray-100">
+            <div className="max-w-7xl mx-auto px-6">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">From the Blog</p>
+              <h2
+                style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                className="text-3xl font-bold text-gray-900 mb-10"
+              >
+                Tips & Guides
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {relatedPosts.map((p) => (
+                  <Link
+                    key={p.slug}
+                    href={`/blog/${p.slug}`}
+                    className="group bg-white border border-gray-100 hover:border-green-200 p-6 hover:shadow-md transition-all"
+                  >
+                    <span className="text-xs font-bold uppercase tracking-widest" style={{ color: "#2C5F2E" }}>{p.category}</span>
+                    <h3 className="text-base font-bold text-gray-900 mt-2 mb-2 group-hover:text-[#2C5F2E] transition-colors leading-snug">{p.title}</h3>
+                    <span className="text-xs text-gray-400">{p.readTime}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ── RELATED SERVICES ── */}
         {service.relatedServices.length > 0 && (

@@ -5,6 +5,28 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { posts } from "../posts";
 
+const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
+  "Lawn Care": [
+    { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
+    { name: "Lawn Renovations", href: "/services/lawn-renovations" },
+  ],
+  "Landscaping": [
+    { name: "Landscaping", href: "/services/landscaping" },
+    { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
+  ],
+  "Seasonal": [
+    { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
+    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+  ],
+  "Snow Removal": [
+    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+  ],
+  "Tips": [
+    { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
+    { name: "Landscaping", href: "/services/landscaping" },
+  ],
+};
+
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
@@ -65,6 +87,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) notFound();
 
   const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
+  const relatedServices = categoryServiceMap[post.category] ?? [];
 
   return (
     <>
@@ -114,6 +137,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="border-t border-gray-100 pt-10 space-y-2">
           {renderContent(post.content)}
         </div>
+
+        {/* Related services */}
+        {relatedServices.length > 0 && (
+          <div className="mt-12 p-6 border border-gray-100 bg-[#f9f7f4]">
+            <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "#2C5F2E" }}>Our Services</p>
+            <div className="flex flex-wrap gap-3">
+              {relatedServices.map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
+                  className="inline-flex items-center gap-2 border border-green-700 text-green-700 px-4 py-2 text-sm font-semibold hover:bg-green-700 hover:text-white transition-colors"
+                >
+                  {s.name} →
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* CTA */}
         <div className="mt-16 p-8 text-center" style={{ backgroundColor: "#2C5F2E" }}>
