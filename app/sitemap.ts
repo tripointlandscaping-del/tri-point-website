@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { posts } from "./blog/posts";
 
 const BASE = "https://www.tripointlandscaping.com";
 
@@ -28,9 +29,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE}/about`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE}/contact`, priority: 0.9, changeFrequency: "monthly" as const },
+    { url: `${BASE}/services`, priority: 0.9, changeFrequency: "monthly" as const },
+    { url: `${BASE}/blog`, priority: 0.8, changeFrequency: "weekly" as const },
+    { url: `${BASE}/faq`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${BASE}/gallery`, priority: 0.7, changeFrequency: "monthly" as const },
+    { url: `${BASE}/careers`, priority: 0.6, changeFrequency: "monthly" as const },
+    { url: `${BASE}/commercial`, priority: 0.9, changeFrequency: "monthly" as const },
+    { url: `${BASE}/review`, priority: 0.5, changeFrequency: "yearly" as const },
     { url: `${BASE}/privacy-policy`, priority: 0.3, changeFrequency: "yearly" as const },
     { url: `${BASE}/terms-and-conditions`, priority: 0.3, changeFrequency: "yearly" as const },
   ];
+
+  // Blog posts
+  const blogPages = posts
+    .filter((p) => new Date(p.date) <= new Date())
+    .map((p) => ({
+      url: `${BASE}/blog/${p.slug}`,
+      priority: 0.7,
+      changeFrequency: "monthly" as const,
+      lastModified: new Date(p.date),
+    }));
 
   // 8 service pages
   const servicePages = serviceSlugs.map((slug) => ({
@@ -66,5 +84,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...servicePages,
     ...areaPages,
     ...serviceAreaPages,
+    ...blogPages,
   ];
 }

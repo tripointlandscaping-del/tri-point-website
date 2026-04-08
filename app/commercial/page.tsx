@@ -105,12 +105,12 @@ export default function CommercialPage() {
               "@type": "LocalBusiness",
               name: "Tri-Point Landscaping LLC",
               telephone: "+15863278080",
-              url: "https://tripointlandscaping.com",
+              url: "https://www.tripointlandscaping.com",
             },
             areaServed: "Macomb County, MI",
             description:
               "Commercial landscaping, lawn maintenance contracts, snow removal and grounds management for HOAs, business parks and property managers in Macomb County, Michigan.",
-            url: "https://tripointlandscaping.com/commercial",
+            url: "https://www.tripointlandscaping.com/commercial",
           }),
         }}
       />

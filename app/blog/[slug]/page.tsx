@@ -70,8 +70,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             description: post.description,
             datePublished: post.date,
             author: { "@type": "Organization", name: "Tri-Point Landscaping LLC" },
-            publisher: { "@type": "Organization", name: "Tri-Point Landscaping LLC", url: "https://tripointlandscaping.com" },
-            url: `https://tripointlandscaping.com/blog/${post.slug}`,
+            publisher: { "@type": "Organization", name: "Tri-Point Landscaping LLC", url: "https://www.tripointlandscaping.com" },
+            url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
           }),
         }}
       />

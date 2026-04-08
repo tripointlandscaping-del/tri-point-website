@@ -95,11 +95,13 @@ async function generatePosts() {
   const existingTitles = [...currentContent.matchAll(/title:\s*["']([^"']+)["']/g)].map((m) => m[1].toLowerCase());
 
   const available = TOPIC_POOL.filter((topic) => {
-    const keywords = topic.toLowerCase().split(" ").filter((w) => w.length > 4);
-    return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 3);
+    const keywords = topic.toLowerCase().split(" ").filter((w) => w.length > 3);
+    return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 2);
   });
 
-  const topics = available.slice(0, 1); // 1 topic per run (runs twice a week = 2 posts/week)
+  // Shuffle so we don't always pick the same topic
+  const shuffled = available.sort(() => Math.random() - 0.5);
+  const topics = shuffled.slice(0, 1);
   console.log("Generating post for topic:", topics[0]);
 
   const today = new Date();

@@ -62,6 +62,70 @@ const faqs = [
     q: "What makes Tri-Point different from other landscaping companies?",
     a: "We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our 5.0★ Google rating from real Macomb County homeowners speaks for itself.",
   },
+  {
+    q: "What is the best time to aerate a lawn in Michigan?",
+    a: "In Michigan, the best time to aerate cool-season lawns is late August through October — when temperatures drop and grass is actively growing roots. Spring aeration (April–May) is also effective but fall is preferred because weeds are less aggressive and the lawn has all winter to recover. Avoid aerating during summer heat stress.",
+  },
+  {
+    q: "How much does landscaping cost in Washington Township?",
+    a: "Landscaping project costs vary widely depending on scope. A basic mulch and bed cleanup typically runs $300–$800. A full landscape design and installation for a front yard can range from $2,000–$10,000+ depending on materials, plants, and labor. We provide free detailed estimates so you know exactly what you're getting before any work begins.",
+  },
+  {
+    q: "Do you offer lawn care contracts or one-time services?",
+    a: "Both. We offer seasonal contracts for weekly lawn maintenance, which most of our customers prefer for consistent results and priority scheduling. We also take on one-time jobs like spring cleanups, mulch installations, and aeration. Call or text (586) 327-8080 to discuss what works best for your situation.",
+  },
+  {
+    q: "What types of mulch do you offer?",
+    a: "We offer a range of mulch options including hardwood, cedar, black dyed, brown dyed, and natural. We also install decorative stone, river rock, and lava rock as alternatives to mulch. During your free estimate, we'll walk you through the options and help you choose what works best for your landscape style and budget.",
+  },
+  {
+    q: "Do you work on weekends?",
+    a: "Yes — our crews work Monday through Saturday. We're available 24/7 by phone or text at (586) 327-8080 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
+  },
+  {
+    q: "What's included in weekly lawn maintenance?",
+    a: "Our weekly lawn maintenance includes mowing at the correct height for your grass type, edging along all hard surfaces (driveway, sidewalk, beds), trimming around obstacles like fences and trees, and blowing clippings off all hard surfaces. We leave your property clean and sharp every single visit.",
+  },
+  {
+    q: "How do I know if I need lawn renovation or just regular maintenance?",
+    a: "If more than 50% of your lawn is bare, thin, or overrun with weeds, renovation is likely the better investment. Signs you need renovation include large dead patches, soil that's rock-hard even after rain, or a lawn that hasn't responded to fertilizer or overseeding. We'll assess your lawn during the free estimate and give you an honest recommendation.",
+  },
+  {
+    q: "When should I book spring cleanup?",
+    a: "As early as possible — ideally January or February. Our spring cleanup schedule fills fast because demand peaks in March and April when everyone wants their property ready at the same time. Customers who book early get priority scheduling and the best available slots. Call (586) 327-8080 to get on the schedule now.",
+  },
+  {
+    q: "Do you offer mulch delivery only, without installation?",
+    a: "Our mulch services include delivery and installation together. We don't do delivery-only, but our installation pricing is competitive and includes all the labor to properly prep and place the mulch in your beds. Most customers find the full-service option saves them significant time and effort.",
+  },
+  {
+    q: "Can you help design my landscape from scratch?",
+    a: "Yes. We work with homeowners from concept through completion. Whether you have a clear vision or no idea where to start, we'll walk your property, understand your goals and budget, and develop a plan that works. We handle everything — design, plant selection, installation, and cleanup.",
+  },
+  {
+    q: "What's the difference between aeration and dethatching?",
+    a: "Aeration uses hollow tines to pull plugs of soil from the ground, reducing compaction and improving water and nutrient penetration. Dethatching removes the layer of dead grass stems and roots (thatch) that accumulates between the soil surface and green grass. Many Michigan lawns benefit from both — aeration in fall, dethatching in early spring before new growth begins.",
+  },
+  {
+    q: "Do you service rental properties or landlords with multiple properties?",
+    a: "Yes. We work with landlords, property managers, and investors who own multiple rental properties in Macomb County. We can set up recurring maintenance on multiple addresses under one account and provide consolidated billing. Call (586) 327-8080 to discuss a multi-property arrangement.",
+  },
+  {
+    q: "How far in advance should I book snow removal?",
+    a: "We recommend booking snow removal contracts before November 1st. Once winter hits, our schedule is typically full. Customers who lock in seasonal contracts before the first snowfall get guaranteed service all winter without having to call each storm. Don't wait until December — spots go fast.",
+  },
+  {
+    q: "What should I do to prepare my lawn for spring?",
+    a: "The most important thing is to stay off a wet, soft lawn in early spring to avoid soil compaction. Once the ground firms up, schedule a spring cleanup to remove debris and dead material, apply pre-emergent weed control before soil temps hit 50°F, and consider aeration if you skipped it in fall. We can handle all of this — just call (586) 327-8080 for a free spring assessment.",
+  },
+  {
+    q: "Do you offer senior discounts?",
+    a: "We always aim to provide the most competitive pricing in Macomb County regardless of age, but we're happy to discuss your situation when you call. We treat every customer fairly and price based on the actual scope of work — not a flat rate that ignores your specific property.",
+  },
+  {
+    q: "How quickly can you start after I call?",
+    a: "For estimates, we typically respond same day — often within the hour. For actual service start dates, it depends on the time of year. During peak spring season, lead times can be 1–2 weeks. In the off-season, we can often start within days. Call (586) 327-8080 and we'll tell you exactly what our current availability looks like.",
+  },
 ];
 
 const faqSchema = {

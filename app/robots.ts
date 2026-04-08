@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://tripointlandscaping.com/sitemap.xml",
-    host: "https://tripointlandscaping.com",
+    sitemap: "https://www.tripointlandscaping.com/sitemap.xml",
+    host: "https://www.tripointlandscaping.com",
   };
 }

@@ -250,7 +250,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: area.metaTitle,
       description: area.metaDescription,
-      url: `https://tripointlandscaping.com/service-areas/${slug}`,
+      url: `https://www.tripointlandscaping.com/service-areas/${slug}`,
     },
   };
 }
@@ -268,19 +268,19 @@ export default async function ServiceAreaPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://tripointlandscaping.com" },
-      { "@type": "ListItem", position: 2, name: "Service Areas", item: "https://tripointlandscaping.com/service-areas" },
-      { "@type": "ListItem", position: 3, name: area.name, item: `https://tripointlandscaping.com/service-areas/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+      { "@type": "ListItem", position: 2, name: "Service Areas", item: "https://www.tripointlandscaping.com/service-areas" },
+      { "@type": "ListItem", position: 3, name: area.name, item: `https://www.tripointlandscaping.com/service-areas/${slug}` },
     ],
   };
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LandscapingBusiness",
-    "@id": `https://tripointlandscaping.com/service-areas/${slug}`,
+    "@id": `https://www.tripointlandscaping.com/service-areas/${slug}`,
     name: "Tri-Point Landscaping LLC",
-    image: "https://tripointlandscaping.com/logo-black.png",
-    url: `https://tripointlandscaping.com/service-areas/${slug}`,
+    image: "https://www.tripointlandscaping.com/logo-black.png",
+    url: `https://www.tripointlandscaping.com/service-areas/${slug}`,
     telephone: "+15863278080",
     email: "tripointlandscaping@gmail.com",
     address: {

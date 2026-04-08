@@ -334,7 +334,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://tripointlandscaping.com/services/${slug}`,
+      url: `https://www.tripointlandscaping.com/services/${slug}`,
       images: [{ url: service.heroImage, alt: service.heroAlt }],
     },
   };
@@ -363,9 +363,9 @@ export default async function ServicePage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://tripointlandscaping.com" },
-      { "@type": "ListItem", position: 2, name: "Services", item: "https://tripointlandscaping.com/services" },
-      { "@type": "ListItem", position: 3, name: service.title, item: `https://tripointlandscaping.com/services/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://www.tripointlandscaping.com/services" },
+      { "@type": "ListItem", position: 3, name: service.title, item: `https://www.tripointlandscaping.com/services/${slug}` },
     ],
   };
 
