@@ -246,7 +246,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: area.metaTitle,
     description: area.metaDescription,
-    alternates: { canonical: `https://tripointlandscaping.com/service-areas/${slug}` },
+    alternates: { canonical: `https://www.tripointlandscaping.com/service-areas/${slug}` },
     openGraph: {
       title: area.metaTitle,
       description: area.metaDescription,

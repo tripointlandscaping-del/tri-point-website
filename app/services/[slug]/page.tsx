@@ -330,7 +330,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: service.metaTitle,
     description: service.metaDescription,
-    alternates: { canonical: `https://tripointlandscaping.com/services/${slug}` },
+    alternates: { canonical: `https://www.tripointlandscaping.com/services/${slug}` },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
