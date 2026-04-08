@@ -84,8 +84,6 @@ export default function Footer() {
                 ["Snow & Ice Management", "/services/snow-removal"],
                 ["Lawn Renovations", "/services/lawn-renovations"],
                 ["Commercial", "/commercial"],
-                ["Spring Cleanup", "/spring-cleanup"],
-                ["Pricing", "/pricing"],
               ].map(([name, href]) => (
                 <li key={href}>
                   <Link href={href} className="text-white/55 hover:text-white text-sm transition-colors flex items-center gap-2 group">
@@ -201,8 +199,6 @@ export default function Footer() {
             <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
             <Link href="/careers" className="hover:text-white/60 transition-colors">Careers</Link>
             <Link href="/faq" className="hover:text-white/60 transition-colors">FAQ</Link>
-            <Link href="/pricing" className="hover:text-white/60 transition-colors">Pricing</Link>
-            <Link href="/spring-cleanup" className="hover:text-white/60 transition-colors">Spring Cleanup</Link>
             <Link href="/service-areas" className="hover:text-white/60 transition-colors">Service Areas</Link>
             <Link href="/privacy-policy" className="hover:text-white/60 transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="hover:text-white/60 transition-colors">Terms &amp; Conditions</Link>
