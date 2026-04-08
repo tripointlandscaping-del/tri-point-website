@@ -425,7 +425,7 @@ export default async function ServicePage({ params }: Props) {
       url: "https://www.tripointlandscaping.com",
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "5.0",
+        ratingValue: "4.9",
         reviewCount: "10",
         bestRating: "5",
         worstRating: "1",
