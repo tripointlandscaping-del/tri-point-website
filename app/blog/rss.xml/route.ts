@@ -8,16 +8,19 @@ export async function GET() {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 20);
 
+  const escape = (str: string) =>
+    str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
   const items = publishedPosts
     .map(
       (post) => `
     <item>
-      <title><![CDATA[${post.title}]]></title>
+      <title>${escape(post.title)}</title>
       <link>${BASE}/blog/${post.slug}</link>
       <guid isPermaLink="true">${BASE}/blog/${post.slug}</guid>
-      <description><![CDATA[${post.description}]]></description>
+      <description>${escape(post.description)}</description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
-      <category>${post.category}</category>
+      <category>${escape(post.category)}</category>
     </item>`
     )
     .join("");
