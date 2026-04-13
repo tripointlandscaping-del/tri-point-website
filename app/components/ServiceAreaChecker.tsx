@@ -40,6 +40,18 @@ const serviceAreas: { name: string; slug: string; coreNames: string[]; zips: str
     coreNames: ["bruce"],
     zips: ["48065", "48097"],
   },
+  {
+    name: "Rochester",
+    slug: "rochester",
+    coreNames: ["rochester"],
+    zips: ["48306", "48307", "48308"],
+  },
+  {
+    name: "Rochester Hills",
+    slug: "rochester-hills",
+    coreNames: ["rochester hills"],
+    zips: ["48306", "48307", "48309", "48310"],
+  },
 ];
 
 // Levenshtein distance — measures how many edits between two strings
@@ -249,7 +261,7 @@ export default function ServiceAreaChecker() {
               <div>
                 <p className="text-red-300 font-semibold text-sm">We don&apos;t currently serve that area.</p>
                 <p className="text-white/50 text-xs mt-1">
-                  We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township & Bruce Township.{" "}
+                  We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills.{" "}
                   <a href="tel:+15863278080" className="text-green-400 underline hover:text-green-300">Call us</a> to confirm — we may be able to help.
                 </p>
               </div>
