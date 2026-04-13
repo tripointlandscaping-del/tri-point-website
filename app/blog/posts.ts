@@ -1396,4 +1396,365 @@ Spring in Washington Township moves fast — beds that need fresh topsoil, compo
 **Estimates are always free.** [Contact Tri-Point Landscaping](/contact) today to get on the schedule before the spring rush, or give us a call at [(586) 327-8080](tel:+15863278080). We're local to Macomb County and we know exactly what this Michigan soil needs.
     `,
   },
+  {
+    slug: "lawn-care-service-shelby-township-mi",
+    title: "Lawn Care Service in Shelby Township, MI: What to Expect From a Professional",
+    description: "Looking for reliable lawn care in Shelby Township? Here's exactly what a professional lawn maintenance service includes — and how to choose the right one.",
+    date: "April 10, 2026",
+    category: "Lawn Maintenance",
+    readTime: "5 min read",
+    content: `
+## Why Shelby Township Homeowners Are Done Mowing Their Own Lawns
+
+Shelby Township has grown into one of Macomb County's most desirable communities — and the expectations for property appearance have grown with it. Subdivision after subdivision along 23 Mile, 24 Mile, and Schoenherr is filled with homeowners who want a sharp, consistent lawn without spending every Saturday behind a mower. That's exactly the gap professional lawn care fills.
+
+But not all lawn services are created equal. If you've ever had a crew show up inconsistently, skip edges, or leave clippings all over your driveway, you already know the difference between a professional operation and someone with a truck and a used mower.
+
+Here's what a genuinely professional lawn care service should include — and what to look for when hiring in Shelby Township.
+
+## What Every Visit Should Include
+
+**1. Mowing at the correct height.** Michigan lawns — primarily Kentucky bluegrass, fine fescue, and perennial ryegrass — should be cut at 3 to 3.5 inches during peak growing season. Cutting shorter stresses the turf, invites crabgrass, and causes drought damage during July's dry stretches. A professional knows this and adjusts accordingly.
+
+**2. Clean, crisp edging.** The line between your lawn and your driveway, sidewalk, or mulch beds is what makes a property look maintained versus neglected. Every professional visit should include edging along all hard surfaces and bed borders — not just mowing and blowing.
+
+**3. String trimming around all obstacles.** Mailboxes, fences, tree rings, downspouts — every obstacle that a mower can't reach needs to be trimmed by hand. A crew that skips this leaves your lawn looking half-done.
+
+**4. Full blowing of hard surfaces.** Grass clippings left on driveways and sidewalks look sloppy and stain concrete over time. Every visit should end with a thorough blow-off of all hard surfaces on the property.
+
+## What to Ask Before Hiring a Lawn Care Company in Shelby Township
+
+- **Are you insured?** General liability insurance protects your property if something goes wrong. Any legitimate company will have it and provide proof.
+- **Do you have a set crew?** Consistency matters. Rotating random workers means inconsistent results. Ask if you'll have the same team each week.
+- **How do you handle skipped cuts during drought?** A professional service adjusts mowing frequency based on actual growth — not a rigid schedule that ignores your lawn's condition.
+- **What's your communication process?** You should receive notice before each visit and a way to contact someone quickly if there's an issue.
+
+## Seasonal Lawn Care Timeline for Shelby Township
+
+Michigan lawns don't follow a one-size-fits-all schedule. Here's what a full-service lawn care program should include across the year:
+
+- **April:** Spring startup — first cut, edge refresh, assessment of winter damage
+- **May–June:** Weekly mowing, edging, trimming at full schedule
+- **July:** Adjusted frequency during drought; raise cutting height to reduce heat stress
+- **August–September:** Resume full schedule as cooler temperatures return; ideal window for aeration and overseeding
+- **October:** Final cuts, fall cleanup begins
+- **November:** End-of-season shutdown, winterization recommendations
+
+## Tri-Point Landscaping Serves All of Shelby Township
+
+Tri-Point Landscaping provides professional weekly lawn maintenance for residential and commercial properties throughout Shelby Township. We're locally based in Macomb County — not a franchise routing crews from Detroit — and we hold a **4.9-star Google rating** from real homeowners in your area.
+
+Free estimates, same-day response, and no contracts that lock you in before you're sure. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080) to get on our schedule before the spring rush fills up.
+    `,
+  },
+  {
+    slug: "spring-lawn-care-checklist-washington-township",
+    title: "Spring Lawn Care Checklist for Washington Township, MI (2026)",
+    description: "The complete spring lawn care checklist for Washington Township homeowners — what to do, when to do it, and what order actually matters.",
+    date: "April 11, 2026",
+    category: "Lawn Maintenance",
+    readTime: "6 min read",
+    content: `
+## Spring in Washington Township Moves Fast — Don't Miss the Window
+
+Every spring in Macomb County, there's a narrow window where the right lawn care work produces dramatic results for the rest of the season. Miss it, and you're playing catch-up through July. Hit it right, and your lawn runs thick, green, and healthy through October with minimal effort.
+
+This checklist is built specifically for Washington Township — the soil conditions, the typical Michigan spring timeline, and the specific tasks that matter most here.
+
+## Step 1: Stay Off the Lawn Until the Ground Firms Up (Late March – Early April)
+
+Michigan springs are wet. Washington Township's clay-heavy soil stays saturated well into April in most years. Walking or mowing on wet, soft soil compacts it at the root zone, which reduces water and oxygen penetration for the entire season. **Wait until the soil feels firm underfoot before any foot traffic or equipment.**
+
+A good test: press your heel into the turf. If it leaves a deep impression, wait another week.
+
+## Step 2: Spring Cleanup — Do This First (Early to Mid-April)
+
+Before any fertilizer or seed goes down, the lawn needs to be clean.
+
+- Remove all debris, sticks, and matted leaf piles from winter
+- Cut back any perennials that weren't trimmed in fall
+- Clear beds and re-edge all borders with a sharp spade
+- Rake out any areas with heavy thatch buildup
+
+Skipping this step and going straight to fertilizer or overseeding is one of the most common mistakes Washington Township homeowners make. Seed needs soil contact, not a layer of dead material.
+
+**If you want this handled professionally, Tri-Point Landscaping's spring cleanup service covers all of the above — including haul-away — in a single visit.** [Schedule your spring cleanup →](/contact)
+
+## Step 3: Apply Pre-Emergent Weed Control (Late April — When Soil Hits 50°F)
+
+Crabgrass is the #1 weed problem in Macomb County lawns, and it germinates when soil temperatures hit 50–55°F — typically late April to early May in Washington Township. Pre-emergent weed control creates a barrier in the soil that stops crabgrass seeds from germinating.
+
+**Miss this window and you'll be fighting crabgrass all summer.** Once it's up, the only options are spot-treating with a contact killer or waiting for frost to knock it out in October.
+
+Forsythia bloom is a reliable natural indicator — when you see it flowering in your neighborhood, pre-emergent time has arrived.
+
+## Step 4: Start Weekly Mowing at the Right Height (When Grass Hits 4–5 Inches)
+
+Your first mow of the season should happen when the lawn has grown to 4–5 inches — never cut more than one-third of the blade at once. For most Washington Township lawns (predominantly Kentucky bluegrass and fescue blends), target a **3 to 3.5-inch mowing height** through the season.
+
+Keep mower blades sharp. Dull blades tear grass instead of cutting it cleanly, which creates a brown fringe on blade tips and increases disease susceptibility.
+
+## Step 5: Fertilize — But Time It Right (Late May, Not Early April)
+
+Many homeowners make the mistake of fertilizing in early April when the lawn first greens up. This stimulates excessive shoot growth at the expense of root development — exactly the wrong thing to do heading into summer.
+
+**In Michigan, the ideal first fertilizer application is late May**, after the spring surge has calmed and roots have had time to develop. Use a slow-release nitrogen fertilizer appropriate for your turf type.
+
+If you applied pre-emergent, check compatibility — some pre-emergent products affect fertilizer uptake.
+
+## Step 6: Assess for Aeration and Overseeding Needs (May–June)
+
+Walk your lawn and note any areas that are:
+- Thin or bare despite adequate water and fertilizer
+- Hard and compacted (water puddles instead of absorbing)
+- Dominated by weeds where grass won't thicken
+
+These areas benefit from **core aeration** — which relieves compaction and opens channels for water and nutrients — followed by **overseeding** with premium grass seed. In Michigan, **fall (late August through October) is the best window for aeration and overseeding**, but a spring assessment tells you what to plan for.
+
+## Need Help This Spring?
+
+Tri-Point Landscaping handles the entire spring routine for Washington Township homeowners — cleanup, mulch, edging, weekly maintenance, and all the detail work that makes a lawn look professionally maintained from the first warm weekend of the season.
+
+**Estimates are always free.** [Contact us here](/contact) or call [(586) 327-8080](tel:+15863278080). Spring schedules fill fast — the best time to call is now.
+    `,
+  },
+  {
+    slug: "commercial-landscaping-macomb-county",
+    title: "Commercial Landscaping in Macomb County: What Property Managers Need to Know",
+    description: "A practical guide for Macomb County property managers on what to expect from a commercial landscaping contract — and how to avoid the most common mistakes.",
+    date: "April 11, 2026",
+    category: "Commercial",
+    readTime: "6 min read",
+    content: `
+## The Standard for Commercial Landscaping in Macomb County Has Changed
+
+Ten years ago, commercial landscaping in Macomb County meant whoever showed up cheapest with the most trucks. Today, property managers and HOA boards have gotten smarter — and the bar for what counts as "professional" has risen significantly.
+
+Tenants, residents, and customers notice curb appeal. A poorly maintained commercial property communicates neglect. A consistently sharp one communicates that the business or community takes quality seriously. That impression forms in the first 30 seconds someone pulls into your parking lot.
+
+Here's what a serious commercial landscaping contract should include — and what to look for when evaluating providers in Macomb County.
+
+## What Should Be in a Commercial Landscaping Contract
+
+**Weekly or bi-weekly mowing.** Commercial properties can't tolerate the inconsistency that plagues some residential services. You need a firm, scheduled program with a dedicated crew that knows your property.
+
+**Edging and detail work.** Commercial properties have high expectations for curb detail — clean edges along parking lot curbs, walkways, and bed borders. Sloppy edging undermines everything else.
+
+**Bed maintenance.** Seasonal bed cleanup, mulch refresh, and ongoing weed control keep planting areas looking professional. A mulch refresh in spring is one of the highest-ROI investments in commercial curb appeal.
+
+**Snow and ice management.** Liability is a major concern for commercial properties. A professional snow removal contract with a clear trigger depth, guaranteed response time, and documented ice treatment is essential for Macomb County winters.
+
+**Certificates of insurance.** Every commercial landscaping provider should carry general liability insurance and workers' compensation, and provide current certificates of insurance on request. This is non-negotiable.
+
+## Types of Macomb County Commercial Properties We Serve
+
+Commercial landscaping in northern Macomb County spans a wide range of property types:
+
+- **Office parks and corporate campuses** along Van Dyke, Mound, and M-53 corridors
+- **Retail centers and strip malls** throughout Shelby Township, Washington Township, and Macomb Township
+- **HOA common areas** in the subdivision communities that define northern Macomb County's residential landscape
+- **Apartment complexes and multi-family communities** requiring year-round maintenance and professional curb appeal
+- **Medical and professional buildings** where a well-maintained exterior signals the quality of what's inside
+
+## What Separates Professional Commercial Landscapers From the Rest
+
+**1. Dedicated account management.** You should have a single point of contact who knows your property, responds within hours, and coordinates everything without requiring you to micromanage.
+
+**2. Documented service records.** Good commercial landscapers keep service logs — when crews visited, what was done, any issues noted. This protects you and creates accountability.
+
+**3. Flexible scope.** Your needs change seasonally. Spring means mulch and cleanup, summer means consistent mowing, fall means leaf removal and winterization, winter means snow. Your contract should cover the full cycle — not just mowing months.
+
+**4. Competitive, transparent pricing.** Commercial pricing should be based on actual property measurements and scope, not a vague "trust us" rate. Ask for a line-item breakdown.
+
+## Tri-Point Landscaping Serves Commercial Properties Throughout Macomb County
+
+Tri-Point Landscaping LLC works with property managers, HOA boards, office park owners, and retail property operators across Washington Township, Shelby Township, Macomb Township, and surrounding Macomb County communities.
+
+We provide full-service commercial programs including weekly mowing, bed maintenance, seasonal cleanup, mulch installation, and snow and ice management — all under one contract, with one reliable crew.
+
+**Free commercial estimates — no obligation.** [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080) to discuss your property's needs. We'll respond same day.
+    `,
+  },
+  {
+    slug: "landscape-design-ideas-washington-township",
+    title: "Landscape Design Ideas for Washington Township Homes: What's Working in 2026",
+    description: "The most popular landscape design trends in Washington Township, MI — and which ones actually work in Michigan's climate and soil.",
+    date: "April 12, 2026",
+    category: "Landscaping",
+    readTime: "5 min read",
+    content: `
+## Washington Township Has One of the Highest Landscaping Standards in Macomb County
+
+Drive through any established subdivision in Washington Township — Stony Creek Meadows, Chattaburg Park, or the neighborhoods clustered around 26 Mile and Romeo Plank — and you'll notice something: the best-looking properties all share a few common design decisions.
+
+It's not about spending the most money. It's about knowing what works in Michigan's specific climate, soil, and four-season environment. Here are the landscape design approaches that are delivering the best results for Washington Township homeowners right now.
+
+## 1. Native and Adapted Plants Over High-Maintenance Exotics
+
+The shift toward low-maintenance native plantings has been accelerating in Macomb County for years, and for good reason. Plants native to Michigan — like coneflowers (Echinacea), black-eyed Susans, native grasses, and serviceberry shrubs — are adapted to the region's clay-heavy soil, cold winters, and variable rainfall. They establish faster, require less supplemental watering once mature, and look better through Michigan's challenging summer dry spells.
+
+Compare that to many exotic ornamentals that need constant attention, fall apart in a heavy Michigan winter, or simply never establish properly in Macomb County's clay subsoil.
+
+**For Washington Township specifically:** Arborvitae hedges along property lines, Karl Foerster grasses in bed borders, and native perennial groupings around front entries are consistently among the best-performing choices.
+
+## 2. Defined Beds With Sharp Edges — The Single Biggest Upgrade
+
+Nothing transforms a property's appearance faster than clean, deeply-defined bed edges. A sharp spade edge along your driveway, front walk, and foundation plantings creates a crisp line that immediately signals a maintained, professional landscape.
+
+Homeowners spend thousands on new plants and still have a property that looks average — because the beds are soft and blurry at the border. Fix the edges and the entire landscape reads differently.
+
+**In Washington Township's clay soil**, a well-cut edge also helps with drainage — directing water away from plant root zones rather than pooling at bed margins.
+
+## 3. Layered Plantings — Tall Back, Short Front
+
+The best-looking foundation beds in Washington Township follow a simple rule: taller plants toward the structure, shorter plants toward the lawn edge, with mid-height plants in between. This "layered" approach creates visual depth and ensures nothing gets buried or overwhelmed.
+
+A typical three-layer front bed might include:
+- **Back layer:** Arborvitae or ornamental grasses (4–6 feet)
+- **Middle layer:** Knockout roses, spirea, or native shrubs (2–4 feet)
+- **Front layer:** Daylilies, sedums, creeping juniper, or groundcovers (under 2 feet)
+
+This structure stays attractive across all four seasons and requires minimal annual replanting.
+
+## 4. Stone Mulch for Low-Maintenance Longevity
+
+Wood mulch needs replacing every 1–2 years and breaks down faster under Washington Township's Michigan sun and freeze-thaw cycles. For beds along the front of the house, around trees, or in high-visibility areas, **decorative stone is the premium long-term choice**.
+
+River rock and crushed stone don't fade, blow away, or float during heavy spring rains. They're also significantly more effective at weed suppression over time. The upfront cost is higher than wood mulch, but the total cost over 5–10 years is much lower.
+
+## 5. Outdoor Lighting That Works Year-Round
+
+Landscape lighting is one of the most underutilized investments in Washington Township. Low-voltage LED path lights, uplighting on specimen trees, and accent lights along steps and entries add dimension to any property — and they work all year, including winter when everything else is buried in snow.
+
+Energy consumption is minimal with modern LED systems, and installation can typically be done without trenching or major disruption to existing plantings.
+
+## Ready to Transform Your Washington Township Property?
+
+Tri-Point Landscaping provides landscape design consultations, full installation, and ongoing maintenance for Washington Township homeowners. We specialize in plant selections that thrive in Michigan's climate and designs that look great across all four seasons.
+
+**Free estimates — no obligation.** [Contact us here](/contact) or call [(586) 327-8080](tel:+15863278080). We'll walk your property, understand your goals, and put together a plan that works.
+    `,
+  },
+  {
+    slug: "snow-plowing-service-shelby-township",
+    title: "Snow Plowing Service in Shelby Township, MI: What to Know Before Winter",
+    description: "Everything Shelby Township homeowners need to know about professional snow plowing — contracts vs. per-push, what's included, and when to book.",
+    date: "April 12, 2026",
+    category: "Snow Removal",
+    readTime: "5 min read",
+    content: `
+## Shelby Township Winters Are Serious — Your Driveway Shouldn't Be a Problem
+
+Michigan winters in Shelby Township average 30–40 inches of snowfall per season, with lake-effect events from Lake Huron and Lake Erie pushing that number higher in some years. A buried driveway at 6 AM on a workday isn't a minor inconvenience — it's a genuine problem.
+
+Professional snow plowing service solves it. But not all snow removal companies are the same, and there are a few things Shelby Township homeowners should understand before signing up.
+
+## Seasonal Contract vs. Per-Push Pricing — Which Is Better?
+
+**Seasonal contract:** One payment covers the entire winter — unlimited plowing for every qualifying snow event. You're automatically on the route. No phone calls. No tracking weather apps at midnight trying to decide if you should call your plow guy. The crew handles it.
+
+For most Shelby Township homeowners, **a seasonal contract is the better value** — especially in heavy snow years. You pay a fixed price regardless of how many times they plow. In a winter with 8 snow events over 3 inches, you get 8 plows. In a heavy winter with 15 events, you still pay the same price.
+
+**Per-push pricing:** You're charged per visit, usually based on accumulation depth. This works better for homeowners who spend significant time away from the property during winter, or who have an exceptionally long/difficult driveway that makes seasonal contracts cost-prohibitive.
+
+## What Professional Snow Removal Includes
+
+A professional snow plowing service for a residential property in Shelby Township should include:
+
+- **Driveway plowing** down to pavement surface, pushing snow clear of the apron and away from the garage door
+- **Sidewalk clearing** along the front of the property (required by most Shelby Township municipalities within 24–48 hours of snowfall)
+- **Salting or de-icing** after plowing to address ice formation on the driveway and walkways
+- **Return visits for blow-in snow** — after a heavy event, wind often pushes snow back across cleared surfaces within hours
+
+## When to Book — The Earlier the Better
+
+Most professional snow removal companies in Macomb County fill their routes before winter starts. Once the first significant snowfall hits, phone lines are jammed and many providers can't take new customers until the following season.
+
+**The smart move is to book before October.** Customers who lock in seasonal contracts in August, September, or early October get priority routing, guaranteed service from the first storm, and often the best pricing.
+
+If you're reading this in spring or summer — that's actually the perfect time to call. Locking in your winter service while your landscaper is already in the yard saves you a call later and guarantees your spot on the route.
+
+## What Makes Tri-Point Different for Shelby Township Snow Removal
+
+Tri-Point Landscaping is a locally owned Macomb County company — not a national franchise routing calls through a call center. When you sign up with us, you're on a route serviced by a crew that knows your property and your neighborhood.
+
+We offer both seasonal contracts and per-push pricing, de-icing included in our standard packages, and we monitor weather proactively so we're out early — before you need to leave for work.
+
+**Free estimates for snow removal in Shelby Township.** [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080). Don't wait until December — our routes fill up every season.
+    `,
+  },
+  {
+    slug: "how-to-improve-curb-appeal-macomb-county",
+    title: "10 Ways to Improve Your Home's Curb Appeal in Macomb County, MI",
+    description: "Practical, proven curb appeal upgrades for Macomb County homeowners — ranked by impact, effort, and cost so you know where to start.",
+    date: "April 13, 2026",
+    category: "Landscaping",
+    readTime: "6 min read",
+    content: `
+## Curb Appeal Is the First Impression Your Home Makes — Make It Count
+
+In Macomb County's competitive real estate market, curb appeal sells homes faster and for more money. But even if you're not selling, a well-maintained exterior communicates pride of ownership — and it's something your neighbors, your guests, and you yourself notice every single day.
+
+The good news: most of the highest-impact curb appeal upgrades aren't expensive. They're about the right work, done in the right order. Here are 10 proven improvements, ranked by the value they deliver.
+
+## 1. Fresh Mulch With Clean Edges (Highest ROI)
+
+This is consistently the #1 curb appeal upgrade for any property in Macomb County. A fresh layer of shredded hardwood mulch at 2–3 inches depth, combined with a sharp spade edge along all bed borders, transforms the front of a home more dramatically than almost anything else — in a single day.
+
+Why it works: it unifies the planting beds visually, makes everything look intentional, and contrasts sharply against green grass. It's the difference between a property that looks maintained and one that looks neglected.
+
+**Cost:** Moderate — depends on bed size. Far less expensive than most exterior upgrades.
+
+## 2. Lawn Edging and Detailing
+
+The lines between your lawn and driveway, sidewalk, and mulch beds are what make a property look sharp versus soft. A mechanically edged border creates a crisp, clean definition that makes even an average lawn look better maintained.
+
+If you're having a landscaper service your lawn, make sure edging is included on every visit — not just occasionally.
+
+## 3. Power Washing Hardscapes
+
+Michigan winters leave driveways, sidewalks, and front stoops stained with salt residue, road grime, and algae. A thorough power wash in early spring removes all of it and brightens hardscapes dramatically — without any replacement or renovation.
+
+This is a Saturday morning project for handy homeowners or a quick add-on for any contractor.
+
+## 4. Plant Knockout Roses or Native Shrubs in Foundation Beds
+
+If your foundation beds are empty or dominated by overgrown arborvitae, adding a mid-height blooming shrub like Knockout roses creates color from June through frost with almost no maintenance. They're cold-hardy through Michigan winters, disease-resistant, and grow in Macomb County's clay soil without amendment.
+
+Other great choices: Spirea, native viburnums, and dwarf ornamental grasses.
+
+## 5. Address Numbers and Lighting Upgrade
+
+Outdated house numbers and a single front porch light date a property. Modern, legible address numbers in a brushed nickel or matte black finish, combined with a modern exterior fixture, cost under $200 in materials and take a few hours to install. The visual impact is immediate.
+
+## 6. Repair and Refresh Front Walkway
+
+Cracked, heaved, or stained front walkways hurt curb appeal significantly. In Macomb County, freeze-thaw cycles destroy concrete and pavers over time. Even if full replacement isn't in the budget, cleaning, crack-sealing, and applying a concrete resurfacer can dramatically improve the appearance.
+
+## 7. Overseed Thin Lawn Areas
+
+Thin, patchy lawn areas in the front yard are highly visible and hard to ignore. Core aeration followed by overseeding with a premium Michigan-adapted grass seed blend (Kentucky bluegrass/fescue mix) will fill in bare areas within 3–4 weeks in fall conditions. This is best done late August through October in Macomb County.
+
+## 8. Add Landscape Lighting
+
+Low-voltage LED landscape lighting along the front walk, uplighting on specimen trees, and accent lighting along the foundation provides dimension and security — and works beautifully in winter when the lawn is buried under snow and lighting is the only exterior detail visible.
+
+## 9. Paint or Replace Shutters and Front Door
+
+These are architectural details, not landscape work — but they tie directly to how the landscaping reads. A freshly painted front door and matching shutters frame the home and make the landscape elements in front of it look intentional. Choose a color that coordinates with your mulch and plant palette.
+
+## 10. Spring and Fall Cleanup — Every Year, Without Fail
+
+The properties that look best year-round in Macomb County have one thing in common: they get a thorough spring cleanup before the growing season and a thorough fall cleanup before winter. Consistent maintenance prevents compounding — beds that are cleaned in fall start spring 3 weeks ahead of neglected ones.
+
+---
+
+## Ready to Start on Your Curb Appeal?
+
+Tri-Point Landscaping handles all of the landscape-related upgrades on this list — mulch, edging, lawn renovation, cleanup, and full landscape design — for homeowners throughout Washington Township, Shelby Township, Macomb Township, and all of northern Macomb County.
+
+**Free estimates, same-day response.** [Request yours here](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
 ];
+

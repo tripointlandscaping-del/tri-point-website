@@ -38,7 +38,7 @@ const areas: Record<string, AreaData> = {
       "Serving properties along 26 Mile, 28 Mile, 30 Mile, and 32 Mile corridors",
       "Familiar with Washington Township's subdivision styles and landscape needs",
       "Fully insured LLC with fast same-day response to estimate requests",
-      "5.0 Google rating · Nextdoor Neighborhood Favorite",
+      "4.9 Google rating · Nextdoor Neighborhood Favorite",
     ],
     services: [
       { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -108,7 +108,7 @@ const areas: Record<string, AreaData> = {
       "Experienced with both new construction and established landscape maintenance",
       "Consistent scheduling and proactive communication on every job",
       "Fully insured LLC — you're protected from start to finish",
-      "5.0 Google rating and growing reputation in Macomb County",
+      "4.9 Google rating and growing reputation in Macomb County",
     ],
     services: [
       { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -297,7 +297,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     },
     description: `Professional landscaping, lawn care, snow removal, and property services in ${area.name}, Michigan. Serving all of Macomb County. Free estimates — call (586) 327-8080.`,
     priceRange: "$$",
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "10" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "10" },
   };
 
   const faqSchema = {
@@ -486,7 +486,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                   <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wider">Why Tri-Point</h3>
                   <div className="space-y-3">
                     {[
-                      ["★★★★★", "5.0 Google Rating"],
+                      ["★★★★★", "4.9 Google Rating"],
                       ["✓", "Fully Insured LLC"],
                       ["✓", "Nextdoor Neighborhood Favorite"],
                       ["✓", "Free Estimates"],

@@ -9,29 +9,29 @@ import { posts } from "../../blog/posts";
 
 const serviceBlogMap: Record<string, string[]> = {
   "lawn-maintenance": [
+    "lawn-care-service-shelby-township-mi",
+    "spring-lawn-care-checklist-washington-township",
     "how-often-to-mow-lawn-michigan",
-    "how-to-edge-a-lawn-like-a-professional-macomb-county",
-    "michigan-lawn-care-calendar",
   ],
   "landscaping": [
-    "best-plants-for-michigan-landscaping",
-    "low-maintenance-landscaping-ideas-macomb-county",
+    "landscape-design-ideas-washington-township",
+    "how-to-improve-curb-appeal-macomb-county",
     "landscaping-washington-township-mi",
   ],
   "mulch-and-stone": [
     "benefits-of-professional-mulching-macomb-county",
-    "how-to-prepare-garden-beds-spring-michigan",
-    "best-plants-for-michigan-landscaping",
+    "how-to-improve-curb-appeal-macomb-county",
+    "difference-between-topsoil-compost-mulch-macomb-county",
   ],
   "seasonal-cleanup": [
+    "spring-lawn-care-checklist-washington-township",
     "when-to-schedule-spring-cleanup-macomb-county",
     "fall-lawn-care-checklist-macomb-county",
-    "how-to-prepare-lawn-for-winter-michigan",
   ],
   "snow-removal": [
+    "snow-plowing-service-shelby-township",
     "snow-removal-tips-macomb-county",
     "how-to-choose-snow-removal-company-macomb-county",
-    "how-to-prepare-lawn-for-winter-michigan",
   ],
   "lawn-renovations": [
     "best-time-to-overseed-lawn-michigan",
@@ -39,9 +39,9 @@ const serviceBlogMap: Record<string, string[]> = {
     "how-to-choose-the-right-grass-seed-michigan",
   ],
   "commercial": [
+    "commercial-landscaping-macomb-county",
     "benefits-of-year-round-lawn-care-contract",
-    "low-maintenance-landscaping-ideas-macomb-county",
-    "michigan-lawn-care-calendar",
+    "how-to-improve-curb-appeal-macomb-county",
   ],
 };
 

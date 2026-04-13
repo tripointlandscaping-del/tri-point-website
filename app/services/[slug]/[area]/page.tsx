@@ -220,6 +220,47 @@ const areas: Record<string, {
   },
 };
 
+/* ─────────────────────────────────────────
+   FAQ DATA PER SERVICE
+───────────────────────────────────────── */
+const serviceFaqs: Record<string, { q: string; a: string }[]> = {
+  "lawn-maintenance": [
+    { q: "How often will you mow my lawn?", a: "We mow on a weekly schedule April through October — the right frequency for Michigan's growing season. Weekly mowing keeps turf healthy, prevents scalping, and ensures consistent results every visit." },
+    { q: "Do you offer lawn maintenance contracts?", a: "Yes. Most of our customers choose a full-season contract that covers all mowing visits from spring startup through fall shutdown. It's the simplest option — no scheduling calls, no surprises." },
+    { q: "What's included in each visit?", a: "Every lawn maintenance visit includes mowing at the correct height, edging along all hard surfaces, string trimming around obstacles, and blowing clippings off all walks and drives. We leave the property clean every time." },
+  ],
+  "landscaping": [
+    { q: "Do you offer free landscaping design consultations?", a: "Yes. Every project starts with a free on-site consultation where we walk your property, understand your goals, and discuss plant options and budget. No obligation." },
+    { q: "What types of landscaping do you install?", a: "We handle everything — new planting beds, perennial and shrub installations, sod, stone features, retaining walls, and full property renovations from concept to completion." },
+    { q: "How long does a landscaping project take?", a: "Small projects like a new bed or mulch refresh can be done in a single day. Full landscape installations typically take 2–5 days depending on scope. We'll give you a clear timeline before any work begins." },
+  ],
+  "mulch-and-stone": [
+    { q: "How much mulch do I need?", a: "For most residential beds, 2–3 inches of mulch depth is ideal. During your free estimate we'll measure your beds and tell you exactly how much material is needed — no guessing." },
+    { q: "What types of mulch do you carry?", a: "We offer premium shredded hardwood, cedar, black dyed, brown dyed, and natural wood chip mulch. For stone we carry river rock, crushed granite, lava rock, and pea gravel." },
+    { q: "Do you remove old mulch before installing new?", a: "If your beds have excessive mulch buildup (over 4 inches total), we recommend removing the old layer first. We offer old mulch removal as part of our service." },
+  ],
+  "seasonal-cleanup": [
+    { q: "What's included in a spring cleanup?", a: "Spring cleanup includes full leaf and debris removal, perennial cutback, bed cleanup, edge refresh along all bed borders, and hauling everything away. We leave the property ready for the growing season." },
+    { q: "What's included in a fall cleanup?", a: "Fall cleanup focuses on complete leaf removal (including all lawn and bed areas), late-season perennial cutback, and final bed cleanup before freeze. We haul all material off-site." },
+    { q: "How early should I book my cleanup?", a: "Book as early as possible — spring cleanups especially fill up by March and April. Customers who book in January or February get the best available slots." },
+  ],
+  "snow-removal": [
+    { q: "Do you offer seasonal snow removal contracts?", a: "Yes. Our seasonal contracts cover unlimited plowing for the entire winter — one payment, no per-storm calls. You're automatically on our route for every qualifying snow event." },
+    { q: "When do you plow?", a: "We monitor weather forecasts and typically begin plowing once accumulation hits 2 inches. We're out early so you can get where you need to go before your workday starts." },
+    { q: "Do you offer salting and de-icing?", a: "Yes. We apply rock salt and calcium chloride after plowing to keep driveways and walkways safe after the plow passes. De-icing is available as an add-on or included in some service packages." },
+  ],
+  "lawn-renovations": [
+    { q: "When is the best time to aerate a Michigan lawn?", a: "Late August through October is ideal — soil is still warm, grass is actively growing roots, and there's less weed competition. Spring aeration in April–May is also effective but fall is preferred." },
+    { q: "How soon will I see results after aeration and overseeding?", a: "New grass seed typically germinates within 7–14 days, and you'll see noticeable thickening within 3–4 weeks. Full density builds over 2–3 seasons of consistent care." },
+    { q: "Does my lawn need renovation or just maintenance?", a: "If more than 50% of your lawn is thin, bare, or weedy, renovation is the better investment. We'll assess your lawn during the free estimate and give you an honest recommendation." },
+  ],
+  "commercial": [
+    { q: "Do you serve HOAs and property management companies?", a: "Yes. We work with HOAs, property managers, office parks, retail centers, and apartment complexes throughout Macomb County. We provide all certificates of insurance and documentation required." },
+    { q: "Can you handle multiple commercial properties?", a: "Absolutely. We can set up recurring maintenance across multiple commercial locations under one contract with consolidated billing and consistent crews." },
+    { q: "Do you offer commercial snow removal?", a: "Yes. We offer full commercial snow and ice management — parking lot plowing, sidewalk clearing, salting, and de-icing — available under seasonal contracts." },
+  ],
+};
+
 const allServiceSlugs = Object.keys(services);
 const allAreaSlugs = Object.keys(areas);
 
@@ -298,12 +339,24 @@ export default async function ServiceAreaPage({ params }: Props) {
     areaServed: { "@type": "City", name: areaData.name, addressRegion: "MI" },
   };
 
+  const pageFaqs = serviceFaqs[slug] ?? [];
+  const faqSchema = pageFaqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: pageFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  } : null;
+
   const serviceDisplayName = svc.name.replace(" Landscaping", "");
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <Navbar />
       <main>
 
@@ -418,6 +471,26 @@ export default async function ServiceAreaPage({ params }: Props) {
                   </div>
                 </AnimateOnScroll>
 
+                {/* FAQ Section */}
+                {pageFaqs.length > 0 && (
+                  <AnimateOnScroll animation="fade-up">
+                    <div className="bg-white p-10">
+                      <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Common Questions</p>
+                      <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-6">
+                        {svc.name} in {areaData.name} — FAQ
+                      </h3>
+                      <div className="space-y-0 border-t border-gray-100">
+                        {pageFaqs.map((faq) => (
+                          <div key={faq.q} className="border-b border-gray-100 py-5">
+                            <h4 className="font-bold text-gray-900 mb-2 text-[15px]">{faq.q}</h4>
+                            <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </AnimateOnScroll>
+                )}
+
                 {/* Other areas for this service */}
                 <AnimateOnScroll animation="fade-up">
                   <div style={{ backgroundColor: "#f5f0e8" }} className="p-8 border border-gray-200">
@@ -467,7 +540,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <h4 className="font-bold text-gray-900 text-sm uppercase tracking-wider mb-5">Why Tri-Point</h4>
                     <div className="space-y-4">
                       {[
-                        ["5.0★ Google Rating", "Rated by real Macomb County homeowners"],
+                        ["4.9★ Google Rating", "Rated by real Macomb County homeowners"],
                         ["Fully Insured LLC", "Your property is protected on every job"],
                         ["Same-Day Response", "We respond to estimates within hours"],
                         ["Locally Owned", "Macomb County based — your neighbors"],

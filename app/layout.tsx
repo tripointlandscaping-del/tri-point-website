@@ -150,6 +150,10 @@ export default function RootLayout({
                   { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Landscaping", url: "https://www.tripointlandscaping.com/commercial", areaServed: "Macomb County, MI" } },
                 ],
               },
+              sameAs: [
+                "https://www.google.com/maps/search/Tri-Point+Landscaping+Washington+Township+MI",
+                "https://www.facebook.com/tripointlandscaping",
+              ],
               priceRange: "$$",
               description:
                 "Professional landscaping, lawn care, snow removal, mulch & stone, and lawn renovation services throughout Macomb County, Michigan. Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township.",
