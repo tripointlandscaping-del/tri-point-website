@@ -20,12 +20,6 @@ const areaSlugs = [
   "romeo",
   "ray-township",
   "bruce-township",
-  "clinton-township",
-  "chesterfield-township",
-  "utica",
-  "new-baltimore",
-  "armada",
-  "richmond",
   "rochester",
   "rochester-hills",
 ];

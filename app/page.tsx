@@ -48,10 +48,6 @@ const serviceAreas = [
   { name: "Romeo", slug: "romeo", detail: "Village of Romeo & surrounding areas" },
   { name: "Ray Township", slug: "ray-township", detail: "Rural & residential properties" },
   { name: "Bruce Township", slug: "bruce-township", detail: "Northern Macomb County" },
-  { name: "Clinton Township", slug: "clinton-township", detail: "Hall Rd · Gratiot · 15 Mile" },
-  { name: "Chesterfield Township", slug: "chesterfield-township", detail: "21 Mile – 23 Mile · Lake St. Clair area" },
-  { name: "Utica", slug: "utica", detail: "Hall Rd · Auburn Rd · Van Dyke" },
-  { name: "New Baltimore", slug: "new-baltimore", detail: "Anchor Bay · Waterfront & residential" },
   { name: "Rochester", slug: "rochester", detail: "Walnut Blvd · Tienken · University Dr" },
   { name: "Rochester Hills", slug: "rochester-hills", detail: "Auburn Rd · Adams Rd · Livernois" },
 ];
@@ -73,7 +69,7 @@ const homepageFaqSchema = {
       name: "What areas does Tri-Point Landscaping serve?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Clinton Township, Chesterfield Township, Utica, New Baltimore, Armada, Richmond, Rochester, and Rochester Hills across Macomb and Oakland County, Michigan.",
+        text: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills across Macomb and Oakland County, Michigan.",
       },
     },
     {

@@ -106,6 +106,8 @@ export default function Footer() {
                 ["Romeo", "/service-areas/romeo"],
                 ["Ray Township", "/service-areas/ray-township"],
                 ["Bruce Township", "/service-areas/bruce-township"],
+                ["Rochester", "/service-areas/rochester"],
+                ["Rochester Hills", "/service-areas/rochester-hills"],
               ].map(([name, href]) => (
                 <li key={href}>
                   <Link href={href} className="text-white/55 hover:text-white text-sm transition-colors flex items-center gap-2 group">

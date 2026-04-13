@@ -21,6 +21,8 @@ const areas = [
   { name: "Romeo", href: "/service-areas/romeo" },
   { name: "Ray Township", href: "/service-areas/ray-township" },
   { name: "Bruce Township", href: "/service-areas/bruce-township" },
+  { name: "Rochester", href: "/service-areas/rochester" },
+  { name: "Rochester Hills", href: "/service-areas/rochester-hills" },
 ];
 
 export default function Navbar() {
