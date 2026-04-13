@@ -60,15 +60,18 @@ export async function POST(request: Request) {
       return Response.json({ error: "Invalid request" }, { status: 400 });
     }
 
-    const now = new Date().toLocaleDateString("en-US", {
+    const now = new Date().toLocaleString("en-US", {
       weekday: "long",
       year: "numeric",
       month: "long",
       day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
       timeZone: "America/Detroit",
     });
 
-    const systemWithDate = `Today's date is ${now} (Eastern Time — Michigan).\n\n${SYSTEM_PROMPT}`;
+    const systemWithDate = `The current date and time is ${now} Eastern Time (Michigan).\n\n${SYSTEM_PROMPT}`;
 
     const response = await client.messages.create({
       model: "claude-haiku-4-5-20251001",
