@@ -22,173 +22,36 @@ type Message = {
   links?: { label: string; href: string }[];
 };
 
-/* ─── Responses ─── */
-const getBotResponse = (
-  input: string
-): { text: string; links?: { label: string; href: string }[] } => {
-  const q = input.toLowerCase().trim();
+type ApiMessage = {
+  role: "user" | "assistant";
+  content: string;
+};
 
-  if (q.match(/^(hi|hello|hey|howdy|good morning|good afternoon|good evening|sup|yo)/)) {
-    return {
-      text: "Hey, great to hear from you! I'm here to help — what can I do for you today?",
-      links: [
-        { label: "Get a Free Estimate", href: "/contact" },
-        { label: "View Our Services", href: "/services/lawn-maintenance" },
-      ],
-    };
+/* ─── Extract page links from AI response text ─── */
+const SERVICE_LINKS: { label: string; href: string; keywords: string[] }[] = [
+  { label: "Lawn Maintenance", href: "/services/lawn-maintenance", keywords: ["lawn maintenance", "mowing", "mow", "edging", "trimming"] },
+  { label: "Landscaping", href: "/services/landscaping", keywords: ["landscaping", "landscape design", "plantings", "sod", "bed design"] },
+  { label: "Mulch & Stone", href: "/services/mulch-and-stone", keywords: ["mulch", "stone", "river rock", "lava rock", "decorative"] },
+  { label: "Seasonal Cleanup", href: "/services/seasonal-cleanup", keywords: ["cleanup", "spring cleanup", "fall cleanup", "leaf removal"] },
+  { label: "Snow Removal", href: "/services/snow-removal", keywords: ["snow", "plow", "plowing", "ice", "salting", "winter"] },
+  { label: "Lawn Renovations", href: "/services/lawn-renovations", keywords: ["aeration", "overseed", "overseeding", "dethatching", "renovation"] },
+  { label: "Commercial", href: "/services/commercial", keywords: ["commercial", "hoa", "office", "retail", "apartment"] },
+  { label: "Get a Free Estimate", href: "/contact", keywords: ["estimate", "quote", "free estimate", "pricing", "cost", "how much"] },
+  { label: "Contact Us", href: "/contact", keywords: ["contact", "call", "text", "phone", "reach"] },
+];
+
+const extractLinks = (text: string): { label: string; href: string }[] => {
+  const lower = text.toLowerCase();
+  const seen = new Set<string>();
+  const links: { label: string; href: string }[] = [];
+  for (const s of SERVICE_LINKS) {
+    if (s.keywords.some((k) => lower.includes(k)) && !seen.has(s.href)) {
+      seen.add(s.href);
+      links.push({ label: s.label, href: s.href });
+      if (links.length >= 3) break;
+    }
   }
-  if (q.match(/service|offer|do you|what can|provide|speciali/)) {
-    return {
-      text: "We offer 7 professional services across Macomb County. Click any to learn more:",
-      links: [
-        { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
-        { label: "Landscaping", href: "/services/landscaping" },
-        { label: "Mulch & Stone", href: "/services/mulch-and-stone" },
-        { label: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-        { label: "Snow & Ice Management", href: "/services/snow-removal" },
-        { label: "Lawn Renovations", href: "/services/lawn-renovations" },
-        { label: "Commercial", href: "/services/commercial" },
-      ],
-    };
-  }
-  if (q.match(/area|serve|cover|location|where|city|cities|township|come to/)) {
-    return {
-      text: "We cover all of northern Macomb County — here's where we work:",
-      links: [
-        { label: "Washington Township", href: "/service-areas/washington-township" },
-        { label: "Shelby Township", href: "/service-areas/shelby-township" },
-        { label: "Macomb Township", href: "/service-areas/macomb-township" },
-        { label: "Romeo", href: "/service-areas/romeo" },
-        { label: "Ray Township", href: "/service-areas/ray-township" },
-        { label: "Bruce Township", href: "/service-areas/bruce-township" },
-      ],
-    };
-  }
-  if (q.match(/price|cost|how much|charge|rate|afford|cheap|expensive|quote/)) {
-    return {
-      text: "Our estimates are 100% free — no obligation at all. Pricing depends on your property and what you need. Fill out the form and I'll personally follow up same day, usually within the hour.",
-      links: [{ label: "Request a Free Estimate", href: "/contact" }],
-    };
-  }
-  if (q.match(/hour|open|when|schedule|available|time|day/)) {
-    return {
-      text: "We're here Monday–Saturday, 7:00 AM to 9:00 PM. Closed Sundays. Call, text, or send a form — I'll get back to you same day!",
-      links: [{ label: "Contact Us", href: "/contact" }],
-    };
-  }
-  if (q.match(/estimate|quote|start|begin|get started|free/)) {
-    return {
-      text: "Getting started is easy — fill out our short form and I'll follow up same day. Or give us a call if you'd rather talk!",
-      links: [
-        { label: "Get My Free Estimate", href: "/contact" },
-        { label: "Call (586) 327-8080", href: "tel:+15863278080" },
-      ],
-    };
-  }
-  if (q.match(/snow|plow|winter|ice|salt|shovel|driveway/)) {
-    return {
-      text: "Yep! We do full snow & ice management — plowing, sidewalk clearing, salting and de-icing across Macomb County. Seasonal contracts mean you're covered all winter without lifting a finger.",
-      links: [
-        { label: "Snow & Ice Management", href: "/services/snow-removal" },
-        { label: "Get a Quote", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/aerat|overseed|dethatch|top dress|renovat|thin lawn|bare spot/)) {
-    return {
-      text: "That's our lawn renovation program — core aeration, overseeding, dethatching, and top dressing. It's the science-backed way to go from a thin patchy lawn to thick healthy turf. Most customers see results in 2–3 weeks.",
-      links: [
-        { label: "Lawn Renovations", href: "/services/lawn-renovations" },
-        { label: "Get a Quote", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/lawn|mow|cut|grass|mowing|edg|trim/)) {
-    return {
-      text: "Lawn maintenance is our bread and butter — weekly mowing, edging, trimming, and blowing April through October. Super consistent and we always let you know when we're coming.",
-      links: [
-        { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
-        { label: "Free Estimate", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/mulch|stone|decorative|bed|garden/)) {
-    return {
-      text: "Fresh mulch with clean sharp edges can completely transform the look of a property — we hear that from customers all the time after their first install. We carry premium hardwood and a full selection of decorative stone.",
-      links: [
-        { label: "Mulch & Stone", href: "/services/mulch-and-stone" },
-        { label: "Get a Quote", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/commercial|hoa|office|business|retail|apartment/)) {
-    return {
-      text: "Absolutely — commercial is a big part of what we do. Offices, HOAs, retail centers — we offer priority scheduling and provide all the documentation property management companies need.",
-      links: [
-        { label: "Commercial Services", href: "/services/commercial" },
-        { label: "Request a Commercial Quote", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/cleanup|spring|fall|leaf|leave|season/)) {
-    return {
-      text: "Spring and fall cleanups are one of our most popular services. Leaf removal, perennial cutback, bed cleanup — we haul it all away. Saves you an entire weekend of hard work.",
-      links: [
-        { label: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-        { label: "Schedule Your Cleanup", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/landscap|design|install|plant|bed|sod/)) {
-    return {
-      text: "I love talking landscaping — we do custom bed design, plantings, stone features, sod, and full property transformations. Let's talk about what you're envisioning.",
-      links: [
-        { label: "Landscaping Services", href: "/services/landscaping" },
-        { label: "Free Estimate", href: "/contact" },
-      ],
-    };
-  }
-  if (q.match(/insur|licens|safe|bonded|certif|legit|trust/)) {
-    return {
-      text: "Tri-Point Landscaping LLC is fully insured with general liability coverage. We're a licensed Michigan LLC — your property is 100% protected on every visit.",
-    };
-  }
-  if (q.match(/phone|call|number|contact|reach|text|email/)) {
-    return {
-      text: "Best way: call or text (586) 327-8080. You can also email tripointlandscaping@gmail.com. Available Mon–Sat, 7AM–9PM.",
-      links: [{ label: "All Contact Options", href: "/contact" }],
-    };
-  }
-  if (q.match(/about|who are you|company|owner|local|founded/)) {
-    return {
-      text: "We're a locally owned company right here in Macomb County — not a franchise, not a call center. Just a team that genuinely cares about how your property looks.",
-      links: [{ label: "Learn About Us", href: "/about" }],
-    };
-  }
-  if (q.match(/review|rating|google|star|recommend|feedback/)) {
-    return {
-      text: "We hold a 5.0★ Google rating from real Macomb County homeowners. Check us out!",
-      links: [
-        {
-          label: "Read Our Google Reviews",
-          href: "https://www.google.com/search?q=Tri-Point+Landscaping+Washington+Township+MI",
-        },
-      ],
-    };
-  }
-  if (q.match(/thank|thanks|great|perfect|awesome|appreciate|helpful/)) {
-    return {
-      text: "Of course — happy to help! Don't hesitate to reach out anytime. We'd love to earn your business!",
-      links: [{ label: "Request a Free Estimate", href: "/contact" }],
-    };
-  }
-  return {
-    text: "Good question! For the most accurate answer, give me a call or text at (586) 327-8080. Or send in an estimate request and I'll follow up same day.",
-    links: [
-      { label: "Get a Free Estimate", href: "/contact" },
-      { label: "Call (586) 327-8080", href: "tel:+15863278080" },
-    ],
-  };
+  return links;
 };
 
 const quickReplies = [
@@ -202,6 +65,7 @@ const quickReplies = [
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
+  const [apiHistory, setApiHistory] = useState<ApiMessage[]>([]);
   const [input, setInput] = useState("");
   const [typing, setTyping] = useState(false);
   const [showTeaser, setShowTeaser] = useState(false);
@@ -244,19 +108,47 @@ export default function ChatBot() {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, typing]);
 
-  const sendMessage = (text: string) => {
-    if (!text.trim()) return;
-    setMessages((prev) => [...prev, { role: "user", text: text.trim(), time: now() }]);
+  const sendMessage = async (text: string) => {
+    if (!text.trim() || typing) return;
+
+    const userMsg: Message = { role: "user", text: text.trim(), time: now() };
+    setMessages((prev) => [...prev, userMsg]);
     setInput("");
     setTyping(true);
-    setTimeout(() => {
-      const response = getBotResponse(text);
+
+    const newHistory: ApiMessage[] = [
+      ...apiHistory,
+      { role: "user", content: text.trim() },
+    ];
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: newHistory }),
+      });
+      const data = await res.json() as { text: string };
+      const replyText = data.text || "Sorry, something went wrong. Call us at (586) 327-8080!";
+      const links = extractLinks(replyText);
+
+      setApiHistory([...newHistory, { role: "assistant", content: replyText }]);
       setMessages((prev) => [
         ...prev,
-        { role: "bot", text: response.text, time: now(), links: response.links },
+        { role: "bot", text: replyText, time: now(), links },
       ]);
+    } catch {
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "bot",
+          text: "Sorry, I'm having trouble connecting right now. Give us a call at (586) 327-8080!",
+          time: now(),
+          links: [{ label: "Call (586) 327-8080", href: "tel:+15863278080" }],
+        },
+      ]);
+    } finally {
       setTyping(false);
-    }, 800 + Math.random() * 500);
+    }
   };
 
   const handleOpen = () => {
@@ -346,7 +238,6 @@ export default function ChatBot() {
         <div
           className="fixed z-50 flex flex-col shadow-2xl overflow-hidden"
           style={{
-            /* Mobile: full screen overlay; desktop: anchored bottom-right */
             bottom: "var(--chat-bottom, 80px)",
             right: "var(--chat-right, 16px)",
             width: "var(--chat-width, 100vw)",
@@ -385,7 +276,7 @@ export default function ChatBot() {
           {/* ── Info strip ── */}
           <div style={{ backgroundColor: "#f0faf0", borderBottom: "1px solid #d1fae5" }} className="px-4 py-2 shrink-0">
             <p className="text-green-800 text-xs">
-              <span className="font-semibold">Tri-Point Landscaping</span> · Macomb County, MI · Mon–Sat 7AM–9PM
+              <span className="font-semibold">Tri-Point Landscaping</span> · Macomb County, MI · 24/7 AI Assistant
             </p>
           </div>
 

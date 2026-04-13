@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "What makes Tri-Point different from other landscaping companies?",
-    a: "We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our 5.0★ Google rating from real Macomb County homeowners speaks for itself.",
+    a: "We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our 4.9★ Google rating from real Macomb County homeowners speaks for itself.",
   },
   {
     q: "What is the best time to aerate a lawn in Michigan?",
