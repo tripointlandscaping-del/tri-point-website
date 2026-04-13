@@ -46,6 +46,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       siteName: "Tri-Point Landscaping",
       type: "article",
       publishedTime: new Date(post.date).toISOString(),
+      images: [
+        {
+          url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
   };
 }
@@ -110,10 +124,30 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             "@type": "BlogPosting",
             headline: post.title,
             description: post.description,
-            datePublished: post.date,
-            author: { "@type": "Organization", name: "Tri-Point Landscaping LLC" },
-            publisher: { "@type": "Organization", name: "Tri-Point Landscaping LLC", url: "https://www.tripointlandscaping.com" },
+            datePublished: new Date(post.date).toISOString(),
+            dateModified: new Date(post.date).toISOString(),
+            image: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+            author: {
+              "@type": "Organization",
+              name: "Tri-Point Landscaping LLC",
+              url: "https://www.tripointlandscaping.com",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Tri-Point Landscaping LLC",
+              url: "https://www.tripointlandscaping.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.tripointlandscaping.com/logo-black.png",
+              },
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `https://www.tripointlandscaping.com/blog/${post.slug}`,
+            },
             url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
+            keywords: `${post.category}, Macomb County, Michigan, landscaping, lawn care`,
+            articleSection: post.category,
           }),
         }}
       />

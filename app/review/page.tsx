@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/review",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Leave a Review" }],
   },
 };
 
@@ -31,9 +32,34 @@ const prompts = [
   "Did we show up when we said we would?",
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
+    { "@type": "ListItem", position: 2, name: "Leave a Review", item: "https://www.tripointlandscaping.com/review" },
+  ],
+};
+
+const aggregateRatingSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Tri-Point Landscaping LLC",
+  url: "https://www.tripointlandscaping.com",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "10",
+    bestRating: "5",
+    worstRating: "1",
+  },
+};
+
 export default function ReviewPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
       <Navbar />
       <main style={{ backgroundColor: "#0d0d0d" }}>
 

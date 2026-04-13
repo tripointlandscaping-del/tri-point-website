@@ -4,10 +4,18 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Our Services | Tri-Point Landscaping — Macomb County, MI",
+  title: "Landscaping Services in Macomb County, MI | Tri-Point Landscaping",
   description:
-    "Tri-Point Landscaping offers professional lawn maintenance, landscaping design, mulch & stone, seasonal cleanup, snow removal, and lawn renovations throughout Macomb County, MI.",
+    "Professional landscaping services in Macomb County, MI — lawn maintenance, custom landscaping, mulch & stone, seasonal cleanup, snow removal & ice management, and lawn renovations. Free estimates. Call (586) 327-8080.",
   alternates: { canonical: "https://www.tripointlandscaping.com/services" },
+  openGraph: {
+    title: "Landscaping Services in Macomb County, MI | Tri-Point Landscaping",
+    description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County, MI. Locally owned. Free estimates.",
+    url: "https://www.tripointlandscaping.com/services",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Services — Macomb County MI" }],
+  },
 };
 
 const services = [
@@ -49,9 +57,22 @@ const services = [
   },
 ];
 
+const servicesListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Tri-Point Landscaping Services — Macomb County, MI",
+  itemListElement: services.map((s, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: s.name,
+    url: `https://www.tripointlandscaping.com/services/${s.slug}`,
+  })),
+};
+
 export default function ServicesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesListSchema) }} />
       <Navbar />
       <main>
         <section className="bg-black text-white py-20 px-6 text-center">

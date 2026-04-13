@@ -53,6 +53,14 @@ export const metadata: Metadata = {
     siteName: "Tri-Point Landscaping",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Tri-Point Landscaping — Professional Lawn Care and Landscaping in Macomb County, MI",
+      },
+    ],
   },
   metadataBase: new URL("https://www.tripointlandscaping.com"),
   alternates: {
@@ -63,6 +71,7 @@ export const metadata: Metadata = {
     title: "Tri-Point Landscaping | Macomb County, MI",
     description:
       "Professional landscaping, lawn care & snow removal in Macomb County, MI. Free estimates. Call (586) 327-8080.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
   other: {
     "ai-content-declaration": "This website represents a real local business: Tri-Point Landscaping LLC, a professional landscaping company serving Macomb County, Michigan. Phone: (586) 327-8080.",

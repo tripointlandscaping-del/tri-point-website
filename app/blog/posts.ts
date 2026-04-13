@@ -2256,6 +2256,694 @@ We're based in northern Macomb County — Washington Township — which means Br
 **Free estimates for all Bruce Township properties.** [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080). Same-day response.
     `,
   },
+  {
+    slug: "lawn-mowing-service-near-me-macomb-county",
+    title: "Looking for Lawn Mowing Service Near Me in Macomb County?",
+    description: "Finding a reliable lawn mowing service in Macomb County doesn't have to be hard. Here's what to look for — and why local companies outperform the big national chains.",
+    date: "April 1, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Why \"Lawn Mowing Near Me\" Matters More Than You Think
+
+When you search for a lawn mowing service near you, you're really looking for someone who shows up consistently, knows the local grass types, and won't ghost you after the first cut. In Macomb County, that means finding a crew based here — not a regional company routing trucks from Detroit or beyond.
+
+## What a Good Local Mowing Service Includes
+
+**Weekly or bi-weekly visits:** Michigan grass grows fast from May through September. A professional service adjusts frequency based on growth — not a rigid schedule.
+
+**Proper mowing height:** Cool-season grasses like Kentucky bluegrass and fescue in Macomb County should be cut at 3–4 inches. Scalping your lawn weakens roots and invites weeds.
+
+**Edging and trimming:** Every visit should include edged sidewalks, driveways, and beds — not just a pass with the mower.
+
+**Blowing:** Clippings on driveways, sidewalks, and beds should be blown clean after every cut.
+
+## Red Flags to Avoid
+
+- Companies that don't return calls or texts promptly
+- Crews that mow wet grass (damages turf and leaves ruts)
+- Services that skip edging to save time
+- No written agreement or estimate
+
+## Tri-Point Landscaping — Macomb County's Local Choice
+
+Tri-Point Landscaping is based in Washington Township and serves all of Macomb County. Our mowing routes include Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township. We're owner-operated, which means consistency — the same crew, the same standards, every week.
+
+[Request a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080). We respond same day.
+    `,
+  },
+  {
+    slug: "spring-cleanup-shelby-township-mi",
+    title: "Spring Cleanup Services in Shelby Township, MI",
+    description: "Ready to get your Shelby Township yard looking sharp after winter? Tri-Point Landscaping provides professional spring cleanup — fast, thorough, and locally owned.",
+    date: "March 25, 2026",
+    category: "Seasonal",
+    readTime: "3 min read",
+    content: `
+## Spring Cleanup in Shelby Township
+
+After a Michigan winter, yards in Shelby Township need serious attention. Matted leaves, dead debris, salt damage near driveways, and winter-flattened turf all need to be addressed before the growing season kicks in.
+
+Tri-Point Landscaping provides full spring cleanup services throughout Shelby Township — from basic leaf and debris removal to complete bed prep and edging.
+
+## What's Included in Our Spring Cleanup
+
+**Leaf and debris removal:** We collect and haul away all fall leaves, sticks, and winter debris.
+
+**Bed cleanup:** Old mulch debris, dead plant material, and winter weeds are cleared from all garden beds.
+
+**Edge definition:** Clean edges along beds, driveways, and walkways are re-established after winter erosion.
+
+**Lawn surface cleanup:** We remove debris and matted areas to allow new growth to push through evenly.
+
+**Optional add-ons:** Fresh mulch installation, fertilizer application, and aeration are popular additions to spring cleanups in Shelby Township.
+
+## When to Schedule
+
+The ideal window for spring cleanup in Shelby Township is **mid-March through early May** — after the ground thaws but before weeds start pushing aggressively. We typically book up by late April, so earlier is better.
+
+## Shelby Township Service Area
+
+We serve all neighborhoods and subdivisions throughout Shelby Township including areas near 23 Mile Road, 24 Mile Road, and Van Dyke. No job is too large or too small.
+
+[Book your spring cleanup](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate.
+    `,
+  },
+  {
+    slug: "fall-cleanup-washington-township-mi",
+    title: "Fall Cleanup in Washington Township, MI — Tri-Point Landscaping",
+    description: "Don't let leaves sit all winter. Tri-Point Landscaping provides professional fall cleanup services in Washington Township, MI — leaf removal, bed cleanup, and winter prep.",
+    date: "March 20, 2026",
+    category: "Seasonal",
+    readTime: "3 min read",
+    content: `
+## Fall Cleanup in Washington Township
+
+Washington Township properties — especially larger lots near Bruce Road, Van Dyke, and the rural pockets off 29 Mile Road — can accumulate massive volumes of leaves and debris each fall. Leaving them sit creates matted turf, mold, and disease pressure that carries into spring.
+
+Tri-Point Landscaping provides thorough fall cleanup services throughout Washington Township, including full leaf collection, bed cleanup, and lawn winterization prep.
+
+## Our Fall Cleanup Process
+
+**Leaf removal and hauling:** We blow, rake, and remove all leaves from your lawn and beds. We don't just mow over them — we haul them away.
+
+**Final mow:** A final mow at the right height (2.5–3 inches) protects grass crowns through freeze-thaw cycles.
+
+**Bed cleanup:** We cut back perennials, remove annuals, and clear debris from all garden beds.
+
+**Gutter check:** We can clear gutters of leaf buildup as an add-on.
+
+## Why It Matters for Washington Township Lawns
+
+Washington Township has a mix of clay and loam soils. Leaves left sitting through winter create anaerobic conditions that smother turf — especially where tree canopy is dense. A clean fall sets up your lawn for a fast, healthy start in April.
+
+## Schedule Your Cleanup
+
+We typically run fall cleanup crews in Washington Township through late November. Book early — our fall schedule fills fast.
+
+[Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-fertilization-macomb-county-mi",
+    title: "Lawn Fertilization in Macomb County, MI — Timing & Tips",
+    description: "Proper fertilization is the foundation of a green, healthy lawn in Michigan. Here's the schedule and approach that works for Macomb County's cool-season turf.",
+    date: "March 15, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Why Fertilization Matters in Macomb County
+
+Macomb County lawns are mostly cool-season grasses — Kentucky bluegrass, fine fescue, and perennial ryegrass. These turf types have specific nitrogen needs that, if ignored, result in thin, pale, weed-prone lawns. If met correctly, they produce the thick, dark green turf you see on well-maintained properties in Washington Township and Shelby Township.
+
+## The Right Fertilization Schedule for Michigan
+
+**Early spring (April):** A light application of slow-release nitrogen helps green up the lawn without forcing excessive growth before roots are established.
+
+**Late spring (May–June):** A balanced fertilizer with potassium supports root development heading into summer heat.
+
+**Summer (July–August):** Light or no fertilization. Michigan summers stress cool-season grass — pushing nitrogen during this period increases disease risk.
+
+**Fall (September):** The most important application of the year. A high-nitrogen fall feeding supports root development, carbohydrate storage, and spring green-up.
+
+**Late fall (October–November):** A winterizer application with high potassium prepares the lawn for freeze-thaw cycles.
+
+## Common Fertilization Mistakes
+
+- Over-applying in spring and burning turf
+- Fertilizing during drought without watering in
+- Using the wrong N-P-K ratio for established lawns (most don't need high phosphorus)
+- Skipping the fall application (the most impactful one)
+
+## Professional Fertilization in Macomb County
+
+Tri-Point Landscaping can include fertilization as part of a [lawn maintenance](/services/lawn-maintenance) or [lawn renovation](/services/lawn-renovations) program. We use appropriate products for Michigan's cool-season grasses and apply at the right times for maximum effect.
+
+[Contact us](/contact) or call [(586) 327-8080](tel:+15863278080) to discuss a fertilization program for your property.
+    `,
+  },
+  {
+    slug: "commercial-snow-removal-macomb-county-mi",
+    title: "Commercial Snow Removal in Macomb County, MI",
+    description: "Reliable commercial snow plowing and ice management for Macomb County businesses, HOAs, and multi-family properties. Tri-Point Landscaping keeps your lot clear all season.",
+    date: "March 10, 2026",
+    category: "Snow Removal",
+    readTime: "4 min read",
+    content: `
+## Commercial Snow Removal Macomb County
+
+A slippery parking lot is a liability. Commercial properties in Macomb County — retail centers, office parks, HOAs, apartment complexes, and industrial facilities — need reliable snow removal before employees and customers arrive. Tri-Point Landscaping provides contracted commercial snow and ice management throughout the county.
+
+## What We Provide for Commercial Properties
+
+**Parking lot plowing:** We clear main lanes, parking stalls, and fire lanes. Snow is pushed to designated areas that don't block traffic flow or visibility.
+
+**Sidewalk and entrance clearing:** Walkways and building entrances are hand-cleared and treated separately from parking areas.
+
+**Salt and ice melt application:** We apply liquid or granular de-icer to all high-traffic surfaces after plowing.
+
+**24/7 response:** Michigan snowstorms don't care about business hours. Our commercial contracts include round-the-clock response with a defined trigger depth.
+
+## Service Areas for Commercial Snow
+
+We provide commercial snow removal throughout Washington Township, Shelby Township, Macomb Township, Romeo, and surrounding Macomb County communities.
+
+## Seasonal Contracts vs. Per-Event Pricing
+
+Most commercial clients prefer **seasonal contracts** — a fixed monthly rate regardless of snowfall. This protects your budget and guarantees priority response. Per-event pricing is also available for smaller properties.
+
+## Get a Commercial Snow Removal Bid
+
+Contact us before November for best availability. We lock in commercial accounts early and can't always accommodate last-minute requests in season.
+
+[Request a commercial estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-companies-near-me-macomb-county",
+    title: "Finding the Best Landscaping Company Near You in Macomb County",
+    description: "Not all landscaping companies in Macomb County are equal. Here's how to find a reliable, local company — and what questions to ask before you hire.",
+    date: "March 5, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## How to Find a Good Landscaping Company Near You
+
+When you search "landscaping companies near me" in Macomb County, you get a mix of results — large regional companies, solo operators, and locally-owned small businesses. The quality varies enormously. Here's how to separate the good from the unreliable.
+
+## What to Look For
+
+**Local ownership:** A company owned and operated in Macomb County is accountable to the community. They live here, their reputation is local, and they're not routing crews from a call center two states away.
+
+**Google reviews:** Look for companies with at least 10 reviews and an average of 4.5 or above. Read the negative reviews too — how did the company respond?
+
+**Clear communication:** A good landscaping company responds promptly, gives written estimates, and explains what's included. Vague quotes lead to disputes.
+
+**Consistency:** For ongoing services like mowing or snow removal, ask who will be on your property. The best companies send the same crew, not whoever's available.
+
+## Questions to Ask Before Hiring
+
+- Are you licensed and insured?
+- Who specifically will be doing my work?
+- What's included in the estimate — and what's extra?
+- How do you handle problems if I'm not satisfied?
+
+## Why Tri-Point Landscaping
+
+Tri-Point Landscaping is owner-operated out of Washington Township, Michigan. We serve Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, and all of Macomb County. We're not a franchise — we're a local business with a local reputation.
+
+[Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "aeration-overseeding-macomb-county-mi",
+    title: "Aeration and Overseeding in Macomb County, MI — When and Why",
+    description: "Aeration followed by overseeding is the single best thing you can do for a thinning Michigan lawn. Here's when to do it and what to expect.",
+    date: "February 25, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Why Aeration + Overseeding Works So Well in Michigan
+
+Michigan's clay-heavy soils — especially in Macomb County — compact easily over time. Once the soil is compacted, grass roots can't reach water or nutrients, and thin spots appear. Aeration relieves that compaction, and overseeding immediately after fills in bare or thin areas with new grass seed that falls directly into the aeration holes.
+
+The combination is dramatically more effective than either treatment alone.
+
+## Best Time to Aerate and Overseed in Macomb County
+
+**Late August through September** is the ideal window. Here's why:
+
+- Soil temperatures are still warm enough for germination (above 50°F)
+- Air temperatures are cooling, reducing drought stress on new seedlings
+- Cool-season grasses are entering their peak fall growth period
+- You get 4–6 weeks of establishment before frost
+
+Spring is a secondary option (April–May), but fall is preferred because weed pressure is lower and the grass has more time to establish before summer heat.
+
+## What to Expect After the Service
+
+- New grass seedlings emerge in 7–14 days
+- Avoid mowing until new grass reaches 3 inches
+- Water lightly but frequently (2x daily if possible) for the first 2–3 weeks
+- Avoid heavy foot traffic for 30 days
+
+## Professional Aeration and Overseeding in Macomb County
+
+Tri-Point Landscaping provides core aeration and overseeding as part of our [lawn renovation services](/services/lawn-renovations). We use quality seed mixes appropriate for Michigan's cool-season turf.
+
+[Schedule a fall lawn renovation](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-plowing-macomb-township-mi",
+    title: "Snow Plowing in Macomb Township, MI — Reliable Winter Service",
+    description: "Looking for snow plowing in Macomb Township? Tri-Point Landscaping provides residential and commercial snow removal with fast response times all winter long.",
+    date: "February 20, 2026",
+    category: "Snow Removal",
+    readTime: "3 min read",
+    content: `
+## Snow Plowing in Macomb Township
+
+Macomb Township is one of the fastest-growing communities in Macomb County, with large subdivisions, HOAs, and commercial properties that need consistent snow removal when Michigan winters hit. Tri-Point Landscaping provides snow plowing and ice management throughout Macomb Township.
+
+## Residential Snow Removal
+
+For homes in Macomb Township, we plow driveways and clear front walks after each qualifying snowfall (typically 2 inches or more). We offer both seasonal contracts and per-push pricing.
+
+**What's included:**
+- Driveway plowing
+- Sidewalk and front walk clearing
+- Calcium chloride or salt application for ice management
+
+## Commercial and HOA Snow Removal
+
+For commercial properties, business parks, and HOA common areas in Macomb Township, we provide:
+
+- Parking lot plowing with designated snow storage
+- Sidewalk and entrance clearing
+- Pre-treatment and post-treatment salting
+- Priority response for contracted accounts
+
+## Service Availability
+
+We route crews through Macomb Township regularly throughout winter. Seasonal contracts are available and recommended for guaranteed priority. Per-event clients are served on a space-available basis.
+
+## Book Before the Season
+
+Snow removal contracts in Macomb Township typically fill out by October. Contact us now to secure your spot.
+
+[Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscape-design-shelby-township-mi",
+    title: "Landscape Design in Shelby Township, MI — Custom Outdoor Spaces",
+    description: "Transform your Shelby Township yard with professional landscape design. Tri-Point Landscaping creates custom designs for beds, borders, and full property makeovers.",
+    date: "February 15, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Landscape Design in Shelby Township
+
+Shelby Township is home to some of Macomb County's most well-maintained residential properties — and great landscaping is a big part of that. Whether you're starting from scratch on a new build or refreshing an overgrown, outdated yard, Tri-Point Landscaping provides professional landscape design and installation throughout Shelby Township.
+
+## What We Design and Install
+
+**Planting beds:** We design and build beds with clean edges, appropriate depth, and plant selections that thrive in Michigan's climate — not plants that look good in the nursery but die after one winter.
+
+**Borders and edging:** Defined edges between turf and beds immediately elevate curb appeal. We use steel edging or natural stone borders depending on the style of the property.
+
+**Ornamental plantings:** Shrubs, ornamental grasses, perennials, and flowering plants selected for four-season interest in Macomb County's climate.
+
+**Mulch and stone installation:** Fresh mulch or decorative stone ties the design together and suppresses weeds.
+
+**Retaining walls:** For Shelby Township properties with grade changes, we build low retaining walls in natural stone or block to manage slopes and create usable yard space.
+
+## Working With Us
+
+We start with a site visit and conversation about your goals and budget. Most Shelby Township landscape projects are completed in one to three days.
+
+[Request a landscape design consultation](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-macomb-township-mi",
+    title: "Spring Cleanup in Macomb Township, MI — Full Property Prep",
+    description: "Get your Macomb Township yard ready for spring with professional cleanup from Tri-Point Landscaping. Leaf removal, bed prep, edging, and more.",
+    date: "February 10, 2026",
+    category: "Seasonal",
+    readTime: "3 min read",
+    content: `
+## Spring Cleanup in Macomb Township
+
+Macomb Township's rapid residential growth means newer homes with established landscaping that needs proper spring attention — and older properties where years of neglect have built up. Tri-Point Landscaping handles both.
+
+## What's Included
+
+**Complete leaf and debris removal:** We collect, bag, and haul away all leaves, sticks, and winter debris from your lawn and beds.
+
+**Bed cleanup:** Perennials are cut back, annuals removed, and dead material cleared to make room for new spring growth.
+
+**Edge definition:** We re-cut clean edges along all beds, driveways, and sidewalks.
+
+**Lawn surface prep:** Dethatching or hard raking to remove matted areas before mowing season.
+
+**Optional:** Fresh [mulch installation](/services/mulch-and-stone), pre-emergent weed control, and fertilization can be added to maximize your spring cleanup investment.
+
+## Timing for Macomb Township
+
+The best window is mid-March through late April. The ground needs to be unfrozen and dry enough to work, but you want to get beds cleaned before weeds establish. We typically run crews through Macomb Township starting in late March.
+
+## Book Early
+
+Spring is our busiest season. Macomb Township slots fill up fast — especially in April when everyone calls at the same time.
+
+[Schedule your spring cleanup](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "residential-landscaping-washington-township-mi",
+    title: "Residential Landscaping in Washington Township, MI",
+    description: "Washington Township homeowners trust Tri-Point Landscaping for residential landscape design, installation, and maintenance. Local, reliable, and experienced.",
+    date: "February 5, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Residential Landscaping in Washington Township
+
+Washington Township is where Tri-Point Landscaping calls home. We've worked on properties throughout the township — from smaller lots near Romeo Plank Road to the larger rural properties along 26 Mile, 28 Mile, and Van Dyke. We know the soil, the drainage patterns, and the plant material that performs well here.
+
+## Services for Washington Township Homeowners
+
+**Landscape design and installation:** Custom planting plans with beds, borders, ornamental trees, and shrubs appropriate for Michigan's Zone 6a climate.
+
+**Lawn maintenance:** Weekly mowing, edging, trimming, and blowing throughout the growing season. We have regular routes in Washington Township and can typically accommodate new clients on nearby streets.
+
+**Mulch and stone:** Fresh mulch or decorative stone installed in all beds. We haul, spread, and edge — no DIY hauling required.
+
+**Seasonal cleanup:** Spring and fall cleanup to keep your property looking sharp year-round.
+
+**Snow removal:** Driveway plowing and salting when Michigan winter arrives.
+
+## Why Local Matters
+
+We're not sending crews from Troy or Sterling Heights. Tri-Point is based in Washington Township — which means faster response, consistent crews, and a company that's accountable to neighbors you might share.
+
+[Request a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080). Same-day response.
+    `,
+  },
+  {
+    slug: "sod-installation-macomb-county-mi",
+    title: "Sod Installation in Macomb County, MI — Instant Green Lawn",
+    description: "Want a green lawn without waiting for seed to germinate? Sod installation gives you an instant lawn. Here's what to know for Macomb County properties.",
+    date: "January 30, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Sod vs. Seed in Macomb County
+
+In Michigan, both sod and seed work well for establishing cool-season turf — but they serve different needs. Sod is the right choice when you need immediate results: for a new build, a yard renovation with an event deadline, or erosion control on a slope.
+
+Seeding is more economical and produces deep-rooted turf over time, but takes 2–3 months to establish and requires careful management during that window.
+
+## Best Time to Install Sod in Michigan
+
+**Spring (April–May):** Excellent establishment window. Moderate temperatures and regular rain reduce irrigation demands.
+
+**Fall (August–September):** The other prime window. Cooler temperatures mean less stress on new sod and strong root development before winter.
+
+Avoid installing sod in summer heat — it requires constant irrigation and is more susceptible to failure.
+
+## What Sod Installation Involves
+
+1. Old turf removal (if applicable)
+2. Grade correction and soil prep
+3. Starter fertilizer application
+4. Sod laying in tight, staggered seams
+5. Rolling to ensure soil contact
+6. Immediate watering and establishment guidance
+
+## How Long Until You Can Use Your Lawn?
+
+New sod typically roots within 2–3 weeks. Light foot traffic is fine after the first week; heavy use should wait 4–6 weeks.
+
+## Professional Sod Installation in Macomb County
+
+Tri-Point Landscaping handles sod installation for residential and commercial properties throughout Macomb County. We source quality sod from local Michigan suppliers.
+
+[Get a sod installation estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "mulch-delivery-installation-macomb-county",
+    title: "Mulch Delivery and Installation in Macomb County, MI",
+    description: "Skip the bags and wheelbarrow. Tri-Point Landscaping delivers and installs bulk mulch throughout Macomb County — beds edged, mulch spread, property looking sharp.",
+    date: "January 25, 2026",
+    category: "Landscaping",
+    readTime: "3 min read",
+    content: `
+## Why Professional Mulch Installation Beats DIY
+
+Buying bags from a hardware store seems easy until you're 20 bags in and realize you need 40 more. Bulk mulch installed by a professional crew is faster, cheaper per yard, and the result looks better — because we edge the beds, pull any weeds underneath, and spread to the right depth (3 inches, no more and no less).
+
+## Mulch Options for Macomb County Properties
+
+**Hardwood mulch:** The most popular choice for residential beds in Macomb County. Dark brown color, good moisture retention, breaks down into soil over time.
+
+**Cedar mulch:** Natural insect-repelling properties and a pleasant scent. Slightly longer lasting than hardwood.
+
+**Dyed mulch (black, brown, red):** Colorfast for longer visual freshness. Popular in high-visibility beds near driveways and entrances.
+
+**Stone and river rock:** For properties that want a low-maintenance alternative. We install landscape fabric and stone in beds that don't require annual refreshing.
+
+## What's Included in Our Service
+
+- Bed edging for clean definition
+- Weed pulling or pre-emergent treatment (optional)
+- Bulk mulch delivery and hand installation to proper depth
+- Cleanup and blowing of all hard surfaces
+
+## Service Area
+
+We deliver and install mulch throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township.
+
+[Get a mulch installation estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-bruce-township-mi",
+    title: "Lawn Care in Bruce Township, MI — Local Service You Can Count On",
+    description: "Bruce Township lawns get overlooked by many landscaping companies. Tri-Point Landscaping provides reliable mowing, cleanup, and snow removal throughout Bruce Township.",
+    date: "January 20, 2026",
+    category: "Lawn Care",
+    readTime: "3 min read",
+    content: `
+## Lawn Care in Bruce Township
+
+Bruce Township sits at the northern edge of Macomb County — and many landscaping companies don't regularly route crews this far north. Tri-Point Landscaping is based in neighboring Washington Township, which means Bruce Township is a short drive from our base of operations. We provide regular mowing, cleanup, and seasonal services to properties throughout the township.
+
+## Services Available in Bruce Township
+
+**Weekly lawn mowing:** Consistent mowing, edging, and trimming throughout the growing season. We don't skip weeks or send different crews each time.
+
+**Spring and fall cleanup:** Full debris removal, bed cleanup, and property prep for both seasons.
+
+**Snow plowing:** Residential driveway plowing with salt application when winter arrives.
+
+**Landscape maintenance:** Mulch, trimming, and bed care for Bruce Township properties that want a maintained appearance.
+
+## What to Expect
+
+Bruce Township has a mix of rural properties, larger lots, and newer subdivisions. We have experience with all property types — from large rural driveways to tight subdivision lots. Pricing reflects travel time honestly, and we give free estimates before any commitment.
+
+## Contact Us
+
+[Request a free estimate](/contact) for your Bruce Township property, or call [(586) 327-8080](tel:+15863278080). We typically respond same day.
+    `,
+  },
+  {
+    slug: "lawn-care-ray-township-mi",
+    title: "Lawn Care in Ray Township, MI — Mowing, Cleanup & More",
+    description: "Tri-Point Landscaping provides professional lawn care in Ray Township, MI — including mowing, seasonal cleanup, and snow removal for residential properties.",
+    date: "January 15, 2026",
+    category: "Lawn Care",
+    readTime: "3 min read",
+    content: `
+## Lawn Care in Ray Township
+
+Ray Township, tucked between Romeo and the St. Clair County line, is another northern Macomb County community that many landscaping companies treat as out-of-range. Tri-Point Landscaping is based in Washington Township and serves Ray Township as part of our regular service area — no extra travel charges, no inconsistent coverage.
+
+## Available Services in Ray Township
+
+**Lawn mowing:** Weekly cutting at the right height for Michigan cool-season grass. Includes edging, trimming, and blowing.
+
+**Seasonal cleanup:** Spring and fall property cleanup, including leaf removal, bed cleanup, and debris hauling.
+
+**Snow removal:** Driveway plowing and salting for residential properties when winter weather hits.
+
+**Lawn renovations:** Aeration, overseeding, and lawn restoration for Ray Township properties with thin or damaged turf.
+
+## Ray Township Property Types
+
+Ray Township has some of Macomb County's larger residential lots and a rural feel. We have the equipment to handle large properties efficiently — no property is too large for a free estimate.
+
+## Book a Free Estimate
+
+[Contact us online](/contact) or call [(586) 327-8080](tel:+15863278080). We serve all of Ray Township and typically respond same day.
+    `,
+  },
+  {
+    slug: "snow-removal-shelby-township-mi",
+    title: "Snow Removal in Shelby Township, MI — Fast, Reliable Plowing",
+    description: "Tri-Point Landscaping provides residential and commercial snow removal throughout Shelby Township. Reliable plowing, salting, and 24/7 winter coverage.",
+    date: "January 10, 2026",
+    category: "Snow Removal",
+    readTime: "3 min read",
+    content: `
+## Snow Removal in Shelby Township
+
+Shelby Township is one of the most densely developed communities in Macomb County — which means lots of driveways, parking lots, and HOA common areas that need consistent snow removal when Michigan winter hits. Tri-Point Landscaping provides both residential and commercial snow plowing throughout Shelby Township.
+
+## Residential Snow Removal in Shelby Township
+
+**Driveways:** Plowed clean after each qualifying snowfall. We push snow to a designated area and don't block mailboxes, fire hydrants, or garage doors.
+
+**Walks and sidewalks:** Cleared and salted to prevent slip hazards.
+
+**Salting and de-icing:** Calcium chloride or rock salt applied after every plow visit.
+
+**Response time:** Residential clients in Shelby Township are typically serviced within a few hours of a storm ending.
+
+## Commercial Snow Removal in Shelby Township
+
+Shelby Township businesses, strip malls, and HOAs need cleared lots before morning hours. We offer commercial contracts with defined trigger depths and guaranteed response windows.
+
+## Seasonal Contracts vs. Per-Push
+
+Seasonal contracts are recommended for Shelby Township — Michigan winters are unpredictable and a flat monthly rate protects your budget.
+
+## Book Now
+
+Snow removal slots in Shelby Township fill quickly. [Reserve your spot](/contact) or call [(586) 327-8080](tel:+15863278080) before the season begins.
+    `,
+  },
+  {
+    slug: "shrub-and-tree-trimming-macomb-county",
+    title: "Shrub and Tree Trimming in Macomb County, MI — Keep Your Yard Sharp",
+    description: "Overgrown shrubs and trees make even well-kept lawns look neglected. Tri-Point Landscaping provides professional trimming throughout Macomb County.",
+    date: "January 5, 2026",
+    category: "Landscaping",
+    readTime: "3 min read",
+    content: `
+## Why Regular Shrub and Tree Trimming Matters
+
+In Macomb County, where ornamental shrubs and foundation plantings are common on most residential properties, regular trimming is as important as mowing. Overgrown shrubs block windows, crowd walkways, and create hiding spots for pests. Properly trimmed shrubs and small ornamental trees add structure and curb appeal to any property.
+
+## When to Trim Shrubs in Michigan
+
+**Spring-blooming shrubs** (forsythia, lilac, viburnum): Trim immediately after they bloom — never before.
+
+**Summer and fall-blooming shrubs** (spirea, rose of Sharon, butterfly bush): Trim in late winter or early spring before new growth starts.
+
+**Evergreens** (arborvitae, yews, boxwood): Trim in late spring after the first flush of new growth. Avoid heavy trimming in fall.
+
+**Ornamental trees** (crabapple, serviceberry, ornamental cherry): Late winter dormant pruning is best.
+
+## What We Trim
+
+- Foundation plantings and border shrubs
+- Ornamental trees under 15 feet
+- Hedgerows and privacy screens
+- Overgrown or mis-shapen specimens that need corrective pruning
+- Deadwood removal from small trees
+
+## Service Area
+
+We provide shrub and tree trimming throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township.
+
+[Request a trimming estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "retaining-wall-installation-macomb-county",
+    title: "Retaining Wall Installation in Macomb County, MI",
+    description: "Sloped yards, eroding beds, and drainage problems are often solved with a retaining wall. Tri-Point Landscaping installs functional and attractive retaining walls throughout Macomb County.",
+    date: "December 28, 2025",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## When Do You Need a Retaining Wall?
+
+Retaining walls solve specific landscape problems in Macomb County:
+
+**Slope erosion:** When your yard grades toward the house or a planting bed, heavy rain washes soil and mulch into undesirable areas. A retaining wall holds the slope in place.
+
+**Grade changes:** Split-level yards with steep drops between lawn areas are better managed with a low wall that creates defined, flat spaces.
+
+**Raised beds:** Retaining walls used to frame raised planting beds add both function and visual interest.
+
+**Drainage control:** A wall can redirect surface water away from foundations and low areas that pool after rain.
+
+## Materials We Use
+
+**Natural stone:** Field stone or cut stone walls blend into landscapes beautifully and can last decades without maintenance. Popular on Washington Township and Romeo properties with a rural or traditional style.
+
+**Concrete block (Allan Block, Versa-Lok):** The most common choice for modern Macomb County subdivisions. Engineered for stability, available in a range of colors.
+
+**Timber:** Pressure-treated railroad ties or landscape timbers for budget-conscious applications. Lifespan is typically 15–20 years.
+
+## What's Included in Our Installation
+
+- Site prep and excavation
+- Gravel base for drainage
+- Wall construction
+- Backfill and compaction
+- Cleanup
+
+## Get a Retaining Wall Estimate
+
+Wall projects vary widely by size, material, and site conditions. A free on-site estimate is the best starting point.
+
+[Contact us](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-maintenance-contract-macomb-county",
+    title: "Why a Lawn Maintenance Contract Makes Sense in Macomb County",
+    description: "One-time lawn calls are fine, but a seasonal maintenance contract keeps your Macomb County property looking great all year — and often costs less than you think.",
+    date: "December 20, 2025",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## What a Lawn Maintenance Contract Actually Includes
+
+A seasonal lawn maintenance contract with Tri-Point Landscaping is not just mowing. For most Macomb County homeowners, a full contract covers:
+
+**Spring through fall mowing:** Weekly visits with mowing at the right height, edging along all hard surfaces, string trimming around obstacles, and blowing of driveways and walks.
+
+**Spring cleanup:** Full debris and leaf removal, bed cleanup, edge re-definition.
+
+**Fall cleanup:** Final leaf removal, bed cleanup, and winter prep.
+
+**Priority scheduling:** Contracted clients get first priority over one-time or call-in requests.
+
+Optional add-ons: mulch installation, fertilization, aeration, snow removal.
+
+## The Cost Advantage
+
+Homeowners who pay for individual services throughout the year often pay more than those on a contract. Contracts allow us to route efficiently, which lets us offer better pricing for consistent clients.
+
+## Consistency Is the Biggest Benefit
+
+With a maintenance contract, your property gets the same crew on the same schedule all season. You don't need to call, check, or remind anyone. It happens.
+
+That's particularly valuable for busy families in Washington Township and Shelby Township who want a sharp-looking yard without managing a landscaper.
+
+## How to Get Started
+
+We offer seasonal contracts for new clients each spring. Slots are limited — we only take on as many accounts as we can serve well.
+
+[Contact us to discuss a contract](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
 ];
-
-
