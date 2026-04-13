@@ -20,6 +20,14 @@ const areaSlugs = [
   "romeo",
   "ray-township",
   "bruce-township",
+  "clinton-township",
+  "chesterfield-township",
+  "utica",
+  "new-baltimore",
+  "armada",
+  "richmond",
+  "rochester",
+  "rochester-hills",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -69,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
   }));
 
-  // 48 service × area pages (e.g. /services/lawn-maintenance/washington-township)
+  // service × area pages (e.g. /services/lawn-maintenance/washington-township)
   const serviceAreaPages: MetadataRoute.Sitemap = [];
   for (const serviceSlug of serviceSlugs) {
     for (const areaSlug of areaSlugs) {

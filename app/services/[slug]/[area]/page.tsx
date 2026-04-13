@@ -218,6 +218,62 @@ const areas: Record<string, {
     heroImage: "/photos/boxwood.jpg",
     localDesc: "Bruce Township sits at the northern edge of Macomb County's residential growth corridor, offering a blend of rural character and residential development.",
   },
+  "clinton-township": {
+    name: "Clinton Township",
+    county: "Macomb County",
+    roads: "Hall Road, Gratiot Avenue & 15 Mile Road",
+    heroImage: "/photos/bills-google2.jpeg",
+    localDesc: "Clinton Township is Macomb County's largest community, with diverse residential neighborhoods and active commercial corridors that require reliable, professional property care.",
+  },
+  "chesterfield-township": {
+    name: "Chesterfield Township",
+    county: "Macomb County",
+    roads: "21 Mile Road, 23 Mile Road & Gratiot Avenue",
+    heroImage: "/photos/IMG_4417.jpeg",
+    localDesc: "Chesterfield Township's growing residential areas and lakefront properties near Lake St. Clair create a diverse landscape environment requiring experienced, adaptable care.",
+  },
+  "utica": {
+    name: "Utica",
+    county: "Macomb County",
+    roads: "Hall Road, Auburn Road & Van Dyke Avenue",
+    heroImage: "/photos/mulch.jpg",
+    localDesc: "Utica's established residential neighborhoods and central Macomb County location make it a community where consistent, quality property maintenance matters.",
+  },
+  "new-baltimore": {
+    name: "New Baltimore",
+    county: "Macomb County",
+    roads: "23 Mile Road, Washington Street & Green Street",
+    heroImage: "/photos/spring.jpg",
+    localDesc: "New Baltimore's waterfront character on Anchor Bay and Lake St. Clair creates a unique landscape environment that rewards experienced, thoughtful property care.",
+  },
+  "armada": {
+    name: "Armada",
+    county: "Macomb County",
+    roads: "Armada Ridge Road, 30 Mile Road & Bordman Road",
+    heroImage: "/photos/IMG_3369.jpeg",
+    localDesc: "Armada's rural character and larger properties require landscaping expertise and equipment that Tri-Point Landscaping brings to every job in northern Macomb County.",
+  },
+  "richmond": {
+    name: "Richmond",
+    county: "Macomb County",
+    roads: "32 Mile Road, Main Street & Gratiot Avenue",
+    heroImage: "/photos/boxwood.jpg",
+    localDesc: "Richmond's small-city character and northeastern Macomb County location create a community where professional, locally-owned landscaping service is truly valued.",
+  },
+  "rochester": {
+    name: "Rochester",
+    county: "Oakland County",
+    roads: "Walnut Boulevard, University Drive & Tienken Road",
+    heroImage: "/photos/bills-google2.jpeg",
+    localDesc: "Rochester's prestigious residential neighborhoods and distinguished downtown create one of Michigan's most desirable communities — with landscaping standards to match.",
+  },
+  "rochester-hills": {
+    name: "Rochester Hills",
+    county: "Oakland County",
+    roads: "Auburn Road, Adams Road & Livernois Road",
+    heroImage: "/photos/IMG_4417.jpeg",
+    localDesc: "Rochester Hills is consistently ranked among Michigan's best places to live, with beautiful neighborhoods and homeowners who invest significantly in their properties.",
+  },
 };
 
 /* ─────────────────────────────────────────

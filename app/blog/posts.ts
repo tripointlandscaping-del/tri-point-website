@@ -2908,6 +2908,747 @@ Wall projects vary widely by size, material, and site conditions. A free on-site
     `,
   },
   {
+    slug: "landscaping-rochester-hills-mi",
+    title: "Landscaping in Rochester Hills, MI — Premium Service for a Premier Community",
+    description: "Rochester Hills homeowners expect the best — and Tri-Point Landscaping delivers. Premium lawn care, landscape design, and snow removal for Oakland County's most desirable community.",
+    date: "April 10, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Rochester Hills Landscaping Standards
+
+Rochester Hills is consistently ranked among Michigan's best places to live — beautiful neighborhoods, strong property values, and homeowners who invest in their properties. That means the landscaping bar is high. At Tri-Point Landscaping, we meet that bar every time.
+
+## Services We Provide in Rochester Hills
+
+**Precision lawn maintenance:** Weekly mowing at the correct height, sharp edging along every hard surface, trimming around all obstacles, and blowing clean after each visit. Rochester Hills lawns are showcases — we treat them that way.
+
+**Landscape design and installation:** New planting beds, ornamental shrubs and grasses, seasonal color, stone features, and full property makeovers. We work with Rochester Hills homeowners to create landscapes that complement their homes.
+
+**Mulch and decorative stone:** Fresh mulch or stone installations that frame beds cleanly, suppress weeds, and elevate curb appeal. We edge, spread, and clean up — one visit, finished result.
+
+**Seasonal cleanup:** Spring and fall cleanup done thoroughly — every leaf removed, every bed cleared, every edge refreshed.
+
+**Snow removal:** Reliable driveway plowing and salting so Rochester Hills homeowners and their families can get in and out safely all winter.
+
+## Why Rochester Hills Homeowners Choose Tri-Point
+
+We're not a crew of anonymous workers running through neighborhoods without accountability. We're an owner-operated company that treats every Rochester Hills property like it's our business's reputation on display — because it is.
+
+[Get a free estimate for your Rochester Hills property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-rochester-hills-mi",
+    title: "Lawn Care in Rochester Hills, MI — The Standard Your Property Deserves",
+    description: "Rochester Hills lawns deserve more than average. Tri-Point Landscaping provides professional lawn maintenance, aeration, and renovation services throughout Rochester Hills.",
+    date: "April 8, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Lawn Care in Rochester Hills
+
+Rochester Hills has some of the most beautifully maintained residential properties in southeast Michigan. Keeping a lawn at that standard requires consistent, professional maintenance — not a crew that shows up occasionally and does the minimum.
+
+Tri-Point Landscaping provides weekly lawn care throughout Rochester Hills with the detail and precision that these properties demand.
+
+## What Professional Lawn Care in Rochester Hills Includes
+
+**Weekly mowing:** Cut at 3–3.5 inches — the right height for Michigan's cool-season grasses. Never scalped, never rushed.
+
+**Edging:** Every sidewalk, driveway, and bed edge cut clean and defined each visit. This is what separates professional results from average.
+
+**String trimming:** Every fence line, tree ring, obstacle, and corner trimmed precisely.
+
+**Blowing:** All clippings cleared from hard surfaces — driveways, walks, beds — after every visit.
+
+**Seasonal transitions:** We start and end the season at the right time for Michigan's climate, not on a calendar date.
+
+## Lawn Renovation Services for Rochester Hills
+
+Thin turf, bare patches, or a lawn that just won't respond to regular mowing? We offer core aeration and overseeding to restore Rochester Hills lawns to their full potential. Late summer through September is the ideal window.
+
+## Book Your Rochester Hills Lawn Care
+
+[Request a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080). We serve all of Rochester Hills with consistent, premium-quality lawn care.
+    `,
+  },
+  {
+    slug: "landscaping-rochester-mi",
+    title: "Landscaping in Rochester, MI — Beautiful Properties Deserve Expert Care",
+    description: "Rochester, MI is one of Michigan's most prestigious communities. Tri-Point Landscaping provides premium landscaping, lawn care, and snow removal throughout Rochester.",
+    date: "April 6, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Landscaping in Rochester, MI
+
+Rochester is one of Oakland County's crown jewels — a charming downtown, prestigious neighborhoods along Paint Creek and Walnut Boulevard, and homeowners who take exceptional pride in their properties. Landscaping in Rochester needs to match that standard.
+
+Tri-Point Landscaping serves Rochester with premium landscape design, precise lawn maintenance, and reliable snow removal. We treat every Rochester property with the care and attention it deserves.
+
+## Our Rochester Landscaping Services
+
+**Landscape design and installation:** We create custom landscape plans for Rochester properties — from simple bed refreshes to complete front and backyard transformations. Every design accounts for Michigan's climate and the character of the home.
+
+**Weekly lawn maintenance:** Precision mowing, sharp edging, trimming, and blowing on every visit. Rochester lawns are visible, prominent, and important — we take that seriously.
+
+**Mulch and stone:** Premium mulch and decorative stone installed cleanly in all beds. We edge, spread, and finish — no mess left behind.
+
+**Seasonal cleanup:** Spring and fall cleanup performed thoroughly. Rochester's mature tree canopy produces significant leaf volume — we handle it completely.
+
+**Snow removal:** Reliable plowing and salting so Rochester homeowners can navigate safely all winter.
+
+## Rochester's Landscape Character
+
+Rochester's mature neighborhoods — particularly along Walnut Boulevard, University Drive, and the Paint Creek corridor — feature established plantings, mature trees, and landscape investments that have developed over decades. We approach these properties with respect for what's already there.
+
+[Request a free estimate for your Rochester property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-removal-rochester-hills-mi",
+    title: "Snow Removal in Rochester Hills, MI — Reliable Winter Service",
+    description: "Don't let winter disrupt your Rochester Hills home. Tri-Point Landscaping provides reliable driveway plowing, salting, and ice management throughout Rochester Hills.",
+    date: "April 4, 2026",
+    category: "Snow Removal",
+    readTime: "3 min read",
+    content: `
+## Snow Removal in Rochester Hills
+
+Rochester Hills winters are unpredictable — Michigan can dump 6 inches overnight with no warning. Rochester Hills homeowners need a snow removal company that monitors the forecast, shows up early, and leaves every driveway clean and safe before the day starts.
+
+Tri-Point Landscaping provides professional snow plowing and ice management throughout Rochester Hills.
+
+## What We Provide
+
+**Driveway plowing:** We push snow cleanly to designated areas without blocking mailboxes, fire hydrants, or the road. Every pass leaves your driveway fully accessible.
+
+**Sidewalk and walkway clearing:** Front walks, side paths, and step areas cleared after every plow visit.
+
+**Salting and de-icing:** Rock salt or calcium chloride applied after plowing to prevent ice formation on driveways and walks.
+
+**24/7 monitoring:** We watch forecasts and route crews proactively — you don't need to call us when it snows.
+
+## Seasonal Contracts for Rochester Hills
+
+A seasonal snow removal contract is the simplest option for Rochester Hills homeowners — one payment, guaranteed service all winter, no per-storm negotiations. We trigger at 2 inches of accumulation.
+
+Per-push pricing is also available for lighter winters or if you prefer flexibility.
+
+## Book Before the Season Fills
+
+Rochester Hills snow removal spots fill up before November. Secure yours now.
+
+[Reserve your winter snow removal spot](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-clinton-township-mi",
+    title: "Landscaping in Clinton Township, MI — Macomb County's Largest Community",
+    description: "Tri-Point Landscaping provides professional lawn care, landscaping, and snow removal throughout Clinton Township. Serving Macomb County's largest community.",
+    date: "April 2, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Landscaping in Clinton Township
+
+Clinton Township is the largest township in Michigan by population — and with that size comes an enormous range of property types, from established post-war neighborhoods near Gratiot to newer subdivisions in the north near the Macomb Township border. Tri-Point Landscaping serves all of it.
+
+## Services Available in Clinton Township
+
+**Lawn maintenance:** Weekly mowing, edging, trimming, and blowing for residential and commercial properties throughout Clinton Township. We serve properties along Hall Road, Gratiot Avenue, 15 Mile Road, and throughout the township's established residential corridors.
+
+**Landscape design and installation:** New beds, plantings, and full property makeovers for Clinton Township homeowners who want to invest in their curb appeal.
+
+**Mulch and stone:** Fresh mulch or decorative stone installed in all beds. We haul, spread, and edge — no bags, no mess.
+
+**Seasonal cleanup:** Spring and fall cleanup to keep Clinton Township properties looking sharp year-round.
+
+**Snow removal:** Residential and commercial plowing, sidewalk clearing, and salting throughout Clinton Township.
+
+## Commercial Landscaping in Clinton Township
+
+Clinton Township's commercial corridors — particularly along Gratiot and Hall Road — represent some of Macomb County's most active retail and office areas. We provide commercial landscaping contracts for businesses, strip malls, and property management companies throughout the township.
+
+[Get a free estimate for your Clinton Township property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-clinton-township-mi",
+    title: "Lawn Care in Clinton Township, MI — Professional, Consistent Service",
+    description: "Looking for reliable lawn care in Clinton Township? Tri-Point Landscaping provides weekly mowing, seasonal cleanup, and snow removal throughout Macomb County's largest community.",
+    date: "March 30, 2026",
+    category: "Lawn Care",
+    readTime: "3 min read",
+    content: `
+## Lawn Care in Clinton Township
+
+Clinton Township has diverse residential neighborhoods spanning several decades of development — from established areas near Mount Clemens to newer subdivisions in the north. Whatever the property age or style, maintaining it through Michigan's demanding four seasons takes consistency and care.
+
+Tri-Point Landscaping provides reliable, professional lawn care throughout Clinton Township.
+
+## What We Offer in Clinton Township
+
+**Weekly mowing:** We cut at the right height for Michigan's cool-season grass — 3–3.5 inches — with sharp edging and clean trimming on every visit.
+
+**Spring cleanup:** Full debris and leaf removal, bed cleanup, and edge definition to start the season right.
+
+**Fall cleanup:** Complete leaf removal, perennial cutback, and bed cleanup before winter sets in.
+
+**Snow removal:** Residential driveway plowing and salting throughout Clinton Township when Michigan winter arrives.
+
+**Lawn renovation:** Thin or bare turf restored through core aeration and overseeding. Fall timing is ideal in Michigan.
+
+## Why Clinton Township Homeowners Choose Tri-Point
+
+We're an owner-operated company — not a franchise with anonymous crews. When you call, someone answers. When we say we're coming, we come. That reliability is rare, and it's what sets us apart in Clinton Township.
+
+[Request a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-chesterfield-township-mi",
+    title: "Landscaping in Chesterfield Township, MI — Service Near Lake St. Clair",
+    description: "Chesterfield Township landscaping from Tri-Point — professional lawn care, mulch installation, seasonal cleanup, and snow removal near Lake St. Clair.",
+    date: "March 28, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Landscaping in Chesterfield Township
+
+Chesterfield Township is one of Macomb County's fastest-growing communities, with beautiful neighborhoods stretching from the Gratiot corridor to the lakefront areas near Lake St. Clair and Anchor Bay. Properties here range from newer subdivisions to established waterfront estates.
+
+Tri-Point Landscaping serves Chesterfield Township with professional landscaping, lawn care, and property maintenance.
+
+## Chesterfield Township Landscaping Services
+
+**Lawn maintenance:** Weekly mowing, edging, trimming, and blowing on a consistent schedule. Chesterfield Township properties deserve the same regular attention as any premium community — and that's what we deliver.
+
+**Landscape design and installation:** New beds, plantings, stone features, and full landscape transformations. We bring design ideas that work with Michigan's climate and your property's character.
+
+**Mulch and stone:** Fresh mulch or decorative stone applied cleanly and precisely in all beds. A mulch refresh is one of the highest-ROI improvements for Chesterfield Township curb appeal.
+
+**Seasonal cleanup:** Spring and fall cleanups to keep properties sharp through all four seasons.
+
+**Snow removal:** Reliable plowing and salting throughout Chesterfield Township.
+
+## Lakefront and Waterfront Properties
+
+Chesterfield Township's waterfront properties near Lake St. Clair have specific landscape considerations — salt-tolerant plant selections, drainage management, and maintenance approaches that account for the proximity to water. We're experienced with these requirements.
+
+[Get a free estimate in Chesterfield Township](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-removal-clinton-township-mi",
+    title: "Snow Removal in Clinton Township, MI — Fast & Reliable Plowing",
+    description: "Clinton Township snow removal from Tri-Point Landscaping — residential and commercial plowing, salting, and ice management all winter long.",
+    date: "March 26, 2026",
+    category: "Snow Removal",
+    readTime: "3 min read",
+    content: `
+## Snow Removal in Clinton Township
+
+With Clinton Township's size and density, winter snow events can create significant access issues for homeowners and businesses. Tri-Point Landscaping provides reliable snow plowing and ice management throughout Clinton Township — so you can get where you need to go regardless of what Michigan winter throws at you.
+
+## Residential Snow Removal
+
+For Clinton Township homeowners, we offer:
+- Driveway plowing after each qualifying snowfall (2-inch trigger)
+- Sidewalk and front walk clearing
+- Salt or calcium chloride application for ice prevention
+- Seasonal contracts and per-push pricing
+
+## Commercial Snow Removal in Clinton Township
+
+Clinton Township's commercial corridors — Gratiot, Hall Road, and 15 Mile — have businesses that need clear parking lots before customers arrive. We provide:
+- Parking lot plowing with designated snow placement
+- Sidewalk and entrance clearing
+- Pre-treatment and post-treatment salting
+- Priority response for contracted commercial accounts
+
+## Seasonal Contracts vs. Per-Push
+
+Most Clinton Township clients prefer a seasonal contract — one payment, unlimited service all winter. We trigger automatically at 2 inches without you needing to call. Per-push is available for lighter-use properties.
+
+[Secure your Clinton Township snow removal](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-rochester-hills-mi",
+    title: "Spring Cleanup in Rochester Hills, MI — Premium Property Prep",
+    description: "Get your Rochester Hills yard looking exceptional after winter. Tri-Point Landscaping provides thorough spring cleanup services including leaf removal, bed prep, and fresh mulch.",
+    date: "March 22, 2026",
+    category: "Seasonal",
+    readTime: "3 min read",
+    content: `
+## Spring Cleanup in Rochester Hills
+
+Rochester Hills properties come through Michigan winter with matted leaves, winter debris, flattened turf, and beds that need attention before the growing season takes off. A thorough spring cleanup done right sets the tone for the entire season.
+
+Tri-Point Landscaping provides professional spring cleanup throughout Rochester Hills — the kind of detailed work that matches the standards this community expects.
+
+## What's Included
+
+**Complete leaf and debris removal:** We collect and haul away all leaves, sticks, and winter debris from your entire property — lawn and beds.
+
+**Bed cleanup:** Dead plant material, winter weeds, and old debris cleared from all garden beds.
+
+**Edge refresh:** Clean, defined edges along all beds, driveways, and walkways — re-establishing the lines that winter eroded.
+
+**Lawn surface prep:** Hard raking or blowing to remove matted areas and allow new growth to push through evenly.
+
+**Optional add-ons:** Fresh mulch installation, fertilizer application, and core aeration are popular Rochester Hills add-ons that maximize your spring cleanup investment.
+
+## Book Early
+
+Rochester Hills spring cleanup slots are limited and fill fast — typically by early April. The best dates go to clients who book in February or March.
+
+[Schedule your Rochester Hills spring cleanup](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "mulch-installation-rochester-hills-mi",
+    title: "Mulch Installation in Rochester Hills, MI — Curb Appeal That Lasts",
+    description: "Fresh mulch transforms Rochester Hills properties instantly. Tri-Point Landscaping delivers and installs bulk mulch throughout Rochester Hills — beds edged, spread to depth, property looking exceptional.",
+    date: "March 18, 2026",
+    category: "Landscaping",
+    readTime: "3 min read",
+    content: `
+## Mulch Installation in Rochester Hills
+
+A fresh mulch installation is one of the highest-return improvements a Rochester Hills homeowner can make. It defines beds, suppresses weeds, retains moisture, and elevates the entire property's appearance in a single visit.
+
+Tri-Point Landscaping delivers and installs bulk mulch throughout Rochester Hills — we edge your beds, remove old debris, spread mulch to the correct depth, and clean up when we're done.
+
+## Mulch Options for Rochester Hills
+
+**Premium hardwood mulch:** The most popular choice. Dark brown, natural appearance, breaks down to improve soil over time. Our most-requested product in Rochester Hills.
+
+**Black dyed mulch:** High contrast against green foliage and colored stone. Stays dark longer than natural mulch.
+
+**Cedar mulch:** Natural insect-repelling properties, longer-lasting than hardwood, pleasant scent.
+
+**Decorative stone:** River rock, crushed granite, or lava rock for low-maintenance beds that don't need annual refreshing.
+
+## What's Included in Our Rochester Hills Mulch Service
+
+- Bed edging for clean, sharp definition
+- Old debris removal if needed
+- Bulk mulch delivery and hand installation to 3-inch depth
+- Cleanup of all hard surfaces
+
+## Pricing
+
+Rochester Hills mulch projects are priced per the job after a free on-site estimate. We don't charge per bag — we deliver bulk and install it properly.
+
+[Request a mulch estimate for your Rochester Hills property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-utica-mi",
+    title: "Landscaping in Utica, MI — Reliable Local Service",
+    description: "Tri-Point Landscaping serves Utica, MI with professional lawn care, landscape installation, mulch, and snow removal. Locally owned and consistently reliable.",
+    date: "March 14, 2026",
+    category: "Landscaping",
+    readTime: "3 min read",
+    content: `
+## Landscaping in Utica
+
+Utica is a close-knit Macomb County community with established residential properties and a central location that makes it easy for our crews to service regularly. Tri-Point Landscaping provides professional lawn care and landscaping throughout Utica with the consistency and reliability that homeowners here expect.
+
+## Services in Utica, MI
+
+**Lawn maintenance:** Weekly mowing, precise edging, trimming, and blowing. Utica's established neighborhoods have visible, maintained lawns — we keep yours at that standard.
+
+**Landscape design and installation:** New plantings, bed installations, and property makeovers for Utica homeowners looking to improve their curb appeal.
+
+**Mulch and stone:** Fresh mulch delivered and installed in all beds. We edge clean, spread to depth, and clean up completely.
+
+**Seasonal cleanup:** Spring and fall cleanups including leaf removal, bed prep, and edge refresh.
+
+**Snow removal:** Residential driveway plowing and salting throughout Utica.
+
+## Utica's Established Landscape Character
+
+Many Utica properties have mature landscaping that's been in place for decades — established shrubs, large trees, and beds that need thoughtful maintenance rather than complete renovation. We work with what's there and help it look its best.
+
+[Get a free estimate for your Utica property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-new-baltimore-mi",
+    title: "Landscaping in New Baltimore, MI — Waterfront to Residential",
+    description: "Tri-Point Landscaping serves New Baltimore with professional lawn care, landscaping, and snow removal. Serving Anchor Bay waterfront and residential properties.",
+    date: "March 12, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Landscaping in New Baltimore
+
+New Baltimore sits on Anchor Bay at the edge of Lake St. Clair — a city with a distinct waterfront character, established residential neighborhoods, and a community pride that shows in how properties are maintained.
+
+Tri-Point Landscaping serves New Baltimore with professional landscaping and property care for both waterfront and residential clients.
+
+## Services in New Baltimore
+
+**Lawn maintenance:** Weekly mowing, edging, trimming, and blowing on a consistent schedule. New Baltimore's residential streets are proud neighborhoods — we help yours stand out.
+
+**Landscape design:** Custom plantings, bed installations, and landscape refreshes designed for New Baltimore's climate and waterfront conditions where applicable.
+
+**Mulch and stone:** Fresh bulk mulch or stone installed cleanly in all beds. The right mulch product for New Baltimore's conditions keeps beds looking sharp through the season.
+
+**Seasonal cleanup:** Spring cleanup after winter and fall cleanup before freeze — comprehensive leaf removal, bed prep, and haul-away.
+
+**Snow removal:** Driveway plowing and ice management for New Baltimore residential and commercial properties.
+
+## Waterfront Property Considerations
+
+New Baltimore's lakefront and Anchor Bay properties have specific landscape needs — plant selections that tolerate moisture, proper drainage, and maintenance routines that account for water exposure. We're experienced with these conditions and bring that knowledge to every waterfront job.
+
+[Request a free estimate in New Baltimore](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-chesterfield-township-mi",
+    title: "Lawn Care in Chesterfield Township, MI — Growing Community, Professional Care",
+    description: "Chesterfield Township is growing fast — and so is the demand for quality lawn care. Tri-Point Landscaping provides consistent mowing, cleanup, and snow removal throughout Chesterfield.",
+    date: "March 8, 2026",
+    category: "Lawn Care",
+    readTime: "3 min read",
+    content: `
+## Lawn Care in Chesterfield Township
+
+Chesterfield Township's rapid residential growth has created a community of newer homeowners who want their properties maintained professionally — without having to manage it themselves. Tri-Point Landscaping provides consistent, reliable lawn care throughout Chesterfield Township.
+
+## What We Offer Chesterfield Township Homeowners
+
+**Weekly lawn mowing:** We cut at the right height for Michigan's cool-season turf, edge every hard surface, trim every obstacle, and blow everything clean. Same crew, same schedule, every week.
+
+**Spring cleanup:** Full debris removal, bed cleanup, and edge definition to kick off the growing season right.
+
+**Fall cleanup:** Complete leaf removal and bed cleanup before winter arrives. Chesterfield Township's neighborhoods have significant tree canopy — we handle the volume.
+
+**Snow removal:** Driveway plowing and salting for Chesterfield Township homeowners when Michigan winter hits.
+
+**Mulch installation:** Bulk mulch delivered and installed in all beds as a standalone service or add-on to your cleanup.
+
+## Seasonal Contracts
+
+Most Chesterfield Township clients choose a full-season contract that covers mowing, spring and fall cleanup, and snow removal under one agreement. It's the simplest, most cost-effective option.
+
+[Get a free estimate for your Chesterfield Township property](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-armada-richmond-mi",
+    title: "Landscaping in Armada and Richmond, MI — Northern Macomb County",
+    description: "Tri-Point Landscaping serves Armada and Richmond with professional lawn care, cleanup, and snow removal. Based in nearby Washington Township — fast, reliable service.",
+    date: "March 4, 2026",
+    category: "Landscaping",
+    readTime: "3 min read",
+    content: `
+## Landscaping for Armada and Richmond
+
+Armada and Richmond sit at the northeast edge of Macomb County — communities that many landscaping companies treat as out-of-range. Tri-Point Landscaping is based in Washington Township, just a short drive from both. We actively serve this area and treat it as part of our core route — not an afterthought.
+
+## Services Available in Armada and Richmond
+
+**Lawn mowing:** Weekly or bi-weekly mowing for residential properties. We have the equipment for larger lots common in this area.
+
+**Seasonal cleanup:** Spring and fall cleanup including leaf removal, bed work, and haul-away. Rural and wooded properties produce high volumes of debris — we handle it.
+
+**Snow removal:** Driveway plowing and salting for residential properties in Armada and Richmond. Long rural driveways are something we handle regularly.
+
+**Landscape installation:** New beds, plantings, and mulch installations for Armada and Richmond homeowners who want to invest in their properties.
+
+## Rural Property Experience
+
+Properties in Armada and Richmond tend to have larger acreage, more mature landscaping, and longer driveways than suburban Macomb County. We bring the right equipment and experience for exactly this type of property.
+
+[Contact us for a free estimate in Armada or Richmond](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "best-landscaping-company-near-me-michigan",
+    title: "How to Find the Best Landscaping Company Near You in Michigan",
+    description: "Searching 'landscaping company near me' in Michigan? Here's what to look for — and why local, owner-operated companies outperform the big national chains.",
+    date: "February 28, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Why \"Landscaping Company Near Me\" Is the Right Search
+
+When you search for landscaping near you, you're looking for someone who shows up — consistently, professionally, and without excuses. That's harder to find than it should be. Here's how to filter out the noise.
+
+## What Makes a Great Local Landscaping Company
+
+**They answer the phone.** Not a call center, not a voicemail box that fills up. A real person who knows your account and can answer your questions.
+
+**They send the same crew.** Consistency matters enormously in landscaping. When you get a different crew every week, standards slip. The best companies assign routes — same people, same properties, all season.
+
+**They give written estimates.** Verbal quotes lead to disputes. A professional company puts the scope and price in writing before any work starts.
+
+**They're insured.** This protects you. If something goes wrong on your property, you want a company with real general liability coverage — not a crew with no insurance and no accountability.
+
+**They're local and accountable.** A company that lives and works in your community has more at stake than a regional franchise. Their reputation is local. Their neighbors are your neighbors.
+
+## Questions to Ask Before Hiring
+
+1. Are you licensed and insured? Can I see the certificate?
+2. Who specifically will be on my property?
+3. What's included in your estimate and what's extra?
+4. What happens if I'm not satisfied with the work?
+5. Do you offer a written contract?
+
+## Tri-Point Landscaping — Northern Macomb County's Local Choice
+
+Tri-Point Landscaping is owner-operated, fully insured, and based in Washington Township. We serve Macomb County, Oakland County, and all surrounding communities with professional landscaping, lawn care, and snow removal.
+
+[Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-lawn-care-tips-michigan-2026",
+    title: "Spring Lawn Care Tips for Michigan Homeowners in 2026",
+    description: "Michigan's spring lawn care window is short and critical. Here's exactly what to do — and when — to set your lawn up for the best season yet.",
+    date: "February 22, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Michigan Spring Lawn Care — Getting the Timing Right
+
+Spring in Michigan arrives quickly and requires prompt action. The window between ground thaw and weed germination is narrow — how you use it determines how your lawn looks all season. Here's the right sequence.
+
+## Step 1: Wait for the Ground to Dry (March–Early April)
+
+The single most common spring lawn mistake is working on the lawn too early. Walking on or mowing saturated turf compacts the soil and damages crowns. Wait until the ground is firm before you start any spring work.
+
+## Step 2: Spring Cleanup (April)
+
+Once the ground is firm and dry enough to walk on, start your spring cleanup:
+- Remove all debris, sticks, and leftover leaves from beds and lawn
+- Cut back ornamental grasses and perennials that weren't cut in fall
+- Refresh bed edges for clean definition
+- Clear any salt damage areas near driveways
+
+## Step 3: First Mow (April–Early May)
+
+Set your mower to 3–3.5 inches for the first cut. Don't scalp — Michigan cool-season grass needs blade height for photosynthesis. Bag or mulch the first few cuts to prevent disease from clipping buildup.
+
+## Step 4: Pre-Emergent Application (Mid-April)
+
+If crabgrass was a problem last year, apply a pre-emergent herbicide when forsythia blooms (soil temp around 55°F). This prevents crabgrass seed from germinating. Don't aerate after applying — it breaks the barrier.
+
+## Step 5: Fertilize Lightly (May)
+
+A light, slow-release nitrogen application in May supports spring green-up without pushing excessive growth. Avoid heavy early-season nitrogen, which stresses roots and invites disease.
+
+## Professional Spring Services in Macomb County
+
+Tri-Point Landscaping handles [spring cleanup](/services/seasonal-cleanup), [lawn maintenance](/services/lawn-maintenance), and [lawn renovations](/services/lawn-renovations) throughout Macomb County and Oakland County. [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate.
+    `,
+  },
+  {
+    slug: "michigan-lawn-care-mistakes-to-avoid",
+    title: "7 Lawn Care Mistakes Michigan Homeowners Make Every Year",
+    description: "These common mistakes cost Michigan homeowners a beautiful lawn every season. Avoid them and watch your turf transform.",
+    date: "February 18, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## The Most Common Michigan Lawn Care Mistakes
+
+Michigan's cool-season grass requires specific care — and when homeowners treat it like a warm-season southern lawn, results suffer. Here are the seven most common mistakes we see in Macomb County and Oakland County, and how to fix them.
+
+## Mistake 1: Mowing Too Short
+
+The most common mistake in Michigan. Cutting cool-season grass below 3 inches weakens roots, invites crabgrass, and causes brown spots during summer heat. Keep it at 3–3.5 inches all season. The "one-third rule" applies: never remove more than one-third of the blade at once.
+
+## Mistake 2: Watering at Night
+
+Night watering leaves the lawn wet through darkness, creating ideal conditions for fungal disease. Water in the early morning — before 9 a.m. — so grass dries through the day.
+
+## Mistake 3: Skipping Fall Fertilization
+
+Most Michigan homeowners fertilize in spring and forget fall. Fall is actually the most important application. A late-season nitrogen push builds carbohydrate reserves and strong roots for spring green-up.
+
+## Mistake 4: Bagging Clippings Every Week
+
+Clippings are free fertilizer — they return nitrogen to the soil as they decompose. Only bag if the grass is too long (more than 4 inches) or wet. Regular weekly mowing clippings should stay on the lawn.
+
+## Mistake 5: Aerating in the Wrong Season
+
+Spring aeration is effective, but fall is better. Late August through September aerations allow roots to grow into the open channels before frost without summer heat stress.
+
+## Mistake 6: Ignoring Thatch
+
+More than half an inch of thatch blocks water, air, and nutrients from reaching roots. If your lawn feels spongy or looks thin despite regular watering, dethatching or aeration is the solution.
+
+## Mistake 7: Not Overseeding After Aeration
+
+Aeration without overseeding misses an opportunity. Aeration holes are perfect seed beds — always follow core aeration with quality overseeding for maximum turf density.
+
+Professional lawn care in [Macomb County](/service-areas/washington-township) and [Oakland County](/service-areas/rochester-hills) from Tri-Point Landscaping. [Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscape-design-macomb-county-ideas",
+    title: "Landscape Design Ideas That Work in Macomb County, Michigan",
+    description: "The best landscape designs for Macomb County properties account for Michigan's climate, soil, and four seasons. Here are ideas that actually work long-term.",
+    date: "February 14, 2026",
+    category: "Landscaping",
+    readTime: "5 min read",
+    content: `
+## Designing Landscapes That Thrive in Michigan
+
+A landscape that looks beautiful in June but limps through August and is dead by October is a failure — no matter how good the design looked on paper. Macomb County's climate (Zone 6a), clay-heavy soils, and challenging winters require plant selections and design approaches that account for the full year.
+
+## Plant Selection: The Foundation of Great Michigan Landscapes
+
+**Proven performers for Macomb County:**
+- **Ornamental grasses** (Karl Foerster, Little Bluestem): Four-season interest, drought-tolerant once established, Michigan-native options available
+- **Spirea** (Fire Light, Double Play): Reliable bloomer, deer-resistant, works in sun or partial shade
+- **Serviceberry (Amelanchier)**: Michigan native, spring flowers, fall color, wildlife habitat
+- **Arborvitae**: The go-to privacy hedge that survives Macomb County winters reliably
+- **Catmint (Nepeta)**: Ground-level filler that blooms all summer with minimal maintenance
+- **Knockout Rose**: Reblooming, disease-resistant, and nearly foolproof in Michigan
+
+## Design Principles That Work in Macomb County
+
+**Layer depth into beds.** Taller shrubs in back, medium perennials in middle, ground-level edging plants at the front. This creates visual depth and makes maintenance easier.
+
+**Design for four seasons.** Your landscape should have something interesting in March (early bulbs), June (peak bloom), September (ornamental grasses, fall bloomers), and December (evergreen structure). Don't design only for summer.
+
+**Solve drainage first.** Macomb County's clay soils drain slowly. Before planting, address any low spots or areas that pool after rain — standing water will kill most plantings within two seasons.
+
+**Keep maintenance in mind.** A beautiful design that requires four hours of pruning per week isn't sustainable. Design for the maintenance level you're willing to provide.
+
+## Professional Landscape Design in Macomb County
+
+Tri-Point Landscaping designs and installs custom landscapes throughout [Washington Township](/service-areas/washington-township), [Shelby Township](/service-areas/shelby-township), [Rochester Hills](/service-areas/rochester-hills), and all surrounding communities. [Get a free consultation](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "commercial-lawn-maintenance-macomb-county",
+    title: "Commercial Lawn Maintenance in Macomb County — Professional, Reliable, Insured",
+    description: "Your commercial property's curb appeal is your first impression. Tri-Point Landscaping provides reliable commercial lawn maintenance throughout Macomb County and Oakland County.",
+    date: "February 10, 2026",
+    category: "Lawn Care",
+    readTime: "4 min read",
+    content: `
+## Commercial Lawn Maintenance Macomb County
+
+First impressions matter. A commercial property with an overgrown lawn, ragged edges, and debris-covered walks tells customers, clients, and tenants that the property isn't managed well. A clean, maintained commercial landscape says the opposite.
+
+Tri-Point Landscaping provides professional commercial lawn maintenance throughout Macomb County and Oakland County — consistent service, documented schedules, and all insurance documentation provided.
+
+## What Commercial Lawn Maintenance Includes
+
+**Weekly mowing:** Commercial properties get the same detailed mowing treatment as residential — proper height, sharp edges, trimmed obstacle areas, blowing after each visit.
+
+**Edging:** Clean edges along all sidewalks, curbs, parking areas, and bed borders. This is often what separates a professional commercial appearance from an amateur one.
+
+**Bed maintenance:** Weeding, trimming, and debris removal from all planting areas around the building.
+
+**Blowing:** Clippings and debris cleared from all hard surfaces, entrances, and walks after every visit.
+
+**Seasonal add-ons:** Spring cleanup, fresh mulch, fall cleanup, and snow removal available under the same contract.
+
+## Commercial Properties We Serve
+
+- Office parks and professional buildings
+- Retail strip centers and shopping plazas
+- Apartment complexes and multi-family properties
+- HOA common areas and entrance features
+- Industrial and warehouse facilities
+- Medical and dental offices
+
+## Insurance and Documentation
+
+We carry general liability insurance and can provide certificates of insurance for any commercial property requirement. We work with property managers who need documented service schedules and proof of coverage.
+
+[Request a commercial lawn maintenance bid](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "fall-leaf-removal-macomb-county-2026",
+    title: "Fall Leaf Removal in Macomb County — Why It Matters More Than You Think",
+    description: "Leaving leaves on your Macomb County lawn all winter causes real damage. Here's why professional leaf removal is worth every dollar — and when to schedule it.",
+    date: "February 6, 2026",
+    category: "Seasonal",
+    readTime: "4 min read",
+    content: `
+## Why Leaf Removal Matters in Michigan
+
+Macomb County's tree canopy — especially in mature neighborhoods in Washington Township, Shelby Township, Rochester Hills, and Rochester — produces enormous volumes of leaves each fall. Most homeowners underestimate the damage left-over leaves cause to turf.
+
+A thick layer of leaves sitting on grass through Michigan's winter creates:
+- **Anaerobic conditions** that suffocate grass crowns
+- **Fungal disease** — particularly snow mold, which thrives under wet leaf piles
+- **Matted turf** that's difficult to recover in spring
+- **Rodent habitat** — mice and voles use leaf piles under snow as protected runways
+
+## The Right Approach to Fall Leaf Removal
+
+**Timing matters:** The best time to do a final leaf removal is after peak leaf drop in your area — typically mid-October through early November in Macomb County. Doing it too early means you'll need to come back. Doing it too late means leaves have already matted down.
+
+**One removal isn't always enough:** If you have heavy tree cover, two or three passes may be needed — one in early fall and a final cleanup after all leaves have dropped.
+
+**Hauling vs. mulching:** For heavy leaf volumes, hauling away is better than mulching into the lawn. Excessive mulched material can smother turf. For light leaf cover, a mulching mower works fine.
+
+## Professional Leaf Removal in Macomb County
+
+Tri-Point Landscaping handles full-property leaf removal for residential properties throughout Macomb County and Oakland County — including [Washington Township](/service-areas/washington-township), [Rochester Hills](/service-areas/rochester-hills), [Shelby Township](/service-areas/shelby-township), and surrounding areas. We collect, bag, and haul away everything.
+
+[Schedule your fall leaf removal](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "how-to-choose-landscaping-company-macomb-county",
+    title: "How to Choose a Landscaping Company in Macomb County — 6 Questions to Ask",
+    description: "Not all landscaping companies in Macomb County deliver what they promise. Here are 6 questions that separate the professionals from the unreliable.",
+    date: "February 2, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Finding a Landscaping Company You Can Actually Trust
+
+The landscaping industry in Macomb County has a wide range of operators — from highly professional, insured companies with consistent crews to solo operators who take deposits and disappear. Knowing the right questions to ask separates a great experience from a frustrating one.
+
+## Question 1: Are You Licensed and Insured?
+
+This is non-negotiable. A landscaping company working on your property should carry general liability insurance. Ask for a certificate of insurance naming you as additionally insured. If they can't provide this, they shouldn't be on your property.
+
+## Question 2: Who Will Actually Be Doing My Work?
+
+Many companies sell the work and subcontract the labor. Ask specifically who will be on your property. Owner-operated companies and companies with permanent, consistent crews deliver better results than those using rotating anonymous labor.
+
+## Question 3: Can I See Examples of Your Work?
+
+Google reviews and before/after photos show what a company actually produces. Look for recent reviews from customers in your area — not reviews from years ago or from different regions.
+
+## Question 4: What's Included — and What's Not?
+
+Get specifics. Does "lawn maintenance" include edging? Blowing? How do you handle weeds in the lawn? What's the trigger depth for snow plowing? Vague answers lead to disappointment and disputes.
+
+## Question 5: How Do You Handle Problems?
+
+Every landscaping company will eventually make a mistake. What matters is how they respond. Ask directly: "If something isn't right, what do you do?" A confident, clear answer is a good sign.
+
+## Question 6: Do You Offer a Written Agreement?
+
+Contracts protect both parties. A professional company will document what's included, the schedule, pricing, and cancellation terms. If a company resists putting it in writing, take that seriously.
+
+## Why Tri-Point Landscaping Answers These Questions Confidently
+
+Tri-Point Landscaping is a fully insured Michigan LLC. We're owner-operated, use consistent crews, have 4.9 Google reviews, and provide written estimates before every job. We serve Macomb County and Oakland County homeowners who expect professional service.
+
+[Request a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
     slug: "lawn-maintenance-contract-macomb-county",
     title: "Why a Lawn Maintenance Contract Makes Sense in Macomb County",
     description: "One-time lawn calls are fine, but a seasonal maintenance contract keeps your Macomb County property looking great all year — and often costs less than you think.",

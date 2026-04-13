@@ -48,6 +48,12 @@ const serviceAreas = [
   { name: "Romeo", slug: "romeo", detail: "Village of Romeo & surrounding areas" },
   { name: "Ray Township", slug: "ray-township", detail: "Rural & residential properties" },
   { name: "Bruce Township", slug: "bruce-township", detail: "Northern Macomb County" },
+  { name: "Clinton Township", slug: "clinton-township", detail: "Hall Rd · Gratiot · 15 Mile" },
+  { name: "Chesterfield Township", slug: "chesterfield-township", detail: "21 Mile – 23 Mile · Lake St. Clair area" },
+  { name: "Utica", slug: "utica", detail: "Hall Rd · Auburn Rd · Van Dyke" },
+  { name: "New Baltimore", slug: "new-baltimore", detail: "Anchor Bay · Waterfront & residential" },
+  { name: "Rochester", slug: "rochester", detail: "Walnut Blvd · Tienken · University Dr" },
+  { name: "Rochester Hills", slug: "rochester-hills", detail: "Auburn Rd · Adams Rd · Livernois" },
 ];
 
 const homepageFaqSchema = {
@@ -67,7 +73,7 @@ const homepageFaqSchema = {
       name: "What areas does Tri-Point Landscaping serve?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township — all in Macomb County, Michigan.",
+        text: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Clinton Township, Chesterfield Township, Utica, New Baltimore, Armada, Richmond, Rochester, and Rochester Hills across Macomb and Oakland County, Michigan.",
       },
     },
     {
@@ -84,6 +90,54 @@ const homepageFaqSchema = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. Tri-Point Landscaping LLC is fully insured with general liability coverage. We are a licensed Michigan LLC.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer snow removal in Macomb County?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We provide residential and commercial snow plowing, sidewalk clearing, and salting throughout Macomb County and surrounding areas. We offer seasonal contracts and per-push pricing. Call (586) 327-8080 to get on our route before the season fills.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does a spring cleanup include?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Our spring cleanup service includes full leaf and debris removal from lawn and beds, perennial cutback, bed cleanup, edge re-definition, and hauling all material away. Optional add-ons include fresh mulch, fertilization, and aeration. We serve all of Macomb County.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does landscaping cost in Macomb County?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Landscaping costs in Macomb County vary by project size and service type. Weekly lawn maintenance typically ranges from $35–$65 per visit depending on property size. Mulch installation, seasonal cleanups, and landscape projects are quoted individually. All estimates are free — call (586) 327-8080 or request one online.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer lawn care services in Rochester Hills, MI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Tri-Point Landscaping serves Rochester Hills with premium lawn maintenance, landscaping, mulch & stone, seasonal cleanups, and snow removal. We hold our Rochester Hills work to the exceptional standards the community expects.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "When is the best time to aerate a lawn in Michigan?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Late August through September is the best time to aerate and overseed in Michigan. Soil is still warm enough for germination, but cooling air temperatures reduce stress on new seedlings. Spring aeration in April–May is also effective. Tri-Point Landscaping offers aeration and overseeding throughout Macomb County.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can you handle commercial landscaping in Macomb County?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Tri-Point Landscaping provides commercial landscaping for offices, retail centers, HOAs, apartment complexes, and property management companies throughout Macomb County and southeast Michigan. We offer recurring maintenance contracts, snow removal, and all certificates of insurance required.",
       },
     },
   ],
