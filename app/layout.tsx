@@ -95,6 +95,26 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Tri-Point Landscaping",
+              url: "https://www.tripointlandscaping.com",
+              description: "Professional landscaping, lawn care, snow removal & lawn renovations in Macomb County, MI.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: "https://www.tripointlandscaping.com/blog?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "LandscapingBusiness",
               name: "Tri-Point Landscaping LLC",
               image: "https://www.tripointlandscaping.com/logo-black.png",

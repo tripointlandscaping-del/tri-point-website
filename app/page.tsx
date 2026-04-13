@@ -13,9 +13,9 @@ import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
 
 export const metadata: Metadata = {
-  title: "Tri-Point Landscaping | Macomb County's #1 Lawn Care, Landscaping & Snow Removal",
+  title: "Tri-Point Landscaping | Lawn Care, Landscaping & Snow Removal — Macomb County, MI",
   description:
-    "Macomb County's most trusted landscaping company. Professional lawn maintenance, custom landscaping, mulch & stone, snow removal & ice management, lawn renovations. Serving Washington Township, Shelby Township, Macomb Township & more. 5.0★ Google rated. Free estimates — call (586) 327-8080.",
+    "Tri-Point Landscaping LLC — Macomb County's locally owned landscaping company. Lawn maintenance, custom landscaping, mulch & stone, snow removal, lawn renovations & more. Serving Washington Township, Shelby Township, Macomb Township, Romeo & surrounding areas. 4.9★ Google rated. Free estimates — (586) 327-8080.",
   keywords: [
     "landscaping Macomb County MI",
     "lawn care Washington Township Michigan",
@@ -24,6 +24,12 @@ export const metadata: Metadata = {
     "lawn maintenance Macomb County",
     "mulch installation Macomb County",
     "lawn aeration Macomb County MI",
+    "landscaping company near me Macomb County",
+    "lawn mowing service Washington Township",
+    "snow plowing Macomb County MI",
+    "fall cleanup Macomb County",
+    "spring cleanup Washington Township MI",
+    "commercial landscaping Macomb County",
     "Tri-Point Landscaping",
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com" },
@@ -32,7 +38,7 @@ export const metadata: Metadata = {
 const marqueeItems = [
   "Lawn Maintenance", "Landscape Design", "Mulch & Stone", "Seasonal Cleanup",
   "Snow Removal & Ice Management", "Lawn Renovations", "Commercial Services", "Aeration & Overseeding",
-  "Free Estimates", "5.0★ Google Rated", "Macomb County, Michigan", "Fully Insured LLC",
+  "Free Estimates", "4.9★ Google Rated", "Macomb County, Michigan", "Fully Insured LLC",
 ];
 
 const serviceAreas = [
