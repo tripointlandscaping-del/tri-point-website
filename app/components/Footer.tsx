@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="flex flex-wrap gap-3 mb-6">
               <div className="flex items-center gap-1.5 border border-white/10 px-3 py-1.5">
                 <span className="text-yellow-400 text-sm">★★★★★</span>
-                <span className="text-white/60 text-xs">Google 5.0</span>
+                <span className="text-white/60 text-xs">Google 4.9</span>
               </div>
               <div className="flex items-center gap-1.5 border border-white/10 px-3 py-1.5">
                 <svg className="w-3.5 h-3.5 text-green-400" fill="currentColor" viewBox="0 0 20 20">

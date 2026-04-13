@@ -266,7 +266,7 @@ export default function ContactPage() {
                     style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
                     className="text-2xl font-bold mb-1"
                   >
-                    5.0 on Google
+                    4.9 on Google
                   </p>
                   <p className="text-green-200 text-sm mb-5">Rated by real Macomb County homeowners</p>
                   <a

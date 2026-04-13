@@ -137,7 +137,7 @@ export default function HomePage() {
           {/* Floating accent — top right */}
           <div className="absolute top-1/3 right-8 lg:right-20 hidden lg:flex flex-col items-center gap-6 float-badge">
             <div style={{ backgroundColor: "rgba(0,0,0,0.6)", borderColor: "rgba(255,255,255,0.12)" }} className="border backdrop-blur-md p-5 text-center">
-              <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold text-white">5.0</div>
+              <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold text-white">4.9</div>
               <div className="text-yellow-400 text-sm mt-1">★★★★★</div>
               <div className="text-white/50 text-[10px] uppercase tracking-widest mt-1">Google Rating</div>
             </div>
@@ -195,7 +195,7 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 right-0 bg-black/75 backdrop-blur-md border-t border-white/8">
             <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { end: 5.0, suffix: "★", decimals: 1, label: "Google Rating" },
+                { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating" },
                 { end: 100, suffix: "%", decimals: 0, label: "Satisfaction Guaranteed" },
                 { end: 8, suffix: "+", decimals: 0, label: "Services Offered" },
                 { end: 6, suffix: "+", decimals: 0, label: "Cities Served" },
@@ -417,7 +417,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { label: "Fully Insured LLC", sub: "General liability on every job" },
-                    { label: "5.0★ Google Rating", sub: "10+ five-star reviews" },
+                    { label: "4.9★ Google Rating", sub: "10+ five-star reviews" },
                     { label: "Same-Day Response", sub: "We don't let you wait" },
                     { label: "Free Estimates", sub: "No cost, no obligation" },
                   ].map(({ label, sub }) => (
@@ -542,7 +542,7 @@ export default function HomePage() {
               </AnimateOnScroll>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/5">
                 {[
-                  { end: 5.0, suffix: "★", decimals: 1, label: "Google Rating", sub: "Rated by real Macomb County homeowners" },
+                  { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating", sub: "Rated by real Macomb County homeowners" },
                   { end: 100, suffix: "%", decimals: 0, label: "Satisfaction", sub: "Or we come back and make it right" },
                   { end: 6, suffix: "+", decimals: 0, label: "Cities Served", sub: "All of northern Macomb County" },
                   { end: 8, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to snow removal" },
@@ -587,7 +587,7 @@ export default function HomePage() {
                   {/* Floating stat card */}
                   <div style={{ backgroundColor: "#2C5F2E" }} className="absolute bottom-10 left-10 right-10 p-6">
                     <div className="flex items-center justify-between text-white">
-                      {[["5.0★", "Google Rating"], ["100%", "Satisfaction"], ["Local", "& Insured"]].map(([val, sub]) => (
+                      {[["4.9★", "Google Rating"], ["100%", "Satisfaction"], ["Local", "& Insured"]].map(([val, sub]) => (
                         <div key={val} className="text-center flex-1">
                           <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold">{val}</div>
                           <div className="text-xs text-green-200 mt-1">{sub}</div>
@@ -707,7 +707,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center gap-4 shrink-0">
                     <div className="text-center">
-                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">5.0</div>
+                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">4.9</div>
                       <div className="text-yellow-400 text-lg mt-1">★★★★★</div>
                       <div className="text-white/40 text-xs uppercase tracking-widest mt-1">Google Rating</div>
                     </div>

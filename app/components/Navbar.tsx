@@ -59,7 +59,7 @@ export default function Navbar() {
               Text Us
             </a>
             <div className="hidden sm:flex items-center gap-1 text-yellow-400 text-xs font-medium">
-              ★★★★★ <span className="text-white/60 ml-1">5.0 Google</span>
+              ★★★★★ <span className="text-white/60 ml-1">4.9 Google</span>
             </div>
             <a
               href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login"

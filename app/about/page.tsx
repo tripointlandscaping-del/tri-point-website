@@ -69,7 +69,7 @@ const whyLocal = [
 const timeline = [
   { year: "Day One", title: "Started with a mower and a promise", desc: "Tri-Point was founded right here in northern Macomb County with one mission: deliver better landscaping than anyone else in the area. We started small, but the standard was always high." },
   { year: "Year Two", title: "Expanded to year-round service", desc: "Added snow removal and seasonal cleanups to serve our clients through Michigan's full four seasons. Same crew. Same quality. Just more ways to help." },
-  { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 6+ cities, and a 5.0 Google rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
+  { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 6+ cities, and a 4.9 Google rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
 ];
 
 export default function AboutPage() {
@@ -324,7 +324,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
               {[
-                { value: "5.0★", label: "Google Rating" },
+                { value: "4.9★", label: "Google Rating" },
                 { value: "6+", label: "Cities Served" },
                 { value: "8", label: "Services Offered" },
                 { value: "100%", label: "Insured & Local" },

@@ -66,7 +66,7 @@ const perks = [
   { emoji: "🌿", title: "Outdoor Work", desc: "No desk job here. Work outside across Macomb County all season long." },
   { emoji: "🤝", title: "Team Environment", desc: "Small crew, big impact. We look out for each other on every job." },
   { emoji: "📈", title: "Room to Grow", desc: "We're growing fast. Opportunities to take on more responsibility as we expand." },
-  { emoji: "🏆", title: "Be Part of Something", desc: "Join a 5.0★ rated company that takes pride in every property we touch." },
+  { emoji: "🏆", title: "Be Part of Something", desc: "Join a 4.9★ rated company that takes pride in every property we touch." },
 ];
 
 export default function CareersPage() {
@@ -88,7 +88,7 @@ export default function CareersPage() {
             Join the <span style={{ color: "#7ecb82" }}>Tri-Point</span> Team
           </h1>
           <p className="text-white/60 text-lg leading-relaxed max-w-xl mx-auto">
-            We're a fast-growing, 5.0★ rated landscaping company based in Washington Township. If you take pride in your work and want to be part of a team that does things the right way — we want to hear from you.
+            We're a fast-growing, 4.9★ rated landscaping company based in Washington Township. If you take pride in your work and want to be part of a team that does things the right way — we want to hear from you.
           </p>
         </div>
       </section>

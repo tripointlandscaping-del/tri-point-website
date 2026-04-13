@@ -88,7 +88,7 @@ const whyUs = [
   { stat: "Fully Insured", desc: "General liability + workers' comp. Your property and business are protected." },
   { stat: "Local & Reliable", desc: "Washington Township based. We show up — same crew, same schedule, every time." },
   { stat: "Seasonal Contracts", desc: "One contract covers your full year — lawn season and snow season. No re-bidding." },
-  { stat: "5.0★ Google Rated", desc: "Every residential and commercial client gets the same obsessive attention to detail." },
+  { stat: "4.9★ Google Rated", desc: "Every residential and commercial client gets the same obsessive attention to detail." },
 ];
 
 export default function CommercialPage() {
