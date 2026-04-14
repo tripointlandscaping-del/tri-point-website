@@ -331,10 +331,14 @@ export function generateStaticParams() {
   return Object.keys(areas).map((slug) => ({ slug }));
 }
 
+const oaklandCountyAreas = new Set(["rochester", "rochester-hills"]);
+
 export default async function ServiceAreaPage({ params }: Props) {
   const { slug } = await params;
   const area = areas[slug];
   if (!area) notFound();
+
+  const county = oaklandCountyAreas.has(slug) ? "Oakland County" : "Macomb County";
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -365,9 +369,9 @@ export default async function ServiceAreaPage({ params }: Props) {
     areaServed: {
       "@type": "City",
       name: area.name,
-      containedInPlace: { "@type": "AdministrativeArea", name: "Macomb County, Michigan" },
+      containedInPlace: { "@type": "AdministrativeArea", name: `${county}, Michigan` },
     },
-    description: `Professional landscaping, lawn care, snow removal, and property services in ${area.name}, Michigan. Serving all of Macomb County. Free estimates — call (586) 327-8080.`,
+    description: `Professional landscaping, lawn care, snow removal, and property services in ${area.name}, Michigan. Serving all of ${county}. Free estimates — call (586) 327-8080.`,
     priceRange: "$$",
     aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "10" },
   };
@@ -410,7 +414,7 @@ export default async function ServiceAreaPage({ params }: Props) {
 
           <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-16 pt-32">
             <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">
-              Macomb County, Michigan
+              {county}, Michigan
             </p>
             <h1
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
@@ -532,7 +536,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     Get a Free Estimate
                   </h3>
                   <p className="text-white/50 text-sm mb-6 leading-relaxed">
-                    Serving {area.name} and all of Macomb County. Fast response — typically same day.
+                    Serving {area.name} and all of {county}. Fast response — typically same day.
                   </p>
                   <Link
                     href="/contact"
@@ -557,15 +561,18 @@ export default async function ServiceAreaPage({ params }: Props) {
                 <div style={{ backgroundColor: "#f5f0e8" }} className="p-6">
                   <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wider">Why Tri-Point</h3>
                   <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <span className="text-yellow-500 text-sm shrink-0 tracking-tight">★★★★★</span>
+                      <span className="text-gray-700 text-sm">4.9 Google Rating</span>
+                    </div>
                     {[
-                      ["★★★★★", "4.9 Google Rating"],
-                      ["✓", "Fully Insured LLC"],
-                      ["✓", "Nextdoor Neighborhood Favorite"],
-                      ["✓", "Free Estimates"],
-                      ["✓", "Locally Owned & Operated"],
-                    ].map(([icon, text]) => (
+                      "Fully Insured LLC",
+                      "Nextdoor Neighborhood Favorite",
+                      "Free Estimates",
+                      "Locally Owned & Operated",
+                    ].map((text) => (
                       <div key={text} className="flex items-center gap-3">
-                        <span style={{ color: "#2C5F2E" }} className="font-bold text-sm w-6 shrink-0">{icon}</span>
+                        <span style={{ color: "#2C5F2E" }} className="font-bold text-sm w-4 shrink-0">✓</span>
                         <span className="text-gray-700 text-sm">{text}</span>
                       </div>
                     ))}

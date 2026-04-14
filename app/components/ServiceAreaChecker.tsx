@@ -41,16 +41,16 @@ const serviceAreas: { name: string; slug: string; coreNames: string[]; zips: str
     zips: ["48065", "48097"],
   },
   {
-    name: "Rochester",
-    slug: "rochester",
-    coreNames: ["rochester"],
-    zips: ["48306", "48307", "48308"],
-  },
-  {
     name: "Rochester Hills",
     slug: "rochester-hills",
     coreNames: ["rochester hills"],
     zips: ["48306", "48307", "48309", "48310"],
+  },
+  {
+    name: "Rochester",
+    slug: "rochester",
+    coreNames: ["rochester"],
+    zips: ["48308"],
   },
 ];
 
@@ -93,21 +93,27 @@ function findMatch(input: string): typeof serviceAreas[0] | "macomb-county" | nu
   const core = normalize(val);
   if (!core) return null;
 
-  // Exact or substring match on core names
+  // Exact or substring match on full core names first (handles multi-word like "rochester hills")
   for (const area of serviceAreas) {
     for (const name of area.coreNames) {
       if (core.includes(name) || name.includes(core)) return area;
     }
   }
 
-  // Fuzzy match — allow up to 2 typos for names ≥5 chars, 1 typo for shorter
+  // Fuzzy match — check full phrase against each coreName before splitting into words
   for (const area of serviceAreas) {
     for (const name of area.coreNames) {
-      const threshold = name.length >= 5 ? 2 : 1;
-      // Check word by word in case they typed "shelbi township"
-      const words = core.split(" ");
-      for (const word of words) {
-        if (word.length >= 3 && levenshtein(word, name) <= threshold) return area;
+      // Only fuzzy-match single-word names word-by-word (avoids "rochester" matching "rochester hills" input)
+      if (!name.includes(" ")) {
+        const threshold = name.length >= 5 ? 2 : 1;
+        const words = core.split(" ");
+        for (const word of words) {
+          if (word.length >= 3 && levenshtein(word, name) <= threshold) return area;
+        }
+      } else {
+        // For multi-word names, fuzzy match the whole phrase
+        const threshold = name.length >= 8 ? 3 : 2;
+        if (levenshtein(core, name) <= threshold) return area;
       }
     }
   }
