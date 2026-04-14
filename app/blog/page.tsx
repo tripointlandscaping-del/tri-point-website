@@ -23,6 +23,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/blog",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Blog — Macomb County Lawn Care Tips" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

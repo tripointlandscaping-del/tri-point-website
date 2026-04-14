@@ -13,8 +13,17 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Commercial Landscaping Macomb County MI | Tri-Point Landscaping",
-    description:
-      "Professional commercial grounds maintenance for HOAs, offices, retail & more across Macomb County. Reliable, insured, locally owned.",
+    description: "Professional commercial grounds maintenance for HOAs, offices, retail & more across Macomb County. Reliable, insured, locally owned.",
+    url: "https://www.tripointlandscaping.com/commercial",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Commercial Landscaping Macomb County MI — Tri-Point Landscaping" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Landscaping Macomb County MI | Tri-Point Landscaping",
+    description: "Professional commercial grounds maintenance for HOAs, offices, retail & more across Macomb County. Reliable, insured, locally owned.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

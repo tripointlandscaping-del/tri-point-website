@@ -18,6 +18,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/faq",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping FAQ — Macomb County, MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
+    description: "Answers to common questions about Tri-Point Landscaping's services, pricing, and service areas. Serving all of Macomb County, MI.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

@@ -323,6 +323,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: area.metaTitle,
       description: area.metaDescription,
       url: `https://www.tripointlandscaping.com/service-areas/${slug}`,
+      siteName: "Tri-Point Landscaping",
+      type: "website",
+      images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: area.metaTitle }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: area.metaTitle,
+      description: area.metaDescription,
+      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
   };
 }

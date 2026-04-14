@@ -374,7 +374,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: service.metaTitle,
       description: service.metaDescription,
       url: `https://www.tripointlandscaping.com/services/${slug}`,
-      images: [{ url: service.heroImage, alt: service.heroAlt }],
+      siteName: "Tri-Point Landscaping",
+      type: "website",
+      images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: service.metaTitle }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: service.metaTitle,
+      description: service.metaDescription,
+      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
   };
 }

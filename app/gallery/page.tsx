@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/gallery",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Project Gallery — Macomb County, MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project Gallery | Tri-Point Landscaping | Macomb County, MI",
+    description: "Real work. Real results. Browse our project photos from across Macomb County, MI.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

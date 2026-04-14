@@ -18,6 +18,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/about",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "About Tri-Point Landscaping — Macomb County, MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Tri-Point Landscaping | Macomb County, MI",
+    description: "Meet the team behind Macomb County's top-rated landscaping company. Locally owned, fully insured, and committed to excellence on every property.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

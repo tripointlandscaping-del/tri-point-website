@@ -17,6 +17,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/contact",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Contact Tri-Point Landscaping — Free Estimates Macomb County, MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Estimate | Contact Tri-Point Landscaping — Macomb County, MI",
+    description: "Get a free, no-obligation estimate from Macomb County's most trusted landscaping company. We respond same day.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 

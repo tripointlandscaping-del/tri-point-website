@@ -312,6 +312,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
+      siteName: "Tri-Point Landscaping",
+      type: "website",
+      images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: `${svc.name} in ${areaData.name}, MI` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
+      description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
+      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
   };
 }
