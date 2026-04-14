@@ -3359,5 +3359,68 @@ We offer seasonal contracts for new clients each spring. Slots are limited — w
 
 [Contact us to discuss a contract](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
+  }
+,
+  {
+    slug: "difference-between-topsoil-compost-mulch-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Every Macomb County Homeowner Needs to Know",
+    description: "Learn the real difference between topsoil, compost, and mulch — and when to use each in your Michigan yard for the best results.",
+    date: "April 14, 2026",
+    category: "Landscaping",
+    readTime: "5 min read",
+    content: `
+## They're Not the Same Thing — And Using the Wrong One Can Hurt Your Yard
+
+Every spring, homeowners across Washington Township and the rest of Macomb County head to the garden center and stare at bags labeled topsoil, compost, and mulch — and grab whichever one is on sale. That's a mistake that can waste your money, starve your plants, or turn your lawn into a muddy mess. These three products look similar, but they do completely different jobs. Here's exactly what each one is, what it does, and when to use it.
+
+## Topsoil: The Foundation Your Plants Actually Grow In
+
+**Topsoil** is the upper 2–8 inches of earth — the layer where roots live, water drains, and soil biology does its work. When you're filling in low spots, grading a new bed, or establishing a lawn from scratch, topsoil is what you need.
+
+Here's the catch: not all topsoil sold in Michigan is equal. A lot of bagged "topsoil" at big box stores is scraped from construction sites and has little to no organic matter. It compacts easily and drains poorly — a real problem given that much of Macomb County sits on heavy clay-based soil. If you're buying in bulk, ask your supplier where it came from and whether it's been screened.
+
+**When to use topsoil:**
+- Filling low spots or regrading your yard
+- Building up raised garden beds (use as the base layer, at least 6 inches deep)
+- Overseeding bare patches — spread no more than ¼ inch over existing grass so it doesn't smother it
+- Laying new sod — prep the area with 4–6 inches of quality topsoil first
+
+Do not use topsoil as a soil amendment by mixing it into existing beds. It won't improve drainage or fertility — that's what compost is for.
+
+## Compost: The Most Underused Tool in Michigan Gardens
+
+**Compost** is decomposed organic matter — leaves, food scraps, yard waste — broken down by microbes into a rich, dark, crumbly material. It doesn't replace soil. It improves it.
+
+Macomb County's clay-heavy native soil is notoriously dense. It holds water too long in spring (hello, standing water after snowmelt) and bakes into a hard crust by July. Working 2–3 inches of compost into your beds every year loosens that clay, improves drainage, feeds soil microorganisms, and slowly raises your soil's organic matter content. Most Michigan yards are sitting at 1–2% organic matter. You want 5% or higher for healthy plant growth.
+
+**When to use compost:**
+- Mix 2–3 inches into new or existing garden beds each spring before planting
+- Top-dress your lawn in fall — spread ¼ inch across the surface to feed soil biology over winter
+- Add to the bottom of planting holes when installing trees, shrubs, or perennials
+- Use as a seed-starting mix when blended 50/50 with topsoil
+
+**Do not use compost as a mulch layer** — it breaks down too fast, dries out quickly, and won't suppress weeds the way mulch does.
+
+## Mulch: The Workhorse of Low-Maintenance Landscaping
+
+**Mulch** is a surface covering — shredded wood, bark, pine needles, or stone — applied on top of the soil. It doesn't feed plants directly. What it does is protect them.
+
+A proper 3-inch layer of shredded hardwood mulch in your beds keeps soil temperatures stable, retains moisture (cutting watering needs by up to 25%), suppresses weed germination, and slowly breaks down to add a small amount of organic matter. In Washington Township, where summer temps regularly hit the upper 80s and we get those stretches of July drought, mulch is what keeps your perennials and shrubs alive without daily watering.
+
+**Critical mulch rule:** Never pile mulch against tree trunks or shrub stems. That "mulch volcano" look traps moisture, invites rot, and can kill a tree over a few seasons. Keep mulch 2–3 inches away from any woody stem.
+
+**When to mulch:**
+- Apply 3 inches of fresh mulch in mid-to-late April, once soil temps hit 50°F — usually around April 20–30 in Macomb County
+- Refresh annually; don't keep piling new mulch on top of old without pulling back the old layer first
+- Stone mulch works well in high-traffic or drainage areas but doesn't improve soil over time
+
+## Ready to Get Your Beds Set Up Right This Spring?
+
+April is the ideal window to get topsoil, compost, and mulch down before your plants break dormancy and the ground warms up. Once we hit May, you're playing catch-up — beds dry out faster, weeds are already germinating, and mulch loses its chance to regulate that critical early-spring soil temperature.
+
+At **Tri-Point Landscaping**, we serve Washington Township and all of Macomb County with professional bed prep, bulk mulch installation, grading, and soil improvement services. We know local soil, local weather, and what actually works here — not just what looks good on a product bag.
+
+**Free estimates. No pressure.** [Contact Tri-Point Landscaping](/contact) today to schedule yours, or give us a call at [(586) 327-8080](tel:+15863278080). Spring books up fast — reach out now and we'll get you on the schedule before the season gets away from you.
+    `,
   },
 ];
