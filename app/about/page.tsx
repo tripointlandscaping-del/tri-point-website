@@ -79,6 +79,20 @@ const timeline = [
   { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 6+ cities, and a 4.9 Google rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
 ];
 
+const quickFacts = [
+  { label: "Business Name", value: "Tri-Point Landscaping LLC" },
+  { label: "Type", value: "Locally owned & operated landscaping company" },
+  { label: "Founded", value: "2020" },
+  { label: "Location", value: "Washington Township, Macomb County, MI" },
+  { label: "Service Area", value: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills" },
+  { label: "Phone", value: "(586) 327-8080" },
+  { label: "Email", value: "tripointlandscaping@gmail.com" },
+  { label: "Google Rating", value: "4.9 ★ (verified Google reviews)" },
+  { label: "Insurance", value: "Fully insured LLC — general liability coverage" },
+  { label: "Services", value: "Lawn mowing, landscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
+  { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
+];
+
 export default function AboutPage() {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -89,12 +103,47 @@ export default function AboutPage() {
     ],
   };
 
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LandscapingBusiness",
+    name: "Tri-Point Landscaping LLC",
+    url: "https://www.tripointlandscaping.com/about",
+    telephone: "+15863278080",
+    email: "tripointlandscaping@gmail.com",
+    foundingDate: "2020",
+    description: "Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company based in Washington Township, Macomb County, Michigan. We provide lawn mowing, grass cutting, lawn care, landscape design, mulch installation, seasonal cleanup, snow plowing, and lawn aeration & overseeding services throughout Macomb County and Oakland County, MI. We hold a 4.9-star Google rating and offer free estimates to all residential and commercial customers.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Washington Township",
+      addressRegion: "MI",
+      postalCode: "48094",
+      addressCountry: "US",
+    },
+    areaServed: [
+      { "@type": "City", name: "Washington Township, MI" },
+      { "@type": "City", name: "Shelby Township, MI" },
+      { "@type": "City", name: "Macomb Township, MI" },
+      { "@type": "City", name: "Romeo, MI" },
+      { "@type": "City", name: "Ray Township, MI" },
+      { "@type": "City", name: "Bruce Township, MI" },
+      { "@type": "City", name: "Rochester, MI" },
+      { "@type": "City", name: "Rochester Hills, MI" },
+    ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "10",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    hasCredential: "Fully insured LLC — general liability coverage",
+    sameAs: ["https://g.page/r/CTWE7P6lheWxEBM"],
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <Navbar />
       <main>
 
@@ -340,6 +389,26 @@ export default function AboutPage() {
                 <div key={label}>
                   <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold mb-1">{value}</div>
                   <div className="text-green-200 text-sm uppercase tracking-widest">{label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── QUICK FACTS ── */}
+        <section className="py-20 bg-white border-t border-gray-100">
+          <div className="max-w-4xl mx-auto px-6">
+            <div className="text-center mb-10">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">At a Glance</p>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900">
+                Quick Facts About Tri-Point Landscaping
+              </h2>
+            </div>
+            <div className="divide-y divide-gray-100 border border-gray-100">
+              {quickFacts.map(({ label, value }) => (
+                <div key={label} className="flex flex-col sm:flex-row px-6 py-4 gap-1 sm:gap-6">
+                  <span className="text-sm font-semibold text-gray-500 sm:w-48 shrink-0">{label}</span>
+                  <span className="text-sm text-gray-800">{value}</span>
                 </div>
               ))}
             </div>

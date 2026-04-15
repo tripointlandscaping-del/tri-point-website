@@ -212,7 +212,7 @@ export default function RootLayout({
                 contactOption: "TollFree",
               },
               sameAs: [
-                "https://www.google.com/maps/search/Tri-Point+Landscaping+Washington+Township+MI",
+                "https://g.page/r/CTWE7P6lheWxEBM",
                 "https://www.facebook.com/tripointlandscaping",
               ],
               speakable: {
