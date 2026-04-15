@@ -196,9 +196,15 @@ export default function RootLayout({
               description:
                 "Professional landscaping, lawn care, snow removal, mulch & stone, and lawn renovation services throughout Macomb County and Oakland County, Michigan. Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
               knowsAbout: [
-                "Lawn Maintenance", "Landscape Design", "Mulch Installation", "Seasonal Cleanup",
-                "Snow Removal", "Ice Management", "Lawn Aeration", "Overseeding", "Commercial Landscaping",
-                "Spring Cleanup", "Fall Cleanup", "Lawn Renovation", "Dethatching", "Curb Appeal",
+                "Lawn Maintenance", "Lawn Mowing", "Grass Cutting", "Lawn Care", "Lawn Cutting",
+                "Landscape Design", "Landscaping", "Curb Appeal", "Yard Work", "Yard Transformation",
+                "Mulch Installation", "Mulch Delivery", "Decorative Stone", "River Rock", "Bed Edging",
+                "Seasonal Cleanup", "Leaf Removal", "Yard Cleanup", "Debris Removal", "Yard Waste Removal",
+                "Snow Removal", "Snow Plowing", "Driveway Plowing", "Ice Management", "Winter Maintenance",
+                "Lawn Aeration", "Core Aeration", "Overseeding", "Lawn Seeding", "Dethatching",
+                "Lawn Renovation", "Bare Spot Repair", "Lawn Restoration",
+                "Commercial Landscaping", "HOA Landscaping", "Grounds Maintenance",
+                "Spring Cleanup", "Fall Cleanup",
                 "Macomb County Landscaping", "Oakland County Landscaping", "Rochester Hills Lawn Care",
               ],
             }),
