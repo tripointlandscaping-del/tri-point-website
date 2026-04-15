@@ -200,7 +200,7 @@ export default function FaqPage() {
               className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             >
-              Frequently Asked Questions
+              Landscaping FAQs — Macomb County &amp; Oakland County, MI
             </h1>
             <p className="text-white/50 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
               Everything you need to know about our services, pricing, and how we work — answered by the Tri-Point team.

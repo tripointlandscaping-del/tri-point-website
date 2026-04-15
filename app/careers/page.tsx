@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/careers",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Join the Team" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Join the Team | Tri-Point Landscaping | Macomb County, MI",
+    description: "Join the Tri-Point Landscaping team in Macomb County, MI. We're hiring crew members for lawn care, landscaping, and snow removal.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 
@@ -85,7 +92,7 @@ export default function CareersPage() {
             style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
           >
-            Join the <span style={{ color: "#7ecb82" }}>Tri-Point</span> Team
+            Landscaping Jobs in <span style={{ color: "#7ecb82" }}>Macomb County, MI</span> — Join Tri-Point
           </h1>
           <p className="text-white/60 text-lg leading-relaxed max-w-xl mx-auto">
             We're a fast-growing, 4.9★ rated landscaping company based in Washington Township. If you take pride in your work and want to be part of a team that does things the right way — we want to hear from you.

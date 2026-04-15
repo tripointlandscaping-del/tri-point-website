@@ -83,7 +83,7 @@ export default function BlogPage() {
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4"
             >
-              The Tri-Point Blog
+              Lawn Care Tips &amp; Landscaping Advice for Macomb County
             </h1>
             <p className="text-gray-500 max-w-xl leading-relaxed">
               Practical lawn care advice for Macomb County homeowners — from the team that maintains hundreds of properties every season.

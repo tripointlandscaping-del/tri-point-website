@@ -15,7 +15,7 @@ import SeasonalTip from "./components/SeasonalTip";
 export const metadata: Metadata = {
   title: "Tri-Point Landscaping | Lawn Care, Landscaping & Snow Removal — Macomb County, MI",
   description:
-    "Tri-Point Landscaping LLC — Macomb County's locally owned landscaping company. Lawn maintenance, custom landscaping, mulch & stone, snow removal, lawn renovations & more. Serving Washington Township, Shelby Township, Macomb Township, Romeo & surrounding areas. 4.9★ Google rated. Free estimates — (586) 327-8080.",
+    "Tri-Point Landscaping LLC — Macomb County's locally owned landscaping company. Lawn maintenance, custom landscaping, mulch & stone, snow removal, lawn renovations & more. Serving Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester & surrounding areas. 4.9★ Google rated. Free estimates — (586) 327-8080.",
   keywords: [
     "landscaping Macomb County MI",
     "lawn care Washington Township Michigan",
@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     "fall cleanup Macomb County",
     "spring cleanup Washington Township MI",
     "commercial landscaping Macomb County",
+    "landscaping Rochester Hills MI",
+    "lawn care Rochester Hills Michigan",
+    "landscaping Rochester MI",
+    "landscaping company Oakland County MI",
+    "lawn care near me Rochester Hills",
     "Tri-Point Landscaping",
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com" },
@@ -204,11 +209,14 @@ export default function HomePage() {
               </div>
 
               {/* Headline */}
-              <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="font-bold text-white leading-[1.0] mb-8">
-                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Precision.</span>
-                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200" style={{ color: "#7ecb82" }}>Passion.</span>
-                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Perfection.</span>
+              <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="font-bold text-white leading-[1.0] mb-3">
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Landscaping &amp;</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200" style={{ color: "#7ecb82" }}>Lawn Care</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Macomb County.</span>
               </h1>
+              <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-white/30 text-lg sm:text-xl tracking-[0.25em] uppercase mb-8 anim-hidden animate-fade-up delay-400">
+                Precision · Passion · Perfection
+              </p>
 
               <p className="text-xl text-white/65 mb-12 leading-relaxed max-w-xl anim-hidden animate-fade-up delay-400">
                 Macomb County&apos;s premier landscaping team. Locally owned, fully insured, and obsessively
@@ -785,10 +793,10 @@ export default function HomePage() {
               <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Where We Work</p>
               <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
                 <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-                  Serving All of<br />Macomb County
+                  Macomb County &amp;<br />Oakland County
                 </h2>
                 <p className="text-gray-500 max-w-sm leading-relaxed text-sm">
-                  Proudly serving homeowners and businesses throughout northern Macomb County, Michigan — every season, every year. Select your area for local details.
+                  Proudly serving homeowners and businesses across Macomb County and Oakland County, Michigan — from Washington Township to Rochester Hills, every season.
                 </p>
               </div>
             </AnimateOnScroll>

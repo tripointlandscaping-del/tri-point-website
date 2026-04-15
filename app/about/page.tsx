@@ -122,7 +122,8 @@ export default function AboutPage() {
               <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-4">Our Story</p>
               <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] mb-6">
                 Macomb County&apos;s<br />
-                <span style={{ color: "#7ecb82" }}>Trusted Landscapers.</span>
+                <span style={{ color: "#7ecb82" }}>Top-Rated Landscaping</span><br />
+                &amp; Lawn Care Company.
               </h1>
               <p className="text-xl text-white/65 leading-relaxed max-w-lg mb-8">
                 Not a franchise. Not a call center. A real local crew — fully insured, detail-obsessed, and proud of every yard we touch across northern Macomb County.

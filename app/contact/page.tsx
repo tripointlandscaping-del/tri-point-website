@@ -128,8 +128,8 @@ export default function ContactPage() {
                   style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
                   className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.05] mb-6"
                 >
-                  Get Your<br />
-                  <span style={{ color: "#7ecb82" }}>Free Estimate</span>
+                  Free Landscaping Estimate<br />
+                  <span style={{ color: "#7ecb82" }}>Macomb County, MI</span>
                 </h1>
                 <p className="text-white/65 text-lg leading-relaxed max-w-lg mb-6">
                   Fill out the form and a Tri-Point team member responds same day — usually within the hour — with a clear, honest quote. No fluff. No pressure. Just real answers.

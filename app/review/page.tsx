@@ -4,16 +4,22 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Leave a Review | Tri-Point Landscaping | Macomb County, MI",
-  description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
+  title: "Rate Tri-Point Landscaping | Leave a Google Review — Macomb County, MI",
+  description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
   alternates: { canonical: "https://www.tripointlandscaping.com/review" },
   openGraph: {
-    title: "Leave a Review | Tri-Point Landscaping",
+    title: "Rate Tri-Point Landscaping | Leave a Google Review",
     description: "Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
     url: "https://www.tripointlandscaping.com/review",
     siteName: "Tri-Point Landscaping",
     type: "website",
     images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Leave a Review" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rate Tri-Point Landscaping | Leave a Google Review",
+    description: "Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 
@@ -71,7 +77,7 @@ export default function ReviewPage() {
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               className="text-4xl sm:text-5xl font-bold text-white mb-5"
             >
-              How Was Your Experience?
+              Review Tri-Point Landscaping — Macomb County, MI
             </h1>
             <p className="text-white/55 text-lg leading-relaxed mb-12 max-w-xl mx-auto">
               Tell us how we did. Choose the option that fits your experience below.

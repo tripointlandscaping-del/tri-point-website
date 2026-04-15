@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tri-Point Landscaping | Macomb County, MI",
     description:
-      "Professional landscaping, lawn care & snow removal in Macomb County, MI. Precision. Passion. Perfection.",
+      "Professional landscaping & lawn care in Macomb County & Oakland County, MI. Serving Washington Township, Shelby Township, Rochester Hills & more. Free estimates.",
     url: "https://www.tripointlandscaping.com",
     siteName: "Tri-Point Landscaping",
     locale: "en_US",
@@ -179,13 +179,13 @@ export default function RootLayout({
                 "@type": "OfferCatalog",
                 name: "Landscaping & Lawn Care Services",
                 itemListElement: [
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lawn Maintenance", url: "https://www.tripointlandscaping.com/services/lawn-maintenance", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Landscaping & Design", url: "https://www.tripointlandscaping.com/services/landscaping", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mulch & Stone Installation", url: "https://www.tripointlandscaping.com/services/mulch-and-stone", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Seasonal Cleanup", url: "https://www.tripointlandscaping.com/services/seasonal-cleanup", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Snow Removal & Ice Management", url: "https://www.tripointlandscaping.com/services/snow-removal", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lawn Renovations & Aeration", url: "https://www.tripointlandscaping.com/services/lawn-renovations", areaServed: "Macomb County, MI" } },
-                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Landscaping", url: "https://www.tripointlandscaping.com/commercial", areaServed: "Macomb County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lawn Maintenance", url: "https://www.tripointlandscaping.com/services/lawn-maintenance", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Landscaping & Design", url: "https://www.tripointlandscaping.com/services/landscaping", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mulch & Stone Installation", url: "https://www.tripointlandscaping.com/services/mulch-and-stone", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Seasonal Cleanup", url: "https://www.tripointlandscaping.com/services/seasonal-cleanup", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Snow Removal & Ice Management", url: "https://www.tripointlandscaping.com/services/snow-removal", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lawn Renovations & Aeration", url: "https://www.tripointlandscaping.com/services/lawn-renovations", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Landscaping", url: "https://www.tripointlandscaping.com/commercial", areaServed: "Macomb County and Oakland County, MI" } },
                 ],
               },
               sameAs: [
@@ -194,10 +194,12 @@ export default function RootLayout({
               ],
               priceRange: "$$",
               description:
-                "Professional landscaping, lawn care, snow removal, mulch & stone, and lawn renovation services throughout Macomb County, Michigan. Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township.",
+                "Professional landscaping, lawn care, snow removal, mulch & stone, and lawn renovation services throughout Macomb County and Oakland County, Michigan. Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
               knowsAbout: [
                 "Lawn Maintenance", "Landscape Design", "Mulch Installation", "Seasonal Cleanup",
                 "Snow Removal", "Ice Management", "Lawn Aeration", "Overseeding", "Commercial Landscaping",
+                "Spring Cleanup", "Fall Cleanup", "Lawn Renovation", "Dethatching", "Curb Appeal",
+                "Macomb County Landscaping", "Oakland County Landscaping", "Rochester Hills Lawn Care",
               ],
             }),
           }}

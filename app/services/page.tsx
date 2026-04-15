@@ -4,17 +4,33 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Landscaping Services in Macomb County, MI | Tri-Point Landscaping",
+  title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
   description:
-    "Professional landscaping services in Macomb County, MI — lawn maintenance, custom landscaping, mulch & stone, seasonal cleanup, snow removal & ice management, and lawn renovations. Free estimates. Call (586) 327-8080.",
+    "Professional landscaping & lawn care services in Macomb County & Oakland County, MI — lawn maintenance, custom landscaping, mulch & stone, seasonal cleanup, snow removal & lawn renovations. Free estimates. Call (586) 327-8080.",
+  keywords: [
+    "landscaping services Macomb County MI",
+    "lawn care services Macomb County",
+    "snow removal Macomb County MI",
+    "mulch installation Macomb County",
+    "seasonal cleanup Macomb County",
+    "lawn renovation Macomb County",
+    "landscaping services Rochester Hills MI",
+    "lawn maintenance Oakland County MI",
+  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/services" },
   openGraph: {
-    title: "Landscaping Services in Macomb County, MI | Tri-Point Landscaping",
-    description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County, MI. Locally owned. Free estimates.",
+    title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
+    description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Locally owned. Free estimates.",
     url: "https://www.tripointlandscaping.com/services",
     siteName: "Tri-Point Landscaping",
     type: "website",
     images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Services — Macomb County MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
+    description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Free estimates.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 
@@ -78,10 +94,10 @@ export default function ServicesPage() {
         <section className="bg-black text-white py-20 px-6 text-center">
           <p className="text-green-400 uppercase tracking-widest text-sm mb-3">What We Do</p>
           <h1 className="text-4xl md:text-5xl font-bold font-playfair mb-4">
-            Professional Landscaping Services
+            Landscaping &amp; Lawn Care Services in Macomb County, MI
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township.
+            Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.
           </p>
         </section>
 

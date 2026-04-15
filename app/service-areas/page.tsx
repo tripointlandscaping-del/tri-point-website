@@ -4,23 +4,33 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Service Areas | Tri-Point Landscaping — Macomb County, MI",
+  title: "Landscaping Service Areas — Macomb County & Oakland County, MI | Tri-Point Landscaping",
   description:
-    "Tri-Point Landscaping serves Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township. Professional lawn care, landscaping & snow removal throughout Macomb County, MI.",
+    "Tri-Point Landscaping serves Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. Professional lawn care, landscaping & snow removal across Macomb County and Oakland County, MI.",
   keywords: [
     "landscaping near me Macomb County",
     "lawn care Washington Township",
     "landscaping Shelby Township MI",
     "snow removal Macomb County",
     "landscaping company near me Michigan",
+    "landscaping Rochester Hills MI",
+    "lawn care Rochester MI",
+    "landscaping Oakland County MI",
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com/service-areas" },
   openGraph: {
-    title: "Service Areas | Tri-Point Landscaping — Macomb County, MI",
-    description: "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township & Bruce Township. Free estimates throughout Macomb County.",
+    title: "Landscaping Service Areas — Macomb County & Oakland County, MI | Tri-Point Landscaping",
+    description: "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Rochester Hills, Rochester & more. Free estimates across Macomb County and Oakland County.",
     url: "https://www.tripointlandscaping.com/service-areas",
     siteName: "Tri-Point Landscaping",
     type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Service Areas — Macomb County and Oakland County MI" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscaping Service Areas — Macomb County & Oakland County, MI | Tri-Point Landscaping",
+    description: "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Rochester Hills, Rochester & more.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },
 };
 
@@ -86,10 +96,10 @@ export default function ServiceAreasPage() {
         <section className="bg-black text-white py-20 px-6 text-center">
           <p className="text-green-400 uppercase tracking-widest text-sm mb-3">Where We Work</p>
           <h1 className="text-4xl md:text-5xl font-bold font-playfair mb-4">
-            Serving All of Macomb County, MI
+            Landscaping Service Areas — Macomb County &amp; Oakland County, MI
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Locally owned and operated in Washington Township. We serve six communities throughout northern Macomb County — from Romeo down to Shelby Township.
+            Locally owned and operated in Washington Township. We serve eight communities across Macomb County and Oakland County — from Romeo to Rochester Hills.
           </p>
         </section>
 

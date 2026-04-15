@@ -145,7 +145,7 @@ export default function GalleryPage() {
             style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             className="text-4xl sm:text-5xl font-bold text-white mb-4"
           >
-            Our Project Gallery
+            Landscaping Project Gallery — Macomb County, MI
           </h1>
           <p className="text-white/55 leading-relaxed max-w-xl mx-auto">
             Every property we touch gets the same obsessive attention to detail — from weekly lawn maintenance to full landscape installations across Macomb County, MI.
