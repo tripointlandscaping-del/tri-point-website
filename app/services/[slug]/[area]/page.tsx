@@ -279,6 +279,41 @@ const allServiceSlugs = Object.keys(services);
 const allAreaSlugs = Object.keys(areas);
 
 /* ─────────────────────────────────────────
+   SEARCH VARIANT TERMS PER SERVICE
+   These mirror every way a real person might search for each service.
+───────────────────────────────────────── */
+const serviceSearchVariants: Record<string, string[]> = {
+  "lawn-maintenance": [
+    "lawn mowing", "grass cutting", "lawn care", "lawn cutting",
+    "lawn service", "yard mowing", "weekly lawn service", "lawn trimming",
+  ],
+  "landscaping": [
+    "landscaping", "landscaper", "landscape design", "yard work",
+    "curb appeal landscaping", "landscape installation", "outdoor landscaping",
+  ],
+  "mulch-and-stone": [
+    "mulch installation", "mulch delivery", "mulching service",
+    "decorative stone", "river rock installation", "bed edging", "garden mulch",
+  ],
+  "seasonal-cleanup": [
+    "leaf removal", "fall cleanup", "spring cleanup", "yard cleanup",
+    "debris removal", "yard waste removal", "leaf blowing service",
+  ],
+  "snow-removal": [
+    "snow plowing", "snow removal", "driveway plowing",
+    "ice removal", "snow blowing service", "snow service",
+  ],
+  "lawn-renovations": [
+    "lawn aeration", "core aeration", "overseeding", "lawn seeding",
+    "dethatching", "lawn repair", "bare spot repair", "lawn renovation",
+  ],
+  "commercial": [
+    "commercial landscaping", "commercial lawn care", "grounds maintenance",
+    "HOA landscaping", "commercial mowing", "property management landscaping",
+  ],
+};
+
+/* ─────────────────────────────────────────
    GENERATE STATIC PARAMS (42 pages)
 ───────────────────────────────────────── */
 export function generateStaticParams() {
@@ -302,14 +337,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const areaData = areas[area];
   if (!svc || !areaData) return {};
 
+  const variants = serviceSearchVariants[slug] ?? [svc.name.toLowerCase()];
+  const keywords = variants.flatMap((v) => [
+    `${v} ${areaData.name} MI`,
+    `${v} near me ${areaData.name}`,
+    `${v} ${areaData.county} MI`,
+  ]).concat([
+    `${svc.name.toLowerCase()} company ${areaData.name} Michigan`,
+    `best ${variants[0]} ${areaData.name} MI`,
+    `affordable ${variants[0]} ${areaData.name}`,
+  ]);
+
   return {
-    title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
-    description: `Professional ${svc.name.toLowerCase()} in ${areaData.name}, Michigan. ${svc.shortDesc} Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
+    title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
+    description: `Professional ${variants[0]} and ${variants[1] ?? svc.name.toLowerCase()} in ${areaData.name}, Michigan. ${svc.shortDesc} Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
+    keywords,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
     openGraph: {
-      title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
+      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
       siteName: "Tri-Point Landscaping",
@@ -318,7 +365,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${svc.name} in ${areaData.name}, MI | Tri-Point Landscaping`,
+      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
