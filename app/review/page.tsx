@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Rate Tri-Point Landscaping | Leave a Google Review — Macomb County, MI",
+  title: "Leave a Google Review — Macomb County | Tri-Point Landscaping",
   description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
   alternates: { canonical: "https://www.tripointlandscaping.com/review" },
   openGraph: {

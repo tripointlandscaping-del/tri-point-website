@@ -66,7 +66,7 @@ type ServiceData = {
 const services: Record<string, ServiceData> = {
   "lawn-maintenance": {
     title: "Lawn Maintenance in Macomb County, MI",
-    metaTitle: "Lawn Mowing & Lawn Care Service in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Lawn Mowing & Grass Cutting — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional lawn mowing, grass cutting, and lawn care throughout Macomb County, MI — Washington Township, Shelby Township & beyond. Weekly mowing, edging, trimming & blowing. Free estimates. Call (586) 327-8080.",
     keywords: [
@@ -126,7 +126,7 @@ const services: Record<string, ServiceData> = {
   },
   "landscaping": {
     title: "Landscaping Services in Macomb County, MI",
-    metaTitle: "Landscaping & Landscape Design in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Landscaping & Landscape Design — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional landscaping, landscape design, and yard transformations throughout Macomb County, MI. Planting beds, curb appeal, stone features, sod & more. Free estimates. Call (586) 327-8080.",
     keywords: [
@@ -187,7 +187,7 @@ const services: Record<string, ServiceData> = {
   },
   "mulch-and-stone": {
     title: "Mulch & Decorative Stone Installation in Macomb County, MI",
-    metaTitle: "Mulch Delivery & Installation in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Mulch Delivery & Installation — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional mulch delivery, mulch installation, and decorative rock & stone throughout Macomb County, MI. Black mulch, brown mulch, cedar, river rock, bed edging & more. Free estimates. Call (586) 327-8080.",
     keywords: [
@@ -245,7 +245,7 @@ const services: Record<string, ServiceData> = {
   },
   "seasonal-cleanup": {
     title: "Spring & Fall Cleanup Services in Macomb County, MI",
-    metaTitle: "Leaf Removal & Yard Cleanup in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Leaf Removal & Yard Cleanup — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional leaf removal, yard cleanup, and spring & fall cleanup throughout Macomb County, MI. Leaf blowing, debris hauling, bed clearing, yard waste removal & more. Free estimates. Call (586) 327-8080.",
     keywords: [
@@ -304,7 +304,7 @@ const services: Record<string, ServiceData> = {
   },
   "snow-removal": {
     title: "Snow Removal & Ice Management in Macomb County, MI",
-    metaTitle: "Snow Plowing & Snow Removal Service in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Snow Plowing & Driveway Plowing — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional snow plowing, snow removal, driveway plowing & ice management throughout Macomb County, MI. Residential & commercial snow service — seasonal contracts & per-push available. Call (586) 327-8080.",
     keywords: [
@@ -361,7 +361,7 @@ const services: Record<string, ServiceData> = {
   },
   "lawn-renovations": {
     title: "Lawn Renovations in Macomb County, MI",
-    metaTitle: "Lawn Aeration & Overseeding Service in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Lawn Aeration & Overseeding — Macomb County, MI | Tri-Point",
     metaDescription:
       "Professional lawn aeration, overseeding, lawn seeding, dethatching & lawn repair throughout Macomb County, MI. Fix bare spots, patchy grass & thin lawns. Free estimates. Call (586) 327-8080.",
     keywords: [
@@ -420,7 +420,7 @@ const services: Record<string, ServiceData> = {
   },
   "commercial": {
     title: "Commercial Landscaping in Macomb County, MI",
-    metaTitle: "Commercial Landscaping & Grounds Maintenance in Macomb County, MI | Tri-Point Landscaping",
+    metaTitle: "Commercial Landscaping & Grounds Maintenance — Macomb County | Tri-Point",
     metaDescription:
       "Professional commercial landscaping, grounds maintenance, and HOA lawn care in Macomb County, MI. Commercial mowing, commercial snow removal, property management landscaping & more. Call (586) 327-8080.",
     keywords: [

@@ -454,7 +454,7 @@ export default async function ServiceAreaPage({ params }: Props) {
             <div className="max-w-3xl">
               <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">{areaData.name}, {areaData.county}</p>
               <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-5xl md:text-6xl font-bold text-white leading-[1.05] mb-5">
-                {serviceDisplayName}<br />
+                {(serviceSearchVariants[slug]?.[0] ?? serviceDisplayName).replace(/\b\w/g, c => c.toUpperCase())}<br />
                 <span style={{ color: "#7ecb82" }}>in {areaData.name}, MI</span>
               </h1>
               <p className="text-lg text-white/65 mb-8 max-w-xl leading-relaxed">{svc.shortDesc}</p>

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
+  title: "Landscaping & Lawn Care Services — Macomb County, MI | Tri-Point",
   description:
     "Professional landscaping & lawn care services in Macomb County & Oakland County, MI — lawn maintenance, custom landscaping, mulch & stone, seasonal cleanup, snow removal & lawn renovations. Free estimates. Call (586) 327-8080.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com/services" },
   openGraph: {
-    title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
+    title: "Landscaping & Lawn Care Services — Macomb County, MI | Tri-Point",
     description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Locally owned. Free estimates.",
     url: "https://www.tripointlandscaping.com/services",
     siteName: "Tri-Point Landscaping",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscaping & Lawn Care Services in Macomb County, MI | Tri-Point Landscaping",
+    title: "Landscaping & Lawn Care Services — Macomb County, MI | Tri-Point",
     description: "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Free estimates.",
     images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
   },

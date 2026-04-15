@@ -13,7 +13,7 @@ import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
 
 export const metadata: Metadata = {
-  title: "Tri-Point Landscaping | Lawn Mowing, Landscaping & Snow Plowing — Macomb County, MI",
+  title: "Lawn Mowing & Landscaping — Macomb County, MI | Tri-Point",
   description:
     "Tri-Point Landscaping LLC — Macomb County's locally owned landscaping company. Lawn maintenance, custom landscaping, mulch & stone, snow removal, lawn renovations & more. Serving Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester & surrounding areas. 4.9★ Google rated. Free estimates — (586) 327-8080.",
   keywords: [
