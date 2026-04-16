@@ -99,6 +99,11 @@ async function generatePosts() {
     return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 2);
   });
 
+  if (available.length === 0) {
+    console.log("⚠️ All topics already covered — skipping this run.");
+    process.exit(0);
+  }
+
   // Shuffle so we don't always pick the same topic
   const shuffled = available.sort(() => Math.random() - 0.5);
   const topics = shuffled.slice(0, 1);
@@ -204,5 +209,6 @@ ${post.content}
 
 generatePosts().catch((err) => {
   console.error("❌ Failed:", err.message);
+  if (err.stack) console.error(err.stack);
   process.exit(1);
 });
