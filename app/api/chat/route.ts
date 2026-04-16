@@ -25,7 +25,7 @@ SERVICES (with page links):
 6. Lawn Renovations & Aeration (/services/lawn-renovations) — Core aeration, overseeding, dethatching, top dressing.
 7. Commercial Landscaping (/services/commercial) — HOAs, offices, retail centers, apartments. Priority scheduling, insurance docs provided.
 
-SERVICE AREAS: Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township (all of northern Macomb County, MI)
+SERVICE AREAS: Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township (Macomb County, MI), Rochester, and Rochester Hills (Oakland County, MI). We serve all 8 of these communities.
 
 PRICING:
 - All estimates are FREE with no obligation
