@@ -46,7 +46,11 @@ jobs:
             "/service-areas/ray-township"
             "/service-areas/bruce-township"
             "/privacy-policy"
-            "/terms-of-service"
+            "/terms-and-conditions"
+            "/service-areas/rochester"
+            "/service-areas/rochester-hills"
+            "/services/lawn-maintenance/washington-township"
+            "/services/snow-removal/rochester-hills"
           )
           failed=0
           for page in "${pages[@]}"; do
