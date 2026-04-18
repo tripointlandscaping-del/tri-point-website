@@ -79,6 +79,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer lawn mowing, grass cutting, and lawn care in Washington Township?", a: "Yes. Whether you call it lawn mowing, grass cutting, lawn care, or lawn service, Tri-Point Landscaping provides all of it in Washington Township. We offer weekly and bi-weekly schedules with mowing, edging, trimming, and blowing on every visit." },
       { q: "Do you do leaf removal and fall cleanup in Washington Township?", a: "Yes. Leaf removal and fall yard cleanup is one of our most popular Washington Township services. We remove all leaves, cut back perennials, clear beds, and haul everything away — no piles left behind." },
       { q: "Do you provide mulch delivery and installation in Washington Township?", a: "Yes. We deliver and install mulch, decorative stone, and river rock throughout Washington Township. Black, brown, cedar, and hardwood mulch available with clean bed edging on every job." },
+      { q: "How much does lawn care or landscaping cost in Washington Township, MI?", a: "Pricing depends on your property size and which services you need. Every quote is based on a free on-site estimate — we walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "shelby-township": {
@@ -139,6 +140,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer grass cutting and lawn mowing in Shelby Township?", a: "Yes — lawn mowing, grass cutting, lawn care, lawn trimming — whatever you call it, we provide it in Shelby Township on weekly or bi-weekly schedules, April through October." },
       { q: "Do you plow driveways and do snow removal in Shelby Township?", a: "Yes. We provide snow plowing, driveway clearing, sidewalk salting, and ice management throughout Shelby Township. Seasonal contracts and per-push pricing both available." },
       { q: "Do you do leaf removal and spring cleanup in Shelby Township?", a: "Yes. Leaf removal, fall cleanup, and spring yard cleanup are all available in Shelby Township. We remove all debris and haul it away — leaving your property clean and ready for the season." },
+      { q: "How much does lawn care or landscaping cost in Shelby Township, MI?", a: "Pricing depends on your property size and the services you need. Every quote is based on a free on-site estimate — we walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "macomb-township": {
@@ -196,6 +198,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer lawn mowing and grass cutting in Macomb Township?", a: "Yes. We provide lawn mowing, grass cutting, and lawn care throughout Macomb Township on weekly and bi-weekly schedules. Every visit includes mowing, edging, trimming, and blowing." },
       { q: "Do you do snow plowing and driveway plowing in Macomb Township?", a: "Yes. We serve Macomb Township homeowners with snow plowing, driveway clearing, sidewalk salting, and full ice management. Seasonal contracts and per-push options available." },
       { q: "Do you offer leaf removal and yard cleanup in Macomb Township?", a: "Yes. Leaf removal and seasonal yard cleanup are available throughout Macomb Township. We remove leaves, debris, and plant material and haul everything away." },
+      { q: "How much does lawn care or landscaping cost in Macomb Township, MI?", a: "Pricing is based on your specific property and services needed. All estimates are free — we assess your property in person and give you a clear, upfront quote before any work begins. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "romeo": {
@@ -250,6 +253,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer fall cleanup in Romeo?", a: "Absolutely. Fall cleanup is one of our busiest services in the Romeo area. We remove leaves, cut back perennials, clear beds, and leave the property ready for winter." },
       { q: "Do you offer lawn mowing and grass cutting in Romeo, MI?", a: "Yes. We provide lawn mowing, grass cutting, and lawn care in Romeo on weekly and bi-weekly schedules, from April through October. Every visit includes mowing, edging, trimming, and blowing." },
       { q: "Do you plow driveways and provide snow removal in Romeo?", a: "Yes. We serve Romeo homeowners with snow plowing, driveway clearing, and salting. Seasonal contracts and per-push pricing available. Long driveways and rural access roads included." },
+      { q: "How much does lawn care or landscaping cost in Romeo, MI?", a: "Pricing varies by property size, lot type, and services needed — rural and larger properties in Romeo are quoted based on the specific scope of work. All estimates are free. Call (586) 327-8080 or request one online." },
     ],
   },
   "ray-township": {
@@ -303,6 +307,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you plow driveways in Ray Township?", a: "Yes. We offer residential driveway plowing, sidewalk clearing, and salting for Ray Township properties. Long driveways and rural access roads are something we handle regularly." },
       { q: "Do you offer lawn mowing and grass cutting in Ray Township?", a: "Yes. We mow lawns throughout Ray Township on weekly and bi-weekly schedules. Our equipment is sized for larger rural lots and extended mowing routes — not just small suburban yards." },
       { q: "Do you provide leaf removal and yard cleanup in Ray Township?", a: "Yes. We do complete leaf removal, fall yard cleanup, and spring cleanup for Ray Township properties, including larger acreage lots. We haul all debris away." },
+      { q: "How much does lawn care or landscaping cost in Ray Township, MI?", a: "Ray Township properties vary widely in lot size and scope, so pricing is always quoted individually after a free on-site estimate. Call (586) 327-8080 or request an estimate online and we'll give you a clear, upfront price." },
     ],
   },
   "bruce-township": {
@@ -356,6 +361,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer spring and fall cleanup in Bruce Township?", a: "Absolutely. Seasonal cleanup is one of our most popular services in Bruce Township. We clear leaves, cut back perennials, clean beds, and haul everything away." },
       { q: "Do you offer lawn mowing and grass cutting in Bruce Township?", a: "Yes. We mow lawns throughout Bruce Township weekly or bi-weekly during the growing season. Our crew handles grass cutting, edging, trimming, and blowing on every visit." },
       { q: "Do you do snow plowing and driveway clearing in Bruce Township?", a: "Yes. Bruce Township snow plowing, driveway clearing, and salting are all available. Seasonal contracts and per-push pricing, including long rural driveway routes." },
+      { q: "How much does lawn care or landscaping cost in Bruce Township, MI?", a: "Pricing is based on your property size and service scope — all estimates are free and done on-site. Call (586) 327-8080 or request an estimate online for a clear, upfront quote." },
     ],
   },
   "rochester": {
@@ -416,6 +422,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer snow plowing and driveway plowing in Rochester, MI?", a: "Yes. We provide snow plowing, driveway clearing, sidewalk salting, and ice management throughout Rochester. Seasonal contracts and per-push pricing are both available for Rochester homeowners." },
       { q: "Do you do leaf removal and fall cleanup in Rochester, MI?", a: "Yes. Leaf removal and fall cleanup is one of our most requested Rochester services. We remove all leaves, clear beds, cut back perennials, and haul everything away — no piles left behind." },
       { q: "Do you deliver and install mulch in Rochester, MI?", a: "Yes. We offer mulch delivery and installation throughout Rochester. Black, brown, cedar, and hardwood mulch options available, with clean bed edging included on every mulch job." },
+      { q: "How much does lawn care or landscaping cost in Rochester, MI?", a: "Pricing depends on your specific property and services. Every estimate is free and done on-site so we can give you an accurate, honest quote. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "rochester-hills": {
@@ -477,6 +484,7 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer lawn mowing and grass cutting in Rochester Hills, MI?", a: "Yes — lawn mowing, grass cutting, lawn care, lawn service — we provide all of it in Rochester Hills on consistent weekly or bi-weekly schedules from April through October." },
       { q: "Do you offer snow plowing and driveway plowing in Rochester Hills?", a: "Yes. We provide snow plowing, driveway clearing, sidewalk salting, and ice management throughout Rochester Hills in Oakland County. Seasonal contracts and per-push pricing available." },
       { q: "Do you do leaf removal, mulch installation, and yard cleanup in Rochester Hills?", a: "Yes. We offer complete leaf removal, spring and fall cleanup, and mulch delivery & installation throughout Rochester Hills. Multiple mulch types available, clean bed edging included." },
+      { q: "How much does lawn care or landscaping cost in Rochester Hills, MI?", a: "Pricing is always quoted individually after a free on-site estimate — no guesswork, no generic rates. Call (586) 327-8080 or request an estimate online and we'll walk your property and give you a clear, upfront price." },
     ],
   },
 };
