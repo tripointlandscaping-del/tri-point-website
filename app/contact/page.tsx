@@ -9,6 +9,18 @@ export const metadata: Metadata = {
   title: "Free Estimate — Macomb County, MI | Tri-Point Landscaping",
   description:
     "Request a free landscaping, lawn care, snow removal, or lawn renovation estimate from Tri-Point Landscaping. Serving all of Macomb County, MI — Washington Township, Shelby Township & more. Fast response. Call (586) 327-8080.",
+  keywords: [
+    "free landscaping estimate Macomb County MI",
+    "free lawn care estimate Washington Township MI",
+    "contact Tri-Point Landscaping",
+    "landscaping quote Macomb County",
+    "lawn mowing estimate near me Michigan",
+    "snow removal estimate Macomb County",
+    "free estimate Rochester Hills MI",
+    "free estimate Shelby Township MI",
+    "landscaping company contact Macomb County",
+    "lawn care near me free estimate Michigan",
+  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/contact" },
   openGraph: {
     title: "Free Estimate | Contact Tri-Point Landscaping",
@@ -247,6 +259,8 @@ export default function ContactPage() {
                       ["Romeo", "/service-areas/romeo"],
                       ["Ray Township", "/service-areas/ray-township"],
                       ["Bruce Township", "/service-areas/bruce-township"],
+                      ["Rochester", "/service-areas/rochester"],
+                      ["Rochester Hills", "/service-areas/rochester-hills"],
                     ].map(([area, href]) => (
                       <Link
                         key={area}
@@ -419,6 +433,8 @@ export default function ContactPage() {
                 ["Romeo", "/service-areas/romeo"],
                 ["Ray Township", "/service-areas/ray-township"],
                 ["Bruce Township", "/service-areas/bruce-township"],
+                ["Rochester", "/service-areas/rochester"],
+                ["Rochester Hills", "/service-areas/rochester-hills"],
               ].map(([name, href]) => (
                 <Link
                   key={name}

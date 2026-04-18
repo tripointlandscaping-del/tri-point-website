@@ -400,13 +400,28 @@ export default async function ServiceAreaPage({ params }: Props) {
     "@type": "Service",
     name: `${svc.name} in ${areaData.name}, MI`,
     description: svc.shortDesc,
+    url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "LandscapingBusiness",
       name: "Tri-Point Landscaping LLC",
       telephone: "+15863278080",
-      address: { "@type": "PostalAddress", addressLocality: "Washington Township", addressRegion: "MI" },
+      url: "https://www.tripointlandscaping.com",
+      address: { "@type": "PostalAddress", addressLocality: "Washington Township", addressRegion: "MI", postalCode: "48094", addressCountry: "US" },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "10",
+        bestRating: "5",
+        worstRating: "1",
+      },
     },
     areaServed: { "@type": "City", name: areaData.name, addressRegion: "MI" },
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      description: "Free estimate — no obligation",
+    },
   };
 
   const pageFaqs = serviceFaqs[slug] ?? [];
