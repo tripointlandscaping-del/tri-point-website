@@ -146,7 +146,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               "@id": `https://www.tripointlandscaping.com/blog/${post.slug}`,
             },
             url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
-            keywords: `${post.category}, Macomb County, Michigan, landscaping, lawn care`,
+            keywords: [
+      post.title,
+      `${post.category} Macomb County MI`,
+      `${post.category} Washington Township Michigan`,
+      `${post.category} tips Michigan`,
+      "landscaping advice Macomb County",
+      "lawn care tips Michigan",
+      "Tri-Point Landscaping blog",
+      `${post.category} near me Michigan`,
+    ],
             articleSection: post.category,
           }),
         }}
@@ -181,6 +190,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <p className="text-gray-500 text-lg leading-relaxed border-l-4 pl-4" style={{ borderColor: "#2C5F2E" }}>
             {post.description}
           </p>
+        </div>
+
+        {/* Mid-article CTA strip */}
+        <div className="my-10 p-6 border-l-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4" style={{ borderColor: "#2C5F2E", backgroundColor: "#f5f0e8" }}>
+          <div>
+            <p className="font-bold text-gray-900 text-sm">Need help with your property in Macomb County?</p>
+            <p className="text-gray-500 text-xs mt-0.5">Free estimates — same-day response — (586) 327-8080</p>
+          </div>
+          <Link href="/contact" className="shrink-0 inline-flex items-center gap-2 text-white px-5 py-2.5 text-sm font-bold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#2C5F2E" }}>
+            Get a Free Estimate →
+          </Link>
         </div>
 
         <div className="border-t border-gray-100 pt-10 space-y-2">

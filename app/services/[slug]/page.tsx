@@ -768,7 +768,7 @@ export default async function ServicePage({ params }: Props) {
                 We serve all of northern Macomb County. Select your area below for local pricing, service details, and hyper-local info.
               </p>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
               {[
                 { name: "Washington Township", slug: "washington-township" },
                 { name: "Shelby Township", slug: "shelby-township" },
@@ -776,6 +776,8 @@ export default async function ServicePage({ params }: Props) {
                 { name: "Romeo", slug: "romeo" },
                 { name: "Ray Township", slug: "ray-township" },
                 { name: "Bruce Township", slug: "bruce-township" },
+                { name: "Rochester", slug: "rochester" },
+                { name: "Rochester Hills", slug: "rochester-hills" },
               ].map((area) => (
                 <Link
                   key={area.slug}
