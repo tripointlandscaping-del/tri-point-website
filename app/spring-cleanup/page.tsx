@@ -233,10 +233,7 @@ export default function SpringCleanupPage() {
                 <Link
                   key={area.slug}
                   href={`/service-areas/${area.slug}`}
-                  style={{ borderColor: "#2C5F2E", color: "#2C5F2E" }}
-                  className="px-5 py-2.5 border text-sm font-semibold hover:text-white transition-colors"
-                  onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "#2C5F2E"; }}
-                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = ""; }}
+                  className="px-5 py-2.5 border text-sm font-semibold transition-colors border-[#2C5F2E] text-[#2C5F2E] hover:bg-[#2C5F2E] hover:text-white"
                 >
                   {area.name}
                 </Link>
