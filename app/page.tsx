@@ -256,7 +256,7 @@ export default function HomePage() {
                 { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating" },
                 { end: 100, suffix: "%", decimals: 0, label: "Satisfaction Guaranteed" },
                 { end: 8, suffix: "+", decimals: 0, label: "Services Offered" },
-                { end: 6, suffix: "+", decimals: 0, label: "Cities Served" },
+                { end: 8, suffix: "", decimals: 0, label: "Cities Served" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-white">
@@ -602,7 +602,7 @@ export default function HomePage() {
                 {[
                   { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating", sub: "Rated by real Macomb County homeowners" },
                   { end: 100, suffix: "%", decimals: 0, label: "Satisfaction", sub: "Or we come back and make it right" },
-                  { end: 6, suffix: "+", decimals: 0, label: "Cities Served", sub: "All of northern Macomb County" },
+                  { end: 8, suffix: "", decimals: 0, label: "Cities Served", sub: "Macomb County & Oakland County, MI" },
                   { end: 8, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to snow removal" },
                 ].map(({ end, suffix, decimals, label, sub }, i) => (
                   <AnimateOnScroll key={label} animation="fade-up" delay={i * 100} className="h-full">
@@ -894,6 +894,46 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ═══ SERVICES BY AREA — internal linking for SEO ═══ */}
+        <section className="py-20 bg-white border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-12">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Local Service Pages</p>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900">
+                Lawn Care &amp; Landscaping Services by City
+              </h2>
+              <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">Find service-specific information for your city — pricing context, local details, and what to expect.</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {[
+                { area: "Washington Township", slug: "washington-township" },
+                { area: "Shelby Township", slug: "shelby-township" },
+                { area: "Macomb Township", slug: "macomb-township" },
+                { area: "Rochester Hills", slug: "rochester-hills" },
+              ].map(({ area, slug }) => (
+                <div key={slug} className="border border-gray-100 p-5">
+                  <h3 className="font-bold text-gray-900 mb-3 text-sm">{area}</h3>
+                  <ul className="space-y-1.5">
+                    {[
+                      { label: "Lawn Mowing", service: "lawn-maintenance" },
+                      { label: "Landscaping", service: "landscaping" },
+                      { label: "Snow Removal", service: "snow-removal" },
+                      { label: "Leaf Removal", service: "seasonal-cleanup" },
+                      { label: "Mulch Installation", service: "mulch-and-stone" },
+                    ].map(({ label, service }) => (
+                      <li key={service}>
+                        <Link href={`/services/${service}/${slug}`} className="text-green-700 text-xs hover:underline">
+                          {label} in {area} →
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ═══ FULL BLEED CTA ═══ */}
         <section className="relative py-48 overflow-hidden">
           <Image src="/photos/mulch1.jpeg" alt="Professional landscaping services in Macomb County Michigan" fill className="object-cover" />
@@ -913,7 +953,7 @@ export default function HomePage() {
               <p className="text-xl text-white/55 mb-4 max-w-lg mx-auto">
                 Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team — ready when you are.
               </p>
-              <p className="text-white/30 text-sm mb-14">Serving Washington Township · Shelby Township · Macomb Township · Romeo · Ray Township · Bruce Township</p>
+              <p className="text-white/30 text-sm mb-14">Serving Washington Township · Shelby Township · Macomb Township · Romeo · Ray Township · Bruce Township · Rochester · Rochester Hills</p>
               <div className="flex flex-col sm:flex-row gap-5 justify-center">
                 <MagneticButton>
                   <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center justify-center gap-3 text-white px-14 py-5 text-base font-semibold tracking-wide hover:opacity-90 transition-opacity">
