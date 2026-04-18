@@ -85,6 +85,39 @@ const TOPIC_POOL = [
   "Why consistent landscaping matters for commercial properties",
   "How to find a reliable commercial lawn care company in Macomb County",
   "HOA landscaping requirements: what property managers need to know",
+
+  // ── DECISION-INTENT / COMPARISON ──
+  "How to choose the best landscaping company in Macomb County",
+  "Questions to ask before hiring a lawn care company in Michigan",
+  "Local vs national landscaping companies: which is better in Macomb County",
+  "Red flags to watch for when hiring a landscaper in Michigan",
+  "How to read a landscaping estimate in Michigan",
+  "What questions to ask your snow removal contractor before winter",
+  "Why hire a fully insured landscaping company in Michigan",
+  "What a landscaping contract should include in Macomb County",
+
+  // ── HYPER-LOCAL ──
+  "Best time to hire a landscaping company in Washington Township, MI",
+  "Spring lawn care tips for Washington Township homeowners",
+  "Fall lawn care checklist for Shelby Township homeowners",
+  "Why Macomb County homeowners book landscaping services in January",
+  "Landscaping trends in Macomb County for 2025",
+  "How Michigan's clay soil affects your lawn in Macomb County",
+  "Best grass types for Washington Township and Shelby Township lawns",
+  "Why Macomb County homeowners prefer weekly lawn maintenance contracts",
+  "How to winterize your landscape in northern Macomb County",
+  "Rochester Hills landscaping: what homeowners need to know about Oakland County soils",
+  "Snow removal in Shelby Township: what to expect from a local company",
+  "Leaf removal in Washington Township: when and why to hire out",
+
+  // ── SEASONAL TIMING ──
+  "When to call a landscaping company in Macomb County: a month-by-month guide",
+  "What to do with your lawn in March in Michigan",
+  "What to do with your lawn in October in Macomb County",
+  "April lawn care checklist for Macomb County homeowners",
+  "September lawn care checklist for Washington Township",
+  "How to prep your landscape for a Michigan winter",
+  "When does spring cleanup season start in Macomb County",
 ];
 
 async function generatePosts() {

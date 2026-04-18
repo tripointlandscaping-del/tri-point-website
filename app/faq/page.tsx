@@ -8,7 +8,18 @@ export const metadata: Metadata = {
   title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
   description:
     "Answers to common questions about Tri-Point Landscaping's services, pricing, service areas, insurance, and more. Serving Washington Township, Shelby Township & all of Macomb County, MI.",
-  keywords: ["landscaping FAQ Macomb County", "lawn care questions Michigan", "how much does lawn care cost", "landscaping company near me", "Tri-Point Landscaping FAQ"],
+  keywords: [
+    "landscaping FAQ Macomb County",
+    "lawn care questions Michigan",
+    "how much does lawn care cost Macomb County",
+    "landscaping company near me Washington Township",
+    "Tri-Point Landscaping FAQ",
+    "spring cleanup FAQ Michigan",
+    "snow removal FAQ Macomb County",
+    "lawn maintenance questions Shelby Township",
+    "best landscaping company Macomb County",
+    "landscaping estimate Macomb County MI",
+  ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/faq",
   },
@@ -31,11 +42,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does lawn care cost in Macomb County?",
-    a: "Lawn care pricing varies based on property size, frequency, and the specific services you need. Most residential weekly mowing packages in Macomb County start in the $40–$80 range per visit. The best way to get an accurate number is to request a free estimate — we'll assess your property and give you a transparent, no-obligation quote same day.",
+    a: "Lawn care pricing varies based on property size, frequency, and the specific services you need. The best way to get an accurate number is to request a free estimate — we'll assess your property and give you a transparent, no-obligation quote same day. Call (586) 327-8080 or fill out our contact form.",
   },
   {
     q: "What areas do you serve?",
-    a: "We serve all of northern Macomb County, Michigan — including Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, and Bruce Township. If you're unsure whether we cover your address, give us a call at (586) 327-8080 and we'll let you know right away.",
+    a: "We serve Macomb County and parts of Oakland County, Michigan — including Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. If you're unsure whether we cover your address, give us a call at (586) 327-8080 and we'll let you know right away.",
   },
   {
     q: "Do you offer free estimates?",
@@ -75,7 +86,7 @@ const faqs = [
   },
   {
     q: "How much does landscaping cost in Washington Township?",
-    a: "Landscaping project costs vary widely depending on scope. A basic mulch and bed cleanup typically runs $300–$800. A full landscape design and installation for a front yard can range from $2,000–$10,000+ depending on materials, plants, and labor. We provide free detailed estimates so you know exactly what you're getting before any work begins.",
+    a: "Landscaping project costs vary widely depending on scope, materials, and the size of your property. We provide free detailed estimates so you know exactly what you're getting before any work begins — call (586) 327-8080 or request a quote online.",
   },
   {
     q: "Do you offer lawn care contracts or one-time services?",
