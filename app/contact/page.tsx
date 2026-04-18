@@ -421,6 +421,29 @@ export default function ContactPage() {
           </div>
         </section>
 
+        {/* ── GOOGLE REVIEW CTA ── */}
+        <section className="py-16 bg-white border-t border-gray-100">
+          <div className="max-w-3xl mx-auto px-6 text-center">
+            <div className="text-yellow-400 text-3xl mb-4">★★★★★</div>
+            <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-3">
+              Happy with Our Work? Let Your Neighbors Know.
+            </h2>
+            <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
+              A quick Google review helps other Macomb County homeowners find a crew they can trust — and it means the world to a small, local business like ours.
+            </p>
+            <a
+              href="https://g.page/r/CTWE7P6lheWxEBM/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ backgroundColor: "#2C5F2E" }}
+              className="inline-flex items-center gap-2 text-white px-8 py-4 font-bold text-sm hover:opacity-90 transition-opacity"
+            >
+              Leave Us a Google Review →
+            </a>
+            <p className="text-gray-400 text-xs mt-4">Takes less than 60 seconds. We read every review.</p>
+          </div>
+        </section>
+
         {/* ── SERVICE AREA STRIP ── */}
         <section style={{ backgroundColor: "#f5f0e8" }} className="py-14">
           <div className="max-w-7xl mx-auto px-6 text-center">

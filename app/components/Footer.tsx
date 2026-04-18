@@ -199,6 +199,7 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             <Link href="/gallery" className="hover:text-white/60 transition-colors">Gallery</Link>
             <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
+            <Link href="/referral" className="hover:text-white/60 transition-colors">Referral Program</Link>
             <Link href="/careers" className="hover:text-white/60 transition-colors">Careers</Link>
             <Link href="/faq" className="hover:text-white/60 transition-colors">FAQ</Link>
             <Link href="/service-areas" className="hover:text-white/60 transition-colors">Service Areas</Link>
