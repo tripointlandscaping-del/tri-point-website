@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/spring-cleanup`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${BASE}/fall-cleanup`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${BASE}/service-areas`, priority: 0.85, changeFrequency: "monthly" as const },
+    { url: `${BASE}/referral`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${BASE}/privacy-policy`, priority: 0.3, changeFrequency: "yearly" as const },
     { url: `${BASE}/terms-and-conditions`, priority: 0.3, changeFrequency: "yearly" as const },
   ];
