@@ -31,33 +31,39 @@ export const metadata: Metadata = {
 const reviews = [
   {
     stars: 5,
-    text: "Tri-Point does an amazing job on our lawn every week. Always on time, professional, and the yard looks better than it ever has. Highly recommend to anyone in Washington Township.",
-    author: "Washington Township Homeowner",
-    service: "Lawn Maintenance",
+    text: "Tri-Point Landscaping did an outstanding job on my yard! They were professional, punctual, and paid attention to every detail. From the clean-up to the fresh mulch, everything looked perfect when they finished. Highly recommend them for anyone looking for reliable and high-quality landscaping services!",
+    author: "Noah S.",
+    service: "Cleanup & Mulch Installation",
   },
   {
     stars: 5,
-    text: "We had them do our spring cleanup and mulch installation. The crew was fast, thorough, and cleaned up after themselves. Beds look incredible. Will definitely use them again.",
-    author: "Shelby Township Homeowner",
-    service: "Spring Cleanup & Mulch",
-  },
-  {
-    stars: 5,
-    text: "Best snow removal service I've had. They showed up before I even woke up and the driveway was completely clear. No need to worry all winter — they just handle it.",
-    author: "Macomb Township Homeowner",
-    service: "Snow Removal",
-  },
-  {
-    stars: 5,
-    text: "Our lawn was a disaster when we moved in. Tri-Point renovated the whole thing — aeration, overseeding, the works. It looks like a completely different yard now.",
-    author: "Romeo Homeowner",
-    service: "Lawn Renovation",
-  },
-  {
-    stars: 5,
-    text: "Very responsive, fair pricing, and the work quality is excellent. They communicate well and actually show up when they say they will. That alone sets them apart.",
-    author: "Rochester Hills Homeowner",
+    text: "These 3 guys did a great job at a reasonable price. They communicated well, were respectful and cleaned everything up when done. We are very happy with the work we had done by them.",
+    author: "Anna B.",
     service: "Landscaping",
+  },
+  {
+    stars: 5,
+    text: "I had them do a clean up of our yard and install mulch. They did really great work! Hardworking, honest and reliable. I'll for sure use them again!! Definitely recommend.",
+    author: "Marcela V.",
+    service: "Yard Cleanup & Mulch",
+  },
+  {
+    stars: 5,
+    text: "Noah did a very good job with my lawn. Very professional and very experienced. Would recommend for anyone that needed grass cutting and snow removal or any thing else. Noah and his team are the best.",
+    author: "Javen K.",
+    service: "Lawn Care & Snow Removal",
+  },
+  {
+    stars: 5,
+    text: "Very pleased with the work and professionalism these young men displayed. Highly recommend. 10 stars.",
+    author: "Lori A.",
+    service: "Landscaping",
+  },
+  {
+    stars: 4,
+    text: "This was our first time hiring a snow removal company and were truly happy with the experience. The service was timely, thorough, and a good value for the task. I really appreciated their messages regarding whether we needed service when the snow totals differed in their area. I would highly recommend the company.",
+    author: "Paula S.",
+    service: "Snow Removal",
   },
 ];
 
@@ -145,8 +151,8 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Reviews</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">100%</p>
-                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">5-Star Reviews</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">4.9★</p>
+                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Average Rating</p>
               </div>
             </div>
           </div>
