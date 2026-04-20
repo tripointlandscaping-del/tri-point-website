@@ -293,6 +293,15 @@ export default function HomePage() {
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
                 Free Estimates — Same-Day Response
               </div>
+              <a
+                href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member" style={{ height: "48px", width: "auto" }} />
+              </a>
             </div>
           </div>
         </section>

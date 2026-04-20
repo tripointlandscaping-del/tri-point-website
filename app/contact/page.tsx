@@ -280,6 +280,19 @@ export default function ContactPage() {
                   </p>
                 </div>
 
+                {/* Chamber of Commerce badge */}
+                <div className="bg-white p-7 shadow-sm flex flex-col items-center text-center">
+                  <a
+                    href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member — Tri-Point Landscaping" style={{ height: "120px", width: "auto" }} />
+                  </a>
+                  <p className="text-xs text-gray-400 mt-3 font-semibold uppercase tracking-widest">Verified Member</p>
+                </div>
+
                 {/* Rating card */}
                 <div style={{ backgroundColor: "#2C5F2E" }} className="p-7 text-white">
                   <div className="text-yellow-400 text-2xl mb-3">★★★★★</div>

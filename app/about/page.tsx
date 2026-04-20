@@ -376,6 +376,37 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* ── CREDENTIALS BADGES ── */}
+        <section className="py-12 bg-white border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="flex flex-wrap items-center justify-center gap-10">
+              <div className="text-center">
+                <div className="text-yellow-400 text-2xl mb-1">★★★★★</div>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">4.9 Google Rating</p>
+              </div>
+              <div className="w-px h-12 bg-gray-200 hidden sm:block" />
+              <div className="text-center">
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900">Fully Insured</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Licensed Michigan LLC</p>
+              </div>
+              <div className="w-px h-12 bg-gray-200 hidden sm:block" />
+              <a
+                href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member — Tri-Point Landscaping" style={{ height: "100px", width: "auto" }} />
+              </a>
+              <div className="w-px h-12 bg-gray-200 hidden sm:block" />
+              <div className="text-center">
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900">Nextdoor</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Neighborhood Favorite 2025</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ── STATS BAND ── */}
         <section style={{ backgroundColor: "#2C5F2E" }} className="py-16">
           <div className="max-w-7xl mx-auto px-6">
