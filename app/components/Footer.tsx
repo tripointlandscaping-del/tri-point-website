@@ -59,7 +59,7 @@ export default function Footer() {
                 <img
                   src="https://coc.codes/images/badge/2034252050"
                   alt="Chamber of Commerce Member — Tri-Point Landscaping"
-                  style={{ height: "80px", width: "auto" }}
+                  style={{ height: "120px", width: "auto" }}
                 />
               </a>
             </div>
