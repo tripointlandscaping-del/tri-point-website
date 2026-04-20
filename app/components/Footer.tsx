@@ -47,6 +47,23 @@ export default function Footer() {
               </div>
             </div>
 
+            {/* Chamber of Commerce badge */}
+            <div className="mb-6">
+              <a
+                href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Tri-Point Landscaping — Chamber of Commerce Member"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://coc.codes/images/badge/2034252050"
+                  alt="Chamber of Commerce Member — Tri-Point Landscaping"
+                  style={{ height: "80px", width: "auto" }}
+                />
+              </a>
+            </div>
+
             {/* Socials */}
             <div className="flex items-center gap-4">
               <a href="https://www.facebook.com/p/Tri-Point-Landscaping-LLC-61575067540062/" target="_blank" rel="noopener noreferrer" aria-label="Tri-Point Landscaping on Facebook" className="w-9 h-9 border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:border-white/40 transition-all">
