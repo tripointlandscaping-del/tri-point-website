@@ -3580,5 +3580,90 @@ If you're not sure what your yard actually needs—or if you want topsoil, compo
 
 Visit **[tripointlandscaping.com](https://tripointlandscaping.com)** to see our work around Macomb County.
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Lawn Actually Needs",
+    description: "Learn the real differences between topsoil, compost, and mulch for your Michigan landscape. Expert guide from Tri-Point Landscaping in Washington Township.",
+    date: "April 23, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Stop Buying the Wrong Soil Amendment for Your Yard
+
+Walk into any garden center in Washington Township and you'll see three bins that look almost identical. Topsoil. Compost. Mulch. Most homeowners grab whatever's closest, but here's the truth: **using the wrong one wastes money and can actually hurt your lawn.** They look similar, cost differently, and do completely different jobs. After years of working with Macomb County properties, we've seen plenty of yards suffer because someone mixed these up. This guide will show you exactly what each one is, when to use it, and how much you actually need.
+
+## Topsoil: The Foundation of Your Lawn
+
+**Topsoil is the living, fertile layer of earth where grass roots thrive.** It's the dark brown stuff at the very top of healthy ground—usually the upper 2 to 8 inches. Good topsoil contains organic matter (3-5%), minerals, microorganisms, and nutrients that sustain plant growth.
+
+In Macomb County, our native soil tends to be clay-heavy and often compacted from decades of development. That's exactly why topsoil matters here. When we're building a new lawn or renovating a tired one, we bring in quality topsoil because local soil alone frequently lacks the structure and drainage needed for healthy grass.
+
+**When to use topsoil:**
+- Creating a new lawn from scratch
+- Filling in low spots and grading problems
+- Raising garden beds 4+ inches
+- Repairing bare patches
+
+**How much you need:** Measure your area in square feet, then multiply by the desired depth in inches, divide by 324. For example, a 500-square-foot lawn needing 2 inches of topsoil requires about 3 cubic yards. We deliver and spread it for properties across Washington Township and beyond.
+
+## Compost: The Nutrient Booster
+
+**Compost is decomposed organic material—kitchen scraps, yard waste, leaves—broken down over months into dark, crumbly, nutrient-dense material.** Unlike topsoil, it's not actually soil. It's an amendment that you *add to* your existing soil to improve it.
+
+Compost does three critical things:
+1. **Feeds your soil** with slow-release nutrients (especially nitrogen)
+2. **Improves water retention** in sandy soils or drainage in clay
+3. **Builds living biology**—it's full of beneficial microbes that help plants absorb nutrients
+
+In Michigan's climate, compost breaks down quickly during our humid summers, which means you're getting maximum nutrient release right when your grass and plants need it most. Many local gardeners in Macomb County add ½ to 1 inch of compost each spring or fall for this reason.
+
+**When to use compost:**
+- Top-dressing existing lawns (spring or fall)
+- Amending vegetable or flower gardens
+- Mixing into potting soil
+- Boosting nutrient-poor topsoil
+
+**The difference that matters:** Compost is food for soil. Topsoil is the actual growing medium. You can't build a lawn with compost alone, but compost makes existing lawns significantly healthier.
+
+## Mulch: The Protective Blanket
+
+**Mulch is organic material (usually wood chips, shredded bark, or pine needles) spread over soil as a protective layer.** Its job isn't nutrition—it's protection and temperature regulation.
+
+Here's what mulch actually does:
+- Retains soil moisture (critical during Michigan's dry summers)
+- Keeps roots cooler in July and August heat
+- Prevents weeds from germinating
+- Breaks down slowly into organic matter that eventually feeds soil
+- Looks finished and polished around trees and beds
+
+Macomb County landscapers recommend 2-3 inches of mulch around trees and shrubs. Don't pile it against the tree trunk—that invites rot and pests. Leave 3-4 inches of space between the mulch and the bark.
+
+**When to use mulch:**
+- Around trees, shrubs, and ornamental plantings
+- In flower and vegetable beds
+- On paths and play areas
+- Under landscape plantings
+
+**Don't make this mistake:** Many people use mulch in lawn areas or dig it into soil. That's not its job. Mulch stays on top, stays on top, and gets refreshed every 1-2 years as it decomposes.
+
+## Quick Comparison Chart
+
+| Feature | Topsoil | Compost | Mulch |
+|---------|---------|---------|-------|
+| **Primary use** | Growing medium | Soil amendment | Surface protection |
+| **Color** | Dark brown | Dark brown/black | Brown/reddish |
+| **Texture** | Granular, compact | Crumbly, light | Chunky, loose |
+| **Where it goes** | Mixed into existing soil or as base | Top 1-2 inches | On top, not mixed in |
+| **Lifespan** | Permanent | 6-12 months | 1-2 years |
+| **Cost per cubic yard** | $30-50 | $40-60 | $25-40 |
+
+## Get It Right From the Start
+
+Your Macomb County lawn or landscape only gets one chance to start strong. Using the right material the first time saves thousands in corrections later. Whether you're building a new bed in Washington Township or revitalizing a tired lawn, the experts at Tri-Point Landscaping can assess your soil and recommend exactly what you need.
+
+**Spring is the perfect time to get this right.** Late April through May is when most Macomb County homeowners are doing landscape work, and we're finalizing our project schedule now. Call us at [(586) 327-8080](tel:+15863278080) for a free estimate and on-site soil assessment. We'll tell you exactly what your yard needs and why—no pressure, no sales pitch. Visit [tripointlandscaping.com](/contact) to request an estimate online, or [contact Tri-Point Landscaping](/contact) directly. We deliver and install topsoil, compost, and mulch throughout Washington Township and Macomb County.
+    `,
   },
 ];
