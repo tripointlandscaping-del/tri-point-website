@@ -214,7 +214,7 @@ export default function RootLayout({
               },
               sameAs: [
                 "https://g.page/r/CTWE7P6lheWxEBM",
-                "https://www.facebook.com/p/Tri-Point-Landscaping-LLC-61575067540062",
+                "https://www.facebook.com/people/Tri-Point-Landscaping-LLC/61575067540062/",
                 "https://www.instagram.com/tripointlandscapingllc/",
                 "https://www.yelp.com/biz/tri-point-landscaping-washington-township-2",
                 "https://nextdoor.com/pages/tri-point-landscaping-washington-mi/",
