@@ -1,0 +1,117 @@
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+
+import { NextResponse } from "next/server";
+import Anthropic from "@anthropic-ai/sdk";
+import { Resend } from "resend";
+
+function getSeason(month: number): string {
+  if (month >= 3 && month <= 5) return "spring";
+  if (month >= 6 && month <= 8) return "summer";
+  if (month >= 9 && month <= 11) return "fall";
+  return "winter";
+}
+
+const topicPool = [
+  "a helpful seasonal lawn care tip relevant to what homeowners should be doing right now",
+  "a snow removal or winter prep reminder (if fall/winter) or spring cleanup reminder (if spring)",
+  "a mulch installation tip — why fresh mulch matters and what it does for plants",
+  "a friendly reminder that free estimates are available with no obligation",
+  "a lawn aeration and overseeding tip — when to do it and why it matters",
+  "a hardscaping idea — patios, walkways, or retaining walls to improve their outdoor space",
+  "a before-and-after style story about a recent yard transformation (keep it general, no names)",
+  "a tip about what to look for when hiring a landscaping company in Macomb County",
+  "a reminder about scheduling spring or fall cleanup before spots fill up",
+  "a lawn mowing frequency tip — how often Michigan lawns need to be cut and why",
+];
+
+export async function GET(request: Request) {
+  const authHeader = request.headers.get("authorization");
+  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
+  const now = new Date();
+  const month = now.toLocaleString("en-US", { month: "long" });
+  const season = getSeason(now.getMonth() + 1);
+  const topic = topicPool[Math.floor(Math.random() * topicPool.length)];
+
+  let postText = "";
+
+  try {
+    const message = await anthropic.messages.create({
+      model: "claude-opus-4-7",
+      max_tokens: 400,
+      messages: [
+        {
+          role: "user",
+          content: `Write a Nextdoor post for Tri-Point Landscaping LLC, a local landscaping company in Washington Township, Macomb County, Michigan. The owner's name is Noah.
+
+Current month: ${month}
+Current season: ${season}
+Post angle: ${topic}
+
+Guidelines:
+- Write in a friendly, neighbor-to-neighbor tone — Nextdoor is a community app, not an ad platform
+- 3-5 sentences max. Short and readable.
+- Mention 1 specific service naturally woven into the content
+- End with a soft CTA — something like "Feel free to text or call for a free estimate" or "Happy to give you a free quote"
+- Include the phone number (586) 327-8080
+- No hashtags
+- No em dashes
+- Don't start with "Hey neighbors!" or similar cliches
+- Sound like a real person sharing helpful info, not a business posting an ad
+
+Return ONLY the post text. No labels, no quotes, no commentary.`,
+        },
+      ],
+    });
+
+    postText =
+      message.content[0].type === "text" ? message.content[0].text.trim() : "";
+  } catch (err) {
+    console.error("Claude error:", err);
+    return NextResponse.json({ error: "Failed to generate post" }, { status: 500 });
+  }
+
+  if (!postText) {
+    return NextResponse.json({ error: "Empty post generated" }, { status: 500 });
+  }
+
+  try {
+    await resend.emails.send({
+      from: "Tri-Point Posts <onboarding@resend.dev>",
+      to: "noahschmueser21@gmail.com",
+      subject: `Your Nextdoor Post — ${month} ${now.getDate()}`,
+      html: `
+        <div style="font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 32px 24px; background: #ffffff;">
+          <div style="border-left: 4px solid #2C5F2E; padding-left: 16px; margin-bottom: 24px;">
+            <p style="margin: 0; font-size: 12px; font-weight: 600; color: #2C5F2E; text-transform: uppercase; letter-spacing: 0.05em;">Tri-Point Landscaping</p>
+            <h1 style="margin: 4px 0 0; font-size: 20px; color: #111111;">Your Nextdoor Post is Ready</h1>
+          </div>
+
+          <p style="color: #555; font-size: 14px; margin-bottom: 16px;">Copy the post below and paste it into Nextdoor. Takes about 30 seconds.</p>
+
+          <div style="background: #f5f0e8; border: 1px solid #e0d8cc; padding: 24px; margin-bottom: 24px; font-size: 16px; line-height: 1.7; color: #222; white-space: pre-wrap;">
+${postText}
+          </div>
+
+          <div style="background: #111111; padding: 16px 20px; margin-bottom: 24px;">
+            <p style="margin: 0; font-size: 12px; color: #888; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Where to post</p>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #ccc;">nextdoor.com → your business page, or post as yourself in the Washington Township neighborhood feed.</p>
+          </div>
+
+          <p style="color: #aaa; font-size: 12px; margin: 0;">Generated by Tri-Point auto-poster · ${month} ${now.getDate()}, ${now.getFullYear()}</p>
+        </div>
+      `,
+    });
+  } catch (err) {
+    console.error("Resend error:", err);
+    return NextResponse.json({ error: "Email failed to send" }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true, post: postText, month, season });
+}

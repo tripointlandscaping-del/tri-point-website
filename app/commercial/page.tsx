@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   title: "Commercial Landscaping — Macomb County, MI | Tri-Point Landscaping",
   description:
     "Commercial landscaping, lawn maintenance, snow removal & grounds management for HOAs, business parks, retail centers & property managers in Macomb County, MI. Fully insured. Free estimates. Call (586) 327-8080.",
+  keywords: [
+    "commercial landscaping Macomb County MI",
+    "commercial lawn maintenance Macomb County",
+    "HOA landscaping contractor Michigan",
+    "office park landscaping Macomb County",
+    "commercial snow removal Macomb County",
+    "property management landscaping Michigan",
+    "retail center landscaping near me",
+    "commercial grounds maintenance Washington Township",
+    "commercial landscaping company near me",
+  ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/commercial",
   },

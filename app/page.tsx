@@ -15,7 +15,7 @@ import SeasonalTip from "./components/SeasonalTip";
 export const metadata: Metadata = {
   title: "Lawn Mowing & Landscaping — Macomb County, MI | Tri-Point",
   description:
-    "Tri-Point Landscaping LLC — Macomb County's locally owned landscaping company. Lawn maintenance, custom landscaping, mulch & stone, snow removal, lawn renovations & more. Serving Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester & surrounding areas. 4.9★ Google rated. Free estimates — (586) 327-8080.",
+    "Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. 4.9★ Google rated. Free estimates — (586) 327-8080.",
   keywords: [
     "landscaping Macomb County MI",
     "lawn care Washington Township Michigan",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
 const marqueeItems = [
   "Lawn Maintenance", "Landscape Design", "Mulch & Stone", "Seasonal Cleanup",
-  "Snow Removal & Ice Management", "Lawn Renovations", "Commercial Services", "Aeration & Overseeding",
+  "Snow Removal & Ice Management", "Lawn Renovations", "Hardscaping", "Commercial Services", "Aeration & Overseeding",
   "Free Estimates", "4.9★ Google Rated", "Macomb County, Michigan", "Fully Insured LLC",
 ];
 
@@ -66,7 +66,7 @@ const homepageFaqSchema = {
       name: "What landscaping services does Tri-Point Landscaping offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, snow removal & ice management, and lawn renovations throughout Macomb County, Michigan.",
+        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, snow removal & ice management, lawn renovations, and hardscaping throughout Macomb County, Michigan.",
       },
     },
     {
@@ -255,7 +255,7 @@ export default function HomePage() {
               {[
                 { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating" },
                 { end: 100, suffix: "%", decimals: 0, label: "Satisfaction Guaranteed" },
-                { end: 8, suffix: "+", decimals: 0, label: "Services Offered" },
+                { end: 9, suffix: "+", decimals: 0, label: "Services Offered" },
                 { end: 8, suffix: "", decimals: 0, label: "Cities Served" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
@@ -640,7 +640,7 @@ export default function HomePage() {
                   { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating", sub: "Rated by real Macomb County homeowners" },
                   { end: 100, suffix: "%", decimals: 0, label: "Satisfaction", sub: "Or we come back and make it right" },
                   { end: 8, suffix: "", decimals: 0, label: "Cities Served", sub: "Macomb County & Oakland County, MI" },
-                  { end: 8, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to snow removal" },
+                  { end: 9, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to hardscaping" },
                 ].map(({ end, suffix, decimals, label, sub }, i) => (
                   <AnimateOnScroll key={label} animation="fade-up" delay={i * 100} className="h-full">
                     <div style={{ backgroundColor: "#111111" }} className="stat-card text-center px-4 py-10 md:px-8 md:py-14 hover:bg-[#1a1a1a] transition-colors h-full">
@@ -957,6 +957,7 @@ export default function HomePage() {
                       { label: "Snow Removal", service: "snow-removal" },
                       { label: "Leaf Removal", service: "seasonal-cleanup" },
                       { label: "Mulch Installation", service: "mulch-and-stone" },
+                      { label: "Hardscaping", service: "hardscaping" },
                     ].map(({ label, service }) => (
                       <li key={service}>
                         <Link href={`/services/${service}/${slug}`} className="text-green-700 text-xs hover:underline">

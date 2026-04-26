@@ -43,6 +43,11 @@ const serviceBlogMap: Record<string, string[]> = {
     "benefits-of-year-round-lawn-care-contract",
     "how-to-improve-curb-appeal-macomb-county",
   ],
+  "hardscaping": [
+    "how-to-improve-curb-appeal-macomb-county",
+    "landscape-design-ideas-washington-township",
+    "landscaping-washington-township-mi",
+  ],
 };
 
 type ServiceData = {
@@ -422,6 +427,64 @@ const services: Record<string, ServiceData> = {
       { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
       { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
       { name: "Landscaping", href: "/services/landscaping" },
+    ],
+  },
+  "hardscaping": {
+    title: "Hardscaping Services in Macomb County, MI",
+    metaTitle: "Hardscaping — Patios, Walkways & Retaining Walls | Tri-Point Landscaping",
+    metaDescription:
+      "Professional hardscaping in Macomb County & Oakland County, MI — patios, walkways, retaining walls, fire pits & outdoor living spaces. Coordinated by Tri-Point Landscaping with trusted local partners. Free estimates. Call (586) 327-8080.",
+    keywords: [
+      "hardscaping Macomb County MI",
+      "patio installation Washington Township MI",
+      "retaining wall Macomb County",
+      "walkway installation Shelby Township MI",
+      "hardscaping Rochester Hills MI",
+      "paver patio Macomb County",
+      "fire pit installation Michigan",
+      "outdoor living spaces Macomb County",
+      "patio contractor near me Michigan",
+      "hardscape company Macomb County MI",
+    ],
+    heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
+    heroAlt: "Custom hardscaping and outdoor living space installation in Macomb County Michigan",
+    heroTagline: "Patios · Walkways · Retaining Walls · Fire Pits",
+    intro:
+      "A great outdoor space starts with great hardscaping. Tri-Point Landscaping coordinates professional patio installations, walkways, retaining walls, fire pits, and outdoor living spaces for homeowners throughout Macomb County and Oakland County. We work with trusted local hardscaping partners and stay involved from estimate to final walkthrough — so you get a cohesive result without tracking down multiple contractors.",
+    bodyParagraph:
+      "Hardscaping done right frames your landscape and extends your living space outdoors. Whether you want a natural stone patio for entertaining, a paver walkway that adds structure to your front yard, or a retaining wall to manage grade on a sloped property, Tri-Point Landscaping handles the coordination from start to finish. We select partners who share our standards for quality and cleanliness, and we ensure the hardscaping integrates seamlessly with your existing lawn and landscape work. One call, one point of contact, one clean finished product.",
+    included: [
+      "Custom patio design and paver or natural stone installation",
+      "Flagstone, paver & natural stone walkways and pathways",
+      "Retaining walls in block, natural stone, or timber",
+      "Custom fire pits and outdoor fire features",
+      "Garden steps, borders, and landscape edging",
+      "Outdoor room design and living space planning",
+      "Project coordination with trusted local hardscaping partners",
+      "Full site cleanup after installation",
+    ],
+    benefits: [
+      { title: "Extend Your Living Space", desc: "A professionally installed patio or outdoor living area adds functional square footage and becomes the most-used part of your property." },
+      { title: "Boost Property Value", desc: "Hardscaping consistently delivers strong ROI — patios, walkways, and retaining walls are among the highest-return outdoor improvements." },
+      { title: "One Point of Contact", desc: "We coordinate the right partners, manage the project, and make sure everything integrates with your landscape — you don't juggle multiple contractors." },
+      { title: "Built to Last Michigan Winters", desc: "Every hardscape project is installed with Michigan's freeze-thaw cycles in mind — proper base prep, drainage, and materials selection prevent heaving and cracking." },
+    ],
+    faqs: [
+      { q: "Do you install hardscaping directly or subcontract it?", a: "We coordinate with trusted local hardscaping partners and manage the project from estimate to completion. You have one point of contact — Tri-Point Landscaping — and we ensure the finished product meets our standards and integrates with your landscape." },
+      { q: "What types of patios can you install?", a: "We can install paver patios, natural flagstone patios, concrete patio surrounds, and mixed-material designs. During the free consultation we'll assess your space and recommend the best material for your style, budget, and property conditions." },
+      { q: "Can you build a retaining wall on a sloped property?", a: "Yes. Retaining walls are one of the most effective solutions for managing grade changes on Macomb County properties. We assess the slope, drainage needs, and soil conditions and recommend the right wall system — block, natural stone, or timber." },
+      { q: "How long does a patio installation take?", a: "Most residential patio projects take 2–5 days depending on size, material, and site preparation needed. We'll give you a clear timeline as part of the free estimate." },
+      { q: "Do you offer fire pit installation?", a: "Yes. Custom-built fire pits are one of our most popular hardscaping additions. We can design a simple circular fire pit or a full outdoor fire feature integrated into a seating wall or patio layout." },
+      { q: "Can I combine hardscaping with landscaping work?", a: "Absolutely — and we recommend it. Combining a patio or walkway installation with planting beds, mulch, and lighting creates a fully cohesive outdoor space. Tri-Point handles all of it under one project." },
+      { q: "Do you offer hardscaping near me in Macomb County or Oakland County?", a: "Yes — we offer patio installation, walkway installation, retaining walls, fire pits, and outdoor living space design throughout Macomb County and Oakland County, MI, including Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester, and surrounding areas." },
+      { q: "How much does hardscaping cost in Macomb County?", a: "Hardscaping pricing depends on the project type, size, and materials. A simple fire pit looks very different from a full patio with retaining walls and seating. We assess every project on-site and give you a detailed quote before any work begins. All estimates are free — call (586) 327-8080 or request one online." },
+    ],
+    image2: "/photos/IMG_4417.jpeg",
+    image2Alt: "Custom outdoor patio and walkway installation in Macomb County Michigan by Tri-Point Landscaping",
+    relatedServices: [
+      { name: "Landscaping & Design", href: "/services/landscaping" },
+      { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
+      { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
     ],
   },
   "commercial": {

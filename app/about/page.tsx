@@ -89,7 +89,7 @@ const quickFacts = [
   { label: "Email", value: "tripointlandscaping@gmail.com" },
   { label: "Google Rating", value: "4.9 ★ (verified Google reviews)" },
   { label: "Insurance", value: "Fully insured LLC — general liability coverage" },
-  { label: "Services", value: "Lawn mowing, landscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
+  { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
   { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
 ];
 

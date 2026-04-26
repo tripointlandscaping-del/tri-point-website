@@ -65,6 +65,24 @@ const reviews = [
     author: "Paula S.",
     service: "Snow Removal",
   },
+  {
+    stars: 5,
+    text: "Noah is great! Highly recommend Tri Point Landscaping!",
+    author: "Pam M.",
+    service: "Landscaping",
+  },
+  {
+    stars: 5,
+    text: "Tri-Point Landscaping did a great job on my lawn!",
+    author: "Detroit Community Cares",
+    service: "Lawn Care",
+  },
+  {
+    stars: 5,
+    text: "Job well done, friendly and reliable.",
+    author: "Rebecca A.",
+    service: "Landscaping",
+  },
 ];
 
 export default function TestimonialsPage() {
@@ -86,7 +104,7 @@ export default function TestimonialsPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "10",
+      reviewCount: "11",
       bestRating: "5",
       worstRating: "1",
     },
@@ -147,7 +165,7 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">10+</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">11+</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Reviews</p>
               </div>
               <div>

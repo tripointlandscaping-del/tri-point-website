@@ -11,6 +11,7 @@ const serviceSlugs = [
   "snow-removal",
   "lawn-renovations",
   "commercial",
+  "hardscaping",
 ];
 
 const areaSlugs = [

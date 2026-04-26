@@ -143,6 +143,29 @@ const services: Record<string, {
     bodyTemplate: (area, roads) =>
       `A thin, struggling lawn in ${area} doesn't need to be replaced — it needs to be renovated. Tri-Point Landscaping's lawn renovation programs use core aeration, overseeding, and dethatching to transform weak, patchy turf into a dense, healthy lawn that stands up to Michigan's climate. We serve homeowners throughout ${area}, including properties along ${roads} and across the community. Core aeration breaks up compaction and creates seed-to-soil contact, while overseeding fills in bare areas with premium grass varieties proven to thrive in Macomb County. Dethatching removes the layer of dead material that chokes new growth and blocks water penetration. The results are visible in weeks and build year over year. If your lawn hasn't been aerated in the last two seasons, it's time — and Tri-Point Landscaping makes the process easy, affordable, and effective.`,
   },
+  "hardscaping": {
+    name: "Hardscaping",
+    shortDesc: "Patios, walkways, retaining walls, fire pits & outdoor living spaces.",
+    heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
+    included: [
+      "Custom patio design and paver or natural stone installation",
+      "Flagstone, paver & natural stone walkways and pathways",
+      "Retaining walls in block, natural stone, or timber",
+      "Custom fire pits and outdoor fire features",
+      "Garden steps, borders, and landscape edging",
+      "Outdoor room design and living space planning",
+      "Project coordination with trusted local hardscaping partners",
+      "Full site cleanup after installation",
+    ],
+    benefits: [
+      "Dramatically expanded outdoor living space that adds real value to your home",
+      "One point of contact — we coordinate partners and manage the project end to end",
+      "Materials and base prep engineered for Michigan's freeze-thaw cycles",
+      "Finished result integrates seamlessly with your existing lawn and landscape",
+    ],
+    bodyTemplate: (area, roads) =>
+      `Homeowners in ${area} are investing more in their outdoor spaces than ever — and hardscaping is one of the highest-ROI improvements you can make. Whether you want a paver patio off the back door, a natural stone walkway through the front yard, or a retaining wall to manage the grade on a sloped property, Tri-Point Landscaping coordinates every detail for properties throughout ${area}, including homes along ${roads}. We work with trusted local hardscaping partners and stay on-site through every phase, ensuring quality, cleanliness, and a finished product that complements your existing landscape. One call to Tri-Point Landscaping is all it takes to get started.`,
+  },
   "commercial": {
     name: "Commercial Landscaping",
     shortDesc: "Full-service landscaping for offices, HOAs, retail centers & commercial properties.",
@@ -268,6 +291,11 @@ const serviceFaqs: Record<string, { q: string; a: string }[]> = {
     { q: "How soon will I see results after aeration and overseeding?", a: "New grass seed typically germinates within 7–14 days, and you'll see noticeable thickening within 3–4 weeks. Full density builds over 2–3 seasons of consistent care." },
     { q: "Does my lawn need renovation or just maintenance?", a: "If more than 50% of your lawn is thin, bare, or weedy, renovation is the better investment. We'll assess your lawn during the free estimate and give you an honest recommendation." },
   ],
+  "hardscaping": [
+    { q: "Do you install hardscaping directly or use partners?", a: "We coordinate with trusted local hardscaping partners and manage the project from start to finish. You work with Tri-Point Landscaping throughout — one point of contact, one standard of quality." },
+    { q: "What types of hardscaping do you offer?", a: "Paver and natural stone patios, flagstone and paver walkways, block and natural stone retaining walls, custom fire pits, garden steps, and full outdoor living space design and installation." },
+    { q: "Can hardscaping be combined with my landscaping project?", a: "Absolutely — we recommend it. Combining hardscaping with planting beds, mulch, and lawn work creates a fully cohesive outdoor space that looks intentional and dramatically improves curb appeal." },
+  ],
   "commercial": [
     { q: "Do you serve HOAs and property management companies?", a: "Yes. We work with HOAs, property managers, office parks, retail centers, and apartment complexes throughout Macomb County. We provide all certificates of insurance and documentation required." },
     { q: "Can you handle multiple commercial properties?", a: "Absolutely. We can set up recurring maintenance across multiple commercial locations under one contract with consolidated billing and consistent crews." },
@@ -311,6 +339,10 @@ const serviceSearchVariants: Record<string, string[]> = {
     "commercial landscaping", "commercial lawn care", "grounds maintenance",
     "HOA landscaping", "commercial mowing", "property management landscaping",
   ],
+  "hardscaping": [
+    "hardscaping", "patio installation", "retaining wall installation",
+    "walkway installation", "fire pit installation", "outdoor living space",
+  ],
 };
 
 /* ─────────────────────────────────────────
@@ -349,14 +381,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   ]);
 
   return {
-    title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
+    title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
     description: `Professional ${variants[0]} and ${variants[1] ?? svc.name.toLowerCase()} in ${areaData.name}, Michigan. ${svc.shortDesc} Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
     keywords,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
     openGraph: {
-      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
+      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
       siteName: "Tri-Point Landscaping",
@@ -365,7 +397,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} Service in ${areaData.name}, MI | Tri-Point Landscaping`,
+      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },

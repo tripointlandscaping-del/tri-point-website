@@ -55,6 +55,14 @@ const services = [
   },
   {
     num: "07",
+    title: "Hardscaping",
+    slug: "hardscaping",
+    tagline: "Patios, walkways, retaining walls & more.",
+    desc: "Custom patio installations, natural stone walkways, retaining walls, fire pits, and outdoor living spaces — designed and coordinated to transform your outdoor space.",
+    img: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
+  },
+  {
+    num: "08",
     title: "Commercial",
     slug: "commercial",
     tagline: "Impress clients before they walk in.",
@@ -145,7 +153,7 @@ export default function InteractiveServices() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:p-10">
-              <p className="text-green-400 text-xs font-bold uppercase tracking-widest mb-2">{svc.num} / 07</p>
+              <p className="text-green-400 text-xs font-bold uppercase tracking-widest mb-2">{svc.num} / 08</p>
               <h3
                 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
                 className="text-2xl lg:text-3xl font-bold text-white mb-2 lg:mb-3"

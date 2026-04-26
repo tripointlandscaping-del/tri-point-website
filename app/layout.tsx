@@ -172,7 +172,7 @@ export default function RootLayout({
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "10",
+                reviewCount: "11",
               },
               areaServed: [
                 { "@type": "City", "name": "Washington Township", "containedInPlace": { "@type": "AdministrativeArea", "name": "Macomb County, Michigan" } },
@@ -197,6 +197,7 @@ export default function RootLayout({
                   { "@type": "Offer", itemOffered: { "@type": "Service", name: "Snow Removal & Ice Management", url: "https://www.tripointlandscaping.com/services/snow-removal", areaServed: "Macomb County and Oakland County, MI" } },
                   { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lawn Renovations & Aeration", url: "https://www.tripointlandscaping.com/services/lawn-renovations", areaServed: "Macomb County and Oakland County, MI" } },
                   { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Landscaping", url: "https://www.tripointlandscaping.com/commercial", areaServed: "Macomb County and Oakland County, MI" } },
+                  { "@type": "Offer", itemOffered: { "@type": "Service", name: "Hardscaping", url: "https://www.tripointlandscaping.com/services/hardscaping", areaServed: "Macomb County and Oakland County, MI" } },
                 ],
               },
               foundingDate: "2020",
@@ -235,6 +236,7 @@ export default function RootLayout({
                 "Lawn Renovation", "Bare Spot Repair", "Lawn Restoration",
                 "Commercial Landscaping", "HOA Landscaping", "Grounds Maintenance",
                 "Spring Cleanup", "Fall Cleanup",
+                "Hardscaping", "Patio Installation", "Retaining Walls", "Walkway Installation", "Fire Pits", "Paver Patios", "Outdoor Living Spaces",
                 "Macomb County Landscaping", "Oakland County Landscaping", "Rochester Hills Lawn Care",
               ],
             }),

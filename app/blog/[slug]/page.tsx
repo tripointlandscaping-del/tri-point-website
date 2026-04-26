@@ -18,8 +18,19 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
     { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
     { name: "Snow & Ice Management", href: "/services/snow-removal" },
   ],
+  "Snow & Ice": [
+    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+  ],
   "Snow Removal": [
     { name: "Snow & Ice Management", href: "/services/snow-removal" },
+  ],
+  "Lawn Renovations": [
+    { name: "Lawn Renovations", href: "/services/lawn-renovations" },
+    { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
+  ],
+  "Hardscaping": [
+    { name: "Hardscaping", href: "/services/hardscaping" },
+    { name: "Landscaping", href: "/services/landscaping" },
   ],
   "Tips": [
     { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
