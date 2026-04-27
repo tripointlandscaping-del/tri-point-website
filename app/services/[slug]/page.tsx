@@ -14,9 +14,9 @@ const serviceBlogMap: Record<string, string[]> = {
     "how-often-to-mow-lawn-michigan",
   ],
   "landscaping": [
+    "how-to-choose-landscaping-company-macomb-county",
     "landscape-design-ideas-washington-township",
     "how-to-improve-curb-appeal-macomb-county",
-    "landscaping-washington-township-mi",
   ],
   "mulch-and-stone": [
     "benefits-of-professional-mulching-macomb-county",
@@ -44,9 +44,9 @@ const serviceBlogMap: Record<string, string[]> = {
     "how-to-improve-curb-appeal-macomb-county",
   ],
   "hardscaping": [
-    "how-to-improve-curb-appeal-macomb-county",
-    "landscape-design-ideas-washington-township",
-    "landscaping-washington-township-mi",
+    "patio-cost-macomb-county-mi",
+    "retaining-wall-installation-macomb-county",
+    "outdoor-living-space-ideas-michigan",
   ],
 };
 

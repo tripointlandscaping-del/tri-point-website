@@ -144,6 +144,22 @@ const faqs = [
     q: "How quickly can you start after I call?",
     a: "For estimates, we typically respond same day — often within the hour. For actual service start dates, it depends on the time of year. During peak spring season, lead times can be 1–2 weeks. In the off-season, we can often start within days. Call (586) 327-8080 and we'll tell you exactly what our current availability looks like.",
   },
+  {
+    q: "Do you do hardscaping like patios and retaining walls?",
+    a: "Yes. Tri-Point Landscaping designs and installs custom paver patios, natural stone walkways, retaining walls, fire pits, and outdoor living spaces throughout Macomb County. Every hardscaping project includes proper base preparation — critical in Michigan's freeze-thaw climate — and a free on-site estimate before any work begins. Call (586) 327-8080 or request a quote online.",
+  },
+  {
+    q: "How much does a patio cost in Macomb County?",
+    a: "Patio costs in Macomb County depend on size, material, and site conditions. As a general guide: small paver patios (150–250 sq ft) typically run $2,500–$4,500; medium patios (300–500 sq ft) run $5,000–$9,000; larger outdoor living spaces start at $10,000+. Natural stone runs higher than concrete pavers. Every project gets a free on-site estimate — call (586) 327-8080.",
+  },
+  {
+    q: "How much does a retaining wall cost in Macomb County?",
+    a: "Retaining wall pricing depends on height, length, and material. Small walls (under 2 ft, 20–30 linear ft) typically run $1,500–$3,500. Medium walls (2–4 ft, 30–50 linear ft) run $4,000–$9,000. Larger or tiered walls start at $10,000+. Proper drainage installation is included in every wall we build — it's what makes the difference between a wall that lasts 20 years and one that fails in five. Free estimates available.",
+  },
+  {
+    q: "Do hardscaping projects require permits in Michigan?",
+    a: "It depends on the project and your municipality. Retaining walls over 4 feet in height typically require a permit in Macomb County. Most patios and walkways do not, but we recommend checking with your local municipality before work begins. Tri-Point Landscaping can advise on permit requirements during your free estimate consultation.",
+  },
 ];
 
 const faqSchema = {

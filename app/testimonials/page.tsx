@@ -161,7 +161,7 @@ export default function TestimonialsPage() {
           <div className="max-w-4xl mx-auto px-6">
             <div className="grid grid-cols-3 gap-6 text-center text-white">
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">4.9</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">4.9★</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
@@ -169,8 +169,8 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Reviews</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">4.9★</p>
-                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Average Rating</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">2020</p>
+                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Serving Macomb County</p>
               </div>
             </div>
           </div>
@@ -196,6 +196,9 @@ export default function TestimonialsPage() {
                   <div className="border-t border-gray-100 pt-4">
                     <p className="font-bold text-gray-900 text-sm">{review.author}</p>
                     <p className="text-green-700 text-xs mt-0.5">{review.service}</p>
+                    <p className="text-gray-400 text-xs mt-1.5 flex items-center gap-1">
+                      <span className="text-green-600">✓</span> Verified Google Review
+                    </p>
                   </div>
                 </div>
               ))}
@@ -204,7 +207,7 @@ export default function TestimonialsPage() {
             <div className="text-center mt-12">
               <p className="text-gray-500 text-sm mb-5">Read all our reviews directly on Google</p>
               <a
-                href="https://www.google.com/search?q=Tri-Point+Landscaping+Washington+Township+MI&ludocid=reviews"
+                href="https://g.page/r/CTWE7P6lheWxEBM"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ backgroundColor: "#2C5F2E" }}
