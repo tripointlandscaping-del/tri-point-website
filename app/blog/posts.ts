@@ -4131,5 +4131,101 @@ Tri-Point Landscaping installs retaining walls throughout Washington Township, S
 
 [Contact us for a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Lawn Actually Needs",
+    description: "Learn the real differences between topsoil, compost, and mulch—and which one your Washington Township yard needs this spring.",
+    date: "April 28, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+If you've stood in a landscape supply yard in Washington Township staring at three different piles of brown stuff wondering what the difference is, you're not alone. Topsoil, compost, and mulch look similar at first glance, but they do completely different jobs in your yard. Using the wrong one is like putting motor oil in your coffee—they're both brown liquids, but one belongs nowhere near what you're trying to do.
+
+Let's break down exactly what each one is, what it does, and when to use it.
+
+## Topsoil: The Foundation Your Plants Stand On
+
+**Topsoil is the living, breathing layer of earth** where plant roots actually grow. It's the top 2-8 inches of your yard's native soil—the part that contains the nutrients and microorganisms that keep plants alive.
+
+When you're working with Macomb County's typically dense clay-based soils (which drain poorly and compact easily), quality topsoil becomes essential. You can't just plant directly in clay and expect shrubs or grass to thrive.
+
+Here's what topsoil does:
+
+- **Provides immediate nutrition** through nitrogen, phosphorus, and potassium
+- **Improves drainage** when mixed with heavy clay soil
+- **Creates a hospitable environment** for roots to establish quickly
+- **Contains active soil organisms** that break down nutrients into usable forms
+
+Use topsoil when:
+- Building a new garden bed from scratch
+- Installing sod (you need 4-6 inches of quality topsoil beneath it)
+- Leveling low spots in your lawn
+- Raising the grade around newly planted trees or shrubs
+
+In Michigan's spring season (late April through May), this is prime time for topsoil application because the ground thaws and plants are actively growing.
+
+## Compost: The Nutritional Upgrade
+
+**Compost is decomposed organic material**—think shredded leaves, grass clippings, food scraps, and wood chips that have broken down into rich, dark, crumbly gold. It's not soil. It's a soil amendment.
+
+The key difference: compost is *added to* soil to improve it, not used as a replacement for it.
+
+What compost actually does:
+
+- **Dramatically increases nutrient content** compared to plain topsoil
+- **Improves water retention** in sandy or fast-draining soil
+- **Feeds beneficial microbes** that suppress plant diseases
+- **Loosens clay** and makes compacted soil workable (critical for Washington Township yards)
+- **Adds organic matter** that builds soil structure over time
+
+Use compost when:
+- Mixing into existing garden beds (3-4 inches worked into the top 8-10 inches)
+- Planting perennials, trees, or shrubs (blend it 50/50 with native soil in the planting hole)
+- Improving poor, depleted soil before establishing new lawn
+- Top-dressing existing gardens in spring or fall
+
+Compost breaks down continuously, so you'll need to reapply it every 1-2 years to maintain benefits. That decomposition is actually a feature—it means the organic matter is actively feeding your soil life.
+
+## Mulch: The Protective Blanket
+
+**Mulch is organic material spread on top of soil** (typically 2-4 inches) to protect it. Common types include wood chips, shredded bark, and leaf mulch. It sits *on* the surface; it doesn't get mixed in.
+
+Multch's job is protective and regulatory, not nutritional:
+
+- **Prevents weeds** by blocking sunlight from reaching weed seeds
+- **Regulates soil temperature** (keeps it cooler in summer, insulates in winter)
+- **Reduces water evaporation** from soil surface (especially important in dry Michigan summers)
+- **Prevents soil compaction** from heavy rain and foot traffic
+- **Gradually decomposes** and adds minimal organic matter over time
+
+Use mulch when:
+- Surrounding trees and shrubs in landscape beds
+- Protecting newly planted perennials over winter
+- Creating definition between lawn and garden beds
+- Reducing weeds in high-traffic areas
+
+Don't use mulch as a substitute for compost in planting holes—it won't feed your plants. And never pile mulch directly against tree trunks; leave a 3-4 inch gap to prevent rot and pest problems.
+
+## The Real-World Mix: What Macomb County Yards Need Most
+
+Here's the honest truth: **most Washington Township properties benefit from all three**.
+
+For a new garden bed, the winning formula is:
+1. Start with 4-6 inches of quality topsoil as your base
+2. Mix 2-3 inches of compost into the top 8-10 inches of that topsoil
+3. Apply 3 inches of mulch on top once plants are in place
+
+This gives your plants immediate nutrition (compost), long-term biological health (compost + topsoil), proper drainage (topsoil breaking up clay), and ongoing weed suppression and moisture regulation (mulch).
+
+## Get the Right Material for Your Yard
+
+If you're not certain which one—or which combination—your yard needs right now, there's no substitute for having someone walk the property with you.
+
+Tri-Point Landscaping has spent years working with Macomb County's specific soil conditions, and we can recommend exactly what your lawn or garden beds need. **Free estimates**, no obligation—just honest advice from people who know Washington Township soil.
+
+Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule yours. Late spring is the ideal window to get these materials down before the heat of summer hits.
+    `,
   },
 ];
