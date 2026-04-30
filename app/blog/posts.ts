@@ -4227,5 +4227,84 @@ Tri-Point Landscaping has spent years working with Macomb County's specific soil
 
 Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule yours. Late spring is the ideal window to get these materials down before the heat of summer hits.
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Yard Actually Needs",
+    description: "Learn exactly when to use topsoil, compost, or mulch in your Washington Township landscape. A practical guide from local experts.",
+    date: "April 30, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## The Problem Most Homeowners in Macomb County Face
+
+If you've walked into a landscape supply yard or garden center in Washington Township lately, you've probably stared at three different piles—topsoil, compost, and mulch—and wondered if they were actually different or just marketing. Then the employee asks what you're "trying to do," and suddenly you're second-guessing your entire yard project.
+
+Here's the truth: **they're completely different products with completely different jobs**. Using the wrong one wastes money and can actually hurt your plants. Let's clear this up so you know exactly what to buy and when.
+
+## Topsoil: The Foundation Your Plants Need to Eat
+
+**Topsoil is the living, nutrient-rich upper layer of native soil**—the dark stuff where plant roots actually extract minerals, moisture, and nutrients to grow.
+
+In Macomb County, our natural soil tends to be heavy clay with a pH around 7.2-7.5, which means it doesn't naturally drain as well as plants prefer. Quality topsoil fixes this by improving structure and adding organic matter that helps clay-heavy soil breathe.
+
+**When to use topsoil:**
+
+- Creating a new garden bed from scratch (mix it 6-8 inches deep)
+- Filling in low spots on your lawn before reseeding
+- Raising a garden bed more than 3 inches above existing grade
+- Leveling areas after grading work (which happens a lot in spring cleanup after Michigan winters)
+- Top-dressing thin lawn areas in fall (September through October is prime time in our region)
+
+**Key detail:** Good topsoil should be dark brown, crumbly, smell earthy, and contain no rocks larger than a marble. If you're buying in bulk for Washington Township work, make sure it's from a reputable local supplier—we've seen homeowners waste $500+ on topsoil that was half clay and half fill dirt.
+
+## Compost: The Slow-Release Nutrient Booster
+
+**Compost is decomposed organic material—kitchen scraps, leaves, grass clippings broken down over months.** It's not meant to be your primary soil. Think of it as a performance supplement, not a meal replacement.
+
+Compost is fantastic for Macomb County yards because it adds beneficial microbes and breaks down heavy clay over time. It also retains moisture better than native soil, which matters in our hot, dry summers (July averages 73°F, but we hit 85°F+ regularly).
+
+**When to use compost:**
+
+- Mix 20-30% compost into existing beds each spring (before planting in May)
+- Top-dress around established shrubs and trees (2-3 inches, kept 6 inches away from trunks)
+- Amend clay-heavy beds year after year—it eventually transforms poor soil into workable earth
+- Layer into new vegetable gardens where you need consistent moisture and nutrients
+- Blend with topsoil for raised beds (50/50 ratio works well)
+
+**Real number:** If you add 1 inch of quality compost to a 500-square-foot flower bed every spring for three years, your native clay will become noticeably darker, looser, and more plant-friendly. That's what you're paying for.
+
+## Mulch: The Protective Blanket (Not Food)
+
+**Mulch is wood chips, shredded bark, or similar material that sits on top of soil.** Its job is to suppress weeds, regulate soil temperature, retain moisture, and look neat. It does NOT feed your plants (wood doesn't break down into nutrients your plants can use quickly).
+
+Mulch is especially valuable in Washington Township because it buffers soil temperature swings. Our Michigan springs swing 40°F in a week. Mulch keeps soil cooler in summer and insulates roots in winter, reducing transplant shock.
+
+**When to use mulch:**
+
+- Around shrubs and trees (3-4 inches deep, but NOT piled against trunks—this invites rot and pests)
+- In flower beds after soil is prepared and plants are in the ground
+- On pathways to suppress weeds and reduce mud tracking
+- Under play structures for safety
+
+**Critical warning:** Never pile mulch directly against tree trunks. We see this constantly in Macomb County yards, and it creates the perfect environment for bark rot and hidden pest damage. Keep mulch 6 inches away from all trunks.
+
+## Quick Comparison: Which Do You Need?
+
+| **Product** | **Primary Job** | **Timeline** | **Frequency** |
+|---|---|---|---|
+| **Topsoil** | Build/repair soil structure and nutrient base | One-time installation, then annually in spring | Annually for new beds; every 2-3 years for maintenance |
+| **Compost** | Improve soil biology and add slow-release nutrients | Works over months/years | Spring and fall |
+| **Mulch** | Suppress weeds, regulate temperature, retain moisture | Immediate visual results; lasts 12-18 months | Annual refresh in spring (April-May in Michigan) |
+
+## Let Tri-Point Help You Get It Right
+
+It's late April right now, and spring is the perfect window to refresh beds, add compost, and lay fresh mulch before Memorial Day weekend entertaining. If you're uncertain about your soil type, what blend you need, or whether your current beds are actually getting the right material, **a professional assessment takes an hour and saves you hundreds in wasted purchases**.
+
+The team at **[Tri-Point Landscaping](/contact)** has been working with Macomb County soil for years. We can test your pH, look at your clay structure, and tell you exactly what—topsoil, compost, mulch, or a blend—will actually solve your problem.
+
+**Free estimates, no obligation.** Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a consultation. Spring projects move fast—the sooner you call, the sooner we can get you on the schedule.
+    `,
   },
 ];
