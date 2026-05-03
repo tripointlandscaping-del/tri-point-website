@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "About Tri-Point Landscaping | Macomb County, MI",
   description:
-    "Tri-Point Landscaping is Macomb County's locally owned, fully insured landscaping company. Serving Washington Township, Shelby Township & all of northern Macomb County with precision, passion, and perfection. Call (586) 327-8080.",
+    "Tri-Point Landscaping is Macomb County's locally owned, fully insured landscaping company. Serving Washington Township, Shelby Township & all of Macomb County. Free estimates — no obligation.",
   alternates: {
     canonical: "https://www.tripointlandscaping.com/about",
   },

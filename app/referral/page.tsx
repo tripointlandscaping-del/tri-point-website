@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
   description:
-    "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company — share the word and save. Call (586) 327-8080.",
+    "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company — share the word and save.",
   keywords: [
     "landscaping referral program Macomb County",
     "refer a friend landscaping Michigan",
