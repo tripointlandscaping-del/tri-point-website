@@ -13,7 +13,7 @@ import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
 
 export const metadata: Metadata = {
-  title: "Lawn Mowing & Landscaping — Macomb County, MI | Tri-Point",
+  title: "Lawn Care & Landscaping — Macomb County, MI | Tri-Point",
   description:
     "Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. 4.9★ Google rated. Free estimates — (586) 327-8080.",
   keywords: [

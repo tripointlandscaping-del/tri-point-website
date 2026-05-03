@@ -937,6 +937,42 @@ export default async function ServicePage({ params }: Props) {
           </section>
         )}
 
+        {/* ── SERVICE AREAS ── */}
+        <section className="py-16 bg-[#f9f7f4] border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-6">
+            <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Where We Work</p>
+            <h2
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+              className="text-2xl font-bold text-gray-900 mb-8"
+            >
+              {service.title} Near You
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              {[
+                { name: "Washington Township", area: "washington-township" },
+                { name: "Shelby Township", area: "shelby-township" },
+                { name: "Macomb Township", area: "macomb-township" },
+                { name: "Romeo", area: "romeo" },
+                { name: "Ray Township", area: "ray-township" },
+                { name: "Bruce Township", area: "bruce-township" },
+                { name: "Rochester", area: "rochester" },
+                { name: "Rochester Hills", area: "rochester-hills" },
+              ].map((a) => (
+                <Link
+                  key={a.area}
+                  href={`/services/${slug}/${a.area}`}
+                  className="group flex items-center justify-between bg-white border border-gray-200 px-4 py-3 hover:border-[#2C5F2E] hover:bg-white transition-all"
+                >
+                  <span className="text-sm font-medium text-gray-700 group-hover:text-[#2C5F2E] transition-colors">{a.name}</span>
+                  <svg className="w-3 h-3 text-gray-300 group-hover:text-[#2C5F2E] transition-colors shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ── CTA ── */}
         <section className="relative py-32 overflow-hidden">
           <Image src={service.heroImage} alt={`${service.title} — Tri-Point Landscaping`} fill className="object-cover" />
