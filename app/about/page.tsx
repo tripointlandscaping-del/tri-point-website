@@ -105,7 +105,7 @@ export default function AboutPage() {
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LandscapingBusiness",
+    "@type": ["LocalBusiness", "LandscapingBusiness"],
     name: "Tri-Point Landscaping LLC",
     url: "https://www.tripointlandscaping.com/about",
     telephone: "+15863278080",

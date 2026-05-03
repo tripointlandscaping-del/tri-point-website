@@ -79,7 +79,7 @@ const serviceSchema = {
   name: "Fall Cleanup",
   description: "Professional fall cleanup services including leaf removal, bed cleanup, perennial cutback, and winter property prep throughout Macomb County and Oakland County, Michigan.",
   provider: {
-    "@type": "LandscapingBusiness",
+    "@type": ["LocalBusiness", "LandscapingBusiness"],
     name: "Tri-Point Landscaping LLC",
     telephone: "+15863278080",
     url: "https://www.tripointlandscaping.com",

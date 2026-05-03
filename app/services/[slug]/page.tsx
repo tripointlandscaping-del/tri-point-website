@@ -631,7 +631,7 @@ export default async function ServicePage({ params }: Props) {
     description: service.metaDescription,
     url: `https://www.tripointlandscaping.com/services/${slug}`,
     provider: {
-      "@type": "LandscapingBusiness",
+      "@type": ["LocalBusiness", "LandscapingBusiness"],
       name: "Tri-Point Landscaping LLC",
       telephone: "+15863278080",
       url: "https://www.tripointlandscaping.com",

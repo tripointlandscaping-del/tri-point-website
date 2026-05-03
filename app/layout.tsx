@@ -141,7 +141,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LandscapingBusiness",
+              "@type": ["LocalBusiness", "LandscapingBusiness"],
               name: "Tri-Point Landscaping LLC",
               image: "https://www.tripointlandscaping.com/logo-black.png",
               "@id": "https://www.tripointlandscaping.com/#business",

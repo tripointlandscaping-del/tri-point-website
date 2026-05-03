@@ -460,7 +460,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     description: svc.shortDesc,
     url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     provider: {
-      "@type": "LandscapingBusiness",
+      "@type": ["LocalBusiness", "LandscapingBusiness"],
       name: "Tri-Point Landscaping LLC",
       telephone: "+15863278080",
       url: "https://www.tripointlandscaping.com",

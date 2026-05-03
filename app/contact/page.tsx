@@ -95,7 +95,7 @@ export default function ContactPage() {
     url: "https://www.tripointlandscaping.com/contact",
     description: "Request a free landscaping or lawn care estimate from Tri-Point Landscaping in Macomb County, MI.",
     mainEntity: {
-      "@type": "LandscapingBusiness",
+      "@type": ["LocalBusiness", "LandscapingBusiness"],
       name: "Tri-Point Landscaping LLC",
       telephone: "+15863278080",
       email: "tripointlandscaping@gmail.com",

@@ -71,7 +71,7 @@ const serviceSchema = {
   name: "Spring Cleanup",
   description: "Professional spring cleanup services including leaf removal, bed cleanup, edging, and property prep throughout Macomb County and Oakland County, Michigan.",
   provider: {
-    "@type": "LandscapingBusiness",
+    "@type": ["LocalBusiness", "LandscapingBusiness"],
     name: "Tri-Point Landscaping LLC",
     telephone: "+15863278080",
     url: "https://www.tripointlandscaping.com",

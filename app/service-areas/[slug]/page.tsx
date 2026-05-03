@@ -553,7 +553,7 @@ export default async function ServiceAreaPage({ params }: Props) {
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LandscapingBusiness",
+    "@type": ["LocalBusiness", "LandscapingBusiness"],
     "@id": `https://www.tripointlandscaping.com/service-areas/${slug}`,
     name: "Tri-Point Landscaping LLC",
     image: "https://www.tripointlandscaping.com/logo-black.png",

@@ -156,7 +156,7 @@ const homepageFaqSchema = {
 
 const homepageBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "LandscapingBusiness",
+  "@type": ["LocalBusiness", "LandscapingBusiness"],
   name: "Tri-Point Landscaping LLC",
   url: "https://www.tripointlandscaping.com",
   telephone: "+15863278080",
