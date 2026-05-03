@@ -27,6 +27,42 @@ export const metadata: Metadata = {
 
 const photos = [
   {
+    src: "/photos/lawn-stripe-hero.jpeg",
+    alt: "Perfectly striped backyard lawn mowing with arborvitae hedge in Macomb County Michigan by Tri-Point Landscaping",
+    category: "Lawn Care",
+    label: "Lawn Striping — Macomb County",
+  },
+  {
+    src: "/photos/lawn-mow-1.jpeg",
+    alt: "Professional lawn mowing along arborvitae hedge and iron fence in Washington Township Michigan",
+    category: "Lawn Care",
+    label: "Lawn Maintenance — Washington Township",
+  },
+  {
+    src: "/photos/lawn-mow-2.jpeg",
+    alt: "Backyard lawn mowing with precision stripe pattern at residential home in Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Lawn Mowing — Macomb County",
+  },
+  {
+    src: "/photos/lawn-mow-3.jpeg",
+    alt: "Clean lawn mowing stripes next to fence at Macomb County Michigan residential property",
+    category: "Lawn Care",
+    label: "Lawn Care — Macomb County",
+  },
+  {
+    src: "/photos/lawn-mow-4.jpeg",
+    alt: "Large property lawn mowing service with tree line in Washington Township Michigan",
+    category: "Lawn Care",
+    label: "Large Property Mowing — Washington Township",
+  },
+  {
+    src: "/photos/lawn-mow-5.jpeg",
+    alt: "Precision lawn mowing service on large residential property in Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Residential Lawn Mowing — Macomb County",
+  },
+  {
     src: "/photos/1.png",
     alt: "Perfectly striped lawn mowing service in Washington Township Michigan by Tri-Point Landscaping",
     category: "Lawn Care",

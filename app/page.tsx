@@ -189,7 +189,7 @@ export default function HomePage() {
         {/* ═══ HERO — FULL VIEWPORT ═══ */}
         <section className="relative min-h-screen flex items-center overflow-hidden">
           <Image
-            src="/photos/weekly-mowing-shelby-township-mi.jpg.png"
+            src="/photos/lawn-stripe-hero.jpeg"
             alt="Professional landscaping in Washington Township Michigan by Tri-Point Landscaping"
             fill
             className="object-cover scale-[1.06]"
@@ -781,7 +781,7 @@ export default function HomePage() {
                 { src: "/photos/mulch1.jpeg", alt: "Mulch bed installation in Washington Township Michigan", label: "Mulch Installation", col: "md:col-span-2 md:row-span-2" },
                 { src: "/photos/boxwood.jpg", alt: "Hedge trimming service in Macomb County", label: "Hedge Trimming", col: "" },
                 { src: "/photos/spring.jpg", alt: "Spring cleanup in Washington Township MI", label: "Spring Cleanup", col: "" },
-                { src: "/photos/IMG_3369.jpeg", alt: "Weekly lawn maintenance Macomb County Michigan", label: "Lawn Maintenance", col: "" },
+                { src: "/photos/lawn-stripe-hero.jpeg", alt: "Perfectly striped lawn maintenance in Macomb County Michigan by Tri-Point Landscaping", label: "Lawn Maintenance", col: "" },
                 { src: "/photos/IMG_4417.jpeg", alt: "Custom landscape installation Macomb County", label: "Landscape Design", col: "" },
               ].map((p, i) => (
                 <AnimateOnScroll key={p.src} animation="scale-in" delay={i * 80} className={`relative overflow-hidden photo-hover-wrap group ${p.col}`}>

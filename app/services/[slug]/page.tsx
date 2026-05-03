@@ -93,8 +93,8 @@ const services: Record<string, ServiceData> = {
       "grass cutting Rochester MI",
       "lawn care near me Oakland County",
     ],
-    heroImage: "/photos/1.png",
-    heroAlt: "Perfectly striped lawn maintained by Tri-Point Landscaping in Macomb County Michigan",
+    heroImage: "/photos/lawn-stripe-hero.jpeg",
+    heroAlt: "Perfectly striped backyard lawn maintained by Tri-Point Landscaping in Macomb County Michigan",
     heroTagline: "Weekly Mowing · Edging · Trimming · Blowing",
     intro:
       "A well-maintained lawn doesn't happen by accident. At Tri-Point Landscaping, we provide consistent, professional lawn maintenance for residential and commercial properties throughout Washington Township, Shelby Township, and Macomb County. From the first cut in spring to the last trim in fall, your lawn gets the attention it deserves — every single visit.",
@@ -125,8 +125,8 @@ const services: Record<string, ServiceData> = {
       { q: "Do you offer grass cutting and lawn mowing near me?", a: "Yes — whether you call it lawn mowing, grass cutting, lawn care, lawn cutting, or yard service, we provide exactly that throughout Macomb County and Oakland County, MI. We mow, edge, trim, and blow your property clean on a consistent weekly or bi-weekly schedule." },
       { q: "How much does lawn mowing cost in Macomb County, MI?", a: "Lawn mowing pricing in Macomb County depends on your property size, grass type, and service frequency. We don't believe in one-size-fits-all pricing — every quote is based on your specific property after a free on-site estimate. Call (586) 327-8080 or request an estimate online and we'll give you a clear, upfront price with no obligation." },
     ],
-    image2: "/photos/IMG_3369.jpeg",
-    image2Alt: "Clean backyard lawn after professional mowing in Macomb County Michigan",
+    image2: "/photos/lawn-mow-2.jpeg",
+    image2Alt: "Backyard lawn with precision stripe mowing pattern by Tri-Point Landscaping in Macomb County Michigan",
     relatedServices: [
       { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
       { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
