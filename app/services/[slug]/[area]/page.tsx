@@ -320,6 +320,8 @@ const serviceSearchVariants: Record<string, string[]> = {
     "lawn care near me", "lawn service near me",
     "yard cutting", "grass mowing service", "turf maintenance", "lawn grooming",
     "yard care service", "lawn upkeep", "residential grass cutting", "lawn mowing and edging",
+    "grass cutting company", "lawn cutting company", "yard cutting company", "yard care company",
+    "lawn mowing contractor", "lawn care contractor", "residential lawn mowing company", "lawn and yard service",
   ],
   "landscaping": [
     "landscaping", "landscaper", "landscape design", "yard work",
@@ -330,6 +332,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "residential landscaping", "landscape renovation", "yard landscaping",
     "landscape makeover", "yard transformation", "outdoor landscape design",
     "local landscaper", "landscape artist",
+    "landscaping contractor near me", "landscape design company", "yard work company",
+    "landscape design contractor", "outdoor landscaping company", "residential landscaping company",
+    "landscaping and lawn care company",
   ],
   "mulch-and-stone": [
     "mulch installation", "mulch delivery", "mulching service",
@@ -339,6 +344,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "wood chip mulch", "black mulch installation", "brown mulch installation",
     "cedar mulch service", "colored mulch", "gravel installation", "pea gravel",
     "landscape rock", "landscape stone", "flower bed mulch", "garden bed stone",
+    "mulching company", "mulch delivery company", "stone installation company",
+    "decorative stone company", "mulch and stone company", "mulch and rock company",
+    "landscape mulch company", "mulch service company",
   ],
   "seasonal-cleanup": [
     "leaf removal", "fall cleanup", "spring cleanup", "yard cleanup",
@@ -348,6 +356,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "seasonal cleanup near me", "leaf cleanup near me",
     "yard debris cleanup", "property cleanup", "outdoor cleanup",
     "leaf pickup service", "lawn clearing", "property maintenance cleanup", "yard waste hauling",
+    "leaf removal company", "fall cleanup company", "spring cleanup company",
+    "yard cleanup company", "yard waste company", "cleanup contractor",
+    "property cleanup company", "seasonal yard cleanup company",
   ],
   "snow-removal": [
     "snow plowing", "snow removal", "driveway plowing",
@@ -358,6 +369,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "snow shoveling service", "sidewalk snow removal", "parking lot plowing",
     "residential snow service", "ice control service", "winter property maintenance",
     "emergency snow removal", "snow clearing service",
+    "snow plowing company", "snow removal contractor", "driveway plowing company",
+    "ice management company", "snow plow company", "snow and ice company",
+    "winter snow removal company", "residential snow removal company",
   ],
   "lawn-renovations": [
     "lawn aeration", "core aeration", "overseeding", "lawn seeding",
@@ -367,6 +381,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "lawn aeration near me", "lawn renovation near me",
     "lawn rejuvenation", "turf renovation", "lawn revival", "grass renovation",
     "lawn top dressing", "lawn treatment service", "sod installation", "lawn reseeding",
+    "aeration company", "lawn renovation company", "overseeding company",
+    "sod installation company", "lawn restoration company", "lawn reseeding company",
+    "core aeration company", "lawn seeding company",
   ],
   "commercial": [
     "commercial landscaping", "commercial lawn care", "grounds maintenance",
@@ -378,6 +395,10 @@ const serviceSearchVariants: Record<string, string[]> = {
     "business landscaping", "office park grounds maintenance", "retail center landscaping",
     "apartment complex landscaping", "facility grounds maintenance",
     "commercial property care", "commercial lawn mowing",
+    "commercial lawn care company", "commercial snow removal company",
+    "grounds maintenance company", "HOA landscaping company",
+    "commercial property maintenance company", "commercial grounds care company",
+    "commercial lawn mowing company",
   ],
   "hardscaping": [
     "hardscaping", "patio installation", "retaining wall installation",
@@ -389,6 +410,9 @@ const serviceSearchVariants: Record<string, string[]> = {
     "stone patio", "concrete patio", "brick patio", "stamped concrete patio",
     "outdoor living area", "backyard renovation", "paver walkway installation",
     "flagstone installation", "landscape wall", "garden wall", "outdoor patio design",
+    "retaining wall company", "retaining wall contractor", "patio installation company",
+    "outdoor living company", "fire pit company", "paver company",
+    "paver contractor", "landscape wall company", "outdoor patio company",
   ],
 };
 
