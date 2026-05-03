@@ -255,10 +255,10 @@ export default function AboutPage() {
                   <Image src="/photos/IMG_4417.jpeg" alt="Custom landscaping in Macomb County Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="relative h-44 sm:h-56 overflow-hidden">
-                  <Image src="/photos/spring.jpg" alt="Spring cleanup in Washington Township Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/lawn-stripe-hero.jpeg" alt="Perfectly striped lawn mowing in Macomb County Michigan by Tri-Point Landscaping" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="relative h-44 sm:h-56 overflow-hidden md:mt-6">
-                  <Image src="/photos/boxwood.jpg" alt="Professional hedge trimming in Macomb County" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/lawn-mow-1.jpeg" alt="Professional lawn maintenance along arborvitae hedge in Washington Township Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>
             </div>

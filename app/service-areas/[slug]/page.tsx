@@ -278,8 +278,8 @@ const areas: Record<string, AreaData> = {
       "lawn service Ray Township MI",
       "rural lawn care Ray Township Michigan",
     ],
-    heroImage: "/photos/IMG_3369.jpeg",
-    heroAlt: "Professional lawn care and landscaping in Ray Township Michigan",
+    heroImage: "/photos/lawn-mow-4.jpeg",
+    heroAlt: "Professional lawn mowing on large property in Ray Township Michigan",
     intro:
       "Tri-Point Landscaping serves Ray Township with professional landscaping and lawn care tailored to the unique character of this Macomb County community. Whether you have a sprawling rural property or a residential lot, we bring the same quality and reliability.",
     localDetails:

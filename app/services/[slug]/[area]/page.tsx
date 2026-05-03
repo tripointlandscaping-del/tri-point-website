@@ -20,7 +20,7 @@ const services: Record<string, {
   "lawn-maintenance": {
     name: "Lawn Maintenance",
     shortDesc: "Weekly mowing, edging, trimming & blowing — April through October.",
-    heroImage: "/photos/1.png",
+    heroImage: "/photos/lawn-stripe-hero.jpeg",
     included: [
       "Weekly mowing at the correct cutting height",
       "Crisp, clean edging along all beds and hardscapes",
