@@ -189,7 +189,7 @@ export default function HomePage() {
         {/* ═══ HERO — FULL VIEWPORT ═══ */}
         <section className="relative min-h-screen flex items-center overflow-hidden">
           <Image
-            src="/photos/lawn-stripe-hero.jpeg"
+            src="/photos/weekly-mowing-shelby-township-mi.jpg.png"
             alt="Professional landscaping in Washington Township Michigan by Tri-Point Landscaping"
             fill
             className="object-cover scale-[1.06]"
