@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { posts } from "../../blog/posts";
 
 type AreaData = {
   name: string;
@@ -598,6 +599,66 @@ export function generateStaticParams() {
 
 const oaklandCountyAreas = new Set(["rochester", "rochester-hills"]);
 
+const areaPostSlugs: Record<string, string[]> = {
+  "washington-township": [
+    "landscaping-washington-township-mi",
+    "residential-landscaping-washington-township-mi",
+    "spring-lawn-care-checklist-washington-township",
+    "snow-removal-washington-township-mi",
+    "fall-cleanup-washington-township-mi",
+    "landscape-design-ideas-washington-township",
+    "patio-installation-washington-township-mi",
+  ],
+  "shelby-township": [
+    "lawn-care-service-shelby-township-mi",
+    "landscape-design-shelby-township-mi",
+    "spring-cleanup-shelby-township-mi",
+    "fall-cleanup-shelby-township-mi",
+    "snow-removal-shelby-township-mi",
+    "patio-installation-shelby-township-mi",
+    "retaining-wall-shelby-township-mi",
+  ],
+  "macomb-township": [
+    "landscaping-macomb-township-mi",
+    "lawn-care-macomb-township-mi",
+    "spring-cleanup-macomb-township-mi",
+    "fall-cleanup-macomb-township-mi",
+    "snow-plowing-macomb-township-mi",
+    "patio-installation-macomb-township-mi",
+  ],
+  "romeo": [
+    "lawn-care-romeo-mi",
+    "landscaping-romeo-mi",
+    "snow-removal-romeo-mi",
+    "spring-cleanup-romeo-mi",
+    "fall-cleanup-romeo-mi",
+  ],
+  "ray-township": [
+    "landscaping-ray-township-mi",
+    "lawn-care-ray-township-mi",
+    "spring-cleanup-ray-township-mi",
+    "snow-removal-ray-township-mi",
+  ],
+  "bruce-township": [
+    "landscaping-bruce-township-mi",
+    "lawn-care-bruce-township-mi",
+    "spring-cleanup-bruce-township-mi",
+    "fall-cleanup-bruce-township-mi",
+    "snow-removal-bruce-township-mi",
+  ],
+  "rochester": [
+    "landscaping-rochester-mi",
+    "lawn-care-rochester-mi",
+    "snow-removal-rochester-mi",
+    "spring-cleanup-rochester-mi",
+  ],
+  "rochester-hills": [
+    "landscaping-rochester-hills-mi",
+    "lawn-care-rochester-hills-mi",
+    "snow-removal-rochester-hills-mi",
+  ],
+};
+
 export default async function ServiceAreaPage({ params }: Props) {
   const { slug } = await params;
   const area = areas[slug];
@@ -867,6 +928,48 @@ export default async function ServiceAreaPage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* ── RELATED ARTICLES ── */}
+        {(() => {
+          const slugsForArea = areaPostSlugs[slug] ?? [];
+          const areaPosts = slugsForArea
+            .map((s) => posts.find((p) => p.slug === s))
+            .filter(Boolean) as NonNullable<typeof posts[number]>[];
+          if (areaPosts.length === 0) return null;
+          return (
+            <section className="py-16 bg-[#f9f7f4] border-t border-gray-100">
+              <div className="max-w-7xl mx-auto px-6">
+                <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Local Resources</p>
+                <h2
+                  style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                  className="text-3xl font-bold text-gray-900 mb-8"
+                >
+                  {area.name} Lawn &amp; Landscaping Articles
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {areaPosts.map((post) => (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className="group bg-white border border-gray-100 p-6 hover:border-[#2C5F2E] hover:shadow-sm transition-all"
+                    >
+                      <p className="text-xs text-green-700 font-semibold uppercase tracking-wider mb-2">{post.category}</p>
+                      <h3 className="font-bold text-gray-900 group-hover:text-[#2C5F2E] transition-colors leading-snug mb-2 text-[15px]">
+                        {post.title}
+                      </h3>
+                      <p className="text-gray-500 text-sm leading-relaxed line-clamp-2">{post.description}</p>
+                    </Link>
+                  ))}
+                </div>
+                <div className="mt-8">
+                  <Link href="/blog" className="text-sm font-semibold text-[#2C5F2E] hover:underline">
+                    View all articles →
+                  </Link>
+                </div>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* ── CTA ── */}
         <section style={{ backgroundColor: "#111111" }} className="py-20 text-white">
