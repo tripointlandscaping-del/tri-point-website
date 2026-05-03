@@ -3959,4 +3959,643 @@ Tri-Point Landscaping installs retaining walls throughout Washington Township, S
     `,
   }
 ,
+  {
+    slug: "snow-removal-romeo-mi",
+    title: "Snow Removal in Romeo, MI — Reliable Winter Service",
+    description: "Professional snow removal for Romeo, MI homes and rural properties — driveway plowing, sidewalk clearing, salting, and seasonal contracts.",
+    date: "May 3, 2026",
+    category: "Snow Removal",
+    readTime: "4 min read",
+    content: `
+## Winter in Romeo Means Real Snow
+
+The Village of Romeo and the surrounding rural properties stretching toward Ray Township and Bruce Township sit in northern Macomb County — and that position means the community often sees snowfall earlier and heavier than communities to the south. When a lake-effect system rolls in off Lake Huron, Romeo gets the full effect.
+
+For homeowners on Main Street in the village or on longer rural lots outside it, managing that snow is a serious undertaking. A professional snow removal service is the most practical solution.
+
+## What Romeo Homeowners Need From Snow Removal
+
+**Driveway plowing:** Romeo's rural properties frequently have longer driveways than typical suburban lots. A driveway running 150 to 300 feet from the road takes real equipment and experience to clear properly. Tri-Point Landscaping has the trucks and plows to handle Romeo's longer runs efficiently.
+
+**Sidewalk clearing:** Village properties along Main Street and surrounding roads are required to keep public sidewalks clear within a set window after each snowfall. Missing this requirement creates liability exposure. A professional service handles this automatically — you don't need to track timing or weather apps.
+
+**Salting and de-icing:** Plowing removes snow, but it doesn't eliminate ice. Rock salt or calcium chloride applied after each plow visit significantly reduces slip hazards on driveways and walkways. This is especially important on longer rural driveways where refreezing overnight is common.
+
+## Seasonal Contract vs. Per-Push in Romeo
+
+**Seasonal contract:** One flat fee covers the entire winter. Every qualifying snow event triggers service automatically — no calls, no check-ins. For Romeo homeowners who want complete peace of mind, a seasonal contract is the right choice. In a high-snowfall year, it can save significantly over per-push pricing.
+
+**Per-push pricing:** Charged per service visit based on accumulation depth. Works well for Romeo properties that may be seasonal or where the homeowner handles lighter events independently.
+
+## When to Book
+
+The most reliable snow removal companies serving Romeo fill their routes before the season starts — typically by October. Homeowners who wait for the first storm often find the best services already full.
+
+If you're reading this in spring or summer, now is exactly the right time to call and lock in your winter service.
+
+Tri-Point Landscaping serves Romeo and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-romeo-mi",
+    title: "Spring Cleanup in Romeo, MI — Yard Prep for a New Season",
+    description: "Professional spring cleanup for Romeo, MI properties — leaf removal, bed clearing, edging, and debris haul-away to start the growing season right.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Romeo's Tree Canopy Means Spring Cleanup Is a Real Project
+
+The Village of Romeo and the rural properties that surround it are known for mature trees — towering oaks and maples that define the character of the community. They're beautiful in summer and fall, but they create real work in spring. Leaves that didn't get fully cleared in November have spent the winter compressed under snow, matted against the turf, and packed into planting beds.
+
+By the time the ground thaws, Romeo homeowners are often looking at a serious cleanup job before any growing season work can begin.
+
+## What Spring Cleanup Includes
+
+A professional spring cleanup from Tri-Point Landscaping covers everything your property needs coming out of a Michigan winter:
+
+**Full leaf and debris removal:** All winter-compressed leaves, sticks, seed pods, and debris are collected and removed from lawn areas and planting beds. We don't just blow things to the edges — everything leaves the property.
+
+**Bed clearing:** Dead plant material from last season is cut back and removed from all garden and landscape beds. This clears the way for new growth and lets beds breathe.
+
+**Edge re-definition:** Winter frost heaving and settling blurs the clean edge between beds and lawn. We re-cut crisp borders along all planting areas, driveways, and walkways — one of the highest-impact visual improvements on any property.
+
+**Debris haul-away:** Everything we collect leaves the property. No pile waiting at the curb.
+
+## When to Schedule in Romeo
+
+The ideal spring cleanup window in northern Macomb County is **mid-April through late April**, once the ground has firmed up after snowmelt and overnight temps are staying above freezing. Working on saturated, soft ground causes compaction — we wait for the right conditions.
+
+Romeo's spring cleanup schedule fills quickly. Homeowners who call in March or early April get priority dates. Those who wait until May are often scheduled later in the season.
+
+Tri-Point Landscaping serves Romeo and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "fall-cleanup-romeo-mi",
+    title: "Fall Cleanup in Romeo, MI — Leaf Removal & Property Prep",
+    description: "Professional fall cleanup for Romeo, MI — complete leaf removal, bed clearing, and property prep before Michigan winter arrives.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Romeo's Mature Trees Create a Real Fall Leaf Challenge
+
+Few communities in Macomb County have the kind of tree canopy that Romeo does. The mature oaks, maples, and ash trees throughout the village and on surrounding rural properties drop enormous volumes of leaves from mid-October through mid-November. On a larger rural lot, that can mean multiple truckloads of leaves — far more than a standard suburban property.
+
+Left on the lawn over winter, that leaf layer causes genuine lawn damage. Matted leaves block sunlight, trap moisture, harbor fungal disease, and create the anaerobic conditions that kill grass. A thorough fall cleanup is one of the most important things Romeo homeowners can do for the long-term health of their turf.
+
+## What a Full Fall Cleanup Includes
+
+**Complete leaf removal:** Commercial blowers and vacuums collect leaves from all lawn areas — not just the main open sections, but along fence lines, under shrubs, around beds, and in the corners where leaves concentrate.
+
+**Bed clearing:** Spent annuals are pulled, perennials are cut back, and dead material is removed from all landscape beds. This sets beds up cleanly for spring rather than leaving them matted down all winter.
+
+**Debris removal:** Sticks, seed pods, and accumulated seasonal debris are collected along with the leaves.
+
+**Haul-away:** Everything leaves the property in a single professional visit.
+
+## Timing for Romeo Fall Cleanup
+
+The ideal window is **late October through mid-November** — after the majority of Romeo's trees have dropped their leaves but before the ground freezes and leaves compact under snow. This timing gives you the most complete cleanup and leaves the lawn in the best possible condition for winter.
+
+Book in August or September. Romeo's fall cleanup schedule fills fast, and the prime late-October dates go first.
+
+Tri-Point Landscaping serves Romeo and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "landscaping-romeo-mi",
+    title: "Landscaping in Romeo, MI — Expert Design for Village and Rural Properties",
+    description: "Professional landscaping design and installation for Romeo, MI — bed installation, Michigan-appropriate plant selection, mulch, and hardscaping for village and rural properties.",
+    date: "May 3, 2026",
+    category: "Landscaping",
+    readTime: "4 min read",
+    content: `
+## Romeo's Landscape Character Is Unique in Macomb County
+
+The Village of Romeo has a character unlike most of Macomb County's newer, suburban communities. Historic village homes with established foundation plantings sit alongside newer builds on larger rural lots. Properties here tend to have more mature tree canopy, more varied terrain, and a landscape environment that rewards thoughtful, experienced care over generic suburban approaches.
+
+Landscaping in Romeo requires an understanding of what works in Michigan's Zone 6a climate, in clay-heavy northern Macomb County soil, and on properties that range from tight village lots to multi-acre rural parcels.
+
+## What Professional Landscaping in Romeo Includes
+
+**Bed installation and renovation:** Many Romeo properties have established beds that have become overgrown or outdated over the years. Creating new beds or renovating existing ones — right-sizing foundation plantings, selecting modern Michigan-appropriate plant material, establishing clean edges — is one of the most transformative things you can do for a Romeo property's curb appeal.
+
+**Plant selection for Michigan's climate:** The right plants for Romeo are those suited to Zone 6a conditions — cold winters, hot dry summers, and clay-heavy soil. Proven performers include arborvitae for privacy screening, ornamental hydrangeas, spirea, coneflowers, ornamental grasses, and native serviceberry. These plants thrive here; exotic choices that look good in the nursery often don't survive Macomb County winters.
+
+**Mulch installation:** Fresh mulch with clean edges at 2–3 inches depth is one of the most cost-effective curb appeal investments available. A professional mulching job includes bed edging, correct depth application, and keeping mulch away from plant stems.
+
+**Hardscaping:** Paver patios, natural stone paths, fire pit areas, and sitting walls are increasingly popular additions on Romeo's larger lots where there's room to create genuine outdoor living spaces.
+
+## Working in the Village and on Rural Lots
+
+Tri-Point Landscaping is experienced with both the tighter constraints of village properties and the scale of larger rural parcels around Romeo. We size our crew and equipment for the job.
+
+Tri-Point Landscaping serves Romeo and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-removal-bruce-township-mi",
+    title: "Snow Removal in Bruce Township, MI — Rural Winter Service",
+    description: "Professional snow removal for Bruce Township's rural properties — long driveways, large lots, seasonal contracts, and reliable service in northern Macomb County.",
+    date: "May 3, 2026",
+    category: "Snow Removal",
+    readTime: "4 min read",
+    content: `
+## Bruce Township Snow Removal Is Different From Suburban Service
+
+Bruce Township sits at the northern edge of Macomb County — one of the most rural communities in the county. Properties here are larger, driveways are longer, and the scale of winter service required is meaningfully different from what a standard suburban snow removal crew is set up to handle.
+
+A driveway that runs 300 feet from the road is typical in Bruce Township. Some farm lanes and rural access roads run considerably longer. Clearing these driveways requires the right equipment and enough time built into the route to do the job properly.
+
+Tri-Point Landscaping is based in neighboring Washington Township and regularly serves Bruce Township with the equipment and scheduling approach these properties require.
+
+## The Challenges of Rural Snow Removal
+
+**Longer driveways:** Bruce Township driveways can range from 150 feet to well over 500 feet. Clearing these takes more time and fuel per property than a typical suburban driveway. We account for this honestly in pricing — and we don't skip sections or rush the job.
+
+**Drift issues:** Rural properties with less windbreak from neighboring structures experience more snow drift than urban or suburban properties. After a lake-effect event with wind, a driveway can drift back to half its width within hours of being plowed. Our service accounts for this, and return visits are included in our seasonal contracts when conditions require.
+
+**Large acreage:** Some Bruce Township properties have secondary cleared areas, outbuildings, and parking areas beyond the main driveway that need attention. We discuss the full scope before quoting.
+
+## Seasonal Contracts in Bruce Township
+
+A seasonal contract is strongly recommended for Bruce Township properties. Unpredictable Macomb County winters — ranging from 20 to 50+ inches of snowfall depending on the year — are difficult to budget for on a per-push basis. A flat seasonal rate protects you and guarantees service regardless of how many events occur.
+
+Tri-Point Landscaping serves Bruce Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-bruce-township-mi",
+    title: "Spring Cleanup in Bruce Township, MI — Rural Property Prep",
+    description: "Professional spring cleanup for Bruce Township's rural and residential properties — leaf removal, bed clearing, debris haul, and property prep for the growing season.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Spring Cleanup on a Rural Property Is a Different Scale
+
+Bruce Township's properties — larger lots, mature tree canopy, agricultural land, and country homes — generate spring cleanup volumes that are simply in a different category from a standard suburban yard. A five-acre property with established trees and mature windbreaks can accumulate several times the leaf and debris volume of a typical quarter-acre lot.
+
+That scale requires professional equipment, crew capacity, and efficient planning. A single homeowner with a rake and a few trash bags isn't the right tool for the job.
+
+## What Spring Cleanup Includes for Bruce Township Properties
+
+**Leaf and debris removal:** All winter-matted leaves, sticks, and debris are collected and removed from lawn areas and planting beds. On larger Bruce Township lots, this is a multi-hour project requiring commercial blowers, vacuums, and sufficient haul capacity.
+
+**Bed clearing:** Garden beds, foundation plantings, and landscape areas are cleared of dead material, cut-back perennials, and winter debris. This is the foundation for a healthy growing season.
+
+**Edge re-definition:** After Michigan winters, bed edges blur and need to be re-cut for clean definition between lawn and planting areas.
+
+**Debris haul-away:** Everything leaves the property. Rural Bruce Township properties often lack easy curb-side pickup — we handle full haul-away as part of every cleanup.
+
+## The Right Timing
+
+The spring cleanup window in northern Macomb County opens in **mid-to-late April**, once ground temperatures rise consistently above freezing and the soil firms up after snowmelt. Working on saturated ground causes compaction. We time our work to the actual conditions, not a calendar date.
+
+Booking early — February or March — secures the best April dates and ensures you're not waiting until the growing season is already underway.
+
+Tri-Point Landscaping serves Bruce Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "fall-cleanup-bruce-township-mi",
+    title: "Fall Cleanup in Bruce Township, MI — Complete Property Prep",
+    description: "Professional fall cleanup for Bruce Township's rural properties — full leaf removal, bed clearing, and haul-away to prepare large lots for Michigan winter.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Bruce Township Fall Cleanup: Built for Rural Property Scale
+
+Bruce Township's rural character means larger lots, more mature trees, and significantly higher leaf and debris volumes than suburban Macomb County properties. When those oaks and maples drop in October, the volume is real — and clearing it manually across two, five, or ten acres isn't realistic for most homeowners.
+
+Tri-Point Landscaping has the commercial-grade equipment and crew capacity to handle Bruce Township's fall cleanup jobs at the right scale.
+
+## Why Fall Cleanup Matters for Large Rural Properties
+
+Leaving leaves on the lawn over a Michigan winter causes genuine damage — and the damage is proportional to the volume. On a heavily wooded Bruce Township property where leaves can accumulate 6 to 8 inches deep in some areas, the risk of turf suffocation, snow mold, and fungal disease is significant.
+
+A thorough fall cleanup also removes the habitat that mice and voles use for winter nesting. Rural properties see more wildlife pressure than suburban ones, and a clean lawn going into winter reduces the protected corridors these animals use to damage turf root systems under snow.
+
+## What a Full Bruce Township Fall Cleanup Includes
+
+**Complete leaf removal:** We clear all lawn areas — including the wooded margins and naturalized zones where leaves concentrate — using commercial equipment. Everything is collected and removed.
+
+**Bed clearing:** All landscape beds, foundation plantings, and garden areas are cleared of spent material and debris.
+
+**Debris removal:** Sticks, seed pods, and fallen branches accumulated through the growing season are collected along with the leaf volumes.
+
+**Full haul-away:** No piles left behind. Everything leaves the property in our trucks.
+
+## Timing and Scheduling
+
+Book in August or September for October and early November cleanup dates. Bruce Township fall schedules fill early, and the ideal late-October window goes fast.
+
+Tri-Point Landscaping serves Bruce Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-rochester-mi",
+    title: "Lawn Care in Rochester, MI — Professional Mowing & Maintenance",
+    description: "Professional weekly lawn care in Rochester, MI — mowing, edging, trimming, and seasonal service for Oakland County's most well-maintained neighborhoods.",
+    date: "May 3, 2026",
+    category: "Lawn Maintenance",
+    readTime: "4 min read",
+    content: `
+## Rochester's Neighborhoods Set a High Bar for Lawn Care
+
+Rochester, Michigan is one of Oakland County's most desirable communities — a charming downtown, established neighborhoods along University Drive and Walnut Boulevard, and homeowners who take genuine pride in how their properties look. That means the standard for lawn care in Rochester is higher than average, and inconsistent or low-quality service stands out.
+
+Professional lawn maintenance in Rochester isn't just about cutting grass. It's about maintaining a property that reflects the quality of the neighborhood it's in.
+
+## What Professional Weekly Mowing Includes
+
+**Mowing at the correct height:** Michigan's cool-season grasses — Kentucky bluegrass, fine fescue, and perennial ryegrass — perform best at 3 to 3.5 inches. Cutting shorter than this stresses the turf, invites crabgrass, and causes brown spots during Rochester's hot July weeks. A professional service knows this and never scalps.
+
+**Clean edging on every visit:** The line between lawn and driveway, sidewalk, and planting bed is what defines a sharp-looking property. Every professional visit should include crisp edging along all hard surfaces — not just periodically, but every time.
+
+**String trimming:** Mailbox posts, fence lines, ornamental tree rings, and any obstacle a mower can't reach should be trimmed precisely on every visit. Skipping this leaves a property looking half-done.
+
+**Blowing:** Clippings on driveways and sidewalks look sloppy and stain concrete over time. Every visit should end with a thorough blow-off of all hard surfaces.
+
+## Rochester's Seasonal Lawn Care Timeline
+
+Rochester lawns follow Michigan's cool-season grass calendar. Peak mowing runs from May through October, with frequency adjusting for spring growth surges and summer heat slowdowns. Fall aeration and overseeding in September is the best investment Rochester homeowners can make for long-term lawn density.
+
+Tri-Point Landscaping serves Rochester and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-removal-rochester-mi",
+    title: "Snow Removal in Rochester, MI — Dependable Winter Service",
+    description: "Reliable residential and commercial snow removal in Rochester, MI — driveway plowing, salting, sidewalk clearing, and seasonal contracts for Oakland County.",
+    date: "May 3, 2026",
+    category: "Snow Removal",
+    readTime: "4 min read",
+    content: `
+## Rochester Winters Demand Reliable Snow Removal
+
+Rochester, Michigan sits in Oakland County where lake-enhanced snowfall from Lake Erie pushes seasonal totals above Michigan averages in many years. Rochester homeowners — particularly in established neighborhoods along University Drive, Walnut Boulevard, and the Paint Creek area — need a snow removal service they can count on before the workday starts.
+
+A buried driveway in Rochester at 6 AM isn't a minor inconvenience. It's a real problem. Professional snow removal takes that problem off your plate entirely.
+
+## Residential Snow Removal in Rochester
+
+**Driveway plowing:** We clear driveways completely — pushing snow to designated areas that don't block mailboxes, fire hydrants, or the road apron. Every pass leaves your driveway fully accessible.
+
+**Sidewalk clearing:** Most Rochester properties are required to keep public sidewalks cleared within 24 to 48 hours of snowfall. A professional service handles this automatically as part of every visit.
+
+**Salting and de-icing:** Rock salt or calcium chloride applied after plowing addresses ice formation on driveways and walkways — the slip hazard that remains after the snow is cleared.
+
+## Seasonal Contracts vs. Per-Push
+
+A **seasonal contract** gives Rochester homeowners a fixed price for the entire winter, regardless of snowfall. It's the right choice in a high-snowfall year — and in Michigan, those years aren't rare. You get automatic service, no storm-by-storm decisions, and no unexpected bills.
+
+**Per-push pricing** works for homeowners who want flexibility or spend time away from the property in winter.
+
+## Book Before the Season Fills
+
+Rochester snow removal routes fill before November. The homeowners who get the best service and scheduling are the ones who book in late summer or early fall.
+
+Tri-Point Landscaping serves Rochester and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-rochester-mi",
+    title: "Spring Cleanup in Rochester, MI — First Impressions Matter",
+    description: "Professional spring cleanup in Rochester, MI — leaf removal, bed clearing, edging, and full property prep to start the season right in Oakland County.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Rochester Properties Set a High Standard — Spring Cleanup Should Match It
+
+Rochester's well-maintained neighborhoods — from the established streets near downtown to the properties along the Paint Creek Trail and University Drive corridor — hold a high standard year-round. Coming out of a Michigan winter, a thorough spring cleanup is what separates properties that look sharp by May 1st from those that look neglected well into the growing season.
+
+Rochester homeowners who invest in professional spring cleanup set their properties up for the entire season. Beds that are clean and edged in April stay cleaner longer. Lawns that are cleared of debris grow more evenly and require less catch-up work through summer.
+
+## What Professional Spring Cleanup Includes in Rochester
+
+**Leaf and debris removal:** Winter-matted leaves, sticks, and debris are collected and removed from all lawn areas and planting beds. Rochester's mature tree canopy means meaningful leaf volume carried through winter — this is not a quick rake job.
+
+**Bed cleanup:** All landscape beds are cleared of dead plant material, cut-back perennials, and winter debris. This sets beds up for clean new growth and makes mulch installation far more effective when it follows.
+
+**Edge re-definition:** Crisp edges between lawn and planting beds are re-cut after winter settling. This is one of the most visible and impactful improvements in any spring cleanup.
+
+**Debris haul-away:** Everything leaves the property — no piles at the curb for you to manage.
+
+## Timing for Rochester Spring Cleanup
+
+The optimal window in Oakland County is **mid-April through late April**, once the ground has firmed up and overnight temps are reliably above freezing. Book in February or March for the best April dates — Rochester's spring schedule fills quickly.
+
+Tri-Point Landscaping serves Rochester and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "spring-cleanup-ray-township-mi",
+    title: "Spring Cleanup in Ray Township, MI — Rural Property Prep",
+    description: "Professional spring cleanup for Ray Township's rural and residential properties — leaf removal, bed clearing, edge work, and debris haul for northern Macomb County.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Ray Township Properties Need a Different Approach to Spring Cleanup
+
+Ray Township sits in rural northern Macomb County — between the Village of Romeo and the Macomb/St. Clair county line. Properties here tend to be larger than suburban Macomb County, with country lots, agricultural land, and longer driveways set back from rural roads.
+
+Spring cleanup on a Ray Township property looks different from a suburban quarter-acre cleanup. The scale is larger, the leaf volumes from mature rural trees are higher, and the access to some areas requires equipment suited for rural property work.
+
+Tri-Point Landscaping is based in neighboring Washington Township and routinely serves Ray Township properties with appropriate equipment and crew capacity.
+
+## What's Included in Ray Township Spring Cleanup
+
+**Complete leaf and debris removal:** All winter-matted leaves and accumulated debris from lawns and planting areas are collected and hauled away. On Ray Township's larger lots, this involves commercial blowers, vacuum systems, and adequate truck capacity.
+
+**Bed clearing:** Landscape beds are cleared of dead plant material and winter debris, making way for healthy new spring growth.
+
+**Edge work:** Clean edges between lawn and planting beds are re-established after winter settling. This foundational detail makes the entire property look more intentional and maintained.
+
+**Haul-away:** Everything is removed from the property — particularly important on rural Ray Township lots where curb-side municipal pickup may not apply.
+
+## Scope for Rural vs. Suburban Properties
+
+A typical Ray Township property of one acre or more has meaningfully more work involved than a standard suburban cleanup. We scope every property individually and price accordingly. Every estimate is free and based on what we actually see on your land.
+
+The spring cleanup window in northern Macomb County opens in mid-April. Book in March to secure your preferred dates.
+
+Tri-Point Landscaping serves Ray Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "snow-removal-ray-township-mi",
+    title: "Snow Removal in Ray Township, MI — Country Property Winter Service",
+    description: "Professional snow removal for Ray Township's rural driveways and country properties — long-lane plowing, salting, and seasonal contracts in northern Macomb County.",
+    date: "May 3, 2026",
+    category: "Snow Removal",
+    readTime: "4 min read",
+    content: `
+## Rural Snow Removal in Ray Township Requires the Right Equipment
+
+Ray Township's rural character means properties here have the kind of driveways and access lanes that quickly separate capable snow removal companies from suburban-only operations. Long gravel lanes running several hundred feet from the road, country properties with secondary outbuilding access, and larger cleared areas around homes all require equipment and planning that smaller suburban-focused crews aren't set up for.
+
+Tri-Point Landscaping is based in Washington Township and regularly serves Ray Township with appropriately sized equipment and honest pricing for rural property work.
+
+## What Rural Snow Removal Looks Like in Ray Township
+
+**Long driveway plowing:** A 300-foot gravel driveway in Ray Township is a routine job for a properly equipped crew. We clear the full length, push snow well to the sides so it doesn't drift back in quickly, and clear the turnaround area near the garage or home.
+
+**Farm lane and secondary access clearing:** Some Ray Township properties have secondary lanes to outbuildings, garages, or back lots that need to remain accessible through winter. We include these in our scope conversations before quoting.
+
+**Salting:** Calcium chloride or rock salt applied after plowing addresses ice on gravel and paved surfaces. On longer rural driveways, ice formation overnight can be more significant than on shorter suburban driveways due to the exposure.
+
+## Seasonal Contracts for Ray Township
+
+A seasonal snow removal contract is strongly recommended for Ray Township homeowners. Northern Macomb County's snowfall is unpredictable from year to year. A seasonal contract protects your budget and ensures service after every qualifying event without per-storm coordination.
+
+We open fall snow removal booking in late summer. The best pricing and route availability is reserved for early-season commitments.
+
+Tri-Point Landscaping serves Ray Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "fall-cleanup-macomb-township-mi",
+    title: "Fall Cleanup in Macomb Township, MI — Complete Leaf Removal & Yard Prep",
+    description: "Professional fall cleanup in Macomb Township, MI — full leaf removal, bed clearing, haul-away, and winter prep for residential properties throughout the township.",
+    date: "May 3, 2026",
+    category: "Seasonal Cleanup",
+    readTime: "4 min read",
+    content: `
+## Macomb Township's Maturing Trees Are Creating More Work Every Fall
+
+Macomb Township has seen significant residential growth over the past two decades. Subdivisions that were built with young trees in the early 2000s now have maturing canopies that drop considerably more leaves than they did ten years ago. Homeowners who used to handle fall cleanup themselves are finding the volume is increasing every year.
+
+At the same time, Macomb Township's newer properties tend to have more landscaping than older Macomb County subdivisions — more beds, more ornamentals, more area that needs attention before winter.
+
+A professional fall cleanup handles all of it in a single visit.
+
+## What a Complete Macomb Township Fall Cleanup Includes
+
+**Full leaf removal:** Commercial equipment — not a homeowner-grade blower and a rake — clears leaves from all lawn areas quickly and completely. This includes areas under shrubs, along fence lines, and in bed margins where leaves concentrate.
+
+**Bed clearing:** Spent annuals are pulled, perennials are cut back to appropriate heights, and dead material is removed from all planting beds. Leaving dead plant material in beds over winter creates disease pressure and makes spring cleanup significantly harder.
+
+**Haul-away:** Everything collected leaves the property. Macomb Township municipalities have specific leaf pickup schedules that don't always align with when your cleanup happens — our full haul-away service eliminates that dependency entirely.
+
+## When to Book in Macomb Township
+
+The ideal fall cleanup window is **late October through early November**, after peak leaf drop from the township's maturing tree canopy. Book your slot in August or September — Macomb Township fall dates fill quickly, especially the prime late-October windows.
+
+Tri-Point Landscaping serves Macomb Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "lawn-care-macomb-township-mi",
+    title: "Lawn Care in Macomb Township, MI — Weekly Service You Can Count On",
+    description: "Professional weekly lawn maintenance in Macomb Township, MI — mowing, edging, trimming, and full-season lawn care for the township's growing residential communities.",
+    date: "May 3, 2026",
+    category: "Lawn Maintenance",
+    readTime: "4 min read",
+    content: `
+## Macomb Township's Growth Has Created High Demand for Professional Lawn Care
+
+Macomb Township has been one of the fastest-growing communities in Macomb County. The subdivisions along 26 Mile Road, Hall Road, and the corridors extending north from those corridors are home to homeowners who want professional results without spending every weekend maintaining their lawn themselves.
+
+Professional lawn care in Macomb Township isn't a luxury — it's the standard in the township's well-kept neighborhoods.
+
+## What Every Professional Lawn Care Visit Should Include
+
+**Mowing at the right height:** Michigan's cool-season turf — Kentucky bluegrass, fine fescue, and perennial ryegrass — should be cut at 3 to 3.5 inches throughout the season. Cutting too short invites crabgrass, stresses roots during July heat, and leaves the lawn looking thin. A professional service never scalps.
+
+**Edging:** The visible edge between lawn and driveway, sidewalk, and planting bed is what separates a property that looks professionally maintained from one that looks average. Every visit should include crisp mechanical edging along all hard surfaces.
+
+**String trimming:** Every fence post, mailbox base, tree ring, and corner that a mower deck can't reach should be trimmed on each visit. This detail is often what inconsistent lawn services skip.
+
+**Blowing:** Clippings, grass, and debris on driveways and walkways should be cleared after every visit — not left for the homeowner to deal with.
+
+## Weekly vs. Bi-Weekly Service in Macomb Township
+
+During peak spring growth (May and June), weekly mowing is strongly recommended. Skipping a week during this period results in overgrown grass that requires more work to cut correctly. In summer heat, bi-weekly service may be appropriate depending on rainfall. A professional service adjusts to what your lawn actually needs.
+
+Tri-Point Landscaping serves Macomb Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "patio-installation-washington-township-mi",
+    title: "Patio Installation in Washington Township, MI — Outdoor Living Experts",
+    description: "Expert patio installation in Washington Township, MI — paver patios, natural stone, fire pit areas, and outdoor living spaces designed for Michigan's climate.",
+    date: "May 3, 2026",
+    category: "Hardscaping",
+    readTime: "5 min read",
+    content: `
+## Washington Township Homeowners Are Investing in Outdoor Living
+
+Washington Township's established neighborhoods — particularly those near Stony Creek Metropark and along the corridors off 26 Mile and Romeo Plank — feature properties where homeowners have made significant investments in their homes. A well-designed outdoor living space is the natural next step for properties that already have quality interiors and well-maintained lawns.
+
+A professionally installed patio in Washington Township doesn't just add usable space — it adds real property value and transforms how a family uses their home from late April through October.
+
+## Patio Options for Washington Township Properties
+
+**Concrete paver patios:** The most popular choice in our market. Individual pavers handle Michigan's freeze-thaw cycle better than poured concrete — if frost heave shifts a section, individual pavers can be reset without tearing out the entire patio. Available in dozens of styles, colors, and laying patterns. Budget $12–$20 per square foot professionally installed.
+
+**Natural stone (bluestone, flagstone, limestone):** The premium option for homeowners who want a natural, distinctive aesthetic. Beautiful and long-lasting, but higher cost — typically $18–$30+ per square foot. Ideal for formal entries, garden spaces, and properties where design is the priority.
+
+**Stamped concrete:** A more affordable alternative to pavers that can mimic stone or brick patterns. Lower upfront cost ($10–$18 per square foot), but repairs are harder than with individual pavers if cracking occurs.
+
+**Fire pit areas and sitting walls:** The features that transform a patio into an outdoor living room. A built-in fire pit at the center of the patio and low sitting walls at the perimeter extend your usable season from May through November and create a gathering space that gets genuinely used.
+
+## What Makes a Patio Last in Michigan
+
+The difference between a patio that looks great for 5 years and one that holds up for 25 is the base. Macomb County's clay-heavy soil requires excavation to 8–12 inches below finished grade, with a compacted crushed gravel base. Frost heave pushes patios built on inadequate bases every spring.
+
+At Tri-Point Landscaping, every Washington Township patio starts with proper excavation and base installation. The surface is what the homeowner sees — the base is what makes it last.
+
+## Cost Ranges for Washington Township
+
+For a professionally installed paver patio in Washington Township:
+- **Small patio (200–300 sq ft):** $3,000–$5,500
+- **Medium patio (400–600 sq ft):** $6,000–$11,000
+- **Large patio with features (800+ sq ft, fire pit, walls):** $14,000–$30,000+
+
+Every estimate is based on an in-person site assessment — no phone quotes that leave out site-specific variables.
+
+Tri-Point Landscaping serves Washington Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "patio-installation-shelby-township-mi",
+    title: "Patio Installation in Shelby Township, MI — Custom Outdoor Spaces",
+    description: "Custom patio installation in Shelby Township, MI — paver patios, fire pits, outdoor kitchens, and retaining walls for Macomb County's most desirable residential community.",
+    date: "May 3, 2026",
+    category: "Hardscaping",
+    readTime: "5 min read",
+    content: `
+## Shelby Township Homeowners Invest in Outdoor Living
+
+Shelby Township is consistently one of the most desirable residential communities in Macomb County — and the outdoor spaces here reflect that. Well-kept properties along 23 Mile, 24 Mile, and Schoenherr increasingly feature professionally designed patios, fire features, and outdoor living areas that turn backyards into genuine destinations.
+
+If your Shelby Township home has a rear yard that's underused — basic lawn with no real outdoor living capability — a well-designed patio is the upgrade that changes how you use your property for the next decade.
+
+## Custom Patio Options in Shelby Township
+
+**Concrete paver patios:** The foundation of most Shelby Township outdoor living projects. Concrete pavers are designed for Michigan's freeze-thaw cycle — individual units can be reset if needed, unlike a poured slab that requires breaking out and replacing entire sections. Available in dozens of colors, textures, and patterns to complement any home style.
+
+**Fire pit integration:** A built-in fire feature — whether a simple wood-burning pit or a gas-connected fire bowl — extends your outdoor season from May through November. Most Shelby Township homeowners who add a fire pit find they use the space far more than they expected. It's one of the highest-return additions to any patio design.
+
+**Outdoor kitchens and bar areas:** For homeowners who entertain regularly, an outdoor kitchen with a built-in grill, counter space, and bar seating creates a complete outdoor dining experience. These additions pair naturally with a larger paver patio and proper lighting.
+
+**Retaining walls and tiered spaces:** Shelby Township properties with grade changes — common in older subdivisions with varied terrain — often benefit from a low retaining wall that creates a level patio area and adds visual interest. Segmental retaining wall block is the standard material in our market.
+
+## Why Base Preparation Matters in Shelby Township
+
+Michigan's freeze-thaw cycle is brutal on hardscaping installed on inadequate bases. The heavy clay soil in much of Shelby Township requires excavation to 8–12 inches below grade and a thoroughly compacted crushed gravel base. We've seen patios installed by cheaper contractors heave noticeably after a single Macomb County winter.
+
+Every Tri-Point Landscaping patio in Shelby Township is built on a proper base. That's non-negotiable.
+
+## Cost Ranges
+
+- **Medium patio (400–600 sq ft, pavers):** $6,000–$11,000
+- **Large patio with fire pit and walls (700–900 sq ft):** $12,000–$22,000+
+- **Full outdoor kitchen and living space:** $20,000–$40,000+
+
+Tri-Point Landscaping serves Shelby Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "retaining-wall-shelby-township-mi",
+    title: "Retaining Wall Installation in Shelby Township, MI — Function Meets Beauty",
+    description: "Professional retaining wall installation in Shelby Township, MI — segmental block, natural stone, drainage solutions, and tiered yard designs for Macomb County properties.",
+    date: "May 3, 2026",
+    category: "Hardscaping",
+    readTime: "5 min read",
+    content: `
+## Retaining Walls Solve Real Problems in Shelby Township
+
+Shelby Township properties often have grade changes that create practical challenges — soil erosion down slopes after rain, mulch washing out of tiered beds, grade transitions between driveway and lawn that look unfinished, and backyard areas with too much slope to use comfortably.
+
+A properly built retaining wall solves these problems permanently. It also creates usable flat space where slope previously wasted potential, adds visual structure to a landscape, and — when well-designed — significantly improves curb appeal and property value.
+
+## When Do You Need a Retaining Wall?
+
+**Active erosion:** If rain events wash topsoil, mulch, or gravel into your driveway or across your lawn, a wall with proper drainage behind it is typically the right fix. Erosion that isn't addressed gets worse each season.
+
+**Grade change at a patio or outdoor space:** Creating a level patio area next to a slope requires either significant fill and grading (expensive, rarely stable long-term in Michigan soil) or a retaining wall. A wall creates the level area and manages the grade change cleanly.
+
+**Tiered planting beds:** Converting a sloped backyard into usable, defined planting tiers requires walls at each level change. This is one of the most dramatic landscape transformations possible for Shelby Township properties with challenging rear yards.
+
+**Property line grade transitions:** Where your yard transitions from a higher elevation to a lower one at a property line or near structures, a retaining wall creates a clean, permanent definition.
+
+## Retaining Wall Materials That Work in Michigan
+
+**Segmental retaining wall block (most common):** Engineered concrete blocks — Allan Block, Versa-Lok, and Anchor are leading brands — are designed for Macomb County's freeze-thaw conditions. They interlock for structural integrity and handle the hydrostatic pressure that Michigan winters create behind walls. Available in many colors and textures. Cost: $25–$50 per sq ft of wall face installed.
+
+**Natural stone:** Fieldstone and limestone walls have a natural aesthetic that fits Michigan's landscape character beautifully. Dry-stacked stone allows water to pass freely through the wall face, which is a drainage advantage. Higher labor cost: $30–$65 per sq ft depending on stone type.
+
+**Timber (railroad ties, treated timbers):** Lower upfront cost, but significant lifespan limitations — treated timbers in Michigan soil typically last 10–15 years before replacement is needed. Not recommended for walls over 3 feet or in wet conditions.
+
+## Drainage Is Non-Negotiable in Shelby Township
+
+The most common cause of retaining wall failure is inadequate drainage. Water that builds up behind a wall creates hydrostatic pressure that pushes the wall forward — eventually causing lean or collapse. Michigan's heavy spring rains and snow melt make this particularly important.
+
+Every wall Tri-Point Landscaping builds in Shelby Township includes proper drainage: crushed gravel backfill, perforated drain pipe (weeping tile) at the wall base, and filter fabric between gravel and native soil. These aren't optional add-ons — they're how walls last.
+
+## Permit Considerations
+
+Retaining walls over 4 feet in height may require a building permit in Shelby Township and other Macomb County municipalities. We handle the permit process as part of our project management. Always confirm permit requirements before construction begins — unpermitted work creates complications at resale.
+
+## Cost Ranges for Shelby Township
+
+- **Small wall (under 2 ft, 20–30 linear ft):** $1,500–$4,000
+- **Medium wall (2–4 ft, 30–60 linear ft):** $5,000–$12,000
+- **Tiered or large wall systems:** $12,000–$25,000+
+
+Accurate pricing requires an in-person site assessment — slope, soil conditions, and access all affect the quote significantly.
+
+Tri-Point Landscaping serves Shelby Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
+  {
+    slug: "patio-installation-macomb-township-mi",
+    title: "Patio Installation in Macomb Township, MI — Add Outdoor Living Space",
+    description: "Custom patio installation in Macomb Township, MI — paver patios, fire pits, and outdoor living designs for newer homes throughout the township.",
+    date: "May 3, 2026",
+    category: "Hardscaping",
+    readTime: "5 min read",
+    content: `
+## Macomb Township's Newer Homes Often Lack Outdoor Living Space
+
+Macomb Township has grown rapidly over the past two decades. Subdivision after subdivision was built with new homes that prioritize interior square footage — and the outdoor spaces were often left as basic sod with minimal hardscaping. These properties have great bones, but the backyard potential is untapped.
+
+A well-designed patio is the #1 upgrade Macomb Township homeowners request — and for good reason. It transforms an underused rear yard into an outdoor room that gets used from late April through October.
+
+## Patio Options for Macomb Township Properties
+
+**Concrete paver patios:** The most popular choice in Macomb Township. Individual concrete pavers are durable, freeze-thaw resistant, and repairable if Michigan frost heave ever shifts a section. They come in a wide range of colors and laying patterns — from classic running bond to herringbone to more complex designs. Professionally installed, budget $12–$20 per square foot depending on size and complexity.
+
+**Stamped concrete:** A lower-cost alternative to pavers that can mimic stone, brick, or tile patterns. Good choice for budget-conscious projects. Easier to crack than pavers in Michigan's freeze-thaw climate, and repairs are more involved — but the initial price point is attractive. Expect $9–$15 per square foot installed.
+
+**Fire pit addition:** A built-in fire pit is the feature that turns a patio from outdoor furniture storage to a space families actually gather in. Macomb Township homeowners who add fire features consistently report they use their outdoor space far more than they expected. Budget $1,500–$4,000 for a built-in fire pit depending on style and materials.
+
+## The Foundation of a Lasting Patio in Macomb County
+
+Macomb Township's clay-heavy soil is one of the biggest challenges for hardscaping. Clay retains water, and water that freezes expands — pushing improperly based patios upward every spring. A patio that lasts requires excavation to 8–12 inches below grade and a thoroughly compacted crushed gravel base before any surface material goes down.
+
+Contractors who skip proper base work offer lower prices. They also leave homeowners with patios that heave and shift within 5 years. We don't cut that corner.
+
+## Design Consultation: Getting the Layout Right
+
+One of the most common mistakes is selecting materials before thinking through how the space will actually be used. Will you have a dining area and a separate seating area? Where does traffic flow from the house? How will you screen it from neighbors? A five-minute conversation before design starts prevents regret later.
+
+Tri-Point Landscaping includes a design consultation with every patio estimate — we walk the space, discuss your vision and budget, and sketch an approach before any numbers are agreed to.
+
+## Cost Ranges for Macomb Township
+
+- **Small patio (200–300 sq ft):** $3,000–$5,500
+- **Medium patio (400–600 sq ft):** $6,000–$11,000
+- **Large patio with fire pit and features (800+ sq ft):** $13,000–$25,000+
+
+Tri-Point Landscaping serves Macomb Township and all surrounding areas. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+    `,
+  },
 ];
