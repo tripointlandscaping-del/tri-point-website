@@ -4686,5 +4686,87 @@ Trip-Point Landscaping has been helping Washington Township and Macomb County ho
 
 Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a free estimate. We'll tell you exactly what your property needs and what it'll cost. No surprises, no upsell—just honest advice from people who live in your community.
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Lawn Actually Needs",
+    description: "Learn the real differences between topsoil, compost, and mulch in Michigan. A local landscaping guide with practical advice for Washington Township homeowners.",
+    date: "May 7, 2025",
+    category: "Lawn Care",
+    readTime: "7 min read",
+    content: `
+If you've walked into a landscape supply yard in Macomb County, you've probably stood in front of three piles that all look vaguely similar and wondered which one you actually need. Topsoil, compost, and mulch get confused constantly—and honestly, that confusion costs homeowners in Washington Township real money. They serve completely different jobs, work differently in Michigan's clay-heavy soil, and timing matters depending on what you're trying to accomplish.
+
+Let me break down exactly what each one is, what it does, and when you should use it.
+
+## Topsoil: The Foundation Layer
+
+**Topsoil is the living, breathing upper layer of soil** where plants actually root and feed. It's not just dirt—it contains organic matter, minerals, and active microorganisms that Michigan's native clay soil desperately needs.
+
+In Macomb County, our native soil tends to be dense clay, which compacts easily and doesn't drain well. That's why topsoil is often your first step in any landscape project. When you're building a new garden bed, leveling a yard, or filling in low spots before seeding, you're adding a 2–4 inch layer of quality topsoil to give your plants something to work with.
+
+Here's the practical difference: topsoil has structure. If you squeeze it in your hand, it should crumble after you open your palm—not stay in a tight ball like clay. Good topsoil in Washington Township should have a mix of sand, silt, and clay, plus at least 5% organic matter by weight.
+
+**When to use topsoil:**
+- Building new raised beds or garden areas
+- Leveling or grading before lawn installation
+- Top-dressing thin or bare lawn spots (1–2 inches)
+- Mixing into existing clay soil to improve structure
+
+Timing matters here: spring (April–May) and fall (September–October) are ideal in Michigan because you're giving plants time to establish before summer heat or winter freeze.
+
+## Compost: The Nutrient Boost
+
+**Compost is decomposed organic matter**—kitchen scraps, leaves, grass clippings, and wood materials broken down over months into a dark, crumbly, earth-smelling amendment. It's not soil. It's a soil *conditioner* and nutrient source.
+
+When you work compost into your beds, you're doing two things: feeding your plants and improving your soil's water-holding ability. Macomb County's clay soil compacts and prevents water from moving through it properly. Compost opens up that clay structure, making it more crumbly and allowing better drainage and root penetration.
+
+The nutrient content varies depending on what went into the pile. A compost heavy in grass clippings and food waste will have more nitrogen (great for leafy plants). A compost made mostly from leaves will be lighter and break down slower but still improve soil structure over time.
+
+Here's the key difference from topsoil: **you don't build a bed with compost alone**. You mix it in—typically 2–3 inches worked into the top 6–8 inches of existing soil.
+
+**When to use compost:**
+- Amending existing garden beds before planting (mix in 2–3 inches)
+- Top-dressing around established trees and shrubs (2–4 inches, pulled back from the trunk)
+- Improving clay soil structure year-round
+- Feeding perennials and vegetable gardens in spring
+
+You can apply compost almost any month in Michigan, but April–May and September–October give you the best results because plants are actively growing and can use the nutrients.
+
+## Mulch: The Protective Layer
+
+**Mulch is a blanket that sits on top of soil.** It's usually wood chips, bark, or sometimes shredded leaves. Its job is to retain moisture, regulate soil temperature, suppress weeds, and eventually break down into soil amendments.
+
+In Washington Township, where our summers can hit 85–90°F and our winters dip below freezing for 4–5 months, mulch is a game-changer. A 3–4 inch layer of mulch keeps soil cooler and more consistent in summer, insulates roots in winter, and cuts your watering needs significantly.
+
+Here's what catches people off guard: mulch breaks down. That 4-inch layer you put down in May might be 2.5 inches by October. That's normal and actually beneficial—it's decomposing and adding organic matter back to your soil. But it also means you need to refresh it annually or every 18 months depending on the material.
+
+**When to use mulch:**
+- Around trees, shrubs, and perennial beds (3–4 inches)
+- Under new plantings immediately after installation
+- In spring (April–May) to suppress weeds before they germinate
+- As a pathway material in vegetable or formal gardens
+
+**Avoid these mistakes:** Don't pile mulch against tree trunks—it causes rot and disease. Keep it 2–3 inches away from the base. And don't use mulch in areas where you're actively planting vegetables or sowing seeds; it gets in the way.
+
+## Quick Comparison
+
+| **Material** | **Main Job** | **Depth** | **How Often** |
+|---|---|---|---|
+| Topsoil | Build soil foundation | 2–4" | Once during setup |
+| Compost | Improve soil & feed plants | Mix 2–3" into existing soil | Every 1–2 years |
+| Mulch | Protect & insulate | 3–4" | Every 1–2 years |
+
+## The Right Time to Act in Macomb County
+
+Spring is prime season for all three materials in Michigan. The ground is thawing, plants are ready to grow, and you've got months ahead to see results. If you're planning new beds, renovating your landscape, or just trying to get your yard healthy after winter, May is the ideal window.
+
+The honest truth: most Macomb County yards benefit from *all three* used strategically. You might start with topsoil to build a proper base, work in compost to feed it, and top it off with mulch for protection.
+
+Tri-Point Landscaping has delivered materials and installed thousands of landscapes across Washington Township. We know which soil amendments work best in our clay-heavy local conditions, and we can tell you exactly what your yard needs—not just what's on sale.
+
+**Ready to get this right?** Don't guess on materials that cost real money and affect your landscape for years. [Contact Tri-Point Landscaping](/contact) today at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your soil, recommend the right combination, and handle the delivery and installation. Spring is short in Michigan—let's make it count for your yard.
+    `,
   },
 ];
