@@ -165,7 +165,7 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">13+</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">11+</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Reviews</p>
               </div>
               <div>
