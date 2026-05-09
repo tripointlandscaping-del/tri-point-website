@@ -27,6 +27,66 @@ export const metadata: Metadata = {
 
 const photos = [
   {
+    src: "/photos/IMG_6750.jpeg",
+    alt: "Professional lawn mowing with wide stripe pattern across large residential backyard in Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Lawn Mowing — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6751.jpeg",
+    alt: "Freshly mowed lawn with clean stripe pattern and residential home in background — Tri-Point Landscaping Michigan",
+    category: "Lawn Care",
+    label: "Lawn Maintenance — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6752.jpeg",
+    alt: "Large backyard lawn mowing with perfect stripe pattern and blue sky — Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Backyard Lawn Care — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6753.jpeg",
+    alt: "Professionally mowed backyard with lawn stripes and landscaped beds around residential home Michigan",
+    category: "Lawn Care",
+    label: "Residential Lawn Mowing — Michigan",
+  },
+  {
+    src: "/photos/IMG_6754.jpeg",
+    alt: "Close-up of professional lawn mowing stripe lines with evergreen hedge border — Tri-Point Landscaping",
+    category: "Lawn Care",
+    label: "Lawn Striping Detail — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6758.jpeg",
+    alt: "Backyard lawn mowing with stripe pattern and iron fence — Washington Township Michigan",
+    category: "Lawn Care",
+    label: "Lawn Mowing — Washington Township",
+  },
+  {
+    src: "/photos/IMG_6760.jpeg",
+    alt: "Wide residential lawn with professional mowing stripes and mature trees — Shelby Township Michigan",
+    category: "Lawn Care",
+    label: "Lawn Maintenance — Shelby Township",
+  },
+  {
+    src: "/photos/IMG_6765.jpeg",
+    alt: "Freshly cut lawn with stripe pattern and stone border landscaping — Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Lawn & Landscaping — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6775.jpeg",
+    alt: "Front lawn mowing with clean edge along sidewalk and spring flowering trees — Macomb County Michigan",
+    category: "Lawn Care",
+    label: "Front Lawn Mowing — Macomb County",
+  },
+  {
+    src: "/photos/IMG_6782.jpeg",
+    alt: "Professionally mowed lawn with stripe pattern bordered by stone landscaping and evergreen trees — Michigan",
+    category: "Lawn Care",
+    label: "Lawn Mowing — Macomb County",
+  },
+  {
     src: "/photos/lawn-stripe-hero.jpeg",
     alt: "Perfectly striped backyard lawn mowing with arborvitae hedge in Macomb County Michigan by Tri-Point Landscaping",
     category: "Lawn Care",
