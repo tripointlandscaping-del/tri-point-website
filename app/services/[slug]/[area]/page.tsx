@@ -513,12 +513,16 @@ export default async function ServiceAreaPage({ params }: Props) {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
-        reviewCount: "10",
+        reviewCount: "13",
         bestRating: "5",
         worstRating: "1",
       },
     },
-    areaServed: { "@type": "City", name: areaData.name, addressRegion: "MI" },
+    areaServed: {
+      "@type": "City",
+      name: areaData.name,
+      containedInPlace: { "@type": "AdministrativeArea", name: "Macomb County, Michigan" },
+    },
     offers: {
       "@type": "Offer",
       price: "0",

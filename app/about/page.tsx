@@ -132,7 +132,7 @@ export default function AboutPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "10",
+      reviewCount: "13",
       bestRating: "5",
       worstRating: "1",
     },

@@ -104,7 +104,7 @@ export default function TestimonialsPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "11",
+      reviewCount: "13",
       bestRating: "5",
       worstRating: "1",
     },
@@ -165,7 +165,7 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">11+</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">13+</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Reviews</p>
               </div>
               <div>

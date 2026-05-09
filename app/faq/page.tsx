@@ -160,6 +160,18 @@ const faqs = [
     q: "Do hardscaping projects require permits in Michigan?",
     a: "It depends on the project and your municipality. Retaining walls over 4 feet in height typically require a permit in Macomb County. Most patios and walkways do not, but we recommend checking with your local municipality before work begins. Tri-Point Landscaping can advise on permit requirements during your free estimate consultation.",
   },
+  {
+    q: "Do you build patios in Macomb County?",
+    a: "Yes, we install paver patios, concrete patios, natural stone patios, and stamped concrete throughout Macomb County and Oakland County. We handle everything from design consultation through installation. Call (586) 327-8080 for a free estimate.",
+  },
+  {
+    q: "Do you install fire pits?",
+    a: "Yes. We design and install custom fire pit areas, including gas and wood-burning options with paver surrounds and seating walls. Free estimates available.",
+  },
+  {
+    q: "What areas do you do hardscaping in?",
+    a: "We do hardscaping — patios, retaining walls, walkways, fire pits, and outdoor living spaces — throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
+  },
 ];
 
 const faqSchema = {

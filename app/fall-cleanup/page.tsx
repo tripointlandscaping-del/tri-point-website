@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
   description:
-    "Professional fall cleanup in Macomb County & Oakland County, MI. Leaf removal, bed cleanup & winter prep. Spots fill fast — book early. Free estimates from Tri-Point Landscaping.",
+    "Fall cleanup in Macomb County, MI. Full leaf removal, bed cutback & winter prep. Tri-Point Landscaping — locally owned & insured. Free estimates, book early.",
   keywords: [
     "fall cleanup Macomb County MI",
     "fall yard cleanup Washington Township",

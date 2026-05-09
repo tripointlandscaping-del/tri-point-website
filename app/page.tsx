@@ -183,7 +183,7 @@ const homepageBusinessSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "10",
+    reviewCount: "13",
     bestRating: "5",
     worstRating: "1",
   },
@@ -535,7 +535,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { label: "Fully Insured LLC", sub: "General liability on every job" },
-                    { label: "4.9★ Google Rating", sub: "10+ five-star reviews" },
+                    { label: "4.9★ Google Rating", sub: "13+ five-star reviews" },
                     { label: "Same-Day Response", sub: "We don't let you wait" },
                     { label: "Free Estimates", sub: "No cost, no obligation" },
                   ].map(({ label, sub }) => (

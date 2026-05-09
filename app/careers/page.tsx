@@ -6,7 +6,7 @@ import JobberCareersForm from "../components/JobberCareersForm";
 export const metadata: Metadata = {
   title: "Join the Team | Tri-Point Landscaping | Macomb County, MI",
   description:
-    "Join the Tri-Point Landscaping team in Macomb County, MI. We're hiring crew members for lawn care, landscaping, and snow removal. Apply online today.",
+    "Join the Tri-Point Landscaping team in Macomb County, MI. Now hiring crew members for lawn care, landscaping & snow removal. Competitive pay. Apply online today.",
   keywords: ["landscaping jobs Macomb County", "lawn care jobs Michigan", "landscaping hiring near me", "outdoor jobs Washington Township MI"],
   alternates: { canonical: "https://www.tripointlandscaping.com/careers" },
   openGraph: {

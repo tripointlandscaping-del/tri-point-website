@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
   description:
-    "Professional spring cleanup in Macomb County & Oakland County, MI. Leaf removal, bed cleanup, edging & property prep. Spots fill fast — book early. Free estimates.",
+    "Spring cleanup in Macomb County, MI. Leaf removal, bed edging, debris hauling & property prep. Tri-Point Landscaping — locally owned. Free estimates, book early.",
   keywords: [
     "spring cleanup Macomb County MI",
     "spring yard cleanup Washington Township",
