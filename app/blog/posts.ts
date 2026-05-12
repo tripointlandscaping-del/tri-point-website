@@ -4768,5 +4768,102 @@ Tri-Point Landscaping has delivered materials and installed thousands of landsca
 
 **Ready to get this right?** Don't guess on materials that cost real money and affect your landscape for years. [Contact Tri-Point Landscaping](/contact) today at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your soil, recommend the right combination, and handle the delivery and installation. Spring is short in Michigan—let's make it count for your yard.
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Lawn Actually Needs",
+    description: "Learn the real differences between topsoil, compost, and mulch—and when to use each one. Local Michigan landscaping advice.",
+    date: "May 12, 2026",
+    category: "Lawn Care",
+    readTime: "7 min read",
+    content: `
+# Topsoil vs. Compost vs. Mulch: What Your Macomb County Lawn Actually Needs
+
+If you've ever stood in front of a pile of dark soil at a local supplier in Washington Township wondering what the heck you're actually supposed to buy, you're not alone. Most homeowners lump topsoil, compost, and mulch into one mental category: "that brown stuff." But they're completely different products that do completely different jobs. Using the wrong one is like buying premium gas for a lawnmower—it won't work the way you expect.
+
+Let me break down exactly what each one is, what it actually does, and which one you need right now.
+
+## Topsoil: The Foundation Your Lawn Stands On
+
+**Topsoil is the living, breathing upper layer of actual soil.** It's what grass roots dig into. In Macomb County, our native topsoil tends to be heavy clay—which is both a blessing and a curse. It holds nutrients well, but it compacts easily and drains poorly in our Michigan spring thaw.
+
+Here's what topsoil contains:
+
+- Mineral particles (sand, silt, clay)
+- Organic matter (typically 3-5%)
+- Microorganisms and earthworms
+- Natural minerals like nitrogen, phosphorus, and potassium
+
+**Use topsoil when:**
+- You're leveling a yard or filling in low spots
+- Starting a new lawn from scratch
+- Building up garden beds to 8-12 inches deep
+- Repairing bare patches where grass won't grow
+
+During a typical Washington Township spring (late April through May), topsoil becomes workable once the frost comes out of the ground—usually by mid-May. That's your window to add it before summer heat sets in.
+
+**One critical warning:** Don't confuse bagged "topsoil" from a big box store with real topsoil. Much of it is just ground-up dirt with minimal organic content. When you need real topsoil for Macomb County's clay-heavy soil, you want material that's already been screened and enriched.
+
+## Compost: The Nutrient Powerhouse
+
+**Compost is decomposed organic material—basically controlled rot.** It's made from leaves, grass clippings, food scraps, and manure that have broken down over months. Unlike topsoil, compost is almost entirely organic matter, not mineral soil.
+
+What makes compost different:
+
+- **Nutrient density**: Far richer in nitrogen and trace minerals than topsoil
+- **No weeds or disease** (when done right—finished compost reaches 140-160°F internally, killing weed seeds)
+- **Improves soil structure** dramatically, especially in clay-heavy Macomb County yards
+- **Expensive**: You're paying for the decomposition work already done
+
+**Use compost when:**
+- You're amending existing soil to improve drainage (critical here—our clay soil needs this badly)
+- Top-dressing vegetable or flower gardens
+- Mixing into planting holes at a 25-30% ratio
+- Reviving tired, compacted lawn areas
+
+A 2-3 inch layer of quality compost worked into the top 4-6 inches of clay soil in Washington Township will transform it within one season. You'll see better drainage, easier digging, and stronger plant roots.
+
+## Mulch: The Protective Layer
+
+**Mulch is shredded or chipped wood—a protective barrier that sits on top of soil.** It doesn't become part of the soil; it stays on the surface and slowly breaks down over 1-3 years depending on the type.
+
+Multch's real jobs:
+
+- **Moisture retention**: Keeps soil from drying out in summer heat
+- **Temperature regulation**: Keeps roots cooler in July and August
+- **Weed suppression**: Blocks sunlight from germinating weed seeds
+- **Visual appeal**: Makes beds look finished and intentional
+
+**Use mulch when:**
+- Surrounding trees, shrubs, and perennials
+- Creating defined garden bed edges
+- Protecting soil from foot traffic
+- Adding 2-4 inches of material around plant bases
+
+In Michigan, apply fresh mulch in late May after the ground has warmed up (around 55°F soil temperature). It'll last through our winter and early spring, then you'll refresh it again in early summer. Never let mulch touch the trunk of trees or shrubs—leave a 3-4 inch gap or you'll invite rot and pests.
+
+## Quick Comparison: Which One Do You Actually Need?
+
+| **Job** | **Topsoil** | **Compost** | **Mulch** |
+|---------|-----------|-----------|----------|
+| New lawn | ✓ | ✓ | ✗ |
+| Improving clay soil | ✓ | ✓ (better) | ✗ |
+| Planting trees/shrubs | ✓ | ✓ | ✓ |
+| Protecting roots | ✗ | Minimal | ✓ |
+| Cost per cubic yard | $20-35 | $40-65 | $25-45 |
+
+## Get the Right Material for Your Macomb County Yard
+
+Honestly, most yards in Washington Township benefit from **all three**—but in different places. Your lawn might need topsoil for that low spot by the driveway, your vegetable garden needs compost for nutrients, and your shrub beds need mulch for protection.
+
+The mistake we see constantly is homeowners buying one pile of "dirt" and hoping it fixes everything. It doesn't work that way.
+
+If you're not sure which combination your yard needs, **that's exactly what Tri-Point Landscaping specializes in.** We've been working Macomb County yards for years—we know our clay soil, our spring thaw challenges, and our summer heat. We can walk your property, see what's actually there, and tell you exactly what material to buy and how much.
+
+**[Contact Tri-Point Landscaping today](/ contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate.** Late May is prime time to get materials delivered and applied before our Michigan summer really kicks in. We'll make sure you get exactly what your yard needs—not what someone at a big box store guesses you need.
+
+Your lawn will thank you.
+    `,
   },
 ];
