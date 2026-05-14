@@ -4865,5 +4865,85 @@ If you're not sure which combination your yard needs, **that's exactly what Tri-
 
 Your lawn will thank you.
     `,
+  }
+,
+  {
+    slug: "topsoil-compost-mulch-difference-macomb-county",
+    title: "Topsoil vs. Compost vs. Mulch: What Your Macomb County Yard Actually Needs",
+    description: "Learn the real differences between topsoil, compost, and mulch for your Washington Township landscape. Expert guide with practical tips.",
+    date: "May 14, 2026",
+    category: "Lawn Care",
+    readTime: "7 min read",
+    content: `
+If you've stood in a landscape supply yard in Macomb County staring at three different piles and wondering what the heck you actually need, you're not alone. Topsoil, compost, and mulch all look vaguely brown and earthy, but they do completely different jobs in your yard. Using the wrong one is like putting diesel in a gasoline engine—it won't work, and you'll waste money. Let me break down exactly what each one does and when to use it.
+
+## Topsoil: The Foundation Your Lawn Actually Needs
+
+**Topsoil is the living, nutrient-rich upper layer of earth.** It's what grass roots dig into, what plants grow from, and what makes the difference between a struggling yard and a thriving one. In Washington Township and the surrounding areas, our native soil tends to be clay-heavy—that sticky, dense stuff that compacts easily and drains poorly. That's why adding quality topsoil is so critical here.
+
+Good topsoil should be:
+
+- **Dark brown or black** (not gray or red)
+- **Crumbly and loose** when you squeeze it, not clumpy
+- **Between 4-6 inches deep** for new lawns or renovation projects
+- **Free of stones, roots, and debris**
+
+Here's the practical reality: if you're seeding a new lawn or renovating an existing one in Macomb County, you need topsoil. Our heavy clay needs to be amended—mixing in 2-4 inches of quality topsoil improves drainage, adds organic matter, and gives seed a fighting chance to germinate. Without it, seed just sits on clay and washes away with our Michigan spring rains.
+
+**When to use it:** New lawns, lawn renovations, filling low spots, prepping garden beds for planting.
+
+## Compost: The Slow-Release Nutrient Powerhouse
+
+**Compost is decomposed organic material—leaves, grass clippings, kitchen scraps, and wood waste broken down over months into dark, crumbly, earthy-smelling gold.** It's not meant to be a growing medium by itself; it's meant to *feed* your soil and existing plants.
+
+Compost does three essential jobs:
+
+1. **Adds organic matter** that clay soil desperately needs to improve structure
+2. **Releases nutrients slowly** as it continues to break down (nitrogen, phosphorus, potassium)
+3. **Improves water retention** while paradoxically improving drainage in clay—it opens up the soil structure
+
+The best compost is aged 6-12 months and looks like rich, dark, crumbly earth. If it still smells like ammonia or looks like wood chips, it's not finished breaking down yet.
+
+In Macomb County's climate, we get cold winters that slow decomposition, so the compost you buy here is often sourced from warmer regions where it finished breaking down faster. That's fine—you're paying for finished product.
+
+**When to use it:** Mix 2-3 inches into existing garden beds every year, blend into topsoil for planting areas, top-dress around shrubs and trees (keep it 6 inches away from trunks to prevent rot).
+
+## Mulch: The Protective Blanket
+
+**Mulch is shredded wood, bark, or other organic material that sits *on top* of soil to protect it.** It's a surface layer, not something you dig into your soil. This is the biggest mistake I see—people mixing mulch into soil thinking it's an amendment. It's not.
+
+Mulch does this:
+
+- **Blocks weed seeds** from germinating (especially important before summer in Michigan)
+- **Regulates soil temperature** by insulating against Michigan's temperature swings
+- **Retains moisture** during dry spells
+- **Looks finished** and professional around landscape beds
+
+There are different types:
+
+- **Wood chip mulch**: Larger, lasts 2-3 years, good for pathways
+- **Shredded hardwood bark**: Finer, more refined look, breaks down faster (12-18 months)
+- **Colored mulch**: Usually dyed, lasts longer but avoid red or black dyes—they can heat soil too much in summer
+
+In Macomb County, we recommend **2-3 inches of mulch depth** in spring (May is ideal). Any deeper and you risk creating a wet, compacted layer that promotes fungal growth in our humid Michigan summers.
+
+**When to use it:** Around trees and shrubs, in landscape beds, under perennials—anywhere you want to suppress weeds and protect soil.
+
+## The Quick-Reference Checklist
+
+**Use topsoil if:** You're starting from scratch, renovating a lawn, or need to raise grade
+**Use compost if:** You want to improve existing soil quality and feed plants long-term
+**Use mulch if:** You need to block weeds, retain moisture, and finish a landscape bed
+
+## Get Your Yard Right, Starting Now
+
+We're in the sweet spot of the season right now. May and early June is when Macomb County yards are most receptive to amendments—soil is warming up, rain is consistent, and you have time to see results before summer stress hits.
+
+If you're uncertain what your specific soil needs, or if you want someone to assess your yard and recommend the right blend, **[contact Tri-Point Landscaping](/contact) today.** We've been working with Washington Township and Macomb County soil for years. We know the clay, the drainage challenges, and exactly what your yard needs to thrive.
+
+**Call us at [(586) 327-8080](tel:+15863278080)** for a free estimate. We'll tell you exactly what you need—topsoil, compost, mulch, or all three—and why. No fluff, just honest advice from neighbors who care about your landscape as much as you do.
+
+Visit **tripointlandscaping.com** to see our work across the area.
+    `,
   },
 ];
