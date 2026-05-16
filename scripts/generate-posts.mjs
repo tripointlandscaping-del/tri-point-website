@@ -126,10 +126,11 @@ async function generatePosts() {
 
   const currentContent = readFileSync(POSTS_FILE, "utf8");
   const existingTitles = [...currentContent.matchAll(/title:\s*["']([^"']+)["']/g)].map((m) => m[1].toLowerCase());
+  const existingSlugs = new Set([...currentContent.matchAll(/slug:\s*["']([^"']+)["']/g)].map((m) => m[1]));
 
   const available = TOPIC_POOL.filter((topic) => {
     const keywords = topic.toLowerCase().split(" ").filter((w) => w.length > 3);
-    return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 2);
+    return !existingTitles.some((title) => keywords.filter((w) => title.includes(w)).length >= 3);
   });
 
   if (available.length === 0) {
@@ -219,6 +220,15 @@ Return ONLY a valid JSON object (no markdown fencing, no explanation) with these
   }
 
   if (!post.slug || !post.content) throw new Error("Invalid post returned from API");
+
+  // Force correct date — never trust the model for dates
+  post.date = publishDate;
+
+  // Hard reject duplicate slugs
+  if (existingSlugs.has(post.slug)) {
+    console.log(`⚠️ Duplicate slug "${post.slug}" — skipping this run.`);
+    process.exit(0);
+  }
 
   const newEntry = `  {
     slug: "${post.slug}",
