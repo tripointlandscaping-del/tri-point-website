@@ -413,6 +413,10 @@ const serviceSearchVariants: Record<string, string[]> = {
     "retaining wall company", "retaining wall contractor", "patio installation company",
     "outdoor living company", "fire pit company", "paver company",
     "paver contractor", "landscape wall company", "outdoor patio company",
+    "outdoor kitchen", "sitting wall", "outdoor living contractor",
+    "patio design", "landscape wall contractor", "stone patio installer",
+    "paver installer near me", "custom patio", "backyard patio",
+    "patio and fire pit", "hardscape design",
   ],
 };
 
@@ -453,7 +457,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
-    description: `Professional ${variants[0]} and ${variants[1] ?? svc.name.toLowerCase()} in ${areaData.name}, Michigan. ${svc.shortDesc} Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
+    description: `Professional ${variants[0]} in ${areaData.name}, MI. Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
     keywords,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,

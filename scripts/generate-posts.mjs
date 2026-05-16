@@ -79,12 +79,25 @@ const TOPIC_POOL = [
   "How long does it take to grow a new lawn from seed in Michigan",
   "Core aeration vs liquid aeration: which is better for Michigan soil",
 
+  // ── HARDSCAPING ──
+  "How to choose between a paver patio and concrete patio in Michigan",
+  "Fire pit installation ideas for Macomb County backyards",
+  "How much does a retaining wall cost in Macomb County",
+  "Outdoor kitchen installation in Macomb County Michigan",
+  "Best patio materials for Michigan winters",
+  "Hardscaping ideas for small yards in Macomb County",
+  "How to add curb appeal with a front walkway in Michigan",
+  "Patio contractor questions to ask before hiring in Macomb County",
+
   // ── COMMERCIAL ──
   "What to look for in a commercial landscaping contract in Michigan",
   "How commercial snow removal contracts work in Macomb County",
   "Why consistent landscaping matters for commercial properties",
   "How to find a reliable commercial lawn care company in Macomb County",
   "HOA landscaping requirements: what property managers need to know",
+  "Commercial landscaping contracts: what Macomb County businesses need to know",
+  "HOA lawn care services in Macomb County: what to expect",
+  "Commercial snow removal contracts in Macomb County: seasonal vs per-push",
 
   // ── DECISION-INTENT / COMPARISON ──
   "How to choose the best landscaping company in Macomb County",
@@ -101,7 +114,7 @@ const TOPIC_POOL = [
   "Spring lawn care tips for Washington Township homeowners",
   "Fall lawn care checklist for Shelby Township homeowners",
   "Why Macomb County homeowners book landscaping services in January",
-  "Landscaping trends in Macomb County for 2025",
+  "Landscaping trends in Macomb County for 2026",
   "How Michigan's clay soil affects your lawn in Macomb County",
   "Best grass types for Washington Township and Shelby Township lawns",
   "Why Macomb County homeowners prefer weekly lawn maintenance contracts",
