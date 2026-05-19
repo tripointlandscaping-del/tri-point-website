@@ -5568,5 +5568,73 @@ Tri-Point Landscaping is based in Washington Township. We've built patios, retai
 
 [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
+  }
+,
+  {
+    slug: "native-plants-michigan-landscaping",
+    title: "Native Plants for Michigan Landscaping: What to Choose in Macomb County",
+    description: "Expert guide to choosing native Michigan plants for your Macomb County landscape. Specific species, planting tips, and why they thrive locally.",
+    date: "May 19, 2026",
+    category: "Landscaping",
+    readTime: "5 min read",
+    content: `
+If you've been looking at your Washington Township yard and wondering why some plants struggle while your neighbor's seem to thrive effortlessly, you're probably missing the real secret: **native plants don't just survive in Michigan—they're built for it**.
+
+Most homeowners spend money on plants that fight our climate instead of work with it. Native plants are different. They evolved here over thousands of years, which means they're adapted to our heavy clay soils, unpredictable spring freezes, and the specific moisture patterns of Macomb County. They cost less to maintain, need fewer chemicals, and actually support local pollinators and wildlife.
+
+Here's what actually works in Michigan landscaping.
+
+## Why Native Plants Matter in Macomb County's Specific Climate
+
+Macomb County sits in USDA Hardiness Zone 5b, which means winter temperatures drop to -15 to -10°F. That matters because it's not just about cold—it's about the freeze-thaw cycles. Our soil freezes, thaws, freezes again, sometimes all in a single week. Non-native plants get confused and die. Native plants expect this drama and handle it.
+
+Our clay-heavy soil here in Washington Township is another huge factor. Most fancy ornamentals want loose, well-draining soil. Native Michigan plants thrive in clay. **Trying to amend heavy clay soil to accommodate non-natives costs hundreds of dollars and constant work. Native plants just... grow.**
+
+The other thing people miss: native plants are already acclimated to Michigan's specific rainfall patterns and growing season length. You're not fighting nature—you're finally working with it.
+
+## The Best Native Trees and Shrubs for Your Yard
+
+Start with these species. They're proven performers in Macomb County:
+
+**Deciduous Trees:**
+- **Red Maple** — Grows 40-60 feet, thrives in clay soil, brilliant fall color. Best choice if you want fast growth.
+- **White Oak** — Slower growing but lives 200+ years. Deep roots mean it handles our droughts. Plant now, benefit forever.
+- **Serviceberry** — Smaller (20-25 feet), ornamental value spring and fall, produces berries birds actually eat.
+
+**Shrubs:**
+- **Nannyberry and Blackhaw Viburnum** — 12-15 feet, incredibly hardy, clusters of white spring flowers. Handles full sun or partial shade.
+- **Elderberry** — 8-12 feet, productive (you can actually harvest berries), nitrogen-fixing roots improve soil.
+- **Smooth Hydrangea** — 3-6 feet, big white flowers July-September, dramatically pruned for size control.
+
+**Key timing for Macomb County**: Plant trees and shrubs in **fall (October-November) or early spring (late March-April)**. Avoid planting in summer heat or late fall after November when frost hits roots hard.
+
+## Ground Covers and Perennials That Actually Spread
+
+For borders and under-planting, skip ornamental grasses from the nursery. These thrive:
+
+- **Black-eyed Susan** — 2-3 feet tall, yellow blooms June-October, spreads moderately, drought-tolerant once established
+- **Coneflower (Purple Coneflower)** — 2-4 feet, pink-purple, attracts monarch butterflies specifically
+- **Wild Bergamot** — 2-3 feet, magenta flowers, bees love it, fragrant foliage
+- **Blazing Star (Liatris)** — 2-5 feet depending on variety, vertical purple spikes, thin soil okay
+- **Sedges** — Michigan native sedges (not ornamental grasses) are 1-2 feet, perfect for wet areas that doom other plants
+
+**Don't plant these in summer.** Late April through May or early September through mid-October is ideal in Macomb County. The soil is moist and temperatures stay mild for root establishment.
+
+## What to Avoid and Why
+
+Japanese Barberry, forsythia, and those dense spruce specimens you see everywhere? They're not native and they're **aggressive spreaders**. Barberry is actually invasive in Michigan—the state discourages it. Non-native ornamentals also don't feed local caterpillars and pollinators, which means they don't support the ecosystem that keeps your whole yard healthy.
+
+Quinn species nurseries in Michigan stock natives, or ask your landscaper where they source plants. **Buy local-grown stock when possible**—plants grown in Michigan nurseries are already acclimated to our soils and climate.
+
+## Make This Change Now, Enjoy It for Decades
+
+The best time to transition to native plants is **right now—late spring and early summer through fall**. The growing season is long enough that plants establish strong roots before winter stress. You'll see results this year and dramatic improvement next year.
+
+If you're thinking about redesigning your Washington Township or Macomb County landscape with native plants, **Tri-Point Landscaping has years of experience choosing and installing natives that actually thrive here**. We know what works in our specific clay soils and seasonal patterns.
+
+[Contact Tri-Point Landscaping](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate. We'll walk through exactly which natives make sense for your specific yard conditions—sun exposure, soil type, moisture patterns, and your budget. Free estimates, no pressure.
+
+Your yard can stop fighting Michigan's climate and start thriving in it. Let's make that happen.
+    `,
   },
 ];
