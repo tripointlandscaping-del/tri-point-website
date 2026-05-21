@@ -5636,5 +5636,66 @@ If you're thinking about redesigning your Washington Township or Macomb County l
 
 Your yard can stop fighting Michigan's climate and start thriving in it. Let's make that happen.
     `,
+  }
+,
+  {
+    slug: "rock-salt-vs-calcium-chloride-michigan-driveways",
+    title: "Rock Salt vs Calcium Chloride: What to Use on Michigan Driveways",
+    description: "Learn which de-icer works best for Macomb County driveways. Compare rock salt and calcium chloride for Michigan winters.",
+    date: "May 21, 2026",
+    category: "Snow & Ice",
+    readTime: "5 min read",
+    content: `
+## Rock Salt vs Calcium Chloride: What to Use on Michigan Driveways
+
+If you live in Macomb County and you're standing on your driveway in November, you're probably already thinking about winter. And if you're thinking about winter, you're probably wondering which de-icer to buy — rock salt or calcium chloride. Here's the honest answer: **it depends on your specific situation**, and the choice matters more than most people realize.
+
+I'm going to walk you through exactly how these two products work, what they cost, and which one actually makes sense for your driveway in Washington Township and the surrounding areas.
+
+## How Rock Salt and Calcium Chloride Actually Work
+
+**Rock salt** (sodium chloride) lowers the freezing point of water by mixing with ice and creating a brine solution. The catch? It only works down to about **15°F**. When temperatures drop below that — which happens regularly in Michigan from December through February — rock salt basically sits there doing nothing. You're essentially throwing money at your driveway.
+
+**Calcium chloride** works down to **-25°F**, which covers almost every winter night you'll see in Macomb County. It also generates heat as it dissolves, which means it actively melts ice rather than just preventing it from bonding to the pavement.
+
+Here's what matters for your wallet: calcium chloride costs about **2 to 3 times more** than rock salt. A 50-pound bag of rock salt runs $3-5, while the same amount of calcium chloride costs $10-15. But if you're using rock salt when it's 10°F outside, you're getting zero results — so you're not actually saving money.
+
+## The Hidden Damage to Your Driveway and Car
+
+Rock salt is brutally hard on concrete and asphalt. The freeze-thaw cycles in Michigan — where we hit 32°F during the day and drop to 20°F at night — cause salt to expand inside tiny pores in your pavement. Over 5-10 winters, this creates spalling (that white, flaking concrete you see on older driveways throughout Washington Township).
+
+Calcium chloride is **less corrosive** to concrete, but it's still not gentle. The real difference: calcium chloride does its job faster, so you use less of it overall.
+
+Both products are terrible for your vehicle's undercarriage and any metal it touches. This is why you should rinse your car regularly during winter — not just for looks, but to prevent rust that can cost you $500+ in repairs.
+
+## What Tri-Point Recommends for Macomb County Winters
+
+After years of managing driveways through Michigan winters, here's the practical approach:
+
+**Use calcium chloride as your primary de-icer.** Yes, it costs more upfront. But you'll use less of it, it works when temperatures actually drop (which they do, regularly), and your driveway lasts longer. Apply it at the first sign of snow or ice — don't wait until you have a thick layer.
+
+**Apply these amounts:**
+- Light snow/ice: 1 pound per 100 square feet
+- Heavy accumulation: 1.5 pounds per 100 square feet
+- Avoid over-applying (more product doesn't mean better results after a certain point)
+
+If budget is genuinely tight, **rock salt works fine for temperatures above 20°F**. But keep a bag of calcium chloride on hand for those sub-15°F nights — and in Michigan, you'll need it.
+
+## Skip the DIY Guessing Game
+
+Here's what I see happen: homeowners buy whatever's on sale at the big box store, apply it inconsistently, and then wonder why their driveway looks like it's crumbling by spring.
+
+The variables matter: **your driveway's age, whether it's concrete or asphalt, your exact location in Macomb County, and how much sun exposure it gets** all change what works best. A newer concrete driveway needs different care than a 20-year-old asphalt one.
+
+If you're not confident about your winter maintenance plan, that's worth handling professionally. You save time, your driveway lasts longer, and you avoid the mess of figuring out the right product and application yourself.
+
+## Get Your Driveway Winter-Ready Now
+
+We're already in the season where the first frost hits Macomb County — and if your driveway isn't prepared, you're one winter away from real damage. **The best time to plan your de-icing strategy is now, before the heavy snow starts.**
+
+Tri-Point Landscaping handles winter maintenance for driveways throughout Washington Township and Macomb County. We'll assess your specific driveway, recommend the right de-icer, and keep it maintained all season so you're not dealing with cracks and potholes come spring.
+
+**Call us today at [(586) 327-8080](tel:+15863278080) for a free estimate**, or visit [tripointlandscaping.com](/contact) to schedule a consultation. We'll make sure your driveway is protected before the real Michigan winter hits.
+    `,
   },
 ];
