@@ -517,7 +517,7 @@ export default async function ServiceAreaPage({ params }: Props) {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
-        reviewCount: "13",
+        reviewCount: "11",
         bestRating: "5",
         worstRating: "1",
       },

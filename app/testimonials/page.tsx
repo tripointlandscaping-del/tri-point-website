@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews & Testimonials | Tri-Point Landscaping — Macomb County, MI",
+  title: "Customer Reviews | Tri-Point Landscaping — Macomb County, MI",
   description:
     "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township, Rochester Hills & more. Call (586) 327-8080.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com/testimonials" },
   openGraph: {
-    title: "Customer Reviews | Tri-Point Landscaping — 4.9★ Google Rating",
+    title: "Customer Reviews | Tri-Point Landscaping — 4.9★ Rating",
     description: "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating across Washington Township, Shelby Township & more.",
     url: "https://www.tripointlandscaping.com/testimonials",
     siteName: "Tri-Point Landscaping",
@@ -104,7 +104,7 @@ export default function TestimonialsPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "13",
+      reviewCount: "11",
       bestRating: "5",
       worstRating: "1",
     },
