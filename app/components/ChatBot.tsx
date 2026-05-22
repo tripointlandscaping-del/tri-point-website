@@ -7,7 +7,7 @@ import Link from "next/link";
 /* ─── Employee persona ─── */
 const EMPLOYEE = {
   name: "Jake",
-  full: "Jake M.",
+  full: "Jake Z.",
   title: "Service Coordinator",
   avatar: "/Social_Profile (3).jpg",
 };
