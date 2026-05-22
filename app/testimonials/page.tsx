@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Customer Reviews | Tri-Point Landscaping — Macomb County, MI",
   description:
-    "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township, Rochester Hills & more. Call (586) 327-8080.",
+    "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township & more.",
   keywords: [
     "Tri-Point Landscaping reviews",
     "landscaping company reviews Macomb County MI",

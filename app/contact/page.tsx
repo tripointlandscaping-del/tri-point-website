@@ -8,7 +8,7 @@ import ServiceAreaChecker from "../components/ServiceAreaChecker";
 export const metadata: Metadata = {
   title: "Free Estimate — Macomb County, MI | Tri-Point Landscaping",
   description:
-    "Request a free estimate from Tri-Point Landscaping — landscaping, lawn care, snow removal & more. Serving Washington Township, Shelby Township & all of Macomb County, MI. Same-day response.",
+    "Get a free estimate for lawn care, landscaping & snow removal in Macomb County, MI. Serving Washington Township, Shelby Township & more. Same-day response.",
   keywords: [
     "free landscaping estimate Macomb County MI",
     "free lawn care estimate Washington Township MI",

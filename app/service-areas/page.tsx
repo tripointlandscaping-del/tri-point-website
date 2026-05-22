@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Lawn Care & Landscaping Service Areas — Macomb & Oakland County | Tri-Point",
+  title: "Landscaping Service Areas — Macomb County, MI | Tri-Point",
   description:
-    "Tri-Point Landscaping serves Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. Professional lawn care, landscaping & snow removal across Macomb County and Oakland County, MI.",
+    "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills. Lawn care, landscaping & snow removal. Free estimates.",
   keywords: [
     "landscaping near me Macomb County",
     "lawn care Washington Township",

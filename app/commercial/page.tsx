@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Commercial Landscaping — Macomb County, MI | Tri-Point",
   description:
-    "Commercial landscaping, lawn maintenance, snow removal & grounds management for HOAs, business parks, retail centers & property managers in Macomb County, MI. Fully insured. Free estimates. Call (586) 327-8080.",
+    "Commercial landscaping & snow removal for HOAs and property managers in Macomb County, MI. Fully insured. Free estimates — call (586) 327-8080.",
   keywords: [
     "commercial landscaping Macomb County MI",
     "commercial lawn maintenance Macomb County",
