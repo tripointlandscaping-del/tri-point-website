@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Tri-Point Landscaping",
   description: "Privacy Policy for Tri-Point Landscaping LLC — Washington Township, Michigan. How we collect, use, and protect your personal information.",
   alternates: { canonical: "https://www.tripointlandscaping.com/privacy-policy" },
+  openGraph: {
+    title: "Privacy Policy | Tri-Point Landscaping",
+    description: "Privacy Policy for Tri-Point Landscaping LLC — Washington Township, Michigan. How we collect, use, and protect your personal information.",
+    url: "https://www.tripointlandscaping.com/privacy-policy",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County, MI" }],
+  },
 };
 
 const sections = [

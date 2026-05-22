@@ -11,6 +11,7 @@ import CursorGlow from "./components/CursorGlow";
 import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
+import { posts } from "./blog/posts";
 
 export const metadata: Metadata = {
   title: "Lawn Care & Landscaping — Macomb County, MI | Tri-Point",
@@ -990,6 +991,38 @@ export default function HomePage() {
                     ))}
                   </ul>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ═══ BLOG PREVIEW ═══ */}
+        <section className="py-24 bg-white border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-6">
+            <AnimateOnScroll animation="fade-up" className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+              <div>
+                <span className="section-line" />
+                <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Lawn Care Tips</p>
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
+                  From the Tri-Point Blog
+                </h2>
+              </div>
+              <Link href="/blog" className="text-green-700 text-sm font-semibold hover:underline flex items-center gap-1 shrink-0">
+                All Articles →
+              </Link>
+            </AnimateOnScroll>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {posts.slice(-3).reverse().map((post, i) => (
+                <AnimateOnScroll key={post.slug} animation="fade-up" delay={i * 80}>
+                  <Link href={`/blog/${post.slug}`} className="group flex flex-col h-full border border-gray-100 hover:border-green-300 hover:shadow-lg transition-all p-7">
+                    <span style={{ color: "#2C5F2E" }} className="text-xs font-bold uppercase tracking-widest mb-3">{post.category}</span>
+                    <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-lg font-bold text-gray-900 group-hover:text-green-800 transition-colors leading-snug mb-3">
+                      {post.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed flex-1">{post.description}</p>
+                    <p className="text-xs text-gray-400 mt-4 pt-4 border-t border-gray-100">{post.date} · {post.readTime}</p>
+                  </Link>
+                </AnimateOnScroll>
               ))}
             </div>
           </div>

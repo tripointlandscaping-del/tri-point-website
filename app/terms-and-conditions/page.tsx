@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   description:
     "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, cancellation policy, and more.",
   alternates: { canonical: "https://www.tripointlandscaping.com/terms-and-conditions" },
+  openGraph: {
+    title: "Terms & Conditions | Tri-Point Landscaping",
+    description: "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, and cancellation policy.",
+    url: "https://www.tripointlandscaping.com/terms-and-conditions",
+    siteName: "Tri-Point Landscaping",
+    type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County, MI" }],
+  },
 };
 
 const sections = [
