@@ -1026,7 +1026,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     },
     description: `Professional landscaping, lawn care, snow removal, and property services in ${area.name}, Michigan. Serving all of ${county}. Free estimates — call (586) 327-8080.`,
     priceRange: "$$",
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "11" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "12" },
   };
 
   const faqSchema = {
