@@ -19,6 +19,16 @@ export const metadata: Metadata = {
     "lawn maintenance questions Shelby Township",
     "best landscaping company Macomb County",
     "landscaping estimate Macomb County MI",
+    "why is my grass yellow Michigan",
+    "how to fix bare spots in lawn Michigan",
+    "best grass seed for Michigan",
+    "how to get rid of weeds in lawn Michigan",
+    "snow removal cost Macomb County",
+    "when to overseed lawn Michigan",
+    "muddy yard fix Michigan",
+    "overgrown lawn cleanup Macomb County",
+    "do I need a new lawn Michigan",
+    "lawn renovation vs repair Macomb County",
   ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/faq",
@@ -171,6 +181,38 @@ const faqs = [
   {
     q: "What areas do you do hardscaping in?",
     a: "We do hardscaping — patios, retaining walls, walkways, fire pits, and outdoor living spaces — throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
+  },
+  {
+    q: "Why is my grass turning yellow?",
+    a: "Yellow grass in Macomb County is usually caused by one of six things: drought stress, nitrogen deficiency, soil compaction, grub damage, fungal disease, or scalping (cutting too short). The fix depends on the cause — watering more won't help if your soil is compacted, and fertilizing won't fix an active fungal outbreak. If you're not sure what's wrong, call us at (586) 327-8080 and we'll take a look during a free estimate visit.",
+  },
+  {
+    q: "What grass seed is best for Michigan?",
+    a: "Cool-season grasses are standard for Macomb County lawns. Kentucky bluegrass is the most popular — excellent quality, rich color, and drought-tolerant once established. Tall fescue handles shade and drought better and establishes faster. Perennial ryegrass germinates the quickest and is often blended with bluegrass to speed up new lawn establishment. For most Macomb County homeowners, a Kentucky bluegrass/perennial ryegrass blend gives the best combination of quality and establishment speed.",
+  },
+  {
+    q: "How do I get rid of weeds in my lawn?",
+    a: "The most effective long-term weed control is a thick, healthy lawn — dense turf leaves no room for weeds to establish. For active weed problems: apply pre-emergent herbicide in mid-April (before soil hits 50°F) to block crabgrass germination. Broadleaf weeds like dandelions and clover respond well to selective post-emergent herbicides applied in spring or fall. Avoid spraying during summer heat stress. The best permanent fix is improving lawn density through aeration, overseeding, and proper fertilization so weeds have no opening.",
+  },
+  {
+    q: "How much does snow removal cost in Macomb County?",
+    a: "Snow removal pricing in Macomb County typically runs $40–$90 per push for a standard residential driveway, depending on driveway size and snowfall amount. Seasonal contracts — which cover all storms automatically — generally run $350–$700 for a full winter season and are the most cost-effective option for homeowners who want guaranteed service without calling each storm. Salting and de-icing are usually priced separately. Call (586) 327-8080 for a free estimate on your specific property.",
+  },
+  {
+    q: "When is the best time to overseed a lawn in Michigan?",
+    a: "Late August through September is the best time to overseed in Michigan. Soil is still warm from summer (critical for germination), air temps are cooling down (reducing stress on seedlings), weed pressure is low, and fall rains are more reliable than mid-summer. Overseeding after core aeration gives seed excellent soil contact and dramatically improves results. Spring overseeding (late April–May) is possible but must be timed carefully around pre-emergent herbicide applications.",
+  },
+  {
+    q: "How do I fix muddy or wet spots in my yard?",
+    a: "Persistent muddy spots in Macomb County are almost always a drainage issue. Common causes include low-lying grading that collects water, compacted clay soil that won't absorb moisture, downspout discharge pooling in one area, or a high water table in low-lying neighborhoods. Solutions depend on the cause: regrading to redirect runoff, installing a French drain, extending downspouts, or improving soil structure through aeration and amendment. We assess drainage issues during our free estimates — call (586) 327-8080 and we'll tell you exactly what's going on.",
+  },
+  {
+    q: "Do you handle overgrown or neglected properties?",
+    a: "Yes. We regularly take on properties that haven't been maintained in months or years — overgrown grass, overgrown beds, invasive weeds, dead shrubs, and neglected landscaping. We'll walk the property during a free estimate and give you a realistic plan and timeline to get it back to shape. Many of these projects can be completed in a single day. Call (586) 327-8080 to schedule.",
+  },
+  {
+    q: "How do I know if I need a new lawn or just repairs?",
+    a: "If less than 50% of your lawn is bare, thin, or weedy, targeted spot seeding and aeration with overseeding can usually restore it. If more than half the lawn is in poor condition — or if the soil is severely compacted, has major grading problems, or is infested with perennial weeds — a full lawn renovation (kill, grade, seed) is usually more cost-effective than patching. We'll give you an honest assessment during your free estimate rather than recommending the more expensive option if it's not necessary.",
   },
 ];
 

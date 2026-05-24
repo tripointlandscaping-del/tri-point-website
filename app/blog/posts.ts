@@ -5698,4 +5698,221 @@ Tri-Point Landscaping handles winter maintenance for driveways throughout Washin
 **Call us today at [(586) 327-8080](tel:+15863278080) for a free estimate**, or visit [tripointlandscaping.com](/contact) to schedule a consultation. We'll make sure your driveway is protected before the real Michigan winter hits.
     `,
   },
+  {
+    slug: "why-is-my-grass-turning-yellow-macomb-county",
+    title: "Why Is My Grass Turning Yellow? Common Causes in Macomb County, MI",
+    description: "Yellow grass is one of the most common lawn problems in Michigan. Here's how to diagnose the cause and fix it before it gets worse.",
+    date: "May 24, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## Yellow Grass Is a Symptom, Not a Diagnosis
+
+If your lawn is turning yellow in Macomb County, you're not alone — it's one of the most common complaints we hear from homeowners in Washington Township, Shelby Township, and Rochester Hills. The frustrating part is that yellow grass can mean a dozen different things. Watering more won't fix it if the problem is compaction. Fertilizing won't help if the issue is fungus. You need to diagnose before you treat.
+
+Here are the most common causes of yellow grass in Michigan, and how to tell which one you're dealing with.
+
+## 1. Drought Stress (Most Common in July–August)
+
+Michigan summers can be deceiving — it rains enough in spring and fall that many homeowners don't think about irrigation. But July and August in Macomb County regularly see stretches of 10–14 days with no significant rainfall, and that's when lawns go from green to straw-yellow fast.
+
+**How to tell:** The whole lawn yellows uniformly, starting in areas with the most sun exposure. The grass blades curl inward lengthwise. When you walk across the lawn, your footprints don't spring back.
+
+**Fix:** Deep, infrequent watering — 1 to 1.5 inches per week, ideally applied twice weekly rather than daily. Water in the early morning to minimize evaporation. Most lawns in Michigan's clay soil can't absorb more than 0.5 inches per hour, so slow and deep beats fast and shallow.
+
+## 2. Nitrogen Deficiency
+
+Nitrogen is the nutrient responsible for the green pigment in grass blades. When your lawn is running low, it starts yellowing from the oldest blades first — usually showing as a pale, washed-out yellow rather than a brown, scorched look.
+
+**How to tell:** Yellowing starts uniformly across the lawn and is most pronounced in areas where the soil is sandier or where you haven't fertilized in over 6–8 weeks. The lawn looks thin and pale rather than patchy.
+
+**Fix:** A balanced slow-release fertilizer applied in late spring and again in early fall. In Macomb County's clay-heavy soil, fall fertilization (September–October) is the single most important application of the year.
+
+## 3. Compacted Soil
+
+Clay soil — which covers most of Macomb County — compacts under foot traffic, lawn equipment, and freeze-thaw cycles. Compacted soil prevents water and oxygen from reaching roots, effectively starving the grass from below even when you're watering from above.
+
+**How to tell:** The lawn stays yellow despite adequate rainfall. Water puddles instead of soaking in after rain. Push a screwdriver into the soil — if it won't go deeper than 2 inches, the soil is compacted.
+
+**Fix:** Core aeration — the process of pulling small plugs from the soil to open up air and water channels. In Macomb County, the best time to aerate is late August through October. See our post on [5 signs your lawn needs aeration](/blog/5-signs-your-lawn-needs-aeration) for more detail.
+
+## 4. Grub Damage
+
+Japanese beetle grubs feed on grass roots just below the soil surface from late summer through early fall. You won't see them — but the damage shows up as yellow or brown patches that feel spongy and actually lift off the ground like a loose carpet because the roots have been eaten away.
+
+**How to tell:** Pull back a yellow patch — if the turf lifts easily and you see white, C-shaped grubs in the top 2 inches of soil, that's your answer. Skunks and raccoons digging in your lawn overnight is another strong indicator.
+
+**Fix:** Grub control products applied in June–July before grubs hatch are most effective. For active infestations in August–September, curative treatments exist but are less reliable. Heavily damaged areas may need to be reseeded in fall.
+
+## 5. Fungal Disease
+
+Macomb County's humid summer weather creates ideal conditions for several lawn fungal diseases — particularly dollar spot, brown patch, and pythium blight. These typically appear as irregularly shaped yellow or brown patches rather than uniform fading.
+
+**How to tell:** The yellowing is patchy and irregular, often with a defined border. You may notice a white or gray fungal growth in the early morning before dew evaporates. Patches are usually circular or irregular, ranging from baseball-sized to several feet across.
+
+**Fix:** Improve air circulation by raising your mowing height, watering in the morning (not evening), and reducing nitrogen applications during hot humid stretches. Fungicide applications can stop active outbreaks but won't fix the underlying conditions.
+
+## 6. Scalping (Cutting Too Short)
+
+Cutting cool-season grass below 2.5 inches removes too much of the blade and exposes the crown to heat and UV stress. The result is a yellowish-brown scalped look, especially in summer.
+
+**How to tell:** The scalping appears immediately after mowing and is most pronounced on uneven terrain where the mower deck dips low on bumps.
+
+**Fix:** Raise your mower deck. Michigan lawns (Kentucky bluegrass, fescue, ryegrass) should be cut at 3 to 3.5 inches during the growing season. Never remove more than one-third of the blade in a single cut.
+
+## Not Sure What's Wrong? We'll Tell You.
+
+If you're looking at a yellow lawn in Macomb County and aren't sure where to start, give Tri-Point Landscaping a call. We'll take a look at your property, identify the cause, and give you a clear plan to fix it. Estimates are always free.
+
+[Contact us online](/contact) or call [(586) 327-8080](tel:+15863278080) — we serve Washington Township, Shelby Township, Macomb Township, Rochester Hills, and all of Macomb County.
+    `,
+  },
+  {
+    slug: "how-much-does-lawn-care-cost-macomb-county",
+    title: "How Much Does Lawn Care Cost in Macomb County, MI? (2026 Pricing Guide)",
+    description: "Wondering what lawn care costs in Macomb County? Here's a realistic pricing breakdown for mowing, cleanups, aeration, mulch, and more from a local company.",
+    date: "May 24, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+## What Does Lawn Care Actually Cost in Macomb County?
+
+One of the most common questions we get from homeowners in Washington Township, Shelby Township, and Rochester Hills is some version of: "How much does this cost?" It's a fair question — and the honest answer is that it depends. But "it depends" isn't useful if you're trying to budget, so here's a real-world breakdown of what lawn care services typically cost in Macomb County in 2026.
+
+These are real ranges based on what local companies (including us) actually charge — not national averages from a website that's never seen a Michigan lawn.
+
+## Weekly Lawn Mowing
+
+**Average cost: $40–$75 per visit** for a typical residential lot in Macomb County (roughly 6,000–12,000 sq ft of turf).
+
+What's included in a professional visit: mowing at the correct height, edging along all hard surfaces, string trimming around obstacles, and blowing clippings off the driveway and walkways.
+
+Factors that push the price higher:
+- Large properties over 15,000 sq ft of turf
+- Lots with lots of obstacles (trees, gardens, fencing)
+- Bi-weekly cuts (overgrown grass takes more time)
+- Gated properties or long access routes
+
+Most homeowners in Washington Township and Shelby Township on a weekly maintenance plan pay **$160–$280 per month** during the April–October season.
+
+## Spring & Fall Cleanup
+
+**Spring cleanup: $175–$450** for a typical residential property.
+**Fall cleanup: $200–$500** depending on tree coverage.
+
+Cleanups involve significantly more labor than a regular mow — debris removal, bed edging, trimming, and hauling. Properties with heavy leaf coverage, lots of garden beds, or that weren't cleaned in fall will be at the higher end.
+
+## Core Aeration
+
+**Average cost: $100–$225** for a typical residential lawn.
+
+Aeration involves mechanically removing plugs of soil across the entire lawn to reduce compaction. Most Macomb County lawns benefit from annual aeration in fall. The price varies based on lawn size and accessibility.
+
+## Overseeding
+
+**Average cost: $150–$350** (often bundled with aeration).
+
+Overseeding after aeration dramatically improves results — seed falls into the aeration holes and has excellent soil contact. If you're aerating, you should almost always overseed at the same time.
+
+## Mulch Installation
+
+**Average cost: $75–$120 per yard of mulch installed** (materials + labor).
+
+A typical residential property with moderate landscaping takes 3–8 yards of mulch. So budget **$300–$900 for a full mulch refresh** for most homes. Properties with large or complex bed systems can run higher.
+
+## Landscaping Projects
+
+Landscaping project costs vary widely:
+
+- **Small planting projects** (a few shrubs, annuals): $300–$800
+- **Full bed renovation** (remove old, redesign, replant): $800–$3,000+
+- **Full front yard landscape design + installation**: $3,000–$12,000+
+
+## What Makes Lawn Care More or Less Expensive?
+
+**Drives price up:**
+- Property size
+- Frequency (bi-weekly costs more per cut than weekly)
+- Complexity (slopes, lots of beds, obstacles)
+- Time of year (peak spring demand)
+
+**Drives price down:**
+- Seasonal contracts vs. one-off calls (contract customers typically get better pricing)
+- Bundling services (mowing + cleanup + aeration together)
+- Signing early before the spring rush
+
+## Get an Exact Number — Free
+
+The best way to know what your lawn will cost is to get a free estimate. We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. We'll assess your property and give you a transparent, no-obligation quote same day.
+
+[Request a free estimate online](/contact) or call [(586) 327-8080](tel:+15863278080). We typically respond within the hour during business hours.
+    `,
+  },
+  {
+    slug: "how-to-fix-bare-spots-lawn-michigan",
+    title: "How to Fix Bare Spots in Your Lawn — Michigan Homeowner's Guide",
+    description: "Bare patches in your Michigan lawn are fixable. Here's how to diagnose the cause, prep the soil, and seed it correctly for lasting results in Macomb County.",
+    date: "May 24, 2026",
+    category: "Lawn Renovations",
+    readTime: "5 min read",
+    content: `
+## Why Does My Lawn Have Bare Spots?
+
+Bare spots in a Macomb County lawn don't appear randomly — there's always a reason. Treating the symptom (overseeding) without addressing the cause is why so many homeowners re-seed the same spots year after year and wonder why nothing sticks.
+
+Before you buy grass seed, diagnose the cause. Here are the most common culprits in Michigan.
+
+## Common Causes of Bare Spots in Michigan Lawns
+
+**Heavy foot traffic.** Paths across the lawn, play areas, and spots where kids cut corners compact the soil over time. Compacted soil can't sustain healthy turf roots, so grass thins and eventually dies out.
+
+**Grub damage.** Japanese beetle grubs eat grass roots from below in late summer. The turf lifts like a loose carpet because the roots are gone. If you pull back a bare patch and see C-shaped white grubs in the top 2 inches of soil, grubs are your problem.
+
+**Dog urine.** The nitrogen in dog urine is concentrated enough to burn grass, leaving small circular dead patches with a darker green ring around the edge (the outer area gets a low-nitrogen "fertilizer" effect).
+
+**Fungal disease.** Dollar spot, brown patch, and pythium blight all create irregular bare or thin patches, especially in humid Michigan summers. Circular or ring-shaped bare areas with a defined edge often indicate disease.
+
+**Shade.** Areas under dense trees — common in the older neighborhoods around Romeo and Washington Township — often thin out because most lawn grasses need 6+ hours of direct sun.
+
+**Poor soil or drainage.** Low spots that stay wet, or areas with heavily compacted clay, will struggle to grow grass regardless of how much seed you apply.
+
+## How to Fix Bare Spots the Right Way
+
+Once you've identified the cause, here's how to repair the damage.
+
+**Step 1: Address the underlying problem first.**
+Aerating compacted areas, treating for grubs, or improving drainage before seeding is the difference between a fix that lasts and one that fails again next season.
+
+**Step 2: Prep the soil.**
+Rough up the bare area with a steel rake to a depth of about 1 inch. Remove dead grass and debris. If the soil is severely compacted, loosen it to 2–3 inches. Mix in a thin layer of compost if available.
+
+**Step 3: Choose the right seed for Michigan.**
+In Macomb County, cool-season grasses are the standard:
+- **Kentucky bluegrass** — excellent quality, slower to establish, drought-tolerant once mature
+- **Tall fescue** — more shade and drought tolerant, establishes faster
+- **Perennial ryegrass** — fastest germination, often mixed with bluegrass to speed establishment
+
+Match your seed to your existing lawn type as closely as possible for a seamless look.
+
+**Step 4: Seed at the right rate.**
+For bare spots: 6–8 lbs per 1,000 sq ft of pure Kentucky bluegrass, or 8–10 lbs per 1,000 sq ft for fescue/ryegrass blends. More is not better — overcrowded seedlings compete and thin out.
+
+**Step 5: Keep it moist until established.**
+This is where most repairs fail. New seed needs consistent moisture — light watering twice daily for the first 2–3 weeks. Letting it dry out even once during germination can kill the seedlings. Once grass reaches 2 inches, shift to deeper, less frequent watering.
+
+## The Best Time to Seed in Macomb County
+
+**Late August through September is the ideal window.** Soil is warm enough for fast germination, air temps are cooling down (reducing stress on seedlings), and there's typically more reliable rainfall than mid-summer. Weed pressure is also much lower in fall than spring.
+
+Spring seeding (late April–May) works but competes with crabgrass and requires pre-emergent timing to be managed carefully.
+
+**Avoid summer seeding entirely** — heat and drought kill seedlings before they establish.
+
+## When to Call a Pro
+
+If more than 30–40% of your lawn is affected, a full lawn renovation is almost always more cost-effective than patching area by area. We'll assess your lawn during a free estimate and give you an honest recommendation — whether that's spot seeding, full aeration and overseeding, or complete renovation.
+
+[Contact Tri-Point Landscaping](/contact) for a free lawn assessment, or call [(586) 327-8080](tel:+15863278080). We serve Washington Township, Shelby Township, Macomb Township, Rochester Hills, and all of Macomb County, MI.
+    `,
+  },
 ];

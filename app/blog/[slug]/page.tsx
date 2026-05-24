@@ -44,6 +44,10 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
     { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
     { name: "Landscaping", href: "/services/landscaping" },
   ],
+  "Lawn Maintenance": [
+    { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
+    { name: "Lawn Renovations", href: "/services/lawn-renovations" },
+  ],
 };
 
 export function generateStaticParams() {
