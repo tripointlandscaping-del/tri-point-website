@@ -201,6 +201,7 @@ export default function RootLayout({
                 ],
               },
               foundingDate: "2020",
+              priceRange: "$$",
               paymentAccepted: "Cash, Check, Credit Card, Venmo, Zelle",
               currenciesAccepted: "USD",
               contactPoint: {

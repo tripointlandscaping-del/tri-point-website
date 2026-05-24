@@ -32,6 +32,14 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
     { name: "Hardscaping", href: "/services/hardscaping" },
     { name: "Landscaping", href: "/services/landscaping" },
   ],
+  "Mulch & Stone": [
+    { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
+    { name: "Landscaping", href: "/services/landscaping" },
+  ],
+  "Commercial": [
+    { name: "Commercial Landscaping", href: "/services/commercial" },
+    { name: "Snow Removal", href: "/services/snow-removal" },
+  ],
   "Tips": [
     { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
     { name: "Landscaping", href: "/services/landscaping" },
@@ -111,7 +119,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
 
-  const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
+  const related = posts
+    .filter((p) => p.slug !== slug && p.category === post.category)
+    .slice(-2)
+    .concat(
+      posts.filter((p) => p.slug !== slug && p.category !== post.category).slice(-2)
+    )
+    .slice(0, 2);
   const relatedServices = categoryServiceMap[post.category] ?? [];
 
   const breadcrumbSchema = {
