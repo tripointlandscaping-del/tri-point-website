@@ -5980,5 +5980,66 @@ If you'd rather have professionals handle garden bed preparation, weeding, and m
 
 **Ready to tackle weeds the right way?** [Contact Tri-Point Landscaping](/contact) today or call [(586) 327-8080](tel:+15863278080) for a free estimate. We offer complete garden bed cleanup, mulching, and seasonal maintenance so you spend less time pulling weeds and more time enjoying your yard.
     `,
+  }
+,
+  {
+    slug: "privacy-landscaping-michigan-macomb-county",
+    title: "How to Add Privacy to Your Yard with Landscaping in Michigan",
+    description: "Practical guide to creating yard privacy in Michigan. Learn which plants thrive in Macomb County soil, best timing, and proven landscaping strategies.",
+    date: "May 28, 2026",
+    category: "Landscaping",
+    readTime: "7 min read",
+    content: `
+## Stop Feeling Like Your Neighbors Can See Everything
+
+If you're tired of feeling exposed in your own backyard, you're not alone. In Washington Township and across Macomb County, Michigan, many homeowners deal with properties that feel too open—whether it's a busy street, close neighbors, or sightlines directly into your patio. The good news? **Strategic landscaping is one of the most effective (and attractive) ways to block unwanted views without building an ugly fence**.
+
+Unlike a solid barrier that can make your yard feel cramped and industrial, the right plant selection and layering creates depth, natural beauty, and genuine privacy. And because Michigan's climate can be harsh on plants, knowing what actually survives our winters is critical.
+
+## Choose Plants That Handle Michigan Winters and Macomb County Soil
+
+Here's what most homeowners get wrong: they pick beautiful plants from a big-box store without checking if they'll actually survive a Michigan winter. In Macomb County, we get temperatures dropping to **-15°F to -20°F regularly**, and our soil tends toward **clay-heavy compositions with pH around 7.0 to 7.5**. That means fancy ornamentals often don't make it past February.
+
+For real privacy that lasts, stick with **evergreen shrubs and trees** that are proven to thrive in Michigan:
+
+- **Emerald Green Arborvitae**: Grows 40-60 feet tall, stays dense year-round, and tolerates clay soil beautifully. Plant them 4-5 feet apart for a tight screen.
+- **Boxwood varieties** (especially 'Green Mountain'): Compact, slow-growing, and dense. Works well for medium-height privacy.
+- **Canadian Yew**: Shade-tolerant, hardy to zone 2, and naturally thick. Great for wooded properties or shaded areas.
+- **Privet hedges**: Dense deciduous option if you don't mind losing leaves in winter. Fills in fast and clips to a formal look.
+
+**Pro tip from our experience in Washington Township**: Mix evergreens with deciduous shrubs like **serviceberry** and **viburnum**. This gives you year-round screening plus seasonal interest—you're not just creating a privacy wall, you're upgrading your landscape.
+
+## Layer Your Privacy Plan—Don't Rely on One Row
+
+Single rows of trees look skinny and awkward, especially the first few years they're growing. **Create depth by planting in layers**:
+
+- **Back layer (tallest)**: Arborvitae or Pine varieties (8-10 feet spacing)
+- **Middle layer (medium height)**: Boxwood or smaller evergreens (4-6 feet spacing)
+- **Front layer (lowest)**: Ornamental grasses or spreading shrubs (2-3 feet spacing)
+
+This tiered approach blocks sightlines at multiple heights and fills in visual gaps faster than waiting for one row to mature. In Macomb County's growing season (typically **May through September**), a well-planted three-layer screen will show noticeable density improvement within 2-3 seasons.
+
+## Timing and Planting Matter—Spring and Fall Work Best
+
+**Plant evergreens in Michigan between late April and mid-May, or in early fall (September through October)**. These windows give roots time to establish before extreme heat or cold stress.
+
+Avoiding summer planting is critical—Michigan's unpredictable June-August weather (we can swing 40+ degrees in a week) stresses new plants. Fall planting actually gives roots a head start over winter, though young trees planted in fall need consistent moisture through dry spells before the ground freezes.
+
+When you plant, **amend Macomb County clay with 3-4 inches of quality compost**. Our native clay drains poorly and compacts easily. Breaking it up and mixing in organic matter makes the difference between a plant that survives and one that thrives.
+
+## Don't Forget Maintenance—New Plants Need Support
+
+Your first year after planting is crucial. **Water deeply 2-3 times weekly during dry spells** (more than just surface dampening). Mulch with **2-3 inches of hardwood mulch**, keeping it 6 inches away from the trunk to prevent rot.
+
+Skip fertilizer the first year—it encourages tender new growth when the plant should be focusing on root establishment. By year two, you can add a balanced slow-release fertilizer in early spring.
+
+## Start Your Privacy Project Before Peak Growing Season
+
+Right now is the ideal window. **Late May through early June is when nurseries have full stock, your planting window is open, and you have the entire growing season ahead**. Wait until July or August, and you're fighting heat stress and reduced selection.
+
+If you're unsure which plants work best for your specific property, soil condition, and privacy needs, that's exactly what we handle at Tri-Point Landscaping. We've planted hundreds of privacy screens across Washington Township and Macomb County—we know what thrives in our clay, what survives our winters, and how to design layering that actually blocks views.
+
+**[Contact Tri-Point Landscaping today for a free estimate.](tel:+15863278080)** Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a property walk-through. We'll assess your site, recommend Michigan-hardy plants for your soil, and design a privacy solution that looks good from day one and gets better every year.
+    `,
   },
 ];
