@@ -6041,5 +6041,55 @@ If you're unsure which plants work best for your specific property, soil conditi
 
 **[Contact Tri-Point Landscaping today for a free estimate.](tel:+15863278080)** Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a property walk-through. We'll assess your site, recommend Michigan-hardy plants for your soil, and design a privacy solution that looks good from day one and gets better every year.
     `,
+  }
+,
+  {
+    slug: "lawn-stripes-uneven-color-after-mowing-macomb-county",
+    title: "Why Your Lawn Has Stripes or Uneven Color After Mowing in Macomb County",
+    description: "Local lawn care guide explaining stripe patterns and color issues after mowing. Get real solutions from a Washington Township landscaping expert.",
+    date: "June 2, 2026",
+    category: "Lawn Care",
+    readTime: "5 min read",
+    content: `
+If you've noticed your freshly mowed lawn looking like a baseball field with alternating stripes, or worse—patches of pale and dark green after you mow—you're not alone. This happens constantly in Macomb County, and most homeowners assume they're doing something wrong. Here's the truth: **those stripes and color variations are usually not damage. They're mostly optical illusions mixed with a few fixable mowing habits.**
+
+## The Stripe Effect Is Mostly an Illusion
+
+That crisp striped pattern you see after mowing isn't actually different grass colors or heights—it's the grass blade bending direction. When you mow in one direction, the mower wheels slightly bend the grass blade toward the mower's path. The light reflects differently off bent grass versus upright grass, creating that dramatic striped look. If you mow in the opposite direction the next week, those same stripes flip and appear to be in different lanes.
+
+This is completely harmless. **Your grass isn't damaged; it's just combed in different directions.** The stripes typically disappear within 3-5 days as the grass naturally straightens back up—especially during Michigan's humid growing seasons (May through August) when grass recovers quickly from mowing stress.
+
+## When Color Changes Actually Mean a Problem
+
+Uneven coloring is different from stripes. If you're seeing actual pale or yellowed sections after mowing that don't match the rest of your lawn, one of these is likely happening:
+
+**Scalping (cutting too short).** This is the biggest culprit in Washington Township lawns. Many homeowners set their mower deck too low, shaving grass down to 1.5 inches or less. Scalped grass exposes the yellowing leaf tissue underneath the green blade tip, and it takes 7-10 days to recover. For Macomb County's clay-heavy soils and our summer heat, **never cut shorter than 2.5 to 3 inches**. Taller grass shades soil, reduces water loss, and outcompetes weeds—critical during our hot, dry Julys.
+
+**Dull mower blades.** A blade that's been used since spring without sharpening will tear grass instead of cleanly cutting it. Torn grass turns brown at the edges within hours and looks pale or stressed. Check your blade every 20 hours of mowing. If you can run your finger along the edge without it being razor-sharp, it needs sharpening. Local hardware stores in Washington Township can sharpen blades for $10-15, or do it yourself with a metal file in 10 minutes.
+
+**Mowing wet grass.** After our frequent spring and early summer rains in Macomb County, many people rush to mow. Wet grass clumps, doesn't cut cleanly, and compacts under the mower wheels. Wait until grass is dry—usually 4-6 hours after rain. The blades will cut crisply, and you'll avoid wheel-rutting in our moisture-prone clay soils.
+
+## Your Mowing Action Plan
+
+Fix uneven color and stripe problems with these specific steps:
+
+- **Check your deck height today.** Place your mower on a flat surface and measure from the ground to the blade at four points (corners and center). All measurements should match your desired height (2.5-3 inches for most Michigan lawns). Adjust until they're consistent.
+- **Inspect and sharpen your blade.** Remove the spark plug wire first for safety. Check for nicks, bends, or dull edges. File both sides of the blade evenly so it balances—an unbalanced blade causes vibration and uneven cutting.
+- **Vary your mowing direction weekly.** If you mowed north-south last week, mow east-west this week. This prevents soil compaction in the same lines and prevents grain from developing in your turf.
+- **Mow when grass is dry.** Aim for late afternoon mowing, after morning dew has evaporated. This is especially important during our humid Michigan summers.
+- **Don't remove more than one-third of the blade in one mow.** If your grass is 4 inches tall and you want it at 3 inches, that's fine. If it's 5 inches, stop at 3.5 inches and mow again 2-3 days later.
+
+## When to Call a Professional
+
+If you've adjusted your mower, sharpened the blade, and waited for dry conditions—and your lawn still shows uneven color in specific spots that don't follow mowing lines—the problem might be fungal disease, soil compaction, or pest damage. These issues are common in Macomb County's clay soils, especially during wet springs like we had in 2024.
+
+**The right time to address lawn problems is now, in early June.** Your grass is actively growing, recovery is fastest, and treatments work best before summer stress sets in. The Tri-Point Landscaping team can diagnose what's really happening with your lawn and fix it—whether it's a quick mower adjustment or deeper lawn care.
+
+## Get Your Lawn Checked This Week
+
+Don't spend another season frustrated by lawn stripes and color problems. **Call Tri-Point Landscaping at [(586) 327-8080](tel:+15863278080) for a free lawn assessment.** We'll inspect your mower settings, explain exactly what's happening with your lawn, and give you a specific plan to fix it. We serve all of Washington Township and Macomb County—and we offer **free estimates on all lawn care services**.
+
+Visit us at [tripointlandscaping.com](https://tripointlandscaping.com) or [contact Tri-Point Landscaping](/contact) today. June is the perfect month to make changes that'll keep your lawn looking sharp all summer.
+    `,
   },
 ];
