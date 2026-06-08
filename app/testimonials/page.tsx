@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Reviews — Macomb County, MI" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Customer Reviews | Tri-Point Landscaping — 4.9★ Rating",
+    description: "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township & more.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+  },
 };
 
 const reviews = [
@@ -104,7 +110,7 @@ export default function TestimonialsPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "12",
+      reviewCount: "14",
       bestRating: "5",
       worstRating: "1",
     },

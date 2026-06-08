@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Referral Program" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
+    description: "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+  },
 };
 
 const steps = [

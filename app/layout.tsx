@@ -172,7 +172,7 @@ export default function RootLayout({
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "12",
+                reviewCount: "14",
               },
               areaServed: [
                 { "@type": "City", "name": "Washington Township", "containedInPlace": { "@type": "AdministrativeArea", "name": "Macomb County, Michigan" } },

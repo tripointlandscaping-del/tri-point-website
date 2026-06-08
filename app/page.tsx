@@ -62,6 +62,21 @@ export const metadata: Metadata = {
     "commercial grounds maintenance Macomb County",
   ],
   alternates: { canonical: "https://www.tripointlandscaping.com" },
+  openGraph: {
+    title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
+    description: "Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. 4.9★ rated. Free estimates — (586) 327-8080.",
+    url: "https://www.tripointlandscaping.com",
+    siteName: "Tri-Point Landscaping",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County Lawn Care & Landscaping" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
+    description: "Macomb County's locally owned lawn care & landscaping company. 4.9★ rated. Free estimates — (586) 327-8080.",
+    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+  },
 };
 
 const marqueeItems = [
@@ -184,7 +199,7 @@ const homepageBusinessSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "12",
+    reviewCount: "14",
     bestRating: "5",
     worstRating: "1",
   },

@@ -6,6 +6,14 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Leave a Google Review | Tri-Point — Macomb County, MI",
   description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
+  keywords: [
+    "leave a Google review Tri-Point Landscaping",
+    "rate landscaping company Macomb County",
+    "Google review landscaper Washington Township",
+    "Tri-Point Landscaping review",
+    "landscaping company rating Macomb County MI",
+    "lawn care reviews Michigan",
+  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/review" },
   openGraph: {
     title: "Rate Tri-Point Landscaping | Leave a Google Review",
@@ -55,7 +63,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "12",
+    reviewCount: "14",
     bestRating: "5",
     worstRating: "1",
   },
