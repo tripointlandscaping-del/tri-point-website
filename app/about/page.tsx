@@ -8,6 +8,18 @@ export const metadata: Metadata = {
   title: "About Tri-Point Landscaping | Macomb County, MI",
   description:
     "Tri-Point Landscaping is Macomb County's locally owned, fully insured landscaping company. Serving Washington Township, Shelby Township & all of Macomb County. Free estimates — no obligation.",
+  keywords: [
+    "landscaper in macomb mi",
+    "landscapers near me",
+    "landscaping near me",
+    "landscaping macomb mi",
+    "lawn care macomb mi",
+    "lawn care washington mi",
+    "local landscaping company Macomb County MI",
+    "about Tri-Point Landscaping",
+    "Macomb County landscaping company",
+    "insured landscaper near me Michigan",
+  ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/about",
   },
