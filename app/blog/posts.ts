@@ -6176,5 +6176,67 @@ Hiring the wrong landscaper costs money, time, and peace of mind. The right one 
 
 If you're in Washington Township or anywhere across Macomb County and you're ready to talk to a landscaper that operates with transparency, local expertise, and a real commitment to your property, **[contact Tri-Point Landscaping today](tel:+15863278080)**. Call us at **(586) 327-8080** or visit **tripointlandscaping.com**. We provide free written estimates, carry full insurance, and have years of local experience managing Michigan's specific soil and climate challenges. No pressure, no surprises—just honest landscaping.
     `,
+  }
+,
+  {
+    slug: "curb-appeal-front-walkway-michigan",
+    title: "How to Add Curb Appeal with a Front Walkway in Michigan",
+    description: "Learn how to design and install a front walkway that boosts curb appeal in Michigan's climate. Tips for Macomb County homeowners.",
+    date: "June 9, 2026",
+    category: "Landscaping",
+    readTime: "5 min read",
+    content: `
+## Your Front Walkway is the First Impression—Make It Count
+
+Your front walkway is the first thing visitors see when they pull into your driveway. In Washington Township and throughout Macomb County, Michigan, a well-designed walkway does more than just get people from point A to point B—it frames your entire home and signals whether you take pride in your property. A cracked, crumbling, or poorly laid-out path actually *reduces* curb appeal, while a thoughtful walkway design can increase your home's perceived value by thousands of dollars.
+
+The problem most homeowners face isn't knowing *if* they need a new walkway—it's knowing *how* to plan one that actually works in Michigan's freeze-thaw cycle, clay-heavy soil, and four distinct seasons.
+
+## Start with the Right Material for Michigan Weather
+
+Not all walkway materials hold up equally in Michigan. Our winters involve temperatures dropping to **15°F or lower**, freeze-thaw cycles that start in November and last through March, and heavy snow loads that homeowners have to shovel repeatedly across their walkways.
+
+**Concrete** remains the most popular choice in Macomb County because it's durable, affordable, and handles our climate reasonably well—but only if installed correctly. Standard 4-inch concrete slabs work for walkways, though 6 inches is better if you live near the clay-heavy soils common in Washington Township, which retain moisture and create heaving pressure underneath.
+
+**Pavers** (brick, stone, or permeable) offer more design flexibility and tend to resist frost heave better because they allow slight movement and water drainage. However, they cost 2-3 times more than concrete and require professional installation over a proper base.
+
+**Stamped or colored concrete** gives you the durability of concrete with aesthetic appeal—think slate texture, brick pattern, or warm earth tones. This is increasingly popular with Macomb County homeowners who want something that looks custom without the premium paver price.
+
+**Avoid:** Asphalt. It softens in Michigan's summer heat and cracks in winter cold. It's not worth the headache.
+
+## Plan the Path: Width, Direction, and Sight Lines
+
+A walkway that looks cramped or awkward actually *hurts* curb appeal instead of helping it. Here's what actually works:
+
+- **Width:** 3 feet minimum. Anything narrower feels stingy and forces two people to walk single-file. 4 feet is better and more welcoming.
+- **Straight vs. curved:** Straight walkways work best for modern homes and narrow lot frontages (common in Washington Township). Gentle curves (with a 6-8 foot radius) work for larger properties and cottage-style homes, but they cost more to install and shovel.
+- **Grade and drainage:** Your walkway should slope **1/8 inch per foot** away from your front door and house. Michigan gets 31-35 inches of precipitation per year—if water pools on your walkway, it freezes in winter and deteriorates the surface.
+- **Clearance:** Keep at least 4-5 feet of clear space on either side of the walkway for landscaping beds, plantings, or just visual breathing room.
+
+## Landscaping Frames the Walkway
+
+You can install a perfect concrete path, but if the borders are bare dirt or overgrown plants, it still looks unfinished. **The landscaping around your walkway is what makes it feel intentional.**
+
+Consider these options for Macomb County's growing conditions:
+
+- **Evergreen shrubs** (boxwood, dwarf arborvitae, or holly) line the walkway edges year-round and frame the path even in winter when everything else is dormant.
+- **Perennial borders** with coneflowers, black-eyed Susans, or sedums add color June through September and require minimal maintenance once established.
+- **Mulch beds** define the edges cleanly. Use 3 inches of mulch and refresh annually—Michigan winters can compact and settle it.
+- **Accent lighting** (solar path lights or small uplights on plantings) doesn't just look great at dusk; it also adds safety and makes your home feel intentional and well-maintained.
+
+## Timing Your Walkway Installation in Michigan
+
+The best time to install a new walkway in Macomb County is **late spring through early fall** (May-September). Concrete needs at least 48 hours without rain after being poured, and our spring weather is unpredictable. Ground frost typically leaves Michigan soil by late April, so you're not fighting frozen earth.
+
+Avoid October-November installations—you want your walkway to fully cure before our first hard freezes in late November.
+
+## Get Professional Design Input Now
+
+Walking into summer is the ideal time to plan and install a front walkway. The ground is workable, concrete contractors have reasonable lead times, and you'll enjoy the finished product all season while neighbors and visitors actually use it.
+
+Tri-Point Landscaping has been designing and installing front walkways throughout Washington Township and Macomb County for years. We understand local soil conditions, Michigan freeze-thaw patterns, and what materials actually last in our climate. **Free estimates—no obligation.** Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a walkway consultation. A professional eye can spot grading issues and design opportunities you might miss, and it costs you nothing to find out.
+
+Your home's front walkway is a small project with big impact. Let's make it count.
+    `,
   },
 ];
