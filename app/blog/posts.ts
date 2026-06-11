@@ -6238,5 +6238,86 @@ Tri-Point Landscaping has been designing and installing front walkways throughou
 
 Your home's front walkway is a small project with big impact. Let's make it count.
     `,
+  }
+,
+  {
+    slug: "how-to-install-landscape-edging-michigan",
+    title: "How to Install Landscape Edging in Michigan: A Washington Township Guide",
+    description: "Learn to install landscape edging in Michigan's climate. Step-by-step guide for edging beds before spring planting season.",
+    date: "June 11, 2026",
+    category: "Landscaping",
+    readTime: "7 min read",
+    content: `
+If your landscape beds are bleeding into your lawn and mulch keeps migrating into the grass, you're not alone—it's one of the most common problems we see in Macomb County yards. The good news? Installing landscape edging is a weekend project that'll solve this for years. Here's how to do it right for Michigan's specific soil and climate conditions.
+
+## Why Michigan Lawns Need Edging (And When the Soil Cooperates)
+
+Macomb County sits on clay-heavy soil that gets dense and compacted, especially after our freeze-thaw cycles from November through March. That means your mulch beds naturally want to spread—water erosion and winter heaving push material into the lawn constantly. **Landscape edging creates a physical barrier that actually works** with our soil type instead of against it.
+
+The best time to install edging in Michigan is **late April through May**, right after the last frost date (around May 15th in Washington Township). The ground has thawed completely, it's workable but still moist, and you're installing before peak mulch season when you'll want everything looking sharp.
+
+## Choose the Right Material for Michigan Weather
+
+Not all edging handles our climate equally. Here's what actually lasts:
+
+**Steel edging** (galvanized or powder-coated) is your best bet for Michigan. It flexes with freeze-thaw cycles instead of cracking, costs $0.50–$1.50 per linear foot, and lasts 10+ years. The galvanized finish prevents rust in our wet springs.
+
+**Plastic edging** is cheaper ($0.25–$0.75/foot) but fails here—our temperature swings make plastic brittle by year three. Don't waste money on it.
+
+**Aluminum** works well ($1–$2/foot) and won't rust, but it's softer and bends if you catch it with a mower.
+
+**Wood** looks natural but rots within 3–4 years in Macomb County's wet climate. Skip it.
+
+**Measure your beds carefully.** Walk the perimeter with a tape measure. A typical 20-foot garden bed needs about 25 feet of edging to account for curves and overlaps.
+
+## Prep Work: The Step Most People Skip
+
+This is where installation either succeeds or fails. Spend an hour here and save yourself from re-edging in two years.
+
+**Mark your edge line clearly.** Use spray paint or flour to mark exactly where the edging will go—this is your guide. In clay-heavy Macomb County soil, you want the edging sitting at or slightly above the lawn grade so water drains away from your beds (not toward them).
+
+**Remove existing mulch and debris.** Dig out about 6 inches of mulch from the edge. This sounds wasteful, but you're creating a clean trench for the edging to sit in. Any debris or old mulch under the edging will cause it to settle unevenly.
+
+**Cut a clean trench.** Use a flat spade and cut straight down 3–4 inches deep along your line. In Michigan clay, you may need to water the ground lightly the evening before to make this easier—our soil gets rock-hard when dry. The trench should be just wide enough for your edging material.
+
+## Installation: Steel Edging (The Standard Method)
+
+**What you'll need:**
+- Steel landscape edging (usually 4-inch height)
+- Spikes or anchors that come with the edging
+- Rubber mallet
+- Angle grinder or metal cutters (for curves and custom lengths)
+- Work gloves
+
+**Step-by-step:**
+
+1. **Position the first section** in your trench, standing upright. The edging should rise 1–2 inches above the lawn—this prevents mulch from washing into the grass during our heavy spring rains.
+
+2. **Drive the spike** at the manufacturer's marked location (usually every 3–4 feet). Use the rubber mallet, not a hammer—it distributes force better and won't damage the edging. You'll hear a solid *thunk* when it's seated.
+
+3. **Overlap sections** by 2 inches and repeat. Stagger the spikes so they don't overlap between sections.
+
+4. **For curves**, use a metal cutters or angle grinder to notch the back of the edging, allowing it to bend smoothly. Make notches every 6 inches along curves—this matters in Michigan gardens where rounded beds are common.
+
+5. **Check as you go.** Use a level to make sure sections aren't tilting inward or outward. Uneven edging will show water and dirt pooling.
+
+6. **Backfill the trench.** Once edging is installed, push your original mulch back against it, then add fresh mulch if needed. In Macomb County's clay, the mulch actually helps stabilize the edging.
+
+## Common Michigan-Specific Problems (and Fixes)
+
+**Frost heaving pushes edging up in spring:** This is normal freeze-thaw action in Michigan clay. Drive the spikes deeper in fall (use 5-inch spikes instead of 4-inch) to anchor lower.
+
+**Edging won't sit flush against the ground:** Our clay compacts unevenly. Remove sections that won't sit flat, break up compacted clay in the trench, and reinstall. It takes 20 minutes and prevents wobbling.
+
+**Lawn grass keeps creeping over the edge:** Make sure your edging rises 1.5 inches above grade. Flat edging that sits at soil level loses this battle in Michigan's moisture-rich climate.
+
+## Ready to Get It Done Right?
+
+If you've got 200+ feet of beds or complex curved landscaping, edging installation is exactly the kind of project where a professional crew saves you a weekend and delivers results that last. The soil prep and grading matter more than people realize, and getting it wrong means redoing it in two years.
+
+**Tri-Point Landscaping has been installing edging for Macomb County and Washington Township properties for years**—we know how Michigan's clay responds and how to anchor edging so freeze-thaw cycles don't touch it.
+
+Ready for clean, defined landscape beds? [Contact Tri-Point Landscaping today](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate. Late spring is the ideal time to get this done before summer, and we're booking installations now. Let's make your landscape look finished.
+    `,
   },
 ];
