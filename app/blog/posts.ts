@@ -6319,5 +6319,86 @@ If you've got 200+ feet of beds or complex curved landscaping, edging installati
 
 Ready for clean, defined landscape beds? [Contact Tri-Point Landscaping today](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate. Late spring is the ideal time to get this done before summer, and we're booking installations now. Let's make your landscape look finished.
     `,
+  }
+,
+  {
+    slug: "attract-pollinators-michigan-landscape",
+    title: "How to Attract Pollinators to Your Michigan Landscape in Macomb County",
+    description: "Local expert guide to attracting bees, butterflies & hummingbirds to your Washington Township yard with native plants & practical tips.",
+    date: "June 16, 2026",
+    category: "Landscaping",
+    readTime: "7 min read",
+    content: `
+If your Michigan garden feels a little quiet—fewer butterflies, fewer bees, less activity overall—you're noticing something real. Pollinators are struggling across Macomb County, and your landscape can be part of the solution. The good news? Attracting them back doesn't require anything exotic or complicated. It requires the right plants, a little water, and a willingness to let your yard be a little less manicured.
+
+Let me walk you through exactly what works here in Washington Township and the surrounding area.
+
+## Start With Native Plants—They're Not Optional
+
+This is the foundation everything else builds on. Native plants evolved alongside Michigan's pollinators for thousands of years. Bees, butterflies, and hummingbirds recognize them instantly and have developed the exact relationship they need to survive.
+
+Here are the native plants that actually work in Macomb County:
+
+- **Black-eyed Susans** — bloom June through September, nearly foolproof
+- **Wild bergamot** — fragrant, blooms July-August, bees love it
+- **Coneflowers (purple)** — tall, dramatic, bloom July-October
+- **Joe-Pye weed** — grows 4-6 feet, attracts butterflies starting mid-July
+- **Blazing star/Liatris** — thin spiky flowers, blooms August-September
+- **Ironweed** — deep purple, blooms September-October when few other plants flower
+- **New England asters** — critical fall bloomer, August-November
+
+Why these specifically? Our clay-heavy soil in this region (typical Macomb County clay) doesn't drain quickly, so these plants handle wet springs. They're also adapted to our temperature swings—we can drop from 85°F to 50°F overnight in May, and these plants don't sulk about it.
+
+**Skip the cultivars and ornamental varieties.** A fancy pink coneflower looks nice but produces less pollen and nectar than the straight purple native version. Pollinators aren't impressed by color variations; they're looking for fuel.
+
+## Build for Season Extension
+
+Here's what most Michigan homeowners miss: **pollinators need food from April through October, not just June and July.** A yard full of plants that all bloom simultaneously in July means starvation for eight months.
+
+Start early with these spring bloomers:
+- Native bleeding heart
+- Creeping phlox
+- Trillium
+- Hepatica
+
+Then layer in mid-season plants (listed above), and **absolutely prioritize fall bloomers**. New England asters, ironweed, and Joe-Pye weed blooming into November are absolutely critical. Many migrating monarch butterflies need fuel in late September and October before they head south—if your yard goes dormant in August, you're offering nothing when they need it most.
+
+For hummingbirds specifically, plant bee balm (red and pink varieties) in July-August. They appear regularly in Macomb County mid-May through early September, peaking in late July.
+
+## Water Matters More Than You Think
+
+Pollinators drink water. Not from flowers—from the ground. A **shallow basin filled with pebbles and water**, kept filled through dry spells, gives them a safe landing spot. They can't land on open water surfaces (they'll drown), but pebbles give them solid footing.
+
+Place these water stations within 10 feet of flowering plants. During Michigan's typically dry July-August stretch, this makes a real difference. Bees become dehydrated during intense foraging, and they'll visit a water source multiple times daily if it's available.
+
+## Leave Some "Mess" Behind
+
+This one makes homeowners uncomfortable, but it's non-negotiable: **don't clean up your beds until April.** Dead plant stems, leaf litter, and woody debris are where native bees overwinter and lay eggs. Many Macomb County native bee species—not the honeybees you see in gardens, but smaller native species—create individual nests in hollow plant stems.
+
+When you mow down everything in October, you're removing their nurseries.
+
+Instead:
+- Cut perennials back in late March or early April, right before new growth starts
+- Leave leaf litter under trees and shrubs
+- Create a small "brush pile" in an inconspicuous corner
+
+It looks rough for a few months, but it's essential.
+
+## Never Use Pesticides (Yes, This Includes "Bee-Safe" Ones)
+
+Any insecticide—including organic neem oil and spinosad—kills pollinators or their food sources. If you're serious about attracting them, you can't poison the environment simultaneously.
+
+Leaf spots on plants? Ignore them. Aphid colonies? Spray them with water or tolerate them (they're food for pollinators anyway). Japanese beetles? Hand-pick them early morning or accept some damage.
+
+This is a hard boundary. You can't attract pollinators and poison them at the same time.
+
+## Ready to Build a Pollinator Landscape?
+
+If you're thinking "this sounds right, but my yard needs real work," that's exactly when to call Tri-Point Landscaping. We design and install pollinator-focused gardens throughout Washington Township and Macomb County.
+
+We'll assess your soil, plan a native plant layout that blooms spring through fall, and handle the installation so you're not overwhelmed. **Free estimates—we'll show you exactly what your landscape can support and what timeline we're working with.**
+
+**Call us today at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact).** June is the perfect time to plan—you'll have these plants established and thriving by next spring's pollinator emergence.
+    `,
   },
 ];
