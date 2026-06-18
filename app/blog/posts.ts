@@ -6400,5 +6400,51 @@ We'll assess your soil, plan a native plant layout that blooms spring through fa
 
 **Call us today at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact).** June is the perfect time to plan—you'll have these plants established and thriving by next spring's pollinator emergence.
     `,
+  }
+,
+  {
+    slug: "best-shrubs-michigan-winters",
+    title: "The Best Shrubs for Michigan Winters in Macomb County",
+    description: "Local guide to cold-hardy shrubs that survive Michigan winters. Specific varieties, planting tips, and care advice from Washington Township experts.",
+    date: "June 18, 2026",
+    category: "Seasonal",
+    readTime: "5 min read",
+    content: `
+If you've ever watched a shrub turn brown and die after your first real Michigan winter, you're not alone. The problem isn't that you killed it—it's that you planted something that never had a chance in our climate. Here in **Macomb County**, we experience winter lows around -10°F to -15°F, and our soil stays frozen from December through March. That's brutal on plants not bred for it. The good news: there are excellent shrubs that don't just survive our winters—they thrive in them.
+
+## Why Most Shrubs Fail in Michigan
+
+Before we talk solutions, let's understand the enemy. **Michigan winters kill shrubs through two mechanisms: freeze damage and desiccation.** Freeze damage happens when cells inside the plant rupture as water freezes. Desiccation is actually more common—it's when frozen soil prevents roots from absorbing water while winter winds and occasional sunny days dry out the above-ground foliage. That's why you see evergreens looking brown and crispy in March, even though they survived the actual cold.
+
+The clay-heavy soil we have throughout Washington Township and eastern **Macomb County** makes this worse. Our soil drains poorly, which means winter water sits around roots and creates ice pockets. You need shrubs specifically adapted to this combination: extreme cold, wet soil, and wind exposure.
+
+## The Michigan Winter Champion Shrubs
+
+**Viburnum (American Arborvitae and Viburnum opulus)** are your first choice. These are tough as nails here. American Viburnum grows 8-12 feet tall and produces red berries that persist through winter—birds love them, and they add color when everything else is gray. Plant them 4-6 feet apart, and they'll fill in by year three. They handle our clay soil without amendment.
+
+**Juniper varieties**, especially 'Emerald Green' and 'Degroot's Spire,' are exceptionally cold-hardy. They stay green year-round, won't brown out, and reach 15-20 feet. The key: plant them in fall (September-October here in **Macomb County**) so they establish roots before hard freeze. These actually prefer well-drained soil, so if your yard has sandy patches, prioritize junipers there.
+
+**Potentilla** (cinquefoil) is underrated. It's a low-growing shrub, 2-4 feet, with small yellow or pink flowers that bloom into September. It's nearly impossible to kill, tolerates poor soil, and requires almost no maintenance. Plant multiples in clusters for visual impact.
+
+**Burning Bush** (Euonymus alata) turns stunning burgundy-red in fall and holds that color into winter—the branches themselves are red. It reaches 6-8 feet and grows in almost any condition. Fair warning: it's considered invasive in some regions, but here in Michigan it's a standard landscape choice.
+
+**Lilac** (Syringa) is the nostalgia pick. Common lilac and Korean lilac varieties handle **Michigan** cold perfectly and produce fragrant flowers in May. They need full sun (6+ hours) and well-drained soil. Prune immediately after blooming to shape for next year.
+
+## Planting and Care for Winter Success
+
+Timing matters more than most gardeners realize. **Plant shrubs in fall—mid-September through October—or early spring (April) here in Macomb County.** Avoid planting in summer or late fall. Fall planting gives roots six weeks to establish before the ground freezes solid.
+
+Amend your clay soil with 2-3 inches of compost mixed into the planting hole. Our native soil is compacted and drains poorly; shrubs planted directly into it struggle. Water deeply after planting, then mulch with 2-3 inches of wood chips (not bark dust, which floats away). This insulates roots and regulates soil moisture through winter.
+
+**Don't fertilize in fall.** New growth is tender and dies in hard freeze. Wait until April to fertilize.
+
+Winter watering is critical if you have an open fall (no snow cover). If November through early December is dry, water evergreens once every two weeks until the ground freezes solid. This sounds counterintuitive, but unfrozen roots can absorb water; frozen roots cannot.
+
+## When to Call the Professionals
+
+If you're replacing winter-killed shrubs or redesigning your landscape for cold hardiness, **now is the time to plan.** The best landscaping decisions are made in summer for fall installation. Tri-Point Landscaping specializes in **Michigan**-appropriate plantings throughout **Washington Township** and **Macomb County**—we know exactly which shrubs thrive in our specific soil and microclimate.
+
+We'll assess your yard's drainage, sun exposure, and soil condition, then recommend shrubs that won't fail you in February. [Contact Tri-Point Landscaping today](/contact) at [(586) 327-8080](tel:+15863278080) for a free estimate. We offer free consultations on plant selection and can have your shrubs in the ground this fall, established and ready to handle next winter. Don't spend another season watching shrubs die—let's plant for permanence.
+    `,
   },
 ];
