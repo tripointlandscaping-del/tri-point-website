@@ -89,6 +89,36 @@ const reviews = [
     author: "Rebecca A.",
     service: "Landscaping",
   },
+  {
+    stars: 5,
+    text: "Needed some landscape cleanup and mulch. The guys at Tri-Point were polite, very attentive to our requests and cleaned up the site after the mulch was down. Highly recommended.",
+    author: "Douglas T.",
+    service: "Landscape Cleanup & Mulch",
+  },
+  {
+    stars: 5,
+    text: "Noah and his crew did a nice job installing decorative stone in my front yard. Although they ordered a bit more stone than was needed, fortunately we had other pieces to put it down and it looks good as well.",
+    author: "Joe Z.",
+    service: "Decorative Stone Installation",
+  },
+  {
+    stars: 5,
+    text: "I had a great experience with the team at Tri-Point. They were professional, pleasant to work with, and communicated clearly throughout the entire process. They showed up on time, paid attention to detail, and did an excellent job.",
+    author: "J. Morgan",
+    service: "Landscaping",
+  },
+  {
+    stars: 5,
+    text: "Tri-Point Landscaping did an outstanding job on my landscaping!! I could not be more happy, satisfied or impressed! They were professional, friendly, proficient, and efficient. Communication, responsiveness and follow through were also excellent.",
+    author: "Master Cheese",
+    service: "Landscaping",
+  },
+  {
+    stars: 5,
+    text: "Tri Point Landscaping did an amazing job. They were on time, professional, and paid attention to all the small details. The yard looks way better than I expected, and you can tell they actually care about the quality of their work.",
+    author: "Jovan H.",
+    service: "Landscaping",
+  },
 ];
 
 export default function TestimonialsPage() {
@@ -110,7 +140,7 @@ export default function TestimonialsPage() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "14",
+      reviewCount: "15",
       bestRating: "5",
       worstRating: "1",
     },
@@ -171,7 +201,7 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">14</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">15</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Google Reviews</p>
               </div>
               <div>
