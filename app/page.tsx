@@ -587,7 +587,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { label: "Fully Insured LLC", sub: "General liability on every job" },
-                    { label: "4.9★ Google Rating", sub: "11+ five-star reviews" },
+                    { label: "4.9★ Google Rating", sub: "14 five-star Google reviews" },
                     { label: "Same-Day Response", sub: "We don't let you wait" },
                     { label: "Free Estimates", sub: "No cost, no obligation" },
                   ].map(({ label, sub }) => (
@@ -1022,6 +1022,10 @@ export default function HomePage() {
                 { area: "Shelby Township", slug: "shelby-township" },
                 { area: "Macomb Township", slug: "macomb-township" },
                 { area: "Rochester Hills", slug: "rochester-hills" },
+                { area: "Romeo", slug: "romeo" },
+                { area: "Ray Township", slug: "ray-township" },
+                { area: "Bruce Township", slug: "bruce-township" },
+                { area: "Rochester", slug: "rochester" },
               ].map(({ area, slug }) => (
                 <div key={slug} className="border border-gray-100 p-5">
                   <h3 className="font-bold text-gray-900 mb-3 text-sm">{area}</h3>
