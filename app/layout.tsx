@@ -248,6 +248,31 @@ export default function RootLayout({
             }),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "@id": "https://www.tripointlandscaping.com/#owner",
+              name: "Noah",
+              jobTitle: "Owner & Founder",
+              worksFor: {
+                "@type": "LocalBusiness",
+                "@id": "https://www.tripointlandscaping.com/#business",
+                name: "Tri-Point Landscaping LLC",
+              },
+              url: "https://www.tripointlandscaping.com/about",
+              description: "Noah is the owner and founder of Tri-Point Landscaping LLC, a locally owned and insured landscaping company serving Macomb County and Oakland County, Michigan since 2020.",
+              knowsAbout: ["Landscaping", "Lawn Care", "Snow Removal", "Hardscaping", "Mulch Installation", "Lawn Aeration", "Seasonal Cleanup", "Commercial Landscaping"],
+              sameAs: [
+                "https://www.facebook.com/people/Tri-Point-Landscaping-LLC/61575067540062/",
+                "https://www.instagram.com/tripointlandscapingllc/",
+                "https://nextdoor.com/pages/tri-point-landscaping-washington-mi/",
+              ],
+            }),
+          }}
+        />
       </head>
       <body className={`${playfair.variable} ${inter.variable} min-h-screen flex flex-col`}>
         <UrgencyBanner />

@@ -198,6 +198,33 @@ export default function ReviewPage() {
           </div>
         </section>
 
+        {/* WHAT OTHERS HAVE SAID */}
+        <section className="py-16 px-6" style={{ backgroundColor: "#0a0a0a" }}>
+          <div className="max-w-2xl mx-auto">
+            <h2
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+              className="text-xl font-bold text-white text-center mb-8"
+            >
+              What Others Said After Their Visit
+            </h2>
+            <div className="space-y-4">
+              {[
+                { text: "Noah did a very good job with my lawn. Very professional and very experienced. Would recommend for anyone that needed grass cutting and snow removal or anything else. Noah and his team are the best.", author: "Javen K.", service: "Lawn Care & Snow Removal" },
+                { text: "Tri-Point Landscaping did an outstanding job on my landscaping!! I could not be more happy, satisfied or impressed! They were professional, friendly, proficient, and efficient. Communication, responsiveness and follow through were also excellent.", author: "Master Cheese", service: "Landscaping" },
+                { text: "The guys at Tri-Point were polite, very attentive to our requests and cleaned up the site after the mulch was down. Highly recommended.", author: "Douglas T.", service: "Landscape Cleanup & Mulch" },
+              ].map((r, i) => (
+                <div key={i} className="border border-white/10 p-6">
+                  <div className="text-yellow-400 text-xs mb-3">★★★★★</div>
+                  <p className="text-white/60 text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
+                  <p className="text-white font-semibold text-sm">{r.author}</p>
+                  <p className="text-green-400 text-xs mt-0.5">{r.service}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-white/30 text-xs text-center mt-6">Verified Google Reviews · Tri-Point Landscaping LLC · 4.9★</p>
+          </div>
+        </section>
+
 
       </main>
       <Footer />

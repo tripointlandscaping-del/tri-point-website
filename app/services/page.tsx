@@ -77,37 +77,37 @@ const services = [
   {
     name: "Lawn Maintenance",
     slug: "lawn-maintenance",
-    desc: "Weekly mowing, edging, trimming, and blowing to keep your property looking sharp all season long.",
+    desc: "Weekly mowing, edging, trimming, and blowing to keep your property looking sharp all season long. Our crews arrive on a consistent schedule so you never have to chase us down. No contracts required — just reliable service every visit.",
   },
   {
     name: "Landscaping & Design",
     slug: "landscaping",
-    desc: "Custom landscape design and installation — beds, borders, plantings, and curb appeal transformations.",
+    desc: "Custom landscape design and installation — beds, borders, plantings, and curb appeal transformations that last. We work with your budget and your vision to create a look that fits your home. From a simple bed refresh to a full front-yard makeover, we handle every detail.",
   },
   {
     name: "Mulch & Stone",
     slug: "mulch-and-stone",
-    desc: "Fresh mulch and decorative stone installation to protect your beds and elevate your property's appearance.",
+    desc: "Fresh mulch and decorative stone installation to protect your beds and elevate your property's appearance. We deliver, spread, and edge for a clean, finished look. Choose from a variety of mulch colors and stone types to match your home's style.",
   },
   {
     name: "Seasonal Cleanup",
     slug: "seasonal-cleanup",
-    desc: "Spring and fall cleanups including leaf removal, bed cleanup, and property prep for every season.",
+    desc: "Spring and fall cleanups including leaf removal, bed cleanup, and full property prep for every season. We haul everything away so you don't have to deal with a thing. Your yard will be clean, tidy, and ready for whatever comes next.",
   },
   {
     name: "Snow Removal & Ice Management",
     slug: "snow-removal",
-    desc: "Reliable snow plowing, salting, and ice management for residential and commercial properties.",
+    desc: "Reliable snow plowing, salting, and ice management for residential and commercial properties. We monitor forecasts and show up before you have to ask — driveways and walkways cleared and safe. Seasonal contract and per-event pricing available.",
   },
   {
     name: "Lawn Renovations & Aeration",
     slug: "lawn-renovations",
-    desc: "Aeration, overseeding, dethatching, and full lawn renovations to restore thin or damaged turf.",
+    desc: "Aeration, overseeding, dethatching, and full lawn renovations to restore thin or damaged turf. Core aeration breaks up Michigan's compacted clay soil so water and nutrients finally reach the roots. Overseeding fills bare spots for a thick, healthy lawn the following season.",
   },
   {
     name: "Hardscaping",
     slug: "hardscaping",
-    desc: "Patios, walkways, retaining walls, fire pits, and outdoor living spaces — designed and coordinated to complement your landscape.",
+    desc: "Patios, walkways, retaining walls, fire pits, and outdoor living spaces — designed and built to complement your landscape. Our hardscaping work adds permanent value and function to your outdoor space. From a simple brick walkway to a full patio build, we manage the entire project.",
   },
 ];
 
@@ -161,9 +161,39 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* TRUST STRIP */}
+        <section style={{ backgroundColor: "#2C5F2E" }} className="py-7">
+          <div className="max-w-5xl mx-auto px-6">
+            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-white text-center">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-300">★★★★★</span>
+                <span className="font-semibold">4.9 Google Rating · 15 Reviews</span>
+              </div>
+              <div className="hidden sm:block w-px h-4 bg-white/25" />
+              <span>✓ Free Estimates on All Services</span>
+              <div className="hidden sm:block w-px h-4 bg-white/25" />
+              <span>✓ Locally Owned &amp; Fully Insured</span>
+              <div className="hidden sm:block w-px h-4 bg-white/25" />
+              <span>✓ Serving Macomb &amp; Oakland County Since 2020</span>
+            </div>
+          </div>
+        </section>
+
         {/* SERVICES GRID */}
         <section style={{ backgroundColor: "#f5f0e8" }} className="py-24">
           <div className="max-w-5xl mx-auto px-6">
+            <div className="text-center mb-14">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Everything You Need</p>
+              <h2
+                style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                className="text-3xl sm:text-4xl font-bold text-gray-900"
+              >
+                Complete Lawn &amp; Landscaping Services
+              </h2>
+              <p className="text-gray-500 text-sm mt-4 max-w-xl mx-auto">
+                One company for every outdoor need — from weekly mowing to full hardscaping builds. All services backed by our 4.9★ Google rating.
+              </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((s) => (
                 <Link
@@ -182,6 +212,36 @@ export default function ServicesPage() {
                   <span className="text-green-700 font-semibold text-sm">Learn more →</span>
                 </Link>
               ))}
+            </div>
+
+            {/* Why Us comparison */}
+            <div className="mt-20 border-t border-gray-200 pt-16">
+              <div className="text-center mb-10">
+                <h2
+                  style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                  className="text-2xl sm:text-3xl font-bold text-gray-900"
+                >
+                  Why Homeowners Choose Tri-Point
+                </h2>
+                <p className="text-gray-500 text-sm mt-3">Over national franchises and larger crews</p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {[
+                  { heading: "You Talk to the Owner", body: "Not a call center. When you call or text, you reach the crew that actually does the work — fast answers, no runaround." },
+                  { heading: "Same Crew Every Time", body: "Consistent faces who know your property. No relearning your preferences. No surprises on service day." },
+                  { heading: "We Haul Everything Away", body: "No piles left at the curb, no debris in your driveway. Every cleanup job leaves your property completely clear." },
+                ].map((item) => (
+                  <div key={item.heading} className="bg-white p-8 border-t-2" style={{ borderColor: "#2C5F2E" }}>
+                    <h3
+                      style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+                      className="font-bold text-gray-900 text-lg mb-3"
+                    >
+                      {item.heading}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>

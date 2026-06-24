@@ -174,6 +174,10 @@ export default function SpringCleanupPage() {
                 Call (586) 327-8080
               </a>
             </div>
+            <div className="flex items-center justify-center gap-2 mt-8 text-sm">
+              <span className="text-yellow-400">★★★★★</span>
+              <span className="text-white/50">4.9 · 15 verified Google reviews</span>
+            </div>
           </div>
         </section>
 

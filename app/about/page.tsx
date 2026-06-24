@@ -88,7 +88,7 @@ const whyLocal = [
 const timeline = [
   { year: "Day One", title: "Started with a mower and a promise", desc: "Tri-Point was founded right here in northern Macomb County with one mission: deliver better landscaping than anyone else in the area. We started small, but the standard was always high." },
   { year: "Year Two", title: "Expanded to year-round service", desc: "Added snow removal and seasonal cleanups to serve our clients through Michigan's full four seasons. Same crew. Same quality. Just more ways to help." },
-  { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 6+ cities, and a 4.9 Google rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
+  { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 8 cities, 15 five-star Google reviews, and a 4.9 rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
 ];
 
 const quickFacts = [
@@ -99,7 +99,7 @@ const quickFacts = [
   { label: "Service Area", value: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills" },
   { label: "Phone", value: "(586) 327-8080" },
   { label: "Email", value: "tripointlandscaping@gmail.com" },
-  { label: "Google Rating", value: "4.9 ★ (verified Google reviews)" },
+  { label: "Google Rating", value: "4.9 ★ · 15 verified Google reviews" },
   { label: "Insurance", value: "Fully insured LLC — general liability coverage" },
   { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
   { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
@@ -152,10 +152,26 @@ export default function AboutPage() {
     sameAs: ["https://g.page/r/CTWE7P6lheWxEBM"],
   };
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://www.tripointlandscaping.com/#owner",
+    name: "Noah",
+    jobTitle: "Owner & Founder",
+    worksFor: {
+      "@type": "LocalBusiness",
+      "@id": "https://www.tripointlandscaping.com/#business",
+      name: "Tri-Point Landscaping LLC",
+    },
+    url: "https://www.tripointlandscaping.com/about",
+    description: "Noah is the owner and founder of Tri-Point Landscaping LLC, serving Macomb County and Oakland County, Michigan since 2020.",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <Navbar />
       <main>
 
