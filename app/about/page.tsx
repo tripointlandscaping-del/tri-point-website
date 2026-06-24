@@ -152,26 +152,10 @@ export default function AboutPage() {
     sameAs: ["https://g.page/r/CTWE7P6lheWxEBM"],
   };
 
-  const personSchema = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://www.tripointlandscaping.com/#owner",
-    name: "Noah",
-    jobTitle: "Owner & Founder",
-    worksFor: {
-      "@type": "LocalBusiness",
-      "@id": "https://www.tripointlandscaping.com/#business",
-      name: "Tri-Point Landscaping LLC",
-    },
-    url: "https://www.tripointlandscaping.com/about",
-    description: "Noah is the owner and founder of Tri-Point Landscaping LLC, serving Macomb County and Oakland County, Michigan since 2020.",
-  };
-
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <Navbar />
       <main>
 
