@@ -6520,5 +6520,68 @@ Tri-Point Landscaping has been serving Washington Township and Macomb County com
 
 Your landscaping is either an asset or a liability. The choice is yours, but the timing is now.
     `,
+  }
+,
+  {
+    slug: "how-much-mulch-needed-macomb-county-homeowners",
+    title: "How Much Mulch Do You Need: A Guide for Macomb County Homeowners",
+    description: "Calculate exact mulch amounts for your Michigan landscape. Local tips for Washington Township gardens and best timing for Macomb County.",
+    date: "June 30, 2026",
+    category: "Mulch & Stone",
+    readTime: "7 min read",
+    content: `
+## Stop Guessing—Here's Exactly How Much Mulch Your Macomb County Yard Needs
+
+You're standing in your driveway looking at a pile of mulch delivered last week, and now you're wondering if you ordered too much, too little, or just right. Sound familiar? Most **Washington Township homeowners** either end up with leftover mulch stacked in their yard or run short mid-project. The good news: calculating mulch is simple math, not guesswork.
+
+The problem is that every landscaping guide online gives you generic advice that doesn't account for Michigan's clay-heavy soil, our freeze-thaw cycles, or the specific growing season we get here in **Macomb County**. I'm going to walk you through the exact formula that works for local landscapes, plus details about timing and type that matter just as much as the volume.
+
+## The Basic Mulch Formula (It's Simpler Than You Think)
+
+Here's the formula: **Length × Width × Desired Depth (in feet) ÷ 27 = cubic yards**
+
+That "÷ 27" part converts cubic feet to cubic yards—one cubic yard covers 324 square feet at 1 inch deep, or 108 square feet at 3 inches deep.
+
+Let's use a real example. Say you have a flower bed in **Washington Township** that's 20 feet long and 3 feet wide, and you want mulch 3 inches deep (the standard for Macomb County landscape beds). Here's the math:
+
+- 20 × 3 = 60 square feet
+- 60 square feet × 0.25 feet (3 inches) = 15 cubic feet
+- 15 ÷ 27 = **0.55 cubic yards**
+
+Most mulch suppliers round up, so you'd order 1 cubic yard for that bed. A single cubic yard weighs about 600–800 pounds depending on whether it's fresh or aged bark mulch, which matters if you're spreading it yourself versus having a professional crew handle it.
+
+## Why 3 Inches Is the Magic Number for Macomb County
+
+You'll hear "2 to 4 inches" suggested everywhere, but here's what works specifically in **Michigan**:
+
+**3 inches is ideal for our region because:**
+
+- **Winter protection**: Our clay soils freeze hard between December and February. Three inches insulates perennial roots and prevents frost heave that kills plants mid-winter.
+- **Weed suppression**: Two inches isn't enough to stop the crabgrass and dandelions that thrive in our moist spring season (April–May sees average rainfall of 3–4 inches). Three inches blocks 85–90% of weed seeds.
+- **Moisture retention**: Our hot, dry summers (July–August) pull moisture fast. Three inches reduces evaporation by roughly 40% compared to bare soil.
+- **Decomposition rate**: Shredded hardwood mulch (the local standard) breaks down about 25% per year in our climate. Starting at 3 inches means you'll still have adequate coverage by midsummer without adding more.
+
+If you're mulching around new plantings or young shrubs, go with 4 inches. If you're maintaining an established bed and already mulched it last year, 2–3 inches of fresh mulch on top works fine.
+
+## Account for Sloped Areas and Compacted Soil
+
+Washington Township has everything from flat yards near the Clinton River to sloped properties in the northern areas. **On slopes steeper than 10%, add 15–20% extra mulch** because it shifts downhill and compacts faster.
+
+Macomb County's clay soil also matters here. Our heavy clay doesn't drain like sandy loam, so mulch settles and compacts more over the season. Fresh bark mulch can settle 1–1.5 inches in the first 8 weeks. Plan accordingly—if you're starting with 3 inches on clay, expect to drop to about 2 inches by late summer, then add 1–2 inches again in fall (late September through October is perfect timing here).
+
+## The Best Time to Mulch in Macomb County
+
+**Early spring (April–May)** and **fall (September–October)** are your optimal windows. Spring mulching in **Macomb County** gives plants protection right before our hot, dry mid-summer stretch. Fall mulching (after soil temps drop below 55°F) prepares roots for winter without encouraging late-season disease.
+
+Avoid heavy mulching in June or July—warm, wet mulch becomes a breeding ground for fungal issues that thrive in our humid Midwest summers.
+
+## Free Estimate and Professional Spreading
+
+If your yard has multiple beds, slopes, or you're not confident in the math, let the professionals handle it. **Tri-Point Landscaping** serves all of **Washington Township** and **Macomb County**, and we'll calculate your exact mulch needs, deliver it, and spread it properly—saving your back and ensuring your plants actually get the right depth.
+
+We offer **free estimates**, and right now in late June is actually the perfect time to schedule a fall mulch plan. We can assess your current beds, figure out how much fresh mulch you'll need this September, and make sure you're set before the frost comes.
+
+**Call [Tri-Point Landscaping](tel:+15863278080) at (586) 327-8080 or [visit our contact page](/contact) to schedule your free estimate today.** Let's get your landscape ready for the rest of the season without the guesswork.
+    `,
   },
 ];
