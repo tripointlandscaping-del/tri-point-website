@@ -6583,5 +6583,64 @@ We offer **free estimates**, and right now in late June is actually the perfect 
 
 **Call [Tri-Point Landscaping](tel:+15863278080) at (586) 327-8080 or [visit our contact page](/contact) to schedule your free estimate today.** Let's get your landscape ready for the rest of the season without the guesswork.
     `,
+  }
+,
+  {
+    slug: "mulch-vs-decorative-stone-michigan-landscapes",
+    title: "Mulch vs Decorative Stone: Which Is Better for Michigan Landscapes",
+    description: "Learn which ground cover works best for Macomb County gardens. Compare mulch and stone for Michigan's climate, maintenance, and long-term costs.",
+    date: "July 2, 2026",
+    category: "Mulch & Stone",
+    readTime: "6 min read",
+    content: `
+If you've spent time walking through Washington Township neighborhoods this spring, you've probably noticed yards with dark mulch beds next to ones lined with clean gray or tan stone. Both look sharp, but they perform very differently in Michigan's climate—and that difference matters for your wallet and your landscape's health.
+
+Here's the thing: neither is universally "better." But for most Macomb County homeowners, one will solve your specific problem faster than the other. Let me walk you through what you actually need to know.
+
+## How Mulch Performs in Michigan's Freeze-Thaw Winters
+
+**Mulch is organic material that actively improves your soil.** In Michigan, where we cycle through freeze-thaw conditions from November through March, this becomes a real advantage. As mulch breaks down—which happens faster in our humid summers and variable spring temperatures—it adds nutrients and structure to the clay-heavy soil most of us have in Macomb County.
+
+The downside? Mulch needs refreshing every 2-3 years in Michigan, while decorative stone is essentially permanent. Here's why: our spring rains and summer heat accelerate decomposition. A 3-inch mulch layer you install in May will compress down to about 1.5 inches by the following spring, and it'll look noticeably thinner and grayer as UV rays break down the dyes (if you're using colored mulch).
+
+But there's a practical benefit during Michigan winters: mulch acts as insulation for tree roots and perennials. When we get those occasional 20-degree temperature swings in late March—which we do almost every year in Washington Township—that layer of organic material buffers your plants against shock. Stone doesn't do this.
+
+**Cost reality:** Plan to spend roughly $40-60 per cubic yard for quality mulch in our area, plus delivery and labor. You'll need it reapplied every few years.
+
+## Decorative Stone: Low Maintenance With Hidden Tradeoffs
+
+**Decorative stone is your "install it and forget it" option**—but it's not actually maintenance-free, and it has real drawbacks in Michigan climates.
+
+Stone doesn't decompose, which sounds great until you realize that your soil beneath it won't improve. After 5-10 years under stone, clay soils in Macomb County can become increasingly compacted because there's no organic matter cycling back in. Your perennials and shrubs will work harder to push roots down.
+
+Here's another Michigan-specific issue: **winter salt spray.** If your property is near any road (even a side street), salt runoff will accumulate on stone. In spring, when that melts, it concentrates in your soil. This can stress plants, especially evergreens. Mulch doesn't hold salt the same way—it can break it down and disperse it more naturally.
+
+Thermally, stone is the opposite of mulch: it absorbs and radiates heat. On a 95-degree July day in Michigan, decorative stone can reach 140-160 degrees. That means less water retention and more evaporation from your soil. In a dry summer (like 2023), you'll be watering more frequently if your beds are all stone.
+
+**Cost reality:** Decorative stone runs $30-80 per cubic yard depending on type, but you're not replacing it. However, you'll fight weeds more aggressively in stone beds—landscape fabric helps, but after 3-4 years, soil builds up on top of it and weeds take hold anyway.
+
+## The Smart Hybrid Approach for Macomb County Landscaping
+
+Here's what most experienced landscapers in Washington Township recommend: **use mulch in planting beds around shrubs and perennials, and use decorative stone in high-traffic areas or as accent borders.**
+
+For example:
+- Mulch around foundation plantings and flower beds (benefits the plants)
+- Stone as edging or in formal entry zones (looks polished, less maintenance)
+- Stone under deck areas or near patio spaces where water drainage is a concern
+
+This approach gives you the soil health benefits of mulch where plants actually live, while minimizing the cost and maintenance burden.
+
+## When to Make Your Move
+
+If your beds are currently bare or covered with old, degraded mulch, **July and August are the worst times to install anything new**—our heat and humidity make it harder to work, and newly installed mulch will dry out faster. Late August through September is actually the sweet spot for Michigan landscaping projects. Soil temps are still warm enough for roots to establish, but you avoid summer heat stress on plants.
+
+If you're adding stone now, get it done before our heavy September rains make the ground difficult to work with.
+
+## Get a Plan That Fits Your Yard
+
+The right choice depends on your soil, plant types, and how much maintenance you're willing to do. That's exactly why a site visit makes sense—we can see what you're working with and recommend mulch, stone, or a combination that'll actually thrive in your specific Washington Township location.
+
+**Tri-Point Landscaping offers free estimates.** Call [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) today. With fall ground prep starting in late August, now's the time to plan before the season gets busy.
+    `,
   },
 ];
