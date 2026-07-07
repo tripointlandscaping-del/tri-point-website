@@ -6642,5 +6642,80 @@ The right choice depends on your soil, plant types, and how much maintenance you
 
 **Tri-Point Landscaping offers free estimates.** Call [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) today. With fall ground prep starting in late August, now's the time to plan before the season gets busy.
     `,
+  }
+,
+  {
+    slug: "how-often-replace-mulch-michigan",
+    title: "How Often Should You Replace Mulch in Michigan? A Macomb County Guide",
+    description: "Learn when to replace mulch in Michigan's climate. Expert timing, costs, and signs it's time for fresh mulch in Macomb County.",
+    date: "July 7, 2026",
+    category: "Mulch & Stone",
+    readTime: "6 min read",
+    content: `
+## The Short Answer: Michigan Mulch Needs Replacing Every 1-3 Years
+
+If you're standing in your Washington Township yard looking at mulch that's turned gray and flat, you're probably wondering if it's time for fresh material. Here's the truth: **Michigan's harsh winters and unpredictable spring weather break down mulch faster than most states.** Most homeowners in Macomb County should plan on replacing mulch every **18 to 24 months** for best results, though some situations call for annual replacement.
+
+The reason? Our clay-heavy soil combined with freeze-thaw cycles (we can swing from 40°F to 20°F overnight in March) causes mulch to compress, decompose, and lose its color faster than in more stable climates. Add our average annual rainfall of 31 inches, and mulch breaks down quicker here than in drier regions.
+
+## Why Michigan's Weather Destroys Mulch Faster
+
+**Freeze-thaw cycles are mulch's worst enemy.** When soil freezes and thaws repeatedly from November through April, it heaves and shifts, compacting your mulch layer. By late spring, that fluffy 3-inch layer you installed in fall has become a 1.5-inch pancake.
+
+Our Macomb County winters also mean:
+
+- **Heavy snow cover** that sits for weeks, trapping moisture and accelerating decomposition
+- **Spring snowmelt** that saturates mulch, promoting fungal growth and breakdown
+- **UV exposure** from intense summer sun (when we get it) that fades and hardens the outer layer
+- **Moisture-loving pests** that thrive in our humid climate and tunnel through mulch
+
+**Pro tip:** If you replace mulch only once every three years, expect to see significant deterioration by year two. The cost difference between replacing every 2 years versus 3 years is often less than the replacement value of plants that decline from poor mulch condition.
+
+## Three Signs Your Mulch Needs Replacing Now
+
+Don't wait for a calendar date—look for these specific signals:
+
+**1. Mulch has turned gray or silver**
+When the color fades to pale gray, the protective barrier has broken down. This typically happens 12-18 months after installation in Michigan. Faded mulch no longer regulates soil temperature or retains moisture effectively.
+
+**2. It's compacted flat and dense**
+Push your hand into the mulch. If it doesn't give way and feels hard, replacement time is here. Your soil isn't getting the aeration benefits, and water's running off instead of soaking in.
+
+**3. Weeds are taking over**
+When mulch gets thin (under 2 inches) or breaks down completely, weed seeds make contact with soil and germinate rapidly. If you're pulling weeds weekly despite having mulch, that's your signal.
+
+## The Real Cost Comparison: Replace vs. Maintain
+
+Let's talk numbers for a typical Macomb County home with 500 square feet of mulched beds:
+
+- **Fresh mulch installation:** $150-$250 every 2 years
+- **Annual touch-up (adding 1 inch):** $75-$125 per year
+- **Replacing struggling plants due to poor mulch:** $400-$1,200+
+
+**Better strategy:** Replace completely every 2 years rather than adding small amounts annually. When you top-dress with just an inch, you're mixing old, decomposed material with new mulch, which defeats the purpose. A full replacement removes the compressed, broken-down layer and gives you a clean 3-inch depth.
+
+## Timing Your Mulch Replacement in Washington Township
+
+**Fall (September-October) is ideal for Macomb County:**
+- Soil is still warm, helping roots establish before winter
+- You'll have maximum mulch depth protection through freeze-thaw season
+- The mulch settles through winter, so spring depth is still healthy
+
+**Spring (late April-May) is second-best:**
+- Wait until after our last average frost date (May 15 in Macomb County) to avoid shocking warm-season plants
+- Soil is warming up and ready for the growing season
+- You'll see throughout summer if mulch is functioning properly
+
+**Avoid summer replacement (June-August):**
+Your soil loses moisture regulation during our warmest months, and fresh mulch can retain too much heat around plant stems.
+
+## Ready for Fresh Mulch? Here's What to Do
+
+If your mulch is showing signs of age or you haven't replaced it in over 24 months, now's the time to plan. **Tri-Point Landscaping has helped hundreds of Washington Township and Macomb County homeowners get their beds looking healthy again** with professional mulch replacement that includes proper depth, quality material selection, and debris removal.
+
+**Don't wait until fall.** Summer is when landscapers are busiest, and availability fills up fast. Whether you need fresh mulch, bed cleanup, or a complete landscape refresh, we offer **free estimates** to assess your property's specific needs.
+
+[Contact Tri-Point Landscaping today](/contact) at [(586) 327-8080](tel:+15863278080) or visit **tripointlandscaping.com** to schedule your free consultation. We'll tell you exactly what your landscape needs and when—no pressure, just honest advice from neighbors who know Michigan landscaping.
+    `,
   },
 ];
