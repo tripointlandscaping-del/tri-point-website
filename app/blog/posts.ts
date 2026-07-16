@@ -6853,5 +6853,73 @@ If your mulch beds are already a problem, or if you're planning a landscape refr
 
 **Call us today at [(586) 327-8080](tel:+15863278080) for a free estimate.** We'll assess your beds, show you what's working and what isn't, and give you an honest plan to stop the weeds for real. Or visit [tripointlandscaping.com](https://tripointlandscaping.com) to schedule your consultation. Don't spend another summer weeding—let's fix it right.
     `,
+  }
+,
+  {
+    slug: "river-rock-vs-lava-rock-michigan-landscaping",
+    title: "River Rock vs Lava Rock for Michigan Landscaping: A Local Expert's Guide",
+    description: "Learn which rock is best for Macomb County landscaping. Compare durability, cost, drainage, and winter performance for Michigan yards.",
+    date: "July 16, 2026",
+    category: "Mulch & Stone",
+    readTime: "5 min read",
+    content: `
+# River Rock vs Lava Rock for Michigan Landscaping: A Local Expert's Guide
+
+If you're standing in your Washington Township yard trying to decide between river rock and lava rock for your landscape beds, you're facing a choice that actually matters more than most people realize. Both look great, but they behave completely differently in Michigan's freeze-thaw cycle, and that's what separates a landscaping choice that lasts from one that costs you money down the road.
+
+Let me break down exactly what you need to know.
+
+## The Physical Difference: Why It Matters in Macomb County
+
+**River rock** is smooth, rounded stone formed by water movement over thousands of years. You'll find it in light gray, tan, and white colors, usually between 1–3 inches in diameter. It's the polished-looking stuff that feels smooth in your hand.
+
+**Lava rock** (also called basalt rock) is dark, porous volcanic stone with a rough, jagged surface. It's typically black or dark red, lighter in weight than river rock, and feels gritty or crumbly when you handle it.
+
+Here's the critical difference for Michigan: **river rock is dense and non-porous, while lava rock is extremely porous.** In Macomb County, where we experience winter temperatures dropping to 15–20°F below zero, that porosity becomes a real problem. When lava rock absorbs water in fall and then freezes, that water expands inside the stone, breaking it apart from the inside out. By spring, you'll have chunks of lava rock crumbling into gravel. River rock, being non-porous, doesn't absorb water, so it stays intact through our brutal freeze-thaw cycles.
+
+## Installation & Initial Cost
+
+At first glance, **river rock costs 20–30% more per ton than lava rock**—roughly $45–65 per ton for river rock versus $30–50 per ton for lava rock in the Washington Township area. For a 100-square-foot landscape bed at 3 inches deep, you're looking at about 9 tons of material, so the upfront difference is real: maybe $150–200 more for river rock.
+
+But here's what matters: **you won't be replacing river rock in 3–4 years.** Lava rock will break down and need replacement within 4–5 years in Michigan's climate, sometimes sooner depending on how harsh the winter is. That's an extra $1,000+ landscaping project you don't need if you choose correctly the first time.
+
+River rock also settles differently. It locks together slightly as it shifts, staying more organized. Lava rock tends to scatter—you'll spend the summer moving it back into place, and wind will carry pieces into your lawn.
+
+## Drainage & Water Management
+
+This is where lava rock actually wins—but only if you need it.
+
+**Lava rock drains instantly.** Water runs right through the porous structure, making it ideal if you have a low-lying landscape bed or clay soil (which is common in Michigan). If water pools in your beds in spring, lava rock handles that better short-term.
+
+**River rock drains slowly** because water runs around and under it, not through it. For most Macomb County properties with decent grading, this isn't a problem. But if you're installing river rock near a downspout or in a depression, you might want to add drainage under the rock or consider lava rock specifically for water management—accepting you'll need to replace it sooner.
+
+## Maintenance & Long-Term Reality
+
+River rock requires almost zero maintenance beyond occasional raking to keep it neat. It won't decompose, won't blow away, and won't degrade.
+
+Lava rock demands attention. You'll be raking it back into place after wind and rain, sweeping pieces that break off your driveway, and pulling small fragments out of your lawn mower. By year 3 or 4 in Michigan, you'll have noticeably fewer rocks and more bare spots.
+
+## The Right Choice for Your Yard
+
+**Choose river rock if:**
+- You want a 10+ year solution with zero replacement
+- You care about appearance staying consistent
+- Your landscape beds drain adequately
+- You want to avoid maintenance
+
+**Choose lava rock if:**
+- You need excellent drainage for a specific problem area
+- You're willing to replace it in 4–5 years
+- You like the dark, volcanic look and don't mind active upkeep
+- Budget is your primary concern right now
+
+## Get It Right the First Time
+
+We've installed thousands of yards across Macomb County, and we've seen what lasts. **River rock is the local favorite** for good reason—it handles Michigan winters and looks better year after year.
+
+If you're planning a landscaping project this summer or fall, now's the time to get it right. Our team can assess your specific site drainage, soil conditions, and goals to recommend exactly which rock (or combination) works best for your property.
+
+**Call Tri-Point Landscaping today at [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) for a free estimate.** We'll walk you through the pros and cons specific to your Washington Township property and show you samples so you can see exactly what you're getting. Free estimates—no obligation.
+    `,
   },
 ];
