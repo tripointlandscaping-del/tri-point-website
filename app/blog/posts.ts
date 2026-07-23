@@ -6996,5 +6996,66 @@ Tri-Point Landscaping has spent years working with Macomb County's specific soil
 
 [Contact Tri-Point Landscaping today for your free lawn assessment](tel:+15863278080) at **(586) 327-8080** or visit [tripointlandscaping.com](/contact) to schedule your evaluation. We serve Washington Township and all of Macomb County, and estimates are completely free. Don't spend replacement money if renovation will solve your problem—and don't waste another season hoping a failing lawn will improve on its own.
     `,
+  }
+,
+  {
+    slug: "how-to-aerate-lawn-michigan-timing-technique",
+    title: "How to Aerate Your Lawn in Michigan: Timing and Technique Guide",
+    description: "Learn when and how to aerate your Macomb County lawn. Expert timing tips for Michigan's climate and step-by-step aeration techniques.",
+    date: "July 23, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+If your lawn in Washington Township looks compacted, feels spongy, or drains poorly after rain, aeration is probably what you need. But here's what most homeowners get wrong: they aerate at the wrong time of year, or they use the wrong technique for Michigan's clay-heavy soil. I'm going to walk you through exactly when to aerate in Macomb County and how to do it right the first time.
+
+## Why Michigan Lawns Need Aeration More Than Most
+
+Macomb County sits on some heavy clay soil—that's just geology. While clay holds moisture and nutrients well, it compacts easily under foot traffic, heavy equipment, and seasonal freeze-thaw cycles. When your soil compacts, roots can't penetrate deeply, water sits on top instead of soaking in, and nutrients stay locked away from grass plants.
+
+Aeration punches small holes through that compacted layer, opening air pockets that roots actually want to grow into. In Michigan, this is especially critical because **our freeze-thaw winters work against us**—the ground literally heaves and settles, pushing soil particles tighter together. You're not just improving drainage; you're fighting back against our climate's natural tendency to compact your lawn.
+
+## The Timing Rule for Michigan Aeration
+
+Here's the non-negotiable truth: **aerate cool-season grasses (which is what grows in Michigan) in early fall or spring when soil temperatures are between 50–65°F**.
+
+For Macomb County specifically:
+
+- **Fall aeration (best option):** Mid-August through September. Soil temps in Michigan typically hit the sweet spot by late August. This is ideal because grass is entering its peak growth season and roots will fill those holes aggressively over fall and into spring.
+- **Spring aeration (acceptable, but riskier):** Mid-April through May, after soil temps climb above 50°F consistently. The risk here is that weeds also love spring conditions, so you're aerating right when crabgrass is thinking about germinating.
+
+**Never aerate in summer.** July and August soil temps in Washington Township climb into the 70s–80s. Aerating now stresses your grass when it's already fighting heat and dormancy, and those open holes become highways for crabgrass seeds and broadleaf weeds. It's basically inviting problems.
+
+## Two Methods: Which One Fits Your Lawn
+
+**Spike aerators** (also called solid tine) punch down and push soil aside. They're cheap to rent ($40–60/day at local equipment shops) and work okay on smaller lawns under 3,000 square feet. The downside: they don't remove anything. You're just compacting soil sideways, which defeats half the purpose on clay soils like ours.
+
+**Plug aerators** (core aerators) are the gold standard for Macomb County clay. They actually remove small soil cores—think of them like tiny divots—and eject them onto your lawn. These cores (about the size of a pencil) break down over 2–3 weeks, opening real air channels. Rental cost is higher ($80–120/day), but the results are dramatically better. For serious compaction, this is what works.
+
+If your lawn is smaller than 2,500 square feet, you can hand-aerate with a **manual aerator tool** (basically a step-on device with hollow tines). It's slow—you might do 30–40 square feet per hour—but it works for spot treatment.
+
+## Step-by-Step Aeration Process
+
+1. **Water your lawn 2–3 days before.** You want soil moist but not waterlogged. In Michigan's drier fall, this matters. Aerate through moist soil; it's easier on your equipment and pulls cores more effectively.
+
+2. **Mark sprinkler heads and underground utilities.** Call 811 or use the Dig Safe Michigan hotline before you start. One hit to a buried line isn't worth it.
+
+3. **Mow your grass to 2.5 inches** the day before. Shorter grass lets the aerator reach soil more easily.
+
+4. **Run the aerator in overlapping passes.** First pass in one direction, second pass perpendicular. Don't rush it—those cores need to be extracted cleanly.
+
+5. **Leave cores on the lawn.** They'll break down naturally over 2–3 weeks and filter back into soil. Rake them only if they're blocking seeding plans.
+
+6. **Water lightly for 2–3 days after.** This helps grass recover and settles those newly opened pores.
+
+## After Aeration: What's Next
+
+Aeration alone doesn't fix everything. The best practice is **aerate, then overseed** in fall. Those holes are essentially planting pockets. Early September is prime time in Macomb County—soil is warm enough for germination, and your existing grass won't shade out seedlings. Spring overseeding is possible but less reliable because of heat stress come June.
+
+## When to Call a Professional
+
+If your lawn is over 5,000 square feet, or if you're not sure whether you have compaction, spike, or plug aeration is the question—**that's when a professional assessment saves time and money**. We've aerated hundreds of Washington Township lawns, and we know exactly what Michigan clay needs.
+
+Right now in late summer is the perfect moment to schedule fall aeration. September is our busiest season for a reason—it works. [Contact Tri-Point Landscaping](/contact) at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your soil, recommend core aeration if needed, and handle the whole job so you're not renting equipment or spending a Saturday in 90-degree heat. Your lawn in Macomb County deserves better than compacted clay—let's open it up.
+    `,
   },
 ];
