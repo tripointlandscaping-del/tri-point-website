@@ -7057,5 +7057,72 @@ If your lawn is over 5,000 square feet, or if you're not sure whether you have c
 
 Right now in late summer is the perfect moment to schedule fall aeration. September is our busiest season for a reason—it works. [Contact Tri-Point Landscaping](/contact) at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your soil, recommend core aeration if needed, and handle the whole job so you're not renting equipment or spending a Saturday in 90-degree heat. Your lawn in Macomb County deserves better than compacted clay—let's open it up.
     `,
+  }
+,
+  {
+    slug: "dethatching-macomb-county-when-how",
+    title: "What is Dethatching and When Should You Do It in Macomb County",
+    description: "Learn when to dethatch your lawn in Macomb County, MI. Local timing, signs of thatch buildup, and DIY vs. professional methods.",
+    date: "July 28, 2026",
+    category: "Lawn Renovations",
+    readTime: "6 min read",
+    content: `
+## What is Thatch and Why It's Actually a Problem
+
+Thatch isn't just dead leaves sitting on top of your lawn — it's a dense, felt-like layer of dead grass, stems, and roots that builds up between your soil and living grass blades. In Macomb County's humid climate with our clay-heavy soil, thatch accumulates faster than in drier regions because our moisture promotes thick growth and slower decomposition.
+
+When thatch gets thicker than **half an inch**, it starts choking your lawn. Water can't penetrate to the roots, nutrients sit on top instead of feeding the grass, and fungal diseases love the warm, damp environment that develops underneath. You'll notice your lawn feels spongy when you walk on it — that's thatch, not healthy soil.
+
+## How to Know If Your Lawn Needs Dethatching
+
+Before you rent equipment or call someone out, dig a small hole in your lawn about **2-3 inches deep**. Look at the cross-section. You should see mostly soil with just a thin, barely-visible tan layer. If you see **half an inch or more of brown, fibrous material** between the grass and soil, you need dethatching.
+
+Other signs your Washington Township lawn is overdue:
+
+- Water runs off instead of soaking in during rain
+- Your lawn looks thin or patchy even though you water regularly
+- You can literally peel back chunks of grass and they feel like a mat
+- Insects and disease problems have gotten worse year over year
+- Your mower sits higher than it used to, getting stuck in spongy areas
+
+Macomb County lawns that receive regular fertilizer tend to build thatch faster because the extra nutrients push vigorous growth. If you've been keeping your lawn well-fed, thatch is more likely.
+
+## The Best Time to Dethatch in Michigan
+
+**Early spring (late March through April) is the ideal window for Macomb County**. Your lawn is just starting to green up, soil temperatures are hitting 55-60°F consistently, and your grass has the whole growing season to recover. Dethatching stresses the lawn temporarily — it'll look rough for 2-3 weeks — so spring gives maximum recovery time.
+
+Fall (September through early October) is your second-best option, but it's riskier in Michigan. Dethatching in late fall means your lawn has less time to fill in bare spots before winter dormancy. If you wait too late, winter weather can expose damaged areas.
+
+**Avoid dethatching in summer** (June-August). Your cool-season grass is already stressed by heat and humidity in our region, and dethatching wounds will invite disease and weeds when temperatures spike.
+
+## DIY Dethatching vs. Professional Service
+
+You have two main routes:
+
+**Renting a power dethatcher ($60-100/day)**: You push a machine with vertical blades that rake out the thatch. It's physical work, takes 4-6 hours for a typical residential lot in Washington Township, and you'll need to remove the piles of thatch afterward (bag it or haul it). The upside is lower cost if your thatch layer is mild to moderate.
+
+**Hiring professionals**: We use commercial-grade equipment that's more aggressive and efficient. We haul away all debris, properly dispose of it, and can overseed immediately after. For lawns with **more than 1 inch of thatch** or difficult terrain, this saves you significant labor and gets better results.
+
+One local detail: Macomb County's clay soil compacts easily when wet. If you DIY and the ground is still soft in spring, heavy equipment will create worse compaction problems. Professionals know the soil conditions and timing.
+
+## What Happens After Dethatching
+
+Your lawn will look devastated for a few weeks. Bare patches will appear. This is normal. In mid-spring (April), those patches fill in quickly as temperatures warm. We recommend:
+
+- **Water thoroughly** the first week — the lawn needs help recovering
+- **Wait 2 weeks** before applying any fertilizer or weed control
+- **Overseed** after dethatching to fill thin spots (especially important in clay-heavy soil areas common throughout Macomb County)
+- **Mow once** the grass reaches 3 inches to encourage fuller growth
+
+You shouldn't need dethatching again for 3-5 years if you follow good maintenance (proper mowing height, aerating annually, not over-fertilizing).
+
+## Ready to Get Your Macomb County Lawn Dethatched?
+
+**Spring is here, and if your lawn feels spongy or water isn't soaking in, you're looking at a thatch problem.** The earlier you handle it, the faster your lawn bounces back before summer heat arrives.
+
+Tri-Point Landscaping has been dethatching Washington Township and Macomb County lawns for years. We'll assess whether your lawn actually needs it, handle the heavy work, and set you up with a plan to prevent thatch buildup long-term.
+
+**[Contact Tri-Point Landscaping today](/contact) or call us at [(586) 327-8080](tel:+15863278080) for a free estimate.** We can usually schedule spring dethatch services within 1-2 weeks. Visit **tripointlandscaping.com** to see our other lawn renovation services.
+    `,
   },
 ];
