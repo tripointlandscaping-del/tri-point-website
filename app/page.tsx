@@ -14,9 +14,9 @@ import SeasonalTip from "./components/SeasonalTip";
 import { posts } from "./blog/posts";
 
 export const metadata: Metadata = {
-  title: "Lawn Care & Landscaping — Macomb County, MI | Tri-Point",
+  title: "Lawn Care & Landscaping — Washington Township, MI | Tri-Point",
   description:
-    "Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. 4.9★ Google rated. Free estimates — (586) 327-8080.",
+    "Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, snow removal & more. 4.9★ rated. Free estimates — (586) 327-8080.",
   keywords: [
     "landscaping Macomb County MI",
     "landscaper Macomb County MI",
@@ -287,7 +287,7 @@ export default function HomePage() {
               <h1 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="font-bold text-white leading-[1.0] mb-3">
                 <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-100">Landscaping &amp;</span>
                 <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-200" style={{ color: "#7ecb82" }}>Lawn Care</span>
-                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Macomb County.</span>
+                <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-[88px] anim-hidden animate-fade-up delay-300">Washington Township, MI.</span>
               </h1>
               <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-white/30 text-lg sm:text-xl tracking-[0.25em] uppercase mb-8 anim-hidden animate-fade-up delay-400">
                 Precision · Passion · Perfection
@@ -1102,7 +1102,8 @@ export default function HomePage() {
               <p className="text-xl text-white/55 mb-4 max-w-lg mx-auto">
                 Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team — ready when you are.
               </p>
-              <p className="text-white/30 text-sm mb-14">Serving Washington Township · Shelby Township · Macomb Township · Romeo · Ray Township · Bruce Township · Rochester · Rochester Hills</p>
+              <p className="text-white/30 text-sm mb-6">Serving Washington Township · Shelby Township · Macomb Township · Romeo · Ray Township · Bruce Township · Rochester · Rochester Hills</p>
+              <p className="text-white/20 text-xs mb-14">ZIP codes: 48094, 48095 (Washington Twp) · 48315, 48316 (Shelby Twp) · 48042, 48044 (Macomb Twp) · 48065 (Romeo) · 48306, 48307, 48309 (Rochester / Rochester Hills)</p>
               <div className="flex flex-col sm:flex-row gap-5 justify-center">
                 <MagneticButton>
                   <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center justify-center gap-3 text-white px-14 py-5 text-base font-semibold tracking-wide hover:opacity-90 transition-opacity">

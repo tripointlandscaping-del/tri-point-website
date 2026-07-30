@@ -14,14 +14,14 @@ const serviceBlogMap: Record<string, string[]> = {
     "how-often-to-mow-lawn-michigan",
   ],
   "landscaping": [
-    "how-to-choose-landscaping-company-macomb-county",
+    "best-landscaping-company-macomb-county",
     "landscape-design-ideas-washington-township",
     "how-to-improve-curb-appeal-macomb-county",
   ],
   "mulch-and-stone": [
     "benefits-of-professional-mulching-macomb-county",
     "how-to-improve-curb-appeal-macomb-county",
-    "difference-between-topsoil-compost-mulch-macomb-county",
+    "topsoil-compost-mulch-guide-michigan",
   ],
   "seasonal-cleanup": [
     "spring-lawn-care-checklist-washington-township",

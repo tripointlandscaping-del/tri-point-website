@@ -7,7 +7,7 @@ import FaqAccordion from "../components/FaqAccordion";
 export const metadata: Metadata = {
   title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
   description:
-    "Answers to common questions about Tri-Point Landscaping's services, pricing, service areas & insurance. Serving Washington Township, Shelby Township & all of Macomb County, MI.",
+    "Answers to common questions about landscaping, lawn care, snow removal & pricing in Macomb County, MI — from Washington Township's top-rated crew.",
   keywords: [
     "landscaping FAQ Macomb County",
     "lawn care questions Michigan",

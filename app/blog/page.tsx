@@ -13,7 +13,7 @@ function getPublishedPosts() {
 }
 
 export const metadata: Metadata = {
-  title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
+  title: "Macomb County Lawn Care Tips & Landscaping Advice | Tri-Point",
   description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
   keywords: [
     "lawn care tips Macomb County",

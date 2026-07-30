@@ -1197,7 +1197,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                   {area.services.map((s) => (
                     <Link
                       key={s.href}
-                      href={s.href}
+                      href={`${s.href}/${slug}`}
                       className="group flex items-center justify-between p-4 border border-gray-100 hover:border-[#2C5F2E] hover:bg-[#f5f0e8] transition-all"
                     >
                       <div className="flex items-center gap-3">

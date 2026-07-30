@@ -150,7 +150,6 @@ export default function RootLayout({
               email: "tripointlandscaping@gmail.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Washington Township",
                 addressLocality: "Washington Township",
                 addressRegion: "MI",
                 addressCountry: "US",
@@ -211,7 +210,6 @@ export default function RootLayout({
                 email: "tripointlandscaping@gmail.com",
                 areaServed: ["Macomb County, MI", "Oakland County, MI"],
                 availableLanguage: "English",
-                contactOption: "TollFree",
               },
               sameAs: [
                 "https://g.page/r/CTWE7P6lheWxEBM",

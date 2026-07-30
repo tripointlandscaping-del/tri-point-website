@@ -501,14 +501,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   ]);
 
   return {
-    title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
-    description: `Professional ${variants[0]} in ${areaData.name}, MI. Serving all of ${areaData.county}. Free estimates — call (586) 327-8080.`,
+    title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
+    description: `4.9★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates — same-day response. Call (586) 327-8080.`,
     keywords,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
     openGraph: {
-      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
+      title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
       siteName: "Tri-Point Landscaping",
@@ -517,7 +517,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${variants[0].charAt(0).toUpperCase() + variants[0].slice(1)} in ${areaData.name}, MI | Tri-Point`,
+      title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
     },
@@ -541,7 +541,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
-      { "@type": "ListItem", position: 2, name: "Services", item: "https://www.tripointlandscaping.com/services/lawn-maintenance" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://www.tripointlandscaping.com/services" },
       { "@type": "ListItem", position: 3, name: svc.name, item: `https://www.tripointlandscaping.com/services/${slug}` },
       { "@type": "ListItem", position: 4, name: areaData.name, item: `https://www.tripointlandscaping.com/services/${slug}/${area}` },
     ],
@@ -570,7 +570,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     areaServed: {
       "@type": "City",
       name: areaData.name,
-      containedInPlace: { "@type": "AdministrativeArea", name: "Macomb County, Michigan" },
+      containedInPlace: { "@type": "AdministrativeArea", name: `${areaData.county}, Michigan` },
     },
     offers: {
       "@type": "Offer",
