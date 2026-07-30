@@ -7124,5 +7124,78 @@ Tri-Point Landscaping has been dethatching Washington Township and Macomb County
 
 **[Contact Tri-Point Landscaping today](/contact) or call us at [(586) 327-8080](tel:+15863278080) for a free estimate.** We can usually schedule spring dethatch services within 1-2 weeks. Visit **tripointlandscaping.com** to see our other lawn renovation services.
     `,
+  }
+,
+  {
+    slug: "commercial-landscaping-contract-michigan",
+    title: "What to Look for in a Commercial Landscaping Contract in Michigan",
+    description: "Essential checklist for Macomb County business owners reviewing landscaping contracts. Protect your property with these Michigan-specific terms.",
+    date: "July 30, 2026",
+    category: "Commercial",
+    readTime: "7 min read",
+    content: `
+If you're a business owner in Washington Township or anywhere across Macomb County, you've probably gotten at least one landscaping proposal sitting on your desk. But reading through a contract isn't like glancing at a quote—you need to know exactly what you're committing to, especially when Michigan's unpredictable weather and clay-heavy soil conditions create unique landscaping demands. Here's what actually matters in a commercial landscaping contract.
+
+## Seasonal Coverage and Winter Responsibility
+
+This is where most Macomb County business owners get caught off guard. Your contract needs to explicitly state who handles snow removal, when it kicks in, and at what snow depth. In Michigan, we can see snow arrive as early as October and stick around past April, so **your contract should specify whether the landscaper maintains your property year-round or if winter services are separate**.
+
+Ask directly: Does the bid include snow removal? At what depth (typically 2 inches in commercial settings)? Are salt/sand applications included, or are those additional? Some companies charge per push-through, while others charge a flat monthly winter rate. For Washington Township properties especially, where commercial zones often have larger parking areas, this difference can run you $500-$2,000 per season depending on snowfall.
+
+Also verify: **Who's liable if snow isn't removed within a reasonable timeframe and someone slips?** This should be addressed in your liability insurance section.
+
+## Specific Service Tasks and Frequency
+
+Don't accept vague language. "Regular maintenance" means nothing. Your contract should list exactly what services happen and how often:
+
+- **Mowing frequency** — Once weekly? Twice? (Macomb County's spring growth rate typically requires weekly cuts April through October)
+- **Edging and trimming** — Which plants, how often?
+- **Fertilization schedule** — Specific dates or seasonal application?
+- **Weed control** — Spot treatment or preventative?
+- **Irrigation monitoring** — Who adjusts for Michigan's rainfall patterns?
+
+The **clay-based soil common throughout Macomb County** drains poorly and stays saturated longer than sandy soils, so you'll want someone who understands this and won't overwater your landscape. Make sure the contract specifies this consideration.
+
+## Insurance, Liability, and Bonding
+
+This isn't optional—it's survival. Your landscaper must carry **Commercial General Liability insurance of at least $1 million**, and you should be named as an additional insured. Many commercial property managers require $2 million. Get proof of insurance in writing before work starts, not after.
+
+Also require:
+- **Workers' compensation insurance** (mandatory in Michigan)
+- **Equipment/vehicle insurance**
+- **A surety bond** if the contract value exceeds $25,000
+
+Why? If someone gets hurt on your property or equipment damages your building, you need to know you're protected. Michigan courts hold property owners liable for contractor negligence, so this protects both parties.
+
+## Price Structure and Contract Length
+
+Understand how you're paying. Are you locked into a one-year agreement with automatic renewal? That's common, but **you should have a 30-day cancellation clause if service quality drops**. Three-year contracts lock in prices but remove flexibility if a competitor offers better service.
+
+Look for:
+- **Clear pricing for base services** vs. add-ons
+- **How price increases are handled** — Is it tied to seasonal adjustments? CPI? A fixed percentage?
+- **What happens if services are missed** — Do they make it up at no charge, or do you still pay full price?
+
+In Macomb County's market, expect commercial maintenance to run $150-$400 monthly depending on property size and scope, plus separate winter rates.
+
+## Performance Standards and Communication
+
+Your contract should specify response times and communication channels. For example:
+
+- Response to damage or problems within **24 hours**
+- Weather-related delays explained within **4 business hours**
+- A designated point person for your account
+- How complaints are documented and resolved
+
+**Don't skip the fine print about what happens during extreme weather.** Michigan's freeze-thaw cycles and occasional late-spring frosts can damage landscaping. Know whether your landscaper replaces plants lost to Michigan's weather conditions or if that's your cost.
+
+## Get Professional Eyes on It
+
+Before signing, have the contract reviewed by someone who understands commercial landscaping in Michigan. At Tri-Point Landscaping, we've written hundreds of these and can tell you honestly: unclear contracts create problems when relationships sour.
+
+If you're in Washington Township or Macomb County and you're reviewing a landscaping contract right now, **[contact Tri-Point Landscaping for a free consultation](tel:+15863278080)**. We'll walk through what you've been offered, point out gaps, and show you what a solid agreement looks like. Call us at **(586) 327-8080** or visit **tripointlandscaping.com**.
+
+With summer maintenance season here and fall planning already underway, now's the time to get this locked down before next season's rush.
+    `,
   },
 ];
