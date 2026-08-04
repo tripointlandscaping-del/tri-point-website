@@ -7197,5 +7197,78 @@ If you're in Washington Township or Macomb County and you're reviewing a landsca
 
 With summer maintenance season here and fall planning already underway, now's the time to get this locked down before next season's rush.
     `,
+  }
+,
+  {
+    slug: "mulch-volcano-killing-trees-michigan",
+    title: "Mulch Volcano: Why Piling Mulch Against Trees Kills Them in Michigan",
+    description: "Learn why mulch volcanoes damage Michigan trees. Tri-Point Landscaping explains the damage and how to mulch correctly in Macomb County.",
+    date: "August 4, 2026",
+    category: "Mulch & Stone",
+    readTime: "5 min read",
+    content: `
+## You're Probably Killing Your Trees With Mulch — Here's How to Stop
+
+If you've driven through Washington Township or any neighborhood in Macomb County lately, you've seen it: massive piles of mulch stacked around the base of trees like little brown mountains. Homeowners think they're doing the right thing. They're not. That "mulch volcano" is slowly strangling your tree, and by the time you notice the damage, it's often too late to save it.
+
+I've been landscaping in this area for years, and this is hands-down the most common tree killer I see — and it's completely preventable.
+
+## What Actually Happens When You Pile Mulch Against a Tree
+
+When mulch touches the trunk of a tree, you're creating the perfect environment for **bark decay and disease**. Here's the mechanics:
+
+Mulch holds moisture. That's good for the soil around the tree, but when it's packed directly against the bark, it keeps the trunk wet 24/7. In Michigan's humid summers — especially during our July and August heat waves — that moisture creates conditions where fungi and bacteria thrive. The bark softens. Rot begins. Insects move in.
+
+But there's more. When you pile mulch high against the trunk, you're also:
+
+- **Encouraging girdling roots** — roots that grow around the trunk instead of outward, eventually strangling the tree
+- **Smothering the root flare** — that natural bell shape where roots meet trunk. This transition zone needs to breathe
+- **Creating habitat for rodents and voles** that chew bark during Michigan winters (November through March is peak damage season)
+- **Trapping heat** against the trunk, which damages the cambium layer beneath the bark
+
+I've seen 20-year-old oaks in Macomb County decline and die within 3-5 years because of mulch volcanoes. The homeowner had no idea what was happening underground.
+
+## How to Mulch Trees the Right Way in Michigan
+
+Here's exactly how to do it correctly:
+
+**The 3-inch rule:**
+- Apply mulch to a depth of **2 to 3 inches** — no more
+- This is enough to regulate soil temperature (crucial during our Michigan freeze-thaw cycles) and retain moisture without suffocating roots
+- Our clay-heavy Macomb County soils especially benefit from this buffer
+
+**The donut, not the volcano:**
+- Keep mulch **at least 6 inches away from the tree trunk** — ideally 12 inches
+- Create a mulch ring that extends out to the tree's drip line (roughly where branches end)
+- Think "donut" with the trunk as the empty hole
+
+**The right materials:**
+- Use **shredded hardwood mulch** or composted bark — these break down properly and improve soil structure
+- Avoid dyed mulch (it can contain harmful additives) and cypress mulch (it depletes fragile ecosystems)
+- In Macomb County, local suppliers often have excellent quality hardwood mulch at competitive prices
+
+**Timing matters:**
+- Apply or refresh mulch in **early spring (April-May)** and again in late fall (October-November)
+- This protects roots during our worst temperature swings
+
+## What to Do If You Already Have a Mulch Volcano
+
+If you're looking at your yard right now and realizing you've been doing this, don't panic. Here's the fix:
+
+1. **Pull back the mulch** — gently remove it away from the trunk until you can see the root flare
+2. **Inspect the bark** — look for soft spots, discoloration, or cracked sections (these indicate damage has started)
+3. **Reshape the mulch** — create that donut ring we talked about
+4. **Monitor closely** — watch for signs of stress (sparse canopy, dead branches, leaf discoloration) over the next year
+
+If you see serious damage, the tree may not recover, but stopping the damage now gives it the best chance.
+
+## Get Your Trees Professionally Assessed This Fall
+
+Macomb County's fall season (September through November) is the perfect time to correct mulching mistakes. The cooler weather means less stress on trees while they adjust, and you'll have all of winter and spring to monitor their recovery.
+
+If you're unsure whether your mulch is positioned correctly — or if you've already got damage — **[contact Tri-Point Landscaping](/contact)** for a free estimate. We'll assess your trees, show you exactly what needs to change, and do the work right. Call us at **[(586) 327-8080](tel:+15863278080)** or visit **tripointlandscaping.com**.
+
+We've helped hundreds of Washington Township and Macomb County homeowners save their trees by fixing mulch problems early. Don't let a simple mistake cost you a mature oak or maple.
+    `,
   },
 ];
