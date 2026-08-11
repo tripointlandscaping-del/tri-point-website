@@ -7270,5 +7270,97 @@ If you're unsure whether your mulch is positioned correctly — or if you've alr
 
 We've helped hundreds of Washington Township and Macomb County homeowners save their trees by fixing mulch problems early. Don't let a simple mistake cost you a mature oak or maple.
     `,
+  }
+,
+  {
+    slug: "top-dressing-lawn-michigan-macomb-county",
+    title: "Top Dressing a Lawn in Michigan: The Complete Macomb County Guide",
+    description: "Learn when and how to top dress your lawn in Michigan. Local timing, soil tips, and step-by-step instructions for Washington Township homeowners.",
+    date: "August 11, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## What Top Dressing Actually Does (And Why Michigan Lawns Need It)
+
+Top dressing sounds fancy, but it's really just spreading a thin layer of quality compost or soil amendment over your existing lawn. Here in Macomb County, where we deal with heavy clay soils and variable moisture, top dressing is one of the most practical things you can do to improve lawn health without starting over.
+
+When you apply a ½ to ¾ inch layer of compost, you're doing three things at once: improving soil structure, feeding microorganisms, and leveling out the bumps and divots that accumulate over time. Michigan's clay-heavy soils compact easily, especially in Washington Township where we get decent rainfall. Top dressing breaks that cycle by introducing organic matter that helps water drain better and roots penetrate deeper.
+
+## The Best Time to Top Dress in Michigan
+
+**Fall is ideal—specifically late September through October.** This timing works perfectly for Macomb County because:
+
+- Soil is still warm enough for microbial activity (above 50°F)
+- September and October rainfall helps settle the compost into your lawn
+- You're giving the lawn 6-8 weeks to establish before winter dormancy
+- Spring top dressing (April-May) works too, but summer heat can stress newly seeded areas if you're overseeding
+
+**Avoid top dressing in summer.** When temperatures hit 85°F+, fresh compost and seed sit in stress conditions. You'll see poor germination and potential disease issues.
+
+Winter top dressing in Michigan doesn't work—frozen ground won't accept the material properly, and you're wasting your investment.
+
+## What You'll Actually Need
+
+You have three realistic options:
+
+**Compost (best choice for most Macomb County properties)**
+- Look for finished compost, not aged bark or mulch
+- Most local suppliers carry it year-round; expect $35-$50 per cubic yard
+- One cubic yard covers roughly 300-400 square feet at ¾ inch depth
+- For a typical ¼-acre lot, you're looking at 3-4 cubic yards
+
+**Topdressing blend (compost + sand mix)**
+- Some landscape suppliers sell pre-made blends optimized for clay soils
+- Better drainage than pure compost in heavy clay
+- Slightly more expensive but saves mixing effort
+
+**Avoid pure topsoil** — it often compacts and doesn't add the organic matter your Michigan lawn actually needs.
+
+## How to Top Dress: The Step-by-Step Process
+
+**Step 1: Mow short (1.5 inches)**
+You need the compost to make contact with soil, not sit on top of tall grass blades. Scalp it shorter than normal.
+
+**Step 2: Dethatch if needed**
+If you have more than ½ inch of dead grass buildup, run a dethatcher or rent one from a local equipment rental place. Washington Township yards with older lawns often have significant thatch, which blocks compost from reaching soil.
+
+**Step 3: Spread the material**
+- Use a drop spreader for even distribution
+- Aim for ½ to ¾ inch thickness—measure it with a ruler if you're unsure
+- Two passes (north-south, then east-west) help even coverage
+- Spread slowly; compost is heavier than you'd think
+
+**Step 4: Work it in lightly**
+Use a hard rake or drag a section of chain-link fence over the area. You're not burying the grass—just working the compost down so it makes contact with the soil beneath.
+
+**Step 5: Water thoroughly**
+Give everything a good soaking to help settle the compost. If you're top dressing in fall (recommended), Michigan's September and October rain usually handles this, but don't count on it.
+
+## The Real Timeline: What to Expect
+
+Don't expect an overnight transformation. **You'll see improvement in 2-3 growing seasons.** Each year, microbial activity breaks down the compost and integrates it into your existing soil. By year three, you'll notice:
+
+- Lawn bounces back faster after foot traffic
+- Fewer muddy spots in spring
+- Better color and density
+- Reduced bare patches
+- Less water pooling on the surface
+
+This is why professional landscapers in Michigan recommend top dressing as a recurring practice—it's not a one-time fix, but a maintenance strategy.
+
+## Should You Overseed While Top Dressing?
+
+Yes, but only if you're doing it in fall. Seed germinates better when nestled into fresh compost than bare soil. Spring overseeding works too, but you're fighting heat and summer stress. If your lawn has significant bare spots or thinning in Macomb County's challenging climate, overseed immediately after top dressing.
+
+## When to Call in the Professionals
+
+Top dressing is doable for small areas (under 2,000 square feet), but for anything larger, equipment and material handling become the real work. Spreading 4-5 cubic yards of compost evenly across a Washington Township property isn't something most homeowners enjoy repeating. We see plenty of DIY attempts that missed coverage on edges or ended up with piles that need raking.
+
+## Ready to Improve Your Lawn This Fall?
+
+If you're in Washington Township or anywhere in Macomb County, **late September is here**—the perfect window for top dressing is open right now. We'll assess your soil, recommend the right material, and handle the spread and work-in so you're not breaking your back on a Saturday.
+
+**Call Tri-Point Landscaping at [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) for a free estimate.** We'll show you exactly what your lawn needs and create a plan that actually works with Michigan's climate, not against it. Estimates are always free, and we can schedule the work before October closes out.
+    `,
   },
 ];
