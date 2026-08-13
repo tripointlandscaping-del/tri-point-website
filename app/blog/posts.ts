@@ -7362,5 +7362,81 @@ If you're in Washington Township or anywhere in Macomb County, **late September 
 
 **Call Tri-Point Landscaping at [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) for a free estimate.** We'll show you exactly what your lawn needs and create a plan that actually works with Michigan's climate, not against it. Estimates are always free, and we can schedule the work before October closes out.
     `,
+  }
+,
+  {
+    slug: "commercial-snow-removal-contracts-macomb-county",
+    title: "How Commercial Snow Removal Contracts Work in Macomb County",
+    description: "A practical guide to understanding commercial snow removal contracts in Macomb County, Michigan. Learn pricing, triggers, and what to expect.",
+    date: "August 13, 2026",
+    category: "Commercial",
+    readTime: "7 min read",
+    content: `
+If you own or manage a commercial property in Washington Township or anywhere across Macomb County, you've probably wondered what a snow removal contract actually covers—and whether you're getting a fair deal. Winter in Michigan isn't optional, and neither is keeping your parking lot, walkways, and loading docks clear. But contracts vary wildly, and signing the wrong one can leave you either overpaying or dangerously unprepared when snow hits.
+
+## The Two Main Contract Types in Macomb County
+
+Commercial snow removal contracts come in two flavors, and understanding the difference will save you thousands of dollars.
+
+**Per-Push Contracts** charge you every time snow falls and needs removal. A "push" typically means clearing when snow accumulation reaches 2 inches or more—the standard trigger across Michigan. You pay based on what actually happens that winter. If Macomb County gets a mild season with just a few dustings, your costs stay low. If we get hit like the winter of 2013-2014 (when some areas recorded 240+ inches statewide), your bill climbs.
+
+**Seasonal Contracts** lock in one flat fee from December through March (or November through April, depending on the agreement). You pay the same amount whether it snows twice or twenty times. This removes uncertainty—you know exactly what to budget. Most property managers in Washington Township prefer seasonal contracts because they're predictable.
+
+There's also a hybrid approach: a seasonal retainer plus per-push charges for events beyond a certain frequency. This splits the difference if you want some certainty without overpaying in light snow years.
+
+## What Actually Gets Included (and What Doesn't)
+
+This is where contracts get tricky. Read the fine print.
+
+A standard commercial contract in Macomb County covers:
+
+- **Parking lot plowing** to create passable driving surfaces
+- **Walkway and entrance clearing** for pedestrian safety
+- **Salt or sand application** for ice management
+- **Loading dock and driveway access** (usually to 4-6 inches of clearance)
+
+What often *isn't* included:
+
+- **Rooftop snow removal** (this requires specialized equipment and adds liability)
+- **Gutter and downspout clearing**
+- **Snow stacking and hauling** (moving accumulated snow to off-site locations)
+- **De-icing treatments** beyond basic salt (magnesium chloride or liquid calcium are premium add-ons)
+- **24-hour emergency clearing** after major storms (overtime charges apply)
+
+Here's the key: **ask your contractor to specify the minimum trigger depth for each service**. Some companies won't touch your lot until 3 inches; others start at 2 inches. In Macomb County, where we get frequent light snows mixed with heavy events, this matters. A 2-inch trigger means more frequent service but better safety compliance.
+
+## Pricing Realities in Washington Township
+
+Rates in Macomb County vary based on property size, location, and equipment access. A typical seasonal contract for a medium commercial lot (15,000-20,000 square feet) runs $1,500–$3,500 for the entire winter season. Per-push pricing usually falls between $400–$800 per event.
+
+These aren't arbitrary numbers. Washington Township's clay-based soil and freeze-thaw cycles mean salt application is critical—salty snow sticks to pavement differently than dry snow. A contractor charging bottom-dollar might not account for this regional difference.
+
+**Temperature thresholds matter too.** Most contracts specify that salting happens when temperatures are 28°F or below (not at 32°F, because ground temperature is colder). Some contracts add a clause for re-application every 24 hours during extended storms—that's additional cost.
+
+## Response Time and Liability Clauses
+
+Commercial contracts always include response time language. Standard terms promise arrival "within 24 hours of snowfall" for day events and "by 6 AM" for overnight snow. But read closely: does "arrival" mean starting work, or does it mean beginning within 24 hours? These aren't the same thing.
+
+Liability is non-negotiable in Michigan. Your contractor should carry commercial general liability insurance (minimum $1 million) and property damage coverage. **Never sign with an uninsured contractor.** If a customer slips on an uncleared walkway, you're liable—not them—unless you have documented proof that a licensed, insured contractor handled snow removal.
+
+Also check: does the contract specify **salt type**? Road salt works fine for parking lots, but some properties need magnesium chloride or calcium chloride (gentler on concrete and vegetation, common in Macomb County for landscaped areas). These cost 20-30% more but prevent premature concrete failure.
+
+## Negotiate for Macomb County Winter Realities
+
+When signing a contract, negotiate these points:
+
+- **Salt storage** – Does the contractor supply salt, or do you? On-site storage can freeze into blocks by February if not managed properly.
+- **Re-application limits** – Specify how many re-applications are included before additional charges kick in.
+- **Equipment type** – Smaller lots might use pickup trucks with plows; larger properties need heavy equipment. Make sure it's specified.
+- **Exit dates** – Both parties should agree on end-of-season dates. In Washington Township, we sometimes need clearing into early April.
+
+## Get a Contract Built for Your Property—Starting Now
+
+The best time to negotiate a commercial snow removal contract isn't January, when contractors are slammed and your parking lot is already a skating rink. **It's right now, in late summer, before the rush.**
+
+Tri-Point Landscaping has been managing commercial snow removal across Macomb County for years, and we know exactly how to write contracts that protect you and match our region's weather patterns. We'll audit your property, explain exactly what you need (not what we want to sell you), and give you a contract with transparent pricing and realistic response times.
+
+**Call [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) today for a free estimate.** We'll review your current property, walk you through options, and explain what a fair commercial snow removal contract looks like in Washington Township. Getting ahead now means you'll sleep better when the first major snow hits.
+    `,
   },
 ];
