@@ -7438,5 +7438,68 @@ Tri-Point Landscaping has been managing commercial snow removal across Macomb Co
 
 **Call [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) today for a free estimate.** We'll review your current property, walk you through options, and explain what a fair commercial snow removal contract looks like in Washington Township. Getting ahead now means you'll sleep better when the first major snow hits.
     `,
+  }
+,
+  {
+    slug: "how-deep-should-mulch-be-michigan-avoiding-mistakes",
+    title: "How Deep Should Mulch Be in Michigan: Avoiding Common Mistakes",
+    description: "Learn the right mulch depth for Macomb County gardens. Avoid over-mulching and winter damage with expert Michigan landscaping tips.",
+    date: "August 18, 2026",
+    category: "Mulch & Stone",
+    readTime: "5 min read",
+    content: `
+## The Michigan Mulch Problem: Why Depth Matters More Than You Think
+
+Walk through any neighborhood in Washington Township or Macomb County in late spring, and you'll spot the same mistake over and over: **mulch piled 6, 7, even 8 inches deep** around trees and shrubs. It looks impressive for about two weeks. Then the real problems start.
+
+Too much mulch doesn't just waste money—it actually damages plants during our harsh Michigan winters. The wrong depth traps moisture against tree bark, invites pest damage, and can kill your landscape investment. On the flip side, too-shallow mulch won't protect roots from our temperature swings (we can drop 40 degrees in 24 hours here) or suppress weeds during our long growing season.
+
+The sweet spot is simpler than most landscapers want you to think—and it's different depending on what you're protecting.
+
+## The Right Depth: 2-3 Inches for Most Plants in Michigan
+
+**The standard for Macomb County landscapes: 2 to 3 inches of mulch**, measured from the ground up to the surface. That's it. That's the number that prevents 90% of mulch-related problems.
+
+Why this specific range? Michigan's clay-heavy soils (especially common in Washington Township) already retain moisture. Adding 4+ inches of mulch on top creates a moisture trap that promotes fungal diseases and bark rot—particularly dangerous when we get the wet springs and falls we're known for. Two to three inches still insulates soil from our temperature extremes (winter lows hit 0°F regularly, remember), suppresses weeds, and retains just enough moisture without creating rot conditions.
+
+**Key measurement tip**: Use a stick or ruler when you spread. Most people eyeball it and add 50% too much.
+
+## The Mulch Ring Mistake: Keep It Away From Tree Trunks
+
+This is where homeowners and some contractors really go wrong. **Never let mulch touch the trunk of a tree or shrub**—leave a 3- to 4-inch gap all the way around.
+
+Why? When mulch sits directly against bark:
+- Bark stays constantly moist, inviting disease
+- Voles and mice use the mulch as a highway to gnaw through bark over winter (a real problem here in Michigan when snow cover is heavy)
+- The tree essentially girdles itself as bark rots away
+
+What you'll see instead: dead sections of bark, visible damage by spring thaw in March or April, and sometimes complete tree death by mid-summer. We've pulled out plenty of otherwise healthy 5-year-old trees in Macomb County that failed because of this simple mistake.
+
+Create a **mulch donut**—3 inches deep in a circle around the plant, but with that clear ring of soil showing around the base. It looks less "done" than a filled-in base, but it's what keeps plants alive through Michigan winters.
+
+## Seasonal Timing: When to Mulch in Michigan
+
+**Apply fresh mulch in spring (April-May)** when soil has warmed up and frost danger has passed. Applying too early traps cold in the soil and delays growth.
+
+**Fall application (September-October)** is fine, but do it after the first frost to avoid inviting pest problems before winter. If you're adding mulch in fall, stick to the 2-inch range—roots still need air exchange as plants slow down.
+
+**Don't add mulch in November or December.** This is when our Michigan snow arrives, and you'll just be insulating pests right against your plants' bases for the winter.
+
+One local detail: Macomb County's average growing season runs May 15 to September 30, so plan fresh mulch application right after mid-May frost danger passes. You'll get the full benefit through our peak heat and into fall.
+
+## Refresh vs. Replace: The Yearly Reality
+
+Mulch breaks down—that's actually good, because it improves your clay soil over time. **Refresh with 1 inch of fresh mulch every 12-18 months**, rather than constantly adding depth.**
+
+Why? Old mulch compacts. Adding new mulch on top of compacted mulch creates thick, airless layers. Instead, rake back the old mulch in spring, add 1 fresh inch, and you'll maintain that optimal 2-3 inch depth while keeping soil healthy.
+
+## Get It Right From the Start
+
+Mulch depth is one of the easiest landscape problems to fix—but only if you catch it before disease or winter damage sets in. If your beds are over-mulched right now, rake back to proper depth **before September**, so plants have time to recover and harden off before Michigan's winter.
+
+If you're uncertain about your beds, or you'd rather have professionals ensure it's done correctly, [**contact Tri-Point Landscaping**](/contact). We've been doing this in Washington Township and throughout Macomb County long enough to know exactly how Michigan's soil and climate need mulch applied. We offer **free estimates**, and right now is the perfect time to get your landscape dialed in before winter.
+
+**Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to schedule your consultation.**
+    `,
   },
 ];
