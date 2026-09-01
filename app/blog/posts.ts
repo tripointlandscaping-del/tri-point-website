@@ -7713,5 +7713,69 @@ Whether you need a single bed refreshed or a comprehensive mulch installation ac
 
 **Call Tri-Point Landscaping today at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule your free mulch consultation.** Don't wait until your beds are overrun with weeds—let our team help you get the timing and depth perfect.
     `,
+  }
+,
+  {
+    slug: "core-aeration-vs-liquid-aeration-michigan-soil",
+    title: "Core Aeration vs Liquid Aeration: Which Works Better for Michigan Soil",
+    description: "Learn which aeration method—core or liquid—actually works for Macomb County's clay-heavy soil. Real advice from local landscaping experts.",
+    date: "September 1, 2026",
+    category: "Lawn Renovations",
+    readTime: "5 min read",
+    content: `
+## Why Michigan Soil Needs Aeration (And Why You Can't Just Use One Method)
+
+If you live in Macomb County or Washington Township, your lawn is growing in heavy clay soil—that's just geology. Our Michigan clay compacts like concrete by mid-summer, suffocating grass roots and choking off water penetration. You've probably noticed bare patches or areas where rain just sits on top instead of soaking in.
+
+Here's the problem: **not all aeration works the same on our soil type**. Core aeration and liquid aeration are fundamentally different approaches, and which one works depends on what your soil actually needs right now.
+
+## Core Aeration: The Physical Solution for Compacted Michigan Clay
+
+**Core aeration removes actual plugs of soil from your lawn.** A machine with hollow tines punches down 2-3 inches, pulls out finger-sized cores of earth, and leaves them on the surface to break down. In Macomb County's clay, this is borderline essential.
+
+Why it wins for Michigan soil:
+- **Creates real pathways**: Those holes physically break up clay structure. Water and roots follow the path of least resistance, and now there IS one.
+- **Timing matters here**: Best results happen in late August through September or mid-April through May—when soil is moist enough to punch through but not so wet it tears apart. Early fall is actually ideal in Michigan because roots grow through winter and spring into those holes.
+- **Visible proof it works**: You see 60-80 small plugs per 1,000 sq ft. On clay, those holes stay open longer because clay doesn't collapse like sandy soil.
+
+**The real cost**: $150-400 for a typical Macomb County residential lot, depending on square footage. You need it 1-2 times yearly on heavily compacted clay.
+
+## Liquid Aeration: The Chemistry Approach (With Real Limits)
+
+**Liquid aeration is a soil amendment sprayed on your lawn**—usually a blend of humic acids, kelp, enzymes, or polymers that theoretically improve soil structure. It sounds easier, and it is.
+
+What liquid aeration actually does:
+- **Improves existing pore space** by making clay particles slightly more friable (crumbly), but it doesn't create new pathways like core aeration does
+- **Works best as maintenance**, not remediation. If your lawn already drains okay and you just want to stay ahead of compaction, liquid applications make sense
+- **Costs $40-80 per application** and typically needs 2-3 treatments yearly to show results
+
+Honest limitation for Michigan clay: **Liquid aeration alone won't fix severely compacted soil.** We're talking about soil so dense that water runs off instead of infiltrating. A chemical treatment can't punch through years of foot traffic and equipment weight.
+
+## The Real Answer: Core First, Then Liquid Maintenance
+
+After 15 years of working Macomb County properties, here's what actually works:
+
+**Year 1 (Your Problem): Start with core aeration**
+- Schedule for late August or early September (next month is perfect)
+- Do it once in fall, once in spring if your lawn is heavily trafficked
+- Follow up 2-3 weeks later with liquid aeration to fill those new pores with soil-improving compounds
+
+**Years 2+: Liquid maintains what core created**
+- One spring liquid application keeps existing pores open
+- One fall core aeration (yearly for clay) prevents recompaction
+- This costs less than doing core aeration alone twice yearly
+
+## When to Choose Liquid-Only (Honest Scenario)
+
+If your lawn is already in decent shape—you don't have standing water issues or massive bare patches—liquid aeration can prevent problems. It's like taking vitamins instead of going to the emergency room. But if you're reading this because your Washington Township lawn is struggling, core aeration is non-negotiable.
+
+## Don't Guess on Your Soil—Get It Right
+
+Michigan clay responds to aeration, but only if you pick the right method for your lawn's actual condition. We've seen homeowners waste money on liquid treatments for soil that needed cores pulled, and vice versa.
+
+**The answer is in your soil.** Is water pooling? Are you seeing compaction symptoms (thin grass, bare spots, hard surface)? That's core aeration territory. Is your lawn basically healthy but you want to stay ahead? Liquid works fine.
+
+**[Contact Tri-Point Landscaping today](tel:+15863278080) for a free soil assessment and aeration recommendation.** September and early October is the absolute best window for fall core aeration in Macomb County—your roots will have 6 weeks of perfect growing weather to establish into those new holes before winter. Call us at **(586) 327-8080** or visit [**tripointlandscaping.com**](https://tripointlandscaping.com) to schedule your free estimate. Don't wait until spring—fall aeration gives you a 6-month head start on a better lawn.
+    `,
   },
 ];
