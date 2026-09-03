@@ -7777,5 +7777,80 @@ Michigan clay responds to aeration, but only if you pick the right method for yo
 
 **[Contact Tri-Point Landscaping today](tel:+15863278080) for a free soil assessment and aeration recommendation.** September and early October is the absolute best window for fall core aeration in Macomb County—your roots will have 6 weeks of perfect growing weather to establish into those new holes before winter. Call us at **(586) 327-8080** or visit [**tripointlandscaping.com**](https://tripointlandscaping.com) to schedule your free estimate. Don't wait until spring—fall aeration gives you a 6-month head start on a better lawn.
     `,
+  }
+,
+  {
+    slug: "find-reliable-commercial-lawn-care-macomb-county",
+    title: "How to Find a Reliable Commercial Lawn Care Company in Macomb County",
+    description: "Practical guide to hiring a trustworthy commercial landscaper in Macomb County, Michigan. What to look for, questions to ask, and red flags to avoid.",
+    date: "September 3, 2026",
+    category: "Commercial",
+    readTime: "6 min read",
+    content: `
+If you manage a commercial property in Macomb County—whether it's an office park in Washington Township, a retail center, or an industrial facility—you know that your lawn is part of your brand. A neglected landscape tells customers and clients something you don't want them to know. But finding a commercial lawn care company that actually shows up on time, handles Michigan's heavy clay soil correctly, and doesn't disappear mid-season? That's harder than it should be.
+
+Here's what you need to know to hire someone reliable.
+
+## Check Their Track Record in Macomb County Specifically
+
+Not all landscapers understand the unique challenges of Macomb County. Our clay-heavy soil, the freeze-thaw cycles from November through March, and the specific weeds that thrive in Southeast Michigan mean you need someone with local experience—not a franchise that treats Michigan lawns the same way they treat lawns in Ohio or Indiana.
+
+When you call a company, ask these specific questions:
+
+- **How long have you been servicing commercial properties in Macomb County?** A company with 5+ years of local work understands our soil composition and seasonal timing.
+- **Can you name three commercial clients I can call in Washington Township or nearby?** If they hesitate, move on. Established companies have references they're proud to share.
+- **What's your experience with clay soil amendment?** Macomb County's glacial clay soil compacts easily and drains poorly. A good contractor knows how to address this with aeration timing and proper top-dressing.
+
+Specific experience matters. A company that's only done residential work might not understand commercial-scale equipment needs or the tighter schedules that office parks and retail centers require.
+
+## Verify Licensing, Insurance, and Equipment
+
+This isn't exciting, but it matters more than you think. Michigan requires commercial applicators to be licensed if they're applying fertilizers or herbicides—and most lawn care companies do both.
+
+Before you hire anyone, request:
+
+- **Current Michigan Commercial Applicator License** (verify it's active on the state database)
+- **General liability insurance** (minimum $1 million coverage)
+- **Workers' compensation insurance** (required if they have employees)
+- **Equipment photos or a property visit** so you can see they have the right gear for your property size
+
+If a company won't provide these without making excuses, they're not professional enough for your business. Period.
+
+Also ask about their mowing equipment. For larger Macomb County commercial properties, you want companies using **commercial-grade zero-turn mowers** (typically 48-60 inches wide), not homeowner equipment that takes forever and leaves inconsistent cuts.
+
+## Ask About Their Service Schedule and Communication
+
+A common complaint about commercial lawn care companies is that they show up whenever they feel like it. Spring growth in Southeast Michigan is aggressive—we can get 2-3 inches of growth per week in May and June when temperatures regularly hit 70°F+. If your contractor doesn't show up on schedule during peak season, your property looks abandoned.
+
+During your initial conversation, clarify:
+
+- **What's your weekly mowing schedule?** (Should be consistent, not "whenever we get around to it")
+- **How do you handle rain delays?** In Michigan, spring and early summer bring frequent rain. Ask if they reschedule missed cuts or just skip the week.
+- **Who do I contact if there's a problem?** Get a direct phone number or email for your account manager, not a general company line where you wait on hold.
+- **Do you offer seasonal adjustments?** Mowing frequency in July is different from May. A professional company adjusts their schedule to match growth rates.
+
+The best commercial landscapers in Macomb County use **online portals or apps** where you can see photos of recent work and communicate directly. If they're still using paper invoices and occasional phone calls, they're probably not managing their other clients' expectations well either.
+
+## Get Multiple Quotes—and Read Them Carefully
+
+Never hire based on price alone, but do get three quotes from different companies. When the bids come in, compare what's actually included:
+
+- Mowing only, or mowing + edging + trimming + blowing?
+- Fertilizer and weed control included, or separate contracts?
+- Snow removal in winter? (Important in Macomb County—we average 40+ inches annually)
+- What happens if equipment breaks down mid-season?
+
+A quote that seems too cheap often means they're cutting corners—using dull blades (damage grass), skipping trimming, or planning to upsell you constantly. A quote that's significantly higher might mean unnecessary services.
+
+The middle-range quote from a company with strong local references is usually the safest bet.
+
+## Make Your Decision Now for Spring
+
+We're entering the season when commercial properties need consistent, reliable lawn care. Late winter and early spring—February through April—is when Macomb County landscapers get booked solid. If you wait until May, you'll either get a company with no openings or someone desperate enough to take on too many clients (which means spotty service).
+
+If you're looking for a commercial lawn care partner in Washington Township or elsewhere in Macomb County, [contact Tri-Point Landscaping](/contact) or call [(586) 327-8080](tel:+15863278080). We've been servicing commercial properties across Macomb County for years, and we offer **free estimates** with no pressure. We'll show you exactly what we do, why it works in our local soil and climate, and how we keep communication simple.
+
+Your commercial property deserves a contractor who treats it like it matters. Let's talk about making that happen.
+    `,
   },
 ];
