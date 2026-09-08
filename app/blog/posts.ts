@@ -7852,5 +7852,80 @@ If you're looking for a commercial lawn care partner in Washington Township or e
 
 Your commercial property deserves a contractor who treats it like it matters. Let's talk about making that happen.
     `,
+  }
+,
+  {
+    slug: "how-to-edge-garden-beds-professionally-macomb-county",
+    title: "How to Edge Garden Beds Professionally in Macomb County",
+    description: "Learn professional garden bed edging techniques for Macomb County's clay soil. Step-by-step guide with local timing and product recommendations.",
+    date: "September 8, 2026",
+    category: "Mulch & Stone",
+    readTime: "7 min read",
+    content: `
+## Why Garden Bed Edging Matters in Macomb County
+
+If you've got a landscape in Washington Township or anywhere across Macomb County, you've probably noticed how quickly grass creeps into your flower beds. It's not laziness on your part—it's our heavy clay soil and the aggressive growth patterns of our Michigan bluegrass and crabgrass. A clean edge does more than look sharp; it actually **stops grass roots from invading** your beds and keeps mulch from mixing into your lawn over time.
+
+Professional edging creates a physical barrier that makes maintenance easier all season long. In Macomb County, where we get decent rainfall and our soil stays moist well into summer, that barrier is genuinely necessary. Without it, you're fighting a losing battle.
+
+## When to Edge Your Beds in Michigan
+
+Timing matters. The best window for edging in Macomb County is **late April through May**, right after the soil dries out enough to work with but before the real growing season kicks in. Our clay-heavy soil in this region needs time to settle after winter frost heave, and rushing the job in March usually means you'll have to redo it in June.
+
+You can edge again in **mid-September through early October** before the ground freezes. Fall edging is actually easier because everything has stopped growing aggressively, and you'll have one clean line going into winter.
+
+**Avoid early spring and late fall**—frost heave and ground settling will tear up your fresh edge work. Wait until soil temps hit 50°F consistently and stay there.
+
+## Tools That Actually Work for Macomb County Soil
+
+Your tool choice makes a real difference with our local clay. Standard flat spades often get stuck; you need something sharper and more aggressive.
+
+**Best options:**
+- **Edging spade** (8-10 inch blade)—this is the pro tool. The narrow, sharp blade cuts through clay without jamming
+- **Half-moon edger**—excellent for curved beds and less tiring on your back
+- **Power edger**—if you've got more than 100 linear feet of beds, this saves your shoulders
+- **Avoid**: cheap rectangle shovels and dull tools—they'll bounce off clay
+
+Keep your blade **razor sharp**. Dull tools slip on clay and create ragged edges. Sharpen before every job.
+
+## Step-by-Step Professional Edging Process
+
+**Step 1: Mark your line**
+Use a landscape marking paint or lay a garden hose along where you want your edge. This prevents mistakes and keeps things straight. In Macomb County's variable terrain, this step saves hours of re-work.
+
+**Step 2: Water first—yes, really**
+If the ground is hard and dry, spray your edging line with the hose 12 hours before you work. Our clay compacts rock-hard in summer. Slightly moist soil (not soggy) cuts cleanly without shattering or crumbling.
+
+**Step 3: Cut the line**
+Place your spade at a **45-degree angle**, stepping down firmly while pulling toward you. Go 3-4 inches deep—this cuts through the root zone and prevents grass from sneaking under. Make your cuts consistent; overlapping strokes blend better than gaps.
+
+**Step 4: Remove the grass strip**
+Push your spade underneath the cut line and pop out a 2-3 inch strip of sod. This creates a clean trench between bed and lawn. Many local landscapers skip this step and regret it by July.
+
+**Step 5: Clean up loose soil**
+Use a hand rake to clear debris from the edge. Soil left in the trench fills in and negates your work within weeks.
+
+**Step 6: Install edging material (optional but recommended)**
+This is where professionals in Washington Township set themselves apart. Aluminum or steel edging—especially in 4-6 inch heights—keeps everything locked in place. It's not required, but it lasts 10+ years and saves constant maintenance.
+
+## Common Macomb County Edging Mistakes
+
+- **Cutting at 90 degrees**: Creates a vertical wall that collapses. Use 45 degrees.
+- **Skipping the sod removal**: Grass regrows into the edge within weeks.
+- **Edging when soil is frozen or soaking wet**: You'll get jagged, uneven edges and compaction problems.
+- **Using the wrong tool**: That old shovel won't cut clay cleanly. Invest in a proper edging spade.
+
+## Why Professional Edging Creates Real Value
+
+A clean edge does three things: it looks polished (curb appeal matters), it reduces weekly maintenance time, and it protects your mulch investment. When you're spending money on quality mulch in Macomb County, you want it staying in your beds—not migrating into your lawn.
+
+If you maintain the edge yourself, plan to touch it up every 4-6 weeks during growing season. Most homeowners underestimate this commitment.
+
+## Get Professional Results Without the Work
+
+Edging sounds simple until you're an hour into hard clay soil, sweating through your shirt. The team at **Tri-Point Landscaping** handles edging as part of our regular maintenance programs across Washington Township and Macomb County. We use professional-grade tools, know exactly when to work with our local clay, and guarantee clean lines that last.
+
+**Right now is prime edging season.** Spring cleanup is wrapping up, and beds need fresh edges before summer growth explodes. [Contact Tri-Point Landscaping today](/contact) or call us at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your beds, show you the difference professional edging makes, and get your landscape looking sharp for the season ahead.
+    `,
   },
 ];
