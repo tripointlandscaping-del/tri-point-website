@@ -7927,5 +7927,76 @@ Edging sounds simple until you're an hour into hard clay soil, sweating through 
 
 **Right now is prime edging season.** Spring cleanup is wrapping up, and beds need fresh edges before summer growth explodes. [Contact Tri-Point Landscaping today](/contact) or call us at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your beds, show you the difference professional edging makes, and get your landscape looking sharp for the season ahead.
     `,
+  }
+,
+  {
+    slug: "sod-vs-seed-michigan-lawn-renovation",
+    title: "Sod vs Seed: Which is Better for Your Michigan Lawn Renovation",
+    description: "Should you choose sod or seed for your Macomb County lawn? Learn the pros, cons, and best timing for each option from a local expert.",
+    date: "September 10, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## The Question Every Macomb County Homeowner Asks
+
+You're standing in your yard looking at bare patches, thin coverage, or that one section that's been compacted to clay for two summers straight. Time for a renovation. But do you lay sod or scatter seed? Here's the honest answer: **it depends on your timeline, budget, and how badly your lawn is struggling.** Both work in Michigan. Both have real drawbacks. Let me break down what actually happens when you choose each option in our Washington Township climate.
+
+## Sod: Instant Results, Higher Cost
+
+**Sod is basically pre-grown grass on a roll.** You're buying mature grass that's been cultivated at a farm, cut with shallow roots still attached, and delivered to your property. You lay it down, water it, and you have a functional lawn in two to three weeks instead of months.
+
+In Macomb County, sod makes the most sense if:
+
+- You need your lawn ready for fall entertaining (sod can be installed in early September and be established by mid-October)
+- Your soil is heavily compacted clay—which is common here in Washington Township—and you can't wait months for seed to germinate through poor conditions
+- You have pets or kids who need yard access immediately
+- You're covering more than 500 square feet of bare ground
+
+**The real costs:** Sod typically runs $0.35 to $0.55 per square foot installed, which means a 3,000 sq ft lawn renovation costs $1,050 to $1,650. Add in soil prep, and you're closer to $2,000. But you skip the 60-90 day waiting period. The sod used in Michigan nurseries is usually **Kentucky bluegrass, perennial ryegrass, or tall fescue blends**—all proven to handle our freeze-thaw cycles and humid summers.
+
+**The catch nobody mentions:** Fresh sod is technically "transplanted" grass. It needs consistent moisture for 2-3 weeks while those shallow roots grow into your soil. If we get a hot, dry September (which happens), you're running sprinklers daily. Miss a few days, and you'll see brown patches that won't recover.
+
+## Seed: Cheaper, Slower, Better Long-Term
+
+**Seeding is planting grass from scratch.** You're buying seed (typically $0.05 to $0.15 per square foot), spreading it, and letting Mother Nature and proper watering do the work over 60-90 days.
+
+Seed wins if:
+
+- You can plan ahead—spring (late April through May) or early fall (late August through early September) are prime seeding windows in Michigan
+- Your budget is tight—a full lawn seed job costs $300 to $600 for materials and basic prep
+- You want grass that's deeply rooted and tough—seedlings develop thicker root systems than transplanted sod
+- You're filling in smaller patches under 300 square feet
+
+**The timing matters here.** In Macomb County, fall seeding (late August to early September) often outperforms spring seeding because our cool, moist fall weather is exactly what seed wants. Germination happens fast. The grass gets established before winter dormancy, and it comes back thicker in spring. Conversely, spring seeding works, but you're racing against heat and dry soil by June.
+
+**The real drawback:** Seed needs 2-3 weeks of consistent moisture to germinate. That means watering every day (or installing a temporary sprinkler system). During that window, weeds also germinate. You'll need to overseed 20-30% thicker than recommended to account for birds, erosion, and failed germination. It's slower than sod, but the grass that grows is often more resilient.
+
+## Head-to-Head: The Real Differences
+
+| **Factor** | **Sod** | **Seed** |
+|---|---|---|
+| **Upfront cost** | $1,500–$2,500 (3,000 sq ft) | $300–$600 (3,000 sq ft) |
+| **Time to use lawn** | 2–3 weeks | 60–90 days |
+| **Root depth** | Shallow initially, grows deeper | Deeper from start |
+| **Weed pressure** | Lower (mature grass competes) | Higher (open soil attracts weeds) |
+| **Best season in Michigan** | Late spring or early fall | Late summer or early fall |
+| **Watering demands** | Heavy for 3 weeks | Heavy for 4–6 weeks |
+
+## Which Should You Actually Choose?
+
+If it's **August or early September in Macomb County**, honestly, seed wins for most homeowners. Our cool nights, predictable rainfall, and long fall season make it ideal. You'll spend $200 less and get a stronger lawn by June next year.
+
+If it's **March, April, or May**, or if your soil is severely damaged and you need immediate coverage for erosion control, **sod is worth the investment.** You also avoid the weed problem that hits most spring seeding jobs.
+
+Here's what we see fail most: homeowners choosing seed in late July and expecting it to germinate during 90-degree weeks. It won't. And sod laid in June and then ignored during a drought wave—it browns out.
+
+## Get Your Lawn Right the First Time
+
+**Your soil matters as much as your grass choice.** Macomb County's clay-heavy earth needs real prep before either sod or seed goes down. That's testing, amendment, aeration—not just raking.
+
+If you're planning a renovation this fall, now is the time to measure your space, assess your soil, and decide. **We offer free estimates** and can tell you exactly whether sod or seed makes sense for your specific yard, soil type, and timeline.
+
+Call Tri-Point Landscaping at [(586) 327-8080](tel:+15863278080) or [contact us online](/contact). We'll visit your Washington Township property, look at what you're working with, and give you a real plan—not a sales pitch for whichever option makes us more money.
+    `,
   },
 ];
