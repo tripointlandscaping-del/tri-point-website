@@ -7998,5 +7998,89 @@ If you're planning a renovation this fall, now is the time to measure your space
 
 Call Tri-Point Landscaping at [(586) 327-8080](tel:+15863278080) or [contact us online](/contact). We'll visit your Washington Township property, look at what you're working with, and give you a real plan—not a sales pitch for whichever option makes us more money.
     `,
+  }
+,
+  {
+    slug: "hoa-landscaping-requirements-michigan-property-managers",
+    title: "HOA Landscaping Requirements: What Property Managers Need to Know in Michigan",
+    description: "Essential guide for Michigan HOA property managers on landscaping compliance, seasonal timing, and local regulations in Macomb County.",
+    date: "September 15, 2026",
+    category: "Commercial",
+    readTime: "7 min read",
+    content: `
+If you manage an HOA in Macomb County or Washington Township, you're probably juggling a dozen competing demands. But here's the thing: landscaping compliance might seem like a low priority until you're fielding resident complaints or facing costly violations. The truth is, **Michigan HOAs operate under specific legal frameworks that directly impact your landscaping decisions**, and getting it wrong can cost you time, money, and community trust.
+
+Let's break down what you actually need to know about HOA landscaping requirements in Michigan—starting with the laws that govern your community.
+
+## Michigan's HOA Landscaping Laws: Your Legal Foundation
+
+**Michigan's Condominium Act (MCL 559.101 et seq.) and the Nonprofit Housing Act** are the two main statutes governing HOAs in the state. Here's what matters for landscaping:
+
+Your HOA's **CC&Rs (Covenants, Conditions & Restrictions)** are the governing document. They specify what landscaping standards residents must maintain on their lots and what the association is responsible for. In Macomb County, most HOAs require:
+
+- Lawn height between 2 and 3.5 inches (enforcement typically starts at 4+ inches)
+- No dead trees or branches overhanging neighboring properties
+- Mulch or ground cover in planting beds (not bare soil)
+- Regular removal of leaves and debris
+- Seasonal flower beds or maintained shrubs in common areas
+
+**The critical point**: If your CC&Rs don't explicitly address a landscaping issue, you can't enforce it. Generic "maintain your property" language won't hold up. This is why reviewing your specific HOA documents with an attorney familiar with Michigan property law is essential before adopting new landscaping standards.
+
+## Seasonal Timing in Michigan: When to Schedule Landscaping Work
+
+Macomb County's climate demands strict seasonal planning. Our **clay-heavy soil**—common throughout the county—drains poorly and compacts easily, which affects both planting and maintenance timing.
+
+**Spring (Late April through May)**
+- Avoid planting perennials until soil temperature reaches 60°F (typically mid-May in Washington Township)
+- Schedule spring mulch application after final frost date (May 15th in Macomb County)
+- Begin weekly mowing cycles once grass reaches 3+ inches
+- This is prime time for sod installation if you need to repair bare patches
+
+**Summer (June through August)**
+- Maintain weekly mowing schedules (heat and humidity mean faster growth)
+- Deep water landscaping beds 1-2x weekly during dry spells (Michigan's summers average 3-4 inches of rain, but distribution is uneven)
+- Plan major tree trimming for early summer when diseases are less active
+
+**Fall (September through October)**
+- Schedule leaf removal by late October—wet leaves sitting on lawns through November create fungal issues in our climate
+- Plant spring bulbs between October 15th and November 15th (our first hard freeze typically hits around November 1st)
+- Overseed thin lawn areas in late August or early September
+
+**Winter (November through March)**
+- Common area landscaping is dormant, but this is when to plan next year's projects
+- Don't apply salt-based de-icers near landscape beds (sodium damages Michigan's already-poor soil structure)
+- Budget for early spring cleanup (usually needed by March 15th)
+
+## Budget Reality: What Macomb County HOAs Actually Spend
+
+You can't enforce standards you can't afford to maintain in common areas. Here's what property managers in our region typically budget annually:
+
+- **Basic maintenance** (weekly mowing, edging, minimal mulch): $8,000-$15,000 per 50 lots
+- **Mid-range** (seasonal plantings, mulch refresh, tree trimming): $15,000-$25,000 per 50 lots
+- **Full service** (design updates, premium plantings, weekly detail work): $25,000+ per 50 lots
+
+These costs assume professional maintenance. If your budget is lower, adjust your CC&R standards accordingly—don't enforce standards your budget can't support.
+
+## Enforcement Without Creating Conflict
+
+This is where most HOA managers struggle. **Document everything with photos and dates.** In Michigan, HOAs have the legal right to enforce CC&R violations, but you must:
+
+1. Send a written notice (certified mail) citing the specific CC&R violation
+2. Give residents 30 days to comply (unless it's a safety hazard)
+3. Follow your documented enforcement policy consistently—selective enforcement will cost you credibility and legal exposure
+4. Never issue fines until due process is complete
+
+**Pro tip**: Many Washington Township HOAs use a "compliance curve." First violation gets a friendly notice. Second violation is a formal letter. Third violation triggers assessment of fines according to your CC&Rs. This approach works because residents see it as fair.
+
+## Partner With Local Expertise
+
+You don't have to manage landscaping quality alone. **Tri-Point Landscaping has worked with Macomb County HOAs for years** and understands Michigan's seasonal demands, our clay soil challenges, and the specific aesthetic standards different communities require.
+
+Whether you need a full maintenance contract for common areas, a seasonal consulting relationship to review contractor work, or just a professional assessment of whether your current landscaping is meeting industry standards, we can help you avoid costly compliance mistakes.
+
+**Call [(586) 327-8080](tel:+15863278080) today for a free estimate and property review.** We'll walk your HOA's common areas with you, identify issues before residents complain, and give you a realistic plan for the rest of 2024. Visit us at [tripointlandscaping.com](https://tripointlandscaping.com) or [contact Tri-Point Landscaping](/contact) online.
+
+The best time to get landscaping compliance right is before problems start.
+    `,
   },
 ];
