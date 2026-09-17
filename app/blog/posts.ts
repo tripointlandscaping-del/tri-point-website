@@ -8082,5 +8082,96 @@ Whether you need a full maintenance contract for common areas, a seasonal consul
 
 The best time to get landscaping compliance right is before problems start.
     `,
+  }
+,
+  {
+    slug: "rubber-mulch-vs-wood-mulch-michigan-yards",
+    title: "Rubber Mulch vs Wood Mulch: Which Is Right for Michigan Yards?",
+    description: "Learn the pros and cons of rubber and wood mulch for Macomb County yards. We break down durability, cost, and climate factors to help you choose.",
+    date: "September 17, 2026",
+    category: "Mulch & Stone",
+    readTime: "6 min read",
+    content: `
+## Choosing the Right Mulch for Michigan's Climate
+
+If you're standing in your Washington Township yard wondering whether to go with rubber or wood mulch, you're asking the right question—and the answer isn't one-size-fits-all. Michigan's freeze-thaw cycles, our acidic soil, and our unpredictable springs mean that what works in Ohio might not work here. Let's break down what actually matters for Macomb County homeowners.
+
+## How Michigan's Weather Works Against Mulch
+
+Here's what most people don't realize: our problem isn't summer heat—it's the brutal temperature swings between November and March. We'll drop from 40°F to 15°F in 48 hours, sometimes multiple times per season. Wood mulch absorbs and holds moisture, which means it expands and contracts with every freeze cycle. Over three or four winters, this breaks it down faster.
+
+**Wood mulch in Michigan typically lasts 18-24 months** before it needs replacing. By comparison, wood mulch in drier climates lasts 3-4 years. Our acidic soil (common throughout Macomb County) also speeds decomposition because it's the perfect environment for fungi and bacteria to work.
+
+Rubber mulch doesn't care about freeze-thaw cycles. It won't absorb water, won't break down, and won't compress under our heavy spring rains. You're looking at **8-10 years of functional life**, minimum.
+
+## Wood Mulch: When It Actually Makes Sense
+
+Don't write off wood yet. Wood mulch is still the right choice for certain situations in Michigan yards.
+
+**Benefits of wood mulch:**
+- Improves soil quality as it decomposes (adds organic matter, feeds soil microbes)
+- Looks more natural in traditional landscape designs
+- Costs $25-40 per cubic yard (rubber is $60-90)
+- Easier to remove if you change your mind
+- Better for vegetable gardens and perennial beds
+
+If you're mulching around established trees, shrubs, or native plants, wood mulch is genuinely better. As it breaks down, it feeds your soil—something rubber will never do. This matters more in Macomb County because our clay-heavy soils need that organic boost.
+
+**Use wood mulch if:** You're willing to refresh it every other year, or you're focused on plant health over convenience.
+
+## Rubber Mulch: Durability Over Everything
+
+Rubber mulch is shredded recycled tires. It's not "natural," but neither is the winter we get here.
+
+**Benefits of rubber mulch:**
+- Lasts 8-10+ years without breakdown or compression
+- Won't float away in heavy rain (it's heavier than wood)
+- Stays in place through our thaw-and-refreeze cycles
+- Better for playgrounds and high-traffic areas
+- Suppresses weeds more effectively than wood
+- Won't attract termites or carpenter ants
+
+**Drawbacks of rubber mulch:**
+- Can get hot in direct summer sun (not ideal around delicate plants)
+- Won't improve soil as it breaks down (because it won't break down)
+- Higher upfront cost
+- Some people object to the appearance
+- Can migrate to the street if you have a slope
+
+Rubber mulch wins for foundation plantings, around deck or patio borders, and in areas where you don't want to mess with annual maintenance. In Michigan, this matters because late fall is when we should be doing landscape cleanup—not buying mulch because last year's wood has already decomposed.
+
+## The Real Cost Comparison for Macomb County Yards
+
+Let's do the math on a 200 square foot mulch bed (about 6 cubic yards at 3 inches deep):
+
+**Wood mulch:**
+- Year 1: $150-240 installed
+- Year 3: $150-240 replacement
+- Year 5: $150-240 replacement
+- 5-year cost: **$450-720**
+
+**Rubber mulch:**
+- Year 1: $360-540 installed
+- Year 9: $360-540 replacement (maybe)
+- 10-year cost: **$360-540**
+
+Over a decade, rubber saves money—plus you're not maintaining it twice. But if you only plan to stay 3-4 years, wood is cheaper.
+
+## Our Recommendation for Washington Township Homeowners
+
+Use **wood mulch for planting beds** where plant health matters (trees, shrubs, perennials). Use **rubber mulch for hardscape areas**—around the base of your deck, lining pathways, or creating clean borders around your patio.
+
+This hybrid approach gives you the soil benefits of wood where it counts, and the durability of rubber where Michigan's weather does the most damage.
+
+## Ready to Upgrade Your Yard This Fall?
+
+Fall is the ideal time to install or refresh mulch in Macomb County. Winter damage happens between now and March, so getting this right now means your landscaping will look sharp all spring. Whether you choose wood, rubber, or a combination, the difference matters.
+
+Tri-Point Landscaping has been helping Washington Township and Macomb County homeowners make these exact choices for years. We know which products hold up best through our winters, and we can install either option correctly—with proper depth and weed barriers.
+
+**Free estimates. Local expertise. Same-day scheduling.**
+
+[Contact Tri-Point Landscaping](/contact) or call us at [(586) 327-8080](tel:+15863278080) to discuss what's right for your yard. Let's get your mulch situation handled before the real cold hits.
+    `,
   },
 ];
