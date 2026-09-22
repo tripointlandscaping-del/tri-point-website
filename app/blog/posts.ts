@@ -8173,5 +8173,97 @@ Tri-Point Landscaping has been helping Washington Township and Macomb County hom
 
 [Contact Tri-Point Landscaping](/contact) or call us at [(586) 327-8080](tel:+15863278080) to discuss what's right for your yard. Let's get your mulch situation handled before the real cold hits.
     `,
+  }
+,
+  {
+    slug: "fix-compacted-soil-michigan-lawn",
+    title: "How to Fix Compacted Soil in a Michigan Lawn Permanently",
+    description: "Stop fighting dead patches. Learn exactly how to fix compacted soil in Macomb County lawns with proven methods that work in Michigan's climate.",
+    date: "September 22, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## Why Your Macomb County Lawn Stops Growing (It's Not What You Think)
+
+If your grass looks thin, weedy, and stubborn no matter how much you water it, compacted soil is almost certainly the culprit. Here in Washington Township and across Macomb County, we deal with heavy clay soils naturally—throw in foot traffic, equipment, or a few seasons of neglect, and that soil becomes rock-hard. Grass roots can't penetrate it. Water pools instead of draining. Nutrients stay locked up. Your lawn dies from the roots up.
+
+The good news: **compacted soil is fixable**, and you don't need to rip out your entire lawn to do it.
+
+## Understand Your Michigan Soil Problem First
+
+Macomb County's native soils lean heavily toward **clay and silt**—great for holding water in droughts, terrible when compressed. When soil gets compacted, its pore spaces collapse. Think of it like stepping on a sponge repeatedly until it stays crushed. Water can't move through it, roots can't expand, and beneficial microbes starve from lack of oxygen.
+
+You'll recognize compacted soil by these signs:
+
+- Grass that thins out in high-traffic areas (around walkways, under downspouts, near driveways)
+- Water pooling on the surface after rain instead of soaking in
+- Hard, dense patches you can barely push a screwdriver into
+- Weeds thriving where grass won't grow (weeds like compacted soil)
+
+If you can't push a soil probe 6 inches into the ground easily, **you have compaction**. Most lawns in Washington Township do.
+
+## Core Aeration: The Foundation of Permanent Repair
+
+**Don't skip this step.** Aeration is where compacted soil recovery actually begins.
+
+Core aeration removes plugs of soil from your lawn—typically 2.5 to 3 inches deep and ¾ inch in diameter. This does three critical things:
+
+1. **Opens air channels** that allow roots to expand downward
+2. **Relieves pressure** on the soil structure so it can breathe
+3. **Creates space** for amendments to reach deep where grass really grows
+
+In Michigan, aerate in **early fall (late August through September)** or early spring (mid-April through May). Fall is ideal in Macomb County because soil is warm enough for grass recovery but cool enough that the grass won't burn out. You'll see new root growth through October, which strengthens plants heading into winter.
+
+Use a **full-width core aerator, not spike aeration**. Spike machines (which just poke holes) actually compress soil further. Core aerators pull plugs. This is non-negotiable.
+
+Leave those soil plugs on the surface—they'll break down and redistribute organic matter back into your lawn within 2-3 weeks.
+
+## Amend Immediately After Aeration
+
+Aeration opens the door; amendments rebuild the soil structure permanently.
+
+After aeration, apply:
+
+- **Compost or aged bark**: 1/4 to 1/2 inch layer. This adds organic matter that Michigan clays desperately need. Organic matter holds air pockets open permanently—it's like adding permanent scaffolding to your soil structure.
+- **Gypsum (calcium sulfate)**: If soil pH is above 7.0 and clay content is high, gypsum breaks up clay particles. Apply at 40-50 pounds per 1,000 square feet.
+- **Peat moss or coconut coir**: If your soil drains too slowly, these improve drainage without changing pH.
+
+Rake these amendments down into the aeration holes. Don't just spread them on top.
+
+## Reseed or Overseed Immediately
+
+Compacted areas are often where weeds took over. Reseed with **Michigan-appropriate cool-season grasses** like perennial ryegrass and fine fescues. These germinate best in fall (mid-September through October in Macomb County) when soil temps are 50-60°F.
+
+Apply seed right after spreading amendments. New grass roots will push down into that freshly aerated, amended soil and anchor it in place. Within one growing season, those roots will have mechanically restructured your soil.
+
+## The Two-Year Commitment for Permanent Results
+
+One aeration pass helps. **Two passes, one year apart, fixes it permanently.**
+
+Year one: Aerate in fall, amend, overseed. You'll see 40-60% improvement.
+
+Year two: Aerate again the following fall. Repeat amendments. By now, new root growth, organic matter buildup, and natural soil biology have restructured the soil. Compaction won't come back unless you actively abuse the lawn again.
+
+## Stop Re-Compacting Your Lawn
+
+Permanent fix requires prevention going forward:
+
+- **Avoid foot traffic** on wet grass—wet soil compacts far more than dry soil
+- **Don't use heavy equipment** (like mowers) on wet ground
+- **Mulch leaves** instead of bagging—this adds organic matter annually without extra work
+- **Aerate every 2-3 years** in high-traffic areas as maintenance
+
+## Get Professional Aeration This Fall
+
+Fall 2026 is your window. **Late August through September is peak aeration season in Macomb County**—soil is warm, grass is still actively growing, and you have time for new seed to establish before winter.
+
+If you've been struggling with thin, weedy, dead patches in Washington Township, don't spend another season fighting it. Tri-Point Landscaping has the equipment and expertise to aerate properly, amend based on your actual soil conditions, and get you seeded right the first time.
+
+We'll assess your soil compaction, recommend the right amendments for your property, and handle the whole job so you don't have to rent equipment or guess at timing.
+
+**[Call Tri-Point Landscaping at (586) 327-8080 or get a free estimate online.](tel:+15863278080)** We'll come evaluate your lawn, explain exactly what's causing the compaction, and show you the permanent fix. Free estimates—no pressure, no sales pitch.
+
+Your permanently healthy lawn is waiting. Let's fix it this fall.
+    `,
   },
 ];
