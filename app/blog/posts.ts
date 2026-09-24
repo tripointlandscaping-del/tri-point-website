@@ -8265,5 +8265,87 @@ We'll assess your soil compaction, recommend the right amendments for your prope
 
 Your permanently healthy lawn is waiting. Let's fix it this fall.
     `,
+  }
+,
+  {
+    slug: "commercial-snow-removal-contracts-macomb-county-seasonal-vs-per-push",
+    title: "Commercial Snow Removal Contracts in Macomb County: Seasonal vs Per-Push",
+    description: "Understand the real differences between seasonal and per-push snow removal contracts for your Macomb County business. Get pricing details and local timing.",
+    date: "September 24, 2026",
+    category: "Commercial",
+    readTime: "7 min read",
+    content: `
+## The Decision That Affects Your Budget and Operations
+
+If you own or manage a commercial property in Macomb County, you've probably noticed that winter planning starts way earlier than November. Right now, in late September, is when most Washington Township and surrounding businesses lock in their snow removal contracts—and most get it wrong the first time.
+
+The choice between **seasonal contracts** and **per-push agreements** isn't just about money. It's about whether you're covered when a surprise 8-inch wet snow hits in March, or whether you're stuck with a $4,000 unexpected bill when your parking lot becomes a liability.
+
+Let's break down what actually works in Macomb County's climate and why timing matters for this decision.
+
+## Understanding Seasonal Contracts in Macomb County
+
+A **seasonal snow removal contract** means you pay one flat fee (usually divided into monthly payments from November through March) regardless of how many times it snows. In Macomb County, we typically see 4–6 significant snow events per season, though last winter we had 9 pushes by mid-February.
+
+Here's what you're actually getting:
+
+- **Fixed costs** with no surprises—budget predictability from October through April
+- **Priority service** during storms (contractors prioritize seasonal clients first)
+- **Unlimited pushes** once snow reaches your trigger depth (usually 2 inches in Macomb County)
+- **Salt/ice melt included** in most seasonal packages
+- **No decision fatigue**—no more wondering if you should call someone in at 3 AM
+
+**The real advantage?** If we get hit with three blizzards in January like we did in 2024, you've already paid. If we get a mild winter with only two pushes, you still pay the same. That's protection against unpredictability.
+
+For a typical 5,000-square-foot parking lot in Washington Township, seasonal contracts typically run $1,200–$2,000 for the November-through-March window. Larger lots can run $2,500–$5,000+.
+
+## When Per-Push Contracts Make Sense
+
+**Per-push contracts** charge you each time a contractor services your property—usually $400–$800 per push depending on lot size, equipment, and whether salting is included.
+
+This works if:
+
+- Your business is seasonal or temporary (you don't need plowing in December–January)
+- You have a small lot under 2,000 square feet
+- You have the cash flow to absorb unexpected invoices mid-winter
+- You're willing to manually manage when snow reaches serviceability levels
+
+**The hidden cost:** You decide when to call. If you wait too long and liability occurs (customer slip-and-fall on ice), *you* carry that risk. In Michigan, property owners are responsible for maintaining safe surfaces within 48 hours after snowfall stops.
+
+Since Macomb County averages 5–6 seasonal events, you're looking at $2,000–$4,800 in per-push costs—which often *exceeds* a seasonal contract by the time you factor in forgotten calls and reactive pricing.
+
+## Macomb County Winter Realities That Change Your Decision
+
+Macomb County's climate isn't extreme by Michigan standards, but it's aggressive enough to require real planning:
+
+- **Average snowfall: 40–48 inches per season** (well above the 35-inch national average)
+- **Wet, heavy snow**: Our clay-heavy soils mean melting snow refreezes into treacherous ice patches
+- **March swings**: We get surprise 6-inch storms in March and early April regularly
+- **Salt viability**: Temperatures rarely drop below 15°F for extended periods, making salt+brine more effective than in northern Michigan
+- **24-hour pushes common**: When major storms hit, contractors service lots multiple times within 36 hours
+
+For commercial properties in Washington Township specifically, salt costs are built into most seasonal contracts because our alkaline soil and aging asphalt need consistent ice management.
+
+## How to Calculate Which Contract Saves You Money
+
+Use this simple math:
+
+1. **Get 2–3 per-push quotes** from local Macomb County contractors and multiply by 6 (average pushes)
+2. **Get seasonal quotes** for the same properties
+3. **The seasonal contract should be 20–35% cheaper** than per-push totals
+4. **If seasonal is more expensive**, ask why—you may be over-contracting for services you don't need
+
+Most commercial property managers in Macomb County see real savings with seasonal contracts once they hit 4+ annual snow events. For a 6,000-square-foot lot, seasonal typically saves $800–$1,500 annually compared to paying per push.
+
+## Don't Wait Until December to Decide
+
+Here's the practical reality: **Tri-Point Landscaping and other quality contractors in Macomb County fill seasonal contract slots between August and October.** By November, you're either on someone's schedule or you're calling around during actual snowstorms—paying premium rates and getting deprioritized service.
+
+Right now, in late September, is when contractors have flexibility, availability, and competitive pricing. Once November hits, you're calling emergency services.
+
+**Get a free estimate from Tri-Point Landscaping today.** We'll assess your specific parking lot, review your liability exposure, and show you exactly what seasonal versus per-push costs look like for your property. We've been handling Washington Township and Macomb County commercial properties for years—we know what actually happens when March storms hit.
+
+**Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to request your free winter contract estimate.** We'll have you locked in before the first real snow threat of the season.
+    `,
   },
 ];
