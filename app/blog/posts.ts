@@ -8347,5 +8347,77 @@ Right now, in late September, is when contractors have flexibility, availability
 
 **Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to request your free winter contract estimate.** We'll have you locked in before the first real snow threat of the season.
     `,
+  }
+,
+  {
+    slug: "river-rock-drainage-swale-macomb-county",
+    title: "How to Install a River Rock Drainage Swale in Macomb County",
+    description: "Step-by-step guide to building a river rock drainage swale that handles Michigan's heavy spring runoff. Local tips for Washington Township homeowners.",
+    date: "September 29, 2026",
+    category: "Mulch & Stone",
+    readTime: "7 min read",
+    content: `
+If water pools in your yard after heavy rain—and in Macomb County, we get plenty of that, especially during spring snowmelt—a river rock drainage swale might be exactly what you need. Unlike a typical drainage ditch, a swale lined with river rock is attractive, functional, and actually works with the clay-heavy soil we deal with throughout Washington Township and the surrounding area.
+
+## Why River Rock Works Better Than Concrete in Macomb County
+
+Macomb County sits on dense clay soil that doesn't drain well naturally. When you pour concrete in a ditch, you're essentially creating an impermeable channel—water sits there or flows too fast, causing erosion. River rock, on the other hand, allows water to percolate through while slowing its movement enough to prevent gullies and topsoil loss.
+
+The rocks also handle our freeze-thaw cycles better. **During Michigan winters, concrete cracks**. River rock shifts slightly with ground movement and ice heave, then settles back into place come spring. You won't wake up in April to a shattered drainage system.
+
+One more practical advantage: river rock is locally available and affordable. You're not waiting weeks for a specialty product to ship from downstate.
+
+## Sizing and Positioning Your Swale
+
+Before you buy a single stone, walk your property after the next rainstorm. **Where does water naturally collect?** That's where your swale should go—usually along property lines, between lawn and garden beds, or running downhill from roof gutters and downspouts.
+
+For residential lots in Washington Township, a swale should be:
+
+- **Width:** 18 to 30 inches (wide enough to slow water, not so wide it looks like a ditch)
+- **Depth:** 6 to 12 inches (deeper on steeper slopes to prevent overflow)
+- **Length:** Run it to a natural drainage area—a storm drain, lower-lying neighbor's property (with permission), or a rain garden you'll build at the end
+
+Slope matters. Aim for a **2% grade minimum** (drop 2 inches for every 100 inches of length). Too flat and water pools; too steep and it rushes through, defeating the purpose.
+
+## Materials You'll Actually Need
+
+Don't cheap out on the foundation layer—this is where the system lives or dies:
+
+- **Landscape fabric** (non-woven, 6-ounce weight): prevents soil from mixing with stone
+- **River rock** (1.5 to 3 inches in diameter): 3-4 tons per 100 linear feet, depending on depth
+- **Gravel base** (¾-inch crushed limestone): 1-2 tons per 100 linear feet
+- **Shovel and wheelbarrow** (not glamorous, but essential)
+- **4-foot level** (trust me, Macomb County clay is deceptive)
+
+Buy your materials from a local supplier—places like Wolverine Stone or similar Macomb County operations sell quality river rock that won't shift or tumble during heavy rains.
+
+## Installation Steps for Michigan Homeowners
+
+**Step 1: Mark and dig.** Use spray paint or stakes to outline your swale. Dig 8-12 inches deep, depending on your depth target. Remove any grass and roots—they'll clog drainage.
+
+**Step 2: Establish slope.** Use your level every 10 feet. This matters more than you think. Macomb County clay soil is so flat that homeowners often underestimate slope needs.
+
+**Step 3: Lay landscape fabric.** Drape it into the trench, overlapping seams by 12 inches. This keeps clay from mixing with your rock layer—a common failure point in our area.
+
+**Step 4: Add gravel base.** Spread ¾-inch crushed limestone 2-3 inches deep. Rake it level. This layer is crucial for drainage through the clay underneath.
+
+**Step 5: Install river rock.** Spread your river rock 4-6 inches deep. **Don't skimp**—underfilled swales look sloppy and lose effectiveness after one freeze-thaw cycle.
+
+**Step 6: Test it.** Run water from a hose. It should flow steadily, not pool or disappear instantly.
+
+## Maintenance for Michigan Seasons
+
+After installation, inspect your swale twice yearly: **once after spring thaw (April-May)** and again after heavy fall rains (October-November). Rake out accumulated leaves and debris. If silt builds up on the fabric, wash it gently away. In our clay-heavy region, silt does accumulate faster than in sandier soils downstate—plan on 15 minutes of maintenance twice a year.
+
+River rock lasts 8-12 years in Macomb County before requiring topping up. Weeds occasionally grow through—pull them by hand or treat with vinegar. Don't use herbicide; it runs into the swale and beyond.
+
+## Time to Stop Fighting Drainage Problems
+
+If you've been watching water pool in your yard every spring or after summer storms, you're not dealing with a minor annoyance—you're risking foundation issues, dead landscaping, and mosquito breeding grounds. A properly installed river rock swale eliminates all three.
+
+But if you're measuring slopes, calculating tons of material, or hesitant about digging through Macomb County's tough clay, **that's exactly what Tri-Point Landscaping does every week**. We've installed dozens of drainage swales across Washington Township and know precisely how to account for our local soil, seasonal water patterns, and freeze-thaw cycles.
+
+Call us at [(586) 327-8080](tel:+15863278080) for a free estimate. Better yet, reach out now—**fall is the ideal time to install a swale**, as the ground is still workable but before winter weather hits. Visit [tripointlandscaping.com](https://tripointlandscaping.com) or [contact Tri-Point Landscaping](/contact) today.
+    `,
   },
 ];
