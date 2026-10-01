@@ -8419,5 +8419,65 @@ But if you're measuring slopes, calculating tons of material, or hesitant about 
 
 Call us at [(586) 327-8080](tel:+15863278080) for a free estimate. Better yet, reach out now—**fall is the ideal time to install a swale**, as the ground is still workable but before winter weather hits. Visit [tripointlandscaping.com](https://tripointlandscaping.com) or [contact Tri-Point Landscaping](/contact) today.
     `,
+  }
+,
+  {
+    slug: "kentucky-bluegrass-vs-tall-fescue-macomb-county",
+    title: "Kentucky Bluegrass vs Tall Fescue: Which Grass Thrives in Macomb County?",
+    description: "Local guide comparing Kentucky bluegrass and tall fescue for Macomb County lawns. Learn which grass wins for your Washington Township yard.",
+    date: "October 1, 2026",
+    category: "Lawn Renovations",
+    readTime: "5 min read",
+    content: `
+If you're standing in your Macomb County yard wondering why your grass looks thin in summer or patchy come winter, you're probably asking the right question: which grass actually works here? The answer usually comes down to two contenders: **Kentucky bluegrass** and **tall fescue**. Both are cool-season grasses that can survive Michigan winters, but they perform very differently in Washington Township and the surrounding areas. Let me break down which one actually makes sense for your specific situation.
+
+## The Macomb County Climate Reality
+
+Macomb County sits in a transition zone that catches people off guard. Our winters are brutal—temperatures regularly drop to 10°F to 20°F below zero—but our summers get hot and humid. We're talking 85°F to 90°F days in July and August with soil moisture that swings from drought-dry to waterlogged depending on the week.
+
+This matters because **Kentucky bluegrass** thrives in cooler climates and actually performs better when temperatures stay consistently cold. It loves our winters. **Tall fescue**, on the other hand, was bred for exactly this kind of temperature swing. It handles heat stress better than Kentucky bluegrass and digs deeper into our clay-heavy Macomb County soil to find moisture during summer dry spells. Both survive here, but survival isn't the same as thriving.
+
+## Kentucky Bluegrass: The Slow Starter That Fills In
+
+**Kentucky bluegrass** has one superpower: rhizomes. These underground stems spread horizontally and create new plants, so damaged spots actually repair themselves over time. Tear up a patch in spring, and by mid-summer, Kentucky bluegrass will have filled it in naturally.
+
+Here's the catch—it's **slow to establish**. If you seed Kentucky bluegrass in Macomb County in fall (September through October is ideal), you're looking at next summer before it really looks thick and healthy. Winter dormancy slows germination. It also struggles during our humid summers, which makes it prone to fungal diseases like dollar spot and rust.
+
+Kentucky bluegrass works best if you:
+
+- Have a budget to wait 12-18 months for full establishment
+- Prefer a finer, more delicate grass texture
+- Are willing to accept some summer brown spots during heat waves
+- Like the idea of self-repairing turf
+
+## Tall Fescue: The Tough Competitor That Works Now
+
+**Tall fescue** is the workhorse of Macomb County lawns. It germinates faster than Kentucky bluegrass—you'll see visible growth within 2-3 weeks of fall seeding. By next spring, it's already established and thick.
+
+Tall fescue handles our summer heat without breaking a sweat. Its root system goes 3-4 feet deep, which means it actually survives our dry July stretches better than Kentucky bluegrass. It resists fungal disease better too, especially in humid conditions.
+
+The tradeoff? Tall fescue has a coarser texture. Barefoot walks across the lawn feel different—more like walking on tougher grass. It also doesn't self-repair the way Kentucky bluegrass does, so bare spots stay bare unless you overseed.
+
+Tall fescue makes sense if you:
+
+- Want results within one growing season
+- Have clay or heavy soil typical of Washington Township
+- Need heat and humidity tolerance for summer confidence
+- Prefer a hardy, low-maintenance option
+
+## The Real Winner for Macomb County: Why Most Lawns Use a Blend
+
+Here's what we've learned working with hundreds of Macomb County properties: **the best choice usually isn't one or the other—it's both**. A blend of Kentucky bluegrass and tall fescue (typically 50/50 or 60/40) gives you the best of both worlds. The tall fescue establishes quickly and handles summer stress, while the Kentucky bluegrass provides fine texture and self-healing capability for the long term.
+
+Fall (mid-September through mid-October) is **the absolute best time to seed or overseed in Macomb County**. Soil temps are still warm enough for germination, but cooler air means less disease pressure than spring seeding. Winter moisture naturally establishes roots before spring growth takes off.
+
+## Get Your Macomb County Lawn Right
+
+The difference between choosing the wrong grass and the right blend isn't just about how your lawn looks—it's about spending money once instead of replanting every few years. If your lawn is thin, patchy, or struggling through our summers, the grass type itself might be the real problem.
+
+**Tri-Point Landscaping has worked with Washington Township and Macomb County lawns long enough to know what actually works in our soil and climate.** We can evaluate your current lawn, test your soil, and recommend whether you need renovation, overseeding, or a complete replant with the right species blend.
+
+Fall is the window—[contact Tri-Point Landscaping today at (586) 327-8080](/contact) for a free estimate. We'll tell you exactly what your lawn needs and when to plant it. Your next-door neighbors' yards might look thick and green year-round. Yours can too.
+    `,
   },
 ];
