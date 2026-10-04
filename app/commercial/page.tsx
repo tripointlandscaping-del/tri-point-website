@@ -45,8 +45,8 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v1m0 16v1m8.66-13l-.87.5M4.21 17.5l-.87.5M20.66 17.5l-.87-.5M4.21 6.5l-.87-.5M21 12h-1M4 12H3" />
       </svg>
     ),
-    title: "Snow & Ice Management",
-    desc: "Seasonal contracts for plowing, salting and ice management. Your parking lots and walkways cleared before business hours — guaranteed.",
+    title: "Commercial Snow Removal",
+    desc: "Parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts, with 24/7 storm response.",
   },
   {
     icon: (
@@ -247,6 +247,102 @@ export default function CommercialPage() {
                 <p className="text-gray-500 text-sm leading-relaxed">{s.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Commercial snow removal */}
+      <section className="py-24 bg-white" id="snow-removal">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-5 gap-12">
+          <div className="lg:col-span-3">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] mb-3" style={{ color: "#2C5F2E" }}>
+              Winter Service
+            </p>
+            <h2
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+              className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6"
+            >
+              Commercial Snow Removal &amp; Ice Management
+            </h2>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Our snow service is built for commercial properties: retail plazas, office buildings, HOAs, churches, medical offices, and industrial lots. Every account starts with a site walk and a written agreement that sets trigger depths, clearing priorities, and salting, so everyone knows what happens when a storm hits.
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+              {[
+                "Parking lot and drive lane plowing",
+                "Sidewalk and entrance clearing",
+                "Salting and ice management",
+                "Pre-treatment ahead of freezing rain",
+                "Seasonal contracts or per-push pricing",
+                "Trigger depths written into your agreement",
+                "24/7 storm monitoring and response",
+                "Service logs for every visit",
+                "Certificates of insurance on request",
+                "General liability and workers' comp coverage",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-sm text-gray-700">
+                  <span className="w-1.5 h-1.5 mt-2 shrink-0" style={{ backgroundColor: "#2C5F2E" }} />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/contact"
+                style={{ backgroundColor: "#2C5F2E" }}
+                className="inline-flex items-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
+              >
+                Get a Snow Contract Quote
+              </Link>
+              <Link
+                href="/services/snow-removal"
+                className="inline-flex items-center gap-2 border-2 border-gray-900 text-gray-900 px-8 py-4 font-semibold tracking-wide hover:bg-gray-900 hover:text-white transition-all"
+              >
+                Commercial Snow Removal Details
+              </Link>
+            </div>
+          </div>
+
+          <div className="lg:col-span-2 space-y-6">
+            <div className="p-8" style={{ backgroundColor: "#f9f7f4" }}>
+              <h3 className="font-bold text-gray-900 mb-4">Commercial Snow Removal by City</h3>
+              <div className="grid grid-cols-2 gap-2">
+                {[
+                  ["Washington Township", "washington-township"],
+                  ["Shelby Township", "shelby-township"],
+                  ["Rochester", "rochester"],
+                  ["Rochester Hills", "rochester-hills"],
+                  ["Macomb Township", "macomb-township"],
+                  ["Romeo", "romeo"],
+                  ["Ray Township", "ray-township"],
+                  ["Bruce Township", "bruce-township"],
+                ].map(([name, area]) => (
+                  <Link key={area} href={`/services/snow-removal/${area}`} className="text-sm text-green-800 hover:underline">
+                    {name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="p-8 border border-gray-100">
+              <h3 className="font-bold text-gray-900 mb-4">Snow Contract Guides</h3>
+              <ul className="space-y-3 text-sm">
+                <li>
+                  <Link href="/blog/commercial-snow-removal-contracts-macomb-county" className="text-green-800 hover:underline">
+                    How Commercial Snow Removal Contracts Work in Macomb County
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/commercial-snow-contract-checklist-macomb-county" className="text-green-800 hover:underline">
+                    What to Look for in a Commercial Snow Contract
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/ice-management-liability-pre-treatment-service-logs-michigan" className="text-green-800 hover:underline">
+                    Ice Management and Liability: Pre-Treatment and Service Logs
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

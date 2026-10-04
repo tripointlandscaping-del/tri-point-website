@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import FaqAccordion from "../../components/FaqAccordion";
-import { posts } from "../../blog/posts";
+import { activePosts as posts } from "../../blog/activePosts";
 import { aggregateRatingSchema } from "../../lib/business";
 
 const serviceBlogMap: Record<string, string[]> = {
@@ -30,9 +30,9 @@ const serviceBlogMap: Record<string, string[]> = {
     "fall-lawn-care-checklist-macomb-county",
   ],
   "snow-removal": [
-    "snow-plowing-service-shelby-township",
-    "snow-removal-tips-macomb-county",
-    "how-to-choose-snow-removal-company-macomb-county",
+    "commercial-snow-contract-checklist-macomb-county",
+    "ice-management-liability-pre-treatment-service-logs-michigan",
+    "commercial-snow-removal-contracts-macomb-county",
   ],
   "lawn-renovations": [
     "best-time-to-overseed-lawn-michigan",
@@ -49,10 +49,10 @@ const serviceBlogMap: Record<string, string[]> = {
 type ServiceData = {
   title: string;
   metaTitle: string;
-  keywords?: string[];
   metaDescription: string;
-  heroImage: string;
-  heroAlt: string;
+  heroImage?: string;
+  heroAlt?: string;
+  ctaLabel?: string;
   heroTagline: string;
   intro: string;
   bodyParagraph: string;
@@ -244,94 +244,45 @@ const services: Record<string, ServiceData> = {
     ],
   },
   "snow-removal": {
-    title: "Snow Removal & Ice Management in Macomb County, MI",
-    metaTitle: "Snow Plowing & Driveway Plowing — Macomb County, MI | Tri-Point",
+    title: "Commercial Snow Removal & Ice Management in Macomb County, MI",
+    metaTitle: "Commercial Snow Removal — Macomb County, MI",
     metaDescription:
-      "Professional snow plowing, snow removal, driveway plowing & ice management throughout Macomb County, MI. Residential & commercial snow service — seasonal contracts & per-push available. Call (586) 327-8080.",
-    keywords: [
-      "snow plowing service Macomb County MI",
-      "snow removal near me Washington Township",
-      "driveway plowing service Michigan",
-      "snow plow near me Macomb County",
-      "ice removal service Macomb County MI",
-      "snow blowing service Michigan",
-      "residential snow removal near me",
-      "commercial snow plowing Macomb County",
-      "snow shoveling service Michigan",
-      "salt driveway service Macomb County",
-      "winter snow service Washington Township MI",
-      "snow removal Rochester Hills MI",
-      "driveway plowing Oakland County",
-      "snow plowing company near me Michigan",
-      "snow shoveling service Macomb County MI",
-      "sidewalk snow removal Washington Township",
-      "ice control service Michigan",
-      "winter property maintenance Macomb County",
-      "emergency snow removal Macomb County MI",
-      "residential snow service Washington Township",
-      "snow removal company Washington Township MI",
-      "snow plowing company Shelby Township",
-      "snow removal contractor Macomb Township",
-      "snow removal company Romeo MI",
-      "snow plowing company Rochester Hills MI",
-      "snow removal company Rochester MI",
-      "snow removal contractor Ray Township MI",
-      "snow removal company Bruce Township MI",
-      "affordable snow removal Macomb County MI",
-      "best snow removal company Macomb County",
-      "snow plowing cost Macomb County",
-      "snow removal prices Michigan",
-      "24 hour snow removal Macomb County",
-      "seasonal snow removal contract Michigan",
-      "per push snow plowing near me",
-      "trusted snow removal company Michigan",
-      "insured snow removal Macomb County MI",
-      "free snow removal estimate Michigan",
-      "snow removal",
-      "snow plowing",
-      "driveway plowing",
-      "ice removal",
-      "snow removal near me",
-      "snow plowing near me",
-      "driveway snow removal near me",
-      "residential snow removal near me",
-      "snow removal 48094",
-      "snow removal 48315",
-    ],
-    heroImage: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
-    heroAlt: "Snow removal and ice management in Macomb County Michigan by Tri-Point Landscaping",
-    heroTagline: "Plowing · Salting · Ice Management · Seasonal Contracts",
+      "Commercial snow removal for property managers, HOAs, retail plazas, offices, churches, medical offices & industrial lots in Macomb & Oakland County, MI. Parking lot plowing, salting, seasonal or per-push contracts. Call (586) 327-8080.",
+    heroTagline: "Parking Lots · Sidewalks & Entrances · Salting · Seasonal Contracts",
+    ctaLabel: "Get a Snow Contract Quote",
     intro:
-      "Michigan winters don't wait. Tri-Point Landscaping provides fast, reliable snow removal and ice management for residential and commercial properties throughout Washington Township and Macomb County. Whether you need a seasonal contract or per-push service, we keep your driveway, sidewalks, and parking lots safe and accessible after every storm.",
+      "Tri-Point Landscaping provides commercial snow removal and ice management for businesses and property managers across Macomb County and Oakland County. We plow parking lots, clear sidewalks and entrances, and salt walkways and drive lanes so tenants, customers, and staff can get in safely after every storm. Our snow service is commercial only; we do not offer residential driveway plowing.",
     bodyParagraph:
-      "When 3AM rolls around and the snow is coming down hard, the last thing you want is uncertainty about whether your property will be cleared. We monitor forecasts actively, mobilize proactively, and service our route efficiently so you wake up to a plowed driveway — not a packed snowfield. We offer seasonal contracts (fixed price, full winter coverage) and per-push pricing, and we can help you choose which makes sense for your budget and property. Our commercial clients get the reliability and documentation that property management companies require.",
+      "Every commercial account starts with a site walk. We note your lot layout, entrances, sidewalks, accessible parking, and where snow can be piled, then write a service agreement that spells out trigger depths, what gets cleared first, and when salting happens. Choose a seasonal contract for a fixed winter budget or per-push service billed by event. We monitor forecasts around the clock, pre-treat ahead of freezing rain when conditions call for it, and keep service logs of every visit. Certificates of insurance showing our general liability and workers' comp coverage are available on request.",
     included: [
-      "Residential driveway plowing",
-      "Commercial parking lot plowing",
-      "Sidewalk and walkway clearing",
-      "Salt and ice melt application",
-      "De-icing pre-treatment for freezing rain events",
-      "Seasonal contracts and per-push pricing available",
-      "Active weather monitoring and proactive crew deployment",
+      "Parking lot and drive lane plowing",
+      "Sidewalk, entrance, and walkway clearing",
+      "Salt and ice melt application on lots and walkways",
+      "Pre-treatment ahead of freezing rain and ice events",
+      "Trigger depths written into your service agreement",
+      "Seasonal contracts or per-push pricing",
+      "24/7 storm monitoring and response",
+      "Service logs and certificates of insurance on request",
     ],
     benefits: [
-      { title: "24/7 Storm Response", desc: "We track every forecast and mobilize before and after significant snowfall — so you don't have to think about it." },
-      { title: "Liability Protection", desc: "Icy driveways and sidewalks are a real liability risk. Professional salting and clearing keeps your property safe and keeps you protected." },
-      { title: "Predictable Pricing", desc: "Seasonal contracts give you a fixed winter cost — no surprises, no per-event stress. Great for homeowners who want total peace of mind." },
-      { title: "Commercial-Ready", desc: "We service offices, retail centers, and commercial properties with the reliability and thoroughness your business depends on." },
+      { title: "24/7 Storm Response", desc: "We watch forecasts around the clock and mobilize when your trigger depth is reached, day or night." },
+      { title: "Documented Service", desc: "Service logs record each visit, and certificates of insurance for our general liability and workers' comp coverage are available for your files." },
+      { title: "Predictable Budgeting", desc: "Seasonal contracts give you a fixed winter cost. Per-push service is billed only when we're out. We'll help you choose." },
+      { title: "Built for Commercial Sites", desc: "Retail plazas, office buildings, HOAs, churches, medical offices, and industrial lots, cleared in the order your site needs." },
     ],
     faqs: [
-      { q: "Do you offer seasonal contracts or per-push pricing?", a: "Both. Seasonal contracts provide a fixed price for the full winter — ideal for predictable budgeting. Per-push pricing means you pay only when we come out. We'll help you decide what makes sense for your situation." },
-      { q: "What areas do you serve for snow removal?", a: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, and surrounding areas throughout Macomb County." },
-      { q: "When do you plow — before, during, or after the storm?", a: "All three as needed. We pre-treat driveways and parking lots with salt before freezing rain events, plow during and after snowfalls, and follow up with de-icing as conditions require." },
-      { q: "Do you handle commercial snow removal?", a: "Yes. We service office parks, retail centers, storage facilities, and commercial properties of all sizes. We can provide certificates of insurance, service logs, and meet standard commercial documentation requirements." },
-      { q: "Is there a minimum snowfall amount before you come out?", a: "Trigger depths are specified in your service agreement. We work with residential and commercial clients to set appropriate thresholds based on their specific needs and safety requirements." },
-      { q: "Do you offer snow plowing, driveway plowing, and snow removal near me?", a: "Yes — whether you're searching for snow plowing, snow removal, driveway plowing, snow blowing, ice management, or snow service near you, Tri-Point Landscaping covers Macomb County and Oakland County, MI including Washington Township, Shelby Township, Rochester Hills, and surrounding areas." },
-      { q: "How much does snow removal cost in Macomb County, MI?", a: "Snow removal pricing depends on your driveway size, service type (per-push vs. seasonal contract), and what's included — plowing only, or plowing plus salting. Seasonal contracts cover the full winter at a fixed price; per-push is billed per event. We'll assess your property and give you a clear quote for both options. Call (586) 327-8080 — get locked in before the season fills." },
+      { q: "Do you offer residential driveway plowing?", a: "No. Tri-Point Landscaping's snow removal is commercial only. We serve businesses, HOAs, and property managers. For homeowners, we offer lawn care and landscaping." },
+      { q: "What types of properties do you service?", a: "Retail plazas, office buildings, HOA common areas and entrances, churches, medical offices, industrial lots, and other commercial properties." },
+      { q: "Do you offer seasonal contracts or per-push pricing?", a: "Both. Seasonal contracts provide a fixed price for the full winter, which makes budgeting predictable. Per-push service is billed each time we come out. We'll help you decide what makes sense for your property." },
+      { q: "What is a trigger depth?", a: "It's the snow accumulation that starts a service visit. Trigger depths are written into your service agreement, and we set them with you based on your property's traffic and safety needs." },
+      { q: "When do you plow and salt?", a: "We pre-treat lots and walkways ahead of freezing rain when conditions call for it, plow during and after snowfall once your trigger depth is reached, and follow up with salt and ice melt as conditions require." },
+      { q: "Can you provide certificates of insurance and service logs?", a: "Yes. We carry general liability and workers' comp coverage and provide certificates of insurance on request. We also keep service logs of each visit for your records." },
+      { q: "What areas do you serve for commercial snow removal?", a: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills across Macomb County and Oakland County, MI." },
+      { q: "How much does commercial snow removal cost?", a: "Pricing depends on lot size, sidewalk area, trigger depth, salting needs, and whether you choose a seasonal contract or per-push service. We walk the site first and give you a written quote. Call (586) 327-8080 or request a quote online." },
     ],
     relatedServices: [
+      { name: "Commercial Landscaping", href: "/commercial" },
       { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-      { name: "Commercial", href: "/services/commercial" },
       { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
     ],
   },
@@ -503,6 +454,12 @@ export default async function ServicePage({ params }: Props) {
       aggregateRating: aggregateRatingSchema,
     },
     areaServed: "Macomb County, Michigan",
+    ...(slug === "snow-removal"
+      ? {
+          serviceType: "Commercial snow removal and ice management",
+          audience: { "@type": "BusinessAudience", audienceType: "Commercial property owners, property managers, and HOAs" },
+        }
+      : {}),
   };
 
   return (
@@ -515,7 +472,11 @@ export default async function ServicePage({ params }: Props) {
 
         {/* ── HERO ── */}
         <section className="relative min-h-[580px] flex items-end overflow-hidden">
-          <Image src={service.heroImage} alt={service.heroAlt} fill className="object-cover" priority />
+          {service.heroImage ? (
+            <Image src={service.heroImage} alt={service.heroAlt ?? service.title} fill className="object-cover" priority />
+          ) : (
+            <div style={{ backgroundColor: "#0f2418" }} className="absolute inset-0 dot-grid" />
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/10" />
 
           {/* Breadcrumb */}
@@ -547,7 +508,7 @@ export default async function ServicePage({ params }: Props) {
                 style={{ backgroundColor: "#2C5F2E" }}
                 className="inline-flex items-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
               >
-                Get a Free Estimate
+                {service.ctaLabel ?? "Get a Free Estimate"}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -599,7 +560,7 @@ export default async function ServicePage({ params }: Props) {
                     style={{ backgroundColor: "#111111" }}
                     className="inline-flex items-center gap-2 text-white px-7 py-3.5 font-semibold tracking-wide hover:opacity-80 transition-opacity"
                   >
-                    Get Your Free Estimate
+                    {service.ctaLabel ?? "Get Your Free Estimate"}
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -834,7 +795,11 @@ export default async function ServicePage({ params }: Props) {
 
         {/* ── CTA ── */}
         <section className="relative py-32 overflow-hidden">
-          <Image src={service.heroImage} alt={`${service.title} — Tri-Point Landscaping`} fill className="object-cover" />
+          {service.heroImage ? (
+            <Image src={service.heroImage} alt={`${service.title} — Tri-Point Landscaping`} fill className="object-cover" />
+          ) : (
+            <div style={{ backgroundColor: "#111111" }} className="absolute inset-0 dot-grid" />
+          )}
           <div className="absolute inset-0 bg-black/75" />
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
             <p className="text-green-300 text-sm font-semibold uppercase tracking-widest mb-4">Ready to Get Started?</p>
@@ -853,7 +818,7 @@ export default async function ServicePage({ params }: Props) {
                 style={{ backgroundColor: "#2C5F2E" }}
                 className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
               >
-                Request a Free Estimate
+                {service.ctaLabel ?? "Request a Free Estimate"}
               </Link>
               <a
                 href="tel:+15863278080"

@@ -43,7 +43,7 @@ export default function NotFound() {
                 { name: "Landscaping", href: "/services/landscaping" },
                 { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
                 { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-                { name: "Snow Removal", href: "/services/snow-removal" },
+                { name: "Commercial Snow Removal", href: "/services/snow-removal" },
                 { name: "Service Areas", href: "/service-areas" },
                 { name: "About Us", href: "/about" },
                 { name: "Gallery", href: "/gallery" },

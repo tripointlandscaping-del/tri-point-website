@@ -54,8 +54,8 @@ Spring cleanups (March–May): leaf removal, bed cleanup, perennial cutback, edg
 Fall cleanups (October–November): full leaf removal, bed prep, winter-ready property cleanup.
 More info: https://www.tripointlandscaping.com/services/seasonal-cleanup
 
-### Snow Removal & Ice Management
-Residential driveway plowing, walkway clearing, salting, and de-icing across Macomb County. Seasonal contracts and per-push pricing available. Available 24/7 during snow events November through March.
+### Commercial Snow Removal & Ice Management
+Commercial properties only: parking lot plowing, sidewalk and entrance clearing, salting, and ice management for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal contracts and per-push pricing, trigger depths set in the service agreement, 24/7 storm response, service logs, and certificates of insurance (general liability and workers' comp). Tri-Point does not offer residential driveway plowing.
 More info: https://www.tripointlandscaping.com/services/snow-removal
 
 ### Lawn Renovations & Aeration
@@ -79,7 +79,7 @@ More info: https://www.tripointlandscaping.com/commercial
 - ${googleReviews.rating}★ Google rating from ${googleReviews.count} Google reviews
 - Free estimates with no pressure or obligation
 - Business hours 7am to 9pm daily; calls and texts answered 24/7
-- Spring and summer schedule runs April–October; snow services November–March
+- Spring and summer schedule runs April–October; commercial snow services November–March
 - Serves both residential homeowners and commercial properties
 
 ## What Makes Tri-Point Different
@@ -89,7 +89,7 @@ More info: https://www.tripointlandscaping.com/commercial
 - **Consistent**: Same crew, same schedule — not random workers sent by an app
 - **Fully insured**: General liability and workers' comp coverage protect you as a homeowner
 - **Free estimates**: No sales pressure, no commitment required to get a quote
-- **Full-service**: From weekly mowing to patio installation to snow removal — one company for all your outdoor needs year-round
+- **Full-service**: From weekly mowing to patio installation, plus commercial snow removal for businesses
 
 ## Contact & Booking
 - **Call or text**: (586) 327-8080
@@ -124,10 +124,10 @@ Yes. Call or text (586) 327-8080 for a free, no-obligation estimate. Same-day re
 Yes. Tri-Point Landscaping LLC is a registered Michigan LLC carrying general liability and workers' comp insurance.
 
 **Do you offer snow removal?**
-Yes — residential plowing, salting, and ice management across Macomb County. Both seasonal contracts and per-push pricing available.
+For commercial properties only. Tri-Point provides parking lot plowing, sidewalk and entrance clearing, salting, and ice management for businesses, HOAs, and property managers across Macomb County and Oakland County, with seasonal or per-push contracts. Residential driveway plowing is not offered.
 
 **When does the lawn care season run in Michigan?**
-Lawn maintenance typically runs April through October. Snow services are available November through March.
+Lawn maintenance typically runs April through October. Commercial snow services are available November through March.
 
 **Do you do commercial work?**
 Yes. Tri-Point serves HOAs, office parks, retail centers, and property managers throughout Macomb County.

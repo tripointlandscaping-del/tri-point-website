@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Project Gallery — Macomb County, MI",
   description:
-    "Browse real photos of landscaping, lawn care, mulch installation, snow removal and more from Tri-Point Landscaping in Washington Township, Macomb County, MI.",
+    "Browse real photos of landscaping, lawn care, mulch installation and more from Tri-Point Landscaping in Washington Township, Macomb County, MI.",
   alternates: { canonical: "https://www.tripointlandscaping.com/gallery" },
   openGraph: {
     title: "Project Gallery | Tri-Point Landscaping",
@@ -200,21 +200,15 @@ const photos = [
     category: "Seasonal Cleanup",
     label: "Fall Cleanup — Washington Township",
   },
-  {
-    src: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
-    alt: "Snow removal and driveway plowing service at residential home in Macomb County Michigan",
-    category: "Snow Removal",
-    label: "Snow Removal & Plowing — Macomb County",
-  },
 ];
 
-const categories = ["All", "Lawn Care", "Landscaping", "Mulch & Stone", "Seasonal Cleanup", "Snow Removal"];
+const categories = ["All", "Lawn Care", "Landscaping", "Mulch & Stone", "Seasonal Cleanup"];
 
 const imageGallerySchema = {
   "@context": "https://schema.org",
   "@type": "ImageGallery",
   name: "Tri-Point Landscaping Project Gallery",
-  description: "Real photos of landscaping, lawn care, mulch installation, and snow removal projects completed by Tri-Point Landscaping in Macomb County, Michigan.",
+  description: "Real photos of landscaping, lawn care, mulch installation, and seasonal cleanup projects completed by Tri-Point Landscaping in Macomb County, Michigan.",
   url: "https://www.tripointlandscaping.com/gallery",
   author: { "@type": "Organization", name: "Tri-Point Landscaping LLC" },
   image: photos.map((p) => ({

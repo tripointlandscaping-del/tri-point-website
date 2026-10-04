@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { posts } from "./posts";
+import { activePosts as posts } from "./activePosts";
 
 function getPublishedPosts() {
   const today = new Date();
@@ -14,11 +14,11 @@ function getPublishedPosts() {
 
 export const metadata: Metadata = {
   title: "Lawn Care Tips & Landscaping Advice — Macomb County",
-  description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+  description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
   alternates: { canonical: "https://www.tripointlandscaping.com/blog" },
   openGraph: {
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
-    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
     url: "https://www.tripointlandscaping.com/blog",
     siteName: "Tri-Point Landscaping",
     type: "website",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
-    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };

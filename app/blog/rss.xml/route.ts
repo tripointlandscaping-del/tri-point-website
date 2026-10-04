@@ -1,4 +1,4 @@
-import { posts } from "../posts";
+import { activePosts as posts } from "../activePosts";
 
 export async function GET() {
   const BASE = "https://www.tripointlandscaping.com";

@@ -10,7 +10,7 @@ const services = [
   { name: "Landscaping", href: "/services/landscaping" },
   { name: "Mulch & Stone", href: "/services/mulch-and-stone" },
   { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-  { name: "Snow & Ice Management", href: "/services/snow-removal" },
+  { name: "Commercial Snow Removal", href: "/services/snow-removal" },
   { name: "Lawn Renovations", href: "/services/lawn-renovations" },
   { name: "Hardscaping", href: "/services/hardscaping" },
   { name: "Commercial", href: "/commercial" },

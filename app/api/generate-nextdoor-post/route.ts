@@ -14,7 +14,7 @@ function getSeason(month: number): string {
 
 const topicPool = [
   "a helpful seasonal lawn care tip relevant to what homeowners should be doing right now",
-  "a snow removal or winter prep reminder (if fall/winter) or spring cleanup reminder (if spring)",
+  "a lawn and landscape winter prep reminder (if fall/winter), a commercial snow contract reminder for local business owners and HOA boards (if fall/winter), or a spring cleanup reminder (if spring)",
   "a mulch installation tip — why fresh mulch matters and what it does for plants",
   "a friendly reminder that free estimates are available with no obligation",
   "a lawn aeration and overseeding tip — when to do it and why it matters",
@@ -64,6 +64,7 @@ Guidelines:
 - No em dashes
 - Don't start with "Hey neighbors!" or similar cliches
 - Sound like a real person sharing helpful info, not a business posting an ad
+- Tri-Point's snow removal is commercial only (businesses, HOAs, property managers). Never offer residential or driveway snow plowing
 
 Return ONLY the post text. No labels, no quotes, no commentary.`,
         },

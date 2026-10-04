@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Do you offer snow removal?",
-    a: "Yes — snow and ice management is one of our core services. We offer residential and commercial snow plowing, sidewalk clearing, salting, and de-icing throughout Macomb County. Seasonal contracts mean your property is covered automatically all winter without you having to call each time.",
+    a: "Yes, for commercial properties only. We provide parking lot plowing, sidewalk and entrance clearing, salting, and ice management for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots throughout Macomb County and Oakland County. We do not offer residential driveway plowing.",
   },
   {
     q: "What is included in a seasonal cleanup?",
@@ -118,8 +118,8 @@ const faqs = [
     a: "Yes. We work with landlords, property managers, and investors who own multiple rental properties in Macomb County. We can set up recurring maintenance on multiple addresses under one account and provide consolidated billing. Call (586) 327-8080 to discuss a multi-property arrangement.",
   },
   {
-    q: "How far in advance should I book snow removal?",
-    a: "We recommend booking snow removal contracts before November 1st. Once winter hits, our schedule is typically full. Customers who lock in seasonal contracts before the first snowfall get guaranteed service all winter without having to call each storm. Don't wait until December — spots go fast.",
+    q: "When should my business set up a snow contract?",
+    a: "Before the first storm. Setting up a commercial snow contract in the fall gives us time to walk your site, agree on trigger depths and clearing priorities, and add your property to our storm route. Seasonal and per-push options are both available.",
   },
   {
     q: "What should I do to prepare my lawn for spring?",
@@ -174,8 +174,8 @@ const faqs = [
     a: "The most effective long-term weed control is a thick, healthy lawn — dense turf leaves no room for weeds to establish. For active weed problems: apply pre-emergent herbicide in mid-April (before soil hits 50°F) to block crabgrass germination. Broadleaf weeds like dandelions and clover respond well to selective post-emergent herbicides applied in spring or fall. Avoid spraying during summer heat stress. The best permanent fix is improving lawn density through aeration, overseeding, and proper fertilization so weeds have no opening.",
   },
   {
-    q: "How much does snow removal cost in Macomb County?",
-    a: "Snow removal pricing in Macomb County typically runs $40–$90 per push for a standard residential driveway, depending on driveway size and snowfall amount. Seasonal contracts — which cover all storms automatically — generally run $350–$700 for a full winter season and are the most cost-effective option for homeowners who want guaranteed service without calling each storm. Salting and de-icing are usually priced separately. Call (586) 327-8080 for a free estimate on your specific property.",
+    q: "How much does commercial snow removal cost in Macomb County?",
+    a: "Commercial snow removal pricing depends on lot size, sidewalk area, trigger depth, salting needs, and whether you choose a seasonal contract or per-push service. We walk the site first and give you a written quote. Call (586) 327-8080 or request a snow contract quote online.",
   },
   {
     q: "When is the best time to overseed a lawn in Michigan?",

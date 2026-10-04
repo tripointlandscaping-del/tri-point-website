@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { posts } from "./blog/posts";
+import { activePosts as posts } from "./blog/activePosts";
 
 const BASE = "https://www.tripointlandscaping.com";
 

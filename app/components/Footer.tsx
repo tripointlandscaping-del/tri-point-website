@@ -99,7 +99,7 @@ export default function Footer() {
                 ["Landscaping", "/services/landscaping"],
                 ["Mulch & Stone", "/services/mulch-and-stone"],
                 ["Seasonal Cleanup", "/services/seasonal-cleanup"],
-                ["Snow & Ice Management", "/services/snow-removal"],
+                ["Commercial Snow Removal", "/services/snow-removal"],
                 ["Lawn Renovations", "/services/lawn-renovations"],
                 ["Hardscaping", "/services/hardscaping"],
                 ["Commercial", "/commercial"],

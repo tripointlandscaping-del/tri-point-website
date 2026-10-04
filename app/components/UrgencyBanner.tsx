@@ -11,9 +11,9 @@ function getBannerMessage(): string {
 
   if (mmdd >= 301 && mmdd < 515) return "🌿 Spring cleanup spots are filling fast — Book your free estimate now →";
   if (mmdd >= 515 && mmdd < 701) return "🌳 Landscaping slots are booking up — Get your free estimate now →";
-  if (mmdd >= 701 && mmdd < 1015) return "🌿 Lawn care spots are limited — Book your free estimate now →";
-  if (mmdd >= 1015 && mmdd < 1120) return "🍂 Fall cleanup bookings are filling up — Schedule your free estimate now →";
-  return "❄️ Snow removal contracts are going fast — Secure your spot now →";
+  if (mmdd >= 701 && mmdd < 1001) return "🌿 Lawn care spots are limited — Book your free estimate now →";
+  // October 1 through end of February
+  return "❄️ Now booking commercial snow contracts for parking lots & walkways — Get a quote →";
 }
 
 export default function UrgencyBanner() {

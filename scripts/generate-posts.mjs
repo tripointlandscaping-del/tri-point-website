@@ -122,24 +122,25 @@ const TOPIC_POOL = [
   { topic: "How much does fall cleanup cost in Macomb County in 2026", category: "Seasonal" },
 
   // ── SNOW & ICE ──
+  { topic: "Commercial Snow Removal in Washington Township, MI: A Guide for Property Managers", category: "Snow & Ice" },
+  { topic: "Commercial Snow Removal in Shelby Township, MI: Keeping Plazas and Offices Open", category: "Snow & Ice" },
+  { topic: "Commercial Snow Removal in Rochester, MI: What Downtown and Business Owners Need to Know", category: "Snow & Ice" },
+  { topic: "What to Look for in a Commercial Snow Contract: A Checklist for Macomb County Property Managers", category: "Commercial" },
+  { topic: "Ice Management and Liability: Why Pre-Treatment and Service Logs Matter for Michigan Businesses", category: "Commercial" },
   { topic: "How to fix lawn damage caused by snow plowing in Michigan", category: "Snow & Ice" },
   { topic: "How to prevent ice dams on your property in Macomb County", category: "Snow & Ice" },
-  { topic: "Rock salt vs calcium chloride: what to use on Michigan driveways", category: "Snow & Ice" },
+  { topic: "Rock salt vs calcium chloride for commercial parking lots and sidewalks in Michigan", category: "Snow & Ice" },
   { topic: "How to protect your landscaping from snow plow damage", category: "Snow & Ice" },
-  { topic: "When to hire a snow removal company vs doing it yourself in Michigan", category: "Snow & Ice" },
-  { topic: "How to prepare your driveway for winter in Macomb County", category: "Snow & Ice" },
+  { topic: "How to prepare your commercial parking lot for winter in Macomb County", category: "Snow & Ice" },
   { topic: "Commercial snow removal: what to expect from a contractor", category: "Snow & Ice" },
   { topic: "How salt damage affects your lawn and how to fix it in spring", category: "Snow & Ice" },
   { topic: "Seasonal vs per-push snow removal: which contract is better in Macomb County", category: "Snow & Ice" },
-  { topic: "Emergency snow removal in Macomb County: when to call and what to expect", category: "Snow & Ice" },
-  { topic: "Snow removal liability: why Michigan homeowners hire professionals", category: "Snow & Ice" },
-  { topic: "The best de-icing products for Michigan driveways in 2026", category: "Snow & Ice" },
+  { topic: "Commercial snow removal during major storms: what property managers should expect", category: "Snow & Ice" },
+  { topic: "De-icing products for commercial walkways and entrances in Michigan", category: "Snow & Ice" },
   { topic: "How to winterize your irrigation system in Michigan before the freeze", category: "Snow & Ice" },
-  { topic: "What questions to ask your snow removal contractor before winter", category: "Snow & Ice" },
-  { topic: "How to deal with ice on walkways and steps safely in Macomb County", category: "Snow & Ice" },
-  { topic: "Snow removal cost in Macomb County: complete 2026 pricing guide", category: "Snow & Ice" },
-  { topic: "When to start thinking about snow removal contracts in Macomb County", category: "Snow & Ice" },
-  { topic: "How Michigan winters affect your driveway and what to do about it", category: "Snow & Ice" },
+  { topic: "What questions to ask a commercial snow removal contractor before winter", category: "Snow & Ice" },
+  { topic: "Keeping business entrances and walkways safe from ice in Macomb County", category: "Snow & Ice" },
+  { topic: "When businesses should line up commercial snow removal contracts in Macomb County", category: "Snow & Ice" },
 
   // ── LAWN RENOVATIONS ──
   { topic: "Lawn renovation vs lawn replacement: which do you need in Michigan", category: "Lawn Renovations" },
@@ -207,14 +208,12 @@ const TOPIC_POOL = [
   { topic: "Macomb Township lawn care: common issues and how to fix them", category: "Lawn Care" },
   { topic: "Romeo MI landscaping: rural property care tips and challenges", category: "Landscaping" },
   { topic: "Ray Township property maintenance: large lot lawn care guide", category: "Lawn Care" },
-  { topic: "Washington Township snow removal: what residents need to know each winter", category: "Snow & Ice" },
   { topic: "Shelby Township spring cleanup: when to book and what to expect", category: "Seasonal" },
   { topic: "Macomb County clay soil: how it affects your lawn and what to do", category: "Lawn Care" },
   { topic: "Best grass types for Washington Township and Shelby Township lawns", category: "Lawn Renovations" },
   { topic: "Why Macomb County homeowners book landscaping services in January", category: "Landscaping" },
   { topic: "Bruce Township landscaping: acreage property care in northern Macomb County", category: "Landscaping" },
   { topic: "Spring lawn care in Rochester Hills: what Oakland County homeowners need to know", category: "Lawn Care" },
-  { topic: "Snow removal in Washington Township 48094: what to expect from a local company", category: "Snow & Ice" },
   { topic: "Lawn renovation in Shelby Township: best timing and what it costs", category: "Lawn Renovations" },
 
   // ── DECISION / COMPARISON ──
@@ -223,7 +222,6 @@ const TOPIC_POOL = [
   { topic: "Local vs national landscaping companies: why local wins in Macomb County", category: "Landscaping" },
   { topic: "How to read a landscaping estimate in Michigan", category: "Landscaping" },
   { topic: "Why hire a fully insured landscaping company in Michigan", category: "Landscaping" },
-  { topic: "Gas vs electric snow blower: which is right for Macomb County", category: "Snow & Ice" },
   { topic: "Push mower vs riding mower: what is right for your Macomb County property", category: "Lawn Care" },
   { topic: "Spring vs fall aeration: which is better for Michigan lawns", category: "Lawn Renovations" },
   { topic: "Landscape contractor vs handyman: who should you hire in Michigan", category: "Landscaping" },
@@ -313,6 +311,7 @@ COMPANY FACTS — never contradict these or invent others:
 - Business hours 7am to 9pm daily; customers can call or text 24/7.
 - Lawn mowing costs $40–$100 per cut depending on property size. Don't quote other mowing prices.
 - Never mention the owner's name.
+- Snow removal is COMMERCIAL ONLY (property managers, HOAs, retail plazas, offices, churches, medical offices, industrial lots). Never offer or imply residential or driveway snow plowing. Lawn care and landscaping are residential and commercial.
 
 Write ONE detailed, genuinely helpful blog post on this topic: "${topic}"
 

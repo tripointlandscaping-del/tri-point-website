@@ -402,7 +402,7 @@ Michigan's climate creates a distinct lawn care rhythm that doesn't match generi
 - Clean up fallen leaves promptly — matted leaves kill grass
 
 **November–February**
-- Schedule snow removal contracts before winter
+- Business owners: schedule commercial snow removal contracts before winter
 - Plan next year's lawn and landscaping improvements
 - Keep an eye on your lawn after heavy snowfall for vole damage
 
@@ -769,8 +769,8 @@ For your last mowing of the season, drop to about 2.5 inches. This reduces the r
 **7. Clean and Store Equipment**
 Drain fuel from mowers, sharpen blades for spring, and winterize irrigation systems before the first hard freeze (typically mid-October in Macomb County).
 
-**8. Schedule Snow Removal**
-The best snow removal crews in Macomb County fill their routes in October and November. Don't wait until the first storm — book now.
+**8. Business Owners: Schedule Commercial Snow Removal**
+If you manage a business property, commercial snow removal routes in Macomb County fill up in October and November. Don't wait until the first storm to line up a contract. (Tri-Point's snow service is commercial only.)
 
 Tri-Point Landscaping handles every item on this checklist for homeowners throughout Washington Township, Shelby Township, and Macomb County. [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080) to schedule fall services.
     `,
@@ -813,7 +813,7 @@ Before the first snow, mark the edges of your planting beds, mailbox posts, and 
 - **Salt damage:** Limit de-icer use near lawn areas and garden beds. Use plant-safe alternatives when possible.
 - **Snow mold:** Large gray or pink circular patches in spring are a sign of snow mold — usually recoverable with raking and patience.
 
-Tri-Point Landscaping provides fall lawn prep, winterizer applications, and snow removal services throughout Washington Township and Macomb County. [Get in touch](/contact) or call [(586) 327-8080](tel:+15863278080) before the season ends.
+Tri-Point Landscaping provides fall lawn prep, and winterizer applications throughout Washington Township and Macomb County, plus [commercial snow removal](/services/snow-removal) for local businesses. [Get in touch](/contact) or call [(586) 327-8080](tel:+15863278080) before the season ends.
     `,
   },
   {
@@ -846,7 +846,7 @@ Knowing your soil type is the first step in building a lawn care plan that actua
 
 **Tree and shrub trimming** — Mature trees and large ornamental shrubs are common on established Washington Township lots. Regular professional trimming keeps them healthy, well-shaped, and from encroaching on structures.
 
-**Snow removal** — Washington Township roads are well-maintained, but private driveways and long private roads in rural areas of the township are the homeowner's responsibility. A reliable snow removal contract is essential.
+**Snow removal** - Tri-Point's snow and ice service is commercial only. We clear parking lots, sidewalks, and entrances for businesses, HOAs, and property managers in Washington Township. See our [commercial snow removal page](/services/snow-removal/washington-township) for details.
 
 ## Stony Creek Metropark Proximity
 
@@ -882,7 +882,7 @@ A full-service annual program at Tri-Point Landscaping covers all the high-value
 - **Aeration and overseeding** — timed to the fall window for best results
 - **Winterizer application** — root-hardening fertilizer before freeze
 - **Fall cleanup** — leaf removal, final mow, bed prep
-- **Snow removal** — all-winter coverage with no storm-by-storm stress
+- **Snow removal (commercial properties)** - all-winter coverage for parking lots and walkways with no storm-by-storm stress
 
 ## Why Contracts Produce Better Results
 
@@ -956,7 +956,7 @@ Michigan lawns, especially in Macomb County, tend to run slightly acidic. Grass 
 
 If your lawn has multiple bare spots, widespread thinning, or a grub problem that keeps coming back, this spring and summer are the right time to get a professional set of eyes on it — so you're set up for a perfect fall seeding window in late August.
 
-[Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk your property, diagnose what's actually causing the damage, and put together a plan that fits your lawn and your budget. We've been working in Washington Township and across Macomb County long enough to know exactly what local soil and climate conditions demand.
+[Contact Tri-Point Landscaping](/contact) for a **free estimate** and we'll walk your property, diagnose what's actually causing the damage, and put together a plan that fits your lawn and your budget. We work in Washington Township and across Macomb County, and we know what local soil and climate conditions demand.
 
 Call us at [(586) 327-8080](tel:+15863278080) or reach out online at [tripointlandscaping.com](https://tripointlandscaping.com). Don't wait until August to start the conversation — the best results come from planning ahead.
     `,
@@ -1058,7 +1058,7 @@ Before you buy anything, spend five minutes doing this:
 
 Spring is the most important window to address yellow grass in Michigan. The soil is workable, grass is actively growing, and treatments have the whole season to take effect. Wait until mid-summer to act and you're playing catch-up in the heat — which is harder on both you and your lawn.
 
-If you're not sure what's causing the problem — or you've already tried a few things and nothing worked — that's exactly what [Tri-Point Landscaping](/contact) is here for. We've been working in Washington Township and across Macomb County long enough to know how local soils and Michigan's season swings affect lawns differently here than anywhere else.
+If you're not sure what's causing the problem — or you've already tried a few things and nothing worked — that's exactly what [Tri-Point Landscaping](/contact) is here for. We work in Washington Township and across Macomb County, and we know how local soils and Michigan's season swings affect lawns here.
 
 **Free estimates, no pressure.** Call us at [(586) 327-8080](tel:+15863278080) or reach out through [our contact page](/contact) and we'll come take a look. The sooner you catch a yellowing problem, the less turf you have to replace — and that saves you real money come fall.
     `,
@@ -1894,7 +1894,7 @@ Not every lawn care company in Macomb County is equipped for Romeo's property ty
 
 Residential mowing in the Romeo area runs **$40–$100 per cut** depending on property size. Rural properties with larger acreage are priced accordingly. All estimates are free and based on your actual property — no guessing.
 
-Tri-Point Landscaping serves the Village of Romeo and all surrounding areas with professional lawn care, seasonal cleanup, landscaping, and snow removal. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+Tri-Point Landscaping serves the Village of Romeo and all surrounding areas with professional lawn care, seasonal cleanup, and landscaping. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   },
   {
@@ -2070,18 +2070,15 @@ Not every landscaping company in Macomb County has the equipment or experience t
 
 **Extended mowing:** Larger Ray Township properties require commercial-grade mowing equipment and crews experienced with extended mowing runs. Proper overlapping patterns, correct height across different turf conditions, and efficient routing all matter on large properties.
 
-**Long driveway maintenance:** Many Ray Township properties have gravel or paved driveways running 200 to 500 feet from the road. Edge maintenance, debris clearing, and snow removal on these driveways requires specific equipment and planning.
+**Long driveway maintenance:** Many Ray Township properties have gravel or paved driveways running 200 to 500 feet from the road. Edge maintenance and debris clearing on these driveways requires specific equipment and planning.
 
 **Naturalized area management:** Rural properties often have transition zones between maintained lawn and natural or wooded areas. Managing these zones — brush hogging, selective clearing, maintaining clean sight lines — requires a different approach than suburban landscaping.
-
-**Snow removal:** Ray Township's rural roads and longer driveways mean snow removal takes longer and requires the right equipment. Tri-Point Landscaping has the trucks and plows equipped for Ray Township's property sizes.
 
 ## Seasonal Services for Ray Township Homeowners
 
 - **Spring cleanup:** Debris clearing, bed cleanup, and edge refresh after Michigan's long winter
 - **Weekly mowing:** Reliable scheduled mowing April through October
 - **Fall cleanup:** Full leaf removal and haul-away from larger Ray Township properties
-- **Snow and ice management:** Driveway plowing and salting for rural properties
 
 Tri-Point Landscaping serves Ray Township and all of northern Macomb County. Free estimates, same-day response. [Contact us](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
@@ -2146,7 +2143,7 @@ Use March to schedule your spring cleanup, book your mowing service, and order a
 - **Continue mowing until grass stops growing** — usually late October
 - **Fall cleanup:** Leaf removal, bed clearing, perennial cutback
 - **Final fertilizer application:** Winterizer fertilizer in late October feeds roots through dormancy
-- **Snow removal contract:** Lock in your winter service before November
+- **Business owners:** Lock in a commercial snow removal contract before November
 
 ## November — Shutdown
 
@@ -2156,7 +2153,7 @@ Use March to schedule your spring cleanup, book your mowing service, and order a
 
 ---
 
-Tri-Point Landscaping manages the full seasonal cycle for Macomb County homeowners — from spring startup through fall cleanup and winter snow removal. [Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
+Tri-Point Landscaping manages the full seasonal cycle for Macomb County homeowners — from spring startup through fall cleanup. [Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   },
   {
@@ -2242,8 +2239,6 @@ It's a community that rewards thoughtful, careful landscaping work — and where
 **Landscaping and bed installation:** New bed creation, plant selection appropriate for northern Macomb County's climate and soil, mulch and stone installation, and full landscape design consultations.
 
 **Seasonal cleanup:** Spring and fall cleanup services including full leaf removal and haul-away. Bruce Township's larger lots and mature tree canopy generate significant leaf volume — we have the equipment and crew size to handle it efficiently.
-
-**Snow removal:** Residential driveway plowing, longer rural driveway access, salting and de-icing. Bruce Township's northern position means earlier and sometimes heavier snowfall than southern parts of the county. Seasonal contracts recommended.
 
 **Lawn renovation:** Core aeration and overseeding for Bruce Township lawns that have thinned over time. The fall window (late August through October) is ideal, and we typically have availability in this less densely served area.
 
@@ -2428,7 +2423,7 @@ We provide commercial snow removal throughout Washington Township, Shelby Townsh
 
 ## Seasonal Contracts vs. Per-Event Pricing
 
-Most commercial clients prefer **seasonal contracts** — a fixed monthly rate regardless of snowfall. This protects your budget and guarantees priority response. Per-event pricing is also available for smaller properties.
+**Seasonal contracts** set a fixed rate for the winter regardless of snowfall, which keeps budgets predictable. Per-event pricing is also available.
 
 ## Get a Commercial Snow Removal Bid
 
@@ -2641,8 +2636,6 @@ Washington Township is where Tri-Point Landscaping calls home. We've worked on p
 
 **Seasonal cleanup:** Spring and fall cleanup to keep your property looking sharp year-round.
 
-**Snow removal:** Driveway plowing and salting when Michigan winter arrives.
-
 ## Why Local Matters
 
 We're not sending crews from Troy or Sterling Heights. Tri-Point is based in Washington Township — which means faster response, consistent crews, and a company that's accountable to neighbors you might share.
@@ -2731,7 +2724,7 @@ We deliver and install mulch throughout Washington Township, Shelby Township, Ma
   {
     slug: "lawn-care-bruce-township-mi",
     title: "Lawn Care in Bruce Township, MI — Local Service You Can Count On",
-    description: "Bruce Township lawns get overlooked by many landscaping companies. Tri-Point Landscaping provides reliable mowing, cleanup, and snow removal throughout Bruce Township.",
+    description: "Bruce Township lawns get overlooked by many landscaping companies. Tri-Point Landscaping provides reliable mowing and cleanup throughout Bruce Township.",
     date: "January 20, 2026",
     category: "Lawn Care",
     readTime: "3 min read",
@@ -2745,8 +2738,6 @@ Bruce Township sits at the northern edge of Macomb County — and many landscapi
 **Weekly lawn mowing:** Consistent mowing, edging, and trimming throughout the growing season. We don't skip weeks or send different crews each time.
 
 **Spring and fall cleanup:** Full debris removal, bed cleanup, and property prep for both seasons.
-
-**Snow plowing:** Residential driveway plowing with salt application when winter arrives.
 
 **Landscape maintenance:** Mulch, trimming, and bed care for Bruce Township properties that want a maintained appearance.
 
@@ -2762,7 +2753,7 @@ Bruce Township has a mix of rural properties, larger lots, and newer subdivision
   {
     slug: "lawn-care-ray-township-mi",
     title: "Lawn Care in Ray Township, MI — Mowing, Cleanup & More",
-    description: "Tri-Point Landscaping provides professional lawn care in Ray Township, MI — including mowing, seasonal cleanup, and snow removal for residential properties.",
+    description: "Tri-Point Landscaping provides professional lawn care in Ray Township, MI — including mowing and seasonal cleanup for residential properties.",
     date: "January 15, 2026",
     category: "Lawn Care",
     readTime: "3 min read",
@@ -2776,8 +2767,6 @@ Ray Township, tucked between Romeo and the St. Clair County line, is another nor
 **Lawn mowing:** Weekly cutting at the right height for Michigan cool-season grass. Includes edging, trimming, and blowing.
 
 **Seasonal cleanup:** Spring and fall property cleanup, including leaf removal, bed cleanup, and debris hauling.
-
-**Snow removal:** Driveway plowing and salting for residential properties when winter weather hits.
 
 **Lawn renovations:** Aeration, overseeding, and lawn restoration for Ray Township properties with thin or damaged turf.
 
@@ -2865,7 +2854,7 @@ We provide shrub and tree trimming throughout Washington Township, Shelby Townsh
   {
     slug: "landscaping-rochester-hills-mi",
     title: "Landscaping in Rochester Hills, MI — Premium Service for a Premier Community",
-    description: "Rochester Hills homeowners expect the best — and Tri-Point Landscaping delivers. Premium lawn care, landscape design, and snow removal for Oakland County's most desirable community.",
+    description: "Rochester Hills homeowners expect the best — and Tri-Point Landscaping delivers. Premium lawn care and landscape design for Oakland County's most desirable community.",
     date: "April 10, 2026",
     category: "Landscaping",
     readTime: "4 min read",
@@ -2883,8 +2872,6 @@ Rochester Hills is consistently ranked among Michigan's best places to live — 
 **Mulch and decorative stone:** Fresh mulch or stone installations that frame beds cleanly, suppress weeds, and elevate curb appeal. We edge, spread, and clean up — one visit, finished result.
 
 **Seasonal cleanup:** Spring and fall cleanup done thoroughly — every leaf removed, every bed cleared, every edge refreshed.
-
-**Snow removal:** Reliable driveway plowing and salting so Rochester Hills homeowners and their families can get in and out safely all winter.
 
 ## Why Rochester Hills Homeowners Choose Tri-Point
 
@@ -2931,16 +2918,16 @@ Thin turf, bare patches, or a lawn that just won't respond to regular mowing? We
   {
     slug: "landscaping-rochester-mi",
     title: "Landscaping in Rochester, MI — Beautiful Properties Deserve Expert Care",
-    description: "Rochester, MI is one of Michigan's most prestigious communities. Tri-Point Landscaping provides premium landscaping, lawn care, and snow removal throughout Rochester.",
+    description: "Rochester, MI is one of Michigan's most prestigious communities. Tri-Point Landscaping provides premium landscaping and lawn care throughout Rochester.",
     date: "April 6, 2026",
     category: "Landscaping",
     readTime: "4 min read",
     content: `
 ## Landscaping in Rochester, MI
 
-Rochester is one of Oakland County's crown jewels — a charming downtown, prestigious neighborhoods along Paint Creek and Walnut Boulevard, and homeowners who take exceptional pride in their properties. Landscaping in Rochester needs to match that standard.
+Rochester is one of Oakland County's crown jewels — a charming downtown, prestigious neighborhoods along Paint Creek and Walton Boulevard, and homeowners who take exceptional pride in their properties. Landscaping in Rochester needs to match that standard.
 
-Tri-Point Landscaping serves Rochester with premium landscape design, precise lawn maintenance, and reliable snow removal. We treat every Rochester property with the care and attention it deserves.
+Tri-Point Landscaping serves Rochester with premium landscape design and precise lawn maintenance, plus [commercial snow removal](/services/snow-removal/rochester) for local businesses. We treat every Rochester property with the care and attention it deserves.
 
 ## Our Rochester Landscaping Services
 
@@ -2952,11 +2939,9 @@ Tri-Point Landscaping serves Rochester with premium landscape design, precise la
 
 **Seasonal cleanup:** Spring and fall cleanup performed thoroughly. Rochester's mature tree canopy produces significant leaf volume — we handle it completely.
 
-**Snow removal:** Reliable plowing and salting so Rochester homeowners can navigate safely all winter.
-
 ## Rochester's Landscape Character
 
-Rochester's mature neighborhoods — particularly along Walnut Boulevard, University Drive, and the Paint Creek corridor — feature established plantings, mature trees, and landscape investments that have developed over decades. We approach these properties with respect for what's already there.
+Rochester's mature neighborhoods — particularly along Walton Boulevard, University Drive, and the Paint Creek corridor — feature established plantings, mature trees, and landscape investments that have developed over decades. We approach these properties with respect for what's already there.
 
 [Request a free estimate for your Rochester property](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
@@ -3032,7 +3017,7 @@ When you search for landscaping near you, you're looking for someone who shows u
 
 ## Tri-Point Landscaping — Northern Macomb County's Local Choice
 
-Tri-Point Landscaping is owner-operated, fully insured, and based in Washington Township. We serve Macomb County, Oakland County, and all surrounding communities with professional landscaping, lawn care, and snow removal.
+Tri-Point Landscaping is owner-operated, fully insured, and based in Washington Township. We serve Macomb County, Oakland County, and all surrounding communities with professional landscaping, lawn care, and commercial snow removal.
 
 [Get a free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
@@ -3253,7 +3238,7 @@ A seasonal lawn maintenance contract with Tri-Point Landscaping is not just mowi
 
 **Priority scheduling:** Contracted clients get first priority over one-time or call-in requests.
 
-Optional add-ons: mulch installation, fertilization, aeration, snow removal.
+Optional add-ons: mulch installation, fertilization, aeration. (Commercial properties can also add snow removal.)
 
 ## The Cost Advantage
 
@@ -3504,7 +3489,7 @@ Visit **[tripointlandscaping.com](https://tripointlandscaping.com)** to see our 
     content: `
 ## Stop Buying the Wrong Soil Amendment for Your Yard
 
-Walk into any garden center in Washington Township and you'll see three bins that look almost identical. Topsoil. Compost. Mulch. Most homeowners grab whatever's closest, but here's the truth: **using the wrong one wastes money and can actually hurt your lawn.** They look similar, cost differently, and do completely different jobs. After years of working with Macomb County properties, we've seen plenty of yards suffer because someone mixed these up. This guide will show you exactly what each one is, when to use it, and how much you actually need.
+Walk into any garden center in Washington Township and you'll see three bins that look almost identical. Topsoil. Compost. Mulch. Most homeowners grab whatever's closest, but here's the truth: **using the wrong one wastes money and can actually hurt your lawn.** They look similar, cost differently, and do completely different jobs. Plenty of Macomb County yards suffer because someone mixed these up. This guide will show you exactly what each one is, when to use it, and how much you actually need.
 
 ## Topsoil: The Foundation of Your Lawn
 
@@ -4204,7 +4189,7 @@ Tri-Point Landscaping serves Bruce Township and all surrounding areas. [Request 
     content: `
 ## Rochester's Neighborhoods Set a High Bar for Lawn Care
 
-Rochester, Michigan is one of Oakland County's most desirable communities — a charming downtown, established neighborhoods along University Drive and Walnut Boulevard, and homeowners who take genuine pride in how their properties look. That means the standard for lawn care in Rochester is higher than average, and inconsistent or low-quality service stands out.
+Rochester, Michigan is one of Oakland County's most desirable communities — a charming downtown, established neighborhoods along University Drive and Walton Boulevard, and homeowners who take genuine pride in how their properties look. That means the standard for lawn care in Rochester is higher than average, and inconsistent or low-quality service stands out.
 
 Professional lawn maintenance in Rochester isn't just about cutting grass. It's about maintaining a property that reflects the quality of the neighborhood it's in.
 
@@ -4235,7 +4220,7 @@ Tri-Point Landscaping serves Rochester and all surrounding areas. [Request your 
     content: `
 ## Rochester Winters Demand Reliable Snow Removal
 
-Rochester, Michigan sits in Oakland County where lake-enhanced snowfall from Lake Erie pushes seasonal totals above Michigan averages in many years. Rochester homeowners — particularly in established neighborhoods along University Drive, Walnut Boulevard, and the Paint Creek area — need a snow removal service they can count on before the workday starts.
+Rochester, Michigan sits in Oakland County where lake-enhanced snowfall from Lake Erie pushes seasonal totals above Michigan averages in many years. Rochester homeowners — particularly in established neighborhoods along University Drive, Walton Boulevard, and the Paint Creek area — need a snow removal service they can count on before the workday starts.
 
 A buried driveway in Rochester at 6 AM isn't a minor inconvenience. It's a real problem. Professional snow removal takes that problem off your plate entirely.
 
@@ -5003,7 +4988,7 @@ Ready to discuss your Shelby Township commercial property? [Request your free es
     content: `
 ## Commercial Snow Removal in Shelby Township, MI
 
-Shelby Township winters are unpredictable. A light snow year can turn into back-to-back storms in January and February, and a commercial property buried in snow loses customers, creates liability exposure, and risks ADA compliance violations for inaccessible sidewalks and entrances. Professional commercial snow removal isn't a luxury for Shelby Township businesses — it's a risk management decision.
+Shelby Township winters are unpredictable. A light snow year can turn into back-to-back storms in January and February, and a commercial property buried in snow loses customers and creates safety risks for everyone who walks in. Professional commercial snow removal isn't a luxury for Shelby Township businesses — it's a risk management decision.
 
 Tri-Point Landscaping provides commercial snow removal to businesses, retail centers, office complexes, and HOA communities throughout Shelby Township and Macomb County.
 
@@ -5011,11 +4996,11 @@ Tri-Point Landscaping provides commercial snow removal to businesses, retail cen
 
 ### Parking Lot Plowing
 
-Commercial lot plowing removes accumulated snow from your entire parking area — pushing it to designated piling locations away from fire lanes, accessible parking spaces, and building entrances. For Shelby Township commercial properties, we calibrate response thresholds based on your contract — typically triggered at 1–2 inches of accumulation for commercial sites with high customer traffic.
+Commercial lot plowing removes accumulated snow from your entire parking area — pushing it to designated piling locations away from fire lanes, accessible parking spaces, and building entrances. For Shelby Township commercial properties, we set trigger depths in your agreement based on your traffic and hours.
 
 ### Sidewalk Clearing
 
-ADA compliance requires accessible sidewalks and building entrances. Cleared sidewalks also protect you from slip-and-fall liability — one of the most common commercial insurance claims during Michigan winters. Our commercial contracts include sidewalk clearing as part of the service, typically handled within the same visit as lot plowing.
+Customers, staff, and visitors, including people with mobility needs, depend on clear sidewalks and building entrances. Cleared and salted walkways also reduce slip risks. Our commercial contracts include sidewalk clearing as part of the service, typically handled within the same visit as lot plowing.
 
 ### Salting and Ice Control
 
@@ -5025,23 +5010,23 @@ We use commercial-grade salt and de-icing products appropriate for the condition
 
 ### Pre-Salting for Storm Preparation
 
-For significant storm forecasts, pre-salting — applying ice control product before snow falls — prevents bonding between snow and pavement, making subsequent plowing faster and more effective. Pre-salting is particularly useful for Shelby Township commercial sites where early-morning access is critical.
+For significant storm forecasts, pre-salting — applying ice control product before snow falls — helps keep snow and ice from bonding to the pavement, which makes plowing and cleanup more effective. Pre-salting is particularly useful for Shelby Township commercial sites where early-morning access is critical.
 
 ## Seasonal Contracts vs. Per-Event Pricing
 
 ### Seasonal Contracts
 
-A seasonal snow removal contract provides a flat monthly or seasonal rate in exchange for priority service throughout the winter — typically November 15 through March 31. Seasonal contracts give property managers predictable winter budget numbers and guarantee response priority.
+A seasonal snow removal contract provides a flat monthly or seasonal rate for the season dates set in your agreement. Seasonal contracts give property managers predictable winter budget numbers.
 
-For high-traffic Shelby Township commercial sites on M-59, Schoenherr, or 23 Mile Road, seasonal contracts are usually the right approach. You cannot afford to be low on a contractor's priority list during a major storm.
+For high-traffic Shelby Township commercial sites on M-59, Schoenherr, or 23 Mile Road, seasonal contracts are often a good fit, since busy sites need consistent service all winter.
 
 ### Per-Event Pricing
 
-Per-event pricing bills you only when it snows — charging a set rate for each plowing and salting visit. This can work well for properties with lower traffic sensitivity or property managers who want flexibility. The trade-off is less predictable winter costs and potentially lower priority during high-demand storm events.
+Per-event pricing bills you only when it snows — charging a set rate for each plowing and salting visit. This can work well for properties with lower traffic sensitivity or property managers who want flexibility. The trade-off is less predictable winter costs.
 
 ## Liability and Why It Matters
 
-Michigan law holds commercial property owners responsible for maintaining safe conditions on their premises. A slip-and-fall on an uncleared sidewalk or an ice-covered parking lot can result in liability claims that cost far more than an entire season of professional snow removal. Commercial snow removal contracts document service visits and provide a record of reasonable property maintenance — an important protection in the event of a claim.
+Slips and falls on snowy or icy walkways are a real concern for any commercial property. A professional snow contract with documented service visits gives you a record of the maintenance performed on your property. Talk with your insurance agent or attorney about your specific responsibilities. This is general information, not legal advice.
 
 ## What to Look for in a Commercial Snow Removal Contract
 
@@ -6172,7 +6157,7 @@ Take your time. Compare estimates. Ask questions. Sleep on it if you need to.
 
 Hiring the wrong landscaper costs money, time, and peace of mind. The right one becomes a trusted partner for your property's health and curb appeal. 
 
-If you're in Washington Township or anywhere across Macomb County and you're ready to talk to a landscaper that operates with transparency, local expertise, and a real commitment to your property, **[contact Tri-Point Landscaping today](tel:+15863278080)**. Call us at **(586) 327-8080** or visit **tripointlandscaping.com**. We provide free written estimates, carry full insurance, and have years of local experience managing Michigan's specific soil and climate challenges. No pressure, no surprises—just honest landscaping.
+If you're in Washington Township or anywhere across Macomb County and you're ready to talk to a landscaper that operates with transparency, local expertise, and a real commitment to your property, **[contact Tri-Point Landscaping today](tel:+15863278080)**. Call us at **(586) 327-8080** or visit **tripointlandscaping.com**. We provide free written estimates, carry full insurance, and know Michigan's specific soil and climate challenges. No pressure, no surprises—just honest landscaping.
     `,
   }
 ,
@@ -7138,7 +7123,7 @@ If you're a business owner in Washington Township or anywhere across Macomb Coun
 
 This is where most Macomb County business owners get caught off guard. Your contract needs to explicitly state who handles snow removal, when it kicks in, and at what snow depth. In Michigan, we can see snow arrive as early as October and stick around past April, so **your contract should specify whether the landscaper maintains your property year-round or if winter services are separate**.
 
-Ask directly: Does the bid include snow removal? At what depth (typically 2 inches in commercial settings)? Are salt/sand applications included, or are those additional? Some companies charge per push-through, while others charge a flat monthly winter rate. For Washington Township properties especially, where commercial zones often have larger parking areas, this difference can run you $500-$2,000 per season depending on snowfall.
+Ask directly: Does the bid include snow removal? At what trigger depth? Are salt/sand applications included, or are those additional? Some companies charge per push-through, while others charge a flat monthly winter rate. For Washington Township properties especially, where commercial zones often have larger parking areas, this difference adds up over a season.
 
 Also verify: **Who's liable if snow isn't removed within a reasonable timeframe and someone slips?** This should be addressed in your liability insurance section.
 
@@ -7365,76 +7350,74 @@ If you're in Washington Township or anywhere in Macomb County, **late September 
   {
     slug: "commercial-snow-removal-contracts-macomb-county",
     title: "How Commercial Snow Removal Contracts Work in Macomb County",
-    description: "A practical guide to understanding commercial snow removal contracts in Macomb County, Michigan. Learn pricing, triggers, and what to expect.",
+    description: "A practical guide to how commercial snow removal contracts work in Macomb County, Michigan: pricing structures, scope, trigger depths, salting, and documentation.",
     date: "August 13, 2026",
     category: "Commercial",
-    readTime: "7 min read",
+    readTime: "6 min read",
     content: `
-If you own or manage a commercial property in Washington Township or anywhere across Macomb County, you've probably wondered what a snow removal contract actually covers—and whether you're getting a fair deal. Winter in Michigan isn't optional, and neither is keeping your parking lot, walkways, and loading docks clear. But contracts vary wildly, and signing the wrong one can leave you either overpaying or dangerously unprepared when snow hits.
+## What a Commercial Snow Contract Actually Covers
 
-## The Two Main Contract Types in Macomb County
+If you own or manage a commercial property in Washington Township or anywhere in Macomb County, a snow removal contract is the document that decides what happens to your property every time it snows. It covers more than plowing. A good contract explains which areas are cleared, what starts a service visit, how ice is handled, how the work is billed, and how it's documented.
 
-Commercial snow removal contracts come in two flavors, and understanding the difference will save you thousands of dollars.
+This guide explains how commercial snow contracts work so you can read proposals with confidence. It's general information, not legal advice, so have your attorney or insurance agent review any agreement before you sign.
 
-**Per-Push Contracts** charge you every time snow falls and needs removal. A "push" typically means clearing when snow accumulation reaches 2 inches or more—the standard trigger across Michigan. You pay based on what actually happens that winter. If Macomb County gets a mild season with just a few dustings, your costs stay low. If we get hit like the winter of 2013-2014 (when some areas recorded 240+ inches statewide), your bill climbs.
+## The Two Common Pricing Structures
 
-**Seasonal Contracts** lock in one flat fee from December through March (or November through April, depending on the agreement). You pay the same amount whether it snows twice or twenty times. This removes uncertainty—you know exactly what to budget. Most property managers in Washington Township prefer seasonal contracts because they're predictable.
+Most commercial snow agreements use one of two structures.
 
-There's also a hybrid approach: a seasonal retainer plus per-push charges for events beyond a certain frequency. This splits the difference if you want some certainty without overpaying in light snow years.
+**Seasonal contracts** set one price for the winter season. You pay the same whether the winter is mild or heavy, which makes budgeting predictable. Payments are often spread across the season, and the agreement spells out the start and end dates.
 
-## What Actually Gets Included (and What Doesn't)
+**Per-push contracts** bill for each service visit. You pay for what the winter actually brings. A light winter costs less, and a heavy one costs more.
 
-This is where contracts get tricky. Read the fine print.
+Neither structure is right for every property. We compare them in detail in [Seasonal vs Per-Push Snow Contracts](/blog/commercial-snow-removal-contracts-macomb-county-seasonal-vs-per-push).
 
-A standard commercial contract in Macomb County covers:
+## What's Included in the Scope
 
-- **Parking lot plowing** to create passable driving surfaces
-- **Walkway and entrance clearing** for pedestrian safety
-- **Salt or sand application** for ice management
-- **Loading dock and driveway access** (usually to 4-6 inches of clearance)
+The scope section lists the areas the contractor is responsible for. Common items include:
 
-What often *isn't* included:
+- Parking lots and drive lanes
+- Sidewalks, entrances, steps, and ramps
+- Accessible parking spaces and the routes to the building
+- Loading docks and truck access
+- Salt or ice melt on walkways and pavement
 
-- **Rooftop snow removal** (this requires specialized equipment and adds liability)
-- **Gutter and downspout clearing**
-- **Snow stacking and hauling** (moving accumulated snow to off-site locations)
-- **De-icing treatments** beyond basic salt (magnesium chloride or liquid calcium are premium add-ons)
-- **24-hour emergency clearing** after major storms (overtime charges apply)
+Anything not listed is usually not included. If your property has a rear entrance, a dumpster enclosure, or an HOA mailbox area that needs attention, make sure it's written in. A marked-up site map is the easiest way to avoid confusion.
 
-Here's the key: **ask your contractor to specify the minimum trigger depth for each service**. Some companies won't touch your lot until 3 inches; others start at 2 inches. In Macomb County, where we get frequent light snows mixed with heavy events, this matters. A 2-inch trigger means more frequent service but better safety compliance.
+## Trigger Depths
 
-## Pricing Realities in Washington Township
+A **trigger depth** is the snow accumulation that starts a service visit. The contract should state the trigger for plowing lots and, separately, what triggers walkway clearing and salting, since walkways often need attention sooner than the lot.
 
-Rates in Macomb County vary based on property size, location, and equipment access. A typical seasonal contract for a medium commercial lot (15,000-20,000 square feet) runs $1,500–$3,500 for the entire winter season. Per-push pricing usually falls between $400–$800 per event.
+Lower triggers mean more frequent service. Higher triggers mean fewer visits. The right setting depends on your traffic, your hours, and your tolerance for risk, so talk it through with your contractor and your insurance agent.
 
-These aren't arbitrary numbers. Washington Township's clay-based soil and freeze-thaw cycles mean salt application is critical—salty snow sticks to pavement differently than dry snow. A contractor charging bottom-dollar might not account for this regional difference.
+## Salting and Ice Management
 
-**Temperature thresholds matter too.** Most contracts specify that salting happens when temperatures are 28°F or below (not at 32°F, because ground temperature is colder). Some contracts add a clause for re-application every 24 hours during extended storms—that's additional cost.
+Plowing rarely leaves pavement completely bare, and ice often causes more trouble than snow. Contracts should explain when salt or ice melt is applied, whether pre-treatment is used ahead of freezing rain, and how return visits for refreeze are handled and billed. Our post on [ice management, pre-treatment, and service logs](/blog/ice-management-liability-pre-treatment-service-logs-michigan) goes deeper on this.
 
-## Response Time and Liability Clauses
+## Response and Priorities
 
-Commercial contracts always include response time language. Standard terms promise arrival "within 24 hours of snowfall" for day events and "by 6 AM" for overnight snow. But read closely: does "arrival" mean starting work, or does it mean beginning within 24 hours? These aren't the same thing.
+Instead of promising that every surface will be clear at all times, a realistic contract describes how the contractor responds: when crews mobilize, what gets cleared first, and how long storms are handled with repeat passes. Read this section closely and make sure it matches how your property is actually used, including your opening hours.
 
-Liability is non-negotiable in Michigan. Your contractor should carry commercial general liability insurance (minimum $1 million) and property damage coverage. **Never sign with an uninsured contractor.** If a customer slips on an uncleared walkway, you're liable—not them—unless you have documented proof that a licensed, insured contractor handled snow removal.
+## Snow Storage
 
-Also check: does the contract specify **salt type**? Road salt works fine for parking lots, but some properties need magnesium chloride or calcium chloride (gentler on concrete and vegetation, common in Macomb County for landscaped areas). These cost 20-30% more but prevent premature concrete failure.
+Snow has to go somewhere. The contract should say where snow will be piled, where it should never be piled (fire lanes, accessible spaces, drains, and sight lines at exits), and what happens when there's no room left.
 
-## Negotiate for Macomb County Winter Realities
+## Insurance and Documentation
 
-When signing a contract, negotiate these points:
+Ask every contractor for certificates of insurance showing general liability and workers' compensation coverage, and have your insurance agent review them. Ask whether the contractor keeps service logs that record when crews were on site and what was done. Records help you answer questions from owners, tenants, and insurers after the season ends.
 
-- **Salt storage** – Does the contractor supply salt, or do you? On-site storage can freeze into blocks by February if not managed properly.
-- **Re-application limits** – Specify how many re-applications are included before additional charges kick in.
-- **Equipment type** – Smaller lots might use pickup trucks with plows; larger properties need heavy equipment. Make sure it's specified.
-- **Exit dates** – Both parties should agree on end-of-season dates. In Washington Township, we sometimes need clearing into early April.
+## Season Dates and Renewal
 
-## Get a Contract Built for Your Property—Starting Now
+The contract should list when coverage starts and ends, how renewal works, and how either party can end the agreement. Your attorney should review these terms.
 
-The best time to negotiate a commercial snow removal contract isn't January, when contractors are slammed and your parking lot is already a skating rink. **It's right now, in late summer, before the rush.**
+## When to Set Up Your Contract
 
-Tri-Point Landscaping manages commercial snow removal across Macomb County, and we know exactly how to write contracts that protect you and match our region's weather patterns. We'll audit your property, explain exactly what you need (not what we want to sell you), and give you a contract with transparent pricing and realistic response times.
+The best time to put a commercial snow contract in place is before the first storm, while there's time for a site walk and a clear agreement. Waiting until snow is on the ground leaves little room to plan.
 
-**Call [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) today for a free estimate.** We'll review your current property, walk you through options, and explain what a fair commercial snow removal contract looks like in Washington Township. Getting ahead now means you'll sleep better when the first major snow hits.
+## How Tri-Point Handles Commercial Snow Contracts
+
+Tri-Point Landscaping provides [commercial snow removal](/services/snow-removal) only. Every account starts with a site walk, and every agreement covers scope, trigger depths, clearing priorities, and salting. We carry general liability and workers' comp coverage, provide certificates of insurance on request, monitor storms 24/7, and keep service logs for every visit. For a list of what to review, see our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county), and visit our [commercial services page](/commercial) for year-round grounds care.
+
+**Ready to talk through a contract for your property?** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   }
 ,
@@ -7487,7 +7470,7 @@ One local detail: Macomb County's average growing season runs May 15 to Septembe
 
 ## Refresh vs. Replace: The Yearly Reality
 
-Mulch breaks down—that's actually good, because it improves your clay soil over time. **Refresh with 1 inch of fresh mulch every 12-18 months**, rather than constantly adding depth.**
+Mulch breaks down—that's actually good, because it improves your clay soil over time. **Refresh with 1 inch of fresh mulch every 12-18 months**, rather than constantly adding depth.
 
 Why? Old mulch compacts. Adding new mulch on top of compacted mulch creates thick, airless layers. Instead, rake back the old mulch in spring, add 1 fresh inch, and you'll maintain that optimal 2-3 inch depth while keeping soil healthy.
 
@@ -7495,7 +7478,7 @@ Why? Old mulch compacts. Adding new mulch on top of compacted mulch creates thic
 
 Mulch depth is one of the easiest landscape problems to fix—but only if you catch it before disease or winter damage sets in. If your beds are over-mulched right now, rake back to proper depth **before September**, so plants have time to recover and harden off before Michigan's winter.
 
-If you're uncertain about your beds, or you'd rather have professionals ensure it's done correctly, [**contact Tri-Point Landscaping**](/contact). We've been doing this in Washington Township and throughout Macomb County long enough to know exactly how Michigan's soil and climate need mulch applied. We offer **free estimates**, and right now is the perfect time to get your landscape dialed in before winter.
+If you're uncertain about your beds, or you'd rather have professionals ensure it's done correctly, [**contact Tri-Point Landscaping**](/contact). We know how Michigan's soil and climate affect the way mulch should be applied in Washington Township and throughout Macomb County. We offer **free estimates**, and right now is the perfect time to get your landscape dialed in before winter.
 
 **Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to schedule your consultation.**
     `,
@@ -8268,82 +8251,78 @@ Your permanently healthy lawn is waiting. Let's fix it this fall.
   {
     slug: "commercial-snow-removal-contracts-macomb-county-seasonal-vs-per-push",
     title: "Commercial Snow Removal Contracts in Macomb County: Seasonal vs Per-Push",
-    description: "Understand the real differences between seasonal and per-push snow removal contracts for your Macomb County business. Get pricing details and local timing.",
+    description: "How seasonal and per-push snow removal contracts differ for Macomb County businesses, and how to decide which one fits your property.",
     date: "September 24, 2026",
     category: "Commercial",
-    readTime: "7 min read",
+    readTime: "5 min read",
     content: `
-## The Decision That Affects Your Budget and Operations
+## Two Ways to Pay for Commercial Snow Removal
 
-If you own or manage a commercial property in Macomb County, you've probably noticed that winter planning starts way earlier than November. Right now, in late September, is when most Washington Township and surrounding businesses lock in their snow removal contracts—and most get it wrong the first time.
+If you manage a commercial property in Macomb County, one of the first decisions in winter planning is how to structure your snow removal agreement. Most contractors offer two options: a seasonal contract or per-push service. Both can work well. The right choice depends on your property, your budget, and how much uncertainty you're comfortable with.
 
-The choice between **seasonal contracts** and **per-push agreements** isn't just about money. It's about whether you're covered when a surprise 8-inch wet snow hits in March, or whether you're stuck with a $4,000 unexpected bill when your parking lot becomes a liability.
+This post explains the differences in plain terms. It doesn't quote prices, because every property is different and an honest number requires a site walk.
 
-Let's break down what actually works in Macomb County's climate and why timing matters for this decision.
+## How Seasonal Contracts Work
 
-## Understanding Seasonal Contracts in Macomb County
+A **seasonal contract** sets one price for the winter, regardless of how many storms arrive. Payments are often spread across the season, and the agreement lists the dates coverage starts and ends.
 
-A **seasonal snow removal contract** means you pay one flat fee (usually divided into monthly payments from November through March) regardless of how many times it snows. In Macomb County, we typically see 4–6 significant snow events per season, though last winter we had 9 pushes by mid-February.
+Seasonal contracts are a good fit when:
 
-Here's what you're actually getting:
+- You need a predictable winter budget for owners, a board, or tenants
+- Your property can't afford delays, such as a medical office or a busy retail plaza
+- You'd rather not decide during each storm whether to call for service
 
-- **Fixed costs** with no surprises—budget predictability from October through April
-- **Priority service** during storms (contractors prioritize seasonal clients first)
-- **Unlimited pushes** once snow reaches your trigger depth (usually 2 inches in Macomb County)
-- **Salt/ice melt included** in most seasonal packages
-- **No decision fatigue**—no more wondering if you should call someone in at 3 AM
+The tradeoff is that you pay the same amount in a mild winter as in a heavy one.
 
-**The real advantage?** If we get hit with three blizzards in January like we did in 2024, you've already paid. If we get a mild winter with only two pushes, you still pay the same. That's protection against unpredictability.
+## How Per-Push Service Works
 
-For a typical 5,000-square-foot parking lot in Washington Township, seasonal contracts typically run $1,200–$2,000 for the November-through-March window. Larger lots can run $2,500–$5,000+.
+**Per-push service** bills for each visit once snow reaches the trigger depth in your agreement. In a light winter you pay less, and in a heavy winter you pay more.
 
-## When Per-Push Contracts Make Sense
+Per-push can be a good fit when:
 
-**Per-push contracts** charge you each time a contractor services your property—usually $400–$800 per push depending on lot size, equipment, and whether salting is included.
+- Your property has lighter traffic or flexible hours
+- You're comfortable with winter costs that vary from year to year
+- Your property's needs are simple, such as a small lot with one entrance
 
-This works if:
+The tradeoff is less predictability. A winter with frequent storms can cost more than expected.
 
-- Your business is seasonal or temporary (you don't need plowing in December–January)
-- You have a small lot under 2,000 square feet
-- You have the cash flow to absorb unexpected invoices mid-winter
-- You're willing to manually manage when snow reaches serviceability levels
+## What Should Be the Same Either Way
 
-**The hidden cost:** You decide when to call. If you wait too long and liability occurs (customer slip-and-fall on ice), *you* carry that risk. In Michigan, property owners are responsible for maintaining safe surfaces within 48 hours after snowfall stops.
+The pricing structure changes how you pay, not what a good agreement should include. Seasonal or per-push, your contract should still spell out:
 
-Since Macomb County averages 5–6 seasonal events, you're looking at $2,000–$4,800 in per-push costs—which often *exceeds* a seasonal contract by the time you factor in forgotten calls and reactive pricing.
+- Which areas are cleared, ideally on a site map
+- Trigger depths for plowing and for walkways
+- Clearing priorities, such as entrances, drive lanes, and accessible parking first
+- When salt and ice melt are applied, and whether pre-treatment is used ahead of freezing rain
+- How return visits for refreeze are handled
+- Where snow will be piled, and what happens when space runs out
+- Certificates of insurance and service logs
 
-## Macomb County Winter Realities That Change Your Decision
+If two proposals use different structures, compare them on these points too, not just on price.
 
-Macomb County's climate isn't extreme by Michigan standards, but it's aggressive enough to require real planning:
+## Questions to Ask Before You Choose
 
-- **Average snowfall: 40–48 inches per season** (well above the 35-inch national average)
-- **Wet, heavy snow**: Our clay-heavy soils mean melting snow refreezes into treacherous ice patches
-- **March swings**: We get surprise 6-inch storms in March and early April regularly
-- **Salt viability**: Temperatures rarely drop below 15°F for extended periods, making salt+brine more effective than in northern Michigan
-- **24-hour pushes common**: When major storms hit, contractors service lots multiple times within 36 hours
+- How are salting and ice melt billed under each option?
+- What counts as one push during a long storm that needs several passes?
+- How are extra services, like moving or hauling snow, priced?
+- What are the season start and end dates?
+- How does the contractor communicate during major storms?
 
-For commercial properties in Washington Township specifically, salt costs are built into most seasonal contracts because our alkaline soil and aging asphalt need consistent ice management.
+The answers often make the decision clearer than the headline number does.
 
-## How to Calculate Which Contract Saves You Money
+## Local Factors in Macomb County
 
-Use this simple math:
+Winters here bring a mix of light snows, heavier storms, and freeze-thaw cycles that turn meltwater into ice overnight. That means ice management deserves as much attention as plowing when you compare options. Our post on [ice management, pre-treatment, and service logs](/blog/ice-management-liability-pre-treatment-service-logs-michigan) explains why.
 
-1. **Get 2–3 per-push quotes** from local Macomb County contractors and multiply by 6 (average pushes)
-2. **Get seasonal quotes** for the same properties
-3. **The seasonal contract should be 20–35% cheaper** than per-push totals
-4. **If seasonal is more expensive**, ask why—you may be over-contracting for services you don't need
+## Timing
 
-Most commercial property managers in Macomb County see real savings with seasonal contracts once they hit 4+ annual snow events. For a 6,000-square-foot lot, seasonal typically saves $800–$1,500 annually compared to paying per push.
+Whichever structure you choose, set it up before the first storm. That leaves time for a site walk, a written agreement, and getting your property on a storm route. For a full overview of how contracts work, read [How Commercial Snow Removal Contracts Work in Macomb County](/blog/commercial-snow-removal-contracts-macomb-county), and use our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county) to compare proposals.
 
-## Don't Wait Until December to Decide
+## How Tri-Point Can Help
 
-Here's the practical reality: **Tri-Point Landscaping and other quality contractors in Macomb County fill seasonal contract slots between August and October.** By November, you're either on someone's schedule or you're calling around during actual snowstorms—paying premium rates and getting deprioritized service.
+Tri-Point Landscaping offers both seasonal contracts and per-push service for commercial properties. We walk your site, explain the options for your property, and give you a written quote. Our snow service is commercial only, and every account includes 24/7 storm monitoring, service logs, and certificates of insurance on request. Learn more about our [commercial snow removal](/services/snow-removal) and [commercial services](/commercial).
 
-Right now, in late September, is when contractors have flexibility, availability, and competitive pricing. Once November hits, you're calling emergency services.
-
-**Get a free estimate from Tri-Point Landscaping today.** We'll assess your specific parking lot, review your liability exposure, and show you exactly what seasonal versus per-push costs look like for your property. We handle commercial properties across Washington Township and Macomb County—we know what actually happens when March storms hit.
-
-**Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to request your free winter contract estimate.** We'll have you locked in before the first real snow threat of the season.
+**Not sure which option fits your property?** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
   }
 ,
@@ -8473,9 +8452,468 @@ Fall (mid-September through mid-October) is **the absolute best time to seed or 
 
 The difference between choosing the wrong grass and the right blend isn't just about how your lawn looks—it's about spending money once instead of replanting every few years. If your lawn is thin, patchy, or struggling through our summers, the grass type itself might be the real problem.
 
-**Tri-Point Landscaping has worked with Washington Township and Macomb County lawns long enough to know what actually works in our soil and climate.** We can evaluate your current lawn, test your soil, and recommend whether you need renovation, overseeding, or a complete replant with the right species blend.
+**Tri-Point Landscaping knows what actually works in Washington Township and Macomb County soil and climate.** We can evaluate your current lawn, test your soil, and recommend whether you need renovation, overseeding, or a complete replant with the right species blend.
 
 Fall is the window—[contact Tri-Point Landscaping today at (586) 327-8080](/contact) for a free estimate. We'll tell you exactly what your lawn needs and when to plant it. Your next-door neighbors' yards might look thick and green year-round. Yours can too.
+    `,
+  },
+  {
+    slug: "commercial-snow-removal-washington-township-mi",
+    title: "Commercial Snow Removal in Washington Township, MI: A Guide for Property Managers",
+    description: "What Washington Township property managers should know about commercial snow removal: site walks, trigger depths, sidewalks and entrances, salting, contracts, and documentation.",
+    date: "October 2, 2026",
+    category: "Snow & Ice",
+    readTime: "6 min read",
+    content: `
+## Winter Planning Starts Before the First Storm
+
+If you manage a retail plaza on Van Dyke Avenue, an office building near 26 Mile Road, or an HOA entrance off Romeo Plank Road, you already know winter in Washington Township doesn't wait for anyone to be ready. The first real storm tends to arrive when tenants are busy, budgets are set, and nobody has looked at the snow plan since last March.
+
+This guide walks through what a solid commercial snow removal setup looks like for Washington Township properties, what to put in writing, and what to ask before you sign. Tri-Point Landscaping is based in Washington Township and provides [commercial snow removal in Washington Township](/services/snow-removal/washington-township) for businesses, HOAs, and property managers. We do not plow residential driveways, so everything below is written for commercial sites.
+
+## Know Your Property Before You Get Quotes
+
+Every commercial lot has its own quirks. Before you compare contractors, walk your property with a few questions in mind:
+
+- Where do people actually walk? Front entrances, side doors, ramps, and the path from accessible parking to the door matter more than the far corners of the lot.
+- Where can snow go? Plazas with tight drive lanes along Van Dyke often have very little room to pile snow, and piling it in the wrong spot can block parking, cover drains, or hide sight lines at exits.
+- What needs to be open first? A medical office may need its entrance and patient parking cleared before staff arrive. A church may care most about weekend services. A retail plaza needs drive lanes open when stores open.
+- Are there loading areas or dumpster enclosures? These get forgotten until a delivery truck can't get in.
+
+A good contractor will walk the site with you and turn those answers into a written plan. If someone gives you a number without looking at the property, treat that as a warning sign.
+
+## Trigger Depths and Clearing Priorities
+
+A **trigger depth** is the amount of snow that starts a service visit. It belongs in your written agreement, not in someone's memory or a phone call at 4 a.m.
+
+Lower triggers mean more visits and cleaner pavement. Higher triggers mean fewer visits but more snow on the ground before anyone shows up. The right number depends on your traffic, your tenants, and how much risk you're comfortable with, so talk it through with your contractor and your insurance agent.
+
+Clearing priorities belong in writing too. For many Washington Township commercial sites, the order looks something like this:
+
+1. Entrances from Van Dyke Avenue, 26 Mile Road, or Romeo Plank Road and the main drive lanes
+2. Accessible parking spaces and the walkways from them to the building
+3. Sidewalks and building entrances
+4. General parking rows
+5. Loading areas and secondary access points
+
+Your site may need a different order. What matters is that everyone, including the plow operator, knows what comes first.
+
+## Sidewalks, Entrances, and Salting
+
+Parking lots get most of the attention, but people slip on walkways and steps. A complete commercial plan includes:
+
+- Sidewalk and entrance clearing on your property, including ramps and the area right in front of the doors
+- Salt and ice melt on walkways and high-traffic pavement after plowing
+- Pre-treatment ahead of freezing rain when conditions call for it, so ice has a harder time bonding to the surface
+
+Michigan winters bring plenty of freeze-and-thaw days, when meltwater from snow piles refreezes overnight. Ask how your contractor handles return trips for refreeze and whether those visits are included or billed separately. For a closer look at why pre-treatment and records matter, read our post on [ice management, liability, and service logs](/blog/ice-management-liability-pre-treatment-service-logs-michigan).
+
+## Seasonal Contract or Per-Push?
+
+Most commercial snow agreements fall into two groups:
+
+- Seasonal contracts set a fixed price for the winter, so your budget stays predictable no matter how many storms hit.
+- Per-push service bills each time the crew comes out. You pay for what you use, but a heavy winter costs more.
+
+Neither is right for every property. A seasonal contract often makes sense for sites that can't afford to wait, like medical offices and busy plazas. Per-push can work for properties with lighter traffic or flexible hours. We cover the tradeoffs in more detail in [How Commercial Snow Removal Contracts Work in Macomb County](/blog/commercial-snow-removal-contracts-macomb-county).
+
+## Documentation You Should Expect
+
+Property managers answer to owners, boards, and insurers, so paperwork matters. At a minimum, ask any contractor for:
+
+- Certificates of insurance showing general liability and workers' compensation coverage
+- Service logs that record when crews were on site and what was done, including salting
+- A written agreement with trigger depths, priorities, service areas, and how extra work is handled
+
+Tri-Point Landscaping carries general liability and workers' comp coverage, provides certificates of insurance on request, and keeps service logs for every visit. If you're comparing proposals, our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county) lays out what else to look for.
+
+## Storm Response in Washington Township
+
+When a storm is coming, you want a contractor who is already watching the forecast, not one waiting for your call. Ask how the contractor monitors weather, when crews mobilize, and how they'll keep you updated during long storms that need more than one pass.
+
+Because we're based in Washington Township, our crews are close to properties along Van Dyke Avenue, 26 Mile Road, Romeo Plank Road, and the rest of the township when a storm starts. We monitor forecasts 24/7 and mobilize when your trigger depth is reached, day or night.
+
+## HOAs and Common Areas
+
+Many Washington Township subdivisions have entrances, common-area sidewalks, mailbox areas, or shared parking that the HOA is responsible for. Boards should get the same written scope a business would: what's included, trigger depths, priorities, and documentation. A clear agreement also makes it much easier to answer residents' questions when a storm hits on a Sunday morning.
+
+## Getting Started
+
+The best time to set up a commercial snow contract is before the first storm, while there's still time for a proper site walk and a clear agreement. Learn more on our [Washington Township commercial snow removal page](/services/snow-removal/washington-township) and our [commercial services overview](/commercial). If you also manage property next door, see our guide to [commercial snow removal in Shelby Township](/blog/commercial-snow-removal-shelby-township-plazas-offices).
+
+**Ready to plan your winter?** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080). We'll walk your site, talk through trigger depths and priorities, and give you a written quote for seasonal or per-push service.
+    `,
+  },
+  {
+    slug: "commercial-snow-removal-shelby-township-plazas-offices",
+    title: "Commercial Snow Removal in Shelby Township, MI: Keeping Plazas and Offices Open",
+    description: "How Shelby Township retail plazas, offices, medical buildings, churches, and industrial lots can stay open through winter with a clear commercial snow plan.",
+    date: "October 2, 2026",
+    category: "Snow & Ice",
+    readTime: "6 min read",
+    content: `
+## Open for Business After Every Storm
+
+Shelby Township's commercial properties line some of Macomb County's main commercial roads: Hall Road (M-59), Van Dyke Avenue, 23 Mile Road, 24 Mile Road, and Schoenherr Road. When snow falls, the businesses along those corridors share the same goal: get customers, patients, and employees through the door safely.
+
+This post covers how plazas, office buildings, medical offices, churches, and industrial lots in Shelby Township can plan for winter. Tri-Point Landscaping provides [commercial snow removal in Shelby Township](/services/snow-removal/shelby-township) for businesses, HOAs, and property managers. Our snow service is commercial only.
+
+## Retail Plazas: Lanes, Walkways, and Storefronts
+
+Plazas along Hall Road and Van Dyke see steady traffic from opening to close. A few things make or break winter service at a plaza:
+
+- Drive lanes first. Customers need to get in from the road and move through the lot, so entrances and main lanes should be the top priority in your agreement.
+- Storefront walkways. Tenants notice when the sidewalk in front of their door isn't cleared, so make sure walkways along the full length of the building are in the scope.
+- Snow storage. Plazas rarely have spare space. Decide ahead of time where snow can be piled so it doesn't eat up parking or block sight lines at exits onto busy roads.
+- Fire lanes and accessible parking. These need to stay clear, and piles should never be pushed into them.
+
+If you manage a plaza with several tenants, put the clearing priorities in writing and share them with tenants so everyone has the same expectations.
+
+## Office Buildings and Medical Offices
+
+Offices and medical buildings often have a firm start time. Staff arrive early, and patients may have appointments first thing in the morning. During your site walk, go over:
+
+- Your opening hours and when the first employees arrive
+- Which entrances get the most use, including staff doors and patient drop-off areas
+- Ramps and accessible routes that need extra attention
+- Whether you want salting on every visit or only when conditions call for it
+
+During heavy, ongoing storms, no contractor can keep pavement perfectly clear the entire time. What you should expect is a plan that sets priorities, regular passes during long storms, and clear communication. Ask how your contractor handles multi-day events and refreeze after the snow stops.
+
+## Industrial and Flex Properties
+
+Industrial and flex buildings have their own needs, with trucks, forklifts, and shift workers all depending on access. Snow plans for these sites usually focus on:
+
+- Truck routes and loading docks, so deliveries and shipments aren't delayed
+- Employee parking and entrances, timed around shift changes
+- Places to put snow that won't block dock doors or drainage
+
+Walk through these details with your contractor before the season starts. A plan that works for a retail plaza won't necessarily work for a building with loading areas on three sides.
+
+## Salting and Ice Management
+
+Snow is only half the problem. Ice that forms after plowing, during freezing rain, or when snow piles melt and refreeze overnight causes plenty of winter slips. A complete commercial plan includes:
+
+- Salt and ice melt on walkways, entrances, and high-traffic pavement
+- Pre-treatment ahead of freezing rain when conditions call for it
+- Return visits for refreeze, with the agreement spelling out how they're handled
+
+We explain why pre-treatment and documentation matter in [Ice Management and Liability: Why Pre-Treatment and Service Logs Matter for Michigan Businesses](/blog/ice-management-liability-pre-treatment-service-logs-michigan).
+
+## Contracts: Seasonal or Per-Push
+
+Shelby Township businesses can usually choose between a seasonal contract, with a fixed price for the winter, and per-push service, billed each time crews come out.
+
+Busy plazas and medical offices often prefer the predictability of a seasonal contract. Properties with lighter traffic sometimes choose per-push. Either way, the agreement should list trigger depths, priorities, what's included, and how extra work like snow relocation is handled. Our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county) walks through each item.
+
+## Insurance and Records
+
+Before you sign, ask any contractor for:
+
+- Certificates of insurance showing general liability and workers' compensation coverage
+- Service logs that show when crews were on site and what was done
+- A written agreement you can share with owners, tenants, or your insurance agent
+
+Tri-Point Landscaping carries general liability and workers' comp coverage, provides certificates of insurance on request, and keeps service logs for every visit.
+
+## HOAs and Churches
+
+Not every commercial snow account is a business. HOAs in Shelby Township often need entrances, common-area walkways, and shared parking cleared. Churches need lots and entrances ready for services and events, which often fall on weekends or evenings. Both benefit from the same written plan: what's included, when service starts, and what gets cleared first.
+
+## Plan Now, Not During the First Storm
+
+Setting up a snow contract in the fall leaves time for a site walk, a clear agreement, and getting your property on a storm route before the first snowfall. Learn more on our [Shelby Township commercial snow removal page](/services/snow-removal/shelby-township) and our [commercial services page](/commercial). If you also manage property to the north, see our [Washington Township guide for property managers](/blog/commercial-snow-removal-washington-township-mi).
+
+**Keep your plaza or office open this winter.** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080). We'll walk your property and give you a written quote for seasonal or per-push service.
+    `,
+  },
+  {
+    slug: "commercial-snow-removal-rochester-mi",
+    title: "Commercial Snow Removal in Rochester, MI: What Downtown and Business Owners Need to Know",
+    description: "A practical winter guide for Rochester businesses: parking lots, walkways and entrances, salting, contracts, and documentation for commercial snow removal.",
+    date: "October 3, 2026",
+    category: "Snow & Ice",
+    readTime: "6 min read",
+    content: `
+## Winter in a Walkable Business District
+
+Rochester's downtown is built for walking. Shops, restaurants, and offices line Main Street, and visitors often park once and stop at several businesses on foot. Beyond downtown, offices, plazas, medical buildings, and churches sit along Rochester Road, University Drive, and Tienken Road. In winter, all of them depend on the same thing: customers and staff getting from the car to the door safely.
+
+Tri-Point Landscaping provides [commercial snow removal in Rochester](/services/snow-removal/rochester) for businesses, HOAs, and property managers. Our snow service is commercial only. This guide covers what Rochester business owners and managers should think through before winter.
+
+## Know What You're Responsible For
+
+Downtown properties often share space in ways suburban plazas don't. Before you talk to a contractor, sort out:
+
+- Which lots, walkways, and entrances are yours to maintain. Private parking lots, building entrances, rear doors, ramps, and private walkways are typically the owner's responsibility. Public sidewalks and streets may be handled differently.
+- Shared areas. If you share a lot or rear access with neighboring buildings, decide who arranges snow service and how costs are split.
+- Lease terms. Many commercial leases spell out whether the landlord or the tenant handles snow and ice. Check before winter.
+
+If you aren't sure where your responsibility ends, ask your property owner, the city, or your attorney. A contractor can clear what's in the agreement, but the agreement needs to match what you're actually responsible for.
+
+## Walkways and Entrances Matter as Much as the Lot
+
+In a walkable district, much of the slip risk is on foot. A complete plan for a Rochester business covers:
+
+- Entrances, steps, and ramps, including rear and side doors used by staff and deliveries
+- Private walkways from parking to the building
+- Salt and ice melt after clearing, with extra attention to shaded spots that stay icy longer
+- Pre-treatment ahead of freezing rain when conditions call for it
+
+Older buildings near downtown can have steps, narrow walks, and tight corners that need hand work instead of a plow. Make sure your agreement covers those areas and doesn't assume a truck can reach everything.
+
+Awnings, roof edges, and downspouts on older storefronts can also drip meltwater onto walkways, where it refreezes overnight. Point those spots out during the site walk so they get extra attention, and let your landlord know about any gutter or downspout repairs that would stop the problem at the source.
+
+## Parking Lots Along Rochester Road and University Drive
+
+Offices and plazas outside the downtown core usually have larger lots. The same planning principles apply:
+
+- Clear entrances from the road and the main drive lanes first
+- Keep accessible parking and the routes to the door clear
+- Decide where snow can be piled without blocking spaces, exits, or drainage
+- Set a trigger depth that fits your traffic and your hours
+
+For medical offices and businesses that open early, go over your hours during the site walk so the agreement reflects what needs to be open, and when.
+
+## Seasonal or Per-Push
+
+Rochester businesses can choose a seasonal contract with a fixed winter price, or per-push service billed each time crews come out. Seasonal contracts make budgeting easier for properties that need consistent service. Per-push can fit properties with lighter traffic or flexible hours.
+
+Whichever you choose, the agreement should include trigger depths, priorities, salting, and how extra work is handled. Our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county) lists what to look for. It's written with Macomb County property managers in mind, but the same points apply in Oakland County.
+
+## Documentation for Owners, Landlords, and Insurers
+
+Ask any contractor for:
+
+- Certificates of insurance showing general liability and workers' compensation coverage
+- Service logs showing when crews were on site and what was done
+- A written agreement you can share with your landlord, tenants, or insurance agent
+
+Tri-Point Landscaping carries general liability and workers' comp coverage, provides certificates of insurance on request, and keeps service logs for every visit. To understand why records and pre-treatment matter, read [Ice Management and Liability](/blog/ice-management-liability-pre-treatment-service-logs-michigan).
+
+## Planning Around Busy Days
+
+Downtown Rochester draws extra visitors during the holiday season. If your business sees heavier traffic on certain days, mention it during the site walk. You may want different priorities or extra salting on those days, and it's far easier to plan that ahead of time than to call in the middle of a storm.
+
+## Rochester Is Part of Our Service Area
+
+Rochester is in Oakland County, and we serve it along with Rochester Hills and our Macomb County communities. Every Rochester account gets the same process: a site walk, a written agreement with trigger depths and clearing priorities, 24/7 storm monitoring, and service logs. You can see how we approach other areas in our [Washington Township](/blog/commercial-snow-removal-washington-township-mi) and [Shelby Township](/blog/commercial-snow-removal-shelby-township-plazas-offices) guides.
+
+## Next Steps
+
+Before the first storm, walk your property, confirm what you're responsible for, and get a written plan in place. Learn more on our [Rochester commercial snow removal page](/services/snow-removal/rochester) and our [commercial services overview](/commercial).
+
+**Get your Rochester property ready for winter.** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080). We'll walk the site and give you a written quote for seasonal or per-push service.
+    `,
+  },
+  {
+    slug: "commercial-snow-contract-checklist-macomb-county",
+    title: "What to Look for in a Commercial Snow Contract: A Checklist for Macomb County Property Managers",
+    description: "A practical checklist for reviewing commercial snow removal contracts in Macomb County: scope, trigger depths, priorities, salting, pricing structure, insurance, and service logs.",
+    date: "October 3, 2026",
+    category: "Commercial",
+    readTime: "6 min read",
+    content: `
+## Why the Contract Matters
+
+A commercial snow contract is more than a price. It's the document that tells everyone what happens when a storm hits at 3 a.m.: what gets cleared, in what order, when salting happens, and how the work gets recorded. When a contract is vague, the problems usually show up in the middle of January, during the worst storm of the year.
+
+Use this checklist to review proposals for retail plazas, office buildings, HOAs, churches, medical offices, and industrial lots in Macomb County. It's general guidance, not legal advice. Have your attorney or insurance agent review any contract before you sign it.
+
+## 1. A Site Map and a Clear Scope
+
+The contract should spell out exactly which areas are included:
+
+- Parking lots and drive lanes
+- Sidewalks, entrances, steps, and ramps
+- Accessible parking spaces and the routes to the door
+- Loading docks, truck routes, and dumpster areas
+- HOA entrances, common walkways, or mailbox areas, if they apply
+
+A marked-up site map is the easiest way to avoid disagreements about what's covered. If a contractor didn't walk your property before quoting, ask them to.
+
+## 2. Trigger Depths
+
+The contract should state:
+
+- The snow depth that triggers plowing of lots
+- The trigger or conditions for clearing walkways, which may be lower than the lot
+- When salting happens: after every visit, only when conditions call for it, or on request
+
+Also ask what happens with light snow that never reaches the trigger but still leaves pavement slick.
+
+## 3. Clearing Priorities and Timing
+
+Look for:
+
+- What gets cleared first, such as entrances, main lanes, accessible parking, and walkways
+- Your opening hours or the times the property needs to be usable
+- How long storms are handled, including repeat passes and cleanup after the snow stops
+
+Be cautious about promises that every surface will be bare at all times. A realistic contract describes priorities and response, not perfection.
+
+## 4. Ice Management and Pre-Treatment
+
+Check that the contract covers:
+
+- Salt or ice melt on walkways and pavement
+- Pre-treatment ahead of freezing rain when conditions call for it
+- Return visits for refreeze when snow piles melt and freeze again
+- Any products to avoid near sensitive surfaces or plantings
+
+For more on why this section matters, read [Ice Management and Liability: Why Pre-Treatment and Service Logs Matter](/blog/ice-management-liability-pre-treatment-service-logs-michigan).
+
+## 5. Pricing Structure
+
+Most commercial snow contracts in Macomb County use one of two structures. A seasonal contract sets a fixed price for the season regardless of how many storms arrive. Per-push service is billed for each visit. Either way, check:
+
+- What's included in the base price, such as plowing, walkways, and salting
+- How salting is billed if it's separate
+- How extra work is priced, such as moving or hauling snow when piles run out of room
+- The season start and end dates
+
+For a deeper comparison, see [How Commercial Snow Removal Contracts Work in Macomb County](/blog/commercial-snow-removal-contracts-macomb-county).
+
+## 6. Snow Storage and Relocation
+
+The contract should address:
+
+- Where snow will be piled
+- Where snow must never be piled, such as fire lanes, accessible spaces, drains, and sight lines at exits
+- What happens when there's no more room
+
+Plazas along roads like Hall Road (M-59) and Van Dyke Avenue often have very little storage space, so this section matters more than many managers expect.
+
+## 7. Insurance
+
+Ask for:
+
+- Certificates of insurance for general liability and workers' compensation
+- Guidance from your insurance agent on whether you should be named as an additional insured
+- A clear process for reporting and handling property damage, like a scraped curb or damaged turf
+
+Never assume coverage. Ask for the certificate and have your agent review it.
+
+## 8. Service Logs and Communication
+
+Good contracts address:
+
+- Service logs that record arrival and departure times, areas serviced, and salt applied
+- How logs are shared with you, whether after each storm, monthly, or on request
+- Who you contact during a storm and how quickly you can expect a response
+- How the contractor will let you know about delays during major events
+
+Records protect both sides. They show what was done and when, which helps if questions come up later.
+
+## 9. Term, Renewal, and Cancellation
+
+Review:
+
+- The contract length and season dates
+- Renewal terms
+- How either party can end the agreement
+- How disagreements are handled
+
+Your attorney should look over these terms before you sign.
+
+## 10. Local Knowledge and Access
+
+A contractor who knows your area understands how storms tend to play out and what local properties need. Ask where crews are based, how routes are organized during storms, and roughly when your property falls on that route.
+
+## How Tri-Point Approaches Commercial Snow Contracts
+
+Tri-Point Landscaping provides [commercial snow removal](/services/snow-removal) only. We don't plow residential driveways. Every account starts with a site walk, and every agreement includes trigger depths, clearing priorities, and salting terms. We carry general liability and workers' comp coverage, provide certificates of insurance on request, monitor storms 24/7, and keep service logs for every visit.
+
+We serve [Washington Township](/services/snow-removal/washington-township), [Shelby Township](/services/snow-removal/shelby-township), [Rochester](/services/snow-removal/rochester), and the rest of our Macomb and Oakland County service area. Local guides: [Washington Township](/blog/commercial-snow-removal-washington-township-mi), [Shelby Township](/blog/commercial-snow-removal-shelby-township-plazas-offices), and [Rochester](/blog/commercial-snow-removal-rochester-mi). See our [commercial services page](/commercial) for everything else we handle for commercial properties.
+
+**Want a contract that covers all ten points?** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080), and we'll walk your property and put it in writing.
+    `,
+  },
+  {
+    slug: "ice-management-liability-pre-treatment-service-logs-michigan",
+    title: "Ice Management and Liability: Why Pre-Treatment and Service Logs Matter for Michigan Businesses",
+    description: "Why ice, not just snow, is the bigger winter risk for Michigan businesses, and how pre-treatment, salting, and service logs help you manage it. General information, not legal advice.",
+    date: "October 4, 2026",
+    category: "Commercial",
+    readTime: "6 min read",
+    content: `
+## Snow Is Easy to See. Ice Often Isn't.
+
+A parking lot full of snow is an obvious problem, and everyone knows to call the plow. Ice is different. It forms quietly overnight, hides under a light dusting, and shows up in the same few spots again and again. For many Michigan businesses, ice is the bigger winter risk on the property.
+
+This post explains where ice tends to form on commercial properties, how pre-treatment and salting help, and why service logs are worth more than most property managers realize.
+
+A quick note before we start: this is general information, not legal advice. Liability, lease obligations, and insurance requirements depend on your situation. Talk to your insurance agent or attorney about your specific property and contracts.
+
+## Where Ice Forms on Commercial Properties
+
+Ice shows up in predictable places. Walk your property after a thaw and you'll probably find several of these:
+
+- Low spots in parking lots where meltwater collects and refreezes overnight
+- Areas below snow piles, where melt runs across pavement and freezes again
+- Shaded entrances and north-facing walkways that stay cold all day
+- Spots under downspouts and roof edges where water drips onto walkways
+- Ramps, steps, and curb cuts that get packed down by foot traffic
+- Areas glazed over by freezing rain, which can coat every surface at once
+
+Knowing your problem spots helps you and your contractor plan. Point them out during the site walk so they're part of the agreement, not an afterthought.
+
+## What Pre-Treatment Does
+
+**Pre-treatment** means applying de-icing material before a storm, typically ahead of freezing rain or certain snow events. The goal is to keep ice from bonding tightly to the pavement, so it's easier to clear and less likely to leave a slick layer behind.
+
+Pre-treatment isn't needed for every storm, and it isn't magic. Heavy precipitation can wash it away, and conditions change quickly in Michigan. A good contractor watches the forecast and pre-treats when conditions call for it. Your agreement should explain when pre-treatment is used and how it's billed.
+
+## Salting After Plowing
+
+Plowing removes most of the snow, but it rarely leaves pavement completely bare. Salt and ice melt applied after plowing help deal with what remains and with refreeze afterward. Things to settle with your contractor:
+
+- Which areas get salted, such as walkways, entrances, drive lanes, and the whole lot
+- Whether salting happens on every visit or only when conditions call for it
+- How return visits for refreeze are triggered and billed
+- Any surfaces or plantings where certain products should be avoided
+
+## Why Service Logs Matter
+
+A **service log** is a record of each visit: when crews arrived and left, which areas were plowed, and where salt or ice melt was applied. It sounds like paperwork, and it is. But when questions come up weeks or months after a storm, memories fade and records don't.
+
+Service logs help you:
+
+- Show owners, boards, and tenants what was done during each storm
+- Review whether your agreement is working, such as whether triggers and priorities fit your property
+- Answer questions from your insurance agent or carrier with records instead of guesses
+- Spot patterns, like an entrance that needs salting more often
+
+Ask any contractor how logs are kept, what they include, and how you can get copies. Then keep your own copies in one place.
+
+## What Property Managers Can Do
+
+Ice management is a partnership. Your contractor handles plowing and salting, but the property side matters too:
+
+- Report problem spots, like a leaking downspout over a walkway, and get them repaired
+- Keep entrance mats in place so meltwater isn't tracked inside
+- Let your contractor know about events, early openings, or deliveries that change your priorities
+- Keep notes when tenants or visitors report slippery areas, and pass them along right away
+
+None of this replaces professional advice. It simply makes the winter easier to manage and document.
+
+## Insurance and Contracts
+
+Before the season starts:
+
+- Get certificates of insurance from your snow contractor showing general liability and workers' compensation coverage
+- Ask your insurance agent whether your property or contract needs any specific coverage or wording
+- Have your attorney review contract terms, especially sections about responsibility and indemnification
+
+Tri-Point Landscaping carries general liability and workers' comp coverage and provides certificates of insurance on request. For a full list of contract items to review, see our [commercial snow contract checklist](/blog/commercial-snow-contract-checklist-macomb-county).
+
+## How Tri-Point Handles Ice Management
+
+Our snow service is commercial only, for businesses, HOAs, and property managers. We plow lots and drive lanes, clear sidewalks and entrances, apply salt and ice melt, and pre-treat ahead of freezing rain when conditions call for it. We monitor forecasts 24/7 and keep service logs for every visit.
+
+Learn more about [commercial snow removal](/services/snow-removal), or see our local pages for [Washington Township](/services/snow-removal/washington-township), [Shelby Township](/services/snow-removal/shelby-township), and [Rochester](/services/snow-removal/rochester). Our [commercial services page](/commercial) covers year-round grounds care.
+
+**Get ahead of the ice this winter.** [Request a snow contract quote](/contact) or call [(586) 327-8080](tel:+15863278080). We'll walk your property, note the problem spots, and put a written plan in place.
     `,
   },
 ];

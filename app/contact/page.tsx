@@ -9,7 +9,7 @@ import { googleReviews, reviewCountLabel, GBP_URL, GBP_REVIEW_URL, openingHoursS
 export const metadata: Metadata = {
   title: "Free Estimate — Macomb County, MI",
   description:
-    "Get a free estimate for lawn care, landscaping & snow removal in Macomb County, MI. Serving Washington Township, Shelby Township & more. Same-day response.",
+    "Get a free estimate for lawn care, landscaping & commercial snow removal in Macomb County, MI. Serving Washington Township, Shelby Township & more. Same-day response.",
   alternates: { canonical: "https://www.tripointlandscaping.com/contact" },
   openGraph: {
     title: "Free Estimate | Contact Tri-Point Landscaping",

@@ -39,11 +39,11 @@ const services = [
   },
   {
     num: "05",
-    title: "Snow & Ice Management",
+    title: "Commercial Snow Removal",
     slug: "snow-removal",
-    tagline: "Cleared before you wake up.",
-    desc: "Residential plowing, salting, and de-icing across Macomb County. Seasonal contracts and per-push pricing available.",
-    img: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
+    tagline: "Parking lots, sidewalks & entrances.",
+    desc: "Commercial parking lot plowing, sidewalk and entrance clearing, and salting for businesses, HOAs, and property managers. Seasonal contracts and per-push pricing available.",
+    img: null,
   },
   {
     num: "06",
@@ -144,12 +144,16 @@ export default function InteractiveServices() {
             className="absolute inset-0 transition-opacity duration-500"
             style={{ opacity: active === i ? 1 : 0, pointerEvents: active === i ? "auto" : "none" }}
           >
-            <Image
-              src={svc.img}
-              alt={svc.title + " in Macomb County Michigan by Tri-Point Landscaping"}
-              fill
-              className="object-cover"
-            />
+            {svc.img ? (
+              <Image
+                src={svc.img}
+                alt={svc.title + " in Macomb County Michigan by Tri-Point Landscaping"}
+                fill
+                className="object-cover"
+              />
+            ) : (
+              <div style={{ backgroundColor: "#0f2418" }} className="absolute inset-0 dot-grid" />
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:p-10">

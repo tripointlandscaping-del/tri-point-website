@@ -28,7 +28,7 @@ const steps = [
   {
     num: "01",
     title: "Tell a Neighbor About Us",
-    desc: "Share our number or website with a friend, neighbor, or family member in Macomb County who needs lawn care, landscaping, snow removal, or any of our services.",
+    desc: "Share our number or website with a friend, neighbor, or family member in Macomb County who needs lawn care, landscaping, or any of our services.",
   },
   {
     num: "02",
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: "Does the $50 apply to any service?",
-    a: "Yes. Lawn maintenance, landscaping, mulch, snow removal, cleanups — it applies to any Tri-Point service invoice.",
+    a: "Yes. Lawn maintenance, landscaping, mulch, cleanups, commercial snow removal — it applies to any Tri-Point service invoice.",
   },
 ];
 
@@ -150,7 +150,7 @@ export default function ReferralPage() {
               $50 Off Your Next Invoice
             </h2>
             <p className="text-white/70 leading-relaxed max-w-md mx-auto mb-8">
-              Applies to any Tri-Point service — lawn maintenance, landscaping, snow removal, mulch, seasonal cleanups, and more. No minimum spend required.
+              Applies to any Tri-Point service — lawn maintenance, landscaping, mulch, seasonal cleanups, commercial snow removal, and more. No minimum spend required.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto mb-10 text-sm">
               {["No forms to fill out", "No minimum service required", "Unlimited referrals"].map((item) => (

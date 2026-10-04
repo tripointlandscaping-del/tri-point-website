@@ -23,7 +23,7 @@ SERVICES (with page links):
 2. Landscaping & Design (/services/landscaping) — Custom bed design, plantings, stone features, sod, full property transformations.
 3. Mulch & Stone (/services/mulch-and-stone) — Hardwood mulch, cedar, black/brown dyed, decorative stone, river rock, lava rock.
 4. Seasonal Cleanup (/services/seasonal-cleanup) — Spring and fall leaf removal, bed cleanup, perennial cutback, haul away.
-5. Snow Removal & Ice Management (/services/snow-removal) — Plowing, sidewalk clearing, salting, de-icing. Seasonal contracts available.
+5. Commercial Snow Removal (/services/snow-removal) — COMMERCIAL PROPERTIES ONLY. Parking lot plowing, sidewalk and entrance clearing, salting and ice management for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal contracts or per-push, trigger depths set in the agreement, 24/7 storm response, service logs, certificates of insurance. We do NOT offer residential or driveway snow plowing; if a homeowner asks, politely say so and mention our lawn care and landscaping instead.
 6. Lawn Renovations & Aeration (/services/lawn-renovations) — Core aeration, overseeding, dethatching, top dressing.
 7. Commercial Landscaping (/commercial) — HOAs, offices, retail centers, apartments. Priority scheduling, insurance docs provided.
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import { posts } from "../posts";
+import { activePosts as posts } from "../activePosts";
 
 const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
   "Lawn Care": [
@@ -16,13 +16,13 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
   ],
   "Seasonal": [
     { name: "Seasonal Cleanup", href: "/services/seasonal-cleanup" },
-    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+    { name: "Commercial Snow Removal", href: "/services/snow-removal" },
   ],
   "Snow & Ice": [
-    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+    { name: "Commercial Snow Removal", href: "/services/snow-removal" },
   ],
   "Snow Removal": [
-    { name: "Snow & Ice Management", href: "/services/snow-removal" },
+    { name: "Commercial Snow Removal", href: "/services/snow-removal" },
   ],
   "Lawn Renovations": [
     { name: "Lawn Renovations", href: "/services/lawn-renovations" },
@@ -38,7 +38,7 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
   ],
   "Commercial": [
     { name: "Commercial Landscaping", href: "/commercial" },
-    { name: "Snow Removal", href: "/services/snow-removal" },
+    { name: "Commercial Snow Removal", href: "/services/snow-removal" },
   ],
   "Tips": [
     { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -88,6 +88,45 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 // Simple markdown-ish renderer for the content
+// Inline links and bold, scanned left to right so they can nest either way:
+// **Call [us](tel:...) today.** and [**contact us**](/contact) both render correctly.
+function renderInline(text: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  let buffer = "";
+  let i = 0;
+  const flush = () => {
+    if (buffer) nodes.push(buffer);
+    buffer = "";
+  };
+
+  while (i < text.length) {
+    const link = text[i] === "[" ? text.slice(i).match(/^\[([^\]]*)\]\(([^)]*)\)/) : null;
+    if (link) {
+      flush();
+      nodes.push(
+        <Link key={nodes.length} href={link[2]} className="text-green-700 underline hover:text-green-600">
+          {renderInline(link[1])}
+        </Link>
+      );
+      i += link[0].length;
+      continue;
+    }
+    if (text.startsWith("**", i)) {
+      const close = text.indexOf("**", i + 2);
+      if (close !== -1) {
+        flush();
+        nodes.push(<strong key={nodes.length}>{renderInline(text.slice(i + 2, close))}</strong>);
+        i = close + 2;
+        continue;
+      }
+    }
+    buffer += text[i];
+    i++;
+  }
+  flush();
+  return nodes;
+}
+
 function renderContent(content: string) {
   const lines = content.trim().split("\n");
   const elements: React.ReactNode[] = [];
@@ -96,23 +135,16 @@ function renderContent(content: string) {
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) { elements.push(<div key={key++} className="h-3" />); continue; }
-    if (trimmed.startsWith("## ")) {
+    if (trimmed.startsWith("### ")) {
+      elements.push(<h3 key={key++} className="text-xl font-bold text-gray-900 mt-8 mb-3">{trimmed.slice(4)}</h3>);
+    } else if (trimmed.startsWith("## ")) {
       elements.push(<h2 key={key++} style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mt-10 mb-4">{trimmed.slice(3)}</h2>);
-    } else if (trimmed.startsWith("**") && trimmed.endsWith("**")) {
-      elements.push(<p key={key++} className="font-bold text-gray-900 mt-4">{trimmed.slice(2, -2)}</p>);
+    } else if (trimmed.startsWith("**") && trimmed.endsWith("**") && !trimmed.slice(2, -2).includes("**")) {
+      elements.push(<p key={key++} className="font-bold text-gray-900 mt-4">{renderInline(trimmed.slice(2, -2))}</p>);
     } else if (trimmed.startsWith("- ")) {
-      elements.push(<li key={key++} className="text-gray-600 leading-relaxed ml-4 list-disc">{trimmed.slice(2)}</li>);
+      elements.push(<li key={key++} className="text-gray-600 leading-relaxed ml-4 list-disc">{renderInline(trimmed.slice(2))}</li>);
     } else {
-      // Handle inline links and bold
-      const parts = trimmed.split(/(\[.*?\]\(.*?\)|\*\*.*?\*\*)/g);
-      const rendered = parts.map((part, i) => {
-        const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
-        if (linkMatch) return <Link key={i} href={linkMatch[2]} className="text-green-700 underline hover:text-green-600">{linkMatch[1]}</Link>;
-        const boldMatch = part.match(/^\*\*(.*?)\*\*$/);
-        if (boldMatch) return <strong key={i}>{boldMatch[1]}</strong>;
-        return part;
-      });
-      elements.push(<p key={key++} className="text-gray-600 leading-relaxed">{rendered}</p>);
+      elements.push(<p key={key++} className="text-gray-600 leading-relaxed">{renderInline(trimmed)}</p>);
     }
   }
   return elements;

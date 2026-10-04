@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { retiredPostRedirects } from "./app/blog/retired";
 
 const nextConfig: NextConfig = {
   images: {
@@ -7,7 +8,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       // /commercial is the canonical commercial landscaping page
-      { source: "/services/commercial", destination: "/commercial", permanent: true },
+      { source: "/services/commercial", destination: "/commercial", statusCode: 301 },
+      // Retired residential snow posts
+      ...Object.entries(retiredPostRedirects).map(([slug, destination]) => ({
+        source: `/blog/${slug}`,
+        destination,
+        statusCode: 301,
+      })),
     ];
   },
 };

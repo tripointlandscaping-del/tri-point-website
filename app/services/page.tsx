@@ -56,9 +56,9 @@ const services = [
     desc: "Spring and fall cleanups including leaf removal, bed cleanup, and full property prep for every season. We haul everything away so you don't have to deal with a thing. Your yard will be clean, tidy, and ready for whatever comes next.",
   },
   {
-    name: "Snow Removal & Ice Management",
+    name: "Commercial Snow Removal",
     slug: "snow-removal",
-    desc: "Reliable snow plowing, salting, and ice management for residential and commercial properties. We monitor forecasts and show up before you have to ask — driveways and walkways cleared and safe. Seasonal contract and per-event pricing available.",
+    desc: "Parking lot plowing, sidewalk and entrance clearing, and salting for property managers, HOAs, retail plazas, offices, churches, medical offices, and industrial lots. Seasonal contracts or per-push pricing, 24/7 storm response, and service logs. Commercial properties only.",
   },
   {
     name: "Lawn Renovations & Aeration",

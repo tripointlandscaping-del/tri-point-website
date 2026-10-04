@@ -11,16 +11,16 @@ import CursorGlow from "./components/CursorGlow";
 import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
-import { posts } from "./blog/posts";
+import { activePosts as posts } from "./blog/activePosts";
 import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "./lib/business";
 
 export const metadata: Metadata = {
   title: "Lawn Care & Landscaping — Washington Township, MI | Tri-Point Landscaping",
-  description: `Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+  description: `Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
   alternates: { canonical: "https://www.tripointlandscaping.com" },
   openGraph: {
     title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
-    description: `Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+    description: `Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
     url: "https://www.tripointlandscaping.com",
     siteName: "Tri-Point Landscaping",
     locale: "en_US",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 
 const marqueeItems = [
   "Lawn Maintenance", "Landscape Design", "Mulch & Stone", "Seasonal Cleanup",
-  "Snow Removal & Ice Management", "Lawn Renovations", "Hardscaping", "Commercial Services", "Aeration & Overseeding",
+  "Commercial Snow Removal", "Lawn Renovations", "Hardscaping", "Commercial Services", "Aeration & Overseeding",
   "Free Estimates", `${googleReviews.rating}★ Google Rated`, "Macomb County, Michigan", "Fully Insured LLC",
 ];
 
@@ -48,7 +48,7 @@ const serviceAreas = [
   { name: "Romeo", slug: "romeo", detail: "Village of Romeo & surrounding areas" },
   { name: "Ray Township", slug: "ray-township", detail: "Rural & residential properties" },
   { name: "Bruce Township", slug: "bruce-township", detail: "Northern Macomb County" },
-  { name: "Rochester", slug: "rochester", detail: "Walnut Blvd · Tienken · University Dr" },
+  { name: "Rochester", slug: "rochester", detail: "Walton Blvd · Tienken · University Dr" },
   { name: "Rochester Hills", slug: "rochester-hills", detail: "Auburn Rd · Adams Rd · Livernois" },
 ];
 
@@ -61,7 +61,7 @@ const homepageFaqSchema = {
       name: "What landscaping services does Tri-Point Landscaping offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, snow removal & ice management, lawn renovations, and hardscaping throughout Macomb County, Michigan.",
+        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, lawn renovations, and hardscaping, plus commercial snow removal & ice management for businesses, throughout Macomb County, Michigan.",
       },
     },
     {
@@ -90,10 +90,10 @@ const homepageFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you offer snow removal in Macomb County?",
+      name: "Do you offer commercial snow removal in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We provide residential and commercial snow plowing, sidewalk clearing, and salting throughout Macomb County and surrounding areas. We offer seasonal contracts and per-push pricing. Call (586) 327-8080 to get on our route before the season fills.",
+        text: "Yes, for commercial properties only. Tri-Point Landscaping provides commercial snow removal for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not offer residential driveway plowing. Call (586) 327-8080 for a snow contract quote.",
       },
     },
     {
@@ -117,7 +117,7 @@ const homepageFaqSchema = {
       name: "Do you offer lawn care services in Rochester Hills, MI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Tri-Point Landscaping serves Rochester Hills with premium lawn maintenance, landscaping, mulch & stone, seasonal cleanups, and snow removal. We hold our Rochester Hills work to the exceptional standards the community expects.",
+        text: "Yes. Tri-Point Landscaping serves Rochester Hills with premium lawn maintenance, landscaping, mulch & stone, and seasonal cleanups. We hold our Rochester Hills work to the exceptional standards the community expects.",
       },
     },
     {
@@ -295,6 +295,29 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ═══ COMMERCIAL SNOW REMOVAL ═══ */}
+        <section style={{ backgroundColor: "#0f2418" }} className="dot-grid py-14">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
+            <div className="lg:col-span-3">
+              <p style={{ color: "#7ecb82" }} className="text-sm font-semibold uppercase tracking-widest mb-3">For Businesses, HOAs &amp; Property Managers</p>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                Commercial Snow Removal
+              </h2>
+              <p className="text-white/65 leading-relaxed max-w-2xl">
+                Parking lot plowing, sidewalk and entrance clearing, and salting for retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal or per-push contracts, 24/7 storm response, service logs, and certificates of insurance. Our snow service is commercial only.
+              </p>
+            </div>
+            <div className="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-3">
+              <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
+                Get a Snow Contract Quote
+              </Link>
+              <Link href="/services/snow-removal" className="inline-flex items-center justify-center gap-2 border border-white/30 text-white px-8 py-4 font-semibold tracking-wide hover:bg-white/10 transition-colors">
+                Commercial Snow Removal Details →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* ═══ MARQUEE ═══ */}
         <section style={{ backgroundColor: "#2C5F2E" }} className="py-4 overflow-hidden" aria-hidden="true">
           <div className="flex">
@@ -427,10 +450,10 @@ export default function HomePage() {
                   href: "/services/lawn-maintenance",
                 },
                 {
-                  img: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
-                  alt: "Snow removal and ice management in Macomb County Michigan",
-                  service: "Snow & Ice Management",
-                  headline: "Cleared before you wake up. Every storm. All winter.",
+                  img: null,
+                  alt: "Commercial snow removal and ice management in Macomb County Michigan",
+                  service: "Commercial Snow Removal",
+                  headline: "Parking lots, sidewalks, and entrances cleared for your business.",
                   stat: "24/7 Storm Response",
                   href: "/services/snow-removal",
                 },
@@ -441,7 +464,11 @@ export default function HomePage() {
                   className="showcase-card group relative overflow-hidden block"
                   style={{ height: "280px" }}
                 >
-                  <Image src={card.img} alt={card.alt} fill sizes="(min-width: 768px) 50vw, 100vw" className="showcase-card-img object-cover" />
+                  {card.img ? (
+                    <Image src={card.img} alt={card.alt} fill sizes="(min-width: 768px) 50vw, 100vw" className="showcase-card-img object-cover" />
+                  ) : (
+                    <div style={{ backgroundColor: "#0f2418" }} className="absolute inset-0 dot-grid" />
+                  )}
                   <div className="showcase-card-overlay absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/10" />
                   <div className="absolute inset-0 flex items-end p-8 z-10">
                     <div>
@@ -490,7 +517,7 @@ export default function HomePage() {
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   We&apos;re a locally owned, fully insured landscaping company rooted in Macomb County.
                   Every property gets our complete attention — from the first cut of spring to the
-                  last plow of winter. No franchises. No shortcuts. No excuses. Just the best property care in northern Michigan.
+                  last leaf of fall. No franchises. No shortcuts. No excuses. Just the best property care in northern Michigan.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-8">
                   We know Macomb County&apos;s soil, its seasons, and its homeowners — because we live here too.
@@ -948,7 +975,7 @@ export default function HomePage() {
                     {[
                       { label: "Lawn Mowing", service: "lawn-maintenance" },
                       { label: "Landscaping", service: "landscaping" },
-                      { label: "Snow Removal", service: "snow-removal" },
+                      { label: "Commercial Snow Removal", service: "snow-removal" },
                       { label: "Leaf Removal", service: "seasonal-cleanup" },
                       { label: "Mulch Installation", service: "mulch-and-stone" },
                       { label: "Hardscaping", service: "hardscaping" },

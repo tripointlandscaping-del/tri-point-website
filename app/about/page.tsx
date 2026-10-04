@@ -75,7 +75,7 @@ const whyLocal = [
 
 const timeline = [
   { year: "April 2025", title: "Tri-Point gets started", desc: "Tri-Point Landscaping LLC was formed in April 2025, right here in northern Macomb County, with one mission: do the work right, show up when we say we will, and treat every property like our own." },
-  { year: "Year-Round", title: "Service through every season", desc: "Snow removal and seasonal cleanups mean our clients are covered through all four Michigan seasons. Same crew. Same standard." },
+  { year: "Year-Round", title: "Service through every season", desc: "Seasonal cleanups for homeowners and commercial snow removal for businesses mean our clients are covered through all four Michigan seasons. Same crew. Same standard." },
   { year: "Today", title: "Growing by word of mouth", desc: `8 services, 8 communities, and ${reviewCountLabel} with a ${googleReviews.rating} rating. We're a young company growing neighbor to neighbor, property to property.` },
 ];
 
@@ -89,7 +89,7 @@ const quickFacts = [
   { label: "Email", value: "tripointlandscaping@gmail.com" },
   { label: "Google Rating", value: `${googleReviews.rating} ★ · ${reviewCountLabel}` },
   { label: "Insurance", value: "Registered Michigan LLC, fully insured — general liability & workers' comp" },
-  { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
+  { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, lawn aeration & overseeding, commercial landscaping, commercial snow removal" },
   { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
 ];
 
@@ -111,7 +111,7 @@ export default function AboutPage() {
     telephone: "+15863278080",
     email: "tripointlandscaping@gmail.com",
     foundingDate: FOUNDING_DATE,
-    description: `Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company based in Washington Township, Macomb County, Michigan. We provide lawn mowing, grass cutting, lawn care, landscape design, mulch installation, seasonal cleanup, snow plowing, and lawn aeration & overseeding services throughout Macomb County and Oakland County, MI. We hold a ${googleReviews.rating}-star Google rating and offer free estimates to all residential and commercial customers.`,
+    description: `Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company based in Washington Township, Macomb County, Michigan. We provide lawn mowing, grass cutting, lawn care, landscape design, mulch installation, seasonal cleanup, and lawn aeration & overseeding services, plus commercial snow removal for businesses, throughout Macomb County and Oakland County, MI. We hold a ${googleReviews.rating}-star Google rating and offer free estimates to all residential and commercial customers.`,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Washington Township",

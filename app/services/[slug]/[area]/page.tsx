@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
-import { localCopy } from "./localCopy";
+import { localCopy, localFaqs } from "./localCopy";
 import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "../../../lib/business";
 
 /* ─────────────────────────────────────────
@@ -14,7 +14,7 @@ import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "../../..
 const services: Record<string, {
   name: string;
   shortDesc: string;
-  heroImage: string;
+  heroImage?: string;
   included: string[];
   benefits: string[];
   bodyTemplate: (area: string, roads: string) => string;
@@ -104,25 +104,26 @@ const services: Record<string, {
       `Michigan's springs and falls are beautiful — but they leave a lot of work behind. In ${area}, where mature trees line many neighborhoods, fall leaf cleanup alone can take a full weekend. Tri-Point Landscaping handles it all so you don't have to. We serve properties throughout ${area}, from neighborhoods along ${roads} to newer developments across the township. Our spring cleanups prep your property for the growing season: beds are cut back, debris is cleared, and everything is reset after the winter. Our fall cleanups go deep — leaves are fully removed, perennials are cut down, and beds are cleaned before the freeze. We haul everything away, leaving your property looking its best when it matters most.`,
   },
   "snow-removal": {
-    name: "Snow & Ice Management",
-    shortDesc: "Driveway plowing, salting & de-icing across Macomb County.",
-    heroImage: "/photos/12D7CE8B-99F8-4285-BFD8-A33E849120E0.jpeg",
+    name: "Commercial Snow Removal",
+    shortDesc: "Parking lot plowing, sidewalk and entrance clearing, and salting for businesses, HOAs, and property managers.",
     included: [
-      "Residential driveway and parking area plowing",
-      "Sidewalk and walkway clearing",
-      "Rock salt and calcium chloride application",
-      "Ice management and de-icing treatments",
-      "Seasonal service contracts",
-      "Per-push pricing also available",
+      "Parking lot and drive lane plowing",
+      "Sidewalk, entrance, and walkway clearing",
+      "Salt and ice melt application",
+      "Pre-treatment ahead of freezing rain",
+      "Trigger depths set in your service agreement",
+      "Seasonal contracts or per-push pricing",
+      "24/7 storm monitoring and response",
+      "Service logs and certificates of insurance",
     ],
     benefits: [
-      "Safe, passable driveways and walkways every storm",
-      "Priority service — you're never waiting all day",
-      "Seasonal contracts mean no phone calls during storms",
-      "Reliable local crew that knows Macomb County weather",
+      "Lots, sidewalks, and entrances cleared so tenants, customers, and staff can get in safely",
+      "24/7 storm response once your trigger depth is reached",
+      "Service logs plus certificates of insurance for general liability and workers' comp",
+      "Seasonal contracts for a fixed winter budget, or per-push billing by event",
     ],
-    bodyTemplate: (area, roads) =>
-      `Michigan winters in ${area} are serious — and a driveway buried in snow or covered in ice shouldn't be your problem at 6 AM. Tri-Point Landscaping provides dependable residential snow removal throughout ${area}, serving properties along ${roads} and across the township. We offer both seasonal service contracts (the simplest option — one payment covers the whole winter) and per-push pricing for homeowners who prefer flexibility. Our crews are out early and working efficiently so you can get where you need to go. Ice management is included — we apply salt and calcium chloride after plowing to keep driveways and walkways safe. Don't wait until the first storm. Reach out now and get on our route before winter hits.`,
+    bodyTemplate: (area) =>
+      `Tri-Point Landscaping provides commercial snow removal and ice management for businesses, HOAs, and property managers in ${area}. We plow parking lots and drive lanes, clear sidewalks and entrances, and salt walkways so your property is open and accessible after every storm. Every account starts with a site walk and a written service agreement that sets trigger depths, clearing priorities, and salting. Choose a seasonal contract or per-push service, and ask for our certificates of insurance and service logs whenever you need them. Our snow service is commercial only; we do not plow residential driveways.`,
   },
   "lawn-renovations": {
     name: "Lawn Renovations",
@@ -246,7 +247,7 @@ const areas: Record<string, {
   "rochester": {
     name: "Rochester",
     county: "Oakland County",
-    roads: "Walnut Boulevard, University Drive & Tienken Road",
+    roads: "Walton Boulevard, University Drive & Tienken Road",
     heroImage: "/photos/bills-google2.jpeg",
     localDesc: "Rochester's walkable downtown, the Paint Creek Trail, and prestigious residential neighborhoods like those near Stoney Creek make this one of Michigan's most desirable communities — with landscaping expectations to match.",
   },
@@ -284,9 +285,10 @@ const serviceFaqs: Record<string, { q: string; a: string }[]> = {
     { q: "How early should I book my cleanup?", a: "Book as early as possible — spring cleanups especially fill up by March and April. Customers who book in January or February get the best available slots." },
   ],
   "snow-removal": [
-    { q: "Do you offer seasonal snow removal contracts?", a: "Yes. Our seasonal contracts cover unlimited plowing for the entire winter — one payment, no per-storm calls. You're automatically on our route for every qualifying snow event." },
-    { q: "When do you plow?", a: "We monitor weather forecasts and typically begin plowing once accumulation hits 2 inches. We're out early so you can get where you need to go before your workday starts." },
-    { q: "Do you offer salting and de-icing?", a: "Yes. We apply rock salt and calcium chloride after plowing to keep driveways and walkways safe after the plow passes. De-icing is available as an add-on or included in some service packages." },
+    { q: "Do you plow residential driveways?", a: "No. Our snow removal is commercial only. We serve retail plazas, office buildings, HOAs, churches, medical offices, industrial lots, and other commercial properties." },
+    { q: "Do you offer seasonal contracts or per-push pricing?", a: "Both. A seasonal contract gives you a fixed price for the winter, and per-push service is billed each time we come out. We'll walk your site and help you choose." },
+    { q: "When do you start plowing?", a: "Service starts when snow reaches the trigger depth written into your agreement. We monitor forecasts 24/7 and pre-treat ahead of freezing rain when conditions call for it." },
+    { q: "Can you provide certificates of insurance and service logs?", a: "Yes. We carry general liability and workers' comp coverage, provide certificates of insurance on request, and keep service logs of each visit." },
   ],
   "lawn-renovations": [
     { q: "When is the best time to aerate a Michigan lawn?", a: "Late August through October is ideal — soil is still warm, grass is actively growing roots, and there's less weed competition. Spring aeration in April–May is also effective but fall is preferred." },
@@ -316,7 +318,7 @@ const serviceSearchVariants: Record<string, string[]> = {
   "landscaping": ["landscaping"],
   "mulch-and-stone": ["mulch installation"],
   "seasonal-cleanup": ["leaf removal"],
-  "snow-removal": ["snow plowing"],
+  "snow-removal": ["commercial snow removal"],
   "lawn-renovations": ["lawn aeration"],
   "commercial": ["commercial landscaping"],
   "hardscaping": ["hardscaping"],
@@ -423,7 +425,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     },
   };
 
-  const pageFaqs = serviceFaqs[slug] ?? [];
+  const pageFaqs = localFaqs[slug]?.[area] ?? serviceFaqs[slug] ?? [];
   const faqSchema = pageFaqs.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -435,6 +437,8 @@ export default async function ServiceAreaPage({ params }: Props) {
   } : null;
 
   const serviceDisplayName = svc.name.replace(" Landscaping", "");
+  const isSnow = slug === "snow-removal";
+  const ctaLabel = isSnow ? "Get a Snow Contract Quote" : null;
 
   return (
     <>
@@ -446,7 +450,11 @@ export default async function ServiceAreaPage({ params }: Props) {
 
         {/* ── HERO ── */}
         <section className="relative min-h-[580px] flex items-end overflow-hidden">
-          <Image src={areaData.heroImage} alt={`${svc.name} in ${areaData.name} Michigan by Tri-Point Landscaping`} fill className="object-cover" priority />
+          {isSnow ? (
+            <div style={{ backgroundColor: "#0f2418" }} className="absolute inset-0 dot-grid" />
+          ) : (
+            <Image src={areaData.heroImage} alt={`${svc.name} in ${areaData.name} Michigan by Tri-Point Landscaping`} fill className="object-cover" priority />
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
           {/* Breadcrumb */}
@@ -474,7 +482,7 @@ export default async function ServiceAreaPage({ params }: Props) {
               <p className="text-lg text-white/65 mb-8 max-w-xl leading-relaxed">{svc.shortDesc}</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center gap-2 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
-                  Get a Free Estimate
+                  {ctaLabel ?? "Get a Free Estimate"}
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -504,7 +512,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900 mb-5">
                       {svc.name} in {areaData.name}
                     </h2>
-                    {(localCopy[slug]?.[area] ?? [areaData.localDesc, svc.bodyTemplate(areaData.name, areaData.roads)]).map((para, i) => (
+                    {(localCopy[slug]?.[area] ?? (isSnow ? [svc.bodyTemplate(areaData.name, areaData.roads)] : [areaData.localDesc, svc.bodyTemplate(areaData.name, areaData.roads)])).map((para, i) => (
                       <p key={i} className={`text-gray-600 leading-relaxed${i > 0 ? " mt-4" : ""}`}>{para}</p>
                     ))}
                   </div>
@@ -608,7 +616,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                       Get a free, no-obligation quote for {svc.name.toLowerCase()} in {areaData.name}. Same-day response.
                     </p>
                     <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="block text-center text-white font-semibold py-4 text-sm tracking-wide hover:opacity-90 transition-opacity mb-4">
-                      Request a Free Estimate
+                      {ctaLabel ?? "Request a Free Estimate"}
                     </Link>
                     <a href="tel:+15863278080" className="flex items-center justify-center gap-2 border border-white/20 text-white/70 py-3.5 text-sm font-semibold hover:border-white/50 hover:text-white transition-all">
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
@@ -668,7 +676,7 @@ export default async function ServiceAreaPage({ params }: Props) {
 
         {/* ── BOTTOM CTA ── */}
         <section className="relative py-32 overflow-hidden">
-          <Image src="/photos/mulch1.jpeg" alt={`${svc.name} in ${areaData.name} Michigan`} fill className="object-cover" />
+          {!isSnow && <Image src="/photos/mulch1.jpeg" alt={`${svc.name} in ${areaData.name} Michigan`} fill className="object-cover" />}
           <div className="absolute inset-0 bg-black/80" />
           <div className="relative z-10 max-w-3xl mx-auto px-6 text-center text-white">
             <p className="text-green-300 text-sm font-semibold uppercase tracking-widest mb-4">Serving {areaData.name}</p>
@@ -678,7 +686,7 @@ export default async function ServiceAreaPage({ params }: Props) {
             <p className="text-white/60 mb-8 max-w-md mx-auto">Free estimate. Same-day response. {areaData.name}&apos;s most reliable landscaping crew — ready when you are.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
-                Get Your Free Estimate
+                {ctaLabel ?? "Get Your Free Estimate"}
               </Link>
               <a href="tel:+15863278080" className="inline-flex items-center justify-center gap-2 border border-white/40 text-white px-10 py-4 font-semibold tracking-wide hover:bg-white/10 transition-colors">
                 Call (586) 327-8080
