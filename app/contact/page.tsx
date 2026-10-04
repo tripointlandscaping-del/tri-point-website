@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import JobberForm from "../components/JobberForm";
 import ServiceAreaChecker from "../components/ServiceAreaChecker";
-import { googleReviews, reviewCountLabel, GBP_URL, GBP_REVIEW_URL, openingHoursSpecification } from "../lib/business";
+import { googleReviews, googleRatingLabel, GBP_URL, GBP_REVIEW_URL, openingHoursSpecification } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Free Estimate — Macomb County, MI",
+  title: "Free Estimate | Macomb County, MI",
   description:
     "Get a free estimate for lawn care, landscaping & commercial snow removal in Macomb County, MI. Serving Washington Township, Shelby Township & more. Same-day response.",
   alternates: { canonical: "https://www.tripointlandscaping.com/contact" },
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/contact",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Contact Tri-Point Landscaping — Free Estimates Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Contact Tri-Point Landscaping: Free Estimates Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Estimate — Macomb County, MI",
+    title: "Free Estimate | Macomb County, MI",
     description: "Get a free, no-obligation estimate from Macomb County's most trusted landscaping company. We respond same day.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
@@ -36,7 +36,7 @@ const trustPoints = [
       </svg>
     ),
     title: "Same-Day Response",
-    desc: "We reply to every estimate request the same day — usually within a few hours.",
+    desc: "We reply to every estimate request the same day: usually within a few hours.",
   },
   {
     icon: (
@@ -54,7 +54,7 @@ const trustPoints = [
       </svg>
     ),
     title: "No Obligation",
-    desc: "Estimates are 100% free. You review the quote and decide — zero pressure.",
+    desc: "Estimates are 100% free. You review the quote and decide: zero pressure.",
   },
   {
     icon: (
@@ -63,7 +63,7 @@ const trustPoints = [
       </svg>
     ),
     title: "Locally Owned",
-    desc: "Serving all of Macomb County — not a franchise, not a call center. Real people, real accountability.",
+    desc: "Serving all of Macomb County: not a franchise, not a call center. Real people, real accountability.",
   },
 ];
 
@@ -128,7 +128,7 @@ export default function ContactPage() {
                   <span style={{ color: "#7ecb82" }}>Macomb County, MI</span>
                 </h1>
                 <p className="text-white/65 text-lg leading-relaxed max-w-lg mb-6">
-                  Fill out the form and a Tri-Point team member responds same day — usually within the hour — with a clear, honest quote. No fluff. No pressure. Just real answers.
+                  Fill out the form and a Tri-Point team member responds same day, usually within the hour, with a clear, honest quote. No fluff. No pressure. Just real answers.
                 </p>
                 <div style={{ borderColor: "rgba(44,95,46,0.5)", backgroundColor: "rgba(44,95,46,0.12)" }} className="border px-5 py-4 flex items-start gap-3">
                   <svg className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#7ecb82" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function ContactPage() {
                   </svg>
                   <div>
                     <p className="text-white font-semibold text-sm">Limited spots available this season</p>
-                    <p className="text-white/45 text-xs mt-0.5">We keep our route intentionally small so every client gets our best. Once we&apos;re full, we&apos;re full — book early.</p>
+                    <p className="text-white/45 text-xs mt-0.5">We keep our route intentionally small so every client gets our best. Once we&apos;re full, we&apos;re full. Book early.</p>
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function ContactPage() {
                     ))}
                   </div>
                   <p className="text-xs text-gray-400 mt-4 leading-relaxed">
-                    Not sure if we cover your area? Give us a call — we may be able to help.
+                    Not sure if we cover your area? Give us a call. We may be able to help.
                   </p>
                 </div>
 
@@ -290,7 +290,7 @@ export default function ContactPage() {
                   >
                     {googleReviews.rating} on Google
                   </p>
-                  <p className="text-green-200 text-sm mb-5">From {reviewCountLabel}</p>
+                  <p className="text-green-200 text-sm mb-5">{googleRatingLabel}</p>
                   <a
                     href={GBP_URL}
                     target="_blank"
@@ -305,13 +305,13 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* FORM — takes up 2/3 */}
+              {/* FORM, takes up 2/3 */}
               <div className="xl:col-span-2 space-y-4">
 
                 {/* Service area checker */}
                 <ServiceAreaChecker />
 
-                <div className="bg-white shadow-sm">
+                <div id="request-form" className="bg-white shadow-sm scroll-mt-32">
                   {/* Form header */}
                   <div style={{ backgroundColor: "#111111" }} className="px-6 sm:px-10 py-6 sm:py-8">
                     <h2
@@ -396,7 +396,7 @@ export default function ContactPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Tri-Point Landscaping — Macomb County MI Service Area"
+                title="Tri-Point Landscaping: Macomb County MI Service Area"
               />
             </div>
             <div className="flex flex-wrap justify-center gap-6 mt-6 text-sm text-white/50">
@@ -430,7 +430,7 @@ export default function ContactPage() {
               Happy with Our Work? Let Your Neighbors Know.
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-              A quick Google review helps other Macomb County homeowners find a crew they can trust — and it means the world to a small, local business like ours.
+              A quick Google review helps other Macomb County homeowners find a crew they can trust: and it means the world to a small, local business like ours.
             </p>
             <a
               href={GBP_REVIEW_URL}

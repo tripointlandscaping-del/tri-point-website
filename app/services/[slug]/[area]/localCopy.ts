@@ -13,7 +13,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     ],
     rochester: [
       "Rochester's established neighborhoods and historic homes near downtown tend to have mature trees, older beds, and plenty of edges to keep sharp. Tri-Point Landscaping provides weekly and bi-weekly mowing for Rochester homeowners along Walton Boulevard, University Drive, Tienken Road, and the streets in between.",
-      "We cut at the correct height for Michigan's cool-season grasses, string trim around trees and fencing, edge every walk and bed line, and blow off the driveway before we leave. The season runs late April through October. Residential mowing is $40–$100 per cut depending on the property — call (586) 327-8080 or request a free estimate for your exact price.",
+      "We cut at the correct height for Michigan's cool-season grasses, string trim around trees and fencing, edge every walk and bed line, and blow off the driveway before we leave. The season runs late April through October. Residential mowing is $40–$100 per cut depending on the property. Call (586) 327-8080 or request a free estimate for your exact price.",
     ],
     "rochester-hills": [
       "Rochester Hills homeowners put real investment into their properties, and a consistently mowed lawn is the base everything else sits on. Tri-Point Landscaping mows lawns across Rochester Hills, from neighborhoods off Auburn Road and Adams Road to homes along Livernois and up toward Tienken.",
@@ -27,15 +27,15 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Every project starts with a free on-site consultation. We walk the property with you, talk through goals and budget, and pick plants that hold up to Michigan winters and the drainage challenges common on local lots. A new bed or refresh can often be done in a single day; full installations typically take two to five days, and you'll have a clear timeline before we start.",
     ],
     "shelby-township": [
-      "A lot of Shelby Township's newer construction comes with minimal plantings — a few shrubs and a lot of open lawn. Tri-Point Landscaping helps homeowners along 23 Mile, 24 Mile, and Schoenherr turn that blank slate into finished beds, borders, and focal points that fit the house.",
+      "A lot of Shelby Township's newer construction comes with minimal plantings, a few shrubs and a lot of open lawn. Tri-Point Landscaping helps homeowners along 23 Mile, 24 Mile, and Schoenherr turn that blank slate into finished beds, borders, and focal points that fit the house.",
       "For established properties, the work is often the opposite: thinning out what's overgrown, reshaping beds, and replacing plants that have struggled. Either way, we handle design, plant selection, installation, and cleanup, and we choose plants for how they'll look in five years, not just on install day. Consultations are free.",
     ],
     rochester: [
       "Rochester's historic neighborhoods have a character worth working with, not against. Tri-Point Landscaping designs and installs landscapes for Rochester homes that complement mature trees and older architecture, from bed renovations near downtown to full front-yard redesigns along Walton Boulevard and University Drive.",
-      "We handle new planting beds, shrub and perennial installs, sod, and stone borders, selecting plants suited to Michigan's climate so the landscape keeps improving season after season. Start with a free on-site consultation — we'll walk the property, listen to what you want, and give you a clear plan and price.",
+      "We handle new planting beds, shrub and perennial installs, sod, and stone borders, selecting plants suited to Michigan's climate so the landscape keeps improving season after season. Start with a free on-site consultation. We'll walk the property, listen to what you want, and give you a clear plan and price.",
     ],
     "rochester-hills": [
-      "In Rochester Hills, curb appeal standards are high, and landscaping is often what sets a property apart. Tri-Point Landscaping provides landscape design and installation for homes near Auburn Road, Adams Road, and Livernois — new beds, shrub and perennial plantings, sod, and stone features.",
+      "In Rochester Hills, curb appeal standards are high, and landscaping is often what sets a property apart. Tri-Point Landscaping provides landscape design and installation for homes near Auburn Road, Adams Road, and Livernois: new beds, shrub and perennial plantings, sod, and stone features.",
       "Our process is straightforward: a free on-site consultation, a design that fits your home and budget, then installation and full cleanup by our crew. Small projects can wrap in a day, while larger installations usually take two to five days. We pick plants for Michigan's climate so your investment holds up long after we finish.",
     ],
   },
@@ -47,7 +47,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     ],
     "shelby-township": [
       "Whether it's a spring refresh on established beds or a new-construction yard that needs beds finished for the first time, mulch makes a Shelby Township property look complete. Tri-Point Landscaping installs mulch and decorative stone for properties along 23 Mile, 24 Mile, Schoenherr, and throughout the township's subdivisions.",
-      "Every job starts with clean spade edging so the bed lines stay crisp, then mulch goes down at the right depth — enough to hold moisture and block weeds, not so much it piles against trunks. We carry hardwood, cedar, and dyed mulch plus river rock, lava rock, crushed granite, and pea gravel, and can add weed barrier where it makes sense.",
+      "Every job starts with clean spade edging so the bed lines stay crisp, then mulch goes down at the right depth: enough to hold moisture and block weeds, not so much it piles against trunks. We carry hardwood, cedar, and dyed mulch plus river rock, lava rock, crushed granite, and pea gravel, and can add weed barrier where it makes sense.",
     ],
     rochester: [
       "Older Rochester properties often have beds that have collected years of mulch buildup, which can suffocate plant roots. Tri-Point Landscaping cleans out excess material when needed, re-cuts the bed edges, and installs fresh mulch or decorative stone for homes near downtown and along Walton Boulevard, University Drive, and Tienken Road.",
@@ -69,7 +69,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "In spring we clear leaves and debris, cut back perennials, clean beds, and reset the edges so the property is ready for mowing season. In fall we remove leaves from the lawn and every bed, cut back what's finished for the year, and haul it all off-site. Gutter clearing is available as an add-on.",
     ],
     rochester: [
-      "Rochester's tree-lined streets and historic neighborhoods are beautiful in October — and leave a lot of leaves behind. Tri-Point Landscaping handles fall leaf removal and spring yard cleanups for Rochester homeowners near downtown and along Walton Boulevard, University Drive, and Tienken Road.",
+      "Rochester's tree-lined streets and historic neighborhoods are beautiful in October, and leave a lot of leaves behind. Tri-Point Landscaping handles fall leaf removal and spring yard cleanups for Rochester homeowners near downtown and along Walton Boulevard, University Drive, and Tienken Road.",
       "Leaving leaves matted on the lawn over winter invites disease and dead spots, so our fall cleanups clear lawns and beds completely before the freeze. Spring cleanups take care of what winter left: debris, perennial cutback, bed cleanup, and fresh edges. We haul all material away and leave the property ready for the season ahead.",
     ],
     "rochester-hills": [
@@ -80,7 +80,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
 
   "lawn-renovations": {
     "washington-township": [
-      "If your Washington Township lawn has gone thin, patchy, or weedy, it usually doesn't need to be replaced — it needs to be renovated. Tri-Point Landscaping uses core aeration, overseeding, and dethatching to bring lawns back for homeowners from 26 Mile to 32 Mile Road.",
+      "If your Washington Township lawn has gone thin, patchy, or weedy, it usually doesn't need to be replaced. It needs to be renovated. Tri-Point Landscaping uses core aeration, overseeding, and dethatching to bring lawns back for homeowners from 26 Mile to 32 Mile Road.",
       "Core aeration pulls plugs from compacted soil so air, water, and seed can reach the roots. Overseeding fills bare areas with Michigan-adapted grass seed, and a starter fertilizer gets it established. Late August through October is the best window here; new seed typically germinates in 7–14 days, with noticeable thickening in three to four weeks.",
     ],
     "shelby-township": [
@@ -93,7 +93,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     ],
     "rochester-hills": [
       "A dense, healthy lawn is the backdrop for every Rochester Hills landscape. When yours starts thinning out, Tri-Point Landscaping can bring it back with core aeration, overseeding, and dethatching for homes off Auburn Road, Adams Road, and Livernois.",
-      "The process is simple: aerate to break up compaction, remove thatch where it's choking new growth, overseed bare and thin areas, and top dress where needed. Late summer into fall gives the best results in Michigan. If your lawn hasn't been aerated in the last two seasons, it's probably time — and the estimate is free.",
+      "The process is simple: aerate to break up compaction, remove thatch where it's choking new growth, overseed bare and thin areas, and top dress where needed. Late summer into fall gives the best results in Michigan. If your lawn hasn't been aerated in the last two seasons, it's probably time: and the estimate is free.",
     ],
   },
 
@@ -150,6 +150,31 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "In a walkable business district, the walkways and entrances on your property matter as much as the parking lot. We clear and salt private walkways, entrances, and ramps along with lots and drive lanes, and we pre-treat ahead of freezing rain when conditions call for it, so your customers and staff aren't the ones discovering the ice.",
       "Rochester is in Oakland County, and we serve it the same way we serve our Macomb County accounts: a site walk, a written agreement with trigger depths and clearing priorities, a choice of seasonal or per-push service, 24/7 storm monitoring, and a service log for every visit. Certificates of insurance are available on request.",
     ],
+    "rochester-hills": [
+      "Rochester Hills has commercial property spread along several major corridors: Rochester Road, Auburn Road, Adams Road, Walton Boulevard, and the M-59 corridor on the city's south side. Tri-Point Landscaping provides commercial snow removal for the retail plazas, office buildings, medical offices, churches, and HOA communities along those roads and throughout the city.",
+      "Plazas and offices on busy roads like Rochester Road need drive lanes, entrances, and walkways handled first, because customers and staff start arriving early. During the site walk we map where snow can be stored without blocking parking, fire lanes, or exits, and we write trigger depths and clearing priorities into the agreement.",
+      "Medical offices, churches, and HOAs across Rochester Hills, from Tienken Road down to Avon Road and Auburn Road, often care most about accessible parking, ramps, and entrances. We salt walkways, pre-treat ahead of freezing rain when conditions call for it, monitor storms 24/7, keep a service log for every visit, and provide certificates of insurance for general liability and workers' comp on request.",
+    ],
+    "macomb-township": [
+      "Macomb Township's commercial properties sit along roads like 23 Mile Road, 21 Mile Road, 26 Mile Road, and Romeo Plank Road, surrounded by the township's many subdivisions. Tri-Point Landscaping provides commercial snow removal for the plazas, offices, medical buildings, churches, and homeowner associations across the township.",
+      "Plazas along 23 Mile Road and Romeo Plank Road need entrances, drive lanes, storefront walks, and accessible parking cleared first, and they rarely have spare room for snow. We plan snow storage during the site walk so piles don't take up parking or block sight lines at exits, then write trigger depths and priorities into the agreement.",
+      "Subdivision associations often need entrances, common walkways, and mailbox areas cleared under a written agreement with the board or management company. We work with the association, not individual homeowners, keep service logs after every visit, and provide certificates of insurance and a W-9 on request. Choose a seasonal contract or per-push service.",
+    ],
+    romeo: [
+      "In the Village of Romeo, businesses along Main Street and commercial properties near 32 Mile Road and Van Dyke depend on customers being able to park and walk in safely all winter. Tri-Point Landscaping provides commercial snow removal for retail, office, church, and other commercial properties in and around Romeo.",
+      "Village properties often have smaller lots, tight corners, and walkways close to the street, so snow storage and entrances that need hand work matter as much as the lot itself. We plan those details during the site walk and put trigger depths and clearing priorities in writing.",
+      "Choose a seasonal contract for a fixed winter cost or per-push service billed by visit. We salt walkways and entrances, monitor storms 24/7, keep service logs for every visit, and provide certificates of insurance on request.",
+    ],
+    "bruce-township": [
+      "Bruce Township sits at the northern edge of Macomb County, with commercial properties along Van Dyke (M-53) and roads like 32 Mile Road and 33 Mile Road. Tri-Point Landscaping provides commercial snow removal for businesses, churches, and other commercial properties in the township.",
+      "Properties here are often more spread out, with longer drives and larger lots than in the southern part of the county. We talk through access, snow storage, and clearing priorities during the site walk so the agreement fits the way your property is actually used.",
+      "Seasonal contracts and per-push service are both available. Every account includes 24/7 storm monitoring, salting where people walk, service logs after every visit, and certificates of insurance on request.",
+    ],
+    "ray-township": [
+      "Ray Township is mostly rural, and its commercial properties tend to be smaller and more spread out than in neighboring communities: churches, small businesses, and other commercial lots along roads like 32 Mile Road and Romeo Plank Road. Tri-Point Landscaping provides commercial snow removal for those properties.",
+      "For a church or small business, the priorities are usually simple: clear the entrance from the road, the parking area, and the walkway to the door, then salt where people walk. We confirm those details during a site walk and put them in writing.",
+      "Per-push service can make sense for properties that are busy only a few days a week, while a seasonal contract gives a fixed winter cost. Either way, you get 24/7 storm monitoring, service logs, and certificates of insurance on request.",
+    ],
   },
 };
 
@@ -173,6 +198,33 @@ export const localFaqs: Record<string, Record<string, { q: string; a: string }[]
       { q: "Do you clear sidewalks and entrances, or just parking lots?", a: "Both. Walkways, entrances, and ramps on your property are part of our commercial service, along with lot plowing and salting." },
       { q: "Is Rochester part of your service area even though it's in Oakland County?", a: "Yes. We serve Rochester and Rochester Hills in Oakland County along with our Macomb County communities." },
       { q: "Do you plow residential driveways in Rochester?", a: "No. Our snow removal is commercial only. For Rochester homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+    "rochester-hills": [
+      { q: "Do you provide commercial snow removal along Rochester Road?", a: "Yes. We plow and salt plazas, offices, and other commercial properties along Rochester Road, Auburn Road, Adams Road, Walton Boulevard, Tienken Road, Avon Road, and elsewhere in Rochester Hills." },
+      { q: "Do you work with HOAs in Rochester Hills?", a: "Yes. We clear HOA entrances, common walkways, mailbox areas, and shared parking under a written agreement with the board or management company." },
+      { q: "Is Rochester Hills in your service area?", a: "Yes. We serve Rochester Hills and Rochester in Oakland County along with our Macomb County communities." },
+      { q: "Do you plow residential driveways in Rochester Hills?", a: "No. Our snow removal is commercial only. For Rochester Hills homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+    "macomb-township": [
+      { q: "Do you service plazas along 23 Mile Road?", a: "Yes. We provide commercial snow removal for plazas, offices, and other businesses along 23 Mile Road, 21 Mile Road, 26 Mile Road, Romeo Plank Road, and elsewhere in Macomb Township." },
+      { q: "Do you work with Macomb Township HOAs?", a: "Yes. We clear subdivision entrances, common walkways, and mailbox areas under a written agreement with the association or its management company." },
+      { q: "When should we set up a snow contract?", a: "Before the first storm. That leaves time to walk the site, agree on trigger depths and priorities, and add your property to our storm route." },
+      { q: "Do you plow residential driveways in Macomb Township?", a: "No. Our snow removal is commercial only. For Macomb Township homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+    romeo: [
+      { q: "Do you service businesses on Main Street in Romeo?", a: "Yes. We provide commercial snow removal for private lots, entrances, and walkways at businesses in and around the Village of Romeo, including Main Street, 32 Mile Road, and Van Dyke." },
+      { q: "Can you handle small lots with limited space for snow?", a: "Yes. We plan snow storage and any hand-cleared areas during the site walk and write them into the agreement." },
+      { q: "Do you plow residential driveways in Romeo?", a: "No. Our snow removal is commercial only. For Romeo homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+    "bruce-township": [
+      { q: "Do you service commercial properties along Van Dyke in Bruce Township?", a: "Yes. We provide commercial snow removal for businesses, churches, and other commercial properties along Van Dyke (M-53), 32 Mile Road, 33 Mile Road, and elsewhere in Bruce Township." },
+      { q: "Can you handle larger, more spread-out commercial lots?", a: "Yes. We go over access, longer drives, and snow storage during the site walk so the agreement fits your property." },
+      { q: "Do you plow residential driveways in Bruce Township?", a: "No. Our snow removal is commercial only. For Bruce Township homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+    "ray-township": [
+      { q: "Do you plow church parking lots in Ray Township?", a: "Yes. We provide commercial snow removal for churches, small businesses, and other commercial properties in Ray Township, with priorities set around when your property is busiest." },
+      { q: "Is per-push service available for small commercial lots?", a: "Yes. Per-push service is billed by visit, and seasonal contracts are available too. We'll walk the site and quote what fits." },
+      { q: "Do you plow residential driveways in Ray Township?", a: "No. Our snow removal is commercial only. For Ray Township homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
     ],
   },
 };

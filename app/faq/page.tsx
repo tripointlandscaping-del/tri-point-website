@@ -6,23 +6,23 @@ import FaqAccordion from "../components/FaqAccordion";
 import { googleReviews } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Landscaping FAQ — Macomb County, MI",
+  title: "Landscaping FAQ | Macomb County, MI",
   description:
-    "Answers to common questions about landscaping, lawn care, snow removal & pricing in Macomb County, MI — from Washington Township's top-rated crew.",
+    "Answers to common questions about landscaping, lawn care, snow removal & pricing in Macomb County, MI: from Washington Township's top-rated crew.",
   alternates: {
     canonical: "https://www.tripointlandscaping.com/faq",
   },
   openGraph: {
-    title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
+    title: "Landscaping FAQ | Tri-Point Landscaping | Macomb County, MI",
     description: "Answers to common questions about Tri-Point Landscaping's services, pricing, service areas, and more. Serving all of Macomb County, MI.",
     url: "https://www.tripointlandscaping.com/faq",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping FAQ — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping FAQ: Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
+    title: "Landscaping FAQ | Tri-Point Landscaping | Macomb County, MI",
     description: "Answers to common questions about Tri-Point Landscaping's services, pricing, and service areas. Serving all of Macomb County, MI.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does lawn care cost in Macomb County?",
-    a: "Lawn care pricing varies based on property size, frequency, and the specific services you need. The best way to get an accurate number is to request a free estimate — we'll assess your property and give you a transparent, no-obligation quote same day. Call (586) 327-8080 or fill out our contact form.",
+    a: "Lawn care pricing varies based on property size, frequency, and the specific services you need. The best way to get an accurate number is to request a free estimate. We'll assess your property and give you a transparent, no-obligation quote same day. Call (586) 327-8080 or fill out our contact form.",
   },
   {
     q: "What areas do you serve?",
-    a: "We serve Macomb County and parts of Oakland County, Michigan — including Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. If you're unsure whether we cover your address, give us a call at (586) 327-8080 and we'll let you know right away.",
+    a: "We serve Macomb County and parts of Oakland County, Michigan: including Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. If you're unsure whether we cover your address, give us a call at (586) 327-8080 and we'll let you know right away.",
   },
   {
     q: "Do you offer free estimates?",
-    a: "Yes! Every estimate from Tri-Point Landscaping is completely free with no obligation whatsoever. Simply fill out our contact form or give us a call and we'll follow up same day — usually within the hour during business hours.",
+    a: "Yes! Every estimate from Tri-Point Landscaping is completely free with no obligation whatsoever. Simply fill out our contact form or give us a call and we'll follow up same day: usually within the hour during business hours.",
   },
   {
     q: "How often will you mow my lawn?",
@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: "Are you insured?",
-    a: "Absolutely. Tri-Point Landscaping LLC is a registered Michigan LLC, fully insured with general liability and workers' comp coverage, so you can have complete peace of mind that your property — and ours — is protected on every single visit.",
+    a: "Absolutely. Tri-Point Landscaping LLC is a registered Michigan LLC, fully insured with general liability and workers' comp coverage, so you can have complete peace of mind that your property, and ours, is protected on every single visit.",
   },
   {
     q: "Do you offer snow removal?",
@@ -67,15 +67,15 @@ const faqs = [
   },
   {
     q: "What makes Tri-Point different from other landscaping companies?",
-    a: `We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our ${googleReviews.rating}★ Google rating from real Macomb County homeowners speaks for itself.`,
+    a: `We're a locally owned and operated Macomb County company: not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our ${googleReviews.rating}★ Google rating from real Macomb County homeowners speaks for itself.`,
   },
   {
     q: "What is the best time to aerate a lawn in Michigan?",
-    a: "In Michigan, the best time to aerate cool-season lawns is late August through October — when temperatures drop and grass is actively growing roots. Spring aeration (April–May) is also effective but fall is preferred because weeds are less aggressive and the lawn has all winter to recover. Avoid aerating during summer heat stress.",
+    a: "In Michigan, the best time to aerate cool-season lawns is late August through October, when temperatures drop and grass is actively growing roots. Spring aeration (April–May) is also effective but fall is preferred because weeds are less aggressive and the lawn has all winter to recover. Avoid aerating during summer heat stress.",
   },
   {
     q: "How much does landscaping cost in Washington Township?",
-    a: "Landscaping project costs vary widely depending on scope, materials, and the size of your property. We provide free detailed estimates so you know exactly what you're getting before any work begins — call (586) 327-8080 or request a quote online.",
+    a: "Landscaping project costs vary widely depending on scope, materials, and the size of your property. We provide free detailed estimates so you know exactly what you're getting before any work begins. Call (586) 327-8080 or request a quote online.",
   },
   {
     q: "Do you offer lawn care contracts or one-time services?",
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "Do you work on weekends?",
-    a: "Yes — our crews work Monday through Saturday. Business hours are 7am to 9pm daily, and you can call or text (586) 327-8080 24/7 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
+    a: "Yes, our crews work Monday through Saturday. Business hours are 7am to 9pm daily, and you can call or text (586) 327-8080 24/7 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
   },
   {
     q: "What's included in weekly lawn maintenance?",
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "When should I book spring cleanup?",
-    a: "As early as possible — ideally January or February. Our spring cleanup schedule fills fast because demand peaks in March and April when everyone wants their property ready at the same time. Customers who book early get priority scheduling and the best available slots. Call (586) 327-8080 to get on the schedule now.",
+    a: "As early as possible, ideally January or February. Our spring cleanup schedule fills fast because demand peaks in March and April when everyone wants their property ready at the same time. Customers who book early get priority scheduling and the best available slots. Call (586) 327-8080 to get on the schedule now.",
   },
   {
     q: "Do you offer mulch delivery only, without installation?",
@@ -107,11 +107,11 @@ const faqs = [
   },
   {
     q: "Can you help design my landscape from scratch?",
-    a: "Yes. We work with homeowners from concept through completion. Whether you have a clear vision or no idea where to start, we'll walk your property, understand your goals and budget, and develop a plan that works. We handle everything — design, plant selection, installation, and cleanup.",
+    a: "Yes. We work with homeowners from concept through completion. Whether you have a clear vision or no idea where to start, we'll walk your property, understand your goals and budget, and develop a plan that works. We handle everything: design, plant selection, installation, and cleanup.",
   },
   {
     q: "What's the difference between aeration and dethatching?",
-    a: "Aeration uses hollow tines to pull plugs of soil from the ground, reducing compaction and improving water and nutrient penetration. Dethatching removes the layer of dead grass stems and roots (thatch) that accumulates between the soil surface and green grass. Many Michigan lawns benefit from both — aeration in fall, dethatching in early spring before new growth begins.",
+    a: "Aeration uses hollow tines to pull plugs of soil from the ground, reducing compaction and improving water and nutrient penetration. Dethatching removes the layer of dead grass stems and roots (thatch) that accumulates between the soil surface and green grass. Many Michigan lawns benefit from both: aeration in fall, dethatching in early spring before new growth begins.",
   },
   {
     q: "Do you service rental properties or landlords with multiple properties?",
@@ -123,27 +123,27 @@ const faqs = [
   },
   {
     q: "What should I do to prepare my lawn for spring?",
-    a: "The most important thing is to stay off a wet, soft lawn in early spring to avoid soil compaction. Once the ground firms up, schedule a spring cleanup to remove debris and dead material, apply pre-emergent weed control before soil temps hit 50°F, and consider aeration if you skipped it in fall. We can handle all of this — just call (586) 327-8080 for a free spring assessment.",
+    a: "The most important thing is to stay off a wet, soft lawn in early spring to avoid soil compaction. Once the ground firms up, schedule a spring cleanup to remove debris and dead material, apply pre-emergent weed control before soil temps hit 50°F, and consider aeration if you skipped it in fall. We can handle all of this. Just call (586) 327-8080 for a free spring assessment.",
   },
   {
     q: "Do you offer senior discounts?",
-    a: "We always aim to provide the most competitive pricing in Macomb County regardless of age, but we're happy to discuss your situation when you call. We treat every customer fairly and price based on the actual scope of work — not a flat rate that ignores your specific property.",
+    a: "We always aim to provide the most competitive pricing in Macomb County regardless of age, but we're happy to discuss your situation when you call. We treat every customer fairly and price based on the actual scope of work: not a flat rate that ignores your specific property.",
   },
   {
     q: "How quickly can you start after I call?",
-    a: "For estimates, we typically respond same day — often within the hour. For actual service start dates, it depends on the time of year. During peak spring season, lead times can be 1–2 weeks. In the off-season, we can often start within days. Call (586) 327-8080 and we'll tell you exactly what our current availability looks like.",
+    a: "For estimates, we typically respond same day, often within the hour. For actual service start dates, it depends on the time of year. During peak spring season, lead times can be 1–2 weeks. In the off-season, we can often start within days. Call (586) 327-8080 and we'll tell you exactly what our current availability looks like.",
   },
   {
     q: "Do you do hardscaping like patios and retaining walls?",
-    a: "Yes. Tri-Point Landscaping designs and installs custom paver patios, natural stone walkways, retaining walls, fire pits, and outdoor living spaces throughout Macomb County. Every hardscaping project includes proper base preparation — critical in Michigan's freeze-thaw climate — and a free on-site estimate before any work begins. Call (586) 327-8080 or request a quote online.",
+    a: "Yes. Tri-Point Landscaping designs and installs custom paver patios, natural stone walkways, retaining walls, fire pits, and outdoor living spaces throughout Macomb County. Every hardscaping project includes proper base preparation, critical in Michigan's freeze-thaw climate, and a free on-site estimate before any work begins. Call (586) 327-8080 or request a quote online.",
   },
   {
     q: "How much does a patio cost in Macomb County?",
-    a: "Patio costs in Macomb County depend on size, material, and site conditions. As a general guide: small paver patios (150–250 sq ft) typically run $2,500–$4,500; medium patios (300–500 sq ft) run $5,000–$9,000; larger outdoor living spaces start at $10,000+. Natural stone runs higher than concrete pavers. Every project gets a free on-site estimate — call (586) 327-8080.",
+    a: "Patio costs in Macomb County depend on size, material, and site conditions. As a general guide: small paver patios (150–250 sq ft) typically run $2,500–$4,500; medium patios (300–500 sq ft) run $5,000–$9,000; larger outdoor living spaces start at $10,000+. Natural stone runs higher than concrete pavers. Every project gets a free on-site estimate. Call (586) 327-8080.",
   },
   {
     q: "How much does a retaining wall cost in Macomb County?",
-    a: "Retaining wall pricing depends on height, length, and material. Small walls (under 2 ft, 20–30 linear ft) typically run $1,500–$3,500. Medium walls (2–4 ft, 30–50 linear ft) run $4,000–$9,000. Larger or tiered walls start at $10,000+. Proper drainage installation is included in every wall we build — it's what makes the difference between a wall that lasts 20 years and one that fails in five. Free estimates available.",
+    a: "Retaining wall pricing depends on height, length, and material. Small walls (under 2 ft, 20–30 linear ft) typically run $1,500–$3,500. Medium walls (2–4 ft, 30–50 linear ft) run $4,000–$9,000. Larger or tiered walls start at $10,000+. Proper drainage installation is included in every wall we build. It's what makes the difference between a wall that lasts 20 years and one that fails in five. Free estimates available.",
   },
   {
     q: "Do hardscaping projects require permits in Michigan?",
@@ -159,19 +159,19 @@ const faqs = [
   },
   {
     q: "What areas do you do hardscaping in?",
-    a: "We do hardscaping — patios, retaining walls, walkways, fire pits, and outdoor living spaces — throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
+    a: "We do hardscaping (patios, retaining walls, walkways, fire pits, and outdoor living spaces) throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills.",
   },
   {
     q: "Why is my grass turning yellow?",
-    a: "Yellow grass in Macomb County is usually caused by one of six things: drought stress, nitrogen deficiency, soil compaction, grub damage, fungal disease, or scalping (cutting too short). The fix depends on the cause — watering more won't help if your soil is compacted, and fertilizing won't fix an active fungal outbreak. If you're not sure what's wrong, call us at (586) 327-8080 and we'll take a look during a free estimate visit.",
+    a: "Yellow grass in Macomb County is usually caused by one of six things: drought stress, nitrogen deficiency, soil compaction, grub damage, fungal disease, or scalping (cutting too short). The fix depends on the cause: watering more won't help if your soil is compacted, and fertilizing won't fix an active fungal outbreak. If you're not sure what's wrong, call us at (586) 327-8080 and we'll take a look during a free estimate visit.",
   },
   {
     q: "What grass seed is best for Michigan?",
-    a: "Cool-season grasses are standard for Macomb County lawns. Kentucky bluegrass is the most popular — excellent quality, rich color, and drought-tolerant once established. Tall fescue handles shade and drought better and establishes faster. Perennial ryegrass germinates the quickest and is often blended with bluegrass to speed up new lawn establishment. For most Macomb County homeowners, a Kentucky bluegrass/perennial ryegrass blend gives the best combination of quality and establishment speed.",
+    a: "Cool-season grasses are standard for Macomb County lawns. Kentucky bluegrass is the most popular: excellent quality, rich color, and drought-tolerant once established. Tall fescue handles shade and drought better and establishes faster. Perennial ryegrass germinates the quickest and is often blended with bluegrass to speed up new lawn establishment. For most Macomb County homeowners, a Kentucky bluegrass/perennial ryegrass blend gives the best combination of quality and establishment speed.",
   },
   {
     q: "How do I get rid of weeds in my lawn?",
-    a: "The most effective long-term weed control is a thick, healthy lawn — dense turf leaves no room for weeds to establish. For active weed problems: apply pre-emergent herbicide in mid-April (before soil hits 50°F) to block crabgrass germination. Broadleaf weeds like dandelions and clover respond well to selective post-emergent herbicides applied in spring or fall. Avoid spraying during summer heat stress. The best permanent fix is improving lawn density through aeration, overseeding, and proper fertilization so weeds have no opening.",
+    a: "The most effective long-term weed control is a thick, healthy lawn, dense turf leaves no room for weeds to establish. For active weed problems: apply pre-emergent herbicide in mid-April (before soil hits 50°F) to block crabgrass germination. Broadleaf weeds like dandelions and clover respond well to selective post-emergent herbicides applied in spring or fall. Avoid spraying during summer heat stress. The best permanent fix is improving lawn density through aeration, overseeding, and proper fertilization so weeds have no opening.",
   },
   {
     q: "How much does commercial snow removal cost in Macomb County?",
@@ -183,15 +183,15 @@ const faqs = [
   },
   {
     q: "How do I fix muddy or wet spots in my yard?",
-    a: "Persistent muddy spots in Macomb County are almost always a drainage issue. Common causes include low-lying grading that collects water, compacted clay soil that won't absorb moisture, downspout discharge pooling in one area, or a high water table in low-lying neighborhoods. Solutions depend on the cause: regrading to redirect runoff, installing a French drain, extending downspouts, or improving soil structure through aeration and amendment. We assess drainage issues during our free estimates — call (586) 327-8080 and we'll tell you exactly what's going on.",
+    a: "Persistent muddy spots in Macomb County are almost always a drainage issue. Common causes include low-lying grading that collects water, compacted clay soil that won't absorb moisture, downspout discharge pooling in one area, or a high water table in low-lying neighborhoods. Solutions depend on the cause: regrading to redirect runoff, installing a French drain, extending downspouts, or improving soil structure through aeration and amendment. We assess drainage issues during our free estimates. Call (586) 327-8080 and we'll tell you exactly what's going on.",
   },
   {
     q: "Do you handle overgrown or neglected properties?",
-    a: "Yes. We regularly take on properties that haven't been maintained in months or years — overgrown grass, overgrown beds, invasive weeds, dead shrubs, and neglected landscaping. We'll walk the property during a free estimate and give you a realistic plan and timeline to get it back to shape. Many of these projects can be completed in a single day. Call (586) 327-8080 to schedule.",
+    a: "Yes. We regularly take on properties that haven't been maintained in months or years: overgrown grass, overgrown beds, invasive weeds, dead shrubs, and neglected landscaping. We'll walk the property during a free estimate and give you a realistic plan and timeline to get it back to shape. Many of these projects can be completed in a single day. Call (586) 327-8080 to schedule.",
   },
   {
     q: "How do I know if I need a new lawn or just repairs?",
-    a: "If less than 50% of your lawn is bare, thin, or weedy, targeted spot seeding and aeration with overseeding can usually restore it. If more than half the lawn is in poor condition — or if the soil is severely compacted, has major grading problems, or is infested with perennial weeds — a full lawn renovation (kill, grade, seed) is usually more cost-effective than patching. We'll give you an honest assessment during your free estimate rather than recommending the more expensive option if it's not necessary.",
+    a: "If less than 50% of your lawn is bare, thin, or weedy, targeted spot seeding and aeration with overseeding can usually restore it. If more than half the lawn is in poor condition (or if the soil is severely compacted, has major grading problems, or is infested with perennial weeds) a full lawn renovation (kill, grade, seed) is usually more cost-effective than patching. We'll give you an honest assessment during your free estimate rather than recommending the more expensive option if it's not necessary.",
   },
 ];
 
@@ -260,10 +260,10 @@ export default function FaqPage() {
               className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             >
-              Landscaping FAQs — Macomb County &amp; Oakland County, MI
+              Landscaping FAQs: Macomb County &amp; Oakland County, MI
             </h1>
             <p className="text-white/50 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-              Everything you need to know about our services, pricing, and how we work — answered by the Tri-Point team.
+              Everything you need to know about our services, pricing, and how we work, answered by the Tri-Point team.
             </p>
           </div>
         </section>

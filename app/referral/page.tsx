@@ -4,12 +4,12 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Refer a Neighbor — Get $50 Off",
+  title: "Refer a Neighbor. Get $50 Off",
   description:
-    "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company — share the word and save.",
+    "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company: share the word and save.",
   alternates: { canonical: "https://www.tripointlandscaping.com/referral" },
   openGraph: {
-    title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
+    title: "Refer a Neighbor | Get $50 Off | Tri-Point Landscaping",
     description: "Share Tri-Point Landscaping with a neighbor. When they sign up, you get $50 off your next service.",
     url: "https://www.tripointlandscaping.com/referral",
     siteName: "Tri-Point Landscaping",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
+    title: "Refer a Neighbor | Get $50 Off | Tri-Point Landscaping",
     description: "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
@@ -38,18 +38,18 @@ const steps = [
   {
     num: "03",
     title: "You Get $50 Off",
-    desc: "Once their first service is complete, we apply $50 off your next invoice — automatically. No forms, no chasing us down.",
+    desc: "Once their first service is complete, we apply $50 off your next invoice, automatically. No forms, no chasing us down.",
   },
 ];
 
 const faqs = [
   {
     q: "Is there a limit on how many referrals I can make?",
-    a: "No limit. Refer as many neighbors as you'd like — you earn $50 for each one who becomes a customer.",
+    a: "No limit. Refer as many neighbors as you'd like. You earn $50 for each one who becomes a customer.",
   },
   {
     q: "Does my referral get anything?",
-    a: "Yes — your referral gets the same great service at our standard rates, and they'll know they came recommended by a trusted neighbor.",
+    a: "Yes, your referral gets the same great service at our standard rates, and they'll know they came recommended by a trusted neighbor.",
   },
   {
     q: "When does the $50 credit apply?",
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: "Does the $50 apply to any service?",
-    a: "Yes. Lawn maintenance, landscaping, mulch, cleanups, commercial snow removal — it applies to any Tri-Point service invoice.",
+    a: "Yes. Lawn maintenance, landscaping, mulch, cleanups, commercial snow removal. It applies to any Tri-Point service invoice.",
   },
 ];
 
@@ -100,7 +100,7 @@ export default function ReferralPage() {
               <span style={{ color: "#7ecb82" }}>Get $50 Off.</span>
             </h1>
             <p className="text-white/60 text-lg leading-relaxed max-w-xl mx-auto mb-8">
-              Know someone in Macomb County who needs a reliable landscaping crew? Send them our way — when they sign up, you get $50 off your next service. No forms. No hassle.
+              Know someone in Macomb County who needs a reliable landscaping crew? Send them our way: when they sign up, you get $50 off your next service. No forms. No hassle.
             </p>
             <a
               href="tel:+15863278080"
@@ -150,7 +150,7 @@ export default function ReferralPage() {
               $50 Off Your Next Invoice
             </h2>
             <p className="text-white/70 leading-relaxed max-w-md mx-auto mb-8">
-              Applies to any Tri-Point service — lawn maintenance, landscaping, mulch, seasonal cleanups, commercial snow removal, and more. No minimum spend required.
+              Applies to any Tri-Point service: lawn maintenance, landscaping, mulch, seasonal cleanups, commercial snow removal, and more. No minimum spend required.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto mb-10 text-sm">
               {["No forms to fill out", "No minimum service required", "Unlimited referrals"].map((item) => (
@@ -203,7 +203,7 @@ export default function ReferralPage() {
             <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold mb-4">
               Know Someone Who Needs a Great Crew?
             </h2>
-            <p className="text-white/50 text-sm mb-8">Send them to Tri-Point Landscaping — Macomb County's locally owned, fully insured landscaping company. Free estimates, same-day response.</p>
+            <p className="text-white/50 text-sm mb-8">Send them to Tri-Point Landscaping: Macomb County's locally owned, fully insured landscaping company. Free estimates, same-day response.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+15863278080"

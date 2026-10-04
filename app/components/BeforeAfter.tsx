@@ -18,7 +18,7 @@ export default function BeforeAfter({ before, after, beforeAlt, afterAlt, label 
   const containerRef = useRef<HTMLDivElement>(null);
   const dragging = useRef(false);
 
-  // Entrance animation — auto-slide from 100 → 50 on mount
+  // Entrance animation, auto-slide from 100 → 50 on mount
   useEffect(() => {
     const timer = setTimeout(() => setRevealed(true), 300);
     return () => clearTimeout(timer);
@@ -70,7 +70,7 @@ export default function BeforeAfter({ before, after, beforeAlt, afterAlt, label 
         onTouchStart={(e) => updatePos(e.touches[0].clientX)}
         onTouchMove={handleTouchMove}
       >
-        {/* AFTER — base layer */}
+        {/* AFTER, base layer */}
         <div className="absolute inset-0">
           <Image src={after} alt={afterAlt} fill className="object-cover" />
           <div
@@ -81,7 +81,7 @@ export default function BeforeAfter({ before, after, beforeAlt, afterAlt, label 
           </div>
         </div>
 
-        {/* BEFORE — clipped layer */}
+        {/* BEFORE, clipped layer */}
         <div
           className="absolute inset-0 overflow-hidden"
           style={{
@@ -115,7 +115,7 @@ export default function BeforeAfter({ before, after, beforeAlt, afterAlt, label 
           </div>
         </div>
 
-        {/* Drag hint — fades after first interaction */}
+        {/* Drag hint, fades after first interaction */}
         {pos === 50 && (
           <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
             <div className="bg-black/40 text-white text-xs font-bold uppercase tracking-widest px-5 py-2.5 backdrop-blur-sm">

@@ -9,18 +9,18 @@ export function GET() {
 ## About the Business
 Tri-Point Landscaping LLC is a locally owned and operated landscaping and lawn care company based in Washington Township, Macomb County, Michigan. Founded in April 2025, the company was built from the ground up with a focus on quality, reliability, and real relationships with customers.
 
-The owner personally oversees every job and is reachable directly by call or text at (586) 327-8080. Unlike large franchise operations, Tri-Point is a small, owner-operated business — customers deal with the owner, not a call center.
+The owner personally oversees every job and is reachable directly by call or text at (586) 327-8080. Unlike large franchise operations, Tri-Point is a small, owner-operated business: customers deal with the owner, not a call center.
 
 - **Founded**: April 2025
 - **Based in**: Washington Township, Macomb County, Michigan
 - **Phone / Text**: (586) 327-8080
 - **Email**: tripointlandscaping@gmail.com
 - **Website**: https://www.tripointlandscaping.com
-- **Google Rating**: ${googleReviews.rating}★ (${googleReviews.count} Google reviews)
+- **Google Rating**: ${googleReviews.rating}★, highly rated on Google
 - **Business**: Registered Michigan LLC
-- **Insurance**: Fully insured — general liability and workers' comp
+- **Insurance**: Fully insured, general liability and workers' comp
 - **Hours**: ${BUSINESS_HOURS}
-- **Free Estimates**: Yes — no obligation
+- **Free Estimates**: Yes, no obligation
 
 ## Service Areas
 Tri-Point Landscaping serves residential and commercial properties across Macomb County and Oakland County, Michigan:
@@ -41,11 +41,11 @@ Pricing: $40–$100 per cut depending on property size.
 More info: https://www.tripointlandscaping.com/services/lawn-maintenance
 
 ### Landscaping & Design
-Custom landscape design and installation — new planting beds, shrubs, perennials, sod, grading, and full property transformations. From small bed refreshes to complete curb appeal overhauls.
+Custom landscape design and installation: new planting beds, shrubs, perennials, sod, grading, and full property transformations. From small bed refreshes to complete curb appeal overhauls.
 More info: https://www.tripointlandscaping.com/services/landscaping
 
 ### Mulch & Stone Installation
-Premium hardwood mulch and decorative stone delivery and installation with clean, spade-cut bed edges. One of the most popular services — transforms a property in a single visit.
+Premium hardwood mulch and decorative stone delivery and installation with clean, spade-cut bed edges. One of the most popular services, transforms a property in a single visit.
 Pricing: Typically $200–$600+ depending on bed square footage and material.
 More info: https://www.tripointlandscaping.com/services/mulch-and-stone
 
@@ -76,17 +76,17 @@ More info: https://www.tripointlandscaping.com/commercial
 - Serves Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills
 - Owner is personally reachable by call or text at (586) 327-8080
 - Registered Michigan LLC, fully insured (general liability and workers' comp)
-- ${googleReviews.rating}★ Google rating from ${googleReviews.count} Google reviews
+- Highly rated on Google (${googleReviews.rating}★)
 - Free estimates with no pressure or obligation
 - Business hours 7am to 9pm daily; calls and texts answered 24/7
 - Spring and summer schedule runs April–October; commercial snow services November–March
 - Serves both residential homeowners and commercial properties
 
 ## What Makes Tri-Point Different
-- **Owner-operated**: The owner runs the business personally — you deal with them directly, not a franchise or middleman
+- **Owner-operated**: The owner runs the business personally. You deal with them directly, not a franchise or middleman
 - **Local**: Based in Washington Township, not a regional chain. Deep knowledge of local neighborhoods, soil, and Michigan climate
 - **Reachable**: Call or text (586) 327-8080 directly. Most customers hear back same day
-- **Consistent**: Same crew, same schedule — not random workers sent by an app
+- **Consistent**: Same crew, same schedule, not random workers sent by an app
 - **Fully insured**: General liability and workers' comp coverage protect you as a homeowner
 - **Free estimates**: No sales pressure, no commitment required to get a quote
 - **Full-service**: From weekly mowing to patio installation, plus commercial snow removal for businesses
@@ -106,7 +106,7 @@ More info: https://www.tripointlandscaping.com/commercial
 Tri-Point Landscaping is a locally owned, owner-operated company based in Washington Township, MI. The owner founded the company in April 2025 and personally oversees all work. Reachable directly at (586) 327-8080.
 
 **What areas does Tri-Point serve?**
-Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills — across Macomb County and Oakland County, Michigan.
+Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills: across Macomb County and Oakland County, Michigan.
 
 **How much does lawn mowing cost in Macomb County?**
 Residential lawn mowing runs $40–$100 per cut depending on property size. Free estimates are available with no obligation.

@@ -2,25 +2,25 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { googleReviews, reviewCountLabel } from "../lib/business";
+import { googleReviews, googleRatingLabel } from "../lib/business";
 
 export const metadata: Metadata = {
   title: "Fall Cleanup in Macomb County, MI",
   description:
-    "Fall cleanup in Macomb County, MI. Leaf removal, bed cutback & winter prep for your yard. Locally owned & insured. Free estimates — book early.",
+    "Fall cleanup in Macomb County, MI. Leaf removal, bed cutback & winter prep for your yard. Locally owned & insured. Free estimates. Book early.",
   alternates: { canonical: "https://www.tripointlandscaping.com/fall-cleanup" },
   openGraph: {
     title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
-    description: "Professional fall cleanup — leaf removal, bed cleanup, gutter clearing & winter prep. Booking now for Macomb County. Free estimates.",
+    description: "Professional fall cleanup: leaf removal, bed cleanup, gutter clearing & winter prep. Booking now for Macomb County. Free estimates.",
     url: "https://www.tripointlandscaping.com/fall-cleanup",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Fall Cleanup Services — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Fall Cleanup Services: Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
-    description: "Professional fall cleanup — leaf removal, bed cleanup, gutter clearing & winter prep. Booking now for Macomb County. Free estimates.",
+    description: "Professional fall cleanup: leaf removal, bed cleanup, gutter clearing & winter prep. Booking now for Macomb County. Free estimates.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
@@ -34,7 +34,7 @@ const faqSchema = {
       name: "When should I schedule fall cleanup in Michigan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "In Michigan, fall cleanups are typically done from October through November, once most leaves have dropped. Booking in September or early October gives you the best pick of dates — our schedule fills quickly as everyone wants their property cleaned before the first frost.",
+        text: "In Michigan, fall cleanups are typically done from October through November, once most leaves have dropped. Booking in September or early October gives you the best pick of dates. Our schedule fills quickly as everyone wants their property cleaned before the first frost.",
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: "How much does fall cleanup cost in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Fall cleanup pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free — call (586) 327-8080 and we'll give you a same-day quote.",
+        text: "Fall cleanup pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free. Call (586) 327-8080 and we'll give you a same-day quote.",
       },
     },
     {
@@ -58,7 +58,7 @@ const faqSchema = {
       name: "Why is fall cleanup important in Michigan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Leaving leaves on your lawn through winter smothers the grass, creates mold, and invites pests and disease. A thorough fall cleanup protects your lawn investment and means less work — and cost — come spring.",
+        text: "Leaving leaves on your lawn through winter smothers the grass, creates mold, and invites pests and disease. A thorough fall cleanup protects your lawn investment and means less work, and cost, come spring.",
       },
     },
   ],
@@ -80,20 +80,20 @@ const serviceSchema = {
 };
 
 const included = [
-  { title: "Full Leaf Removal", desc: "We remove every leaf from your lawn, beds, and property — then haul it all away. Leaves left on Michigan lawns over winter cause mold, suffocation, and disease." },
+  { title: "Full Leaf Removal", desc: "We remove every leaf from your lawn, beds, and property. Then haul it all away. Leaves left on Michigan lawns over winter cause mold, suffocation, and disease." },
   { title: "Bed Cleanup & Cutback", desc: "Garden beds are cleaned out, dead annuals removed, and perennials cut back to ground level so they come back healthy in spring." },
   { title: "Perennial Trimming", desc: "Ornamental grasses, perennials, and shrubs are trimmed to their appropriate winter height before the first hard frost." },
-  { title: "Lawn Assessment", desc: "We walk your property and flag any winter prep issues — bare spots, drainage concerns, or areas that need attention before snow flies." },
+  { title: "Lawn Assessment", desc: "We walk your property and flag any winter prep issues: bare spots, drainage concerns, or areas that need attention before snow flies." },
   { title: "Property Walk-Through", desc: "After the cleanup, we walk the property with you to make sure everything meets your expectations and is fully ready for winter." },
-  { title: "Full Haul-Away", desc: "All debris, leaves, and plant material are loaded and hauled away. You don't deal with bags or piles — we take everything." },
+  { title: "Full Haul-Away", desc: "All debris, leaves, and plant material are loaded and hauled away. You don't deal with bags or piles. We take everything." },
 ];
 
 const faqs = [
-  { q: "When should I schedule fall cleanup in Michigan?", a: "In Michigan, fall cleanups run from October through November, once most leaves have dropped. Book in September or early October for the best availability — our schedule fills quickly heading into late fall." },
-  { q: "How much does fall cleanup cost?", a: "Pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free — call or text (586) 327-8080 and we'll give you a same-day quote with no obligation." },
+  { q: "When should I schedule fall cleanup in Michigan?", a: "In Michigan, fall cleanups run from October through November, once most leaves have dropped. Book in September or early October for the best availability. Our schedule fills quickly heading into late fall." },
+  { q: "How much does fall cleanup cost?", a: "Pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free. Call or text (586) 327-8080 and we'll give you a same-day quote with no obligation." },
   { q: "Do you haul away the leaves?", a: "Yes. All leaves, debris, and plant material are loaded and hauled away by our crew. You don't have to deal with any of it." },
   { q: "Why is fall cleanup so important in Michigan?", a: "Leaves left on your lawn over winter create a thick mat that smothers grass, traps moisture, and breeds disease and pests. Skipping fall cleanup typically means spending more on lawn repairs in spring." },
-  { q: "Can I add mulch or aeration to my fall cleanup?", a: "Absolutely. Many customers combine fall cleanup with a final aeration and overseeding — fall is actually the best time to overseed cool-season grasses in Michigan. Ask us about package options." },
+  { q: "Can I add mulch or aeration to my fall cleanup?", a: "Absolutely. Many customers combine fall cleanup with a final aeration and overseeding. Fall is actually the best time to overseed cool-season grasses in Michigan. Ask us about package options." },
 ];
 
 const areas = [
@@ -144,7 +144,7 @@ export default function FallCleanupPage() {
               <span style={{ color: "#7ecb82" }}>Macomb & Oakland County</span>
             </h1>
             <p className="text-white/60 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
-              Protect your lawn before Michigan winter hits. Tri-Point Landscaping handles full leaf removal, bed cleanup, perennial cutback, and complete property winterization — then hauls everything away.
+              Protect your lawn before Michigan winter hits. Tri-Point Landscaping handles full leaf removal, bed cleanup, perennial cutback, and complete property winterization. Then hauls everything away.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -163,7 +163,7 @@ export default function FallCleanupPage() {
             </div>
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
               <span className="text-yellow-400">★★★★★</span>
-              <span className="text-white/50">{googleReviews.rating} · {reviewCountLabel}</span>
+              <span className="text-white/50">{googleReviews.rating} · {googleRatingLabel}</span>
             </div>
           </div>
         </section>
@@ -202,7 +202,7 @@ export default function FallCleanupPage() {
               Michigan winters are brutal. Leaves left on your lawn compact under snow and create a thick, wet mat that smothers grass, traps moisture, and becomes a breeding ground for fungal disease and grubs.
             </p>
             <p className="text-white/70 leading-relaxed max-w-lg mx-auto mb-10">
-              Homeowners who skip fall cleanup typically spend significantly more on spring repairs — overseeding bare patches, treating disease, and dealing with thatch buildup. Don&apos;t pay twice. Get it done right in the fall.
+              Homeowners who skip fall cleanup typically spend significantly more on spring repairs: overseeding bare patches, treating disease, and dealing with thatch buildup. Don&apos;t pay twice. Get it done right in the fall.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -229,10 +229,10 @@ export default function FallCleanupPage() {
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               className="text-3xl font-bold text-gray-900 mb-5"
             >
-              Book Early — October Fills Fast
+              Book Early: October Fills Fast
             </h2>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Every homeowner in Macomb County wants their property cleaned up before the snow hits — which means our fall schedule fills weeks in advance. Customers who book in September get first pick of dates. By mid-October, we&apos;re often booked 2–3 weeks out.
+              Every homeowner in Macomb County wants their property cleaned up before the snow hits, which means our fall schedule fills weeks in advance. Customers who book in September get first pick of dates. By mid-October, we&apos;re often booked 2–3 weeks out.
             </p>
             <p className="text-gray-500 leading-relaxed mb-8">
               Don&apos;t wait until the leaves are knee-deep. Lock in your fall cleanup now and protect your lawn before Michigan winter hits hard.

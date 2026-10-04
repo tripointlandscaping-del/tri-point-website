@@ -6,15 +6,15 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, cancellation policy, and more.",
+    "Terms and Conditions for Tri-Point Landscaping LLC: Washington Township, Michigan. Service agreements, payment terms, cancellation policy, and more.",
   alternates: { canonical: "https://www.tripointlandscaping.com/terms-and-conditions" },
   openGraph: {
     title: "Terms & Conditions | Tri-Point Landscaping",
-    description: "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, and cancellation policy.",
+    description: "Terms and Conditions for Tri-Point Landscaping LLC: Washington Township, Michigan. Service agreements, payment terms, and cancellation policy.",
     url: "https://www.tripointlandscaping.com/terms-and-conditions",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping: Macomb County, MI" }],
   },
 };
 
@@ -64,7 +64,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 1 — Services",
+    title: "Section 1: Services",
     subsections: [
       {
         heading: "A. Scope of Work",
@@ -85,7 +85,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 2 — Estimates, Pricing, and Payment",
+    title: "Section 2: Estimates, Pricing, and Payment",
     subsections: [
       {
         heading: "A. Estimates and Proposals",
@@ -110,14 +110,14 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 3 — Cancellation and Rescheduling",
+    title: "Section 3: Cancellation and Rescheduling",
     subsections: [
       {
-        heading: "A. Cancellation by Client — One-Time Services",
+        heading: "A. Cancellation by Client: One-Time Services",
         body: `Clients may cancel a scheduled one-time service appointment without incurring any cancellation fee, provided that written or verbal cancellation notice is received by the Company no less than twenty-four (24) hours prior to the scheduled service commencement time. Cancellations received less than twenty-four (24) hours before the scheduled service time, and cancellations where the Company's crew arrives at the Service Property and is unable to perform services due to access issues, unsafe conditions, or other Client-attributable causes, shall be subject to a cancellation fee equal to twenty-five percent (25%) of the applicable service price, which fee represents a reasonable estimate of the crew scheduling, mobilization, fuel, and administrative costs incurred by the Company as a result of the late cancellation. Such cancellation fee shall be invoiced and payable pursuant to the payment terms set forth in Section 2 hereof.`,
       },
       {
-        heading: "B. Cancellation by Client — Recurring Service Agreements",
+        heading: "B. Cancellation by Client: Recurring Service Agreements",
         body: `Either party may terminate a recurring or ongoing service agreement upon thirty (30) calendar days' prior written notice delivered to the other party. All Services rendered and materials supplied prior to the effective date of termination shall remain due and payable in full at the contract rates then in effect, without proration, discount, or offset, unless otherwise expressly agreed in writing. The Company reserves the right to invoice and collect for any scheduled service visits falling within the thirty (30) day notice period, whether or not such services are performed, provided that the Company makes a good-faith effort to perform such services absent Client-imposed access restrictions.`,
       },
       {
@@ -131,7 +131,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 4 — Satisfaction, Warranty, and Limitation of Liability",
+    title: "Section 4: Satisfaction, Warranty, and Limitation of Liability",
     subsections: [
       {
         heading: "A. Workmanship Warranty",
@@ -152,11 +152,11 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 5 — Snow Removal Services",
+    title: "Section 5: Snow Removal Services",
     subsections: [
       {
-        heading: "A. Supplemental Terms — Scope and Applicability",
-        body: `The terms set forth in this Section 5 are supplemental to and shall be read in conjunction with all other provisions of this Agreement. In the event of any conflict between this Section 5 and any other provision of this Agreement with respect to snow removal services specifically, the provisions of this Section 5 shall control and govern. Snow removal and ice management services are offered exclusively to commercial clients located within the Company's designated service areas. The Company does not provide residential snow removal services. Service trigger thresholds — being the minimum accumulation of snowfall or ice that will prompt a service visit — shall be specified in the applicable service agreement or Proposal. Where no specific trigger threshold is stated, the Company shall exercise professional judgment in determining the appropriate timing of service visits based on prevailing weather conditions, accumulation levels, and service area conditions.`,
+        heading: "A. Supplemental Terms: Scope and Applicability",
+        body: `The terms set forth in this Section 5 are supplemental to and shall be read in conjunction with all other provisions of this Agreement. In the event of any conflict between this Section 5 and any other provision of this Agreement with respect to snow removal services specifically, the provisions of this Section 5 shall control and govern. Snow removal and ice management services are offered exclusively to commercial clients located within the Company's designated service areas. The Company does not provide residential snow removal services. Service trigger thresholds, being the minimum accumulation of snowfall or ice that will prompt a service visit, shall be specified in the applicable service agreement or Proposal. Where no specific trigger threshold is stated, the Company shall exercise professional judgment in determining the appropriate timing of service visits based on prevailing weather conditions, accumulation levels, and service area conditions.`,
       },
       {
         heading: "B. Limitation of Liability for Snow Removal Operations",
@@ -173,7 +173,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
     ],
   },
   {
-    title: "Section 6 — Intellectual Property",
+    title: "Section 6: Intellectual Property",
     subsections: [
       {
         heading: "Ownership of Design Materials",
@@ -184,7 +184,7 @@ Upon the Client's full and complete payment of all amounts due and owing to the 
     ],
   },
   {
-    title: "Section 7 — Photography and Marketing",
+    title: "Section 7: Photography and Marketing",
     subsections: [
       {
         heading: "Company Photography Rights",
@@ -195,7 +195,7 @@ Any Client who objects to the Company's exercise of photography rights as descri
     ],
   },
   {
-    title: "Section 8 — Insurance",
+    title: "Section 8: Insurance",
     subsections: [
       {
         heading: "Company Insurance Coverage",
@@ -206,7 +206,7 @@ The Client expressly acknowledges and agrees that the Company's insurance covera
     ],
   },
   {
-    title: "Section 9 — Governing Law and Dispute Resolution",
+    title: "Section 9: Governing Law and Dispute Resolution",
     subsections: [
       {
         heading: "A. Governing Law and Jurisdiction",
@@ -227,7 +227,7 @@ The Client expressly acknowledges and agrees that the Company's insurance covera
     ],
   },
   {
-    title: "Section 10 — Indemnification",
+    title: "Section 10: Indemnification",
     subsections: [
       {
         heading: "Client's Obligation to Indemnify the Company",
@@ -248,7 +248,7 @@ The Client's indemnification obligations under this Section shall survive the te
     ],
   },
   {
-    title: "Section 11 — Miscellaneous Provisions",
+    title: "Section 11: Miscellaneous Provisions",
     subsections: [
       {
         heading: "A. Entire Agreement",
@@ -285,7 +285,7 @@ The Client's indemnification obligations under this Section shall survive the te
     ],
   },
   {
-    title: "Section 12 — Contact Information",
+    title: "Section 12: Contact Information",
     subsections: [
       {
         heading: "Tri-Point Landscaping LLC",
@@ -294,7 +294,7 @@ The Client's indemnification obligations under this Section shall survive the te
     ],
   },
   {
-    title: "Section 13 — Amendments to These Terms",
+    title: "Section 13: Amendments to These Terms",
     subsections: [
       {
         heading: "Right to Revise; Effect of Continued Use",

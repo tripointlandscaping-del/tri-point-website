@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Don't block /_next/ — Google needs those CSS/JS files to render pages.
+      // Don't block /_next/: Google needs those CSS/JS files to render pages.
       {
         userAgent: "*",
         allow: "/",

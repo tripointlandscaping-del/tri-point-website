@@ -74,7 +74,7 @@ export default function ExitIntentPopup() {
           Before You Go...
         </h2>
         <p className="text-gray-500 text-sm leading-relaxed mb-8">
-          Get a free estimate — no obligation, same-day response.
+          Get a free estimate. No obligation, same-day response.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3">

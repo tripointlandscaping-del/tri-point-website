@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { googleReviews, aggregateRatingSchema, reviewCountLabel, FOUNDING_DATE, GBP_URL } from "../lib/business";
+import { googleReviews, aggregateRatingSchema, googleRatingLabel, FOUNDING_DATE, GBP_URL } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "About Us — Macomb County, MI",
-  description: `Tri-Point Landscaping — locally owned, fully insured landscaping in Washington Township & Macomb County, MI. ${googleReviews.rating}★ on Google. Free estimates.`,
+  title: "About Us | Macomb County, MI",
+  description: `Tri-Point Landscaping: locally owned, fully insured landscaping in Washington Township & Macomb County, MI. ${googleReviews.rating}★ on Google. Free estimates.`,
   alternates: {
     canonical: "https://www.tripointlandscaping.com/about",
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/about",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "About Tri-Point Landscaping — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "About Tri-Point Landscaping: Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -32,7 +32,7 @@ const values = [
   {
     word: "Precision",
     letter: "P",
-    desc: "Every edge. Every cut. Every bed. Done right the first time. We treat every property like it's our own — because attention to detail is not optional, it's who we are.",
+    desc: "Every edge. Every cut. Every bed. Done right the first time. We treat every property like it's our own: because attention to detail is not optional, it's who we are.",
   },
   {
     word: "Passion",
@@ -42,14 +42,14 @@ const values = [
   {
     word: "Perfection",
     letter: "P",
-    desc: "Good enough isn't good enough. We hold ourselves to the highest standard on every job — residential or commercial, big or small. If it's not right, we make it right.",
+    desc: "Good enough isn't good enough. We hold ourselves to the highest standard on every job: residential or commercial, big or small. If it's not right, we make it right.",
   },
 ];
 
 const whyLocal = [
   {
     title: "We Live Here",
-    desc: "We're not a national franchise with a call center. We live and work right here in Macomb County — we know these streets, these yards, and these Michigan seasons.",
+    desc: "We're not a national franchise with a call center. We live and work right here in Macomb County. We know these streets, these yards, and these Michigan seasons.",
   },
   {
     title: "We Know Michigan's Climate",
@@ -61,7 +61,7 @@ const whyLocal = [
   },
   {
     title: "Fully Insured LLC",
-    desc: "Tri-Point Landscaping is a registered Michigan LLC, fully insured with general liability and workers' comp. Every job, every crew member, every visit — you're covered.",
+    desc: "Tri-Point Landscaping is a registered Michigan LLC, fully insured with general liability and workers' comp. Every job, every crew member, every visit. You're covered.",
   },
   {
     title: "Consistent Crews",
@@ -69,14 +69,14 @@ const whyLocal = [
   },
   {
     title: "Community Investment",
-    desc: "We care about Macomb County because we're part of it. Every yard we improve makes this community a better place to live — and that matters to us.",
+    desc: "We care about Macomb County because we're part of it. Every yard we improve makes this community a better place to live: and that matters to us.",
   },
 ];
 
 const timeline = [
   { year: "April 2025", title: "Tri-Point gets started", desc: "Tri-Point Landscaping LLC was formed in April 2025, right here in northern Macomb County, with one mission: do the work right, show up when we say we will, and treat every property like our own." },
   { year: "Year-Round", title: "Service through every season", desc: "Seasonal cleanups for homeowners and commercial snow removal for businesses mean our clients are covered through all four Michigan seasons. Same crew. Same standard." },
-  { year: "Today", title: "Growing by word of mouth", desc: `8 services, 8 communities, and ${reviewCountLabel} with a ${googleReviews.rating} rating. We're a young company growing neighbor to neighbor, property to property.` },
+  { year: "Today", title: "Rapidly growing across Macomb & Oakland County", desc: "Highly rated on Google and trusted by property managers and businesses across Macomb and Oakland County. We're rapidly expanding our routes and crews to keep up with demand." },
 ];
 
 const quickFacts = [
@@ -87,10 +87,10 @@ const quickFacts = [
   { label: "Service Area", value: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills" },
   { label: "Phone", value: "(586) 327-8080" },
   { label: "Email", value: "tripointlandscaping@gmail.com" },
-  { label: "Google Rating", value: `${googleReviews.rating} ★ · ${reviewCountLabel}` },
-  { label: "Insurance", value: "Registered Michigan LLC, fully insured — general liability & workers' comp" },
+  { label: "Google Rating", value: `${googleReviews.rating} ★ · ${googleRatingLabel}` },
+  { label: "Insurance", value: "Registered Michigan LLC, fully insured: general liability & workers' comp" },
   { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, lawn aeration & overseeding, commercial landscaping, commercial snow removal" },
-  { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
+  { label: "Free Estimates", value: "Yes, free, no-obligation estimates for all services" },
 ];
 
 export default function AboutPage() {
@@ -130,7 +130,7 @@ export default function AboutPage() {
       { "@type": "City", name: "Rochester Hills, MI" },
     ],
     aggregateRating: aggregateRatingSchema,
-    hasCredential: "Registered Michigan LLC, fully insured — general liability and workers' compensation",
+    hasCredential: "Registered Michigan LLC, fully insured: general liability and workers' compensation",
     sameAs: [GBP_URL],
   };
 
@@ -169,7 +169,7 @@ export default function AboutPage() {
                 &amp; Lawn Care Company.
               </h1>
               <p className="text-xl text-white/65 leading-relaxed max-w-lg mb-8">
-                Not a franchise. Not a call center. A real local crew — fully insured, detail-obsessed, and proud of every yard we touch across northern Macomb County.
+                Not a franchise. Not a call center. A real local crew: fully insured, detail-obsessed, and proud of every yard we touch across northern Macomb County.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center gap-2 text-white px-7 py-3.5 font-semibold hover:opacity-90 transition-opacity text-sm">
@@ -196,13 +196,13 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-5 text-gray-600 leading-relaxed">
                   <p>
-                    Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company serving residential and commercial properties throughout all of northern Macomb County — Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, and beyond.
+                    Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company serving residential and commercial properties throughout all of northern Macomb County: Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, and beyond.
                   </p>
                   <p>
-                    We started with a simple belief: every property in Macomb County deserves the same level of care and attention, regardless of size or budget. That belief drives everything we do — from how we answer the phone to how we clean up after every single job.
+                    We started with a simple belief: every property in Macomb County deserves the same level of care and attention, regardless of size or budget. That belief drives everything we do, from how we answer the phone to how we clean up after every single job.
                   </p>
                   <p>
-                    We&apos;re not a national franchise. When you call us, you talk to us. When something needs fixing, we come back. When we say we&apos;ll be there Thursday at 8, we&apos;re there Thursday at 8. That&apos;s what local accountability looks like — and it&apos;s a standard we refuse to lower.
+                    We&apos;re not a national franchise. When you call us, you talk to us. When something needs fixing, we come back. When we say we&apos;ll be there Thursday at 8, we&apos;re there Thursday at 8. That&apos;s what local accountability looks like, and it&apos;s a standard we refuse to lower.
                   </p>
                 </div>
                 {/* Inline CTA */}
@@ -320,7 +320,7 @@ export default function AboutPage() {
                   How We Got Here
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
-                  Every great company starts somewhere. Ours started right here in northern Macomb County — with a commitment to doing the work right, treating customers with respect, and never settling for mediocre. That hasn&apos;t changed and it never will.
+                  Every great company starts somewhere. Ours started right here in northern Macomb County: with a commitment to doing the work right, treating customers with respect, and never settling for mediocre. That hasn&apos;t changed and it never will.
                 </p>
               </div>
 
@@ -450,7 +450,7 @@ export default function AboutPage() {
               Let&apos;s Transform<br />Your Property
             </h2>
             <p className="text-xl text-white/65 mb-10 max-w-xl mx-auto">
-              Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team — ready to make your property exceptional.
+              Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team, ready to make your property exceptional.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 text-base font-semibold tracking-wide hover:opacity-90 transition-opacity">

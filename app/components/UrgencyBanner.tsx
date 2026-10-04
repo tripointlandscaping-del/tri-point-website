@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { SNOW_QUOTE_HREF } from "../lib/snow";
 
 function getBannerMessage(): string {
   const now = new Date();
@@ -9,11 +10,11 @@ function getBannerMessage(): string {
   const day = now.getDate();
   const mmdd = month * 100 + day; // e.g. March 15 = 315
 
-  if (mmdd >= 301 && mmdd < 515) return "🌿 Spring cleanup spots are filling fast — Book your free estimate now →";
-  if (mmdd >= 515 && mmdd < 701) return "🌳 Landscaping slots are booking up — Get your free estimate now →";
-  if (mmdd >= 701 && mmdd < 1001) return "🌿 Lawn care spots are limited — Book your free estimate now →";
+  if (mmdd >= 301 && mmdd < 515) return "🌿 Spring cleanup spots are filling fast. Book your free estimate now →";
+  if (mmdd >= 515 && mmdd < 701) return "🌳 Landscaping slots are booking up. Get your free estimate now →";
+  if (mmdd >= 701 && mmdd < 1001) return "🌿 Lawn care spots are limited. Book your free estimate now →";
   // October 1 through end of February
-  return "❄️ Now booking commercial snow contracts for parking lots & walkways — Get a quote →";
+  return "❄️ Now booking 2026/27 commercial snow contracts. Limited route capacity. Get a quote →";
 }
 
 export default function UrgencyBanner() {
@@ -28,7 +29,7 @@ export default function UrgencyBanner() {
     >
       <p className="leading-snug">
         <Link
-          href="/contact"
+          href={getBannerMessage().startsWith("❄️") ? SNOW_QUOTE_HREF : "/contact"}
           className="font-semibold underline underline-offset-2 hover:text-[#7ecb82] transition-colors"
         >
           {getBannerMessage()}

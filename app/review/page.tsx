@@ -11,20 +11,20 @@ const shownReviews = ["Jovan H.", "Master Cheese", "Douglas T."].map(
 
 export const metadata: Metadata = {
   title: "Leave a Google Review",
-  description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
+  description: "Loved your Tri-Point Landscaping experience? Leave us a Google review. It takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
   alternates: { canonical: "https://www.tripointlandscaping.com/review" },
   openGraph: {
     title: "Rate Tri-Point Landscaping | Leave a Google Review",
-    description: "Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
+    description: "Leave us a Google review. It takes 30 seconds and helps other Macomb County homeowners find us.",
     url: "https://www.tripointlandscaping.com/review",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Leave a Review" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping: Leave a Review" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Rate Tri-Point Landscaping | Leave a Google Review",
-    description: "Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
+    description: "Leave us a Google review. It takes 30 seconds and helps other Macomb County homeowners find us.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
@@ -34,7 +34,7 @@ const steps = [
   { number: "2", text: "Sign in to your Google account if prompted" },
   { number: "3", text: "Select your star rating (we hope it's 5!)" },
   { number: "4", text: "Write a few words about your experience" },
-  { number: "5", text: "Hit Post — done in under a minute" },
+  { number: "5", text: "Hit Post: done in under a minute" },
 ];
 
 const prompts = [
@@ -69,7 +69,7 @@ export default function ReviewPage() {
       <Navbar />
       <main style={{ backgroundColor: "#0d0d0d" }}>
 
-        {/* Hero — two clear paths */}
+        {/* Hero, two clear paths */}
         <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto text-center">
             <div className="text-5xl mb-6">⭐⭐⭐⭐⭐</div>
@@ -77,7 +77,7 @@ export default function ReviewPage() {
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               className="text-4xl sm:text-5xl font-bold text-white mb-5"
             >
-              Review Tri-Point Landscaping — Macomb County, MI
+              Review Tri-Point Landscaping: Macomb County, MI
             </h1>
             <p className="text-white/55 text-lg leading-relaxed mb-12 max-w-xl mx-auto">
               Tell us how we did. Choose the option that fits your experience below.
@@ -115,7 +115,7 @@ export default function ReviewPage() {
                 <div className="text-3xl mb-4">😟</div>
                 <h2 className="text-xl font-bold text-white mb-2">Something Wasn&apos;t Right</h2>
                 <p className="text-white/50 text-sm leading-relaxed mb-6 flex-1">
-                  We want to make it right before anything else. Please reach out directly — we&apos;re a small local business and we take every job seriously.
+                  We want to make it right before anything else. Please reach out directly. We&apos;re a small local business and we take every job seriously.
                 </p>
                 <div className="flex flex-col gap-3">
                   <a

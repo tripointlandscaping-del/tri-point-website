@@ -6,12 +6,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const POSTS_FILE = join(__dirname, "../app/blog/posts.ts");
 const QUEUE_FILE = join(__dirname, "topic-queue.json");
 
-// Review rating/count live in app/lib/business.ts — read them so this script stays in sync.
+// Review rating/count live in app/lib/business.ts, read them so this script stays in sync.
 const businessSource = readFileSync(join(__dirname, "../app/lib/business.ts"), "utf-8");
 const REVIEW_RATING = businessSource.match(/rating:\s*([\d.]+)/)[1];
-const REVIEW_COUNT = businessSource.match(/count:\s*(\d+)/)[1];
 
-// All allowed categories — must match exactly
+// All allowed categories, must match exactly
 const ALLOWED_CATEGORIES = [
   "Lawn Care",
   "Landscaping",
@@ -122,6 +121,16 @@ const TOPIC_POOL = [
   { topic: "How much does fall cleanup cost in Macomb County in 2026", category: "Seasonal" },
 
   // ── SNOW & ICE ──
+  { topic: "Commercial snow removal for HOAs in Shelby Township: a board's winter planning guide", category: "Commercial" },
+  { topic: "Snow and ice planning for medical offices in Rochester Hills", category: "Snow & Ice" },
+  { topic: "Commercial snow plowing for retail plazas in Macomb Township", category: "Snow & Ice" },
+  { topic: "Church parking lots and Sunday-morning snow in Washington Township", category: "Snow & Ice" },
+  { topic: "Snow removal planning for office buildings in Rochester", category: "Snow & Ice" },
+  { topic: "Industrial and warehouse lot snow plowing in Macomb County: docks, trucks, and shift changes", category: "Commercial" },
+  { topic: "Parking lot salting basics for Michigan businesses: when and where to salt", category: "Snow & Ice" },
+  { topic: "How to budget for a commercial snow contract without guessing", category: "Commercial" },
+  { topic: "Sidewalk and entrance snow removal for Michigan businesses: what property managers should check", category: "Snow & Ice" },
+  { topic: "Choosing a commercial snow removal contractor in Oakland County: questions for property managers", category: "Commercial" },
   { topic: "Commercial Snow Removal in Washington Township, MI: A Guide for Property Managers", category: "Snow & Ice" },
   { topic: "Commercial Snow Removal in Shelby Township, MI: Keeping Plazas and Offices Open", category: "Snow & Ice" },
   { topic: "Commercial Snow Removal in Rochester, MI: What Downtown and Business Owners Need to Know", category: "Snow & Ice" },
@@ -236,7 +245,7 @@ function loadQueue() {
     try {
       return JSON.parse(readFileSync(QUEUE_FILE, "utf8"));
     } catch {
-      // corrupt file — start fresh
+      // corrupt file. Start fresh
     }
   }
   return { usedTopics: [] };
@@ -258,7 +267,7 @@ async function generatePosts() {
 
   // If every topic has been used once, reset the queue so the cycle begins again
   if (queue.usedTopics.length >= TOPIC_POOL.length) {
-    console.log("🔄 Full cycle complete — resetting topic queue for next rotation.");
+    console.log("🔄 Full cycle complete, resetting topic queue for next rotation.");
     queue.usedTopics = [];
   }
 
@@ -267,7 +276,7 @@ async function generatePosts() {
 
   if (remaining.length === 0) {
     // Shouldn't happen after reset above, but safety net
-    console.log("⚠️ No remaining topics — skipping.");
+    console.log("⚠️ No remaining topics, skipping.");
     process.exit(0);
   }
 
@@ -304,24 +313,27 @@ async function generatePosts() {
 
   const prompt = `You are a professional content writer for Tri-Point Landscaping, a highly-rated local landscaping company based in Washington Township, Macomb County, Michigan. Phone: (586) 327-8080. Website: tripointlandscaping.com.
 
-COMPANY FACTS — never contradict these or invent others:
+COMPANY FACTS. Never contradict these or invent others:
 - Founded in April 2025. Never say or imply Tri-Point has been in business "for years", "for decades", or since any earlier date.
 - Registered Michigan LLC, fully insured (general liability and workers' comp). Never call the company "licensed".
-- Reviews: say "${REVIEW_COUNT} Google reviews" with a ${REVIEW_RATING} rating. Never say "five-star reviews".
+- Reviews: say Tri-Point is highly rated on Google (${REVIEW_RATING} rating). Never state a review count and never say "five-star reviews".
 - Business hours 7am to 9pm daily; customers can call or text 24/7.
 - Lawn mowing costs $40–$100 per cut depending on property size. Don't quote other mowing prices.
 - Never mention the owner's name.
+- Never quote prices for snow removal, salting, or any service other than the mowing price above. Don't invent statistics, snowfall numbers, client names, or years in business.
+- Don't state laws, legal requirements, or court cases. Keep liability content general and suggest talking to an insurance agent or attorney.
+- Never use em dashes (the long dash character) anywhere: title, description, or content. Use commas, periods, or colons instead.
 - Snow removal is COMMERCIAL ONLY (property managers, HOAs, retail plazas, offices, churches, medical offices, industrial lots). Never offer or imply residential or driveway snow plowing. Lawn care and landscaping are residential and commercial.
 
 Write ONE detailed, genuinely helpful blog post on this topic: "${topic}"
 
-WRITING GUIDELINES — follow these exactly:
+WRITING GUIDELINES, follow these exactly:
 
 TONE & QUALITY:
 - Write like a knowledgeable local expert talking to a neighbor, not a corporate website
-- Be specific and practical — give real advice people can actually use today
+- Be specific and practical, give real advice people can actually use today
 - Use exact details: specific temperatures, dates, measurements, product types
-- Avoid vague filler like "it's important to..." — just say what to do and why
+- Avoid vague filler like "it's important to..". Just say what to do and why
 - Every paragraph should teach the reader something they didn't know
 
 STRUCTURE:
@@ -340,7 +352,7 @@ SEO:
 - Write for humans first, Google second
 
 CALL TO ACTION (final section):
-- Don't just say "contact us" — give a reason why NOW is the right time
+- Don't just say "contact us", give a reason why NOW is the right time
 - Reference the season or specific timing
 - Link to [contact Tri-Point Landscaping](/contact) and mention [(586) 327-8080](tel:+15863278080)
 - Mention that estimates are free
@@ -356,7 +368,7 @@ Return ONLY a valid JSON object (no markdown fencing, no explanation) with these
   "content": "full article content here"
 }
 
-IMPORTANT: The category field MUST be exactly "${suggestedCategory}" — do not change it.`;
+IMPORTANT: The category field MUST be exactly "${suggestedCategory}". Do not change it.`;
 
   const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -388,13 +400,19 @@ IMPORTANT: The category field MUST be exactly "${suggestedCategory}" — do not 
 
   if (!post.slug || !post.content) throw new Error("Invalid post returned from API");
 
-  // Force correct date and category — never trust the model
+  // Force correct date and category. Never trust the model
   post.date = publishDate;
   post.category = suggestedCategory;
 
+  // Safety net: the site never uses em dashes. Titles get a colon, everything else a comma.
+  const stripEmDashes = (text, sep) => text.replace(/\s*—\s*/g, sep);
+  post.title = stripEmDashes(post.title, ": ");
+  post.description = stripEmDashes(post.description, ", ");
+  post.content = stripEmDashes(post.content, ", ");
+
   // Hard reject duplicate slugs
   if (existingSlugs.has(post.slug)) {
-    console.log(`⚠️ Duplicate slug "${post.slug}" — marking topic used and skipping.`);
+    console.log(`⚠️ Duplicate slug "${post.slug}", marking topic used and skipping.`);
     queue.usedTopics.push(topic);
     saveQueue(queue);
     process.exit(0);

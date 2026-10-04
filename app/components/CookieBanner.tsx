@@ -24,7 +24,7 @@ export default function CookieBanner() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-20 md:bottom-6 left-0 right-0 z-50 px-4 flex justify-center pointer-events-none">
+    <div className="fixed left-0 right-0 z-50 px-4 flex justify-center pointer-events-none" style={{ bottom: "calc(var(--sticky-bar-h) + 16px)" }}>
       <div
         className="w-full max-w-2xl pointer-events-auto flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 sm:p-5 shadow-2xl border border-white/10"
         style={{ backgroundColor: "#1a1a1a" }}

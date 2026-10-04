@@ -9,11 +9,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
 
-          {/* Brand — 4 cols */}
+          {/* Brand: 4 cols */}
           <div className="lg:col-span-4">
             <Image
               src="/logo-white.png"
-              alt="Tri-Point Landscaping LLC — Macomb County, Michigan"
+              alt="Tri-Point Landscaping LLC: Macomb County, Michigan"
               width={200}
               height={65}
               className="h-14 w-auto mb-5"
@@ -25,7 +25,7 @@ export default function Footer() {
               Precision. Passion. Perfection.
             </p>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
-              Macomb County&apos;s trusted landscaping company. Fully insured, locally owned, and committed to excellence on every property we touch — Washington Township, Shelby Township, Macomb Township &amp; beyond.
+              Macomb County&apos;s trusted landscaping company. Fully insured, locally owned, and committed to excellence on every property we touch: Washington Township, Shelby Township, Macomb Township &amp; beyond.
             </p>
 
             {/* Trust badges */}
@@ -90,7 +90,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services — 3 cols */}
+          {/* Services: 3 cols */}
           <div className="lg:col-span-3">
             <h3 className="text-xs font-bold text-white/40 uppercase tracking-[0.15em] mb-5">Our Services</h3>
             <ul className="space-y-3">
@@ -114,7 +114,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Service Areas — 2 cols */}
+          {/* Service Areas: 2 cols */}
           <div className="lg:col-span-2">
             <h3 className="text-xs font-bold text-white/40 uppercase tracking-[0.15em] mb-5">Service Areas</h3>
             <ul className="space-y-3">
@@ -138,7 +138,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact — 3 cols */}
+          {/* Contact: 3 cols */}
           <div className="lg:col-span-3">
             <h3 className="text-xs font-bold text-white/40 uppercase tracking-[0.15em] mb-5">Get In Touch</h3>
             <div className="space-y-4 mb-7">
@@ -223,7 +223,7 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/25">
           <p>© {new Date().getFullYear()} Tri-Point Landscaping LLC · Macomb County, Michigan · All rights reserved.</p>
-          <div className="flex items-center gap-5">
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
             <Link href="/gallery" className="hover:text-white/60 transition-colors">Gallery</Link>
             <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
             <Link href="/referral" className="hover:text-white/60 transition-colors">Referral Program</Link>

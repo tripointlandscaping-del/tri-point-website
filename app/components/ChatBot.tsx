@@ -162,8 +162,8 @@ export default function ChatBot() {
       {/* ── Teaser bubble ── */}
       {showTeaser && !open && !teaserDismissed && (
         <div
-          className="fixed bottom-24 right-4 sm:right-6 z-50 w-72 shadow-2xl overflow-hidden"
-          style={{ animation: "chatSlideUp 0.35s ease forwards" }}
+          className="fixed right-4 sm:right-6 z-50 w-72 shadow-2xl overflow-hidden"
+          style={{ animation: "chatSlideUp 0.35s ease forwards", bottom: "calc(var(--sticky-bar-h) + 88px)" }}
         >
           <div style={{ backgroundColor: "#111111" }} className="px-4 py-3 flex items-center gap-3">
             <div className="relative shrink-0">
@@ -195,7 +195,7 @@ export default function ChatBot() {
       )}
 
       {/* ── Launcher button ── */}
-      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50">
+      <div className="fixed right-4 sm:right-6 z-50" style={{ bottom: "calc(var(--sticky-bar-h) + 16px)" }}>
         <button
           onClick={open ? () => setOpen(false) : handleOpen}
           className="relative flex items-center gap-2.5 shadow-2xl hover:scale-105 transition-transform px-4 py-3"
@@ -238,7 +238,7 @@ export default function ChatBot() {
         <div
           className="fixed z-50 flex flex-col shadow-2xl overflow-hidden"
           style={{
-            bottom: "var(--chat-bottom, 80px)",
+            bottom: "var(--chat-bottom, calc(var(--sticky-bar-h) + 80px))",
             right: "var(--chat-right, 16px)",
             width: "var(--chat-width, 100vw)",
             maxWidth: "var(--chat-max, 375px)",

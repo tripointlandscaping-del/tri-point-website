@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { googleReviews, reviewCountLabel } from "../lib/business";
+import { googleReviews, googleRatingLabel } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Landscaping & Lawn Care Services — Macomb County",
+  title: "Landscaping & Lawn Care Services | Macomb County",
   description:
     "Professional landscaping, lawn care, hardscaping & snow removal in Macomb County, MI. Lawn maintenance, mulch, seasonal cleanup & more. Free estimates.",
   alternates: { canonical: "https://www.tripointlandscaping.com/services" },
   openGraph: {
-    title: "Landscaping & Lawn Care Services — Macomb County | Tri-Point",
+    title: "Landscaping & Lawn Care Services | Macomb County | Tri-Point",
     description:
       "Professional lawn care, landscaping, hardscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Locally owned. Free estimates.",
     url: "https://www.tripointlandscaping.com/services",
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
         url: "https://www.tripointlandscaping.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Tri-Point Landscaping Services — Macomb County MI",
+        alt: "Tri-Point Landscaping Services: Macomb County MI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscaping & Lawn Care Services — Macomb County | Tri-Point",
+    title: "Landscaping & Lawn Care Services | Macomb County | Tri-Point",
     description:
       "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Free estimates.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
@@ -38,12 +38,12 @@ const services = [
   {
     name: "Lawn Maintenance",
     slug: "lawn-maintenance",
-    desc: "Weekly mowing, edging, trimming, and blowing to keep your property looking sharp all season long. Our crews arrive on a consistent schedule so you never have to chase us down. No contracts required — just reliable service every visit.",
+    desc: "Weekly mowing, edging, trimming, and blowing to keep your property looking sharp all season long. Our crews arrive on a consistent schedule so you never have to chase us down. No contracts required. Just reliable service every visit.",
   },
   {
     name: "Landscaping & Design",
     slug: "landscaping",
-    desc: "Custom landscape design and installation — beds, borders, plantings, and curb appeal transformations that last. We work with your budget and your vision to create a look that fits your home. From a simple bed refresh to a full front-yard makeover, we handle every detail.",
+    desc: "Custom landscape design and installation: beds, borders, plantings, and curb appeal transformations that last. We work with your budget and your vision to create a look that fits your home. From a simple bed refresh to a full front-yard makeover, we handle every detail.",
   },
   {
     name: "Mulch & Stone",
@@ -68,14 +68,14 @@ const services = [
   {
     name: "Hardscaping",
     slug: "hardscaping",
-    desc: "Patios, walkways, retaining walls, fire pits, and outdoor living spaces — designed and built to complement your landscape. Our hardscaping work adds permanent value and function to your outdoor space. From a simple brick walkway to a full patio build, we manage the entire project.",
+    desc: "Patios, walkways, retaining walls, fire pits, and outdoor living spaces, designed and built to complement your landscape. Our hardscaping work adds permanent value and function to your outdoor space. From a simple brick walkway to a full patio build, we manage the entire project.",
   },
 ];
 
 const servicesListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Tri-Point Landscaping Services — Macomb County, MI",
+  name: "Tri-Point Landscaping Services: Macomb County, MI",
   itemListElement: services.map((s, i) => ({
     "@type": "ListItem",
     position: i + 1,
@@ -128,7 +128,7 @@ export default function ServicesPage() {
             <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-white text-center">
               <div className="flex items-center gap-2">
                 <span className="text-yellow-300">★★★★★</span>
-                <span className="font-semibold">{googleReviews.rating} Google Rating · {reviewCountLabel}</span>
+                <span className="font-semibold">{googleReviews.rating} · {googleRatingLabel}</span>
               </div>
               <div className="hidden sm:block w-px h-4 bg-white/25" />
               <span>✓ Free Estimates on All Services</span>
@@ -152,7 +152,7 @@ export default function ServicesPage() {
                 Complete Lawn &amp; Landscaping Services
               </h2>
               <p className="text-gray-500 text-sm mt-4 max-w-xl mx-auto">
-                One company for every outdoor need — from weekly mowing to full hardscaping builds. All services backed by our {googleReviews.rating}★ Google rating.
+                One company for every outdoor need, from weekly mowing to full hardscaping builds. All services backed by our {googleReviews.rating}★ Google rating.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -188,7 +188,7 @@ export default function ServicesPage() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {[
-                  { heading: "You Talk to the Owner", body: "Not a call center. When you call or text, you reach the crew that actually does the work — fast answers, no runaround." },
+                  { heading: "You Talk to the Owner", body: "Not a call center. When you call or text, you reach the crew that actually does the work: fast answers, no runaround." },
                   { heading: "Same Crew Every Time", body: "Consistent faces who know your property. No relearning your preferences. No surprises on service day." },
                   { heading: "We Haul Everything Away", body: "No piles left at the curb, no debris in your driveway. Every cleanup job leaves your property completely clear." },
                 ].map((item) => (

@@ -4,21 +4,21 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Landscaping Service Areas — Macomb County, MI",
+  title: "Landscaping Service Areas | Macomb County, MI",
   description:
     "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills. Lawn care, landscaping & commercial snow removal. Free estimates.",
   alternates: { canonical: "https://www.tripointlandscaping.com/service-areas" },
   openGraph: {
-    title: "Lawn Care & Landscaping Service Areas — Macomb & Oakland County | Tri-Point",
+    title: "Lawn Care & Landscaping Service Areas | Macomb & Oakland County | Tri-Point",
     description: "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Rochester Hills, Rochester & more. Free estimates across Macomb County and Oakland County.",
     url: "https://www.tripointlandscaping.com/service-areas",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Service Areas — Macomb County and Oakland County MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Service Areas: Macomb County and Oakland County MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lawn Care & Landscaping Service Areas — Macomb & Oakland County | Tri-Point",
+    title: "Lawn Care & Landscaping Service Areas | Macomb & Oakland County | Tri-Point",
     description: "Serving Washington Township, Shelby Township, Macomb Township, Romeo, Rochester Hills, Rochester & more.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
@@ -58,7 +58,7 @@ const areas = [
   {
     name: "Bruce Township",
     slug: "bruce-township",
-    desc: "Northern Macomb County properties — from acreage lots to newer subdivisions in Bruce Township.",
+    desc: "Northern Macomb County properties: from acreage lots to newer subdivisions in Bruce Township.",
     zip: "48065",
   },
 ];
@@ -86,10 +86,10 @@ export default function ServiceAreasPage() {
         <section className="bg-black text-white py-20 px-6 text-center">
           <p className="text-green-400 uppercase tracking-widest text-sm mb-3">Where We Work</p>
           <h1 className="text-4xl md:text-5xl font-bold font-playfair mb-4">
-            Landscaping Service Areas — Macomb County &amp; Oakland County, MI
+            Landscaping Service Areas: Macomb County &amp; Oakland County, MI
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Locally owned and operated in Washington Township. We serve eight communities across Macomb County and Oakland County — from Romeo to Rochester Hills.
+            Locally owned and operated in Washington Township. We serve eight communities across Macomb County and Oakland County, from Romeo to Rochester Hills.
           </p>
         </section>
 

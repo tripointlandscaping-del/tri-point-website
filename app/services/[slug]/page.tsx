@@ -7,6 +7,8 @@ import Footer from "../../components/Footer";
 import FaqAccordion from "../../components/FaqAccordion";
 import { activePosts as posts } from "../../blog/activePosts";
 import { aggregateRatingSchema } from "../../lib/business";
+import PropertyManagerSection from "../../components/PropertyManagerSection";
+import { SNOW_QUOTE_HREF, SNOW_URGENCY, snowCities, propertyTypes, snowGuideSlugs } from "../../lib/snow";
 
 const serviceBlogMap: Record<string, string[]> = {
   "lawn-maintenance": [
@@ -53,6 +55,7 @@ type ServiceData = {
   heroImage?: string;
   heroAlt?: string;
   ctaLabel?: string;
+  absoluteTitle?: string; // full <title> without the layout template
   heroTagline: string;
   intro: string;
   bodyParagraph: string;
@@ -67,16 +70,16 @@ type ServiceData = {
 const services: Record<string, ServiceData> = {
   "lawn-maintenance": {
     title: "Lawn Maintenance in Macomb County, MI",
-    metaTitle: "Lawn Mowing & Grass Cutting — Macomb County, MI",
+    metaTitle: "Lawn Mowing & Grass Cutting | Macomb County, MI",
     metaDescription:
-      "Professional lawn mowing, grass cutting, and lawn care throughout Macomb County, MI — Washington Township, Shelby Township & beyond. Weekly mowing, edging, trimming & blowing. Free estimates. Call (586) 327-8080.",
+      "Professional lawn mowing, grass cutting, and lawn care throughout Macomb County, MI: Washington Township, Shelby Township & beyond. Weekly mowing, edging, trimming & blowing. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/lawn-stripe-hero.jpeg",
     heroAlt: "Perfectly striped backyard lawn maintained by Tri-Point Landscaping in Macomb County Michigan",
     heroTagline: "Weekly Mowing · Edging · Trimming · Blowing",
     intro:
-      "A well-maintained lawn doesn't happen by accident. At Tri-Point Landscaping, we provide consistent, professional lawn maintenance for residential and commercial properties throughout Washington Township, Shelby Township, and Macomb County. From the first cut in spring to the last trim in fall, your lawn gets the attention it deserves — every single visit.",
+      "A well-maintained lawn doesn't happen by accident. At Tri-Point Landscaping, we provide consistent, professional lawn maintenance for residential and commercial properties throughout Washington Township, Shelby Township, and Macomb County. From the first cut in spring to the last trim in fall, your lawn gets the attention it deserves. Every single visit.",
     bodyParagraph:
-      "Michigan lawns have a short but demanding growing season. Inconsistent mowing height, missed edging, and neglected clippings cause real damage — uneven turf, weed invasion, and a tired appearance that brings down the whole neighborhood. Our crew arrives on a consistent schedule, uses commercial-grade equipment maintained to professional standards, and treats every property like it's their own. Whether you're in a Stony Creek Meadows subdivision or a commercial corridor off Van Dyke, the result is the same: clean, sharp, and healthy.",
+      "Michigan lawns have a short but demanding growing season. Inconsistent mowing height, missed edging, and neglected clippings cause real damage: uneven turf, weed invasion, and a tired appearance that brings down the whole neighborhood. Our crew arrives on a consistent schedule, uses commercial-grade equipment maintained to professional standards, and treats every property like it's their own. Whether you're in a Stony Creek Meadows subdivision or a commercial corridor off Van Dyke, the result is the same: clean, sharp, and healthy.",
     included: [
       "Weekly or bi-weekly mowing at the correct height for your grass type",
       "Clean edging along driveways, sidewalks, curbs & landscape beds",
@@ -84,13 +87,13 @@ const services: Record<string, ServiceData> = {
       "Blowing clippings off all hard surfaces after every visit",
       "Mulching clippings back into the turf for natural fertilization",
       "Consistent same-day scheduling (weather permitting)",
-      "Reliable communication — you always know when we're coming",
+      "Reliable communication. You always know when we're coming",
     ],
     benefits: [
       { title: "Healthier Turf", desc: "Regular mowing at the correct height promotes thick, healthy grass that naturally crowds out weeds and handles Michigan heat." },
       { title: "Superior Curb Appeal", desc: "A freshly mowed and edged lawn is one of the fastest ways to improve your property's appearance and neighborhood standing." },
       { title: "Your Time Back", desc: "Stop spending weekends behind a mower. Let Tri-Point handle it so you can enjoy your yard instead of maintaining it." },
-      { title: "Commercial-Grade Equipment", desc: "We use professional, well-maintained equipment that delivers a precise, even cut every single time — no scalping, no streaks." },
+      { title: "Commercial-Grade Equipment", desc: "We use professional, well-maintained equipment that delivers a precise, even cut every single time. No scalping, no streaks." },
     ],
     faqs: [
       { q: "How often will you mow my lawn?", a: "Most residential lawns in Macomb County are mowed weekly during the growing season (late April through October). We also offer bi-weekly mowing based on your grass type and growth rate. We'll help you determine the right frequency during your free estimate." },
@@ -99,8 +102,8 @@ const services: Record<string, ServiceData> = {
       { q: "What if it rains on my scheduled mowing day?", a: "We monitor weather closely and will reschedule within 24–48 hours if conditions prevent mowing. We'll always keep you informed. Michigan weather is unpredictable, so we plan around it." },
       { q: "Do you offer seasonal lawn maintenance contracts?", a: "Yes. Our full-season packages cover April through October and offer better value than per-visit pricing. We also offer bundled packages that include mulch, cleanups, and other services. Contact us for package pricing." },
       { q: "What areas of Macomb County do you serve for lawn maintenance?", a: "We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills throughout Macomb County and Oakland County." },
-      { q: "Do you offer grass cutting and lawn mowing near me?", a: "Yes — whether you call it lawn mowing, grass cutting, lawn care, lawn cutting, or yard service, we provide exactly that throughout Macomb County and Oakland County, MI. We mow, edge, trim, and blow your property clean on a consistent weekly or bi-weekly schedule." },
-      { q: "How much does lawn mowing cost in Macomb County, MI?", a: "Lawn mowing pricing in Macomb County depends on your property size, grass type, and service frequency. We don't believe in one-size-fits-all pricing — every quote is based on your specific property after a free on-site estimate. Call (586) 327-8080 or request an estimate online and we'll give you a clear, upfront price with no obligation." },
+      { q: "Do you offer grass cutting and lawn mowing near me?", a: "Yes, whether you call it lawn mowing, grass cutting, lawn care, lawn cutting, or yard service, we provide exactly that throughout Macomb County and Oakland County, MI. We mow, edge, trim, and blow your property clean on a consistent weekly or bi-weekly schedule." },
+      { q: "How much does lawn mowing cost in Macomb County, MI?", a: "Lawn mowing pricing in Macomb County depends on your property size, grass type, and service frequency. We don't believe in one-size-fits-all pricing. Every quote is based on your specific property after a free on-site estimate. Call (586) 327-8080 or request an estimate online and we'll give you a clear, upfront price with no obligation." },
     ],
     image2: "/photos/lawn-mow-2.jpeg",
     image2Alt: "Backyard lawn with precision stripe mowing pattern by Tri-Point Landscaping in Macomb County Michigan",
@@ -112,7 +115,7 @@ const services: Record<string, ServiceData> = {
   },
   "landscaping": {
     title: "Landscaping Services in Macomb County, MI",
-    metaTitle: "Landscaping & Landscape Design — Macomb County, MI",
+    metaTitle: "Landscaping & Landscape Design | Macomb County, MI",
     metaDescription:
       "Professional landscaping, landscape design, and yard transformations throughout Macomb County, MI. Planting beds, curb appeal, stone features, sod & more. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
@@ -121,10 +124,10 @@ const services: Record<string, ServiceData> = {
     intro:
       "Your outdoor space should be beautiful, functional, and built to last. Tri-Point Landscaping designs and installs custom landscapes for residential and commercial properties throughout Macomb County. Whether you're starting from scratch or refreshing an existing space, we bring your vision to life with quality craftsmanship and plants suited for Michigan's climate.",
     bodyParagraph:
-      "A great landscape does more than look good — it works with your property's grade, drainage, and sun exposure to create something that thrives long after installation day. We select plants proven to survive Macomb County's Zone 5/6 climate and winter freeze-thaw cycles, and we pair them with hardscape elements — stone, mulch, edging — that give the installation structure and longevity. Every project includes an on-site consultation so we understand your goals before we touch a single shovel.",
+      "A great landscape does more than look good. It works with your property's grade, drainage, and sun exposure to create something that thrives long after installation day. We select plants proven to survive Macomb County's Zone 5/6 climate and winter freeze-thaw cycles, and we pair them with hardscape elements (stone, mulch, edging) that give the installation structure and longevity. Every project includes an on-site consultation so we understand your goals before we touch a single shovel.",
     included: [
       "Custom landscape bed design and creation",
-      "Planting — annuals, perennials, ornamental grasses, shrubs & trees",
+      "Planting: annuals, perennials, ornamental grasses, shrubs & trees",
       "Sod installation and soil preparation",
       "Stepping stone and walkway installation",
       "Mulch, river rock & decorative stone installation",
@@ -133,20 +136,20 @@ const services: Record<string, ServiceData> = {
       "On-site design consultation",
     ],
     benefits: [
-      { title: "Boost Property Value", desc: "Professional landscaping increases home value by up to 15% — one of the highest-ROI improvements available to Macomb County homeowners." },
+      { title: "Boost Property Value", desc: "Professional landscaping increases home value by up to 15%: one of the highest-ROI improvements available to Macomb County homeowners." },
       { title: "Michigan-Ready Plants", desc: "We select species proven to thrive in Macomb County's soil and climate, so your investment looks great year after year." },
       { title: "Fully Custom", desc: "Every landscape we design is tailored to your property, your style, and your budget. No templates, no shortcuts." },
-      { title: "Turnkey Installation", desc: "We handle everything — design, materials, delivery, installation, and cleanup. You just enjoy the result." },
+      { title: "Turnkey Installation", desc: "We handle everything: design, materials, delivery, installation, and cleanup. You just enjoy the result." },
     ],
     faqs: [
       { q: "Do you offer landscape design consultations?", a: "Yes. We work closely with every client on-site to understand their vision, assess the property, and develop a customized design before any installation begins. This ensures the finished product looks exactly as intended." },
       { q: "When is the best time to install landscaping in Michigan?", a: "Spring (April–June) is ideal for most planting, mulch, and stone projects. Fall is excellent for aeration, overseeding, and certain plantings. We assess your specific project any time of year and advise on optimal timing." },
-      { q: "What types of plants do you install?", a: "We install annuals, perennials, ornamental grasses, flowering shrubs, evergreens, and ornamental trees — all selected for compatibility with Michigan's Zone 5/6 climate and your property's specific conditions." },
+      { q: "What types of plants do you install?", a: "We install annuals, perennials, ornamental grasses, flowering shrubs, evergreens, and ornamental trees. All selected for compatibility with Michigan's Zone 5/6 climate and your property's specific conditions." },
       { q: "Can you renovate an existing landscape?", a: "Absolutely. Landscape renovation is one of our most requested services. We refresh existing beds, remove overgrown plants, add new features, and bring tired landscapes back to life. The transformation is often dramatic." },
-      { q: "Do you do cleanup after the project?", a: "Yes. We leave your property completely clean — all debris, packaging, and excess material removed. You walk out and see the finished result, nothing else." },
+      { q: "Do you do cleanup after the project?", a: "Yes. We leave your property completely clean. All debris, packaging, and excess material removed. You walk out and see the finished result, nothing else." },
       { q: "Do you install sod?", a: "Yes. We prepare the soil properly and install sod for new lawns, repair patches, or complete yard installations. Proper soil prep is the key to sod that roots quickly and lasts." },
-      { q: "Are you a landscaper near me in Macomb County or Oakland County?", a: "Yes — we are a local landscaping company serving Macomb County and Oakland County, Michigan. Whether you're searching for a landscaper, landscape designer, yard work company, or curb appeal contractor near you in Washington Township, Shelby Township, Rochester Hills, or surrounding areas, Tri-Point Landscaping is your local option." },
-      { q: "How much does landscaping cost in Macomb County, MI?", a: "Landscaping costs depend heavily on project scope — a simple bed refresh looks very different from a full yard installation. Every project gets a free on-site consultation and a detailed quote before any work begins. Call (586) 327-8080 or request an estimate online and we'll walk your property and give you a clear price with no obligation." },
+      { q: "Are you a landscaper near me in Macomb County or Oakland County?", a: "Yes, we are a local landscaping company serving Macomb County and Oakland County, Michigan. Whether you're searching for a landscaper, landscape designer, yard work company, or curb appeal contractor near you in Washington Township, Shelby Township, Rochester Hills, or surrounding areas, Tri-Point Landscaping is your local option." },
+      { q: "How much does landscaping cost in Macomb County, MI?", a: "Landscaping costs depend heavily on project scope, a simple bed refresh looks very different from a full yard installation. Every project gets a free on-site consultation and a detailed quote before any work begins. Call (586) 327-8080 or request an estimate online and we'll walk your property and give you a clear price with no obligation." },
     ],
     image2: "/photos/IMG_4417.jpeg",
     image2Alt: "Custom stepping stone path and landscape installation by Tri-Point Landscaping in Macomb County",
@@ -158,16 +161,16 @@ const services: Record<string, ServiceData> = {
   },
   "mulch-and-stone": {
     title: "Mulch & Decorative Stone Installation in Macomb County, MI",
-    metaTitle: "Mulch Delivery & Installation — Macomb County, MI",
+    metaTitle: "Mulch Delivery & Installation | Macomb County, MI",
     metaDescription:
       "Professional mulch delivery, mulch installation, and decorative rock & stone throughout Macomb County, MI. Black mulch, brown mulch, cedar, river rock, bed edging & more. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/mulch1.jpeg",
     heroAlt: "Fresh mulch installation in landscape beds in Washington Township Michigan",
     heroTagline: "Mulch Installation · Decorative Stone · Bed Edging",
     intro:
-      "Fresh mulch is one of the fastest, most cost-effective ways to transform your property's curb appeal. Tri-Point Landscaping installs mulch and decorative stone for residential and commercial properties throughout Macomb County — cleanly applied, sharply edged, and built to endure Michigan's seasons.",
+      "Fresh mulch is one of the fastest, most cost-effective ways to transform your property's curb appeal. Tri-Point Landscaping installs mulch and decorative stone for residential and commercial properties throughout Macomb County: cleanly applied, sharply edged, and built to endure Michigan's seasons.",
     bodyParagraph:
-      "We see a lot of properties where the bones are great but the mulch is faded, decomposed, or missing entirely. It makes the whole landscape look neglected even when everything else is maintained. Fresh mulch with clean, crisp bed edging is a one-day investment that pays off every single day in curb appeal. We offer multiple mulch types — shredded hardwood, dyed black, dyed brown, cedar, and natural wood chip — so you choose the look that matches your property. Our crews install it properly: right depth, clean edges, and no mess left behind.",
+      "We see a lot of properties where the bones are great but the mulch is faded, decomposed, or missing entirely. It makes the whole landscape look neglected even when everything else is maintained. Fresh mulch with clean, crisp bed edging is a one-day investment that pays off every single day in curb appeal. We offer multiple mulch types (shredded hardwood, dyed black, dyed brown, cedar, and natural wood chip) so you choose the look that matches your property. Our crews install it properly: right depth, clean edges, and no mess left behind.",
     included: [
       "Multiple mulch types and colors available",
       "Decorative river rock and gravel installation",
@@ -184,12 +187,12 @@ const services: Record<string, ServiceData> = {
     ],
     faqs: [
       { q: "What types of mulch do you offer?", a: "We offer shredded hardwood, cedar, dyed black, dyed brown, and natural wood chip mulch. During your estimate we help you choose the best type for your property's aesthetics and plant needs." },
-      { q: "How much mulch do I need?", a: "Most beds need 2–3 inches of fresh mulch. We assess your beds during the estimate and calculate the exact amount for full, even coverage — no guessing, no waste." },
+      { q: "How much mulch do I need?", a: "Most beds need 2–3 inches of fresh mulch. We assess your beds during the estimate and calculate the exact amount for full, even coverage. No guessing, no waste." },
       { q: "Do I need to remove old mulch first?", a: "Not always. If existing mulch is under 2 inches, we can top-dress directly. If it's excessively deep or deteriorating incorrectly, we'll recommend removal and replacement for better results." },
-      { q: "When is the best time to mulch in Michigan?", a: "Spring is most popular — after the ground thaws and before summer heat sets in. Fall mulching is also highly beneficial to protect plant roots heading into winter. We install mulch year-round based on weather." },
+      { q: "When is the best time to mulch in Michigan?", a: "Spring is most popular, after the ground thaws and before summer heat sets in. Fall mulching is also highly beneficial to protect plant roots heading into winter. We install mulch year-round based on weather." },
       { q: "Do you also do bed edging?", a: "Yes, and we recommend it every time. Sharp bed edges contain the mulch, prevent grass creep into beds, and give the entire landscape a polished, professional appearance." },
-      { q: "Do you do mulch delivery and installation near me?", a: "Yes — we handle both delivery and full installation. Whether you need black mulch, brown mulch, cedar mulch, wood chips, river rock, or decorative stone, we supply the material and install it professionally with clean bed edging throughout Macomb County and Oakland County, MI." },
-      { q: "How much does mulch installation cost in Macomb County?", a: "Mulch installation pricing depends on your bed square footage, the mulch type you choose, and whether old mulch removal is needed. Every job is quoted individually after we assess your beds. All estimates are free — call (586) 327-8080 or request one online and we'll give you a clear, itemized price with no obligation." },
+      { q: "Do you do mulch delivery and installation near me?", a: "Yes, we handle both delivery and full installation. Whether you need black mulch, brown mulch, cedar mulch, wood chips, river rock, or decorative stone, we supply the material and install it professionally with clean bed edging throughout Macomb County and Oakland County, MI." },
+      { q: "How much does mulch installation cost in Macomb County?", a: "Mulch installation pricing depends on your bed square footage, the mulch type you choose, and whether old mulch removal is needed. Every job is quoted individually after we assess your beds. All estimates are free. Call (586) 327-8080 or request one online and we'll give you a clear, itemized price with no obligation." },
     ],
     image2: "/photos/mulch.jpg",
     image2Alt: "Decorative mulch bed with flowering plants and clean edging in Macomb County Michigan",
@@ -201,16 +204,16 @@ const services: Record<string, ServiceData> = {
   },
   "seasonal-cleanup": {
     title: "Spring & Fall Cleanup Services in Macomb County, MI",
-    metaTitle: "Leaf Removal & Yard Cleanup — Macomb County, MI",
+    metaTitle: "Leaf Removal & Yard Cleanup | Macomb County, MI",
     metaDescription:
       "Professional leaf removal, yard cleanup, and spring & fall cleanup throughout Macomb County, MI. Leaf blowing, debris hauling, bed clearing, yard waste removal & more. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/217A6A02-1ABD-438C-90B1-CB49915F1D1A.jpeg",
     heroAlt: "Fall leaf cleanup and seasonal yard cleanup in Macomb County Michigan by Tri-Point Landscaping",
     heroTagline: "Spring Cleanup · Fall Cleanup · Leaf Removal · Bed Clearing",
     intro:
-      "Michigan seasons are hard on your property. Tri-Point Landscaping provides thorough spring and fall cleanups that prep your lawn and landscape for the season ahead — leaving your property healthy, sharp, and ready for whatever comes next.",
+      "Michigan seasons are hard on your property. Tri-Point Landscaping provides thorough spring and fall cleanups that prep your lawn and landscape for the season ahead: leaving your property healthy, sharp, and ready for whatever comes next.",
     bodyParagraph:
-      "Proper seasonal cleanup isn't just about appearance — it's about plant and turf health. Leaf debris left on grass through winter creates the perfect environment for snow mold, fungal disease, and root damage. Dead perennial stalks harbor overwintering pests. Matted bed debris prevents airflow and traps moisture against crowns. Our crews do this work thoroughly, not just aesthetically. We cut back what needs cutting, remove what needs removing, and leave every surface clean. Starting the season right sets up everything that follows.",
+      "Proper seasonal cleanup isn't just about appearance. It's about plant and turf health. Leaf debris left on grass through winter creates the perfect environment for snow mold, fungal disease, and root damage. Dead perennial stalks harbor overwintering pests. Matted bed debris prevents airflow and traps moisture against crowns. Our crews do this work thoroughly, not just aesthetically. We cut back what needs cutting, remove what needs removing, and leave every surface clean. Starting the season right sets up everything that follows.",
     included: [
       "Complete leaf removal and hauling off-site",
       "Landscape bed clearing and debris removal",
@@ -223,17 +226,17 @@ const services: Record<string, ServiceData> = {
     benefits: [
       { title: "Prevent Disease", desc: "Leaf buildup and dead plant material harbor disease and pests. A thorough cleanup eliminates these threats before they cause turf or plant damage." },
       { title: "Healthier Regrowth", desc: "Removing debris in spring lets sunlight and air reach the soil, promoting faster, healthier lawn and plant growth for the entire season." },
-      { title: "Winter Protection", desc: "A fall cleanup removes matted material that smothers grass over winter and creates conditions for snow mold — common and costly in Michigan." },
+      { title: "Winter Protection", desc: "A fall cleanup removes matted material that smothers grass over winter and creates conditions for snow mold: common and costly in Michigan." },
       { title: "Season-Ready Property", desc: "Starting spring with a clean, prepared property makes all subsequent maintenance easier and your outdoor space more enjoyable from day one." },
     ],
     faqs: [
       { q: "When should I schedule a spring cleanup in Michigan?", a: "Typically late March through April, once temperatures are consistently above freezing and the ground has dried enough to work without damage. We'll assess timing with you and schedule at the right window for your property." },
       { q: "When should I schedule a fall cleanup?", a: "Late October through November, after the majority of leaves have fallen but before heavy snow arrives. Getting it done before the ground freezes ensures thorough results and protects your turf through winter." },
-      { q: "Do you haul away all the debris?", a: "Yes. We remove all leaves, trimmings, and debris from your property. You don't need to arrange disposal — we handle it completely." },
+      { q: "Do you haul away all the debris?", a: "Yes. We remove all leaves, trimmings, and debris from your property. You don't need to arrange disposal. We handle it completely." },
       { q: "Can I bundle cleanup with other services?", a: "Absolutely. Many customers add mulch, fertilization, or aeration to their spring cleanup for a complete seasonal refresh. We can bundle services for better overall value." },
       { q: "Do you offer standalone leaf removal?", a: "Yes. We offer leaf removal as a standalone service during fall for customers who just need leaves cleared between full cleanup visits or after a heavy leaf fall." },
-      { q: "Do you offer leaf removal, yard cleanup, and debris removal near me?", a: "Yes — whatever you call it: leaf removal, fall cleanup, yard cleanup, yard waste removal, or just 'clean up my yard,' we cover it all in Macomb County and Oakland County, MI. We haul everything away so your property is completely clear." },
-      { q: "How much does a spring or fall cleanup cost in Macomb County?", a: "Seasonal cleanup pricing depends on your property size, leaf volume, and how much bed and perennial work is involved. We assess each property individually and give you an honest upfront quote before any work begins. All estimates are free — call (586) 327-8080 or request one online." },
+      { q: "Do you offer leaf removal, yard cleanup, and debris removal near me?", a: "Yes, whatever you call it: leaf removal, fall cleanup, yard cleanup, yard waste removal, or just 'clean up my yard,' we cover it all in Macomb County and Oakland County, MI. We haul everything away so your property is completely clear." },
+      { q: "How much does a spring or fall cleanup cost in Macomb County?", a: "Seasonal cleanup pricing depends on your property size, leaf volume, and how much bed and perennial work is involved. We assess each property individually and give you an honest upfront quote before any work begins. All estimates are free. Call (586) 327-8080 or request one online." },
     ],
     image2: "/photos/boxwood.jpg",
     image2Alt: "Fall cleanup with trimmed boxwood hedges in Washington Township Michigan",
@@ -245,13 +248,14 @@ const services: Record<string, ServiceData> = {
   },
   "snow-removal": {
     title: "Commercial Snow Removal & Ice Management in Macomb County, MI",
-    metaTitle: "Commercial Snow Removal — Macomb County, MI",
+    metaTitle: "Commercial Snow Removal in Macomb County, MI",
+    absoluteTitle: "Commercial Snow Removal in Macomb County, MI | Tri-Point",
     metaDescription:
-      "Commercial snow removal for property managers, HOAs, retail plazas, offices, churches, medical offices & industrial lots in Macomb & Oakland County, MI. Parking lot plowing, salting, seasonal or per-push contracts. Call (586) 327-8080.",
+      "Commercial snow removal in Macomb & Oakland County, MI: parking lot plowing, salting & sidewalk clearing for businesses & HOAs. Get a snow contract quote.",
     heroTagline: "Parking Lots · Sidewalks & Entrances · Salting · Seasonal Contracts",
     ctaLabel: "Get a Snow Contract Quote",
     intro:
-      "Tri-Point Landscaping provides commercial snow removal and ice management for businesses and property managers across Macomb County and Oakland County. We plow parking lots, clear sidewalks and entrances, and salt walkways and drive lanes so tenants, customers, and staff can get in safely after every storm. Our snow service is commercial only; we do not offer residential driveway plowing.",
+      "Commercial snow removal and ice management for businesses, HOAs, and property managers across Macomb County and Oakland County. Tri-Point Landscaping plows parking lots, clear sidewalks and entrances, and salt walkways and drive lanes so tenants, customers, and staff can get in safely after every storm. Our snow service is commercial only; we do not offer residential driveway plowing.",
     bodyParagraph:
       "Every commercial account starts with a site walk. We note your lot layout, entrances, sidewalks, accessible parking, and where snow can be piled, then write a service agreement that spells out trigger depths, what gets cleared first, and when salting happens. Choose a seasonal contract for a fixed winter budget or per-push service billed by event. We monitor forecasts around the clock, pre-treat ahead of freezing rain when conditions call for it, and keep service logs of every visit. Certificates of insurance showing our general liability and workers' comp coverage are available on request.",
     included: [
@@ -288,16 +292,16 @@ const services: Record<string, ServiceData> = {
   },
   "lawn-renovations": {
     title: "Lawn Renovations in Macomb County, MI",
-    metaTitle: "Lawn Aeration & Overseeding — Macomb County, MI",
+    metaTitle: "Lawn Aeration & Overseeding | Macomb County, MI",
     metaDescription:
       "Professional lawn aeration, overseeding, lawn seeding, dethatching & lawn repair throughout Macomb County, MI. Fix bare spots, patchy grass & thin lawns. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/Aeration-with-aerator.jpg",
     heroAlt: "Core aeration service for lawn renovation in Macomb County Michigan by Tri-Point Landscaping",
     heroTagline: "Core Aeration · Overseeding · Dethatching · Top Dressing",
     intro:
-      "A thin, patchy, or compacted lawn doesn't need to be replaced — it needs to be renovated. Tri-Point Landscaping provides professional lawn renovation services throughout Macomb County: core aeration, overseeding, dethatching, and top dressing. These are the science-backed techniques that transform struggling lawns into thick, dense, healthy turf that stays green through Michigan's summers and fights off weeds naturally.",
+      "A thin, patchy, or compacted lawn doesn't need to be replaced. It needs to be renovated. Tri-Point Landscaping provides professional lawn renovation services throughout Macomb County: core aeration, overseeding, dethatching, and top dressing. These are the science-backed techniques that transform struggling lawns into thick, dense, healthy turf that stays green through Michigan's summers and fights off weeds naturally.",
     bodyParagraph:
-      "Michigan's clay-heavy soil compacts over time, suffocating grass roots and making it nearly impossible for water, oxygen, and nutrients to penetrate. Core aeration breaks up that compaction by physically removing plugs of soil, opening channels that allow roots to breathe and grow deep. Paired with premium overseeding — using turf varieties selected for Michigan's climate — and a light top dressing to protect germinating seed, the results are dramatic. We typically see significant improvement within one growing season. Dethatching removes the dead mat of grass stems and debris that builds up between the soil and living grass, further improving airflow and water absorption. If your lawn has struggled for years, a single renovation program can be the reset it needs.",
+      "Michigan's clay-heavy soil compacts over time, suffocating grass roots and making it nearly impossible for water, oxygen, and nutrients to penetrate. Core aeration breaks up that compaction by physically removing plugs of soil, opening channels that allow roots to breathe and grow deep. Paired with premium overseeding, using turf varieties selected for Michigan's climate, and a light top dressing to protect germinating seed, the results are dramatic. We typically see significant improvement within one growing season. Dethatching removes the dead mat of grass stems and debris that builds up between the soil and living grass, further improving airflow and water absorption. If your lawn has struggled for years, a single renovation program can be the reset it needs.",
     included: [
       "Core aeration (soil plug removal for deep root growth)",
       "Premium overseeding with Michigan-adapted grass varieties",
@@ -307,7 +311,7 @@ const services: Record<string, ServiceData> = {
       "Watering and care instructions provided",
     ],
     benefits: [
-      { title: "Thicker, Denser Turf", desc: "Aeration + overseeding is the most effective way to fill in thin spots, bare patches, and tired lawn areas — without starting over." },
+      { title: "Thicker, Denser Turf", desc: "Aeration + overseeding is the most effective way to fill in thin spots, bare patches, and tired lawn areas: without starting over." },
       { title: "Deeper Root Systems", desc: "Aeration breaks up compacted Michigan clay soil, allowing roots to grow deeper and access more water and nutrients." },
       { title: "Natural Weed Suppression", desc: "Thick, healthy turf is the best weed prevention there is. Dense grass crowds out crabgrass, dandelions, and opportunistic weeds." },
       { title: "Long-Term Lawn Health", desc: "Annual or biennial aeration and overseeding keeps your lawn in peak condition, reducing the need for expensive chemical treatments." },
@@ -315,12 +319,12 @@ const services: Record<string, ServiceData> = {
     faqs: [
       { q: "When is the best time to aerate and overseed in Michigan?", a: "Late summer to early fall (mid-August through September) is ideal in Macomb County. Soil is warm enough for germination, the summer heat has peaked, and fall rains help establishment. Spring aeration is also beneficial for severely compacted lawns." },
       { q: "How long until I see results after overseeding?", a: "New grass seedlings typically appear within 10–21 days depending on the seed variety and weather. Full establishment into your existing lawn takes one full growing season, but most homeowners see visible improvement within 4–6 weeks of seeding." },
-      { q: "Can I aerate and overseed a lawn with existing grass?", a: "Absolutely — that's the standard approach. Aeration holes provide perfect seed-to-soil contact for overseeding into an established lawn. You don't need to kill off existing turf to renovate it." },
+      { q: "Can I aerate and overseed a lawn with existing grass?", a: "Absolutely, that's the standard approach. Aeration holes provide perfect seed-to-soil contact for overseeding into an established lawn. You don't need to kill off existing turf to renovate it." },
       { q: "How is core aeration different from spike aeration?", a: "Core aeration removes actual plugs of soil, which genuinely relieves compaction. Spike aeration only pokes holes, which can actually worsen compaction around the spikes. We only use core aeration equipment." },
       { q: "Do I need to do anything after the service?", a: "We'll provide complete instructions. The main requirement is consistent watering in the weeks following overseeding to support germination. We'll walk you through exactly what to do for best results." },
       { q: "How often should I aerate my lawn?", a: "For most Macomb County properties with clay-heavy soil, annual core aeration delivers the best results. Lighter soil properties may need it every 2–3 years. We'll assess your specific lawn and recommend the right schedule." },
-      { q: "Do you offer lawn seeding, lawn repair, and fixing bare spots near me?", a: "Yes — whether you need lawn aeration, overseeding, lawn seeding, dethatching, fixing bare spots, repairing patchy grass, or a full lawn renovation, we offer all of it in Macomb County and Oakland County, MI. If your lawn is thin, patchy, or struggling, one renovation program can turn it around in a single growing season." },
-      { q: "How much does lawn aeration and overseeding cost in Macomb County?", a: "Lawn aeration and overseeding pricing depends on your lawn size and what's included — aeration only, aeration with overseeding, or a full renovation with dethatching and top dressing. We assess your turf during the free estimate and give you a detailed quote for exactly what your lawn needs. Call (586) 327-8080 or request an estimate online." },
+      { q: "Do you offer lawn seeding, lawn repair, and fixing bare spots near me?", a: "Yes, whether you need lawn aeration, overseeding, lawn seeding, dethatching, fixing bare spots, repairing patchy grass, or a full lawn renovation, we offer all of it in Macomb County and Oakland County, MI. If your lawn is thin, patchy, or struggling, one renovation program can turn it around in a single growing season." },
+      { q: "How much does lawn aeration and overseeding cost in Macomb County?", a: "Lawn aeration and overseeding pricing depends on your lawn size and what's included: aeration only, aeration with overseeding, or a full renovation with dethatching and top dressing. We assess your turf during the free estimate and give you a detailed quote for exactly what your lawn needs. Call (586) 327-8080 or request an estimate online." },
     ],
     image2: "/photos/bills-google2.jpeg",
     image2Alt: "Beautifully renovated and striped lawn in Macomb County Michigan by Tri-Point Landscaping",
@@ -332,14 +336,14 @@ const services: Record<string, ServiceData> = {
   },
   "hardscaping": {
     title: "Hardscaping Services in Macomb County, MI",
-    metaTitle: "Hardscaping & Patios — Macomb County, MI",
+    metaTitle: "Hardscaping & Patios | Macomb County, MI",
     metaDescription:
-      "Professional hardscaping in Macomb County & Oakland County, MI — patios, walkways, retaining walls, fire pits & outdoor living spaces. Coordinated by Tri-Point Landscaping with trusted local partners. Free estimates. Call (586) 327-8080.",
+      "Professional hardscaping in Macomb County & Oakland County, MI: patios, walkways, retaining walls, fire pits & outdoor living spaces. Coordinated by Tri-Point Landscaping with trusted local partners. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
     heroAlt: "Custom hardscaping and outdoor living space installation in Macomb County Michigan",
     heroTagline: "Patios · Walkways · Retaining Walls · Fire Pits",
     intro:
-      "A great outdoor space starts with great hardscaping. Tri-Point Landscaping coordinates professional patio installations, walkways, retaining walls, fire pits, and outdoor living spaces for homeowners throughout Macomb County and Oakland County. We work with trusted local hardscaping partners and stay involved from estimate to final walkthrough — so you get a cohesive result without tracking down multiple contractors.",
+      "A great outdoor space starts with great hardscaping. Tri-Point Landscaping coordinates professional patio installations, walkways, retaining walls, fire pits, and outdoor living spaces for homeowners throughout Macomb County and Oakland County. We work with trusted local hardscaping partners and stay involved from estimate to final walkthrough: so you get a cohesive result without tracking down multiple contractors.",
     bodyParagraph:
       "Hardscaping done right frames your landscape and extends your living space outdoors. Whether you want a natural stone patio for entertaining, a paver walkway that adds structure to your front yard, or a retaining wall to manage grade on a sloped property, Tri-Point Landscaping handles the coordination from start to finish. We select partners who share our standards for quality and cleanliness, and we ensure the hardscaping integrates seamlessly with your existing lawn and landscape work. One call, one point of contact, one clean finished product.",
     included: [
@@ -354,21 +358,21 @@ const services: Record<string, ServiceData> = {
     ],
     benefits: [
       { title: "Extend Your Living Space", desc: "A professionally installed patio or outdoor living area adds functional square footage and becomes the most-used part of your property." },
-      { title: "Boost Property Value", desc: "Hardscaping consistently delivers strong ROI — patios, walkways, and retaining walls are among the highest-return outdoor improvements." },
-      { title: "One Point of Contact", desc: "We coordinate the right partners, manage the project, and make sure everything integrates with your landscape — you don't juggle multiple contractors." },
-      { title: "Built to Last Michigan Winters", desc: "Every hardscape project is installed with Michigan's freeze-thaw cycles in mind — proper base prep, drainage, and materials selection prevent heaving and cracking." },
+      { title: "Boost Property Value", desc: "Hardscaping consistently delivers strong ROI: patios, walkways, and retaining walls are among the highest-return outdoor improvements." },
+      { title: "One Point of Contact", desc: "We coordinate the right partners, manage the project, and make sure everything integrates with your landscape. You don't juggle multiple contractors." },
+      { title: "Built to Last Michigan Winters", desc: "Every hardscape project is installed with Michigan's freeze-thaw cycles in mind: proper base prep, drainage, and materials selection prevent heaving and cracking." },
     ],
     faqs: [
       { q: "Do you do hardscaping in all your service areas?", a: "Yes. We install patios, retaining walls, walkways, and fire pits throughout Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester, and Rochester Hills. Call (586) 327-8080 for a free estimate anywhere in our service area." },
-      { q: "What's the difference between a paver patio and a concrete patio?", a: "Paver patios are individual interlocking units that flex with Michigan's freeze-thaw cycles — making them more durable long-term. Concrete can crack over time due to frost heave. Pavers also allow individual unit replacement if damage occurs. We recommend pavers for most Macomb County projects." },
-      { q: "Do you install hardscaping directly or subcontract it?", a: "We coordinate with trusted local hardscaping partners and manage the project from estimate to completion. You have one point of contact — Tri-Point Landscaping — and we ensure the finished product meets our standards and integrates with your landscape." },
+      { q: "What's the difference between a paver patio and a concrete patio?", a: "Paver patios are individual interlocking units that flex with Michigan's freeze-thaw cycles, making them more durable long-term. Concrete can crack over time due to frost heave. Pavers also allow individual unit replacement if damage occurs. We recommend pavers for most Macomb County projects." },
+      { q: "Do you install hardscaping directly or subcontract it?", a: "We coordinate with trusted local hardscaping partners and manage the project from estimate to completion. You have one point of contact, Tri-Point Landscaping, and we ensure the finished product meets our standards and integrates with your landscape." },
       { q: "What types of patios can you install?", a: "We can install paver patios, natural flagstone patios, concrete patio surrounds, and mixed-material designs. During the free consultation we'll assess your space and recommend the best material for your style, budget, and property conditions." },
-      { q: "Can you build a retaining wall on a sloped property?", a: "Yes. Retaining walls are one of the most effective solutions for managing grade changes on Macomb County properties. We assess the slope, drainage needs, and soil conditions and recommend the right wall system — block, natural stone, or timber." },
+      { q: "Can you build a retaining wall on a sloped property?", a: "Yes. Retaining walls are one of the most effective solutions for managing grade changes on Macomb County properties. We assess the slope, drainage needs, and soil conditions and recommend the right wall system: block, natural stone, or timber." },
       { q: "How long does a patio installation take?", a: "Most residential patio projects take 2–5 days depending on size, material, and site preparation needed. We'll give you a clear timeline as part of the free estimate." },
       { q: "Do you offer fire pit installation?", a: "Yes. Custom-built fire pits are one of our most popular hardscaping additions. We can design a simple circular fire pit or a full outdoor fire feature integrated into a seating wall or patio layout." },
-      { q: "Can I combine hardscaping with landscaping work?", a: "Absolutely — and we recommend it. Combining a patio or walkway installation with planting beds, mulch, and lighting creates a fully cohesive outdoor space. Tri-Point handles all of it under one project." },
-      { q: "Do you offer hardscaping near me in Macomb County or Oakland County?", a: "Yes — we offer patio installation, walkway installation, retaining walls, fire pits, and outdoor living space design throughout Macomb County and Oakland County, MI, including Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester, and surrounding areas." },
-      { q: "How much does hardscaping cost in Macomb County?", a: "Hardscaping pricing depends on the project type, size, and materials. A simple fire pit looks very different from a full patio with retaining walls and seating. We assess every project on-site and give you a detailed quote before any work begins. All estimates are free — call (586) 327-8080 or request one online." },
+      { q: "Can I combine hardscaping with landscaping work?", a: "Absolutely, and we recommend it. Combining a patio or walkway installation with planting beds, mulch, and lighting creates a fully cohesive outdoor space. Tri-Point handles all of it under one project." },
+      { q: "Do you offer hardscaping near me in Macomb County or Oakland County?", a: "Yes, we offer patio installation, walkway installation, retaining walls, fire pits, and outdoor living space design throughout Macomb County and Oakland County, MI, including Washington Township, Shelby Township, Macomb Township, Rochester Hills, Rochester, and surrounding areas." },
+      { q: "How much does hardscaping cost in Macomb County?", a: "Hardscaping pricing depends on the project type, size, and materials. A simple fire pit looks very different from a full patio with retaining walls and seating. We assess every project on-site and give you a detailed quote before any work begins. All estimates are free. Call (586) 327-8080 or request one online." },
     ],
     image2: "/photos/IMG_4417.jpeg",
     image2Alt: "Custom outdoor patio and walkway installation in Macomb County Michigan by Tri-Point Landscaping",
@@ -387,7 +391,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = services[slug];
   if (!service) return {};
   return {
-    title: service.metaTitle,
+    title: service.absoluteTitle ? { absolute: service.absoluteTitle } : service.metaTitle,
     description: service.metaDescription,
     alternates: { canonical: `https://www.tripointlandscaping.com/services/${slug}` },
     openGraph: {
@@ -415,6 +419,10 @@ export default async function ServicePage({ params }: Props) {
   const { slug } = await params;
   const service = services[slug];
   if (!service) notFound();
+
+  const isSnow = slug === "snow-removal";
+  const quoteHref = isSnow ? SNOW_QUOTE_HREF : "/contact";
+  const snowGuides = isSnow ? snowGuideSlugs.map((s) => posts.find((p) => p.slug === s)).filter((p) => p !== undefined) : [];
 
   const relatedPosts = (serviceBlogMap[slug] ?? [])
     .map((s) => posts.find((p) => p.slug === s))
@@ -453,10 +461,12 @@ export default async function ServicePage({ params }: Props) {
       url: "https://www.tripointlandscaping.com",
       aggregateRating: aggregateRatingSchema,
     },
-    areaServed: "Macomb County, Michigan",
+    areaServed: slug === "snow-removal"
+      ? snowCities.map((c) => ({ "@type": "City", name: `${c.name}, MI` }))
+      : "Macomb County, Michigan",
     ...(slug === "snow-removal"
       ? {
-          serviceType: "Commercial snow removal and ice management",
+          serviceType: "Commercial Snow Removal",
           audience: { "@type": "BusinessAudience", audienceType: "Commercial property owners, property managers, and HOAs" },
         }
       : {}),
@@ -502,9 +512,10 @@ export default async function ServicePage({ params }: Props) {
             >
               {service.title}
             </h1>
+            {isSnow && <p style={{ color: "#7ecb82" }} className="text-sm font-semibold -mt-2 mb-6">{SNOW_URGENCY}</p>}
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/contact"
+                href={quoteHref}
                 style={{ backgroundColor: "#2C5F2E" }}
                 className="inline-flex items-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
               >
@@ -556,7 +567,7 @@ export default async function ServicePage({ params }: Props) {
 
                 <div className="mt-10 flex flex-wrap gap-4">
                   <Link
-                    href="/contact"
+                    href={quoteHref}
                     style={{ backgroundColor: "#111111" }}
                     className="inline-flex items-center gap-2 text-white px-7 py-3.5 font-semibold tracking-wide hover:opacity-80 transition-opacity"
                   >
@@ -592,7 +603,7 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
-        {/* ── BENEFITS — dark section ── */}
+        {/* ── BENEFITS, dark section ── */}
         <section style={{ backgroundColor: "#111111" }} className="py-20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-14">
@@ -621,7 +632,66 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
-        {/* ── FAQ — cream section ── */}
+        {isSnow && (
+          <section className="py-20 bg-white border-t border-gray-100">
+            <div className="max-w-7xl mx-auto px-6">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Property Types</p>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                Commercial Snow Removal for Every Property Type
+              </h2>
+              <p className="text-gray-500 max-w-2xl mb-10 leading-relaxed">
+                Every property has different priorities when it snows. Find the plan that fits yours.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {propertyTypes.map((t) => (
+                  <Link key={t.slug} href={`/services/snow-removal/${t.slug}`} className="group border border-gray-100 p-6 hover:border-green-300 hover:shadow-md transition-all">
+                    <h3 className="font-bold text-gray-900 mb-2 group-hover:text-green-800">{t.name}</h3>
+                    <p className="text-gray-500 text-sm leading-relaxed mb-3">{t.tagline}</p>
+                    <span className="text-green-700 text-sm font-semibold">Learn more →</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {isSnow && (
+          <section style={{ backgroundColor: "#f9f7f4" }} className="py-20 border-t border-gray-100">
+            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-5">
+                  Commercial Snow Removal by City
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {snowCities.map((c) => (
+                    <Link key={c.slug} href={`/services/snow-removal/${c.slug}`} className="text-green-800 text-sm hover:underline">
+                      Commercial snow removal in {c.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-5">
+                  Snow Contract Guides
+                </h2>
+                <ul className="space-y-2">
+                  {snowGuides.map((p) => (
+                    <li key={p.slug}>
+                      <Link href={`/blog/${p.slug}`} className="text-green-800 text-sm hover:underline">{p.title}</Link>
+                    </li>
+                  ))}
+                  <li>
+                    <Link href="/commercial" className="text-green-800 text-sm hover:underline">All commercial property services</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {isSnow && <PropertyManagerSection />}
+
+        {/* ── FAQ, cream section ── */}
         <section style={{ backgroundColor: "#f5f0e8" }} className="py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
@@ -639,7 +709,7 @@ export default async function ServicePage({ params }: Props) {
                     (586) 327-8080
                   </a>{" "}
                   or{" "}
-                  <Link href="/contact" className="text-green-700 font-semibold hover:underline">
+                  <Link href={quoteHref} className="text-green-700 font-semibold hover:underline">
                     request a free estimate
                   </Link>
                   .
@@ -796,7 +866,7 @@ export default async function ServicePage({ params }: Props) {
         {/* ── CTA ── */}
         <section className="relative py-32 overflow-hidden">
           {service.heroImage ? (
-            <Image src={service.heroImage} alt={`${service.title} — Tri-Point Landscaping`} fill className="object-cover" />
+            <Image src={service.heroImage} alt={`${service.title}: Tri-Point Landscaping`} fill className="object-cover" />
           ) : (
             <div style={{ backgroundColor: "#111111" }} className="absolute inset-0 dot-grid" />
           )}
@@ -814,7 +884,7 @@ export default async function ServicePage({ params }: Props) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/contact"
+                href={quoteHref}
                 style={{ backgroundColor: "#2C5F2E" }}
                 className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
               >

@@ -12,25 +12,26 @@ import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
 import { activePosts as posts } from "./blog/activePosts";
-import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "./lib/business";
+import { googleReviews, aggregateRatingSchema, googleRatingLabel } from "./lib/business";
+import { SNOW_QUOTE_HREF, SNOW_URGENCY } from "./lib/snow";
 
 export const metadata: Metadata = {
-  title: "Lawn Care & Landscaping — Washington Township, MI | Tri-Point Landscaping",
-  description: `Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+  title: "Lawn Care & Landscaping | Washington Township, MI | Tri-Point Landscaping",
+  description: `Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates: (586) 327-8080.`,
   alternates: { canonical: "https://www.tripointlandscaping.com" },
   openGraph: {
-    title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
-    description: `Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+    title: "Tri-Point Landscaping | Lawn Care & Landscaping | Macomb County, MI",
+    description: `Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, commercial snow removal & more. ${googleReviews.rating}★ on Google. Free estimates: (586) 327-8080.`,
     url: "https://www.tripointlandscaping.com",
     siteName: "Tri-Point Landscaping",
     locale: "en_US",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County Lawn Care & Landscaping" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping: Macomb County Lawn Care & Landscaping" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
-    description: `Macomb County's locally owned lawn care & landscaping company. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+    title: "Tri-Point Landscaping | Lawn Care & Landscaping | Macomb County, MI",
+    description: `Macomb County's locally owned lawn care & landscaping company. ${googleReviews.rating}★ on Google. Free estimates: (586) 327-8080.`,
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
@@ -109,7 +110,7 @@ const homepageFaqSchema = {
       name: "How much does landscaping cost in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Landscaping costs in Macomb County vary by project size and service type. Lawn mowing typically runs $40–$100 per cut depending on property size. Mulch installation, seasonal cleanups, and landscape projects are quoted individually. All estimates are free — call (586) 327-8080 or request one online.",
+        text: "Landscaping costs in Macomb County vary by project size and service type. Lawn mowing typically runs $40–$100 per cut depending on property size. Mulch installation, seasonal cleanups, and landscape projects are quoted individually. All estimates are free. Call (586) 327-8080 or request one online.",
       },
     },
     {
@@ -165,7 +166,7 @@ export default function HomePage() {
       <Navbar />
       <main>
 
-        {/* ═══ HERO — FULL VIEWPORT ═══ */}
+        {/* ═══ HERO: FULL VIEWPORT ═══ */}
         <section className="relative min-h-screen flex items-center overflow-hidden">
           <Image
             src="/photos/weekly-mowing-shelby-township-mi.jpg"
@@ -178,7 +179,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           <div className="absolute inset-0 dot-grid opacity-30" />
 
-          {/* Floating accent — top right */}
+          {/* Floating accent, top right */}
           <div className="absolute top-1/3 right-8 lg:right-20 hidden lg:flex flex-col items-center gap-6 float-badge">
             <div style={{ backgroundColor: "rgba(0,0,0,0.6)", borderColor: "rgba(255,255,255,0.12)" }} className="border backdrop-blur-md p-5 text-center">
               <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold text-white">{googleReviews.rating}</div>
@@ -209,7 +210,7 @@ export default function HomePage() {
 
               <p className="text-xl text-white/65 mb-12 leading-relaxed max-w-xl anim-hidden animate-fade-up delay-400">
                 Macomb County&apos;s premier landscaping team. Locally owned, fully insured, and obsessively
-                detail-oriented on every property we touch — spring through winter, every season.
+                detail-oriented on every property we touch: spring through winter, every season.
               </p>
 
               <div className="flex flex-wrap gap-4 anim-hidden animate-fade-up delay-500">
@@ -233,7 +234,7 @@ export default function HomePage() {
                     (586) 327-8080
                   </span>
                 </a>
-                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Call or Text 24/7</p>
+                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call. Call or Text 24/7</p>
               </div>
             </div>
           </div>
@@ -268,7 +269,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
-                Fully Insured — Every Job
+                Fully Insured. Every Job
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-yellow-500">★</span>
@@ -280,7 +281,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
-                Free Estimates — Same-Day Response
+                Free Estimates: Same-Day Response
               </div>
               <a
                 href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
@@ -306,9 +307,10 @@ export default function HomePage() {
               <p className="text-white/65 leading-relaxed max-w-2xl">
                 Parking lot plowing, sidewalk and entrance clearing, and salting for retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal or per-push contracts, 24/7 storm response, service logs, and certificates of insurance. Our snow service is commercial only.
               </p>
+              <p style={{ color: "#7ecb82" }} className="text-sm font-semibold mt-4">{SNOW_URGENCY}</p>
             </div>
             <div className="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-3">
-              <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
+              <Link href={SNOW_QUOTE_HREF} style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
                 Get a Snow Contract Quote
               </Link>
               <Link href="/services/snow-removal" className="inline-flex items-center justify-center gap-2 border border-white/30 text-white px-8 py-4 font-semibold tracking-wide hover:bg-white/10 transition-colors">
@@ -332,7 +334,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ PROJECT SHOWCASE — replaces before/after ═══ */}
+        {/* ═══ PROJECT SHOWCASE, replaces before/after ═══ */}
         <section style={{ backgroundColor: "#0a0a0a" }} className="py-24">
           <div className="max-w-7xl mx-auto px-6">
             <AnimateOnScroll animation="fade-up" className="text-center mb-14">
@@ -371,7 +373,7 @@ export default function HomePage() {
                   alt: "Lawn aeration and renovation service in Macomb County Michigan",
                   service: "Lawn Renovations",
                   num: "03",
-                  headline: "Aeration, overseeding & dethatching — a thicker lawn guaranteed.",
+                  headline: "Aeration, overseeding & dethatching: a thicker lawn guaranteed.",
                   stat: "Science-Backed Results",
                   href: "/services/lawn-renovations",
                 },
@@ -407,7 +409,7 @@ export default function HomePage() {
                       </span>
                     </div>
 
-                    {/* Bottom content — always visible */}
+                    {/* Bottom content. Always visible */}
                     <div className="absolute bottom-0 left-0 right-0 p-7 z-10">
                       <div
                         style={{ backgroundColor: "#2C5F2E" }}
@@ -438,7 +440,7 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* Bottom row — 2 more showcase cards */}
+            {/* Bottom row: 2 more showcase cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
               {[
                 {
@@ -516,11 +518,11 @@ export default function HomePage() {
               <AnimateOnScroll animation="fade-right" delay={150}>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   We&apos;re a locally owned, fully insured landscaping company rooted in Macomb County.
-                  Every property gets our complete attention — from the first cut of spring to the
+                  Every property gets our complete attention, from the first cut of spring to the
                   last leaf of fall. No franchises. No shortcuts. No excuses. Just the best property care in northern Michigan.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-8">
-                  We know Macomb County&apos;s soil, its seasons, and its homeowners — because we live here too.
+                  We know Macomb County&apos;s soil, its seasons, and its homeowners, because we live here too.
                   That local accountability isn&apos;t a talking point. It shows up on every property, every visit.
                 </p>
                 <p style={{ color: "#2C5F2E", borderColor: "#2C5F2E" }} className="border-l-2 pl-4 text-sm font-semibold leading-relaxed mb-10 italic">
@@ -529,7 +531,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { label: "Fully Insured LLC", sub: "General liability & workers' comp" },
-                    { label: `${googleReviews.rating}★ Google Rating`, sub: reviewCountLabel },
+                    { label: `${googleReviews.rating}★ Google Rating`, sub: googleRatingLabel },
                     { label: "Same-Day Response", sub: "We don't let you wait" },
                     { label: "Free Estimates", sub: "No cost, no obligation" },
                   ].map(({ label, sub }) => (
@@ -562,7 +564,7 @@ export default function HomePage() {
                     Full-Service<br />Property Care
                   </h2>
                 </div>
-                <p className="text-white/40 max-w-xs text-sm leading-relaxed">Tap a service to explore. Serving all of northern Macomb County, Michigan — every season.</p>
+                <p className="text-white/40 max-w-xs text-sm leading-relaxed">Tap a service to explore. Serving all of northern Macomb County, Michigan. Every season.</p>
               </AnimateOnScroll>
             </div>
             <AnimateOnScroll animation="fade-up" delay={100}>
@@ -579,7 +581,7 @@ export default function HomePage() {
           </div>
         </CursorGlow>
 
-        {/* ═══ WHY TRI-POINT — differentiator section ═══ */}
+        {/* ═══ WHY TRI-POINT, differentiator section ═══ */}
         <section className="py-28 bg-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -605,8 +607,8 @@ export default function HomePage() {
                 {[
                   {
                     num: "01",
-                    title: "We Show Up — Every Time",
-                    desc: "Our schedule is our promise. Consistent, same-day weekly visits — no gaps, no last-minute cancellations, no chasing us down.",
+                    title: "We Show Up. Every Time",
+                    desc: "Our schedule is our promise. Consistent, same-day weekly visits. No gaps, no last-minute cancellations, no chasing us down.",
                   },
                   {
                     num: "02",
@@ -616,7 +618,7 @@ export default function HomePage() {
                   {
                     num: "03",
                     title: "We Know This Area",
-                    desc: "Macomb County's soil, climate, and neighborhoods are in our DNA. The right plants, the right timing, the right technique — every single time.",
+                    desc: "Macomb County's soil, climate, and neighborhoods are in our DNA. The right plants, the right timing, the right technique. Every single time.",
                   },
                   {
                     num: "04",
@@ -654,7 +656,7 @@ export default function HomePage() {
               </AnimateOnScroll>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/5">
                 {[
-                  { end: googleReviews.rating, suffix: "★", decimals: 1, label: "Google Rating", sub: `From ${reviewCountLabel}` },
+                  { end: googleReviews.rating, suffix: "★", decimals: 1, label: "Google Rating", sub: googleRatingLabel },
                   { end: 100, suffix: "%", decimals: 0, label: "Satisfaction", sub: "Or we come back and make it right" },
                   { end: 8, suffix: "", decimals: 0, label: "Cities Served", sub: "Macomb County & Oakland County, MI" },
                   { end: 9, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to hardscaping" },
@@ -729,11 +731,11 @@ export default function HomePage() {
                   <p className="text-gray-600 leading-relaxed mb-5">
                     We&apos;re a locally owned, fully insured landscaping company based in Washington Township,
                     serving all of northern Macomb County. We know this area&apos;s soil, its seasons, and its
-                    homeowners — because we&apos;re one of them.
+                    homeowners, because we&apos;re one of them.
                   </p>
                   <p className="text-gray-600 leading-relaxed mb-10">
                     Every property gets our complete attention. We don&apos;t cut corners, rush jobs, or
-                    disappear after the first visit. <em>Precision. Passion. Perfection.</em> — that&apos;s not
+                    disappear after the first visit. <em>Precision. Passion. Perfection.</em>. That&apos;s not
                     just our motto, it&apos;s the standard we hold ourselves to every day.
                   </p>
                   <div className="grid grid-cols-2 gap-4 mb-10">
@@ -805,7 +807,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ REVIEWS — carousel ═══ */}
+        {/* ═══ REVIEWS, carousel ═══ */}
         <CursorGlow style={{ backgroundColor: "#0d0d0d" }}>
           <div style={{ backgroundColor: "#0d0d0d" }} className="py-28 dot-grid">
             <div className="max-w-6xl mx-auto px-6">
@@ -821,7 +823,7 @@ export default function HomePage() {
                     <div className="text-center">
                       <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">{googleReviews.rating}</div>
                       <div className="text-yellow-400 text-lg mt-1">★★★★★</div>
-                      <div className="text-white/40 text-xs uppercase tracking-widest mt-1">{reviewCountLabel}</div>
+                      <div className="text-white/40 text-xs uppercase tracking-widest mt-1">{googleRatingLabel}</div>
                     </div>
                   </div>
                 </div>
@@ -850,7 +852,7 @@ export default function HomePage() {
                   Macomb County &amp;<br />Oakland County
                 </h2>
                 <p className="text-gray-500 max-w-sm leading-relaxed text-sm">
-                  Proudly serving homeowners and businesses across Macomb County and Oakland County, Michigan — from Washington Township to Rochester Hills, every season.
+                  Proudly serving homeowners and businesses across Macomb County and Oakland County, Michigan: from Washington Township to Rochester Hills, every season.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -889,13 +891,13 @@ export default function HomePage() {
                 {
                   num: "01",
                   title: "Request a Free Estimate",
-                  desc: "Fill out our quick form or call us directly. We respond same day — usually within the hour. No runaround, no wait.",
+                  desc: "Fill out our quick form or call us directly. We respond same day, usually within the hour. No runaround, no wait.",
                   icon: <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>,
                 },
                 {
                   num: "02",
                   title: "We Visit Your Property",
-                  desc: "A Tri-Point team member walks your property and gives you a detailed, honest quote — at no charge. We never guess from the road.",
+                  desc: "A Tri-Point team member walks your property and gives you a detailed, honest quote, at no charge. We never guess from the road.",
                   icon: <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>,
                 },
                 {
@@ -948,7 +950,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SERVICES BY AREA — internal linking for SEO ═══ */}
+        {/* ═══ SERVICES BY AREA, internal linking for SEO ═══ */}
         <section className="py-20 bg-white border-t border-gray-100">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-12">
@@ -956,7 +958,7 @@ export default function HomePage() {
               <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900">
                 Lawn Care &amp; Landscaping Services by City
               </h2>
-              <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">Find service-specific information for your city — pricing context, local details, and what to expect.</p>
+              <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">Find service-specific information for your city: pricing context, local details, and what to expect.</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
@@ -1042,7 +1044,7 @@ export default function HomePage() {
                 Let&apos;s Transform<br />Your Property
               </h2>
               <p className="text-xl text-white/55 mb-4 max-w-lg mx-auto">
-                Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team — ready when you are.
+                Free estimates. Same-day response. Macomb County&apos;s most trusted landscaping team, ready when you are.
               </p>
               <p className="text-white/30 text-sm mb-6">Serving Washington Township · Shelby Township · Macomb Township · Romeo · Ray Township · Bruce Township · Rochester · Rochester Hills</p>
               <p className="text-white/20 text-xs mb-14">ZIP codes: 48094, 48095 (Washington Twp) · 48315, 48316 (Shelby Twp) · 48042, 48044 (Macomb Twp) · 48065 (Romeo) · 48306, 48307, 48309 (Rochester / Rochester Hills)</p>

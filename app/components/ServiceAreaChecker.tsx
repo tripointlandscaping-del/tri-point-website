@@ -54,7 +54,7 @@ const serviceAreas: { name: string; slug: string; coreNames: string[]; zips: str
   },
 ];
 
-// Levenshtein distance — measures how many edits between two strings
+// Levenshtein distance, measures how many edits between two strings
 function levenshtein(a: string, b: string): number {
   const m = a.length, n = b.length;
   const dp: number[][] = Array.from({ length: m + 1 }, (_, i) =>
@@ -100,7 +100,7 @@ function findMatch(input: string): typeof serviceAreas[0] | "macomb-county" | nu
     }
   }
 
-  // Fuzzy match — check full phrase against each coreName before splitting into words
+  // Fuzzy match, check full phrase against each coreName before splitting into words
   for (const area of serviceAreas) {
     for (const name of area.coreNames) {
       // Only fuzzy-match single-word names word-by-word (avoids "rochester" matching "rochester hills" input)
@@ -162,7 +162,7 @@ export default function ServiceAreaChecker() {
           );
           const data = await res.json();
           const addr = data.address || {};
-          // Nominatim returns township, city, town, village — try each
+          // Nominatim returns township, city, town, village, try each
           const place =
             addr.township ||
             addr.city ||
@@ -205,7 +205,7 @@ export default function ServiceAreaChecker() {
           Are You in Our Service Area?
         </h3>
       </div>
-      <p className="text-white/50 text-sm mb-4">Enter your city, township, or zip code — or use your location.</p>
+      <p className="text-white/50 text-sm mb-4">Enter your city, township, or zip code, or use your location.</p>
 
       <div className="flex gap-2 mb-3">
         <input
@@ -268,7 +268,7 @@ export default function ServiceAreaChecker() {
                 <p className="text-red-300 font-semibold text-sm">We don&apos;t currently serve that area.</p>
                 <p className="text-white/50 text-xs mt-1">
                   We serve Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills.{" "}
-                  <a href="tel:+15863278080" className="text-green-400 underline hover:text-green-300">Call us</a> to confirm — we may be able to help.
+                  <a href="tel:+15863278080" className="text-green-400 underline hover:text-green-300">Call us</a> to confirm. We may be able to help.
                 </p>
               </div>
             </>

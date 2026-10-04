@@ -88,7 +88,7 @@ export const reviews: Review[] = [
   },
 ];
 
-// Shown on the homepage. Picked from the reviews above (no dates — they're quoted, not live).
+// Shown on the homepage. Picked from the reviews above (no dates. They're quoted, not live).
 const featuredAuthors = ["Jovan H.", "J. Morgan", "Anna B.", "Douglas T.", "Marcela V.", "Master Cheese"];
 export const featuredReviews: Review[] = featuredAuthors.map(
   (author) => reviews.find((r) => r.author === author)!,

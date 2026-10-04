@@ -2,25 +2,25 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { googleReviews, reviewCountLabel } from "../lib/business";
+import { googleReviews, googleRatingLabel } from "../lib/business";
 
 export const metadata: Metadata = {
   title: "Spring Cleanup in Macomb County, MI",
   description:
-    "Spring cleanup in Macomb County, MI. Leaf removal, bed edging, debris hauling & property prep. Locally owned & insured. Free estimates — book early.",
+    "Spring cleanup in Macomb County, MI. Leaf removal, bed edging, debris hauling & property prep. Locally owned & insured. Free estimates. Book early.",
   alternates: { canonical: "https://www.tripointlandscaping.com/spring-cleanup" },
   openGraph: {
     title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
-    description: "Professional spring cleanup — leaf removal, bed cleanup, edging & property prep. Booking now for Macomb County. Free estimates.",
+    description: "Professional spring cleanup: leaf removal, bed cleanup, edging & property prep. Booking now for Macomb County. Free estimates.",
     url: "https://www.tripointlandscaping.com/spring-cleanup",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Spring Cleanup Services — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Spring Cleanup Services: Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
-    description: "Professional spring cleanup — leaf removal, bed cleanup, edging & property prep. Booking now for Macomb County. Free estimates.",
+    description: "Professional spring cleanup: leaf removal, bed cleanup, edging & property prep. Booking now for Macomb County. Free estimates.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
@@ -34,7 +34,7 @@ const faqSchema = {
       name: "When should I schedule spring cleanup in Michigan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "In Michigan, spring cleanups are typically done from late March through May. The earlier you book, the better — slots fill quickly as everyone wants their property ready for the season at the same time. We recommend booking in January or February.",
+        text: "In Michigan, spring cleanups are typically done from late March through May. The earlier you book, the better, slots fill quickly as everyone wants their property ready for the season at the same time. We recommend booking in January or February.",
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: "How much does spring cleanup cost in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Spring cleanup pricing depends on your property size, leaf load, and number of garden beds. Every estimate is free — call (586) 327-8080 and we'll give you a same-day quote.",
+        text: "Spring cleanup pricing depends on your property size, leaf load, and number of garden beds. Every estimate is free. Call (586) 327-8080 and we'll give you a same-day quote.",
       },
     },
   ],
@@ -72,19 +72,19 @@ const serviceSchema = {
 };
 
 const included = [
-  { title: "Leaf & Debris Removal", desc: "We remove all winter debris, leaves, sticks, and dead plant material from your lawn and beds — and haul everything away." },
+  { title: "Leaf & Debris Removal", desc: "We remove all winter debris, leaves, sticks, and dead plant material from your lawn and beds: and haul everything away." },
   { title: "Bed Cleanup & Edging", desc: "Garden beds are cleaned out, re-edged, and prepped for the season. Sharp edges make a huge visual difference." },
   { title: "Perennial Cutback", desc: "Dead perennial stems from last season are cut back to make room for fresh spring growth." },
-  { title: "Lawn Assessment", desc: "We assess your lawn's condition after winter and flag any issues — bare spots, damage from plowing, or areas needing attention." },
+  { title: "Lawn Assessment", desc: "We assess your lawn's condition after winter and flag any issues: bare spots, damage from plowing, or areas needing attention." },
   { title: "Property Walk-Through", desc: "After the cleanup, we walk the property with you to make sure everything meets your expectations." },
-  { title: "Full Haul-Away", desc: "All debris is loaded and hauled away. You don't have to deal with piles or bags — we take everything." },
+  { title: "Full Haul-Away", desc: "All debris is loaded and hauled away. You don't have to deal with piles or bags. We take everything." },
 ];
 
 const faqs = [
-  { q: "When should I schedule spring cleanup in Michigan?", a: "In Michigan, spring cleanups run from late March through May. Book in January or February for the best availability — our schedule fills quickly as the season approaches." },
-  { q: "How much does spring cleanup cost?", a: "Pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free — call or text (586) 327-8080 and we'll give you a same-day quote with no obligation." },
+  { q: "When should I schedule spring cleanup in Michigan?", a: "In Michigan, spring cleanups run from late March through May. Book in January or February for the best availability. Our schedule fills quickly as the season approaches." },
+  { q: "How much does spring cleanup cost?", a: "Pricing depends on your property size, leaf load, and number of beds. Every estimate is completely free. Call or text (586) 327-8080 and we'll give you a same-day quote with no obligation." },
   { q: "Do you haul away the debris?", a: "Yes. All leaves, debris, and plant material are loaded and hauled away by our crew. You don't have to deal with any of it." },
-  { q: "Can I add mulch to my spring cleanup?", a: "Absolutely. Many customers combine spring cleanup with fresh mulch installation — it's the most efficient way to get your property looking sharp for the season. Ask about our cleanup + mulch packages." },
+  { q: "Can I add mulch to my spring cleanup?", a: "Absolutely. Many customers combine spring cleanup with fresh mulch installation. It's the most efficient way to get your property looking sharp for the season. Ask about our cleanup + mulch packages." },
 ];
 
 const areas = [
@@ -135,7 +135,7 @@ export default function SpringCleanupPage() {
               <span style={{ color: "#7ecb82" }}>Macomb & Oakland County</span>
             </h1>
             <p className="text-white/60 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
-              Get your property ready for spring with a professional cleanup from Tri-Point Landscaping. Leaf removal, bed cleanup, edging, and full property prep — we handle everything and haul it all away.
+              Get your property ready for spring with a professional cleanup from Tri-Point Landscaping. Leaf removal, bed cleanup, edging, and full property prep. We handle everything and haul it all away.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -154,7 +154,7 @@ export default function SpringCleanupPage() {
             </div>
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
               <span className="text-yellow-400">★★★★★</span>
-              <span className="text-white/50">{googleReviews.rating} · {reviewCountLabel}</span>
+              <span className="text-white/50">{googleReviews.rating} · {googleRatingLabel}</span>
             </div>
           </div>
         </section>
@@ -187,10 +187,10 @@ export default function SpringCleanupPage() {
           <div className="max-w-3xl mx-auto px-6 text-center text-white">
             <p className="text-green-200 text-sm font-semibold uppercase tracking-widest mb-4">Don&apos;t Wait</p>
             <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl sm:text-5xl font-bold mb-5">
-              Book Early — Spots Fill Fast
+              Book Early: Spots Fill Fast
             </h2>
             <p className="text-white/70 leading-relaxed max-w-lg mx-auto mb-4">
-              Spring is our busiest season. Every homeowner in Macomb County wants their property cleaned up at the same time — which means our schedule fills weeks in advance. Customers who book in January and February get first pick of dates.
+              Spring is our busiest season. Every homeowner in Macomb County wants their property cleaned up at the same time, which means our schedule fills weeks in advance. Customers who book in January and February get first pick of dates.
             </p>
             <p className="text-white/70 leading-relaxed max-w-lg mx-auto mb-10">
               By March, we&apos;re often booked 2–3 weeks out. Don&apos;t wait until the snow melts. Lock in your spring cleanup now and start the season on the right foot.

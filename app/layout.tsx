@@ -6,6 +6,7 @@ import ChatBot from "./components/ChatBot";
 import ScrollProgress from "./components/ScrollProgress";
 import UrgencyBanner from "./components/UrgencyBanner";
 import StickyMobileBar from "./components/StickyMobileBar";
+import SnowPlowIntro from "./components/SnowPlowIntro";
 import ExitIntentPopup from "./components/ExitIntentPopup";
 import CookieBanner from "./components/CookieBanner";
 import { aggregateRatingSchema, FOUNDING_DATE, GBP_URL, openingHoursSpecification } from "./lib/business";
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
         url: "https://www.tripointlandscaping.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Tri-Point Landscaping — Professional Lawn Care and Landscaping in Macomb County, MI",
+        alt: "Tri-Point Landscaping: Professional Lawn Care and Landscaping in Macomb County, MI",
       },
     ],
   },
@@ -217,10 +218,9 @@ export default function RootLayout({
         {children}
         <ChatBot />
         <StickyMobileBar />
+        <SnowPlowIntro />
         <ExitIntentPopup />
         <CookieBanner />
-        {/* Spacer so StickyMobileBar doesn't overlap content on mobile */}
-        <div className="h-16 md:hidden" aria-hidden="true" />
       </body>
     </html>
   );

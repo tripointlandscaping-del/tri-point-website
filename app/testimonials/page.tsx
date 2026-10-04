@@ -3,25 +3,25 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { reviews } from "../lib/reviews";
-import { googleReviews, aggregateRatingSchema, reviewCountLabel, GBP_URL, GBP_REVIEW_URL } from "../lib/business";
+import { googleReviews, aggregateRatingSchema, GBP_URL, GBP_REVIEW_URL } from "../lib/business";
 
-const reviewsDescription = `Read ${reviewCountLabel} for Tri-Point Landscaping (${googleReviews.rating}★ rating) from homeowners in Washington Township, Shelby Township & across Macomb County, MI.`;
+const reviewsDescription = `See why Tri-Point Landscaping is highly rated on Google (${googleReviews.rating}★): reviews from homeowners in Washington Township, Shelby Township & across Macomb County, MI.`;
 
 export const metadata: Metadata = {
-  title: "Customer Reviews — Macomb County, MI",
+  title: "Customer Reviews | Macomb County, MI",
   description: reviewsDescription,
   alternates: { canonical: "https://www.tripointlandscaping.com/testimonials" },
   openGraph: {
-    title: `Customer Reviews | Tri-Point Landscaping — ${googleReviews.rating}★ Rating`,
+    title: `Customer Reviews | Tri-Point Landscaping | ${googleReviews.rating}★ Rating`,
     description: reviewsDescription,
     url: "https://www.tripointlandscaping.com/testimonials",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Reviews — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Reviews: Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `Customer Reviews | Tri-Point Landscaping — ${googleReviews.rating}★ Rating`,
+    title: `Customer Reviews | Tri-Point Landscaping | ${googleReviews.rating}★ Rating`,
     description: reviewsDescription,
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
@@ -102,8 +102,8 @@ export default function TestimonialsPage() {
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">{googleReviews.count}</p>
-                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Reviews</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">Trusted</p>
+                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">By Businesses &amp; Property Managers</p>
               </div>
               <div>
                 <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">8</p>

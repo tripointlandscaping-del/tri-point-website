@@ -4,12 +4,14 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FaqAccordion from "../components/FaqAccordion";
+import PropertyManagerSection from "../components/PropertyManagerSection";
+import { SNOW_QUOTE_HREF, SNOW_URGENCY, propertyTypes } from "../lib/snow";
 import { googleReviews } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Commercial Landscaping — Macomb County, MI",
+  title: "Commercial Landscaping | Macomb County, MI",
   description:
-    "Commercial landscaping & snow removal for HOAs and property managers in Macomb County, MI. Fully insured. Free estimates — call (586) 327-8080.",
+    "Commercial landscaping & snow removal for HOAs and property managers in Macomb County, MI. Fully insured. Free estimates. Call (586) 327-8080.",
   alternates: {
     canonical: "https://www.tripointlandscaping.com/commercial",
   },
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/commercial",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Commercial Landscaping Macomb County MI — Tri-Point Landscaping" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Commercial Landscaping Macomb County MI: Tri-Point Landscaping" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -64,7 +66,7 @@ const services = [
       </svg>
     ),
     title: "Spring & Fall Cleanups",
-    desc: "Full property cleanups at the start and end of every season — debris removal, bed cleanup, leaf removal and preparation for the next season.",
+    desc: "Full property cleanups at the start and end of every season: debris removal, bed cleanup, leaf removal and preparation for the next season.",
   },
   {
     icon: (
@@ -97,8 +99,8 @@ const clientTypes = [
 
 const whyUs = [
   { stat: "Fully Insured", desc: "General liability + workers' comp. Your property and business are protected." },
-  { stat: "Local & Reliable", desc: "Washington Township based. We show up — same crew, same schedule, every time." },
-  { stat: "Seasonal Contracts", desc: "One contract covers your full year — lawn season and snow season. No re-bidding." },
+  { stat: "Local & Reliable", desc: "Washington Township based. We show up: same crew, same schedule, every time." },
+  { stat: "Seasonal Contracts", desc: "One contract covers your full year, lawn season and snow season. No re-bidding." },
   { stat: `${googleReviews.rating}★ Google Rated`, desc: "Every residential and commercial client gets the same obsessive attention to detail." },
 ];
 
@@ -109,7 +111,7 @@ const faqs = [
   { q: "Do you offer commercial snow removal?", a: "Yes. Commercial snow removal is one of our core services. We plow lots, clear sidewalks, and apply salt and de-icing products to keep your property safe, accessible, and liability-managed." },
   { q: "How quickly can you respond to commercial inquiries?", a: "We prioritize commercial inquiries and typically respond within a few hours. For larger properties, we schedule an on-site walk-through before providing a detailed proposal." },
   { q: "Can you handle multiple properties for one management company?", a: "Yes. We work with property management companies managing multiple sites. We can coordinate service schedules across all properties and provide consolidated reporting." },
-  { q: "How much does commercial landscaping cost in Macomb County?", a: "Commercial landscaping pricing is customized to each property's size, service scope, and frequency. We don't quote commercial properties without walking them first — lot sizes, service requirements, and schedule needs vary too much for a generic price. Contact us for a free on-site walk-through and a detailed proposal tailored to your specific property." },
+  { q: "How much does commercial landscaping cost in Macomb County?", a: "Commercial landscaping pricing is customized to each property's size, service scope, and frequency. We don't quote commercial properties without walking them first: lot sizes, service requirements, and schedule needs vary too much for a generic price. Contact us for a free on-site walk-through and a detailed proposal tailored to your specific property." },
 ];
 
 export default function CommercialPage() {
@@ -174,7 +176,7 @@ export default function CommercialPage() {
               <span style={{ color: "#7ecb82" }}>Macomb County</span> Businesses Trust
             </h1>
             <p className="text-white/65 text-lg leading-relaxed mb-10 max-w-xl">
-              Seasonal contracts for HOAs, office parks, retail centers and property managers. One call — your grounds are handled spring through winter.
+              Seasonal contracts for HOAs, office parks, retail centers and property managers. One call, your grounds are handled spring through winter.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -230,7 +232,7 @@ export default function CommercialPage() {
               Full-Service Commercial Grounds Management
             </h2>
             <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-              One contractor for your entire property — every season, every service.
+              One contractor for your entire property. Every season, every service.
             </p>
           </div>
 
@@ -264,6 +266,7 @@ export default function CommercialPage() {
             >
               Commercial Snow Removal &amp; Ice Management
             </h2>
+            <p style={{ color: "#2C5F2E" }} className="text-sm font-semibold mb-4">{SNOW_URGENCY}</p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Our snow service is built for commercial properties: retail plazas, office buildings, HOAs, churches, medical offices, and industrial lots. Every account starts with a site walk and a written agreement that sets trigger depths, clearing priorities, and salting, so everyone knows what happens when a storm hits.
             </p>
@@ -288,7 +291,7 @@ export default function CommercialPage() {
             </ul>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/contact"
+                href={SNOW_QUOTE_HREF}
                 style={{ backgroundColor: "#2C5F2E" }}
                 className="inline-flex items-center gap-2 text-white px-8 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity"
               >
@@ -304,6 +307,16 @@ export default function CommercialPage() {
           </div>
 
           <div className="lg:col-span-2 space-y-6">
+            <div className="p-8 border border-gray-100">
+              <h3 className="font-bold text-gray-900 mb-4">Snow Removal by Property Type</h3>
+              <ul className="space-y-2">
+                {propertyTypes.map((t) => (
+                  <li key={t.slug}>
+                    <Link href={`/services/snow-removal/${t.slug}`} className="text-sm text-green-800 hover:underline">{t.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="p-8" style={{ backgroundColor: "#f9f7f4" }}>
               <h3 className="font-bold text-gray-900 mb-4">Commercial Snow Removal by City</h3>
               <div className="grid grid-cols-2 gap-2">
@@ -346,6 +359,8 @@ export default function CommercialPage() {
           </div>
         </div>
       </section>
+
+      <PropertyManagerSection />
 
       {/* Why us */}
       <section className="py-24" style={{ backgroundColor: "#111111" }}>

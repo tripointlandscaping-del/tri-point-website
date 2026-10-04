@@ -84,7 +84,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center shrink-0">
             <Image
               src="/logo-black.png"
-              alt="Tri-Point Landscaping — Washington Township MI"
+              alt="Tri-Point Landscaping: Washington Township MI"
               width={200}
               height={65}
               className="h-14 w-auto"

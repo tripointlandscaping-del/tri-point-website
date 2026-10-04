@@ -24,7 +24,7 @@ type AreaData = {
 const areas: Record<string, AreaData> = {
   "washington-township": {
     name: "Washington Township",
-    metaTitle: "Lawn Mowing & Landscaping — Washington Township, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Washington Township, MI",
     metaDescription:
       "Professional landscaping, lawn mowing, grass cutting & leaf removal in Washington Township, MI, plus commercial snow removal. Local Macomb County experts. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/bills-google2.jpeg",
@@ -34,9 +34,9 @@ const areas: Record<string, AreaData> = {
     localDetails:
       "We serve Washington Township homeowners and businesses from 26 Mile Road to 32 Mile Road, and from Van Dyke Avenue to Romeo Plank Road. Whether you're in Stony Creek Meadows, Chattaburg Park, or anywhere in between, Tri-Point Landscaping is your neighbor and your landscaping partner.",
     bodyParagraph:
-      "Washington Township is one of Macomb County's most desirable communities — and the homes here reflect that. Properties along 26 Mile, near Stony Creek Metropark, and throughout the township's well-established subdivisions deserve landscaping that matches the neighborhood's character. We bring the same attention to detail to a weekly mowing route as we do to a full landscape installation. We know the soil conditions, the typical drainage challenges on these properties, and the plants that thrive here. That local knowledge shows in every job we complete.",
+      "Washington Township is one of Macomb County's most desirable communities, and the homes here reflect that. Properties along 26 Mile, near Stony Creek Metropark, and throughout the township's well-established subdivisions deserve landscaping that matches the neighborhood's character. We bring the same attention to detail to a weekly mowing route as we do to a full landscape installation. We know the soil conditions, the typical drainage challenges on these properties, and the plants that thrive here. That local knowledge shows in every job we complete.",
     highlights: [
-      "Based right here in Washington Township — not a distant franchise",
+      "Based right here in Washington Township: not a distant franchise",
       "Serving properties along 26 Mile, 28 Mile, 30 Mile, and 32 Mile corridors",
       "Familiar with Washington Township's subdivision styles and landscape needs",
       "Fully insured LLC with fast same-day response to estimate requests",
@@ -53,33 +53,33 @@ const areas: Record<string, AreaData> = {
     ],
     faqs: [
       { q: "Do you offer free estimates in Washington Township?", a: "Yes. We provide free, no-obligation on-site estimates for all landscaping, lawn care, commercial snow removal, and property services throughout Washington Township. Call (586) 327-8080 or submit a request online." },
-      { q: "What parts of Washington Township do you serve?", a: "We serve the entire township — from 26 Mile Road north to 32 Mile Road, and from Van Dyke Avenue west to Romeo Plank Road, including Stony Creek Meadows, Chattaburg Park, and all surrounding subdivisions and commercial areas." },
+      { q: "What parts of Washington Township do you serve?", a: "We serve the entire township: from 26 Mile Road north to 32 Mile Road, and from Van Dyke Avenue west to Romeo Plank Road, including Stony Creek Meadows, Chattaburg Park, and all surrounding subdivisions and commercial areas." },
       { q: "Do you offer snow removal in Washington Township?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Washington Township: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
       { q: "Do you offer lawn mowing, grass cutting, and lawn care in Washington Township?", a: "Yes. Whether you call it lawn mowing, grass cutting, lawn care, or lawn service, Tri-Point Landscaping provides all of it in Washington Township. We offer weekly and bi-weekly schedules with mowing, edging, trimming, and blowing on every visit." },
-      { q: "Do you do leaf removal and fall cleanup in Washington Township?", a: "Yes. Leaf removal and fall yard cleanup is one of our most popular Washington Township services. We remove all leaves, cut back perennials, clear beds, and haul everything away — no piles left behind." },
+      { q: "Do you do leaf removal and fall cleanup in Washington Township?", a: "Yes. Leaf removal and fall yard cleanup is one of our most popular Washington Township services. We remove all leaves, cut back perennials, clear beds, and haul everything away. No piles left behind." },
       { q: "Do you provide mulch delivery and installation in Washington Township?", a: "Yes. We deliver and install mulch, decorative stone, and river rock throughout Washington Township. Black, brown, cedar, and hardwood mulch available with clean bed edging on every job." },
-      { q: "How much does lawn care or landscaping cost in Washington Township, MI?", a: "Pricing depends on your property size and which services you need. Every quote is based on a free on-site estimate — we walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
+      { q: "How much does lawn care or landscaping cost in Washington Township, MI?", a: "Pricing depends on your property size and which services you need. Every quote is based on a free on-site estimate. We walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "shelby-township": {
     name: "Shelby Township",
-    metaTitle: "Lawn Mowing & Landscaping — Shelby Township, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Shelby Township, MI",
     metaDescription:
       "Professional landscaping, lawn mowing, grass cutting & leaf removal in Shelby Township, MI, plus commercial snow removal. Trusted Macomb County experts. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
     heroAlt: "Professional landscaping services in Shelby Township Michigan",
     intro:
-      "Shelby Township homeowners and businesses get weekly lawn mowing, landscaping, and seasonal cleanups from Tri-Point Landscaping — a Macomb County crew serving properties from the M-59 corridor north through the township's subdivisions. Businesses can also count on us for commercial snow removal.",
+      "Shelby Township homeowners and businesses get weekly lawn mowing, landscaping, and seasonal cleanups from Tri-Point Landscaping, a Macomb County crew serving properties from the M-59 corridor north through the township's subdivisions. Businesses can also count on us for commercial snow removal.",
     localDetails:
       "We serve Shelby Township properties along M-59, 23 Mile Road, and throughout the subdivisions and commercial corridors of this thriving Macomb County community. From residential neighborhoods to commercial plazas, Tri-Point Landscaping has the experience and equipment to handle it all.",
     bodyParagraph:
-      "Shelby Township's rapid residential and commercial growth has created a vibrant community of homeowners who take their properties seriously. The subdivision developments along 23 Mile, 24 Mile, and Schoenherr represent a range of landscape styles — from newer construction with minimal plantings to established properties with mature trees and complex beds. We work with both. Our crews understand what it takes to maintain Shelby Township properties through Michigan's demanding four-season cycle, and we bring the reliability and professionalism that this community expects.",
+      "Shelby Township's rapid residential and commercial growth has created a vibrant community of homeowners who take their properties seriously. The subdivision developments along 23 Mile, 24 Mile, and Schoenherr represent a range of landscape styles, from newer construction with minimal plantings to established properties with mature trees and complex beds. We work with both. Our crews understand what it takes to maintain Shelby Township properties through Michigan's demanding four-season cycle, and we bring the reliability and professionalism that this community expects.",
     highlights: [
       "Serving Shelby Township homeowners and commercial properties",
       "Experienced with Shelby Township's subdivision styles and property sizes",
-      "Reliable scheduling — we communicate proactively about every visit",
-      "Fully insured LLC — you're protected on every job",
-      "Fast response to estimate requests — typically same day",
+      "Reliable scheduling. We communicate proactively about every visit",
+      "Fully insured LLC. You're protected on every job",
+      "Fast response to estimate requests: typically same day",
     ],
     services: [
       { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -93,16 +93,16 @@ const areas: Record<string, AreaData> = {
     faqs: [
       { q: "Do you provide landscaping services in Shelby Township?", a: "Yes. We serve all of Shelby Township with lawn maintenance, landscape installation, mulch, seasonal cleanups, and lawn renovations, plus commercial snow removal for businesses. Call (586) 327-8080 for a free estimate." },
       { q: "Do you mow lawns in Shelby Township weekly?", a: "Yes. We offer weekly and bi-weekly lawn maintenance programs for residential and commercial properties throughout Shelby Township during the April–October growing season." },
-      { q: "Can you do a full landscape renovation in Shelby Township?", a: "Absolutely. Landscape renovation — new beds, plantings, stone features, lighting, and fresh mulch — is one of our most popular services in Shelby Township. We offer on-site design consultations before any work begins." },
-      { q: "Do you offer grass cutting and lawn mowing in Shelby Township?", a: "Yes — lawn mowing, grass cutting, lawn care, lawn trimming — whatever you call it, we provide it in Shelby Township on weekly or bi-weekly schedules, April through October." },
+      { q: "Can you do a full landscape renovation in Shelby Township?", a: "Absolutely. Landscape renovation (new beds, plantings, stone features, lighting, and fresh mulch) is one of our most popular services in Shelby Township. We offer on-site design consultations before any work begins." },
+      { q: "Do you offer grass cutting and lawn mowing in Shelby Township?", a: "Yes (lawn mowing, grass cutting, lawn care, lawn trimming) whatever you call it, we provide it in Shelby Township on weekly or bi-weekly schedules, April through October." },
       { q: "Do you offer snow removal in Shelby Township?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Shelby Township: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
-      { q: "Do you do leaf removal and spring cleanup in Shelby Township?", a: "Yes. Leaf removal, fall cleanup, and spring yard cleanup are all available in Shelby Township. We remove all debris and haul it away — leaving your property clean and ready for the season." },
-      { q: "How much does lawn care or landscaping cost in Shelby Township, MI?", a: "Pricing depends on your property size and the services you need. Every quote is based on a free on-site estimate — we walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
+      { q: "Do you do leaf removal and spring cleanup in Shelby Township?", a: "Yes. Leaf removal, fall cleanup, and spring yard cleanup are all available in Shelby Township. We remove all debris and haul it away: leaving your property clean and ready for the season." },
+      { q: "How much does lawn care or landscaping cost in Shelby Township, MI?", a: "Pricing depends on your property size and the services you need. Every quote is based on a free on-site estimate. We walk your property and give you a clear, upfront price with no obligation. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "macomb-township": {
     name: "Macomb Township",
-    metaTitle: "Lawn Mowing & Landscaping — Macomb Township, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Macomb Township, MI",
     metaDescription:
       "Professional landscaping, lawn mowing, grass cutting & leaf removal in Macomb Township, MI, plus commercial snow removal. Reliable Macomb County experts. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/mulch.jpg",
@@ -112,12 +112,12 @@ const areas: Record<string, AreaData> = {
     localDetails:
       "Macomb Township's growing residential communities deserve landscaping that matches the quality and pride homeowners invest in their properties. Whether you're in a newer subdivision near 25 Mile Road or an established neighborhood closer to the township's core, Tri-Point Landscaping is ready to serve you.",
     bodyParagraph:
-      "Macomb Township has seen significant residential growth over the past decade, and with it comes a community of homeowners who want their properties to reflect that investment. New construction landscapes often need filling in — beds established, plantings selected, and mulch or stone installed for the first time. Established properties need consistent maintenance and periodic renovation. We handle both with the same care and professionalism. Our crews work efficiently throughout Macomb Township, bringing the same reliable, schedule-consistent service we provide across northern Macomb County.",
+      "Macomb Township has seen significant residential growth over the past decade, and with it comes a community of homeowners who want their properties to reflect that investment. New construction landscapes often need filling in: beds established, plantings selected, and mulch or stone installed for the first time. Established properties need consistent maintenance and periodic renovation. We handle both with the same care and professionalism. Our crews work efficiently throughout Macomb Township, bringing the same reliable, schedule-consistent service we provide across northern Macomb County.",
     highlights: [
       "Serving all of Macomb Township's residential and commercial properties",
       "Experienced with both new construction and established landscape maintenance",
       "Consistent scheduling and proactive communication on every job",
-      "Fully insured LLC — you're protected from start to finish",
+      "Fully insured LLC. You're protected from start to finish",
       `${googleReviews.rating} Google rating and growing reputation in Macomb County`,
     ],
     services: [
@@ -135,28 +135,28 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer lawn mowing and grass cutting in Macomb Township?", a: "Yes. We provide lawn mowing, grass cutting, and lawn care throughout Macomb Township on weekly and bi-weekly schedules. Every visit includes mowing, edging, trimming, and blowing." },
       { q: "Do you offer snow removal in Macomb Township?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Macomb Township: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
       { q: "Do you offer leaf removal and yard cleanup in Macomb Township?", a: "Yes. Leaf removal and seasonal yard cleanup are available throughout Macomb Township. We remove leaves, debris, and plant material and haul everything away." },
-      { q: "How much does lawn care or landscaping cost in Macomb Township, MI?", a: "Pricing is based on your specific property and services needed. All estimates are free — we assess your property in person and give you a clear, upfront quote before any work begins. Call (586) 327-8080 or request an estimate online." },
+      { q: "How much does lawn care or landscaping cost in Macomb Township, MI?", a: "Pricing is based on your specific property and services needed. All estimates are free. We assess your property in person and give you a clear, upfront quote before any work begins. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "romeo": {
     name: "Romeo",
-    metaTitle: "Lawn Mowing & Landscaping — Romeo, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Romeo, MI",
     metaDescription:
       "Professional landscaping, lawn mowing, grass cutting & leaf removal in Romeo, MI, plus commercial snow removal. Serving the Village of Romeo and surrounding Macomb County areas. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/spring.jpg",
     heroAlt: "Professional landscaping services in Romeo Michigan",
     intro:
-      "From historic homes near the village center to rural lots on the outskirts, Tri-Point Landscaping cares for Romeo properties with lawn care, landscaping, mulch, and seasonal cleanups — done with respect for the mature trees and plantings that give Romeo its character.",
+      "From historic homes near the village center to rural lots on the outskirts, Tri-Point Landscaping cares for Romeo properties with lawn care, landscaping, mulch, and seasonal cleanups: done with respect for the mature trees and plantings that give Romeo its character.",
     localDetails:
       "From the historic village center to the surrounding residential and rural properties, Tri-Point Landscaping understands what it takes to maintain Romeo's natural beauty. We serve properties throughout the Romeo area with the attention to detail and local knowledge that national chains simply can't match.",
     bodyParagraph:
-      "Romeo has a character unlike any other Macomb County community — its historic village center, mature trees, and mix of rural and residential properties create a landscape environment that demands thoughtful, experienced care. Properties here often feature large mature plantings, older stone features, and the kind of established landscape that takes decades to develop and only one bad season to set back. We approach Romeo properties with respect for what's already there, and the expertise to help it thrive. Whether you're maintaining a historic village home or a newer rural property on the outskirts, Tri-Point brings the same quality and care.",
+      "Romeo has a character unlike any other Macomb County community: its historic village center, mature trees, and mix of rural and residential properties create a landscape environment that demands thoughtful, experienced care. Properties here often feature large mature plantings, older stone features, and the kind of established landscape that takes decades to develop and only one bad season to set back. We approach Romeo properties with respect for what's already there, and the expertise to help it thrive. Whether you're maintaining a historic village home or a newer rural property on the outskirts, Tri-Point brings the same quality and care.",
     highlights: [
       "Serving the Village of Romeo and surrounding areas",
       "Experienced with Romeo's mix of rural, residential, and historic properties",
       "Thoughtful care for mature trees, established plantings, and unique landscapes",
-      "Fully insured LLC — reliable and professional on every property",
-      "Fast response to estimates — typically same day",
+      "Fully insured LLC: reliable and professional on every property",
+      "Fast response to estimates: typically same day",
     ],
     services: [
       { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -172,12 +172,12 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer fall cleanup in Romeo?", a: "Absolutely. Fall cleanup is one of our busiest services in the Romeo area. We remove leaves, cut back perennials, clear beds, and leave the property ready for winter." },
       { q: "Do you offer lawn mowing and grass cutting in Romeo, MI?", a: "Yes. We provide lawn mowing, grass cutting, and lawn care in Romeo on weekly and bi-weekly schedules, from April through October. Every visit includes mowing, edging, trimming, and blowing." },
       { q: "Do you offer snow removal in Romeo?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Romeo: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
-      { q: "How much does lawn care or landscaping cost in Romeo, MI?", a: "Pricing varies by property size, lot type, and services needed — rural and larger properties in Romeo are quoted based on the specific scope of work. All estimates are free. Call (586) 327-8080 or request one online." },
+      { q: "How much does lawn care or landscaping cost in Romeo, MI?", a: "Pricing varies by property size, lot type, and services needed, rural and larger properties in Romeo are quoted based on the specific scope of work. All estimates are free. Call (586) 327-8080 or request one online." },
     ],
   },
   "ray-township": {
     name: "Ray Township",
-    metaTitle: "Lawn Mowing & Landscaping — Ray Township, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Ray Township, MI",
     metaDescription:
       "Professional landscaping, lawn mowing & leaf removal in Ray Township, MI, plus commercial snow removal. Serving Macomb County rural and residential properties. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/lawn-mow-4.jpeg",
@@ -185,14 +185,14 @@ const areas: Record<string, AreaData> = {
     intro:
       "Ray Township's larger lots and long driveways call for a crew that comes equipped for them. Tri-Point Landscaping mows, maintains, and cleans up rural and residential properties across Ray Township, holding a large rural parcel to the same standard as a typical residential lot.",
     localDetails:
-      "Ray Township's rural landscape requires a different approach than suburban neighborhoods — our team has the experience and equipment to handle larger properties, longer driveways, and the specific demands of rural Macomb County. We're your local landscaping partner in Ray Township.",
+      "Ray Township's rural landscape requires a different approach than suburban neighborhoods. Our team has the experience and equipment to handle larger properties, longer driveways, and the specific demands of rural Macomb County. We're your local landscaping partner in Ray Township.",
     bodyParagraph:
-      "Ray Township's rural character is one of its defining qualities — larger lots, longer driveways, more naturalized landscapes, and a pace that values quality work done right over speed. Our crews come prepared for Ray Township properties. We bring the right equipment for extended mowing runs, and we understand that these properties require a slightly different standard than a suburban quarter-acre. Whether you need routine lawn maintenance or a complete landscape overhaul, Tri-Point Landscaping brings the expertise and equipment to handle Ray Township's properties with care.",
+      "Ray Township's rural character is one of its defining qualities: larger lots, longer driveways, more naturalized landscapes, and a pace that values quality work done right over speed. Our crews come prepared for Ray Township properties. We bring the right equipment for extended mowing runs, and we understand that these properties require a slightly different standard than a suburban quarter-acre. Whether you need routine lawn maintenance or a complete landscape overhaul, Tri-Point Landscaping brings the expertise and equipment to handle Ray Township's properties with care.",
     highlights: [
       "Equipped for larger rural Ray Township properties",
       "Experience with extended mowing routes on larger properties",
       "Reliable scheduling that works around Ray Township's rural rhythms",
-      "Fully insured LLC — professional service on every property",
+      "Fully insured LLC: professional service on every property",
       "Free on-site estimates throughout Ray Township",
     ],
     services: [
@@ -207,14 +207,14 @@ const areas: Record<string, AreaData> = {
       { q: "Do you serve Ray Township properties?", a: "Yes. We service residential and rural properties throughout Ray Township with lawn maintenance, landscaping, seasonal cleanup, and lawn renovations." },
       { q: "Can you handle large rural properties in Ray Township?", a: "Yes. We have the equipment and crew capacity for larger rural properties in Ray Township, including extended mowing and large acreage cleanup." },
       { q: "Do you offer snow removal in Ray Township?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Ray Township: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
-      { q: "Do you offer lawn mowing and grass cutting in Ray Township?", a: "Yes. We mow lawns throughout Ray Township on weekly and bi-weekly schedules. Our equipment is sized for larger rural lots and extended mowing routes — not just small suburban yards." },
+      { q: "Do you offer lawn mowing and grass cutting in Ray Township?", a: "Yes. We mow lawns throughout Ray Township on weekly and bi-weekly schedules. Our equipment is sized for larger rural lots and extended mowing routes: not just small suburban yards." },
       { q: "Do you provide leaf removal and yard cleanup in Ray Township?", a: "Yes. We do complete leaf removal, fall yard cleanup, and spring cleanup for Ray Township properties, including larger acreage lots. We haul all debris away." },
       { q: "How much does lawn care or landscaping cost in Ray Township, MI?", a: "Ray Township properties vary widely in lot size and scope, so pricing is always quoted individually after a free on-site estimate. Call (586) 327-8080 or request an estimate online and we'll give you a clear, upfront price." },
     ],
   },
   "bruce-township": {
     name: "Bruce Township",
-    metaTitle: "Lawn Mowing & Landscaping — Bruce Township, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Bruce Township, MI",
     metaDescription:
       "Professional landscaping, lawn mowing & leaf removal in Bruce Township, MI, plus commercial snow removal. Serving Macomb County properties. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/boxwood.jpg",
@@ -224,12 +224,12 @@ const areas: Record<string, AreaData> = {
     localDetails:
       "Bruce Township's residential and rural properties present unique opportunities to create beautiful, well-maintained outdoor spaces. Tri-Point Landscaping has the equipment and expertise to handle properties of all sizes throughout Bruce Township and surrounding Macomb County communities.",
     bodyParagraph:
-      "Bruce Township sits at the northern edge of Macomb County's residential growth corridor, offering a blend of rural character and residential development that makes it a special community to work in. Properties here tend to have more acreage, more mature plantings, and a landscape environment that rewards careful, considered maintenance. Our crews approach Bruce Township properties with the patience and professionalism they deserve — thorough cleanups, well-maintained beds, and reliable year-round service. We're committed to being a landscaping partner that Bruce Township homeowners can count on season after season.",
+      "Bruce Township sits at the northern edge of Macomb County's residential growth corridor, offering a blend of rural character and residential development that makes it a special community to work in. Properties here tend to have more acreage, more mature plantings, and a landscape environment that rewards careful, considered maintenance. Our crews approach Bruce Township properties with the patience and professionalism they deserve: thorough cleanups, well-maintained beds, and reliable year-round service. We're committed to being a landscaping partner that Bruce Township homeowners can count on season after season.",
     highlights: [
       "Serving residential and rural Bruce Township properties",
       "Equipped for larger lots and mature, established landscapes",
       "Consistent, professional service year-round",
-      "Fully insured LLC — protected on every job",
+      "Fully insured LLC: protected on every job",
       "Free estimates throughout Bruce Township",
     ],
     services: [
@@ -246,12 +246,12 @@ const areas: Record<string, AreaData> = {
       { q: "Do you offer spring and fall cleanup in Bruce Township?", a: "Absolutely. Seasonal cleanup is one of our most popular services in Bruce Township. We clear leaves, cut back perennials, clean beds, and haul everything away." },
       { q: "Do you offer lawn mowing and grass cutting in Bruce Township?", a: "Yes. We mow lawns throughout Bruce Township weekly or bi-weekly during the growing season. Our crew handles grass cutting, edging, trimming, and blowing on every visit." },
       { q: "Do you offer snow removal in Bruce Township?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Bruce Township: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
-      { q: "How much does lawn care or landscaping cost in Bruce Township, MI?", a: "Pricing is based on your property size and service scope — all estimates are free and done on-site. Call (586) 327-8080 or request an estimate online for a clear, upfront quote." },
+      { q: "How much does lawn care or landscaping cost in Bruce Township, MI?", a: "Pricing is based on your property size and service scope. All estimates are free and done on-site. Call (586) 327-8080 or request an estimate online for a clear, upfront quote." },
     ],
   },
   "rochester": {
     name: "Rochester",
-    metaTitle: "Lawn Mowing & Landscaping — Rochester, MI",
+    metaTitle: "Lawn Mowing & Landscaping | Rochester, MI",
     metaDescription:
       "Premium landscaping, lawn mowing, grass cutting & leaf removal in Rochester, MI, plus commercial snow removal. Serving Oakland County's most prestigious properties. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/bills-google2.jpeg",
@@ -259,13 +259,13 @@ const areas: Record<string, AreaData> = {
     intro:
       "Rochester's established neighborhoods and historic homes near downtown set a high bar for curb appeal. Tri-Point Landscaping brings weekly mowing with precise edging, bed care, mulch and stone, and seasonal cleanups to Rochester homeowners and businesses in Oakland County, plus commercial snow removal for local businesses.",
     localDetails:
-      "We serve Rochester properties along Walton Boulevard, University Drive, Tienken Road, and throughout the city's prestigious residential corridors and commercial areas. Rochester's mature, established neighborhoods require experienced, detail-oriented care — and Tri-Point Landscaping delivers that on every visit.",
+      "We serve Rochester properties along Walton Boulevard, University Drive, Tienken Road, and throughout the city's prestigious residential corridors and commercial areas. Rochester's mature, established neighborhoods require experienced, detail-oriented care: and Tri-Point Landscaping delivers that on every visit.",
     bodyParagraph:
-      "Rochester is one of Michigan's most desirable communities — beautiful historic neighborhoods, award-winning downtown, and homeowners who take exceptional pride in their properties. That means the landscaping bar is high. Tri-Point Landscaping meets that bar. We provide weekly lawn maintenance with precise edging and trimming, detailed bed care, professional mulch and stone installation, and seasonal cleanups done right. Our crews are trained to the standard that Rochester properties demand — and we back our work with a commitment to getting it right every time.",
+      "Rochester is one of Michigan's most desirable communities: beautiful historic neighborhoods, award-winning downtown, and homeowners who take exceptional pride in their properties. That means the landscaping bar is high. Tri-Point Landscaping meets that bar. We provide weekly lawn maintenance with precise edging and trimming, detailed bed care, professional mulch and stone installation, and seasonal cleanups done right. Our crews are trained to the standard that Rochester properties demand: and we back our work with a commitment to getting it right every time.",
     highlights: [
       "Serving Rochester's prestigious residential and commercial properties",
       "Premium attention to detail that matches Rochester's high standards",
-      "Consistent crew scheduling — same team, same quality, every visit",
+      "Consistent crew scheduling: same team, same quality, every visit",
       "Registered Michigan LLC, fully insured",
       "Free estimates for all Rochester properties",
     ],
@@ -281,31 +281,31 @@ const areas: Record<string, AreaData> = {
     faqs: [
       { q: "Do you provide landscaping services in Rochester, MI?", a: "Yes. Tri-Point Landscaping serves Rochester with premium lawn maintenance, landscape design & installation, mulch & stone, and seasonal cleanups, plus commercial snow removal for businesses. Call (586) 327-8080 for a free estimate." },
       { q: "Can you maintain high-end properties in Rochester?", a: "Absolutely. Our crews are trained to the detail-oriented standards that Rochester properties require. We provide precise edging, clean bed lines, and professional results on every visit." },
-      { q: "Do you offer lawn mowing and grass cutting in Rochester, MI?", a: "Yes — whether you call it lawn mowing, grass cutting, lawn care, lawn cutting, or yard service, Tri-Point Landscaping provides all of it in Rochester on weekly and bi-weekly schedules from April through October. Mowing, edging, trimming, and blowing on every visit." },
+      { q: "Do you offer lawn mowing and grass cutting in Rochester, MI?", a: "Yes, whether you call it lawn mowing, grass cutting, lawn care, lawn cutting, or yard service, Tri-Point Landscaping provides all of it in Rochester on weekly and bi-weekly schedules from April through October. Mowing, edging, trimming, and blowing on every visit." },
       { q: "Do you offer snow removal in Rochester?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Rochester: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
-      { q: "Do you do leaf removal and fall cleanup in Rochester, MI?", a: "Yes. Leaf removal and fall cleanup is one of our most requested Rochester services. We remove all leaves, clear beds, cut back perennials, and haul everything away — no piles left behind." },
+      { q: "Do you do leaf removal and fall cleanup in Rochester, MI?", a: "Yes. Leaf removal and fall cleanup is one of our most requested Rochester services. We remove all leaves, clear beds, cut back perennials, and haul everything away. No piles left behind." },
       { q: "Do you deliver and install mulch in Rochester, MI?", a: "Yes. We offer mulch delivery and installation throughout Rochester. Black, brown, cedar, and hardwood mulch options available, with clean bed edging included on every mulch job." },
       { q: "How much does lawn care or landscaping cost in Rochester, MI?", a: "Pricing depends on your specific property and services. Every estimate is free and done on-site so we can give you an accurate, honest quote. Call (586) 327-8080 or request an estimate online." },
     ],
   },
   "rochester-hills": {
     name: "Rochester Hills",
-    metaTitle: "Lawn Care & Landscaping — Rochester Hills, MI",
+    metaTitle: "Lawn Care & Landscaping | Rochester Hills, MI",
     metaDescription:
       "Premium landscaping, lawn mowing, grass cutting & leaf removal in Rochester Hills, MI, plus commercial snow removal. Professional service for Oakland County's premier community. Free estimates. Call (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
     heroAlt: "Premium landscaping and lawn care in Rochester Hills Michigan",
     intro:
-      "Rochester Hills homeowners invest in their properties, and Tri-Point Landscaping helps protect that investment with lawn mowing, landscaping, mulch, and leaf removal across this Oakland County community — from Auburn Road up to Tienken.",
+      "Rochester Hills homeowners invest in their properties, and Tri-Point Landscaping helps protect that investment with lawn mowing, landscaping, mulch, and leaf removal across this Oakland County community: from Auburn Road up to Tienken.",
     localDetails:
-      "We serve Rochester Hills along Auburn Road, Tienken Road, Adams Road, Livernois Road, and throughout this Oakland County community's well-established residential neighborhoods and commercial corridors. Rochester Hills properties are among the most beautiful in southeast Michigan — and we help keep them that way.",
+      "We serve Rochester Hills along Auburn Road, Tienken Road, Adams Road, Livernois Road, and throughout this Oakland County community's well-established residential neighborhoods and commercial corridors. Rochester Hills properties are among the most beautiful in southeast Michigan: and we help keep them that way.",
     bodyParagraph:
-      "Rochester Hills is consistently ranked among Michigan's best places to live — beautiful neighborhoods, excellent schools, and homeowners who invest significantly in their properties. Maintaining a Rochester Hills property to its full potential requires a landscaping company that takes the same pride in their work as residents take in their community. Tri-Point Landscaping brings that level of commitment. Our services cover the full property care calendar: spring cleanup and fresh mulch in April, weekly precision mowing through summer, and fall leaf removal in October. We serve Rochester Hills homeowners who want it done right — every time.",
+      "Rochester Hills is consistently ranked among Michigan's best places to live: beautiful neighborhoods, excellent schools, and homeowners who invest significantly in their properties. Maintaining a Rochester Hills property to its full potential requires a landscaping company that takes the same pride in their work as residents take in their community. Tri-Point Landscaping brings that level of commitment. Our services cover the full property care calendar: spring cleanup and fresh mulch in April, weekly precision mowing through summer, and fall leaf removal in October. We serve Rochester Hills homeowners who want it done right. Every time.",
     highlights: [
-      "Serving Rochester Hills — one of Michigan's premier residential communities",
+      "Serving Rochester Hills: one of Michigan's premier residential communities",
       "Premium quality that matches Rochester Hills' exceptional properties",
       "Detail-oriented crews with consistent scheduling",
-      "Fully insured LLC — professional on every job",
+      "Fully insured LLC: professional on every job",
       "Free on-site estimates throughout Rochester Hills",
     ],
     services: [
@@ -320,11 +320,11 @@ const areas: Record<string, AreaData> = {
     faqs: [
       { q: "Do you provide landscaping in Rochester Hills, MI?", a: "Yes. We serve Rochester Hills with lawn maintenance, landscape design & installation, mulch & stone, and seasonal cleanups, plus commercial snow removal for businesses. Call (586) 327-8080 for a free estimate." },
       { q: "Do you work on larger, high-end properties in Rochester Hills?", a: "Absolutely. Rochester Hills properties are some of the most beautiful in southeast Michigan, and we approach every one with the detail and care they deserve." },
-      { q: "Do you offer full-season lawn care contracts in Rochester Hills?", a: "Yes. Our seasonal maintenance packages cover all mowing visits, spring and fall cleanups, and optional mulch and aeration — all under one simple agreement." },
-      { q: "Do you offer lawn mowing and grass cutting in Rochester Hills, MI?", a: "Yes — lawn mowing, grass cutting, lawn care, lawn service — we provide all of it in Rochester Hills on consistent weekly or bi-weekly schedules from April through October." },
+      { q: "Do you offer full-season lawn care contracts in Rochester Hills?", a: "Yes. Our seasonal maintenance packages cover all mowing visits, spring and fall cleanups, and optional mulch and aeration. All under one simple agreement." },
+      { q: "Do you offer lawn mowing and grass cutting in Rochester Hills, MI?", a: "Yes (lawn mowing, grass cutting, lawn care, lawn service) we provide all of it in Rochester Hills on consistent weekly or bi-weekly schedules from April through October." },
       { q: "Do you offer snow removal in Rochester Hills?", a: "We offer commercial snow removal only, for businesses, HOAs, and property managers in Rochester Hills: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not plow residential driveways." },
       { q: "Do you do leaf removal, mulch installation, and yard cleanup in Rochester Hills?", a: "Yes. We offer complete leaf removal, spring and fall cleanup, and mulch delivery & installation throughout Rochester Hills. Multiple mulch types available, clean bed edging included." },
-      { q: "How much does lawn care or landscaping cost in Rochester Hills, MI?", a: "Pricing is always quoted individually after a free on-site estimate — no guesswork, no generic rates. Call (586) 327-8080 or request an estimate online and we'll walk your property and give you a clear, upfront price." },
+      { q: "How much does lawn care or landscaping cost in Rochester Hills, MI?", a: "Pricing is always quoted individually after a free on-site estimate. No guesswork, no generic rates. Call (586) 327-8080 or request an estimate online and we'll walk your property and give you a clear, upfront price." },
     ],
   },
 };
@@ -471,7 +471,7 @@ export default async function ServiceAreaPage({ params }: Props) {
       name: area.name,
       containedInPlace: { "@type": "AdministrativeArea", name: `${county}, Michigan` },
     },
-    description: `Professional landscaping, lawn care, commercial snow removal, and property services in ${area.name}, Michigan. Serving all of ${county}. Free estimates — call (586) 327-8080.`,
+    description: `Professional landscaping, lawn care, commercial snow removal, and property services in ${area.name}, Michigan. Serving all of ${county}. Free estimates. Call (586) 327-8080.`,
     priceRange: "$$",
     aggregateRating: aggregateRatingSchema,
   };
@@ -636,7 +636,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     Get a Free Estimate
                   </h3>
                   <p className="text-white/50 text-sm mb-6 leading-relaxed">
-                    Serving {area.name} and all of {county}. Fast response — typically same day.
+                    Serving {area.name} and all of {county}. Fast response, typically same day.
                   </p>
                   <Link
                     href="/contact"

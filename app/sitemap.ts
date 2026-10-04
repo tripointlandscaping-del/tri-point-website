@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { activePosts as posts } from "./blog/activePosts";
+import { propertyTypeSlugs } from "./lib/snow";
 
 const BASE = "https://www.tripointlandscaping.com";
 
@@ -87,11 +88,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Commercial snow property type pages (e.g. /services/snow-removal/churches)
+  const snowPropertyTypePages = propertyTypeSlugs.map((type) => ({
+    url: `${BASE}/services/snow-removal/${type}`,
+    priority: 0.8,
+    changeFrequency: "monthly" as const,
+    lastModified: now,
+  }));
+
   return [
     ...staticPages.map((p) => ({ ...p, lastModified: now })),
     ...servicePages,
     ...areaPages,
     ...serviceAreaPages,
+    ...snowPropertyTypePages,
     ...blogPages,
   ];
 }

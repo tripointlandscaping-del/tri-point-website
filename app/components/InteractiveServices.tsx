@@ -10,7 +10,7 @@ const services = [
     title: "Lawn Maintenance",
     slug: "lawn-maintenance",
     tagline: "Crisp edges. Perfect stripes. Every week.",
-    desc: "Weekly mowing, precision edging, string trimming & full blowing — April through October. Consistent, reliable, professional.",
+    desc: "Weekly mowing, precision edging, string trimming & full blowing: April through October. Consistent, reliable, professional.",
     img: "/photos/1.jpg",
   },
   {
@@ -18,7 +18,7 @@ const services = [
     title: "Landscaping",
     slug: "landscaping",
     tagline: "Custom design. Expert installation.",
-    desc: "Full landscape design and installation — new beds, plantings, stone features, sod, and complete property transformations.",
+    desc: "Full landscape design and installation: new beds, plantings, stone features, sod, and complete property transformations.",
     img: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
   },
   {
@@ -34,7 +34,7 @@ const services = [
     title: "Seasonal Cleanup",
     slug: "seasonal-cleanup",
     tagline: "Spring ready. Winter ready. Always.",
-    desc: "Complete spring and fall cleanups — leaf removal, perennial cutback, bed cleanup, debris hauling. We handle it all.",
+    desc: "Complete spring and fall cleanups: leaf removal, perennial cutback, bed cleanup, debris hauling. We handle it all.",
     img: "/photos/217A6A02-1ABD-438C-90B1-CB49915F1D1A.jpeg",
   },
   {
@@ -50,7 +50,7 @@ const services = [
     title: "Lawn Renovations",
     slug: "lawn-renovations",
     tagline: "Thicker. Greener. Healthier turf.",
-    desc: "Core aeration, overseeding, dethatching & top dressing — the science-backed way to transform a struggling lawn into a showpiece.",
+    desc: "Core aeration, overseeding, dethatching & top dressing: the science-backed way to transform a struggling lawn into a showpiece.",
     img: "/photos/Aeration-with-aerator.jpg",
   },
   {
@@ -58,7 +58,7 @@ const services = [
     title: "Hardscaping",
     slug: "hardscaping",
     tagline: "Patios, walkways, retaining walls & more.",
-    desc: "Custom patio installations, natural stone walkways, retaining walls, fire pits, and outdoor living spaces — designed and coordinated to transform your outdoor space.",
+    desc: "Custom patio installations, natural stone walkways, retaining walls, fire pits, and outdoor living spaces: designed and coordinated to transform your outdoor space.",
     img: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
   },
   {
@@ -66,7 +66,7 @@ const services = [
     title: "Commercial",
     slug: "commercial",
     tagline: "Impress clients before they walk in.",
-    desc: "Full-service commercial landscaping for HOAs, offices, and retail centers. Reliable, professional, on schedule — every time.",
+    desc: "Full-service commercial landscaping for HOAs, offices, and retail centers. Reliable, professional, on schedule. Every time.",
     img: "/photos/boxwood.jpg",
   },
 ];
@@ -76,7 +76,7 @@ export default function InteractiveServices() {
 
   return (
     <div className="flex flex-col lg:grid lg:grid-cols-5 lg:min-h-[700px]">
-      {/* LEFT — service list */}
+      {/* LEFT, service list */}
       <div className="lg:col-span-2 flex flex-col border-b lg:border-b-0 lg:border-r border-white/5">
         {services.map((svc, i) => (
           <button
@@ -136,7 +136,7 @@ export default function InteractiveServices() {
         ))}
       </div>
 
-      {/* RIGHT — photo + description panel */}
+      {/* RIGHT, photo + description panel */}
       <div className="lg:col-span-3 relative h-72 sm:h-96 lg:h-auto">
         {services.map((svc, i) => (
           <div

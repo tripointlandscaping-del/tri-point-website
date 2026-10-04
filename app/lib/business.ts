@@ -38,4 +38,5 @@ export const aggregateRatingSchema = {
   worstRating: "1",
 };
 
-export const reviewCountLabel = `${googleReviews.count} Google reviews`;
+// Visible wording for reviews. The count stays in schema only (aggregateRatingSchema).
+export const googleRatingLabel = "Highly rated on Google";

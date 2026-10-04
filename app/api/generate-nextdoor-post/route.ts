@@ -15,14 +15,14 @@ function getSeason(month: number): string {
 const topicPool = [
   "a helpful seasonal lawn care tip relevant to what homeowners should be doing right now",
   "a lawn and landscape winter prep reminder (if fall/winter), a commercial snow contract reminder for local business owners and HOA boards (if fall/winter), or a spring cleanup reminder (if spring)",
-  "a mulch installation tip — why fresh mulch matters and what it does for plants",
+  "a mulch installation tip: why fresh mulch matters and what it does for plants",
   "a friendly reminder that free estimates are available with no obligation",
-  "a lawn aeration and overseeding tip — when to do it and why it matters",
-  "a hardscaping idea — patios, walkways, or retaining walls to improve their outdoor space",
+  "a lawn aeration and overseeding tip: when to do it and why it matters",
+  "a hardscaping idea: patios, walkways, or retaining walls to improve their outdoor space",
   "a before-and-after style story about a recent yard transformation (keep it general, no names)",
   "a tip about what to look for when hiring a landscaping company in Macomb County",
   "a reminder about scheduling spring or fall cleanup before spots fill up",
-  "a lawn mowing frequency tip — how often Michigan lawns need to be cut and why",
+  "a lawn mowing frequency tip: how often Michigan lawns need to be cut and why",
 ];
 
 export async function GET(request: Request) {
@@ -55,10 +55,10 @@ Current season: ${season}
 Post angle: ${topic}
 
 Guidelines:
-- Write in a friendly, neighbor-to-neighbor tone — Nextdoor is a community app, not an ad platform
+- Write in a friendly, neighbor-to-neighbor tone: Nextdoor is a community app, not an ad platform
 - 3-5 sentences max. Short and readable.
 - Mention 1 specific service naturally woven into the content
-- End with a soft CTA — something like "Feel free to text or call for a free estimate" or "Happy to give you a free quote"
+- End with a soft CTA, something like "Feel free to text or call for a free estimate" or "Happy to give you a free quote"
 - Include the phone number (586) 327-8080
 - No hashtags
 - No em dashes
@@ -86,7 +86,7 @@ Return ONLY the post text. No labels, no quotes, no commentary.`,
     await resend.emails.send({
       from: "Tri-Point Posts <onboarding@resend.dev>",
       to: "noahschmueser21@gmail.com",
-      subject: `Your Nextdoor Post — ${month} ${now.getDate()}`,
+      subject: `Your Nextdoor Post: ${month} ${now.getDate()}`,
       html: `
         <div style="font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 32px 24px; background: #ffffff;">
           <div style="border-left: 4px solid #2C5F2E; padding-left: 16px; margin-bottom: 24px;">

@@ -13,21 +13,21 @@ function getPublishedPosts() {
 }
 
 export const metadata: Metadata = {
-  title: "Lawn Care Tips & Landscaping Advice — Macomb County",
-  description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
+  title: "Lawn Care Tips & Landscaping Advice | Macomb County",
+  description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal, we cover it all.",
   alternates: { canonical: "https://www.tripointlandscaping.com/blog" },
   openGraph: {
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
-    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal, we cover it all.",
     url: "https://www.tripointlandscaping.com/blog",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Blog — Macomb County Lawn Care Tips" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Blog: Macomb County Lawn Care Tips" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
-    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal — we cover it all.",
+    description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to commercial snow removal, we cover it all.",
     images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
@@ -85,7 +85,7 @@ export default function BlogPage() {
               Lawn Care Tips &amp; Landscaping Advice for Macomb County
             </h1>
             <p className="text-gray-500 max-w-xl leading-relaxed">
-              Practical lawn care advice for Macomb County homeowners — from the team that maintains hundreds of properties every season.
+              Practical lawn care advice for Macomb County homeowners, from the team that maintains hundreds of properties every season.
             </p>
           </div>
 

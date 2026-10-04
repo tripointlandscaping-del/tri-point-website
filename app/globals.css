@@ -375,3 +375,7 @@ body {
   background: linear-gradient(to right, #2C5F2E, transparent);
   transform: translateY(-50%);
 }
+
+/* Height of the sticky bottom bar (StickyMobileBar). Snow pages override this to 64px on all screens. */
+:root { --sticky-bar-h: 64px; }
+@media (min-width: 768px) { :root { --sticky-bar-h: 0px; } }

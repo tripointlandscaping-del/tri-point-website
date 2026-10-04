@@ -6,7 +6,11 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import { localCopy, localFaqs } from "./localCopy";
-import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "../../../lib/business";
+import PropertyTypePage, { propertyTypeMetadata } from "./PropertyTypePage";
+import PropertyManagerSection from "../../../components/PropertyManagerSection";
+import { SNOW_QUOTE_HREF, SNOW_URGENCY, snowCities, propertyTypes, citySnowPost } from "../../../lib/snow";
+import { activePosts as posts } from "../../../blog/activePosts";
+import { googleReviews, aggregateRatingSchema, googleRatingLabel } from "../../../lib/business";
 
 /* ─────────────────────────────────────────
    SERVICE DATA
@@ -21,7 +25,7 @@ const services: Record<string, {
 }> = {
   "lawn-maintenance": {
     name: "Lawn Maintenance",
-    shortDesc: "Weekly mowing, edging, trimming & blowing — April through October.",
+    shortDesc: "Weekly mowing, edging, trimming & blowing: April through October.",
     heroImage: "/photos/lawn-stripe-hero.jpeg",
     included: [
       "Weekly mowing at the correct cutting height",
@@ -33,12 +37,12 @@ const services: Record<string, {
     ],
     benefits: [
       "Consistent curb appeal that stands out in your neighborhood",
-      "Healthy turf — proper mowing height prevents disease and drought stress",
-      "Time back in your week — let us handle it every time",
+      "Healthy turf: proper mowing height prevents disease and drought stress",
+      "Time back in your week. Let us handle it every time",
       "Reliable professionals who show up and communicate proactively",
     ],
     bodyTemplate: (area, roads) =>
-      `Maintaining a lawn in ${area} takes more than showing up with a mower. Michigan's variable seasons — from soggy springs to dry July stretches — demand a crew that adapts to what your turf actually needs week-to-week. Tri-Point Landscaping provides professional lawn maintenance to homeowners across ${area} and all of northern Macomb County. We service properties along ${roads} and throughout the community's established subdivisions. Our crews work with precision — every edge is clean, every visit is consistent, and every property is treated with the same attention to detail we'd give our own. Whether you're looking for a reliable weekly service or want to free up your weekends for good, Tri-Point Landscaping is the team ${area} homeowners trust.`,
+      `Maintaining a lawn in ${area} takes more than showing up with a mower. Michigan's variable seasons, from soggy springs to dry July stretches, demand a crew that adapts to what your turf actually needs week-to-week. Tri-Point Landscaping provides professional lawn maintenance to homeowners across ${area} and all of northern Macomb County. We service properties along ${roads} and throughout the community's established subdivisions. Our crews work with precision. Every edge is clean, every visit is consistent, and every property is treated with the same attention to detail we'd give our own. Whether you're looking for a reliable weekly service or want to free up your weekends for good, Tri-Point Landscaping is the team ${area} homeowners trust.`,
   },
   "landscaping": {
     name: "Landscaping",
@@ -59,7 +63,7 @@ const services: Record<string, {
       "Clean, professional results that last season after season",
     ],
     bodyTemplate: (area, roads) =>
-      `A well-designed landscape transforms a property — and in ${area}, where homeowners take pride in their properties, great landscaping stands out. Whether you're starting from scratch on a new build or renovating an established yard, Tri-Point Landscaping brings the expertise to make your vision real. We serve properties throughout ${area}, from homes along ${roads} to newer subdivisions and established neighborhoods. Our team handles every phase: design consultation, plant selection, installation, and cleanup. We know what thrives in Michigan's soil and climate, and we select every plant with longevity in mind. The result is a landscape that looks stunning the day we finish — and keeps improving for years to come.`,
+      `A well-designed landscape transforms a property: and in ${area}, where homeowners take pride in their properties, great landscaping stands out. Whether you're starting from scratch on a new build or renovating an established yard, Tri-Point Landscaping brings the expertise to make your vision real. We serve properties throughout ${area}, from homes along ${roads} to newer subdivisions and established neighborhoods. Our team handles every phase: design consultation, plant selection, installation, and cleanup. We know what thrives in Michigan's soil and climate, and we select every plant with longevity in mind. The result is a landscape that looks stunning the day we finish: and keeps improving for years to come.`,
   },
   "mulch-and-stone": {
     name: "Mulch & Stone",
@@ -77,10 +81,10 @@ const services: Record<string, {
       "Instant, dramatic curb appeal improvement",
       "Moisture retention and weed suppression for your plants",
       "Clean lines and consistent color across all your beds",
-      "Professional results that take hours to DIY — done in one visit",
+      "Professional results that take hours to DIY: done in one visit",
     ],
     bodyTemplate: (area, roads) =>
-      `Nothing refreshes a property's appearance faster than fresh mulch and clean bed edges — and in ${area}, where curb appeal matters, Tri-Point Landscaping delivers results that turn heads. We serve homeowners throughout ${area}, including properties along ${roads} and all surrounding neighborhoods. Our mulch and stone installations are done right: beds are edged with a sharp spade before any material goes down, old mulch is removed if needed, and every inch of ground coverage is installed at the right depth. We carry premium hardwood, dyed mulch, and a full selection of decorative stone options. One visit can transform a tired-looking front yard into a polished, professional landscape that makes the whole property look cared for.`,
+      `Nothing refreshes a property's appearance faster than fresh mulch and clean bed edges: and in ${area}, where curb appeal matters, Tri-Point Landscaping delivers results that turn heads. We serve homeowners throughout ${area}, including properties along ${roads} and all surrounding neighborhoods. Our mulch and stone installations are done right: beds are edged with a sharp spade before any material goes down, old mulch is removed if needed, and every inch of ground coverage is installed at the right depth. We carry premium hardwood, dyed mulch, and a full selection of decorative stone options. One visit can transform a tired-looking front yard into a polished, professional landscape that makes the whole property look cared for.`,
   },
   "seasonal-cleanup": {
     name: "Seasonal Cleanup",
@@ -101,7 +105,7 @@ const services: Record<string, {
       "Saves 4–8 hours of hard labor you don't have to do",
     ],
     bodyTemplate: (area, roads) =>
-      `Michigan's springs and falls are beautiful — but they leave a lot of work behind. In ${area}, where mature trees line many neighborhoods, fall leaf cleanup alone can take a full weekend. Tri-Point Landscaping handles it all so you don't have to. We serve properties throughout ${area}, from neighborhoods along ${roads} to newer developments across the township. Our spring cleanups prep your property for the growing season: beds are cut back, debris is cleared, and everything is reset after the winter. Our fall cleanups go deep — leaves are fully removed, perennials are cut down, and beds are cleaned before the freeze. We haul everything away, leaving your property looking its best when it matters most.`,
+      `Michigan's springs and falls are beautiful, but they leave a lot of work behind. In ${area}, where mature trees line many neighborhoods, fall leaf cleanup alone can take a full weekend. Tri-Point Landscaping handles it all so you don't have to. We serve properties throughout ${area}, from neighborhoods along ${roads} to newer developments across the township. Our spring cleanups prep your property for the growing season: beds are cut back, debris is cleared, and everything is reset after the winter. Our fall cleanups go deep: leaves are fully removed, perennials are cut down, and beds are cleaned before the freeze. We haul everything away, leaving your property looking its best when it matters most.`,
   },
   "snow-removal": {
     name: "Commercial Snow Removal",
@@ -130,7 +134,7 @@ const services: Record<string, {
     shortDesc: "Core aeration, overseeding, dethatching & top dressing for a thicker, healthier lawn.",
     heroImage: "/photos/Aeration-with-aerator.jpg",
     included: [
-      "Core aeration — relieves compaction and opens root channels",
+      "Core aeration: relieves compaction and opens root channels",
       "Overseeding with premium Michigan-adapted grass seed",
       "Dethatching to remove dead buildup and improve water absorption",
       "Top dressing with compost or sand blend",
@@ -138,13 +142,13 @@ const services: Record<string, {
       "Watering and aftercare guidance",
     ],
     benefits: [
-      "Dramatically thicker turf — results visible within 2–3 weeks",
+      "Dramatically thicker turf: results visible within 2–3 weeks",
       "Healthier root systems that hold up through drought and cold",
       "Reduced weed pressure as dense grass crowds out competition",
-      "Science-backed process — the same approach used on professional turf",
+      "Science-backed process: the same approach used on professional turf",
     ],
     bodyTemplate: (area, roads) =>
-      `A thin, struggling lawn in ${area} doesn't need to be replaced — it needs to be renovated. Tri-Point Landscaping's lawn renovation programs use core aeration, overseeding, and dethatching to transform weak, patchy turf into a dense, healthy lawn that stands up to Michigan's climate. We serve homeowners throughout ${area}, including properties along ${roads} and across the community. Core aeration breaks up compaction and creates seed-to-soil contact, while overseeding fills in bare areas with premium grass varieties proven to thrive in Macomb County. Dethatching removes the layer of dead material that chokes new growth and blocks water penetration. The results are visible in weeks and build year over year. If your lawn hasn't been aerated in the last two seasons, it's time — and Tri-Point Landscaping makes the process easy, affordable, and effective.`,
+      `A thin, struggling lawn in ${area} doesn't need to be replaced. It needs to be renovated. Tri-Point Landscaping's lawn renovation programs use core aeration, overseeding, and dethatching to transform weak, patchy turf into a dense, healthy lawn that stands up to Michigan's climate. We serve homeowners throughout ${area}, including properties along ${roads} and across the community. Core aeration breaks up compaction and creates seed-to-soil contact, while overseeding fills in bare areas with premium grass varieties proven to thrive in Macomb County. Dethatching removes the layer of dead material that chokes new growth and blocks water penetration. The results are visible in weeks and build year over year. If your lawn hasn't been aerated in the last two seasons, it's time: and Tri-Point Landscaping makes the process easy, affordable, and effective.`,
   },
   "hardscaping": {
     name: "Hardscaping",
@@ -162,12 +166,12 @@ const services: Record<string, {
     ],
     benefits: [
       "Dramatically expanded outdoor living space that adds real value to your home",
-      "One point of contact — we coordinate partners and manage the project end to end",
+      "One point of contact. We coordinate partners and manage the project end to end",
       "Materials and base prep engineered for Michigan's freeze-thaw cycles",
       "Finished result integrates seamlessly with your existing lawn and landscape",
     ],
     bodyTemplate: (area, roads) =>
-      `Homeowners in ${area} are investing more in their outdoor spaces than ever — and hardscaping is one of the highest-ROI improvements you can make. Whether you want a paver patio off the back door, a natural stone walkway through the front yard, or a retaining wall to manage the grade on a sloped property, Tri-Point Landscaping coordinates every detail for properties throughout ${area}, including homes along ${roads}. We work with trusted local hardscaping partners and stay on-site through every phase, ensuring quality, cleanliness, and a finished product that complements your existing landscape. One call to Tri-Point Landscaping is all it takes to get started.`,
+      `Homeowners in ${area} are investing more in their outdoor spaces than ever, and hardscaping is one of the highest-ROI improvements you can make. Whether you want a paver patio off the back door, a natural stone walkway through the front yard, or a retaining wall to manage the grade on a sloped property, Tri-Point Landscaping coordinates every detail for properties throughout ${area}, including homes along ${roads}. We work with trusted local hardscaping partners and stay on-site through every phase, ensuring quality, cleanliness, and a finished product that complements your existing landscape. One call to Tri-Point Landscaping is all it takes to get started.`,
   },
   "commercial": {
     name: "Commercial Landscaping",
@@ -183,12 +187,12 @@ const services: Record<string, {
     ],
     benefits: [
       "Consistent, professional appearance that impresses clients",
-      "Reliable scheduling — we show up every time, no excuses",
+      "Reliable scheduling. We show up every time, no excuses",
       "Single point of contact for all your property needs",
       "Competitive commercial pricing with transparent contracts",
     ],
     bodyTemplate: (area, roads) =>
-      `The appearance of your commercial property in ${area} is one of the first things clients, customers, and tenants notice. A well-maintained commercial landscape communicates professionalism, attention to detail, and a business that cares. Tri-Point Landscaping provides full-service commercial landscaping to offices, HOAs, retail centers, and businesses throughout ${area}, including properties along ${roads} and across the commercial corridors. We offer flexible commercial programs: weekly mowing, seasonal bed maintenance, mulching, snow removal, and more — all under one reliable contract. Our crews show up consistently, communicate proactively, and hold commercial properties to the same high standard as our residential clients. If you manage a commercial property in ${area} and want a landscaping partner who delivers, call Tri-Point Landscaping today.`,
+      `The appearance of your commercial property in ${area} is one of the first things clients, customers, and tenants notice. A well-maintained commercial landscape communicates professionalism, attention to detail, and a business that cares. Tri-Point Landscaping provides full-service commercial landscaping to offices, HOAs, retail centers, and businesses throughout ${area}, including properties along ${roads} and across the commercial corridors. We offer flexible commercial programs: weekly mowing, seasonal bed maintenance, mulching, snow removal, and more. All under one reliable contract. Our crews show up consistently, communicate proactively, and hold commercial properties to the same high standard as our residential clients. If you manage a commercial property in ${area} and want a landscaping partner who delivers, call Tri-Point Landscaping today.`,
   },
 };
 
@@ -207,28 +211,28 @@ const areas: Record<string, {
     county: "Macomb County",
     roads: "26 Mile Road, 28 Mile Road, Van Dyke Avenue & Romeo Plank Road",
     heroImage: "/photos/weekly-mowing-shelby-township-mi.jpg",
-    localDesc: "Washington Township is Macomb County's premier residential community, home to Stony Creek Metropark and well-established subdivisions along Van Dyke and Romeo Plank Road. Homeowners here expect consistently excellent property care — and that's exactly what we deliver.",
+    localDesc: "Washington Township is Macomb County's premier residential community, home to Stony Creek Metropark and well-established subdivisions along Van Dyke and Romeo Plank Road. Homeowners here expect consistently excellent property care: and that's exactly what we deliver.",
   },
   "shelby-township": {
     name: "Shelby Township",
     county: "Macomb County",
     roads: "23 Mile Road, 24 Mile Road, Schoenherr & M-59",
     heroImage: "/photos/IMG_4417.jpeg",
-    localDesc: "Shelby Township's thriving residential corridors — from the neighborhoods near River Bends Park to the growing subdivisions along M-59 — make it one of Macomb County's most active markets for professional property care.",
+    localDesc: "Shelby Township's thriving residential corridors, from the neighborhoods near River Bends Park to the growing subdivisions along M-59, make it one of Macomb County's most active markets for professional property care.",
   },
   "macomb-township": {
     name: "Macomb Township",
     county: "Macomb County",
     roads: "25 Mile Road, 26 Mile Road & Hall Road",
     heroImage: "/photos/mulch.jpg",
-    localDesc: "Macomb Township's rapid residential growth — from new builds near Partridge Creek to established neighborhoods along Hall Road — has created a vibrant community of homeowners who take real pride in their properties.",
+    localDesc: "Macomb Township's rapid residential growth, from new builds near Partridge Creek to established neighborhoods along Hall Road, has created a vibrant community of homeowners who take real pride in their properties.",
   },
   "romeo": {
     name: "Romeo",
     county: "Macomb County",
     roads: "Main Street, Thirty-two Mile Road & Van Dyke Avenue",
     heroImage: "/photos/spring.jpg",
-    localDesc: "Romeo's historic downtown village, the orchards along Thirty-two Mile Road, and its mix of residential and rural properties create a landscape environment that demands careful, expert care — the kind Tri-Point Landscaping delivers every visit.",
+    localDesc: "Romeo's historic downtown village, the orchards along Thirty-two Mile Road, and its mix of residential and rural properties create a landscape environment that demands careful, expert care: the kind Tri-Point Landscaping delivers every visit.",
   },
   "ray-township": {
     name: "Ray Township",
@@ -242,21 +246,21 @@ const areas: Record<string, {
     county: "Macomb County",
     roads: "32 Mile Road, 33 Mile Road & Van Dyke Avenue",
     heroImage: "/photos/boxwood.jpg",
-    localDesc: "Bruce Township — home to Wolcott Mill Metropark and sitting at the northern edge of Macomb County's growth corridor — offers a blend of rural character and residential development that calls for experienced, adaptable crews.",
+    localDesc: "Bruce Township, home to Wolcott Mill Metropark and sitting at the northern edge of Macomb County's growth corridor, offers a blend of rural character and residential development that calls for experienced, adaptable crews.",
   },
   "rochester": {
     name: "Rochester",
     county: "Oakland County",
     roads: "Walton Boulevard, University Drive & Tienken Road",
     heroImage: "/photos/bills-google2.jpeg",
-    localDesc: "Rochester's walkable downtown, the Paint Creek Trail, and prestigious residential neighborhoods like those near Stoney Creek make this one of Michigan's most desirable communities — with landscaping expectations to match.",
+    localDesc: "Rochester's walkable downtown, the Paint Creek Trail, and prestigious residential neighborhoods like those near Stoney Creek make this one of Michigan's most desirable communities: with landscaping expectations to match.",
   },
   "rochester-hills": {
     name: "Rochester Hills",
     county: "Oakland County",
     roads: "Auburn Road, Adams Road & Livernois Road",
     heroImage: "/photos/IMG_4417.jpeg",
-    localDesc: "Rochester Hills — consistently ranked among Michigan's best places to live — is home to the Paint Creek Trail, Bald Mountain Recreation Area, and Meadow Brook Hall. Homeowners here invest significantly in their properties, and Tri-Point Landscaping meets that standard on every visit.",
+    localDesc: "Rochester Hills, consistently ranked among Michigan's best places to live, is home to the Paint Creek Trail, Bald Mountain Recreation Area, and Meadow Brook Hall. Homeowners here invest significantly in their properties, and Tri-Point Landscaping meets that standard on every visit.",
   },
 };
 
@@ -265,24 +269,24 @@ const areas: Record<string, {
 ───────────────────────────────────────── */
 const serviceFaqs: Record<string, { q: string; a: string }[]> = {
   "lawn-maintenance": [
-    { q: "How often will you mow my lawn?", a: "We mow on a weekly schedule April through October — the right frequency for Michigan's growing season. Weekly mowing keeps turf healthy, prevents scalping, and ensures consistent results every visit." },
-    { q: "Do you offer lawn maintenance contracts?", a: "Yes. Most of our customers choose a full-season contract that covers all mowing visits from spring startup through fall shutdown. It's the simplest option — no scheduling calls, no surprises." },
+    { q: "How often will you mow my lawn?", a: "We mow on a weekly schedule April through October, the right frequency for Michigan's growing season. Weekly mowing keeps turf healthy, prevents scalping, and ensures consistent results every visit." },
+    { q: "Do you offer lawn maintenance contracts?", a: "Yes. Most of our customers choose a full-season contract that covers all mowing visits from spring startup through fall shutdown. It's the simplest option. No scheduling calls, no surprises." },
     { q: "What's included in each visit?", a: "Every lawn maintenance visit includes mowing at the correct height, edging along all hard surfaces, string trimming around obstacles, and blowing clippings off all walks and drives. We leave the property clean every time." },
   ],
   "landscaping": [
     { q: "Do you offer free landscaping design consultations?", a: "Yes. Every project starts with a free on-site consultation where we walk your property, understand your goals, and discuss plant options and budget. No obligation." },
-    { q: "What types of landscaping do you install?", a: "We handle everything — new planting beds, perennial and shrub installations, sod, stone features, retaining walls, and full property renovations from concept to completion." },
+    { q: "What types of landscaping do you install?", a: "We handle everything: new planting beds, perennial and shrub installations, sod, stone features, retaining walls, and full property renovations from concept to completion." },
     { q: "How long does a landscaping project take?", a: "Small projects like a new bed or mulch refresh can be done in a single day. Full landscape installations typically take 2–5 days depending on scope. We'll give you a clear timeline before any work begins." },
   ],
   "mulch-and-stone": [
-    { q: "How much mulch do I need?", a: "For most residential beds, 2–3 inches of mulch depth is ideal. During your free estimate we'll measure your beds and tell you exactly how much material is needed — no guessing." },
+    { q: "How much mulch do I need?", a: "For most residential beds, 2–3 inches of mulch depth is ideal. During your free estimate we'll measure your beds and tell you exactly how much material is needed. No guessing." },
     { q: "What types of mulch do you carry?", a: "We offer premium shredded hardwood, cedar, black dyed, brown dyed, and natural wood chip mulch. For stone we carry river rock, crushed granite, lava rock, and pea gravel." },
     { q: "Do you remove old mulch before installing new?", a: "If your beds have excessive mulch buildup (over 4 inches total), we recommend removing the old layer first. We offer old mulch removal as part of our service." },
   ],
   "seasonal-cleanup": [
     { q: "What's included in a spring cleanup?", a: "Spring cleanup includes full leaf and debris removal, perennial cutback, bed cleanup, edge refresh along all bed borders, and hauling everything away. We leave the property ready for the growing season." },
     { q: "What's included in a fall cleanup?", a: "Fall cleanup focuses on complete leaf removal (including all lawn and bed areas), late-season perennial cutback, and final bed cleanup before freeze. We haul all material off-site." },
-    { q: "How early should I book my cleanup?", a: "Book as early as possible — spring cleanups especially fill up by March and April. Customers who book in January or February get the best available slots." },
+    { q: "How early should I book my cleanup?", a: "Book as early as possible, spring cleanups especially fill up by March and April. Customers who book in January or February get the best available slots." },
   ],
   "snow-removal": [
     { q: "Do you plow residential driveways?", a: "No. Our snow removal is commercial only. We serve retail plazas, office buildings, HOAs, churches, medical offices, industrial lots, and other commercial properties." },
@@ -291,19 +295,19 @@ const serviceFaqs: Record<string, { q: string; a: string }[]> = {
     { q: "Can you provide certificates of insurance and service logs?", a: "Yes. We carry general liability and workers' comp coverage, provide certificates of insurance on request, and keep service logs of each visit." },
   ],
   "lawn-renovations": [
-    { q: "When is the best time to aerate a Michigan lawn?", a: "Late August through October is ideal — soil is still warm, grass is actively growing roots, and there's less weed competition. Spring aeration in April–May is also effective but fall is preferred." },
+    { q: "When is the best time to aerate a Michigan lawn?", a: "Late August through October is ideal: soil is still warm, grass is actively growing roots, and there's less weed competition. Spring aeration in April–May is also effective but fall is preferred." },
     { q: "How soon will I see results after aeration and overseeding?", a: "New grass seed typically germinates within 7–14 days, and you'll see noticeable thickening within 3–4 weeks. Full density builds over 2–3 seasons of consistent care." },
     { q: "Does my lawn need renovation or just maintenance?", a: "If more than 50% of your lawn is thin, bare, or weedy, renovation is the better investment. We'll assess your lawn during the free estimate and give you an honest recommendation." },
   ],
   "hardscaping": [
-    { q: "Do you install hardscaping directly or use partners?", a: "We coordinate with trusted local hardscaping partners and manage the project from start to finish. You work with Tri-Point Landscaping throughout — one point of contact, one standard of quality." },
+    { q: "Do you install hardscaping directly or use partners?", a: "We coordinate with trusted local hardscaping partners and manage the project from start to finish. You work with Tri-Point Landscaping throughout: one point of contact, one standard of quality." },
     { q: "What types of hardscaping do you offer?", a: "Paver and natural stone patios, flagstone and paver walkways, block and natural stone retaining walls, custom fire pits, garden steps, and full outdoor living space design and installation." },
-    { q: "Can hardscaping be combined with my landscaping project?", a: "Absolutely — we recommend it. Combining hardscaping with planting beds, mulch, and lawn work creates a fully cohesive outdoor space that looks intentional and dramatically improves curb appeal." },
+    { q: "Can hardscaping be combined with my landscaping project?", a: "Absolutely, we recommend it. Combining hardscaping with planting beds, mulch, and lawn work creates a fully cohesive outdoor space that looks intentional and dramatically improves curb appeal." },
   ],
   "commercial": [
     { q: "Do you serve HOAs and property management companies?", a: "Yes. We work with HOAs, property managers, office parks, retail centers, and apartment complexes throughout Macomb County. We provide all certificates of insurance and documentation required." },
     { q: "Can you handle multiple commercial properties?", a: "Absolutely. We can set up recurring maintenance across multiple commercial locations under one contract with consolidated billing and consistent crews." },
-    { q: "Do you offer commercial snow removal?", a: "Yes. We offer full commercial snow and ice management — parking lot plowing, sidewalk clearing, salting, and de-icing — available under seasonal contracts." },
+    { q: "Do you offer commercial snow removal?", a: "Yes. We offer full commercial snow and ice management (parking lot plowing, sidewalk clearing, salting, and de-icing) available under seasonal contracts." },
   ],
 };
 
@@ -334,6 +338,8 @@ export function generateStaticParams() {
       params.push({ slug, area });
     }
   }
+  // Commercial snow property type pages, e.g. /services/snow-removal/churches
+  for (const type of propertyTypes) params.push({ slug: "snow-removal", area: type.slug });
   return params;
 }
 
@@ -344,16 +350,32 @@ type Props = { params: Promise<{ slug: string; area: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, area } = await params;
+  const propertyType = slug === "snow-removal" ? propertyTypes.find((t) => t.slug === area) : undefined;
+  if (propertyType) return propertyTypeMetadata(propertyType);
   const svc = services[slug];
   const areaData = areas[area];
   if (!svc || !areaData) return {};
+
+  if (slug === "snow-removal") {
+    const short = snowCities.find((c) => c.slug === area)?.short ?? areaData.name;
+    const title = `Commercial Snow Removal in ${short}, MI | Tri-Point`;
+    const description = `Commercial snow removal in ${areaData.name}, MI: parking lot plowing, salting & sidewalk clearing for businesses & HOAs. Get a snow contract quote.`;
+    const url = `https://www.tripointlandscaping.com/services/snow-removal/${area}`;
+    return {
+      title: { absolute: title },
+      description,
+      alternates: { canonical: url },
+      openGraph: { title, description, url, siteName: "Tri-Point Landscaping", type: "website", images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: `Commercial snow removal in ${areaData.name}, MI` }] },
+      twitter: { card: "summary_large_image", title, description, images: ["https://www.tripointlandscaping.com/og-image.jpg"] },
+    };
+  }
 
   const variants = serviceSearchVariants[slug] ?? [svc.name.toLowerCase()];
   const pageTitle = `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI`;
 
   return {
     title: pageTitle,
-    description: `${googleReviews.rating}★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates — same-day response. Call (586) 327-8080.`,
+    description: `${googleReviews.rating}★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates, same-day response. Call (586) 327-8080.`,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
@@ -379,6 +401,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 ───────────────────────────────────────── */
 export default async function ServiceAreaPage({ params }: Props) {
   const { slug, area } = await params;
+  const propertyType = slug === "snow-removal" ? propertyTypes.find((t) => t.slug === area) : undefined;
+  if (propertyType) return <PropertyTypePage type={propertyType} />;
   const svc = services[slug];
   const areaData = areas[area];
   if (!svc || !areaData) notFound();
@@ -402,6 +426,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: `${svc.name} in ${areaData.name}, MI`,
+    ...(slug === "snow-removal" ? { serviceType: "Commercial Snow Removal" } : {}),
     description: svc.shortDesc,
     url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     provider: {
@@ -421,7 +446,7 @@ export default async function ServiceAreaPage({ params }: Props) {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
-      description: "Free estimate — no obligation",
+      description: "Free estimate. No obligation",
     },
   };
 
@@ -439,6 +464,8 @@ export default async function ServiceAreaPage({ params }: Props) {
   const serviceDisplayName = svc.name.replace(" Landscaping", "");
   const isSnow = slug === "snow-removal";
   const ctaLabel = isSnow ? "Get a Snow Contract Quote" : null;
+  const quoteHref = isSnow ? SNOW_QUOTE_HREF : "/contact";
+  const cityPost = isSnow ? posts.find((p) => p.slug === (citySnowPost[area] ?? "commercial-snow-contract-checklist-macomb-county")) : undefined;
 
   return (
     <>
@@ -479,9 +506,11 @@ export default async function ServiceAreaPage({ params }: Props) {
                 {(serviceSearchVariants[slug]?.[0] ?? serviceDisplayName).replace(/\b\w/g, c => c.toUpperCase())}<br />
                 <span style={{ color: "#7ecb82" }}>in {areaData.name}, MI</span>
               </h1>
-              <p className="text-lg text-white/65 mb-8 max-w-xl leading-relaxed">{svc.shortDesc}</p>
+              <p className="text-lg text-white/65 mb-4 max-w-xl leading-relaxed">{svc.shortDesc}</p>
+              {isSnow && <p style={{ color: "#7ecb82" }} className="text-sm font-semibold mb-8">{SNOW_URGENCY}</p>}
+              {!isSnow && <div className="mb-4" />}
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center gap-2 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
+                <Link href={quoteHref} style={{ backgroundColor: "#2C5F2E" }} className="group inline-flex items-center gap-2 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
                   {ctaLabel ?? "Get a Free Estimate"}
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -522,9 +551,9 @@ export default async function ServiceAreaPage({ params }: Props) {
                 <AnimateOnScroll animation="fade-up" delay={100}>
                   <div style={{ backgroundColor: "#111111" }} className="p-10">
                     <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">What&apos;s Included</p>
-                    <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-white mb-6">
+                    <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-white mb-6">
                       Everything You Need, Nothing You Don&apos;t
-                    </h3>
+                    </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {svc.included.map((item, i) => (
                         <div key={i} className="flex items-start gap-3">
@@ -567,13 +596,13 @@ export default async function ServiceAreaPage({ params }: Props) {
                   <AnimateOnScroll animation="fade-up">
                     <div className="bg-white p-10">
                       <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Common Questions</p>
-                      <h3 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-6">
-                        {svc.name} in {areaData.name} — FAQ
-                      </h3>
+                      <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-6">
+                        {svc.name} in {areaData.name}: FAQ
+                      </h2>
                       <div className="space-y-0 border-t border-gray-100">
                         {pageFaqs.map((faq) => (
                           <div key={faq.q} className="border-b border-gray-100 py-5">
-                            <h4 className="font-bold text-gray-900 mb-2 text-[15px]">{faq.q}</h4>
+                            <h3 className="font-bold text-gray-900 mb-2 text-[15px]">{faq.q}</h3>
                             <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
                           </div>
                         ))}
@@ -582,11 +611,40 @@ export default async function ServiceAreaPage({ params }: Props) {
                   </AnimateOnScroll>
                 )}
 
+                {isSnow && (
+                  <AnimateOnScroll animation="fade-up">
+                    <div className="bg-white p-10">
+                      <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Property Types</p>
+                      <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900 mb-6">
+                        Commercial Snow Removal by Property Type in {areaData.name}
+                      </h2>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {propertyTypes.map((t) => (
+                          <Link key={t.slug} href={`/services/snow-removal/${t.slug}`} className="group flex items-center justify-between border border-gray-100 px-4 py-3 hover:border-green-300 transition-colors">
+                            <span className="font-semibold text-gray-900 text-sm group-hover:text-green-800">{t.name}</span>
+                            <span className="text-green-700 text-sm">→</span>
+                          </Link>
+                        ))}
+                      </div>
+                      <p className="text-gray-600 text-sm leading-relaxed mt-6">
+                        {cityPost && (
+                          <>
+                            Read our guide:{" "}
+                            <Link href={`/blog/${cityPost.slug}`} className="text-green-700 font-semibold hover:underline">{cityPost.title}</Link>.{" "}
+                          </>
+                        )}
+                        See all of our <Link href="/commercial" className="text-green-700 font-semibold hover:underline">commercial property services</Link> or the{" "}
+                        <Link href="/services/snow-removal" className="text-green-700 font-semibold hover:underline">commercial snow removal overview</Link>.
+                      </p>
+                    </div>
+                  </AnimateOnScroll>
+                )}
+
                 {/* Other areas for this service */}
                 <AnimateOnScroll animation="fade-up">
                   <div style={{ backgroundColor: "#f5f0e8" }} className="p-8 border border-gray-200">
                     <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">Also Available In</p>
-                    <h3 className="font-bold text-gray-900 mb-4">{svc.name} — All Service Areas</h3>
+                    <h3 className="font-bold text-gray-900 mb-4">{svc.name}: All Service Areas</h3>
                     <div className="flex flex-wrap gap-2">
                       {otherAreas.map((a) => (
                         <Link
@@ -615,7 +673,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <p className="text-white/50 text-sm mb-6 leading-relaxed">
                       Get a free, no-obligation quote for {svc.name.toLowerCase()} in {areaData.name}. Same-day response.
                     </p>
-                    <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="block text-center text-white font-semibold py-4 text-sm tracking-wide hover:opacity-90 transition-opacity mb-4">
+                    <Link href={quoteHref} style={{ backgroundColor: "#2C5F2E" }} className="block text-center text-white font-semibold py-4 text-sm tracking-wide hover:opacity-90 transition-opacity mb-4">
                       {ctaLabel ?? "Request a Free Estimate"}
                     </Link>
                     <a href="tel:+15863278080" className="flex items-center justify-center gap-2 border border-white/20 text-white/70 py-3.5 text-sm font-semibold hover:border-white/50 hover:text-white transition-all">
@@ -631,10 +689,10 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <h4 className="font-bold text-gray-900 text-sm uppercase tracking-wider mb-5">Why Tri-Point</h4>
                     <div className="space-y-4">
                       {[
-                        [`${googleReviews.rating}★ Google Rating`, `From ${reviewCountLabel}`],
+                        [`${googleReviews.rating}★ Google Rating`, googleRatingLabel],
                         ["Fully Insured LLC", "Your property is protected on every job"],
                         ["Same-Day Response", "We respond to estimates within hours"],
-                        ["Locally Owned", "Macomb County based — your neighbors"],
+                        ["Locally Owned", "Macomb County based: your neighbors"],
                       ].map(([title, desc]) => (
                         <div key={title} className="flex items-start gap-3">
                           <svg className="w-4 h-4 mt-0.5 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20">
@@ -674,6 +732,8 @@ export default async function ServiceAreaPage({ params }: Props) {
           </div>
         </section>
 
+        {isSnow && <PropertyManagerSection />}
+
         {/* ── BOTTOM CTA ── */}
         <section className="relative py-32 overflow-hidden">
           {!isSnow && <Image src="/photos/mulch1.jpeg" alt={`${svc.name} in ${areaData.name} Michigan`} fill className="object-cover" />}
@@ -683,9 +743,9 @@ export default async function ServiceAreaPage({ params }: Props) {
             <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
               Ready for Professional<br />{serviceDisplayName}?
             </h2>
-            <p className="text-white/60 mb-8 max-w-md mx-auto">Free estimate. Same-day response. {areaData.name}&apos;s most reliable landscaping crew — ready when you are.</p>
+            <p className="text-white/60 mb-8 max-w-md mx-auto">Free estimate. Same-day response. {areaData.name}&apos;s most reliable landscaping crew, ready when you are.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
+              <Link href={quoteHref} style={{ backgroundColor: "#2C5F2E" }} className="inline-flex items-center justify-center gap-2 text-white px-10 py-4 font-semibold tracking-wide hover:opacity-90 transition-opacity">
                 {ctaLabel ?? "Get Your Free Estimate"}
               </Link>
               <a href="tel:+15863278080" className="inline-flex items-center justify-center gap-2 border border-white/40 text-white px-10 py-4 font-semibold tracking-wide hover:bg-white/10 transition-colors">
