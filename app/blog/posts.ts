@@ -656,9 +656,7 @@ Lawn care pricing in Macomb County depends on several factors: the size of your 
 ## Common Services and Typical Price Ranges
 
 **Weekly/Bi-Weekly Lawn Mowing**
-- Small lawn (under 5,000 sq ft): $35–$55 per visit
-- Medium lawn (5,000–10,000 sq ft): $50–$75 per visit
-- Large lawn (over 10,000 sq ft): $70–$120+ per visit
+- Most residential lawns: $40–$100 per cut, depending on lot size and how many obstacles there are to trim around
 
 Most companies in Macomb County offer a discount for weekly service over bi-weekly.
 
@@ -1894,7 +1892,7 @@ Not every lawn care company in Macomb County is equipped for Romeo's property ty
 
 ## Pricing for Lawn Care in Romeo
 
-Residential weekly mowing in the Romeo area typically runs **$45–$90 per visit** depending on property size. Rural properties with larger acreage are priced accordingly. All estimates are free and based on your actual property — no guessing.
+Residential mowing in the Romeo area runs **$40–$100 per cut** depending on property size. Rural properties with larger acreage are priced accordingly. All estimates are free and based on your actual property — no guessing.
 
 Tri-Point Landscaping serves the Village of Romeo and all surrounding areas with professional lawn care, seasonal cleanup, landscaping, and snow removal. [Request your free estimate](/contact) or call [(586) 327-8080](tel:+15863278080).
     `,
@@ -2331,7 +2329,7 @@ We serve all neighborhoods and subdivisions throughout Shelby Township including
   },
   {
     slug: "fall-cleanup-washington-township-mi",
-    title: "Fall Cleanup in Washington Township, MI — Tri-Point Landscaping",
+    title: "Fall Cleanup in Washington Township, MI",
     description: "Don't let leaves sit all winter. Tri-Point Landscaping provides professional fall cleanup services in Washington Township, MI — leaf removal, bed cleanup, and winter prep.",
     date: "March 20, 2026",
     category: "Seasonal",
@@ -3393,7 +3391,7 @@ The key word there is *done right*. Most DIY overseeding fails in Michigan becau
 
 Spring is moving fast, and **the ideal window for hydroseeding and lawn renovation work in Macomb County opens in late April and runs through early June** — once soil temps stabilize above 50°F but before summer heat arrives. Wait too long and you're setting new seedlings up against drought stress right out of the gate.
 
-Tri-Point Landscaping has been helping Washington Township and Macomb County homeowners get their lawns back in shape for years. We'll take a look at your lawn, tell you honestly which method makes sense, and give you a **free estimate** with no pressure.
+Tri-Point Landscaping helps Washington Township and Macomb County homeowners get their lawns back in shape. We'll take a look at your lawn, tell you honestly which method makes sense, and give you a **free estimate** with no pressure.
 
 [Contact Tri-Point Landscaping](/contact) today or call us directly at [(586) 327-8080](tel:+15863278080). Don't let another growing season slip by with a lawn you're not proud of.
     `,
@@ -5630,7 +5628,7 @@ Quinn species nurseries in Michigan stock natives, or ask your landscaper where 
 
 The best time to transition to native plants is **right now—late spring and early summer through fall**. The growing season is long enough that plants establish strong roots before winter stress. You'll see results this year and dramatic improvement next year.
 
-If you're thinking about redesigning your Washington Township or Macomb County landscape with native plants, **Tri-Point Landscaping has years of experience choosing and installing natives that actually thrive here**. We know what works in our specific clay soils and seasonal patterns.
+If you're thinking about redesigning your Washington Township or Macomb County landscape with native plants, **Tri-Point Landscaping can help you choose and install natives that actually thrive here**. We know what works in our specific clay soils and seasonal patterns.
 
 [Contact Tri-Point Landscaping](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate. We'll walk through exactly which natives make sense for your specific yard conditions—sun exposure, soil type, moisture patterns, and your budget. Free estimates, no pressure.
 
@@ -5783,7 +5781,7 @@ These are real ranges based on what local companies (including us) actually char
 
 ## Weekly Lawn Mowing
 
-**Average cost: $40–$75 per visit** for a typical residential lot in Macomb County (roughly 6,000–12,000 sq ft of turf).
+**Typical cost: $40–$100 per cut** for a residential lot in Macomb County.
 
 What's included in a professional visit: mowing at the correct height, edging along all hard surfaces, string trimming around obstacles, and blowing clippings off the driveway and walkways.
 
@@ -5793,7 +5791,7 @@ Factors that push the price higher:
 - Bi-weekly cuts (overgrown grass takes more time)
 - Gated properties or long access routes
 
-Most homeowners in Washington Township and Shelby Township on a weekly maintenance plan pay **$160–$280 per month** during the April–October season.
+Most homeowners in Washington Township and Shelby Township on a weekly maintenance plan pay **$160–$400 per month** during the April–October season.
 
 ## Spring & Fall Cleanup
 
@@ -6234,7 +6232,7 @@ Avoid October-November installations—you want your walkway to fully cure befor
 
 Walking into summer is the ideal time to plan and install a front walkway. The ground is workable, concrete contractors have reasonable lead times, and you'll enjoy the finished product all season while neighbors and visitors actually use it.
 
-Tri-Point Landscaping has been designing and installing front walkways throughout Washington Township and Macomb County for years. We understand local soil conditions, Michigan freeze-thaw patterns, and what materials actually last in our climate. **Free estimates—no obligation.** Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a walkway consultation. A professional eye can spot grading issues and design opportunities you might miss, and it costs you nothing to find out.
+Tri-Point Landscaping designs and installs front walkways throughout Washington Township and Macomb County. We understand local soil conditions, Michigan freeze-thaw patterns, and what materials actually last in our climate. **Free estimates—no obligation.** Call [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](/contact) to schedule a walkway consultation. A professional eye can spot grading issues and design opportunities you might miss, and it costs you nothing to find out.
 
 Your home's front walkway is a small project with big impact. Let's make it count.
     `,
@@ -6315,7 +6313,7 @@ This is where installation either succeeds or fails. Spend an hour here and save
 
 If you've got 200+ feet of beds or complex curved landscaping, edging installation is exactly the kind of project where a professional crew saves you a weekend and delivers results that last. The soil prep and grading matter more than people realize, and getting it wrong means redoing it in two years.
 
-**Tri-Point Landscaping has been installing edging for Macomb County and Washington Township properties for years**—we know how Michigan's clay responds and how to anchor edging so freeze-thaw cycles don't touch it.
+**Tri-Point Landscaping installs edging for Macomb County and Washington Township properties**—we know how Michigan's clay responds and how to anchor edging so freeze-thaw cycles don't touch it.
 
 Ready for clean, defined landscape beds? [Contact Tri-Point Landscaping today](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate. Late spring is the ideal time to get this done before summer, and we're booking installations now. Let's make your landscape look finished.
     `,
@@ -6514,7 +6512,7 @@ The next 30 days matter. If you haven't had a professional landscaper evaluate y
 
 ## Get Your Free Evaluation From Tri-Point Landscaping
 
-Tri-Point Landscaping has been serving Washington Township and Macomb County commercial properties for years. We'll walk your property, identify what's working and what isn't, and show you exactly what a consistent maintenance plan looks like—and what it costs.
+Tri-Point Landscaping serves commercial properties across Washington Township and Macomb County. We'll walk your property, identify what's working and what isn't, and show you exactly what a consistent maintenance plan looks like—and what it costs.
 
 **[Contact Tri-Point Landscaping today](/contact) or call [(586) 327-8080](tel:+15863278080) for a free estimate.** We'll show you how much value consistent landscaping adds—and why your competitors wish they'd started sooner.
 
@@ -6777,7 +6775,7 @@ Here's when to refresh your mulch based on color choice:
 
 Choosing the wrong mulch color isn't a catastrophe, but choosing the right one saves you money and headaches. The best time to install fresh mulch in Washington Township is right now through late August, before fall weather makes it harder to work with wet soil.
 
-The team at Tri-Point Landscaping has been helping Macomb County homeowners select and install mulch that actually lasts through our climate for years. We can evaluate your specific soil, sun exposure, and home style to recommend the exact color and mulch type that fits your situation—not a generic suggestion.
+The team at Tri-Point Landscaping helps Macomb County homeowners select and install mulch that actually lasts through our climate. We can evaluate your specific soil, sun exposure, and home style to recommend the exact color and mulch type that fits your situation—not a generic suggestion.
 
 **Ready to make your landscaping look sharp?** [Contact Tri-Point Landscaping](/contact) at [(586) 327-8080](tel:+15863278080) for a free estimate. We'll assess your beds, discuss color options in person on your property, and give you an honest timeline for how long your choice will look great in Macomb County.
     `,
@@ -7120,7 +7118,7 @@ You shouldn't need dethatching again for 3-5 years if you follow good maintenanc
 
 **Spring is here, and if your lawn feels spongy or water isn't soaking in, you're looking at a thatch problem.** The earlier you handle it, the faster your lawn bounces back before summer heat arrives.
 
-Tri-Point Landscaping has been dethatching Washington Township and Macomb County lawns for years. We'll assess whether your lawn actually needs it, handle the heavy work, and set you up with a plan to prevent thatch buildup long-term.
+Tri-Point Landscaping dethatches lawns across Washington Township and Macomb County. We'll assess whether your lawn actually needs it, handle the heavy work, and set you up with a plan to prevent thatch buildup long-term.
 
 **[Contact Tri-Point Landscaping today](/contact) or call us at [(586) 327-8080](tel:+15863278080) for a free estimate.** We can usually schedule spring dethatch services within 1-2 weeks. Visit **tripointlandscaping.com** to see our other lawn renovation services.
     `,
@@ -7434,7 +7432,7 @@ When signing a contract, negotiate these points:
 
 The best time to negotiate a commercial snow removal contract isn't January, when contractors are slammed and your parking lot is already a skating rink. **It's right now, in late summer, before the rush.**
 
-Tri-Point Landscaping has been managing commercial snow removal across Macomb County for years, and we know exactly how to write contracts that protect you and match our region's weather patterns. We'll audit your property, explain exactly what you need (not what we want to sell you), and give you a contract with transparent pricing and realistic response times.
+Tri-Point Landscaping manages commercial snow removal across Macomb County, and we know exactly how to write contracts that protect you and match our region's weather patterns. We'll audit your property, explain exactly what you need (not what we want to sell you), and give you a contract with transparent pricing and realistic response times.
 
 **Call [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) today for a free estimate.** We'll review your current property, walk you through options, and explain what a fair commercial snow removal contract looks like in Washington Township. Getting ahead now means you'll sleep better when the first major snow hits.
     `,
@@ -7574,7 +7572,7 @@ The other variable is seed quality. **Use premium seed blends designed for Michi
 
 If you're planning a lawn renovation in Washington Township or anywhere in Macomb County, **the best time to seed is right now through mid-September**. That window closes fast, and waiting until spring means dealing with summer heat during your critical establishment weeks.
 
-Tri-Point Landscaping has been seeding lawns in this region for years. We know our soil, our weather patterns, and exactly what seed blends work here. We'll handle the prep work, the seeding, and the aftercare so you don't stress about timing or watering schedules.
+Tri-Point Landscaping seeds lawns throughout this region. We know our soil, our weather patterns, and exactly what seed blends work here. We'll handle the prep work, the seeding, and the aftercare so you don't stress about timing or watering schedules.
 
 **Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to schedule your free estimate.** We'll assess your lawn, explain what realistic timing looks like for your specific property, and get you on track for a thick, healthy lawn that actually survives Michigan summers. Free estimates—no obligation.
     `,
@@ -7626,7 +7624,7 @@ Consistent landscaping isn't a luxury—it's **preventive maintenance for your p
 
 ## Ready to Stop Worrying About Your Landscape?
 
-If your commercial property in Washington Township or Macomb County needs a landscaping partner who understands Michigan's specific demands, Tri-Point Landscaping has been serving local businesses for years. We build **customized maintenance plans** that match Michigan's seasons—not generic templates.
+If your commercial property in Washington Township or Macomb County needs a landscaping partner who understands Michigan's specific demands, Tri-Point Landscaping serves local businesses across the area. We build **customized maintenance plans** that match Michigan's seasons—not generic templates.
 
 Right now is actually the perfect time to plan ahead. Late August is when most Washington Township property managers are thinking about fall cleanup, which means our calendar fills fast. 
 
@@ -7707,7 +7705,7 @@ Choose mulch based on your goal:
 
 ## Ready to Get Your Timing Right? Contact Tri-Point Landscaping
 
-If you're reading this in late August or early September, fall mulching is just around the corner—and **now is the perfect time to plan**. Tri-Point Landscaping has been serving Washington Township and Macomb County for years, and we know exactly when to mulch for maximum benefit in our specific climate.
+If you're reading this in late August or early September, fall mulching is just around the corner—and **now is the perfect time to plan**. Tri-Point Landscaping serves Washington Township and Macomb County, and we know exactly when to mulch for maximum benefit in our specific climate.
 
 Whether you need a single bed refreshed or a comprehensive mulch installation across your property, **we offer free estimates** and can advise whether spring or fall works best for your landscape.
 
@@ -7848,7 +7846,7 @@ The middle-range quote from a company with strong local references is usually th
 
 We're entering the season when commercial properties need consistent, reliable lawn care. Late winter and early spring—February through April—is when Macomb County landscapers get booked solid. If you wait until May, you'll either get a company with no openings or someone desperate enough to take on too many clients (which means spotty service).
 
-If you're looking for a commercial lawn care partner in Washington Township or elsewhere in Macomb County, [contact Tri-Point Landscaping](/contact) or call [(586) 327-8080](tel:+15863278080). We've been servicing commercial properties across Macomb County for years, and we offer **free estimates** with no pressure. We'll show you exactly what we do, why it works in our local soil and climate, and how we keep communication simple.
+If you're looking for a commercial lawn care partner in Washington Township or elsewhere in Macomb County, [contact Tri-Point Landscaping](/contact) or call [(586) 327-8080](tel:+15863278080). We service commercial properties across Macomb County, and we offer **free estimates** with no pressure. We'll show you exactly what we do, why it works in our local soil and climate, and how we keep communication simple.
 
 Your commercial property deserves a contractor who treats it like it matters. Let's talk about making that happen.
     `,
@@ -8074,7 +8072,7 @@ This is where most HOA managers struggle. **Document everything with photos and 
 
 ## Partner With Local Expertise
 
-You don't have to manage landscaping quality alone. **Tri-Point Landscaping has worked with Macomb County HOAs for years** and understands Michigan's seasonal demands, our clay soil challenges, and the specific aesthetic standards different communities require.
+You don't have to manage landscaping quality alone. **Tri-Point Landscaping works with Macomb County HOAs** and understands Michigan's seasonal demands, our clay soil challenges, and the specific aesthetic standards different communities require.
 
 Whether you need a full maintenance contract for common areas, a seasonal consulting relationship to review contractor work, or just a professional assessment of whether your current landscaping is meeting industry standards, we can help you avoid costly compliance mistakes.
 
@@ -8167,7 +8165,7 @@ This hybrid approach gives you the soil benefits of wood where it counts, and th
 
 Fall is the ideal time to install or refresh mulch in Macomb County. Winter damage happens between now and March, so getting this right now means your landscaping will look sharp all spring. Whether you choose wood, rubber, or a combination, the difference matters.
 
-Tri-Point Landscaping has been helping Washington Township and Macomb County homeowners make these exact choices for years. We know which products hold up best through our winters, and we can install either option correctly—with proper depth and weed barriers.
+Tri-Point Landscaping helps Washington Township and Macomb County homeowners make these exact choices. We know which products hold up best through our winters, and we can install either option correctly—with proper depth and weed barriers.
 
 **Free estimates. Local expertise. Same-day scheduling.**
 
@@ -8343,7 +8341,7 @@ Here's the practical reality: **Tri-Point Landscaping and other quality contract
 
 Right now, in late September, is when contractors have flexibility, availability, and competitive pricing. Once November hits, you're calling emergency services.
 
-**Get a free estimate from Tri-Point Landscaping today.** We'll assess your specific parking lot, review your liability exposure, and show you exactly what seasonal versus per-push costs look like for your property. We've been handling Washington Township and Macomb County commercial properties for years—we know what actually happens when March storms hit.
+**Get a free estimate from Tri-Point Landscaping today.** We'll assess your specific parking lot, review your liability exposure, and show you exactly what seasonal versus per-push costs look like for your property. We handle commercial properties across Washington Township and Macomb County—we know what actually happens when March storms hit.
 
 **Call us at [(586) 327-8080](tel:+15863278080) or visit [tripointlandscaping.com](https://tripointlandscaping.com) to request your free winter contract estimate.** We'll have you locked in before the first real snow threat of the season.
     `,

@@ -4,24 +4,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
+  title: "Refer a Neighbor — Get $50 Off",
   description:
     "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company — share the word and save.",
-  keywords: [
-    "landscaping referral program Macomb County",
-    "refer a friend landscaping Michigan",
-    "lawn care referral discount Washington Township",
-    "Tri-Point Landscaping referral",
-    "landscaping discount Macomb County MI",
-    "landscaping referral program michigan",
-    "lawn care referral macomb county",
-    "refer a landscaper michigan",
-    "landscaping company referral discount",
-    "get discount on lawn care michigan",
-    "lawn care referral bonus macomb county",
-    "50 off landscaping macomb county",
-    "landscaping referral deal michigan",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/referral" },
   openGraph: {
     title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
@@ -29,13 +14,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/referral",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Referral Program" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Referral Program" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Refer a Neighbor — Get $50 Off | Tri-Point Landscaping",
     description: "Refer a neighbor to Tri-Point Landscaping and get $50 off your next service. Macomb County's locally owned landscaping company.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 

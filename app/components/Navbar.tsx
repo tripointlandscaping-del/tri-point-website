@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { googleReviews } from "../lib/business";
 
 const services = [
   { name: "Lawn Maintenance", href: "/services/lawn-maintenance" },
@@ -46,7 +47,7 @@ export default function Navbar() {
           <span className="hidden sm:flex items-center gap-4 text-white/60">
             <span>Proudly Serving All of Macomb County, MI</span>
             <span className="w-px h-3 bg-white/20" />
-            <span>Available 24/7</span>
+            <span>Call or Text 24/7</span>
           </span>
           <div className="flex items-center gap-6 ml-auto">
             <a href="tel:+15863278080" className="flex items-center gap-1.5 hover:text-green-300 transition-colors font-medium tracking-wide">
@@ -62,7 +63,7 @@ export default function Navbar() {
               Text Us
             </a>
             <div className="hidden sm:flex items-center gap-1 text-yellow-400 text-xs font-medium">
-              ★★★★★ <span className="text-white/60 ml-1">4.9 Google</span>
+              ★★★★★ <span className="text-white/60 ml-1">{googleReviews.rating} Google</span>
             </div>
             <a
               href="https://clienthub.getjobber.com/client_hubs/ba649197-6964-43ad-a933-86b6459afbf6/login/new?source=share_login"

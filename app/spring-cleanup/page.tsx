@@ -2,34 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { googleReviews, reviewCountLabel } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
+  title: "Spring Cleanup in Macomb County, MI",
   description:
     "Spring cleanup in Macomb County, MI. Leaf removal, bed edging, debris hauling & property prep. Locally owned & insured. Free estimates — book early.",
-  keywords: [
-    "spring cleanup Macomb County MI",
-    "spring yard cleanup Washington Township",
-    "spring landscaping cleanup Michigan",
-    "leaf removal spring Macomb County",
-    "spring cleanup near me Michigan",
-    "lawn cleanup Shelby Township spring",
-    "spring cleanup Rochester Hills MI",
-    "spring cleanup Oakland County MI",
-    "spring cleanup",
-    "spring cleanup near me",
-    "yard cleanup near me",
-    "spring yard cleanup",
-    "spring debris removal",
-    "spring lawn cleanup near me",
-    "spring cleanup 48094",
-    "spring cleanup 48315",
-    "spring cleanup cost michigan",
-    "best spring cleanup company michigan",
-    "spring cleanup price macomb county",
-    "spring yard cleaning service",
-    "spring property cleanup near me",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/spring-cleanup" },
   openGraph: {
     title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
@@ -37,13 +15,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/spring-cleanup",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Spring Cleanup Services — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Spring Cleanup Services — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Spring Cleanup in Macomb County, MI | Tri-Point Landscaping",
     description: "Professional spring cleanup — leaf removal, bed cleanup, edging & property prep. Booking now for Macomb County. Free estimates.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -176,7 +154,7 @@ export default function SpringCleanupPage() {
             </div>
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
               <span className="text-yellow-400">★★★★★</span>
-              <span className="text-white/50">4.9 · 15 verified Google reviews</span>
+              <span className="text-white/50">{googleReviews.rating} · {reviewCountLabel}</span>
             </div>
           </div>
         </section>

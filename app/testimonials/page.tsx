@@ -2,124 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { reviews } from "../lib/reviews";
+import { googleReviews, aggregateRatingSchema, reviewCountLabel, GBP_URL, GBP_REVIEW_URL } from "../lib/business";
+
+const reviewsDescription = `Read ${reviewCountLabel} for Tri-Point Landscaping (${googleReviews.rating}★ rating) from homeowners in Washington Township, Shelby Township & across Macomb County, MI.`;
 
 export const metadata: Metadata = {
-  title: "Customer Reviews | Tri-Point Landscaping — Macomb County, MI",
-  description:
-    "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township & more.",
-  keywords: [
-    "Tri-Point Landscaping reviews",
-    "landscaping company reviews Macomb County MI",
-    "lawn care reviews Washington Township Michigan",
-    "best landscaping company Macomb County reviews",
-    "Tri-Point Landscaping testimonials",
-    "landscaping reviews Shelby Township",
-    "lawn care company reviews Rochester Hills MI",
-    "trusted landscaping company Macomb County",
-  ],
+  title: "Customer Reviews — Macomb County, MI",
+  description: reviewsDescription,
   alternates: { canonical: "https://www.tripointlandscaping.com/testimonials" },
   openGraph: {
-    title: "Customer Reviews | Tri-Point Landscaping — 4.9★ Rating",
-    description: "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating across Washington Township, Shelby Township & more.",
+    title: `Customer Reviews | Tri-Point Landscaping — ${googleReviews.rating}★ Rating`,
+    description: reviewsDescription,
     url: "https://www.tripointlandscaping.com/testimonials",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Reviews — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Reviews — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Customer Reviews | Tri-Point Landscaping — 4.9★ Rating",
-    description: "See what Macomb County homeowners say about Tri-Point Landscaping. 4.9★ Google rating. Real reviews from Washington Township, Shelby Township & more.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    title: `Customer Reviews | Tri-Point Landscaping — ${googleReviews.rating}★ Rating`,
+    description: reviewsDescription,
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
-const reviews = [
-  {
-    stars: 5,
-    text: "Tri-Point Landscaping did an outstanding job on my yard! They were professional, punctual, and paid attention to every detail. From the clean-up to the fresh mulch, everything looked perfect when they finished. Highly recommend them for anyone looking for reliable and high-quality landscaping services!",
-    author: "Noah S.",
-    service: "Cleanup & Mulch Installation",
-  },
-  {
-    stars: 5,
-    text: "These 3 guys did a great job at a reasonable price. They communicated well, were respectful and cleaned everything up when done. We are very happy with the work we had done by them.",
-    author: "Anna B.",
-    service: "Landscaping",
-  },
-  {
-    stars: 5,
-    text: "I had them do a clean up of our yard and install mulch. They did really great work! Hardworking, honest and reliable. I'll for sure use them again!! Definitely recommend.",
-    author: "Marcela V.",
-    service: "Yard Cleanup & Mulch",
-  },
-  {
-    stars: 5,
-    text: "Noah did a very good job with my lawn. Very professional and very experienced. Would recommend for anyone that needed grass cutting and snow removal or any thing else. Noah and his team are the best.",
-    author: "Javen K.",
-    service: "Lawn Care & Snow Removal",
-  },
-  {
-    stars: 5,
-    text: "Very pleased with the work and professionalism these young men displayed. Highly recommend. 10 stars.",
-    author: "Lori A.",
-    service: "Landscaping",
-  },
-  {
-    stars: 4,
-    text: "This was our first time hiring a snow removal company and were truly happy with the experience. The service was timely, thorough, and a good value for the task. I really appreciated their messages regarding whether we needed service when the snow totals differed in their area. I would highly recommend the company.",
-    author: "Paula S.",
-    service: "Snow Removal",
-  },
-  {
-    stars: 5,
-    text: "Noah is great! Highly recommend Tri Point Landscaping!",
-    author: "Pam M.",
-    service: "Landscaping",
-  },
-  {
-    stars: 5,
-    text: "Tri-Point Landscaping did a great job on my lawn!",
-    author: "Detroit Community Cares",
-    service: "Lawn Care",
-  },
-  {
-    stars: 5,
-    text: "Job well done, friendly and reliable.",
-    author: "Rebecca A.",
-    service: "Landscaping",
-  },
-  {
-    stars: 5,
-    text: "Needed some landscape cleanup and mulch. The guys at Tri-Point were polite, very attentive to our requests and cleaned up the site after the mulch was down. Highly recommended.",
-    author: "Douglas T.",
-    service: "Landscape Cleanup & Mulch",
-  },
-  {
-    stars: 5,
-    text: "Noah and his crew did a nice job installing decorative stone in my front yard. Although they ordered a bit more stone than was needed, fortunately we had other pieces to put it down and it looks good as well.",
-    author: "Joe Z.",
-    service: "Decorative Stone Installation",
-  },
-  {
-    stars: 5,
-    text: "I had a great experience with the team at Tri-Point. They were professional, pleasant to work with, and communicated clearly throughout the entire process. They showed up on time, paid attention to detail, and did an excellent job.",
-    author: "J. Morgan",
-    service: "Landscaping",
-  },
-  {
-    stars: 5,
-    text: "Tri-Point Landscaping did an outstanding job on my landscaping!! I could not be more happy, satisfied or impressed! They were professional, friendly, proficient, and efficient. Communication, responsiveness and follow through were also excellent.",
-    author: "Master Cheese",
-    service: "Landscaping",
-  },
-  {
-    stars: 5,
-    text: "Tri Point Landscaping did an amazing job. They were on time, professional, and paid attention to all the small details. The yard looks way better than I expected, and you can tell they actually care about the quality of their work.",
-    author: "Jovan H.",
-    service: "Landscaping",
-  },
-];
 
 export default function TestimonialsPage() {
   const breadcrumbSchema = {
@@ -131,19 +38,13 @@ export default function TestimonialsPage() {
     ],
   };
 
-  const aggregateRatingSchema = {
+  const businessSchema = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "LandscapingBusiness"],
     name: "Tri-Point Landscaping LLC",
     url: "https://www.tripointlandscaping.com",
     telephone: "+15863278080",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "15",
-      bestRating: "5",
-      worstRating: "1",
-    },
+    aggregateRating: aggregateRatingSchema,
     review: reviews.map((r) => ({
       "@type": "Review",
       reviewRating: {
@@ -159,7 +60,7 @@ export default function TestimonialsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <Navbar />
       <main>
 
@@ -176,7 +77,7 @@ export default function TestimonialsPage() {
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.05] mb-4"
             >
-              4.9 Stars on Google
+              {googleReviews.rating} Stars on Google
             </h1>
             <p className="text-white/50 text-lg mb-3">
               Rated by real homeowners across Macomb County & Oakland County, Michigan
@@ -197,16 +98,16 @@ export default function TestimonialsPage() {
           <div className="max-w-4xl mx-auto px-6">
             <div className="grid grid-cols-3 gap-6 text-center text-white">
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">4.9★</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">{googleReviews.rating}★</p>
                 <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Rating</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">15</p>
-                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Verified Google Reviews</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">{googleReviews.count}</p>
+                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Google Reviews</p>
               </div>
               <div>
-                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">2020</p>
-                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Serving Macomb County</p>
+                <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold">8</p>
+                <p className="text-green-200 text-xs uppercase tracking-widest mt-1">Communities Served</p>
               </div>
             </div>
           </div>
@@ -243,7 +144,7 @@ export default function TestimonialsPage() {
             <div className="text-center mt-12">
               <p className="text-gray-500 text-sm mb-5">Read all our reviews directly on Google</p>
               <a
-                href="https://g.page/r/CTWE7P6lheWxEBM"
+                href={GBP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ backgroundColor: "#2C5F2E" }}
@@ -267,7 +168,7 @@ export default function TestimonialsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://g.page/r/CTWE7P6lheWxEBM/review"
+                href={GBP_REVIEW_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ backgroundColor: "#2C5F2E" }}

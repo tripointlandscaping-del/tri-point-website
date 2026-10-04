@@ -2,51 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { googleReviews, reviewCountLabel } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Landscaping & Lawn Care Services — Macomb County | Tri-Point",
+  title: "Landscaping & Lawn Care Services — Macomb County",
   description:
     "Professional landscaping, lawn care, hardscaping & snow removal in Macomb County, MI. Lawn maintenance, mulch, seasonal cleanup & more. Free estimates.",
-  keywords: [
-    "landscaping services Macomb County MI",
-    "lawn care services Macomb County",
-    "snow removal Macomb County MI",
-    "mulch installation Macomb County",
-    "seasonal cleanup Macomb County",
-    "lawn renovation Macomb County",
-    "hardscaping Macomb County MI",
-    "patio installation Macomb County",
-    "landscaping services Rochester Hills MI",
-    "lawn maintenance Oakland County MI",
-    "landscaping",
-    "lawn care",
-    "lawn mowing",
-    "grass cutting",
-    "snow removal",
-    "leaf removal",
-    "aeration",
-    "overseeding",
-    "spring cleanup",
-    "fall cleanup",
-    "mulch installation",
-    "hardscaping",
-    "patio installation",
-    "lawn service near me",
-    "landscaping near me",
-    "lawn mowing near me",
-    "snow removal near me",
-    "mulch near me",
-    "all landscaping services Macomb County",
-    "complete lawn care Macomb County MI",
-    "full service landscaping Michigan",
-    "landscaping and lawn care Macomb County",
-    "lawn care prices Macomb County MI",
-    "landscaping cost Michigan",
-    "free estimate landscaping Macomb County",
-    "lawn care company near me Michigan",
-    "landscape contractor near me Macomb County",
-    "best lawn care services Macomb County MI",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/services" },
   openGraph: {
     title: "Landscaping & Lawn Care Services — Macomb County | Tri-Point",
@@ -57,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+        url: "https://www.tripointlandscaping.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Tri-Point Landscaping Services — Macomb County MI",
@@ -69,7 +30,7 @@ export const metadata: Metadata = {
     title: "Landscaping & Lawn Care Services — Macomb County | Tri-Point",
     description:
       "Professional lawn care, landscaping, mulch, snow removal & more throughout Macomb County & Oakland County, MI. Free estimates.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -167,14 +128,14 @@ export default function ServicesPage() {
             <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-white text-center">
               <div className="flex items-center gap-2">
                 <span className="text-yellow-300">★★★★★</span>
-                <span className="font-semibold">4.9 Google Rating · 15 Reviews</span>
+                <span className="font-semibold">{googleReviews.rating} Google Rating · {reviewCountLabel}</span>
               </div>
               <div className="hidden sm:block w-px h-4 bg-white/25" />
               <span>✓ Free Estimates on All Services</span>
               <div className="hidden sm:block w-px h-4 bg-white/25" />
               <span>✓ Locally Owned &amp; Fully Insured</span>
               <div className="hidden sm:block w-px h-4 bg-white/25" />
-              <span>✓ Serving Macomb &amp; Oakland County Since 2020</span>
+              <span>✓ Serving Macomb &amp; Oakland County</span>
             </div>
           </div>
         </section>
@@ -191,7 +152,7 @@ export default function ServicesPage() {
                 Complete Lawn &amp; Landscaping Services
               </h2>
               <p className="text-gray-500 text-sm mt-4 max-w-xl mx-auto">
-                One company for every outdoor need — from weekly mowing to full hardscaping builds. All services backed by our 4.9★ Google rating.
+                One company for every outdoor need — from weekly mowing to full hardscaping builds. All services backed by our {googleReviews.rating}★ Google rating.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -2,18 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { reviews } from "../lib/reviews";
+import { googleReviews, aggregateRatingSchema, GBP_REVIEW_URL } from "../lib/business";
+
+const shownReviews = ["Jovan H.", "Master Cheese", "Douglas T."].map(
+  (author) => reviews.find((r) => r.author === author)!,
+);
 
 export const metadata: Metadata = {
-  title: "Leave a Google Review | Tri-Point — Macomb County, MI",
+  title: "Leave a Google Review",
   description: "Loved your Tri-Point Landscaping experience? Leave us a Google review — it takes 30 seconds and helps other Macomb County & Oakland County homeowners find us.",
-  keywords: [
-    "leave a Google review Tri-Point Landscaping",
-    "rate landscaping company Macomb County",
-    "Google review landscaper Washington Township",
-    "Tri-Point Landscaping review",
-    "landscaping company rating Macomb County MI",
-    "lawn care reviews Michigan",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/review" },
   openGraph: {
     title: "Rate Tri-Point Landscaping | Leave a Google Review",
@@ -21,13 +19,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/review",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Leave a Review" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Leave a Review" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Rate Tri-Point Landscaping | Leave a Google Review",
     description: "Leave us a Google review — it takes 30 seconds and helps other Macomb County homeowners find us.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -55,25 +53,19 @@ const breadcrumbSchema = {
   ],
 };
 
-const aggregateRatingSchema = {
+const businessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "Tri-Point Landscaping LLC",
   url: "https://www.tripointlandscaping.com",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "15",
-    bestRating: "5",
-    worstRating: "1",
-  },
+  aggregateRating: aggregateRatingSchema,
 };
 
 export default function ReviewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <Navbar />
       <main style={{ backgroundColor: "#0d0d0d" }}>
 
@@ -102,7 +94,7 @@ export default function ReviewPage() {
                   We&apos;re glad to hear it! A quick Google review takes less than 60 seconds and helps other Macomb County homeowners find us.
                 </p>
                 <a
-                  href="https://g.page/r/CTWE7P6lheWxEBM/review"
+                  href={GBP_REVIEW_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 py-4 text-white font-bold text-sm hover:opacity-90 transition-opacity"
@@ -188,7 +180,7 @@ export default function ReviewPage() {
               ))}
             </div>
             <a
-              href="https://g.page/r/CTWE7P6lheWxEBM/review"
+              href={GBP_REVIEW_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-white/30 text-white px-8 py-3 font-semibold text-sm hover:bg-white/10 transition-colors"
@@ -208,20 +200,16 @@ export default function ReviewPage() {
               What Others Said After Their Visit
             </h2>
             <div className="space-y-4">
-              {[
-                { text: "Noah did a very good job with my lawn. Very professional and very experienced. Would recommend for anyone that needed grass cutting and snow removal or anything else. Noah and his team are the best.", author: "Javen K.", service: "Lawn Care & Snow Removal" },
-                { text: "Tri-Point Landscaping did an outstanding job on my landscaping!! I could not be more happy, satisfied or impressed! They were professional, friendly, proficient, and efficient. Communication, responsiveness and follow through were also excellent.", author: "Master Cheese", service: "Landscaping" },
-                { text: "The guys at Tri-Point were polite, very attentive to our requests and cleaned up the site after the mulch was down. Highly recommended.", author: "Douglas T.", service: "Landscape Cleanup & Mulch" },
-              ].map((r, i) => (
+              {shownReviews.map((r, i) => (
                 <div key={i} className="border border-white/10 p-6">
-                  <div className="text-yellow-400 text-xs mb-3">★★★★★</div>
+                  <div className="text-yellow-400 text-xs mb-3">{"★".repeat(r.stars)}</div>
                   <p className="text-white/60 text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
                   <p className="text-white font-semibold text-sm">{r.author}</p>
                   <p className="text-green-400 text-xs mt-0.5">{r.service}</p>
                 </div>
               ))}
             </div>
-            <p className="text-white/30 text-xs text-center mt-6">Verified Google Reviews · Tri-Point Landscaping LLC · 4.9★</p>
+            <p className="text-white/30 text-xs text-center mt-6">Google Reviews · Tri-Point Landscaping LLC · {googleReviews.rating}★</p>
           </div>
         </section>
 

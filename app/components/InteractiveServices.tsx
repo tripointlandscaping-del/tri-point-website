@@ -11,7 +11,7 @@ const services = [
     slug: "lawn-maintenance",
     tagline: "Crisp edges. Perfect stripes. Every week.",
     desc: "Weekly mowing, precision edging, string trimming & full blowing — April through October. Consistent, reliable, professional.",
-    img: "/photos/1.png",
+    img: "/photos/1.jpg",
   },
   {
     num: "02",
@@ -163,7 +163,7 @@ export default function InteractiveServices() {
               <p className="hidden sm:block text-white/65 text-sm leading-relaxed mb-4 lg:mb-6 max-w-md">{svc.desc}</p>
               <div className="flex flex-wrap gap-3">
                 <Link
-                  href={`/services/${svc.slug}`}
+                  href={svc.slug === "commercial" ? "/commercial" : `/services/${svc.slug}`}
                   style={{ backgroundColor: "#2C5F2E" }}
                   className="inline-flex items-center gap-2 text-white px-5 py-2.5 lg:px-6 lg:py-3 text-sm font-semibold hover:opacity-90 transition-opacity"
                 >

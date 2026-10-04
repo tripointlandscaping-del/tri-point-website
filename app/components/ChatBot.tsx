@@ -35,7 +35,7 @@ const SERVICE_LINKS: { label: string; href: string; keywords: string[] }[] = [
   { label: "Seasonal Cleanup", href: "/services/seasonal-cleanup", keywords: ["cleanup", "spring cleanup", "fall cleanup", "leaf removal"] },
   { label: "Snow Removal", href: "/services/snow-removal", keywords: ["snow", "plow", "plowing", "ice", "salting", "winter"] },
   { label: "Lawn Renovations", href: "/services/lawn-renovations", keywords: ["aeration", "overseed", "overseeding", "dethatching", "renovation"] },
-  { label: "Commercial", href: "/services/commercial", keywords: ["commercial", "hoa", "office", "retail", "apartment"] },
+  { label: "Commercial", href: "/commercial", keywords: ["commercial", "hoa", "office", "retail", "apartment"] },
   { label: "Get a Free Estimate", href: "/contact", keywords: ["estimate", "quote", "free estimate", "pricing", "cost", "how much"] },
   { label: "Contact Us", href: "/contact", keywords: ["contact", "call", "text", "phone", "reach"] },
 ];

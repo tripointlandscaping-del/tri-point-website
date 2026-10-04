@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
+import { localCopy } from "./localCopy";
+import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "../../../lib/business";
 
 /* ─────────────────────────────────────────
    SERVICE DATA
@@ -36,7 +38,7 @@ const services: Record<string, {
       "Reliable professionals who show up and communicate proactively",
     ],
     bodyTemplate: (area, roads) =>
-      `Maintaining a lawn in ${area} takes more than showing up with a mower. Michigan's variable seasons — from soggy springs to dry July stretches — demand a crew that adapts to what your turf actually needs week-to-week. Tri-Point Landscaping has been providing professional lawn maintenance to homeowners across ${area} and all of northern Macomb County. We service properties along ${roads} and throughout the community's established subdivisions. Our crews work with precision — every edge is clean, every visit is consistent, and every property is treated with the same attention to detail we'd give our own. Whether you're looking for a reliable weekly service or want to free up your weekends for good, Tri-Point Landscaping is the team ${area} homeowners trust.`,
+      `Maintaining a lawn in ${area} takes more than showing up with a mower. Michigan's variable seasons — from soggy springs to dry July stretches — demand a crew that adapts to what your turf actually needs week-to-week. Tri-Point Landscaping provides professional lawn maintenance to homeowners across ${area} and all of northern Macomb County. We service properties along ${roads} and throughout the community's established subdivisions. Our crews work with precision — every edge is clean, every visit is consistent, and every property is treated with the same attention to detail we'd give our own. Whether you're looking for a reliable weekly service or want to free up your weekends for good, Tri-Point Landscaping is the team ${area} homeowners trust.`,
   },
   "landscaping": {
     name: "Landscaping",
@@ -203,7 +205,7 @@ const areas: Record<string, {
     name: "Washington Township",
     county: "Macomb County",
     roads: "26 Mile Road, 28 Mile Road, Van Dyke Avenue & Romeo Plank Road",
-    heroImage: "/photos/weekly-mowing-shelby-township-mi.jpg.png",
+    heroImage: "/photos/weekly-mowing-shelby-township-mi.jpg",
     localDesc: "Washington Township is Macomb County's premier residential community, home to Stony Creek Metropark and well-established subdivisions along Van Dyke and Romeo Plank Road. Homeowners here expect consistently excellent property care — and that's exactly what we deliver.",
   },
   "shelby-township": {
@@ -232,7 +234,7 @@ const areas: Record<string, {
     county: "Macomb County",
     roads: "30 Mile Road, 31 Mile Road & Card Road",
     heroImage: "/photos/IMG_3369.jpeg",
-    localDesc: "Ray Township's larger rural lots, properties near the Macomb Orchard Trail, and proximity to Lake St. Clair Metropark require the heavy-duty equipment and local expertise that Tri-Point Landscaping brings to every job.",
+    localDesc: "Ray Township's larger rural lots and properties near the Macomb Orchard Trail require the heavy-duty equipment and local expertise that Tri-Point Landscaping brings to every job.",
   },
   "bruce-township": {
     name: "Bruce Township",
@@ -307,162 +309,17 @@ const allServiceSlugs = Object.keys(services);
 const allAreaSlugs = Object.keys(areas);
 
 /* ─────────────────────────────────────────
-   SEARCH VARIANT TERMS PER SERVICE
-   These mirror every way a real person might search for each service.
+   PRIMARY SEARCH TERM PER SERVICE (used for the page title and H1)
 ───────────────────────────────────────── */
 const serviceSearchVariants: Record<string, string[]> = {
-  "lawn-maintenance": [
-    "lawn mowing", "grass cutting", "lawn care", "lawn cutting",
-    "lawn service", "yard mowing", "weekly lawn service", "lawn trimming",
-    "lawn mowing service", "lawn mowing company", "lawn care company",
-    "grass cutting service", "lawn maintenance company", "yard maintenance",
-    "residential lawn care", "lawn mowing near me", "grass cutting near me",
-    "lawn care near me", "lawn service near me",
-    "yard cutting", "grass mowing service", "turf maintenance", "lawn grooming",
-    "yard care service", "lawn upkeep", "residential grass cutting", "lawn mowing and edging",
-    "grass cutting company", "lawn cutting company", "yard cutting company", "yard care company",
-    "lawn mowing contractor", "lawn care contractor", "residential lawn mowing company", "lawn and yard service",
-    "affordable lawn mowing", "best lawn mowing company", "top rated lawn care",
-    "same day lawn service", "lawn mowing cost", "lawn mowing prices",
-    "insured lawn care company", "licensed lawn care", "trusted lawn care company",
-    "dead lawn repair", "yellow grass treatment", "lawn full of weeds help",
-    "bare spot repair service", "overgrown lawn cleanup", "professional lawn care company",
-    "lawn mowing estimate", "lawn care quotes", "free lawn mowing estimate",
-  ],
-  "landscaping": [
-    "landscaping", "landscaper", "landscape design", "yard work",
-    "curb appeal landscaping", "landscape installation", "outdoor landscaping",
-    "landscaping company", "landscaping service", "landscaping near me",
-    "landscaper near me", "landscape contractor", "landscape company",
-    "professional landscaping", "landscaping contractor",
-    "residential landscaping", "landscape renovation", "yard landscaping",
-    "landscape makeover", "yard transformation", "outdoor landscape design",
-    "local landscaper", "landscape artist",
-    "landscaping contractor near me", "landscape design company", "yard work company",
-    "landscape design contractor", "outdoor landscaping company", "residential landscaping company",
-    "landscaping and lawn care company",
-    "affordable landscaping", "best landscaping company", "top rated landscaping",
-    "insured landscaping company", "licensed landscape contractor", "trusted landscaper",
-    "landscaping cost estimate", "landscaping quotes", "free landscaping estimate",
-    "landscape renovation cost", "curb appeal improvement", "overgrown yard help",
-    "yard makeover service", "landscape design near me", "professional landscaper near me",
-  ],
-  "mulch-and-stone": [
-    "mulch installation", "mulch delivery", "mulching service",
-    "decorative stone", "river rock installation", "bed edging", "garden mulch",
-    "mulch service", "mulch and stone", "stone installation", "mulch company",
-    "mulch installer", "mulch near me", "stone landscaping", "mulch service near me",
-    "wood chip mulch", "black mulch installation", "brown mulch installation",
-    "cedar mulch service", "colored mulch", "gravel installation", "pea gravel",
-    "landscape rock", "landscape stone", "flower bed mulch", "garden bed stone",
-    "mulching company", "mulch delivery company", "stone installation company",
-    "decorative stone company", "mulch and stone company", "mulch and rock company",
-    "landscape mulch company", "mulch service company",
-    "affordable mulch installation", "best mulch company", "mulch cost estimate",
-    "organic mulch service", "black mulch near me", "red mulch installation",
-    "colored mulch company", "landscape fabric installation", "weed barrier installation",
-    "mulch and stone near me", "mulch installation quotes", "free mulch estimate",
-    "premium mulch delivery", "bulk mulch installation", "flower bed refresh",
-  ],
-  "seasonal-cleanup": [
-    "leaf removal", "fall cleanup", "spring cleanup", "yard cleanup",
-    "debris removal", "yard waste removal", "leaf blowing service",
-    "seasonal cleanup", "yard cleaning", "debris hauling", "leaf raking",
-    "lawn cleanup", "leaf removal service", "fall yard cleanup", "spring yard cleanup",
-    "seasonal cleanup near me", "leaf cleanup near me",
-    "yard debris cleanup", "property cleanup", "outdoor cleanup",
-    "leaf pickup service", "lawn clearing", "property maintenance cleanup", "yard waste hauling",
-    "leaf removal company", "fall cleanup company", "spring cleanup company",
-    "yard cleanup company", "yard waste company", "cleanup contractor",
-    "property cleanup company", "seasonal yard cleanup company",
-    "emergency leaf removal", "same day yard cleanup", "last minute fall cleanup",
-    "leaf removal cost", "affordable fall cleanup", "best fall cleanup company",
-    "yard waste disposal", "brush removal service", "yard debris hauling",
-    "fall cleanup quotes", "spring cleanup cost", "free cleanup estimate",
-    "gutter cleaning service", "property cleanup near me",
-  ],
-  "snow-removal": [
-    "snow plowing", "snow removal", "driveway plowing",
-    "ice removal", "snow blowing service", "snow service",
-    "snow removal service", "snow removal company", "de-icing service",
-    "salting service", "ice management", "driveway snow removal",
-    "snow removal near me", "snow plowing near me", "snow plow service",
-    "snow shoveling service", "sidewalk snow removal", "parking lot plowing",
-    "residential snow service", "ice control service", "winter property maintenance",
-    "emergency snow removal", "snow clearing service",
-    "snow plowing company", "snow removal contractor", "driveway plowing company",
-    "ice management company", "snow plow company", "snow and ice company",
-    "winter snow removal company", "residential snow removal company",
-    "24 hour snow removal", "seasonal snow removal contract", "per push snow removal pricing",
-    "affordable snow plowing", "best snow removal company", "reliable snow plowing service",
-    "snow removal cost estimate", "how much does snow plowing cost",
-    "snow plowing quotes", "free snow removal estimate", "trusted snow removal company",
-    "snow and ice management", "residential de-icing service",
-  ],
-  "lawn-renovations": [
-    "lawn aeration", "core aeration", "overseeding", "lawn seeding",
-    "dethatching", "lawn repair", "bare spot repair", "lawn renovation",
-    "aeration service", "grass seeding", "lawn renovation service",
-    "soil aeration", "lawn overseeding", "lawn restoration",
-    "lawn aeration near me", "lawn renovation near me",
-    "lawn rejuvenation", "turf renovation", "lawn revival", "grass renovation",
-    "lawn top dressing", "lawn treatment service", "sod installation", "lawn reseeding",
-    "aeration company", "lawn renovation company", "overseeding company",
-    "sod installation company", "lawn restoration company", "lawn reseeding company",
-    "core aeration company", "lawn seeding company",
-    "affordable aeration service", "lawn aeration cost", "overseeding cost estimate",
-    "clay soil aeration", "compacted lawn fix", "thatch removal service",
-    "best lawn renovation company", "lawn repair service near me",
-    "grass seed installation", "lawn aeration quotes", "free aeration estimate",
-    "dead lawn restoration", "thin lawn repair", "lawn renovation near me",
-  ],
-  "commercial": [
-    "commercial landscaping", "commercial lawn care", "grounds maintenance",
-    "HOA landscaping", "commercial mowing", "property management landscaping",
-    "commercial landscaping company", "commercial landscaping service",
-    "commercial property maintenance", "commercial grounds maintenance",
-    "commercial landscaping near me", "commercial lawn service",
-    "HOA lawn care", "office park landscaping",
-    "business landscaping", "office park grounds maintenance", "retail center landscaping",
-    "apartment complex landscaping", "facility grounds maintenance",
-    "commercial property care", "commercial lawn mowing",
-    "commercial lawn care company", "commercial snow removal company",
-    "grounds maintenance company", "HOA landscaping company",
-    "commercial property maintenance company", "commercial grounds care company",
-    "commercial lawn mowing company",
-    "commercial landscaping contract", "HOA board landscaping",
-    "facility maintenance landscaping", "business park landscaping",
-    "commercial snow removal contract", "year round commercial lawn care",
-    "commercial mulch installation", "office complex landscaping",
-    "retail plaza landscaping", "apartment complex grounds care",
-    "property management lawn service", "commercial landscape maintenance company",
-    "commercial property care contract", "commercial landscaping quotes",
-    "best commercial landscaping company", "insured commercial landscaping",
-  ],
-  "hardscaping": [
-    "hardscaping", "patio installation", "retaining wall installation",
-    "walkway installation", "fire pit installation", "outdoor living space",
-    "hardscape installation", "patio contractor", "paver patio",
-    "hardscaping company", "retaining walls", "paver installation",
-    "hardscaping near me", "patio installer near me", "patio company",
-    "hardscaping contractor", "patio builder",
-    "stone patio", "concrete patio", "brick patio", "stamped concrete patio",
-    "outdoor living area", "backyard renovation", "paver walkway installation",
-    "flagstone installation", "landscape wall", "garden wall", "outdoor patio design",
-    "retaining wall company", "retaining wall contractor", "patio installation company",
-    "outdoor living company", "fire pit company", "paver company",
-    "paver contractor", "landscape wall company", "outdoor patio company",
-    "outdoor kitchen", "sitting wall", "outdoor living contractor",
-    "patio design", "landscape wall contractor", "stone patio installer",
-    "paver installer near me", "custom patio", "backyard patio",
-    "patio and fire pit", "hardscape design",
-    "affordable patio installation", "patio installation cost", "patio cost estimate",
-    "retaining wall cost estimate", "fire pit installation cost", "patio installation quotes",
-    "best patio contractor", "top rated patio installer", "insured patio contractor",
-    "stamped concrete vs pavers", "patio renovation", "patio resurfacing",
-    "free patio estimate", "backyard patio cost", "outdoor living cost",
-    "paver patio quotes", "retaining wall quotes", "licensed patio contractor",
-  ],
+  "lawn-maintenance": ["lawn mowing"],
+  "landscaping": ["landscaping"],
+  "mulch-and-stone": ["mulch installation"],
+  "seasonal-cleanup": ["leaf removal"],
+  "snow-removal": ["snow plowing"],
+  "lawn-renovations": ["lawn aeration"],
+  "commercial": ["commercial landscaping"],
+  "hardscaping": ["hardscaping"],
 };
 
 /* ─────────────────────────────────────────
@@ -490,36 +347,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!svc || !areaData) return {};
 
   const variants = serviceSearchVariants[slug] ?? [svc.name.toLowerCase()];
-  const keywords = variants.flatMap((v) => [
-    `${v} ${areaData.name} MI`,
-    `${v} near me ${areaData.name}`,
-    `${v} ${areaData.county} MI`,
-  ]).concat([
-    `${svc.name.toLowerCase()} company ${areaData.name} Michigan`,
-    `best ${variants[0]} ${areaData.name} MI`,
-    `affordable ${variants[0]} ${areaData.name}`,
-  ]);
+  const pageTitle = `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI`;
 
   return {
-    title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
-    description: `4.9★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates — same-day response. Call (586) 327-8080.`,
-    keywords,
+    title: pageTitle,
+    description: `${googleReviews.rating}★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates — same-day response. Call (586) 327-8080.`,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
     openGraph: {
-      title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
+      title: `${pageTitle} | Tri-Point Landscaping`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
       siteName: "Tri-Point Landscaping",
       type: "website",
-      images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: `${svc.name} in ${areaData.name}, MI` }],
+      images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: `${svc.name} in ${areaData.name}, MI` }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI | Tri-Point`,
+      title: `${pageTitle} | Tri-Point Landscaping`,
       description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
-      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+      images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },
   };
 }
@@ -533,6 +381,7 @@ export default async function ServiceAreaPage({ params }: Props) {
   const areaData = areas[area];
   if (!svc || !areaData) notFound();
 
+  const serviceHubHref = slug === "commercial" ? "/commercial" : `/services/${slug}`;
   const otherAreas = allAreaSlugs.filter((a) => a !== area);
   const otherServices = allServiceSlugs.filter((s) => s !== slug);
 
@@ -542,7 +391,7 @@ export default async function ServiceAreaPage({ params }: Props) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripointlandscaping.com" },
       { "@type": "ListItem", position: 2, name: "Services", item: "https://www.tripointlandscaping.com/services" },
-      { "@type": "ListItem", position: 3, name: svc.name, item: `https://www.tripointlandscaping.com/services/${slug}` },
+      { "@type": "ListItem", position: 3, name: svc.name, item: `https://www.tripointlandscaping.com${serviceHubHref}` },
       { "@type": "ListItem", position: 4, name: areaData.name, item: `https://www.tripointlandscaping.com/services/${slug}/${area}` },
     ],
   };
@@ -559,13 +408,7 @@ export default async function ServiceAreaPage({ params }: Props) {
       telephone: "+15863278080",
       url: "https://www.tripointlandscaping.com",
       address: { "@type": "PostalAddress", addressLocality: "Washington Township", addressRegion: "MI", postalCode: "48094", addressCountry: "US" },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.9",
-        reviewCount: "15",
-        bestRating: "5",
-        worstRating: "1",
-      },
+      aggregateRating: aggregateRatingSchema,
     },
     areaServed: {
       "@type": "City",
@@ -612,9 +455,9 @@ export default async function ServiceAreaPage({ params }: Props) {
               <nav className="flex items-center flex-wrap gap-1.5 text-white/45 text-xs">
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
                 <span>/</span>
-                <Link href={`/services/${slug}`} className="hover:text-white transition-colors">Services</Link>
+                <Link href="/services" className="hover:text-white transition-colors">Services</Link>
                 <span>/</span>
-                <Link href={`/services/${slug}`} className="hover:text-white transition-colors">{svc.name}</Link>
+                <Link href={serviceHubHref} className="hover:text-white transition-colors">{svc.name}</Link>
                 <span>/</span>
                 <span className="text-white">{areaData.name}</span>
               </nav>
@@ -661,10 +504,9 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold text-gray-900 mb-5">
                       {svc.name} in {areaData.name}
                     </h2>
-                    <p className="text-gray-600 leading-relaxed">{areaData.localDesc}</p>
-                    <p className="text-gray-600 leading-relaxed mt-4">
-                      {svc.bodyTemplate(areaData.name, areaData.roads)}
-                    </p>
+                    {(localCopy[slug]?.[area] ?? [areaData.localDesc, svc.bodyTemplate(areaData.name, areaData.roads)]).map((para, i) => (
+                      <p key={i} className={`text-gray-600 leading-relaxed${i > 0 ? " mt-4" : ""}`}>{para}</p>
+                    ))}
                   </div>
                 </AnimateOnScroll>
 
@@ -781,7 +623,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     <h4 className="font-bold text-gray-900 text-sm uppercase tracking-wider mb-5">Why Tri-Point</h4>
                     <div className="space-y-4">
                       {[
-                        ["4.9★ Google Rating", "Rated by real Macomb County homeowners"],
+                        [`${googleReviews.rating}★ Google Rating`, `From ${reviewCountLabel}`],
                         ["Fully Insured LLC", "Your property is protected on every job"],
                         ["Same-Day Response", "We respond to estimates within hours"],
                         ["Locally Owned", "Macomb County based — your neighbors"],

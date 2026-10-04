@@ -1,49 +1,16 @@
-"use client";
+import { featuredReviews } from "../lib/reviews";
+import { GBP_URL } from "../lib/business";
 
-import Link from "next/link";
-
-const reviews = [
-  {
-    name: "Mike D.",
-    initials: "MD",
-    rating: 5,
-    text: "Tri-Point has been maintaining our lawn in Washington Township for two seasons now. They show up on time every single week, edges are always sharp, and the property looks immaculate. Highly recommend to any homeowner in Macomb County.",
-    timeAgo: "3 days ago",
-    verified: true,
-  },
-  {
-    name: "Carrie L.",
-    initials: "CL",
-    rating: 5,
-    text: "We had them do a full spring cleanup and mulch install — the transformation was unbelievable. The crew was professional, courteous, and cleaned up everything before they left. Will 100% be using them again for fall cleanup.",
-    timeAgo: "1 week ago",
-    verified: true,
-  },
-  {
-    name: "Tom R.",
-    initials: "TR",
-    rating: 5,
-    text: "Got a quote within hours of submitting the form and they were out the following week. Snow removal service has been flawless all winter. My driveway is always cleared before I need to leave for work.",
-    timeAgo: "2 weeks ago",
-    verified: true,
-  },
-  {
-    name: "Sandra K.",
-    initials: "SK",
-    rating: 5,
-    text: "These guys did lawn aeration and overseeding for us in Shelby Township. My lawn was thin and patchy and now it looks like a golf course. Very knowledgeable, explained everything they were doing, and the price was fair.",
-    timeAgo: "3 weeks ago",
-    verified: true,
-  },
-  {
-    name: "James W.",
-    initials: "JW",
-    rating: 5,
-    text: "Best landscaping company in Macomb County, period. We've had three other companies before Tri-Point and nobody comes close. The attention to detail — edging, trimming around beds, cleanup after — is on another level.",
-    timeAgo: "1 month ago",
-    verified: true,
-  },
-];
+function initials(name: string) {
+  return name
+    .replace(/[^A-Za-z ]/g, "")
+    .split(" ")
+    .filter(Boolean)
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
 
 function GoogleLogo() {
   return (
@@ -79,9 +46,9 @@ export default function LiveReviewFeed() {
     <div>
       {/* Review grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-        {reviews.map((review) => (
+        {featuredReviews.map((review) => (
           <div
-            key={review.name}
+            key={review.author}
             className="bg-white p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-4"
             style={{ borderLeft: "3px solid #2C5F2E" }}
           >
@@ -92,32 +59,23 @@ export default function LiveReviewFeed() {
                 <div
                   className="w-10 h-10 flex items-center justify-center text-white text-sm font-bold shrink-0"
                   style={{ backgroundColor: "#2C5F2E" }}
+                  aria-hidden="true"
                 >
-                  {review.initials}
+                  {initials(review.author)}
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900 text-sm leading-tight">{review.name}</p>
-                  <div className="flex items-center gap-1.5 mt-0.5">
-                    {review.verified && (
-                      <span
-                        className="text-[10px] font-semibold uppercase tracking-wide px-1.5 py-0.5"
-                        style={{ backgroundColor: "#f0faf0", color: "#2C5F2E" }}
-                      >
-                        Verified
-                      </span>
-                    )}
-                    <span className="text-gray-400 text-xs">{review.timeAgo}</span>
-                  </div>
+                  <p className="font-semibold text-gray-900 text-sm leading-tight">{review.author}</p>
+                  <p className="text-gray-400 text-xs mt-0.5">{review.service}</p>
                 </div>
               </div>
               <GoogleLogo />
             </div>
 
             {/* Stars */}
-            <StarRating count={review.rating} />
+            <StarRating count={review.stars} />
 
             {/* Review text */}
-            <p className="text-gray-600 text-sm leading-relaxed flex-1">{review.text}</p>
+            <p className="text-gray-600 text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
           </div>
         ))}
       </div>
@@ -125,7 +83,7 @@ export default function LiveReviewFeed() {
       {/* CTA */}
       <div className="text-center">
         <a
-          href="https://www.google.com/search?q=Tri-Point+Landscaping+Washington+Township"
+          href={GBP_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 border-2 px-6 py-3 text-sm font-semibold transition-colors hover:bg-white/10"

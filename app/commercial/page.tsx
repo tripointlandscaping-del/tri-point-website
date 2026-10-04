@@ -3,41 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FaqAccordion from "../components/FaqAccordion";
+import { googleReviews } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Commercial Landscaping — Macomb County, MI | Tri-Point",
+  title: "Commercial Landscaping — Macomb County, MI",
   description:
     "Commercial landscaping & snow removal for HOAs and property managers in Macomb County, MI. Fully insured. Free estimates — call (586) 327-8080.",
-  keywords: [
-    "commercial landscaping Macomb County MI",
-    "commercial lawn maintenance Macomb County",
-    "HOA landscaping contractor Michigan",
-    "office park landscaping Macomb County",
-    "commercial snow removal Macomb County",
-    "property management landscaping Michigan",
-    "retail center landscaping near me",
-    "commercial grounds maintenance Washington Township",
-    "commercial landscaping company near me",
-    "commercial landscaping near me",
-    "commercial lawn care near me",
-    "grounds maintenance near me",
-    "HOA landscaping near me",
-    "commercial snow plowing near me",
-    "commercial landscaping macomb mi",
-    "HOA lawn care macomb county",
-    "commercial lawn mowing contract michigan",
-    "grounds maintenance contract macomb county",
-    "commercial landscaping company washington township",
-    "commercial landscaping",
-    "grounds maintenance",
-    "HOA landscaping",
-    "commercial snow removal",
-    "commercial lawn care",
-    "commercial lawn mowing",
-    "property maintenance macomb county mi",
-    "commercial property landscaping near me michigan",
-    "insured commercial landscaper macomb county",
-  ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/commercial",
   },
@@ -47,13 +19,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/commercial",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Commercial Landscaping Macomb County MI — Tri-Point Landscaping" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Commercial Landscaping Macomb County MI — Tri-Point Landscaping" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Commercial Landscaping Macomb County MI | Tri-Point Landscaping",
     description: "Professional commercial grounds maintenance for HOAs, offices, retail & more across Macomb County. Reliable, insured, locally owned.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -127,12 +99,33 @@ const whyUs = [
   { stat: "Fully Insured", desc: "General liability + workers' comp. Your property and business are protected." },
   { stat: "Local & Reliable", desc: "Washington Township based. We show up — same crew, same schedule, every time." },
   { stat: "Seasonal Contracts", desc: "One contract covers your full year — lawn season and snow season. No re-bidding." },
-  { stat: "4.9★ Google Rated", desc: "Every residential and commercial client gets the same obsessive attention to detail." },
+  { stat: `${googleReviews.rating}★ Google Rated`, desc: "Every residential and commercial client gets the same obsessive attention to detail." },
+];
+
+// Moved here from the former /services/commercial page, which now redirects to /commercial.
+const faqs = [
+  { q: "Do you service HOAs and property management companies?", a: "Yes. We work with HOAs, property management firms, and commercial property owners throughout Macomb County. We customize service packages to match your specific requirements, schedule, and budget." },
+  { q: "Can you provide formal service contracts and insurance documentation?", a: "Absolutely. We offer annual and seasonal service contracts with clearly defined scope of work, scheduling, and pricing. We provide proof of insurance and W-9 documentation on request." },
+  { q: "Do you offer commercial snow removal?", a: "Yes. Commercial snow removal is one of our core services. We plow lots, clear sidewalks, and apply salt and de-icing products to keep your property safe, accessible, and liability-managed." },
+  { q: "How quickly can you respond to commercial inquiries?", a: "We prioritize commercial inquiries and typically respond within a few hours. For larger properties, we schedule an on-site walk-through before providing a detailed proposal." },
+  { q: "Can you handle multiple properties for one management company?", a: "Yes. We work with property management companies managing multiple sites. We can coordinate service schedules across all properties and provide consolidated reporting." },
+  { q: "How much does commercial landscaping cost in Macomb County?", a: "Commercial landscaping pricing is customized to each property's size, service scope, and frequency. We don't quote commercial properties without walking them first — lot sizes, service requirements, and schedule needs vary too much for a generic price. Contact us for a free on-site walk-through and a detailed proposal tailored to your specific property." },
 ];
 
 export default function CommercialPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -154,11 +147,12 @@ export default function CommercialPage() {
         }}
       />
       <Navbar />
+      <main>
 
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-center" style={{ backgroundColor: "#0a0a0a" }}>
         <Image
-          src="/photos/1.png"
+          src="/photos/1.jpg"
           alt="Commercial landscaping in Macomb County Michigan by Tri-Point Landscaping"
           fill
           className="object-cover opacity-25"
@@ -288,6 +282,26 @@ export default function CommercialPage() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <section style={{ backgroundColor: "#f5f0e8" }} className="py-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] mb-3" style={{ color: "#2C5F2E" }}>
+              FAQ
+            </p>
+            <h2
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+              className="text-3xl sm:text-4xl font-bold text-gray-900"
+            >
+              Commercial Landscaping Questions
+            </h2>
+          </div>
+          <div className="bg-white p-8">
+            <FaqAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-white">
         <div className="max-w-3xl mx-auto px-6 text-center">
@@ -327,6 +341,7 @@ export default function CommercialPage() {
         </div>
       </section>
 
+      </main>
       <Footer />
     </>
   );

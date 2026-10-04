@@ -58,15 +58,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(p.date),
     }));
 
-  // 8 service pages
-  const servicePages = serviceSlugs.map((slug) => ({
+  // Service hub pages (/services/commercial redirects to /commercial, which is listed above)
+  const servicePages = serviceSlugs.filter((slug) => slug !== "commercial").map((slug) => ({
     url: `${BASE}/services/${slug}`,
     priority: 0.9,
     changeFrequency: "monthly" as const,
     lastModified: now,
   }));
 
-  // 6 area pages
+  // City pages
   const areaPages = areaSlugs.map((slug) => ({
     url: `${BASE}/service-areas/${slug}`,
     priority: 0.85,

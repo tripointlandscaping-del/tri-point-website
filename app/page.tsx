@@ -12,113 +12,33 @@ import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
 import { posts } from "./blog/posts";
+import { googleReviews, aggregateRatingSchema, reviewCountLabel } from "./lib/business";
 
 export const metadata: Metadata = {
-  title: "Lawn Care & Landscaping — Washington Township, MI | Tri-Point",
-  description:
-    "Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, snow removal & more. 4.9★ rated. Free estimates — (586) 327-8080.",
-  keywords: [
-    "landscaping Macomb County MI",
-    "landscaper Macomb County MI",
-    "landscaping company near me Macomb County",
-    "landscaper near me Macomb County",
-    "lawn care Washington Township Michigan",
-    "lawn care company Washington Township MI",
-    "lawn mowing service Washington Township",
-    "lawn mowing company Macomb County",
-    "grass cutting service Macomb County",
-    "snow removal Macomb County",
-    "snow removal company Macomb County MI",
-    "landscaping Shelby Township MI",
-    "landscaper Shelby Township MI",
-    "lawn maintenance Macomb County",
-    "mulch installation Macomb County",
-    "lawn aeration Macomb County MI",
-    "snow plowing Macomb County MI",
-    "fall cleanup Macomb County",
-    "spring cleanup Washington Township MI",
-    "commercial landscaping Macomb County",
-    "hardscaping Macomb County MI",
-    "patio installer Macomb County",
-    "landscaping Rochester Hills MI",
-    "landscaper Rochester Hills MI",
-    "lawn care Rochester Hills Michigan",
-    "landscaping Rochester MI",
-    "landscaping company Oakland County MI",
-    "lawn care near me Rochester Hills",
-    "Tri-Point Landscaping",
-    "lawn mowing company Macomb County",
-    "grass cutting company near me",
-    "yard cutting service Michigan",
-    "lawn care service near me",
-    "landscape contractor near me Macomb County",
-    "landscaping near me Washington Township",
-    "snow removal near me Macomb County",
-    "mulch installation near me Michigan",
-    "lawn aeration service Macomb County",
-    "hardscaping company near me Michigan",
-    "patio installation Macomb County MI",
-    "seasonal cleanup near me Michigan",
-    "commercial grounds maintenance Macomb County",
-    "landscaper in macomb mi",
-    "landscapers near me",
-    "landscaping near me",
-    "lawn care washington mi",
-    "landscaping macomb mi",
-    "lawn care macomb mi",
-    "landscaper washington mi",
-    "landscaping washington mi",
-    "lawn care",
-    "landscaping",
-    "lawn mowing",
-    "grass cutting",
-    "snow removal",
-    "leaf removal",
-    "mulch installation",
-    "lawn aeration",
-    "hardscaping",
-    "lawn service",
-    "landscaper",
-    "yard work",
-    "lawn mowing near me",
-    "snow plowing near me",
-    "lawn care near me",
-    "lawn guys near me",
-    "lawn guys macomb county",
-    "best landscaping company near me",
-    "lawn maintenance service near me",
-    "landscape company near me",
-    "lawn care 48094",
-    "landscaping 48094",
-    "snow removal 48094",
-    "lawn care 48315",
-    "landscaping 48315",
-    "lawn care 48042",
-    "michigan lawn care company",
-    "michigan landscaping company",
-  ],
+  title: "Lawn Care & Landscaping — Washington Township, MI | Tri-Point Landscaping",
+  description: `Washington Township's locally owned lawn care & landscaping company. Mowing, mulch, snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
   alternates: { canonical: "https://www.tripointlandscaping.com" },
   openGraph: {
     title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
-    description: "Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. 4.9★ rated. Free estimates — (586) 327-8080.",
+    description: `Macomb County's locally owned lawn care & landscaping company. Mowing, mulch, hardscaping, snow removal & more. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
     url: "https://www.tripointlandscaping.com",
     siteName: "Tri-Point Landscaping",
     locale: "en_US",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County Lawn Care & Landscaping" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County Lawn Care & Landscaping" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tri-Point Landscaping | Lawn Care & Landscaping — Macomb County, MI",
-    description: "Macomb County's locally owned lawn care & landscaping company. 4.9★ rated. Free estimates — (586) 327-8080.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    description: `Macomb County's locally owned lawn care & landscaping company. ${googleReviews.rating}★ on Google. Free estimates — (586) 327-8080.`,
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
 const marqueeItems = [
   "Lawn Maintenance", "Landscape Design", "Mulch & Stone", "Seasonal Cleanup",
   "Snow Removal & Ice Management", "Lawn Renovations", "Hardscaping", "Commercial Services", "Aeration & Overseeding",
-  "Free Estimates", "4.9★ Google Rated", "Macomb County, Michigan", "Fully Insured LLC",
+  "Free Estimates", `${googleReviews.rating}★ Google Rated`, "Macomb County, Michigan", "Fully Insured LLC",
 ];
 
 const serviceAreas = [
@@ -165,7 +85,7 @@ const homepageFaqSchema = {
       name: "Is Tri-Point Landscaping insured?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Tri-Point Landscaping LLC is fully insured with general liability coverage. We are a licensed Michigan LLC.",
+        text: "Yes. Tri-Point Landscaping LLC is a registered Michigan LLC, fully insured with general liability and workers' compensation coverage.",
       },
     },
     {
@@ -189,7 +109,7 @@ const homepageFaqSchema = {
       name: "How much does landscaping cost in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Landscaping costs in Macomb County vary by project size and service type. Weekly lawn maintenance typically ranges from $35–$65 per visit depending on property size. Mulch installation, seasonal cleanups, and landscape projects are quoted individually. All estimates are free — call (586) 327-8080 or request one online.",
+        text: "Landscaping costs in Macomb County vary by project size and service type. Lawn mowing typically runs $40–$100 per cut depending on property size. Mulch installation, seasonal cleanups, and landscape projects are quoted individually. All estimates are free — call (586) 327-8080 or request one online.",
       },
     },
     {
@@ -232,13 +152,7 @@ const homepageBusinessSchema = {
     postalCode: "48094",
     addressCountry: "US",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "15",
-    bestRating: "5",
-    worstRating: "1",
-  },
+  aggregateRating: aggregateRatingSchema,
   priceRange: "$$",
   areaServed: "Macomb County, Michigan",
 };
@@ -254,7 +168,7 @@ export default function HomePage() {
         {/* ═══ HERO — FULL VIEWPORT ═══ */}
         <section className="relative min-h-screen flex items-center overflow-hidden">
           <Image
-            src="/photos/weekly-mowing-shelby-township-mi.jpg.png"
+            src="/photos/weekly-mowing-shelby-township-mi.jpg"
             alt="Professional landscaping in Washington Township Michigan by Tri-Point Landscaping"
             fill
             className="object-cover scale-[1.06]"
@@ -267,7 +181,7 @@ export default function HomePage() {
           {/* Floating accent — top right */}
           <div className="absolute top-1/3 right-8 lg:right-20 hidden lg:flex flex-col items-center gap-6 float-badge">
             <div style={{ backgroundColor: "rgba(0,0,0,0.6)", borderColor: "rgba(255,255,255,0.12)" }} className="border backdrop-blur-md p-5 text-center">
-              <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold text-white">4.9</div>
+              <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-4xl font-bold text-white">{googleReviews.rating}</div>
               <div className="text-yellow-400 text-sm mt-1">★★★★★</div>
               <div className="text-white/50 text-[10px] uppercase tracking-widest mt-1">Google Rating</div>
             </div>
@@ -319,7 +233,7 @@ export default function HomePage() {
                     (586) 327-8080
                   </span>
                 </a>
-                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Available 24/7</p>
+                <p className="text-white/40 text-xs mt-1 ml-9 tracking-widest uppercase">Tap to call — Call or Text 24/7</p>
               </div>
             </div>
           </div>
@@ -328,7 +242,7 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 right-0 bg-black/75 backdrop-blur-md border-t border-white/8">
             <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating" },
+                { end: googleReviews.rating, suffix: "★", decimals: 1, label: "Google Rating" },
                 { end: 100, suffix: "%", decimals: 0, label: "Satisfaction Guaranteed" },
                 { end: 9, suffix: "+", decimals: 0, label: "Services Offered" },
                 { end: 8, suffix: "", decimals: 0, label: "Cities Served" },
@@ -350,7 +264,7 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs font-bold text-gray-700 uppercase tracking-widest">
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-                Licensed Michigan LLC
+                Registered Michigan LLC
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
@@ -358,7 +272,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-yellow-500">★</span>
-                4.9 Google Rating
+                {googleReviews.rating} Google Rating
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#2C5F2E" }} fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
@@ -375,7 +289,7 @@ export default function HomePage() {
                 className="flex items-center"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member" style={{ height: "48px", width: "auto" }} />
+                <img src="https://coc.codes/images/badge/2034252050" alt="Tri-Point Landscaping listed on ChamberofCommerce.com" style={{ height: "48px", width: "auto" }} />
               </a>
             </div>
           </div>
@@ -448,6 +362,7 @@ export default function HomePage() {
                       src={card.img}
                       alt={card.alt}
                       fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
                       className="showcase-card-img object-cover"
                     />
                     {/* Dark overlay */}
@@ -504,7 +419,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
               {[
                 {
-                  img: "/photos/1.png",
+                  img: "/photos/1.jpg",
                   alt: "Striped lawn maintenance in Macomb County Michigan by Tri-Point Landscaping",
                   service: "Lawn Maintenance",
                   headline: "Crisp edges. Perfect stripes. Every single week.",
@@ -526,7 +441,7 @@ export default function HomePage() {
                   className="showcase-card group relative overflow-hidden block"
                   style={{ height: "280px" }}
                 >
-                  <Image src={card.img} alt={card.alt} fill className="showcase-card-img object-cover" />
+                  <Image src={card.img} alt={card.alt} fill sizes="(min-width: 768px) 50vw, 100vw" className="showcase-card-img object-cover" />
                   <div className="showcase-card-overlay absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/10" />
                   <div className="absolute inset-0 flex items-end p-8 z-10">
                     <div>
@@ -586,8 +501,8 @@ export default function HomePage() {
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { label: "Fully Insured LLC", sub: "General liability on every job" },
-                    { label: "4.9★ Google Rating", sub: "15 five-star Google reviews" },
+                    { label: "Fully Insured LLC", sub: "General liability & workers' comp" },
+                    { label: `${googleReviews.rating}★ Google Rating`, sub: reviewCountLabel },
                     { label: "Same-Day Response", sub: "We don't let you wait" },
                     { label: "Free Estimates", sub: "No cost, no obligation" },
                   ].map(({ label, sub }) => (
@@ -712,7 +627,7 @@ export default function HomePage() {
               </AnimateOnScroll>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/5">
                 {[
-                  { end: 4.9, suffix: "★", decimals: 1, label: "Google Rating", sub: "Rated by real Macomb County homeowners" },
+                  { end: googleReviews.rating, suffix: "★", decimals: 1, label: "Google Rating", sub: `From ${reviewCountLabel}` },
                   { end: 100, suffix: "%", decimals: 0, label: "Satisfaction", sub: "Or we come back and make it right" },
                   { end: 8, suffix: "", decimals: 0, label: "Cities Served", sub: "Macomb County & Oakland County, MI" },
                   { end: 9, suffix: "", decimals: 0, label: "Services", sub: "Lawn care to hardscaping" },
@@ -753,11 +668,11 @@ export default function HomePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
               <AnimateOnScroll animation="fade-left" className="relative min-h-[580px] lg:min-h-0">
                 <div className="relative h-full min-h-[580px]">
-                  <Image src="/photos/IMG_4417.jpeg" alt="Tri-Point Landscaping crew at work in Washington Township Michigan" fill className="object-cover" />
+                  <Image src="/photos/IMG_4417.jpeg" alt="Tri-Point Landscaping crew at work in Washington Township Michigan" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
                   {/* Floating stat card */}
                   <div style={{ backgroundColor: "#2C5F2E" }} className="absolute bottom-10 left-10 right-10 p-6">
                     <div className="flex items-center justify-between text-white">
-                      {[["4.9★", "Google Rating"], ["100%", "Satisfaction"], ["Local", "& Insured"]].map(([val, sub]) => (
+                      {[[`${googleReviews.rating}★`, "Google Rating"], ["100%", "Satisfaction"], ["Local", "& Insured"]].map(([val, sub]) => (
                         <div key={val} className="text-center flex-1">
                           <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold">{val}</div>
                           <div className="text-xs text-green-200 mt-1">{sub}</div>
@@ -850,7 +765,7 @@ export default function HomePage() {
                 { src: "/photos/IMG_4417.jpeg", alt: "Custom landscape installation Macomb County", label: "Landscape Design", col: "" },
               ].map((p, i) => (
                 <AnimateOnScroll key={p.src} animation="scale-in" delay={i * 80} className={`relative overflow-hidden photo-hover-wrap group ${p.col}`}>
-                  <Image src={p.src} alt={p.alt} fill className="photo-hover-img object-cover" />
+                  <Image src={p.src} alt={p.alt} fill sizes="(min-width: 768px) 40vw, 50vw" className="photo-hover-img object-cover" />
                   <div className="photo-hover-overlay absolute inset-0 bg-black/65 flex items-end p-6">
                     <div>
                       <span style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-white font-bold text-xl">{p.label}</span>
@@ -877,9 +792,9 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center gap-4 shrink-0">
                     <div className="text-center">
-                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">4.9</div>
+                      <div style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">{googleReviews.rating}</div>
                       <div className="text-yellow-400 text-lg mt-1">★★★★★</div>
-                      <div className="text-white/40 text-xs uppercase tracking-widest mt-1">Google Rating</div>
+                      <div className="text-white/40 text-xs uppercase tracking-widest mt-1">{reviewCountLabel}</div>
                     </div>
                   </div>
                 </div>
@@ -989,7 +904,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:divide-x divide-gray-100">
               {[
-                { icon: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Fully Insured LLC", desc: "General liability on every job, every time." },
+                { icon: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Fully Insured LLC", desc: "Registered Michigan LLC. General liability & workers' comp." },
                 { icon: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>, title: "Locally Owned", desc: "Washington Township based. Real people, real accountability." },
                 { icon: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>, title: "Same-Day Response", desc: "We don't let you wait. Real response, same day, every time." },
                 { icon: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>, title: "Free Estimates", desc: "No cost. No obligation. Honest pricing, always." },

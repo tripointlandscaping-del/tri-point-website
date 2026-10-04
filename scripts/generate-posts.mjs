@@ -6,6 +6,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const POSTS_FILE = join(__dirname, "../app/blog/posts.ts");
 const QUEUE_FILE = join(__dirname, "topic-queue.json");
 
+// Review rating/count live in app/lib/business.ts — read them so this script stays in sync.
+const businessSource = readFileSync(join(__dirname, "../app/lib/business.ts"), "utf-8");
+const REVIEW_RATING = businessSource.match(/rating:\s*([\d.]+)/)[1];
+const REVIEW_COUNT = businessSource.match(/count:\s*(\d+)/)[1];
+
 // All allowed categories — must match exactly
 const ALLOWED_CATEGORIES = [
   "Lawn Care",
@@ -300,6 +305,14 @@ async function generatePosts() {
   const publishDate = today.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 
   const prompt = `You are a professional content writer for Tri-Point Landscaping, a highly-rated local landscaping company based in Washington Township, Macomb County, Michigan. Phone: (586) 327-8080. Website: tripointlandscaping.com.
+
+COMPANY FACTS — never contradict these or invent others:
+- Founded in April 2025. Never say or imply Tri-Point has been in business "for years", "for decades", or since any earlier date.
+- Registered Michigan LLC, fully insured (general liability and workers' comp). Never call the company "licensed".
+- Reviews: say "${REVIEW_COUNT} Google reviews" with a ${REVIEW_RATING} rating. Never say "five-star reviews".
+- Business hours 7am to 9pm daily; customers can call or text 24/7.
+- Lawn mowing costs $40–$100 per cut depending on property size. Don't quote other mowing prices.
+- Never mention the owner's name.
 
 Write ONE detailed, genuinely helpful blog post on this topic: "${topic}"
 

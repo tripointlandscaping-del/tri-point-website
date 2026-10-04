@@ -2,34 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { googleReviews, reviewCountLabel } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
+  title: "Fall Cleanup in Macomb County, MI",
   description:
     "Fall cleanup in Macomb County, MI. Leaf removal, bed cutback & winter prep for your yard. Locally owned & insured. Free estimates — book early.",
-  keywords: [
-    "fall cleanup Macomb County MI",
-    "fall yard cleanup Washington Township",
-    "leaf removal fall Macomb County",
-    "fall landscaping cleanup Michigan",
-    "fall cleanup near me Michigan",
-    "lawn cleanup Shelby Township fall",
-    "fall cleanup Rochester Hills MI",
-    "fall cleanup Oakland County MI",
-    "fall cleanup",
-    "fall cleanup near me",
-    "leaf removal near me",
-    "yard cleanup near me",
-    "fall yard cleanup",
-    "leaf pickup near me",
-    "fall cleanup 48094",
-    "fall cleanup 48315",
-    "fall cleanup cost michigan",
-    "best fall cleanup company michigan",
-    "fall cleanup price macomb county",
-    "fall leaf cleanup near me",
-    "fall property cleanup near me",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/fall-cleanup" },
   openGraph: {
     title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
@@ -37,13 +15,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/fall-cleanup",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Fall Cleanup Services — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Fall Cleanup Services — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fall Cleanup in Macomb County, MI | Tri-Point Landscaping",
     description: "Professional fall cleanup — leaf removal, bed cleanup, gutter clearing & winter prep. Booking now for Macomb County. Free estimates.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -185,7 +163,7 @@ export default function FallCleanupPage() {
             </div>
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
               <span className="text-yellow-400">★★★★★</span>
-              <span className="text-white/50">4.9 · 15 verified Google reviews</span>
+              <span className="text-white/50">{googleReviews.rating} · {reviewCountLabel}</span>
             </div>
           </div>
         </section>

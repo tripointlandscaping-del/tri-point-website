@@ -37,7 +37,7 @@ const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
     { name: "Landscaping", href: "/services/landscaping" },
   ],
   "Commercial": [
-    { name: "Commercial Landscaping", href: "/services/commercial" },
+    { name: "Commercial Landscaping", href: "/commercial" },
     { name: "Snow Removal", href: "/services/snow-removal" },
   ],
   "Tips": [
@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: post.description,
     alternates: { canonical: `https://www.tripointlandscaping.com/blog/${post.slug}` },
     openGraph: {
-      title: post.title,
+      title: `${post.title} | Tri-Point Landscaping`,
       description: post.description,
       url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
       siteName: "Tri-Point Landscaping",
@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       publishedTime: new Date(post.date).toISOString(),
       images: [
         {
-          url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+          url: "https://www.tripointlandscaping.com/og-image.jpg",
           width: 1200,
           height: 630,
           alt: post.title,
@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+      images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },
   };
 }
@@ -155,7 +155,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             description: post.description,
             datePublished: new Date(post.date).toISOString(),
             dateModified: new Date(post.date).toISOString(),
-            image: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg",
+            image: "https://www.tripointlandscaping.com/og-image.jpg",
             author: {
               "@type": "Organization",
               name: "Tri-Point Landscaping LLC",
@@ -175,16 +175,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               "@id": `https://www.tripointlandscaping.com/blog/${post.slug}`,
             },
             url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
-            keywords: [
-      post.title,
-      `${post.category} Macomb County MI`,
-      `${post.category} Washington Township Michigan`,
-      `${post.category} tips Michigan`,
-      "landscaping advice Macomb County",
-      "lawn care tips Michigan",
-      "Tri-Point Landscaping blog",
-      `${post.category} near me Michigan`,
-    ],
+            keywords: [post.category, "Macomb County, MI"],
             articleSection: post.category,
           }),
         }}

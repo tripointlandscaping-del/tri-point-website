@@ -13,35 +13,8 @@ function getPublishedPosts() {
 }
 
 export const metadata: Metadata = {
-  title: "Macomb County Lawn Care Tips & Landscaping Advice | Tri-Point",
+  title: "Lawn Care Tips & Landscaping Advice — Macomb County",
   description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
-  keywords: [
-    "lawn care tips Macomb County",
-    "landscaping advice Michigan",
-    "lawn maintenance guide",
-    "seasonal lawn care Michigan",
-    "Tri-Point Landscaping blog",
-    "lawn care tips Michigan",
-    "landscaping tips macomb county",
-    "when to aerate lawn Michigan",
-    "crabgrass prevention Michigan",
-    "spring lawn care checklist Michigan",
-    "fall lawn care tips Macomb County",
-    "snow removal tips Michigan",
-    "lawn renovation guide Michigan",
-    "hardscaping ideas Michigan",
-    "mulch installation guide Michigan",
-    "how to fix yellow grass Michigan",
-    "lawn care blog macomb county",
-    "landscaping company blog michigan",
-    "lawn care advice washington township mi",
-    "how to fix bare spots michigan",
-    "best grass seed michigan",
-    "when to overseed lawn michigan",
-    "lawn care near me tips",
-    "michigan yard care advice",
-    "lawn care cost macomb county guide",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/blog" },
   openGraph: {
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
@@ -49,13 +22,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/blog",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Blog — Macomb County Lawn Care Tips" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Blog — Macomb County Lawn Care Tips" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lawn Care Tips & Advice | Tri-Point Landscaping Blog",
     description: "Expert lawn care tips, seasonal advice, and landscaping guides for Macomb County homeowners. From spring cleanup to snow removal — we cover it all.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 

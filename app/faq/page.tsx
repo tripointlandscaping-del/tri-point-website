@@ -3,33 +3,12 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FaqAccordion from "../components/FaqAccordion";
+import { googleReviews } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
+  title: "Landscaping FAQ — Macomb County, MI",
   description:
     "Answers to common questions about landscaping, lawn care, snow removal & pricing in Macomb County, MI — from Washington Township's top-rated crew.",
-  keywords: [
-    "landscaping FAQ Macomb County",
-    "lawn care questions Michigan",
-    "how much does lawn care cost Macomb County",
-    "landscaping company near me Washington Township",
-    "Tri-Point Landscaping FAQ",
-    "spring cleanup FAQ Michigan",
-    "snow removal FAQ Macomb County",
-    "lawn maintenance questions Shelby Township",
-    "best landscaping company Macomb County",
-    "landscaping estimate Macomb County MI",
-    "why is my grass yellow Michigan",
-    "how to fix bare spots in lawn Michigan",
-    "best grass seed for Michigan",
-    "how to get rid of weeds in lawn Michigan",
-    "snow removal cost Macomb County",
-    "when to overseed lawn Michigan",
-    "muddy yard fix Michigan",
-    "overgrown lawn cleanup Macomb County",
-    "do I need a new lawn Michigan",
-    "lawn renovation vs repair Macomb County",
-  ],
   alternates: {
     canonical: "https://www.tripointlandscaping.com/faq",
   },
@@ -39,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/faq",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping FAQ — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping FAQ — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Landscaping FAQ | Tri-Point Landscaping — Macomb County, MI",
     description: "Answers to common questions about Tri-Point Landscaping's services, pricing, and service areas. Serving all of Macomb County, MI.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -68,7 +47,7 @@ const faqs = [
   },
   {
     q: "Are you insured?",
-    a: "Absolutely. Tri-Point Landscaping LLC is fully insured with general liability coverage. We're a licensed Michigan LLC, so you can have complete peace of mind that your property — and ours — is protected on every single visit.",
+    a: "Absolutely. Tri-Point Landscaping LLC is a registered Michigan LLC, fully insured with general liability and workers' comp coverage, so you can have complete peace of mind that your property — and ours — is protected on every single visit.",
   },
   {
     q: "Do you offer snow removal?",
@@ -88,7 +67,7 @@ const faqs = [
   },
   {
     q: "What makes Tri-Point different from other landscaping companies?",
-    a: "We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our 4.9★ Google rating from real Macomb County homeowners speaks for itself.",
+    a: `We're a locally owned and operated Macomb County company — not a franchise, not a national chain. Every job gets the same attention to detail whether it's a small residential lawn or a large commercial property. We communicate proactively, show up when we say we will, and genuinely care about how your property looks. Our ${googleReviews.rating}★ Google rating from real Macomb County homeowners speaks for itself.`,
   },
   {
     q: "What is the best time to aerate a lawn in Michigan?",
@@ -108,7 +87,7 @@ const faqs = [
   },
   {
     q: "Do you work on weekends?",
-    a: "Yes — our crews work Monday through Saturday. We're available 24/7 by phone or text at (586) 327-8080 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
+    a: "Yes — our crews work Monday through Saturday. Business hours are 7am to 9pm daily, and you can call or text (586) 327-8080 24/7 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
   },
   {
     q: "What's included in weekly lawn maintenance?",
@@ -309,7 +288,7 @@ export default function FaqPage() {
               Still Have Questions?
             </h2>
             <p className="text-white/50 mb-8 leading-relaxed">
-              Our team is available Monday–Saturday, 7 AM–9 PM. Call, text, or send us a message and we'll respond same day.
+              Business hours are 7am to 9pm daily, and you can call or text 24/7. Send us a message and we&apos;ll respond same day.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

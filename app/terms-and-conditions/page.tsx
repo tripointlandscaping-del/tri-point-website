@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Tri-Point Landscaping",
+  title: "Terms & Conditions",
   description:
     "Terms and Conditions for Tri-Point Landscaping LLC — Washington Township, Michigan. Service agreements, payment terms, cancellation policy, and more.",
   alternates: { canonical: "https://www.tripointlandscaping.com/terms-and-conditions" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/terms-and-conditions",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping — Macomb County, MI" }],
   },
 };
 
@@ -26,7 +26,7 @@ const sections = [
         heading: "",
         body: `THESE TERMS AND CONDITIONS OF SERVICE (hereinafter "Agreement") constitute a legally binding contract between Tri-Point Landscaping LLC, a Michigan limited liability company with its principal place of business in Washington Township, Macomb County, Michigan (hereinafter "Company," "we," "us," or "our"), and the individual, entity, or property owner engaging the Company for landscaping, lawn care, snow removal, outdoor lighting, pressure washing, or any ancillary property maintenance or improvement service (hereinafter "Client," "you," or "your").
 
-WHEREAS, the Company is duly organized and operating as a licensed landscape and property services company serving residential and commercial clients in Macomb County and surrounding areas in the State of Michigan; and
+WHEREAS, the Company is duly organized as a Michigan limited liability company and operating as a landscape and property services company serving residential and commercial clients in Macomb County and surrounding areas in the State of Michigan; and
 
 WHEREAS, the Client desires to engage the Company for professional property services on the terms and conditions set forth herein;
 

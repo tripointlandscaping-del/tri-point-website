@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { googleReviews } from "../../lib/business";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
@@ -12,8 +13,9 @@ BUSINESS FACTS:
 - Phone: (586) 327-8080
 - Email: tripointlandscaping@gmail.com
 - Website: https://www.tripointlandscaping.com
-- Google Rating: 4.9 stars out of 5 (10 reviews)
-- Fully insured with general liability coverage, licensed Michigan LLC
+- Google Rating: ${googleReviews.rating} stars out of 5 (${googleReviews.count} Google reviews)
+- Founded April 2025
+- Registered Michigan LLC, fully insured (general liability and workers' comp)
 - Locally owned — not a franchise or national chain
 
 SERVICES (with page links):
@@ -23,18 +25,18 @@ SERVICES (with page links):
 4. Seasonal Cleanup (/services/seasonal-cleanup) — Spring and fall leaf removal, bed cleanup, perennial cutback, haul away.
 5. Snow Removal & Ice Management (/services/snow-removal) — Plowing, sidewalk clearing, salting, de-icing. Seasonal contracts available.
 6. Lawn Renovations & Aeration (/services/lawn-renovations) — Core aeration, overseeding, dethatching, top dressing.
-7. Commercial Landscaping (/services/commercial) — HOAs, offices, retail centers, apartments. Priority scheduling, insurance docs provided.
+7. Commercial Landscaping (/commercial) — HOAs, offices, retail centers, apartments. Priority scheduling, insurance docs provided.
 
 SERVICE AREAS: Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township (Macomb County, MI), Rochester, and Rochester Hills (Oakland County, MI). We serve all 8 of these communities.
 
 PRICING:
 - All estimates are FREE with no obligation
-- Weekly mowing: typically $40–$80/visit for residential
+- Lawn mowing: $40–$100 per cut for residential, depending on property size
 - Spring/fall cleanups: varies by property size
 - Mulch installation: varies
 - Always tell customers to request a free estimate for accurate pricing
 
-HOURS: Crews work Monday–Saturday. The AI phone assistant answers 24/7. Customers can call or text (586) 327-8080 anytime.
+HOURS: Business hours are 7am to 9pm, 7 days a week. The AI phone assistant answers 24/7, so customers can call or text (586) 327-8080 anytime.
 
 BOOKING: Estimates typically followed up same day, often within the hour during business hours.
 

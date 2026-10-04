@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { googleReviews, GBP_URL, PHONE_DISPLAY, PHONE_TEL } from "../lib/business";
 
 export default function Footer() {
   return (
@@ -31,7 +32,7 @@ export default function Footer() {
             <div className="flex flex-wrap gap-3 mb-6">
               <div className="flex items-center gap-1.5 border border-white/10 px-3 py-1.5">
                 <span className="text-yellow-400 text-sm">★★★★★</span>
-                <span className="text-white/60 text-xs">Google 4.9</span>
+                <span className="text-white/60 text-xs">Google {googleReviews.rating}</span>
               </div>
               <div className="flex items-center gap-1.5 border border-white/10 px-3 py-1.5">
                 <svg className="w-3.5 h-3.5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
@@ -53,12 +54,12 @@ export default function Footer() {
                 href="https://www.chamberofcommerce.com/business-directory/michigan/washington/landscaper/2034252050-tri-point-landscaping?source=memberwebsite"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Tri-Point Landscaping — Chamber of Commerce Member"
+                aria-label="Tri-Point Landscaping on ChamberofCommerce.com"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://coc.codes/images/badge/2034252050"
-                  alt="Chamber of Commerce Member — Tri-Point Landscaping"
+                  alt="Tri-Point Landscaping listed on ChamberofCommerce.com"
                   style={{ height: "120px", width: "auto" }}
                 />
               </a>
@@ -81,7 +82,7 @@ export default function Footer() {
                   <path d="M20.16 12.594l-4.995 1.433c-.96.275-1.766-.8-1.216-1.665l2.88-4.614a1.15 1.15 0 011.916.064 8.7 8.7 0 011.485 4.343 1.15 1.15 0 01-.07.439zM12.64 9.032L11.1 4.094a1.15 1.15 0 00-.46-.6 8.7 8.7 0 00-4.5-.527 1.15 1.15 0 00-.822 1.61l2.338 4.81c.45.926 1.815.826 2.12-.155l.065-.2zM11.39 14.556l-1.932 4.82a1.15 1.15 0 00.408 1.38 8.7 8.7 0 004.303 1.11 1.15 1.15 0 00.955-1.7l-2.586-4.674c-.497-.896-1.827-.726-2.148.064zM8.31 13.13l-5.117.254a1.15 1.15 0 00-1.005.73 8.7 8.7 0 00.5 4.458 1.15 1.15 0 001.748.434l4.037-2.913c.776-.56.6-1.747-.29-2.07l-.873-.893zM8.52 11.348L4.922 8.04a1.15 1.15 0 00-1.81.357 8.7 8.7 0 00-.6 4.457 1.15 1.15 0 001.16.988l5.107-.502c.98-.096 1.264-1.37.43-1.92l-.689-.072z" />
                 </svg>
               </a>
-              <a href="https://www.google.com/search?q=Tri-Point+Landscaping+Washington+Township" target="_blank" rel="noopener noreferrer" aria-label="Tri-Point Landscaping on Google" className="w-9 h-9 border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:border-white/40 transition-all">
+              <a href={GBP_URL} target="_blank" rel="noopener noreferrer" aria-label="Tri-Point Landscaping on Google" className="w-9 h-9 border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:border-white/40 transition-all">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12.545 10.239v3.821h5.445c-.712 2.315-2.647 3.972-5.445 3.972a6.033 6.033 0 110-12.064c1.498 0 2.866.549 3.921 1.453l2.814-2.814A9.969 9.969 0 0012.545 2C7.021 2 2.543 6.477 2.543 12s4.478 10 10.002 10c8.396 0 10.249-7.85 9.426-11.748l-9.426-.013z" />
                 </svg>
@@ -141,7 +142,7 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <h3 className="text-xs font-bold text-white/40 uppercase tracking-[0.15em] mb-5">Get In Touch</h3>
             <div className="space-y-4 mb-7">
-              <a href="tel:+15863278080" className="flex items-center gap-3 group">
+              <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-3 group">
                 <div style={{ backgroundColor: "#2C5F2E" }} className="w-9 h-9 flex items-center justify-center shrink-0">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -149,7 +150,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-white/30 uppercase tracking-wider">Phone / Text</p>
-                  <p className="text-white font-semibold text-sm group-hover:text-green-300 transition-colors">(586) 327-8080</p>
+                  <p className="text-white font-semibold text-sm group-hover:text-green-300 transition-colors">{PHONE_DISPLAY}</p>
                 </div>
               </a>
               <a href="mailto:tripointlandscaping@gmail.com" className="flex items-center gap-3 group">
@@ -171,7 +172,8 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-white/30 uppercase tracking-wider">Hours</p>
-                  <p className="text-white/70 text-sm">24/7 — Call or Text Anytime</p>
+                  <p className="text-white/70 text-sm">Business hours 7am to 9pm daily.</p>
+                  <p className="text-white/70 text-sm">Call or text 24/7.</p>
                 </div>
               </div>
             </div>
@@ -184,6 +186,13 @@ export default function Footer() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
+            </Link>
+            <Link
+              href="/review"
+              className="mt-3 inline-flex items-center gap-2 border border-white/15 text-white/70 hover:text-white hover:border-white/40 px-6 py-3 font-semibold text-sm transition-colors w-full justify-center"
+            >
+              <span className="text-yellow-400">★</span>
+              Leave us a Google review
             </Link>
           </div>
         </div>
@@ -203,8 +212,8 @@ export default function Footer() {
             <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-gray-900 px-6 py-3 font-bold text-sm hover:bg-green-50 transition-colors">
               Get a Free Estimate →
             </Link>
-            <a href="tel:+15863278080" className="inline-flex items-center gap-2 border border-white/40 text-white px-6 py-3 font-semibold text-sm hover:bg-white/10 transition-colors">
-              (586) 327-8080
+            <a href={`tel:${PHONE_TEL}`} className="inline-flex items-center gap-2 border border-white/40 text-white px-6 py-3 font-semibold text-sm hover:bg-white/10 transition-colors">
+              {PHONE_DISPLAY}
             </a>
           </div>
         </div>

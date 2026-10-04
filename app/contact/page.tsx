@@ -4,35 +4,12 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import JobberForm from "../components/JobberForm";
 import ServiceAreaChecker from "../components/ServiceAreaChecker";
+import { googleReviews, reviewCountLabel, GBP_URL, GBP_REVIEW_URL, openingHoursSpecification } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "Free Estimate — Macomb County, MI | Tri-Point Landscaping",
+  title: "Free Estimate — Macomb County, MI",
   description:
     "Get a free estimate for lawn care, landscaping & snow removal in Macomb County, MI. Serving Washington Township, Shelby Township & more. Same-day response.",
-  keywords: [
-    "free landscaping estimate Macomb County MI",
-    "free lawn care estimate Washington Township MI",
-    "contact Tri-Point Landscaping",
-    "landscaping quote Macomb County",
-    "lawn mowing estimate near me Michigan",
-    "snow removal estimate Macomb County",
-    "free estimate Rochester Hills MI",
-    "free estimate Shelby Township MI",
-    "landscaping company contact Macomb County",
-    "lawn care near me free estimate Michigan",
-    "landscaping estimate near me",
-    "free lawn care quote near me",
-    "lawn care estimate near me",
-    "snow removal quote michigan",
-    "landscaping quote near me michigan",
-    "hardscaping estimate macomb county",
-    "patio estimate washington township mi",
-    "spring cleanup estimate macomb county",
-    "fall cleanup quote michigan",
-    "lawn care quote 48094",
-    "landscaping quote 48315",
-    "free estimate landscaper near me",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/contact" },
   openGraph: {
     title: "Free Estimate | Contact Tri-Point Landscaping",
@@ -41,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/contact",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Contact Tri-Point Landscaping — Free Estimates Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Contact Tri-Point Landscaping — Free Estimates Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Estimate — Macomb County, MI | Tri-Point Landscaping",
+    title: "Free Estimate — Macomb County, MI",
     description: "Get a free, no-obligation estimate from Macomb County's most trusted landscaping company. We respond same day.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -68,7 +45,7 @@ const trustPoints = [
       </svg>
     ),
     title: "Fully Insured",
-    desc: "Tri-Point Landscaping LLC carries full general liability. Your property is protected.",
+    desc: "Registered Michigan LLC carrying general liability and workers' comp. Your property is protected.",
   },
   {
     icon: (
@@ -119,12 +96,7 @@ export default function ContactPage() {
         postalCode: "48094",
         addressCountry: "US",
       },
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        opens: "00:00",
-        closes: "23:59",
-      },
+      openingHoursSpecification,
     },
   };
 
@@ -212,7 +184,8 @@ export default function ContactPage() {
                   <div className="flex-1">
                     <p className="text-xs text-white/40 uppercase tracking-wider mb-0.5">Business Hours</p>
                     <div className="flex flex-wrap gap-x-6 gap-y-1">
-                      <p className="font-bold text-white text-sm">24/7 — Call or Text Anytime</p>
+                      <p className="font-bold text-white text-sm">7am to 9pm daily</p>
+                      <p className="font-bold text-white text-sm">Call or Text 24/7</p>
                     </div>
                   </div>
                 </div>
@@ -239,13 +212,13 @@ export default function ContactPage() {
                   </h3>
                   <div className="space-y-2 text-sm">
                     {[
-                      ["Monday", "24/7 — Call or Text"],
-                      ["Tuesday", "24/7 — Call or Text"],
-                      ["Wednesday", "24/7 — Call or Text"],
-                      ["Thursday", "24/7 — Call or Text"],
-                      ["Friday", "24/7 — Call or Text"],
-                      ["Saturday", "24/7 — Call or Text"],
-                      ["Sunday", "24/7 — Call or Text"],
+                      ["Monday", "7am – 9pm"],
+                      ["Tuesday", "7am – 9pm"],
+                      ["Wednesday", "7am – 9pm"],
+                      ["Thursday", "7am – 9pm"],
+                      ["Friday", "7am – 9pm"],
+                      ["Saturday", "7am – 9pm"],
+                      ["Sunday", "7am – 9pm"],
                     ].map(([day, hours]) => (
                       <div key={day} className="flex justify-between items-center py-1.5 border-b border-gray-50 last:border-0">
                         <span className="text-gray-500">{day}</span>
@@ -253,6 +226,9 @@ export default function ContactPage() {
                       </div>
                     ))}
                   </div>
+                  <p className="text-xs text-gray-500 mt-4 leading-relaxed">
+                    Call or text <a href="tel:+15863278080" className="font-semibold text-green-700 hover:underline">(586) 327-8080</a> 24/7.
+                  </p>
                 </div>
 
                 {/* Service areas */}
@@ -300,9 +276,9 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member — Tri-Point Landscaping" style={{ height: "120px", width: "auto" }} />
+                    <img src="https://coc.codes/images/badge/2034252050" alt="Tri-Point Landscaping listed on ChamberofCommerce.com" style={{ height: "120px", width: "auto" }} />
                   </a>
-                  <p className="text-xs text-gray-400 mt-3 font-semibold uppercase tracking-widest">Verified Member</p>
+                  <p className="text-xs text-gray-400 mt-3 font-semibold uppercase tracking-widest">Listed on ChamberofCommerce.com</p>
                 </div>
 
                 {/* Rating card */}
@@ -312,11 +288,11 @@ export default function ContactPage() {
                     style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
                     className="text-2xl font-bold mb-1"
                   >
-                    4.9 on Google
+                    {googleReviews.rating} on Google
                   </p>
-                  <p className="text-green-200 text-sm mb-5">Rated by real Macomb County homeowners</p>
+                  <p className="text-green-200 text-sm mb-5">From {reviewCountLabel}</p>
                   <a
-                    href="https://www.google.com/search?q=Tri-Point+Landscaping+Washington+Township"
+                    href={GBP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs font-bold text-white border border-white/30 px-4 py-2 hover:bg-white/10 transition-colors"
@@ -440,7 +416,7 @@ export default function ContactPage() {
                 <svg className="w-4 h-4 shrink-0" style={{ color: "#7ecb82" }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                24/7 — Call or Text Anytime
+                7am–9pm daily · Call or Text 24/7
               </span>
             </div>
           </div>
@@ -457,7 +433,7 @@ export default function ContactPage() {
               A quick Google review helps other Macomb County homeowners find a crew they can trust — and it means the world to a small, local business like ours.
             </p>
             <a
-              href="https://g.page/r/CTWE7P6lheWxEBM/review"
+              href={GBP_REVIEW_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{ backgroundColor: "#2C5F2E" }}

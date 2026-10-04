@@ -3,23 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { googleReviews, aggregateRatingSchema, reviewCountLabel, FOUNDING_DATE, GBP_URL } from "../lib/business";
 
 export const metadata: Metadata = {
-  title: "About Tri-Point Landscaping | Macomb County, MI",
-  description:
-    "Tri-Point Landscaping — locally owned, fully insured landscaping in Washington Township & Macomb County, MI. 4.9★ rated. Free estimates.",
-  keywords: [
-    "landscaper in macomb mi",
-    "landscapers near me",
-    "landscaping near me",
-    "landscaping macomb mi",
-    "lawn care macomb mi",
-    "lawn care washington mi",
-    "local landscaping company Macomb County MI",
-    "about Tri-Point Landscaping",
-    "Macomb County landscaping company",
-    "insured landscaper near me Michigan",
-  ],
+  title: "About Us — Macomb County, MI",
+  description: `Tri-Point Landscaping — locally owned, fully insured landscaping in Washington Township & Macomb County, MI. ${googleReviews.rating}★ on Google. Free estimates.`,
   alternates: {
     canonical: "https://www.tripointlandscaping.com/about",
   },
@@ -30,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/about",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "About Tri-Point Landscaping — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "About Tri-Point Landscaping — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Tri-Point Landscaping | Macomb County, MI",
     description: "Meet the team behind Macomb County's top-rated landscaping company. Locally owned, fully insured, and committed to excellence on every property.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -73,7 +61,7 @@ const whyLocal = [
   },
   {
     title: "Fully Insured LLC",
-    desc: "Tri-Point Landscaping is a fully licensed and insured LLC. Every job, every crew member, every visit — you're completely covered.",
+    desc: "Tri-Point Landscaping is a registered Michigan LLC, fully insured with general liability and workers' comp. Every job, every crew member, every visit — you're covered.",
   },
   {
     title: "Consistent Crews",
@@ -86,21 +74,21 @@ const whyLocal = [
 ];
 
 const timeline = [
-  { year: "Day One", title: "Started with a mower and a promise", desc: "Tri-Point was founded right here in northern Macomb County with one mission: deliver better landscaping than anyone else in the area. We started small, but the standard was always high." },
-  { year: "Year Two", title: "Expanded to year-round service", desc: "Added snow removal and seasonal cleanups to serve our clients through Michigan's full four seasons. Same crew. Same quality. Just more ways to help." },
-  { year: "Now", title: "Macomb County's trusted name", desc: "8 services, 8 cities, 15 five-star Google reviews, and a 4.9 rating. We've grown by word of mouth — neighbor to neighbor, property to property — and we're just getting started." },
+  { year: "April 2025", title: "Tri-Point gets started", desc: "Tri-Point Landscaping LLC was formed in April 2025, right here in northern Macomb County, with one mission: do the work right, show up when we say we will, and treat every property like our own." },
+  { year: "Year-Round", title: "Service through every season", desc: "Snow removal and seasonal cleanups mean our clients are covered through all four Michigan seasons. Same crew. Same standard." },
+  { year: "Today", title: "Growing by word of mouth", desc: `8 services, 8 communities, and ${reviewCountLabel} with a ${googleReviews.rating} rating. We're a young company growing neighbor to neighbor, property to property.` },
 ];
 
 const quickFacts = [
   { label: "Business Name", value: "Tri-Point Landscaping LLC" },
   { label: "Type", value: "Locally owned & operated landscaping company" },
-  { label: "Founded", value: "2020" },
+  { label: "Founded", value: "April 2025" },
   { label: "Location", value: "Washington Township, Macomb County, MI" },
   { label: "Service Area", value: "Washington Township, Shelby Township, Macomb Township, Romeo, Ray Township, Bruce Township, Rochester & Rochester Hills" },
   { label: "Phone", value: "(586) 327-8080" },
   { label: "Email", value: "tripointlandscaping@gmail.com" },
-  { label: "Google Rating", value: "4.9 ★ · 15 verified Google reviews" },
-  { label: "Insurance", value: "Fully insured LLC — general liability coverage" },
+  { label: "Google Rating", value: `${googleReviews.rating} ★ · ${reviewCountLabel}` },
+  { label: "Insurance", value: "Registered Michigan LLC, fully insured — general liability & workers' comp" },
   { label: "Services", value: "Lawn mowing, landscaping, hardscaping, mulch & stone, seasonal cleanup, snow removal, lawn aeration & overseeding, commercial landscaping" },
   { label: "Free Estimates", value: "Yes — free, no-obligation estimates for all services" },
 ];
@@ -122,8 +110,8 @@ export default function AboutPage() {
     url: "https://www.tripointlandscaping.com/about",
     telephone: "+15863278080",
     email: "tripointlandscaping@gmail.com",
-    foundingDate: "2020",
-    description: "Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company based in Washington Township, Macomb County, Michigan. We provide lawn mowing, grass cutting, lawn care, landscape design, mulch installation, seasonal cleanup, snow plowing, and lawn aeration & overseeding services throughout Macomb County and Oakland County, MI. We hold a 4.9-star Google rating and offer free estimates to all residential and commercial customers.",
+    foundingDate: FOUNDING_DATE,
+    description: `Tri-Point Landscaping LLC is a locally owned and fully insured landscaping company based in Washington Township, Macomb County, Michigan. We provide lawn mowing, grass cutting, lawn care, landscape design, mulch installation, seasonal cleanup, snow plowing, and lawn aeration & overseeding services throughout Macomb County and Oakland County, MI. We hold a ${googleReviews.rating}-star Google rating and offer free estimates to all residential and commercial customers.`,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Washington Township",
@@ -141,15 +129,9 @@ export default function AboutPage() {
       { "@type": "City", name: "Rochester, MI" },
       { "@type": "City", name: "Rochester Hills, MI" },
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "15",
-      bestRating: "5",
-      worstRating: "1",
-    },
-    hasCredential: "Fully insured LLC — general liability coverage",
-    sameAs: ["https://g.page/r/CTWE7P6lheWxEBM"],
+    aggregateRating: aggregateRatingSchema,
+    hasCredential: "Registered Michigan LLC, fully insured — general liability and workers' compensation",
+    sameAs: [GBP_URL],
   };
 
   return (
@@ -261,16 +243,16 @@ export default function AboutPage() {
               {/* Image grid */}
               <div className="grid grid-cols-2 gap-3">
                 <div className="relative h-44 sm:h-56 overflow-hidden">
-                  <Image src="/photos/mulch.jpg" alt="Mulch installation in Washington Township Michigan by Tri-Point Landscaping" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/mulch.jpg" alt="Mulch installation in Washington Township Michigan by Tri-Point Landscaping" fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="relative h-44 sm:h-56 overflow-hidden md:mt-6">
-                  <Image src="/photos/IMG_4417.jpeg" alt="Custom landscaping in Macomb County Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/IMG_4417.jpeg" alt="Custom landscaping in Macomb County Michigan" fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="relative h-44 sm:h-56 overflow-hidden">
-                  <Image src="/photos/lawn-stripe-hero.jpeg" alt="Perfectly striped lawn mowing in Macomb County Michigan by Tri-Point Landscaping" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/lawn-stripe-hero.jpeg" alt="Perfectly striped lawn mowing in Macomb County Michigan by Tri-Point Landscaping" fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="relative h-44 sm:h-56 overflow-hidden md:mt-6">
-                  <Image src="/photos/lawn-mow-1.jpeg" alt="Professional lawn maintenance along arborvitae hedge in Washington Township Michigan" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                  <Image src="/photos/lawn-mow-1.jpeg" alt="Professional lawn maintenance along arborvitae hedge in Washington Township Michigan" fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>
             </div>
@@ -394,12 +376,12 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-center justify-center gap-10">
               <div className="text-center">
                 <div className="text-yellow-400 text-2xl mb-1">★★★★★</div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">4.9 Google Rating</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">{googleReviews.rating} Google Rating</p>
               </div>
               <div className="w-px h-12 bg-gray-200 hidden sm:block" />
               <div className="text-center">
                 <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-2xl font-bold text-gray-900">Fully Insured</p>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Licensed Michigan LLC</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Registered Michigan LLC</p>
               </div>
               <div className="w-px h-12 bg-gray-200 hidden sm:block" />
               <a
@@ -408,7 +390,7 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://coc.codes/images/badge/2034252050" alt="Chamber of Commerce Member — Tri-Point Landscaping" style={{ height: "100px", width: "auto" }} />
+                <img src="https://coc.codes/images/badge/2034252050" alt="Tri-Point Landscaping listed on ChamberofCommerce.com" style={{ height: "100px", width: "auto" }} />
               </a>
               <div className="w-px h-12 bg-gray-200 hidden sm:block" />
               <div className="text-center">
@@ -424,7 +406,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
               {[
-                { value: "4.9★", label: "Google Rating" },
+                { value: `${googleReviews.rating}★`, label: "Google Rating" },
                 { value: "8", label: "Cities Served" },
                 { value: "8", label: "Services Offered" },
                 { value: "100%", label: "Insured & Local" },

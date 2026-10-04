@@ -5,21 +5,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Project Gallery | Tri-Point Landscaping | Macomb County, MI",
+  title: "Project Gallery — Macomb County, MI",
   description:
     "Browse real photos of landscaping, lawn care, mulch installation, snow removal and more from Tri-Point Landscaping in Washington Township, Macomb County, MI.",
-  keywords: [
-    "landscaping photos Macomb County MI",
-    "lawn care gallery Washington Township",
-    "landscaping before and after Michigan",
-    "mulch installation photos Macomb County",
-    "hardscaping patio photos Michigan",
-    "lawn mowing photos Shelby Township",
-    "snow removal gallery Macomb County",
-    "landscaping project photos Rochester Hills",
-    "Tri-Point Landscaping gallery",
-    "lawn care results Michigan",
-  ],
   alternates: { canonical: "https://www.tripointlandscaping.com/gallery" },
   openGraph: {
     title: "Project Gallery | Tri-Point Landscaping",
@@ -27,13 +15,13 @@ export const metadata: Metadata = {
     url: "https://www.tripointlandscaping.com/gallery",
     siteName: "Tri-Point Landscaping",
     type: "website",
-    images: [{ url: "https://www.tripointlandscaping.com/photos/bills-google2.jpeg", width: 1200, height: 630, alt: "Tri-Point Landscaping Project Gallery — Macomb County, MI" }],
+    images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: "Tri-Point Landscaping Project Gallery — Macomb County, MI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Project Gallery | Tri-Point Landscaping | Macomb County, MI",
     description: "Real work. Real results. Browse our project photos from across Macomb County, MI.",
-    images: ["https://www.tripointlandscaping.com/photos/bills-google2.jpeg"],
+    images: ["https://www.tripointlandscaping.com/og-image.jpg"],
   },
 };
 
@@ -135,7 +123,7 @@ const photos = [
     label: "Residential Lawn Mowing — Macomb County",
   },
   {
-    src: "/photos/1.png",
+    src: "/photos/1.jpg",
     alt: "Perfectly striped lawn mowing service in Washington Township Michigan by Tri-Point Landscaping",
     category: "Lawn Care",
     label: "Lawn Striping — Washington Township",
