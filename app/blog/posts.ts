@@ -8915,5 +8915,67 @@ Learn more about [commercial snow removal](/services/snow-removal), or see our l
 
 **Get ahead of the ice this winter.** [Request a snow contract quote](/contact#request-form) or call [(586) 327-8080](tel:+15863278080). We'll walk your property, note the problem spots, and put a written plan in place.
     `,
+  }
+,
+  {
+    slug: "landscape-fabric-prevent-weeds-michigan",
+    title: "Does Landscape Fabric Really Prevent Weeds in Michigan? A Local Truth",
+    description: "Learn if landscape fabric actually stops weeds in Macomb County's climate. Real advice on installation, alternatives, and what works best.",
+    date: "October 6, 2026",
+    category: "Mulch & Stone",
+    readTime: "5 min read",
+    content: `
+## The Short Answer: It Works, But Not Alone
+
+Landscape fabric does prevent weeds, but only if you install it correctly and pair it with the right maintenance. Here in Macomb County, where our clay-heavy soil and Michigan's wet springs create perfect conditions for weed growth, fabric is one tool in your arsenal, not your entire solution. The mistake most homeowners make is laying down fabric, adding mulch, and expecting zero weeds for years. That's not how it works in Michigan's climate.
+
+## Why Fabric Works (And Why It Fails)
+
+**Landscape fabric blocks light** from reaching weed seeds in the soil below. No light means those seeds don't germinate. The material also creates a physical barrier between soil and the surface, preventing airborne seeds from making direct contact with moist dirt where they'd sprout.
+
+But here's where Michigan's climate works against you: our springs bring heavy rain and melting snow from March through May. That moisture, combined with decomposing organic matter, creates a rich layer of soil and mulch *on top* of your fabric. Windblown seeds land in that upper layer, where they have everything they need to germinate and grow right through the fabric.
+
+Washington Township gets about 32 inches of rain annually. That's enough moisture to break down cheaper landscape fabric within 2-3 years. UV damage from intense summer sun, combined with foot traffic and weathering, tears small holes that weeds exploit immediately.
+
+## The Right Fabric for Michigan
+
+Not all landscape fabric is created equal:
+
+- **Polypropylene fabric (standard)**: Lasts 3-5 years in Michigan. Affordable but requires replacement. Cost-effective for seasonal beds.
+- **Woven geotextile**: More durable (5-7 years). Better drainage, less likely to tear. Better choice for Macomb County's clay soil, which retains water anyway.
+- **Landscape cloth with bitumen coating**: Lasts longest but restricts water flow. Only use in specific situations (not general plantings).
+- **Avoid**: Plastic sheeting. Traps water, kills beneficial soil organisms, rots in Michigan's wet conditions.
+
+**Install it correctly**: Overlap seams by 6-12 inches. Fabric ends are where weeds invade. Pin it down with landscape staples every 3-4 feet so wind and foot traffic don't shift it. In Michigan's spring winds, proper anchoring makes a real difference.
+
+## Installation Timing in Michigan
+
+Spring (April-May) seems logical, but it's actually the worst time. That's when Michigan soil is wettest and most active with weed seeds. Install fabric in **late fall (October-November)** or **early summer (late June-July)** when soil is drier and you can work more efficiently. If you install in spring, wait until at least mid-May when the serious wet weather passes.
+
+## What Actually Stops Weeds: The Mulch Layer
+
+Fabric alone stops 60-70% of weeds. **The mulch on top stops the remaining 30-40%**. Use 3-4 inches of quality wood chips or shredded hardwood mulch. Don't use dyed mulch in Macomb County beds until mid-June, as early-season mulch can trap frost and damage newly planted perennials.
+
+Add fresh mulch every year in spring. This does two things: it buries new seeds that landed on top of your fabric, and it replaces mulch that's decomposed into soil. That decomposed layer is exactly where new weeds grow, so annual mulch maintenance is non-negotiable in Michigan.
+
+## Better Alternatives to Consider
+
+If fabric and mulch feel like too much work:
+
+- **Hardscaping (pavers, stone)**: Permanent but expensive. Suits focal areas.
+- **Dense plantings**: Plant shrubs and perennials close together (12-18 inches instead of 24). They shade out weeds naturally. Works great for Washington Township shade gardens.
+- **Cardboard under mulch**: Cheaper than fabric, biodegrades in 1-2 years, and improves soil. Refresh annually.
+- **Professional maintenance**: Regular hand-weeding or maintenance visits catch small problems before they spread.
+
+## The Real Michigan Reality
+
+Landscape fabric is worth using in Macomb County, but manage your expectations. You'll still see weeds. The fabric reduces them significantly, especially if you add new mulch each spring. Expect to hand-pull weeds that work through seams or establish from seeds that land on top. In Michigan's climate, no weed barrier is completely passive.
+
+## Ready to Get It Right?
+
+Landscape fabric installation sounds simple until you're wrestling with seams and staples in the mud. If you're planning new beds this fall in Washington Township or anywhere in Macomb County, now's the perfect time to do it right from the start.
+
+Tri-Point Landscaping handles fabric installation, mulch application, and ongoing maintenance. We know what works in Michigan soil and have the experience to avoid common mistakes. **[Contact Tri-Point Landscaping](/contact) today for a free estimate**, or call [(586) 327-8080](tel:+15863278080) to discuss your project. You can also text us 24/7. The fall window is closing, and spring maintenance season arrives fast.
+    `,
   },
 ];
