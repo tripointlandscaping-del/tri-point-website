@@ -8977,5 +8977,78 @@ Landscape fabric installation sounds simple until you're wrestling with seams an
 
 Tri-Point Landscaping handles fabric installation, mulch application, and ongoing maintenance. We know what works in Michigan soil and have the experience to avoid common mistakes. **[Contact Tri-Point Landscaping](/contact) today for a free estimate**, or call [(586) 327-8080](tel:+15863278080) to discuss your project. You can also text us 24/7. The fall window is closing, and spring maintenance season arrives fast.
     `,
+  }
+,
+  {
+    slug: "mulch-installation-cost-macomb-county-2026",
+    title: "Mulch Installation Cost in Macomb County, Michigan: 2026 Pricing Guide",
+    description: "Real mulch installation costs for Macomb County properties in 2026. Learn what affects pricing and how to budget for your landscaping project.",
+    date: "October 8, 2026",
+    category: "Mulch & Stone",
+    readTime: "6 min read",
+    content: `
+## Mulch Installation Cost in Macomb County, Michigan: 2026 Pricing Guide
+
+If you're planning a landscaping refresh around Washington Township or anywhere in Macomb County, mulch installation is one of the smartest investments you can make. It protects plant roots, keeps Michigan's clay-heavy soil from drying out too quickly, and makes your beds look finished. But what actually costs money, and how do you avoid overpaying?
+
+## What Determines Your Mulch Installation Price
+
+**Mulch installation isn't just spreading wood chips.** The real cost depends on five concrete factors:
+
+**1. Material Type and Quality**
+You've got options. Standard hardwood mulch runs cheaper than premium cedar or cypress. In Macomb County's clay-based soil, colored mulch holds its appearance longer through our wet springs and dry summers, but costs more upfront. Black mulch absorbs heat (good for spring growth, risky during 95-degree July days). Natural brown mulch blends better with established landscapes and won't fade as noticeably.
+
+**2. Depth of Installation**
+Professionals recommend 2-3 inches of mulch for most Macomb County beds. Too shallow and weeds push through by mid-summer; too deep and you risk root rot in our moisture-prone clay soils. Going from 2 inches to 3 inches doesn't sound like much, but it increases material volume by 50% and thus your total cost.
+
+**3. Square Footage of Bed Space**
+This is straightforward math: measure your planting beds in square feet. A 100-square-foot bed needs roughly 6 cubic yards of mulch at 3 inches deep. A 500-square-foot project needs 30 cubic yards. Larger projects usually cost less per square foot because hauling and spreading labor gets distributed across more area.
+
+**4. Site Accessibility**
+Mulch trucks are heavy. If your Washington Township property has narrow gates, long driveways, or requires multiple hand-carries to reach side beds, you'll pay more. Easy access to flat, open ground keeps costs down.
+
+**5. Bed Preparation Work**
+Removal of old, compacted mulch, weeding, or edging before installation adds labor. Some companies bundle this; others charge separately. Get clarity on what's included in the estimate.
+
+## Current Macomb County Market Rates (2026)
+
+**Expect to pay between $75 and $200 per cubic yard installed** in Macomb County, depending on the factors above. A typical residential bed project (200-400 square feet at 3 inches) usually runs $600 to $1,500 total.
+
+Here's why the spread is wide:
+
+- **Premium materials plus prep work** at 3 inches depth: upper end ($150–$200 per yard)
+- **Basic hardwood mulch, minimal prep** at 2 inches depth: lower end ($75–$100 per yard)
+- **Mid-range colored or cedar mulch** with light edge work: middle range ($110–$140 per yard)
+
+These are installation prices. Material alone costs less, but most Macomb County homeowners hire professionals because spreading mulch correctly takes time and a truck to haul it.
+
+## Seasonal Timing Matters in Michigan
+
+**Spring (April–May) is peak pricing season** in Macomb County. Everyone's thinking about their landscape. Fall (September–October) is actually the smarter time to install mulch because:
+
+- Contractors have more availability and may offer better rates
+- Your beds stay insulated through winter
+- Spring weeds have less chance to establish
+- You're not competing with lawn care and new plantings for labor
+
+If you wait until June or July, expect longer wait times and potentially higher pricing.
+
+## What to Ask Before You Commit
+
+When you get a quote from a local landscaper:
+
+- **Is this the installed price or material only?** Non-negotiable detail.
+- **Does it include bed prep and edging?** Or are those add-ons?
+- **What type of mulch is included?** Don't assume all hardwood is the same quality.
+- **Will they remove old mulch first?** Compacted old mulch under new mulch traps moisture and invites rot.
+- **How deep will they install it?** Push back if it's less than 2 inches.
+- **Do they guarantee the work?** Reputable companies stand behind uneven application or settling.
+
+## Ready to Get Your Mulch Installation Done Right
+
+Mulch installation is one of those projects that looks easy but requires proper technique and the right equipment to do well. Getting it wrong wastes money because you'll end up re-doing it in two years. Getting it right in fall 2026 means your Macomb County beds will look polished and your plants will be protected through winter.
+
+Tri-Point Landscaping handles mulch installation for residential and commercial properties throughout Washington Township and Macomb County. We can visit your property, measure your beds accurately, and give you a free estimate based on the exact materials and depth that makes sense for your landscape. Call us at [(586) 327-8080](tel:+15863278080) or text us anytime, or [contact Tri-Point Landscaping](/contact) to schedule your free site visit. Fall is the ideal window to get this done before the heavy rains arrive.
+    `,
   },
 ];
