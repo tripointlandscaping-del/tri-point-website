@@ -9050,5 +9050,73 @@ Mulch installation is one of those projects that looks easy but requires proper 
 
 Tri-Point Landscaping handles mulch installation for residential and commercial properties throughout Washington Township and Macomb County. We can visit your property, measure your beds accurately, and give you a free estimate based on the exact materials and depth that makes sense for your landscape. Call us at [(586) 327-8080](tel:+15863278080) or text us anytime, or [contact Tri-Point Landscaping](/contact) to schedule your free site visit. Fall is the ideal window to get this done before the heavy rains arrive.
     `,
+  }
+,
+  {
+    slug: "commercial-snow-removal-hoas-shelby-township-winter-planning-guide",
+    title: "Commercial Snow Removal for HOAs in Shelby Township: A Board's Winter Planning Guide",
+    description: "Learn how HOA boards in Shelby Township can plan snow removal, timing, budgeting, and contractor selection for winter success in Macomb County.",
+    date: "October 13, 2026",
+    category: "Commercial",
+    readTime: "7 min read",
+    content: `
+If you're on an HOA board in Shelby Township, you already know that winter snow removal isn't optional, it's a liability issue. Your residents expect clear driveways, walkways, and parking lots by morning. The question isn't whether you need snow removal, it's whether you've planned for it properly. Here's what you need to know to make it happen.
+
+## When Snow Season Actually Starts in Macomb County
+
+Most HOA boards wait until November to think about snow removal. That's too late. In Macomb County, our first heavy snow typically arrives between late October and early November, sometimes even catching unprepared properties off guard. The average winter brings 40 to 50 inches of snow to the Shelby Township area, spread unevenly across the season. Some years you get three major events; other years, twelve.
+
+Start your planning now, in early fall. Contact contractors in September or early October when they still have availability. By November, the best commercial snow removal companies are booked solid. **You need a contract signed before October ends.**
+
+## Understanding What Your Board Should Budget For
+
+Snow removal for HOAs in Shelby Township involves three distinct services, and your budget should account for each:
+
+**Per-Event Removal**: You pay for each snow event, typically charged by the inch of accumulation or by application. This works well if you get light winters. Most Macomb County HOAs spend $500 to $3,000 per event depending on property size.
+
+**Seasonal Contract**: You pay a flat fee from December through March, and the contractor handles unlimited events. This protects you if the weather is harsh and shields your budget from surprise costs.
+
+**Salt and De-icing**: This is separate from plowing. Your parking lots, walkways, and common areas need salt treatment after snow falls to prevent ice formation. Budget this separately and discuss it with your contractor upfront.
+
+Ask your contractor for a breakdown of costs, not just a single number. Know what triggers a service call (is it 1 inch, 2 inches?) and what's included.
+
+## The Timeline: What to Do When
+
+**Now (September-October)**: Get competitive quotes from at least three commercial snow removal contractors. Ask for references from other Macomb County HOAs and call them. Ask specific questions: How many trucks do they run? What's their response time? Do they handle salt separately?
+
+**By October 15th**: Sign your contract. Do not wait. A signed contract by mid-October guarantees your spot on the contractor's schedule.
+
+**Early November**: Schedule a walk-through with your contractor. Show them which areas are priority, where salt storage will go, which residents need extra attention (elderly properties, buildings with outdoor stairs), and where underground utilities are located.
+
+**Before December 1st**: Communicate with residents. Send an email explaining the snow removal plan, what time driveways will be cleared, and what residents should do before a storm (park on one side of the lot, move decorations, etc.).
+
+**December through March**: Monitor weather forecasts. Call your contractor the evening before a storm is predicted to confirm they're mobilizing crews.
+
+## Common Planning Mistakes HOAs Make
+
+**Assuming one contractor can handle everything**: Snow removal and salt are often separate contracts. Don't assume your plow contractor also does de-icing. Confirm in writing.
+
+**Not clarifying property boundaries**: Your contractor needs to know exactly what areas they're responsible for. Are they plowing just the common lot or all driveways? Are they clearing sidewalks? Put it in the contract.
+
+**Underestimating salt needs**: Shelby Township gets sleet and ice just as often as powder snow. Budget for multiple salt applications, not just one.
+
+**Forgetting about liability**: Your HOA is responsible if someone slips on untreated ice. Discuss insurance requirements with your contractor and your HOA's insurance agent.
+
+## Why You Need a Commercial Contractor
+
+Residential snow removal services won't work for HOAs. You need a **commercial contractor** who handles parking lots, large common areas, and knows the liability requirements for managed properties. They'll have the equipment, insurance, and experience to protect your HOA from liability.
+
+When you call a contractor, tell them upfront that you need commercial snow removal for an HOA in Shelby Township. They'll know immediately whether they can handle your needs.
+
+## Your Next Step: Get a Contractor Locked In
+
+Winter planning doesn't happen in December. It happens now. If you haven't already contacted a commercial snow removal contractor, the next few weeks are critical. You're looking for someone who understands Macomb County winters, has commercial-grade equipment, and can respond quickly.
+
+Tri-Point Landscaping handles commercial snow removal for HOAs, property managers, and retail properties throughout Washington Township and Macomb County. We know the local weather patterns, we respond fast, and we handle everything from plowing to salt application.
+
+Call us at [(586) 327-8080](tel:+15863278080) today to schedule a free estimate and discuss your HOA's specific needs. We're available 7am to 9pm daily, and you can call or text anytime. Don't wait until November to realize you don't have coverage. Let's make sure your Shelby Township HOA is ready for winter.
+
+[Contact Tri-Point Landscaping](/contact) now and get your winter plan in place.
+    `,
   },
 ];
