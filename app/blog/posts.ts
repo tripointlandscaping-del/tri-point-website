@@ -9192,5 +9192,67 @@ Spring and early summer is prime mulch application time in Michigan. Fresh mulch
 
 Tri-Point Landscaping handles mulch installation across Macomb County and can help you choose the right color for your specific property, soil type, and design goals. [Contact Tri-Point Landscaping](/contact) today at [(586) 327-8080](tel:+15863278080) to schedule a free estimate. You can call or text 24/7, and we'll send someone out to assess your landscaping needs. Our team knows Washington Township soil conditions and can recommend mulch depths and colors that work for your plants and climate.
     `,
+  }
+,
+  {
+    slug: "industrial-warehouse-snow-plowing-macomb-county",
+    title: "Industrial & Warehouse Snow Plowing in Macomb County: Docks, Trucks & Shift Changes",
+    description: "Learn how to keep industrial lots clear during Michigan winters. Tri-Point handles dock access, truck staging, and 24/7 shift changes in Macomb County.",
+    date: "October 20, 2026",
+    category: "Commercial",
+    readTime: "4 min read",
+    content: `
+## Why Industrial Snow Plowing Isn't Like Your Driveway
+
+When snow hits an industrial or warehouse lot in Macomb County, you're not just clearing a surface. You're managing dock access so delivery trucks don't back up into your loading area, maintaining truck staging zones for overnight parking, and keeping maintenance of traffic flowing during shift changes when 50 or 100 employees are arriving and leaving simultaneously. That's a completely different animal from residential plowing.
+
+Michigan clay-heavy soils common to Washington Township can freeze solid by early December, and once they do, compacted snow on your lot doesn't melt like it does on asphalt alone. Your lot holds that packed ice longer, which means slips, liability exposure, and frustrated drivers trying to navigate around immobilized vehicles.
+
+## Dock and Loading Area Priorities
+
+**Your dock is your revenue stream.** When snow blocks dock doors or piles up around truck aprons, deliveries stop. Here's what matters:
+
+- Dock doors need clear 10-foot approaches on both sides. Accumulated snow forces drivers to make awkward backing maneuvers that tie up your lot and create accident risk.
+- Push snow away from dock edges entirely, not to the side where it can slide back during warm spells (common in Macomb County's variable February and March weather).
+- Salt or sand dock areas immediately after clearing, even if the rest of the lot can wait. Dock surfaces stay shadier and freeze faster than open pavement.
+- Never pile snow directly behind dock doors where melt-off runs back under truck trailers.
+
+## Truck Staging and Overnight Parking
+
+Many industrial operations have overnight truck staging zones where trailers park during shift changes or between deliveries. Here's the reality:
+
+**Snow accumulation on staging areas costs money.** You lose parking spots. Drivers waste time searching for clear spaces. Compacted snow forces tighter parking, which increases side-mirror collisions and backing incidents.
+
+The fix: Clear staging zones first, widen them if possible, and maintain them hourly during active snowfall. In Macomb County, a typical heavy snow day (4 to 6 inches, which we see most years between December and March) can eat up 15 to 20 percent of your available lot in just 3 to 4 hours if you don't stay ahead of it.
+
+Push snow to designated berms away from traffic flows. Make sure berms don't obstruct sightlines to dock doors, fire lanes, or property edges.
+
+## Managing Shift Changes and Traffic Flow
+
+This is where most industrial lots fail. Your lot might look fine at 7am, but by 3pm when a shift change pushes 80 people to their vehicles simultaneously, any remaining snow or slush becomes a bottleneck.
+
+Here's what works:
+
+- **Maintain drive lanes continuously during snow events.** Don't wait until the snow stops. Continuous clearing keeps your lot passable even during active snowfall.
+- Clear employee parking areas and fire lanes side by side. Fire codes require clear access, and insurance companies inspect these after accidents.
+- Watch for wind drifting. If your lot is open and flat (typical for industrial properties in Washington Township), wind can reaccumulate snow in parking areas and travel lanes within hours of clearing.
+- Use salt strategically. Over-salting damages concrete and vehicle undercarriages, but under-salting creates hazardous conditions. The sweet spot is salting your main drive lanes and parking areas, then spot-treating problem zones like loading aprons and steep grades.
+
+## Timing and Coordination
+
+The biggest mistake industrial lot managers make: they call the plow service after the snow stops. By then, your lot is already packed down, multiple shifts have walked over and driven through it, and clearing takes three times longer.
+
+**Contact your plow service the moment snow starts.** In Macomb County, winter weather can escalate quickly from flurries to 4 inches in two to three hours, especially near Lake St. Clair where lake-effect snow is real.
+
+If you operate 24/7, you need a plowing company that answers calls at 2am and 11pm. Your night shift doesn't clock out because it snowed.
+
+## Get Your Lot Ready for Winter Now
+
+You don't want to scramble when December snow arrives. Tri-Point Landscaping handles commercial snow removal for industrial lots, warehouses, office parks, and retail plazas throughout Macomb County and Washington Township. We understand dock operations, truck staging, and the liability of shift changes on snow-covered pavement.
+
+We're available 7am to 9pm daily and answer calls and texts 24/7, which means your lot gets cleared on your schedule, not ours. Our team knows Macomb County winters, and we know how to keep your facility moving.
+
+**The time to arrange snow plowing is now, before your first heavy snow hits.** Get a free estimate on your industrial lot from Tri-Point Landscaping. Call [(586) 327-8080](tel:+15863278080) or [contact us online](/contact) today. We'll walk your property, identify your specific needs around docks and staging areas, and make sure your lot stays clear all winter.
+    `,
   },
 ];
