@@ -9468,5 +9468,78 @@ We're available **7am to 9pm daily** and you can [contact Tri-Point Landscaping]
 
 Don't wait until next October wondering if it's too late. Start planning now, and your lawn will thank you.
     `,
+  }
+,
+  {
+    slug: "grow-grass-shaded-areas-michigan-yard",
+    title: "How to Grow Grass in Shaded Areas of Your Michigan Yard",
+    description: "Practical guide to growing healthy grass in shade. Shade-tolerant seed varieties, soil tips, and care strategies for Macomb County yards.",
+    date: "November 3, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## The Shade Problem in Michigan Yards
+
+If you're looking out at bare patches under your maple trees or thin, weak grass along the north side of your house, you're seeing one of the most common lawn challenges in Macomb County and Washington Township. Michigan's mature tree canopy is beautiful, but it creates real problems for turf grass. Most popular lawn grasses need 4 to 6 hours of direct sunlight daily, and shade reduces that drastically.
+
+The good news: you can grow healthy grass in shaded areas. It takes the right seed selection, soil adjustment, and care habits tailored to Michigan's climate.
+
+## Choose Shade-Tolerant Grass Varieties for Michigan
+
+Not all grass species tolerate shade equally. In Michigan, where cool-season grasses dominate, your best options are:
+
+**Fine fescues** (creeping red, chewings, and hard fescue) are your MVP for shade. They handle low light far better than Kentucky bluegrass and perennial ryegrass. Fine fescues grow well in Macomb County's clay and sandy loam soils and can handle the stress of competing tree root systems.
+
+**Tall fescue** works in moderate shade if you blend it with fine fescues. It's tougher and more traffic-tolerant, but less shade-tolerant on its own.
+
+**Avoid these in shade:**
+- Perennial ryegrass (needs 5+ hours of sun)
+- Kentucky bluegrass alone (prefers full sun)
+- Bermuda grass (a warm-season grass that won't survive Michigan winters in shade)
+
+When you buy seed, look for a blend labeled "shade mix" from a quality supplier. Seed from big-box stores often contains too much ryegrass and not enough fine fescue. Talk to your local garden center about Michigan-specific shade blends.
+
+## Fix Your Soil Before Planting
+
+Shaded soil in Michigan yards tends to stay wet longer and develop poor drainage because evaporation is limited. This creates compaction and thatch buildup.
+
+**Here's what to do:**
+
+1. **Test your soil pH.** Michigan soils are often slightly acidic (pH 6.0 to 6.8). Fine fescues prefer pH 6.0 to 7.0, so you're usually in range, but a test confirms it. Contact Michigan State University Extension for affordable soil testing.
+
+2. **Loosen compacted soil.** Use a dethatcher or core aerator to break up the top 2 to 3 inches. Do this in early spring (late March through April in Macomb County) or fall (September through October). This step alone transforms shaded areas.
+
+3. **Add organic matter.** Work 1 to 2 inches of compost into the top 4 inches of soil. This improves drainage, feeds the soil, and helps fine fescue roots establish faster. Use finished compost, not raw material.
+
+4. **Reduce competition.** Shade under trees means tree roots are pulling moisture and nutrients. You can't remove tree roots, but you can adjust watering and feeding to compensate (more on this below).
+
+## Watering and Feeding in Shaded Areas
+
+Shaded grass needs less water than sunny grass because evaporation is slower. This is crucial in Michigan springs when overwatering leads to fungal problems like brown patch and dollar spot.
+
+**Water deeply but less often.** Instead of light daily watering, water shaded areas once or twice weekly with 0.5 to 0.75 inches per watering (measured with a rain gauge). Water early morning, never at night, to reduce mold and mildew. Adjust based on rainfall: if Macomb County gets 0.5 inches of rain in a week, skip that watering.
+
+**Feed less frequently.** Shaded grass grows more slowly than sunny grass, so it needs less nitrogen. Apply a low-nitrogen fertilizer (something like 10-10-10 or 12-4-8) once in spring and once in early fall. Avoid high-nitrogen spring applications in shade; they encourage weak, disease-prone growth. Never fertilize in summer in Michigan's heat and humidity.
+
+## Mowing and Ongoing Care
+
+Raise your mower blade height for shaded areas. Set it to 2.5 to 3.5 inches instead of the typical 2 to 2.5 inches for sun. Taller grass in shade captures more light energy and develops deeper roots. Taller turf also shades the soil, keeping it cooler and reducing water loss.
+
+Mow only when the grass is dry (morning is ideal) and never remove more than one-third of the blade in a single cut. Shaded grass is already stressed; aggressive mowing weakens it further.
+
+In fall (September through November in Washington Township), remove fallen leaves promptly. Leaves trap moisture and block light, inviting disease. A light leaf blower or mulching mower handles this quickly.
+
+## When to Reseed Shaded Areas
+
+The best time to overseed shaded areas in Michigan is late August through September. Soil is still warm (around 65 to 75 degrees Fahrenheit), moisture is more reliable than spring, and seedlings have time to establish before winter. Spring reseeding (April to May) works too, but watch closely for moisture and disease.
+
+## Get Your Shaded Lawn on Track
+
+Transforming bare or thin shaded spots takes one season to show real results, but the payoff is a full, healthy lawn without patchy dead zones. The key is starting now with the right seed, soil prep, and watering strategy tailored to Macomb County's conditions.
+
+If your shaded areas feel overwhelming or you're not sure where to start, Tri-Point Landscaping can assess your property and recommend a plan. We handle everything from soil testing and aeration to overseeding with shade-tolerant varieties. Fall is the ideal time to get this work done before winter, so your new grass has time to establish strong roots through spring.
+
+**[Contact Tri-Point Landscaping](/contact) for a free estimate today. Call or text [(586) 327-8080](tel:+15863278080) anytime, 24/7. We're open 7am to 9pm daily and serve Washington Township and all of Macomb County.**
+    `,
   },
 ];
