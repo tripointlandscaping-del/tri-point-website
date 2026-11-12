@@ -9687,5 +9687,61 @@ Tri-Point Landscaping provides commercial snow removal services for medical offi
 
 **Call or text [(586) 327-8080](tel:+15863278080) today to schedule your free estimate.** Early November is the ideal time to finalize your winter plan. We'll assess your property, discuss your specific needs as a medical facility, and establish protocols that keep your patients and staff safe all season long. Don't wait until the first heavy snow hits Rochester Hills.
     `,
+  }
+,
+  {
+    slug: "aeration-overseeding-cost-macomb-county-2026",
+    title: "Aeration and Overseeding Cost in Macomb County: 2026 Pricing Guide",
+    description: "Real pricing for aeration and overseeding in Macomb County, Michigan. Learn costs, timing, and why fall is the best season for lawn renovation.",
+    date: "November 12, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## Why Your Macomb County Lawn Needs Aeration and Overseeding Right Now
+
+If your grass looks thin, patchy, or feels spongy underfoot, your soil is compacted. Macomb County's clay-heavy soil gets packed down fast, especially after Michigan winters and spring thaw cycles. Aeration punches holes into that compacted earth, and overseeding fills those holes with new grass seed. Together, they transform a struggling lawn into a thick, healthy stand of turf.
+
+The best time to do this work in Michigan is fall, roughly mid-September through mid-October. Soil is still warm enough for seeds to germinate, but cooler temperatures reduce heat stress on new seedlings. Winter moisture helps establish roots before spring growth kicks in.
+
+## What Aeration and Overseeding Actually Costs in Macomb County
+
+Pricing varies based on your property size, soil condition, and the seed quality you choose. Here's what homeowners in Washington Township and surrounding areas typically see:
+
+**Aeration alone**: $300 to $800 for residential properties (roughly 5,000 to 15,000 square feet). Contractors charge per thousand square feet, usually $0.05 to $0.08 per sq ft.
+
+**Overseeding alone**: $200 to $500 for the same property size. This includes seed, tackifier (sticky coating that helps seed stay put), and labor.
+
+**Aeration plus overseeding combo**: $500 to $1,200 for full-service packages. Bundling these services saves money compared to doing them separately.
+
+Small urban lots in Warren or St. Clair Shores might run $300 to $600 total. Larger suburban properties in Washington Township could reach $1,000 to $1,500. The difference comes down to square footage, soil quality, and seed type.
+
+**Premium seed blends** (shade-tolerant fescues, disease-resistant varieties) cost more than basic Kentucky bluegrass mixes. If your lawn has heavy shade or sits in a drainage-prone spot, paying extra for specialty seed is worth it in Michigan's humid climate.
+
+## Breaking Down the Process and Hidden Costs to Know About
+
+Understanding what contractors actually do helps you spot fair pricing:
+
+**Soil testing** ($50 to $150): Many professionals recommend this first. It tells you if your soil pH is off, if you need lime, and what nutrient levels look like. Macomb County soils often run slightly acidic due to glacial deposits, and adding lime ($100 to $300) before seeding improves germination rates.
+
+**Aeration equipment rental vs. professional service**: If you rent a walk-behind aerator from a hardware store, expect $75 to $100 for a day. You'll spend 4 to 6 hours on a typical lot and won't reach the compaction depth a professional machine does. Hiring it done costs more upfront but delivers better results.
+
+**Overseed timing matters**: Seeding must happen within 48 hours after aeration while soil is still loose. If your contractor doesn't offer same-day or next-day overseeding, soil begins to re-compact and seed won't make good contact.
+
+**Follow-up watering**: New seed needs consistent moisture for 3 to 4 weeks. If you're on well water and can't hand-water frequently, budget for temporary irrigation setup ($200 to $500).
+
+## The Real ROI: Why Fall Aeration Saves Money Long-Term
+
+A one-time $700 investment in aeration and overseeding now prevents expensive sod replacement ($2 to $4 per square foot) in two years. Thick, healthy turf also crowds out weeds, reducing herbicide costs. In Macomb County's climate, fall-treated lawns green up faster in spring and handle summer heat stress better.
+
+Don't overseed in spring. Macomb County spring soil is wet and cold through April, seeds rot before they germinate, and summer heat stresses young seedlings. Fall is simply the right window for Michigan.
+
+## Get Your Free Aeration and Overseeding Estimate Today
+
+Now is exactly when to schedule this work. Late fall in Macomb County is ideal timing, and contractors book up fast as homeowners realize their lawns won't recover on their own. Tri-Point Landscaping offers free estimates for aeration and overseeding. No guessing, no pressure, just honest pricing based on your property.
+
+Call [**(586) 327-8080**](tel:+15863278080) or text anytime. Available 7am to 9pm daily, plus 24/7 contact options. We serve Washington Township and all of Macomb County.
+
+Don't wait until spring and blame winter. Your lawn's best chance starts this fall. [Contact Tri-Point Landscaping](/contact) for your free estimate.
+    `,
   },
 ];
