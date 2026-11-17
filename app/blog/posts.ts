@@ -9743,5 +9743,75 @@ Call [**(586) 327-8080**](tel:+15863278080) or text anytime. Available 7am to 9p
 
 Don't wait until spring and blame winter. Your lawn's best chance starts this fall. [Contact Tri-Point Landscaping](/contact) for your free estimate.
     `,
+  }
+,
+  {
+    slug: "prepare-lawn-overseeding-fall-michigan",
+    title: "How to Prepare Your Lawn for Overseeding This Fall in Michigan",
+    description: "Expert guide to overseeding your Macomb County lawn in fall. Learn timing, soil prep, and techniques for a thicker lawn next spring.",
+    date: "November 17, 2026",
+    category: "Lawn Renovations",
+    readTime: "7 min read",
+    content: `
+## Why Fall Overseeding Works Best in Michigan
+
+If your lawn looks thin, patchy, or tired by mid-summer, fall overseeding is your best shot at a thick, healthy lawn next spring. Here's why: **Michigan's cool-season grasses thrive when soil temperatures drop to 60-70 degrees Fahrenheit, which happens reliably in late August through September in Macomb County.** Grass seed germinates faster in cool soil, establishes strong roots before winter dormancy, and faces less competition from weeds than spring seeding does. Summer annuals are dying back, so your new seedlings won't get choked out.
+
+The window for overseeding in Washington Township and the broader Michigan region runs from mid-August through mid-October, with **late August to early September being ideal.** Wait too long past mid-October and your seed won't have enough time to establish before frost.
+
+## Test and Amend Your Soil First
+
+You can't overseed your way out of a soil problem. Before you buy a single seed, **get a soil test done through Michigan State University Extension.** It costs about $30 and tells you exactly what's missing: nitrogen, phosphorus, potassium, pH level, and organic matter content. Macomb County soils tend to be clay-heavy with a pH around 7.0 to 7.5, which is workable but often needs organic matter to improve drainage and microbial activity.
+
+Based on your test results:
+- **If your pH is above 7.5**, apply sulfur to lower it slightly. Grass prefers 6.0 to 7.0.
+- **If organic matter is below 3 percent**, work in 1 to 2 inches of quality compost. This loosens clay, feeds soil biology, and helps seed contact soil during germination.
+- **If phosphorus and potassium are low**, use a balanced fertilizer like 10-10-10 or 5-10-10 about two weeks before seeding.
+
+Do this in mid to late August so amendments have time to integrate before you seed.
+
+## Mow Low and Dethatch Aggressively
+
+Your existing grass is competing for space. **Mow your lawn to 1.5 to 2 inches, then rake hard or use a dethatcher to remove dead grass buildup (thatch) down to bare soil in thin or bare spots.** You want seed to make direct contact with soil, not sit on a mat of dead grass. Thatch thicker than half an inch blocks moisture and seed germination.
+
+If you have more than 50 percent thatch coverage, consider renting a power dethatcher. For smaller properties in Washington Township, hand raking combined with a stiff-tined rake works well. Aggressive raking looks harsh, but it's essential. Your lawn will look rough for a few days, then explode with new growth.
+
+## Choose the Right Seed for Macomb County Conditions
+
+**Buy seed blends specifically labeled for Michigan or the Upper Midwest, not generic "grass seed."** Your lawn needs cool-season varieties: perennial ryegrass, tall fescue, and fine fescues. These handle Michigan winters and thrive in our climate.
+
+Read the seed label:
+- **Germination rate should be 90 percent or higher.**
+- **Look for "certified" seed**, which is free from weed seeds and pure.
+- **Blend percentages matter:** For typical Macomb County residential lawns, aim for 40 percent perennial ryegrass, 30 percent tall fescue, and 30 percent fine fescue. This gives you density, drought tolerance, and shade capability.
+
+Skip discount bin seed. Cheap seed often contains weed seeds, low-quality cultivars, and poor germination rates. You'll spend more fixing it later.
+
+## Overseed and Water Correctly
+
+Spreading seed is straightforward but timing and moisture are critical.
+
+**Seeding steps:**
+1. Use a broadcast or drop spreader to apply seed at the rate listed on the bag (typically 4 to 6 pounds per 1,000 square feet).
+2. Walk in one direction, then perpendicular, so you get even coverage.
+3. Lightly rake the seed so it nestles into soil without being buried deeper than 0.25 inches.
+4. Apply a thin layer of compost or straw mulch to hold moisture and protect seed.
+
+**Watering is make or break.** Seed needs to stay moist (not waterlogged) for 10 to 14 days while it germinates. Water lightly twice daily, early morning and late afternoon, in mid to late August when temperatures are still warm. Once grass is 1 inch tall, reduce to once daily. After 3 to 4 weeks, taper to once or twice weekly depending on rainfall.
+
+In Macomb County, we average 2 to 3 inches of rain per month in September, so monitor soil moisture rather than sticking to a rigid schedule. Stick your finger 1 inch into the soil; it should feel like a damp sponge, not soggy.
+
+## Don't Mow New Seedlings Yet
+
+One final mistake: mowing too soon. **Wait until new grass reaches 3 to 4 inches tall, then mow to 2 to 2.5 inches.** This usually takes 4 to 6 weeks, landing you in late September or early October. Mowing too early rips seedlings out by the roots.
+
+If you're overseeding a large property or don't want to manage moisture schedules yourself, **Tri-Point Landscaping can handle the entire process, from soil testing and dethaching through final mowing.** We know Macomb County soils and Michigan's growing seasons, and we'll ensure your timing and technique are right the first time.
+
+## Get Your Fall Overseeding Started Now
+
+If you're in Washington Township or anywhere in Macomb County, **late August and early September are here, and the overseeding window closes by mid-October.** Don't miss the best season to thicken up your lawn.
+
+Call or text [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) for a **free estimate and consultation on overseeding or any lawn care needs.** We're available 7am to 9pm daily, and you can reach us 24/7 by phone or text. We'll assess your lawn, recommend soil testing, and get the job done right so you have a lush, dense lawn by next spring.
+    `,
   },
 ];
