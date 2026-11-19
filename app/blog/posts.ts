@@ -9813,5 +9813,65 @@ If you're in Washington Township or anywhere in Macomb County, **late August and
 
 Call or text [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) for a **free estimate and consultation on overseeding or any lawn care needs.** We're available 7am to 9pm daily, and you can reach us 24/7 by phone or text. We'll assess your lawn, recommend soil testing, and get the job done right so you have a lush, dense lawn by next spring.
     `,
+  }
+,
+  {
+    slug: "thatch-buildup-michigan-lawns-causes-fixes",
+    title: "What Causes Thatch Buildup in Michigan Lawns and How to Fix It",
+    description: "Learn why thatch builds up in Macomb County lawns and proven methods to remove it. Expert tips for a healthier yard.",
+    date: "November 19, 2026",
+    category: "Lawn Renovations",
+    readTime: "5 min read",
+    content: `
+## Understanding Thatch: Why Your Michigan Lawn Is Choking Itself
+
+If you've walked across your lawn in Washington Township and felt a spongy, bouncy surface underfoot, you're stepping on thatch. It's a layer of dead grass stems, roots, and organic debris that sits between the green grass above and the soil below. A thin layer is normal and even protective, but when thatch exceeds half an inch thick, it becomes a real problem.
+
+Thatch is especially common in Macomb County because our **clay-heavy soil** and humid summers create perfect conditions for rapid grass growth. The more vigorous your lawn grows, the more dead material accumulates. If you've been mowing regularly without removing clippings or aerating, thatch is probably building up right now.
+
+## Why Michigan's Climate Accelerates Thatch Buildup
+
+Michigan's cool-season grasses (like Kentucky bluegrass and perennial ryegrass) grow aggressively in spring and fall, then slow during summer heat. This growth pattern means constant dead material being added to your lawn. Here's what happens:
+
+**Cool springs (40-60°F):** Grass explodes with growth. More shoots mean more eventual thatch.
+
+**Humid summers:** Our moisture-rich air slows decomposition. Dead grass doesn't break down as quickly as it would in drier climates.
+
+**Heavy clay soil common around Washington Township:** This dense soil compacts easily and drains poorly, trapping moisture that feeds fungal activity and prevents organic matter from breaking down efficiently.
+
+The result? Thatch thickens by roughly 1/8 inch per year in neglected lawns. After three to four years, you've got a serious problem.
+
+## How to Diagnose and Measure Thatch Right Now
+
+Don't guess whether you have a thatch problem. Test it this way:
+
+1. Use a shovel or spade to cut a 2-inch-wide wedge into your lawn at a 90-degree angle, going down 2 to 3 inches deep
+2. Look at the cross-section. The tan or brown spongy layer between green grass and dark soil is thatch
+3. Measure that layer with a ruler. **Less than 1/2 inch is fine.** Between 1/2 inch and 1 inch means dethatching soon. **Over 1 inch requires immediate action.**
+
+If you're in Macomb County and haven't aerated or dethatched in 3+ years, you almost certainly have excess thatch.
+
+## Proven Methods to Remove Thatch from Your Lawn
+
+**Dethatching (Power Raking):** This is the most effective single treatment. A power rake has rotating tines that physically pull dead grass to the surface. Timing matters: **late March through April or September through October** are ideal windows in Michigan. These seasons give your lawn time to recover without summer stress or winter freeze.
+
+After power raking, rake up all the debris. It looks drastic, like your lawn is destroyed, but new growth fills in within 3-4 weeks.
+
+**Core Aeration:** While not a direct thatch removal, aeration helps prevent future buildup. Pulling soil cores every spring or fall relieves compaction, improves drainage in our clay soil, and helps organic matter break down faster. Do this in early September or late April when soil is moist but not waterlogged.
+
+**Topdressing with Compost:** After dethatching, applying 1/4 to 1/2 inch of quality compost encourages beneficial microbes that break down organic matter. This is especially valuable in Macomb County's clay-based yards.
+
+**Mowing Practices:** Going forward, keep your grass at 2.5 to 3 inches tall and leave clippings on the lawn (grasscycling). This sounds counterintuitive, but short clippings decompose quickly and add nutrients instead of building thatch. Mow consistently every 7-10 days rather than letting grass get tall then cutting it short.
+
+## When to Call a Professional
+
+If thatch measures over 1 inch, or if your lawn shows dead patches, poor drainage, or insect problems despite regular mowing, professional dethatching saves time and delivers better results. Tri-Point Landscaping handles thatch removal for properties throughout Macomb County and can follow up with aeration and proper ongoing maintenance to keep thatch from returning.
+
+## Take Action Before Winter
+
+Fall is the final window to dethatch before winter dormancy. If your lawn has heavy thatch right now, waiting until spring means another season of struggling turf. A dethatching treatment done by early November gives your lawn the entire winter to settle and prepare for spring growth.
+
+Tri-Point Landscaping offers free estimates for thatch assessment and removal. Call [(586) 327-8080](tel:+15863278080) or text anytime, day or night. You can also [contact Tri-Point Landscaping](/contact) online. We'll evaluate your specific lawn, recommend the right treatment for Washington Township conditions, and get your grass breathing again.
+    `,
   },
 ];
