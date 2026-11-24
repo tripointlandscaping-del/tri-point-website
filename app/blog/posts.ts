@@ -9873,5 +9873,69 @@ Fall is the final window to dethatch before winter dormancy. If your lawn has he
 
 Tri-Point Landscaping offers free estimates for thatch assessment and removal. Call [(586) 327-8080](tel:+15863278080) or text anytime, day or night. You can also [contact Tri-Point Landscaping](/contact) online. We'll evaluate your specific lawn, recommend the right treatment for Washington Township conditions, and get your grass breathing again.
     `,
+  }
+,
+  {
+    slug: "paver-patio-vs-concrete-michigan",
+    title: "Paver Patio vs Concrete Patio in Michigan: Which Is Right for You?",
+    description: "Compare paver and concrete patios for Michigan's climate. Learn durability, cost, maintenance, and installation differences for Macomb County homeowners.",
+    date: "November 24, 2026",
+    category: "Hardscaping",
+    readTime: "5 min read",
+    content: `
+## Paver Patio vs Concrete Patio in Michigan: Which Is Right for You?
+
+You're standing in your Macomb County backyard thinking about where to put that patio, and now you're stuck between two options: pavers or concrete. Both look good in photos, but Michigan's freeze-thaw cycles, clay-heavy soil, and winter weather make this decision more complex than you might think. The wrong choice now could mean cracking, heaving, or constant repairs in five years. Here's what you actually need to know.
+
+## How Michigan's Climate Affects Each Option
+
+Michigan winters are brutal on outdoor surfaces. We regularly drop below freezing from November through March, and that's where the real difference between pavers and concrete shows up.
+
+**Concrete and freeze-thaw damage** are almost synonymous. When water seeps into concrete, freezes, expands, and thaws repeatedly, the surface develops spalling (flaking), cracking, and pitting. Washington Township sits on clay-rich soil that holds moisture, which amplifies this problem. Concrete sealed each fall can help, but it's not perfect. After 7-10 winters, most concrete patios in Macomb County show visible damage.
+
+**Pavers handle freeze-thaw much better** because they're individual units sitting on a compacted base. If one paver shifts or cracks from frost heave, you replace just that piece instead of grinding out the entire patio. The sand base beneath them allows drainage and slight movement without catastrophic failure. This is why pavers outperform concrete in Michigan's climate.
+
+## Cost and Installation Reality in Macomb County
+
+Concrete looks cheaper upfront. A 12x12 concrete pad might cost $1,200-$1,800 installed, while the same space in pavers runs $2,500-$4,000. But "upfront" is the trap.
+
+Concrete requires sealing every 2-3 years at $200-$400 per application. Within 15 years, you've paid $1,000-$2,000 in sealant alone, plus potential repairs. Pavers need occasional sand replenishment and weed control between joints, but no chemical sealing. Over 20 years, pavers often cost the same or less than concrete when you factor in repairs.
+
+**Installation timing matters for Michigan projects.** Spring and fall are ideal in Macomb County because soil isn't waterlogged or frozen. If you pour concrete in late October, early frost can damage the curing process. Pavers can be installed through most of the year because they don't need to cure.
+
+## Maintenance Differences That Actually Matter
+
+Concrete is simple but demanding. Each spring after Michigan's winter, inspect for cracks. Catch them early and seal them before water gets in and expands in the next freeze cycle. Missing this window means accelerated damage.
+
+Pavers require different maintenance:
+- **Weeds grow between joints.** Use polymeric sand during installation to slow this, but weeds still appear. Pull them or use herbicide twice a year.
+- **Pavers can shift.** Heavy foot traffic or freeze-thaw can nudge individual stones. Reset them in spring using a rubber mallet.
+- **Sand washout happens.** After heavy rain, some sand escapes joints. Add more sand annually.
+- **Moss grows in shaded areas.** Macomb County's humid summers make this common. Light power washing handles it.
+
+If you hate maintenance, neither is "zero work," but concrete sealing is non-negotiable in Michigan. Paver maintenance is optional but recommended.
+
+## Aesthetics and Resale Value
+
+Patios are outdoor living spaces, not just surfaces. Pavers offer endless patterns, colors, and styles. You can mimic stone, mix materials, or create custom designs. Concrete is gray, smooth, and uniform unless you stain or stamp it at extra cost.
+
+Macomb County buyers notice hardscaping. A well-maintained paver patio signals that a home is cared for and built to last in our climate. Concrete in poor condition (which many are after 10+ years here) is a red flag. This subtle psychology favors pavers when you eventually sell.
+
+## Which Should You Choose?
+
+Choose **concrete if:** You want the lowest entry cost and you're planning to sell within 5 years or don't mind aggressive sealing and repair schedules.
+
+Choose **pavers if:** You're staying put, you value durability in Michigan's climate, you like design flexibility, or you want to avoid the chemical sealing treadmill.
+
+## Ready to Move Forward? Start with Tri-Point
+
+Macomb County winters are coming fast. If you're planning a patio for next spring or already have concrete showing cracks this year, now is the time to explore your options while the ground isn't frozen.
+
+Tri-Point Landscaping serves Washington Township and all of Macomb County with paver patio design and installation. We know Michigan's soil and climate and can walk you through both options with real numbers for your specific project. We'll show you completed patios in your area and explain exactly what to expect year after year.
+
+**Call [Tri-Point Landscaping at (586) 327-8080](tel:+15863278080) today.** We're available 7am to 9pm daily, and you can text anytime. We offer free estimates with no pressure, and we'll answer your Michigan-specific climate questions before you decide. The earlier you plan, the better your spring installation window.
+
+Your backyard is worth getting right the first time.
+    `,
   },
 ];
