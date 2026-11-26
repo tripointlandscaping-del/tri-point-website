@@ -9937,5 +9937,84 @@ Tri-Point Landscaping serves Washington Township and all of Macomb County with p
 
 Your backyard is worth getting right the first time.
     `,
+  }
+,
+  {
+    slug: "fire-pit-installation-macomb-county-backyards",
+    title: "Fire Pit Installation Ideas for Macomb County Backyards",
+    description: "Complete guide to installing fire pits in Macomb County backyards. Learn design ideas, safety requirements, and local soil considerations.",
+    date: "November 26, 2026",
+    category: "Hardscaping",
+    readTime: "7 min read",
+    content: `
+## Why Now Is the Perfect Time to Plan Your Macomb County Fire Pit
+
+If you live in Washington Township or anywhere across Macomb County, you know that late fall and early winter are when people start thinking about gathering spaces. A fire pit transforms your backyard into an outdoor living room where family and friends actually want to spend time, even when temperatures drop into the 30s and 40s. The ground in Michigan is still workable through November and early December, which means late fall is an ideal window to get excavation and installation done before winter soil becomes too frozen. Planning now means you'll be ready to enjoy it through the holiday season and into next year.
+
+## Understanding Macomb County Soil and Site Selection
+
+Before you pick a spot in your yard, you need to understand what you're working with. Much of Macomb County sits on clay-heavy soil with high water tables, especially in areas closer to water features. This matters because **your fire pit needs proper drainage to prevent water pooling and rust**.
+
+Here's what to do:
+
+• Walk your yard during or right after rain to see where water naturally collects
+• Choose a spot at least 10 feet from your house, fence, and tree branches
+• Pick an area with southern or western exposure so wind doesn't blow smoke directly into your home
+• Test soil drainage by digging a small hole, filling it with water, and seeing how fast it drains (should drain completely within 24 hours)
+
+If water pools in your chosen spot, raise the fire pit 6 to 12 inches above grade using a stone base or gravel bed. This simple step prevents the clay soil common in Washington Township from creating a water trap that corrodes your pit structure.
+
+## Three Fire Pit Styles That Work in Macomb County Backyards
+
+**Built-In Stone Ring Pits**
+
+These are permanent, durable, and look finished. You excavate 12 to 18 inches deep, add a 4-inch gravel base for drainage, then stack fire-rated stones or pavers in a circle 3 to 4 feet in diameter. Use metal rebar or concrete mortar rated for high heat to hold stones stable through Michigan's freeze-thaw cycles. The advantage: they last 15+ years and become a true focal point.
+
+**Metal Fire Bowls and Rings**
+
+These portable options (typically 24 to 36 inches in diameter) sit directly on the ground or a prepared stone pad. They're ideal if you're renting, unsure about placement, or want flexibility. Place them on a 4-inch stone or gravel base to protect grass and improve drainage. Metal pits in Macomb County should be steel or cast iron rated for outdoor use. Expect to replace them every 5 to 10 years depending on weather exposure.
+
+**Raised Fire Pits with Seating Walls**
+
+These combine function and design: a 2 to 3-foot-tall stone wall contains the fire pit and creates built-in seating. They're perfect for entertaining and keep you further from ground-level wind. The added height means better sight lines and more comfortable sitting. This style requires proper drainage at the base and professional installation to ensure the wall is structurally sound through Michigan winters.
+
+## Critical Safety and Code Considerations for Michigan Backyards
+
+**Clearance and Distance**
+
+Maintain at least 10 feet between your fire pit and structures (house, garage, shed). Keep it 25 feet from tree branches overhead. In Washington Township, check with your township office or HOA before building, as some communities have specific setback requirements. This isn't just about rules, it's about preventing embers from reaching flammable materials during Michigan's dry late-summer months.
+
+**Ventilation and Smoke**
+
+Position your pit so prevailing winds (generally west to east in Macomb County through fall and winter) blow smoke away from neighboring properties. Poor positioning creates neighbor conflicts faster than almost anything else.
+
+**What You Can Burn**
+
+**Only burn seasoned wood** (dried for at least 6 months). Green wood creates excessive smoke and creosote buildup. Never burn treated lumber, plywood, or painted wood, which release toxic fumes. Avoid burning leaves or garden waste in your fire pit, as they create excessive smoke and uneven heat.
+
+## Ground Prep and Installation Steps
+
+If you're building a stone ring pit:
+
+1. Mark your circle using spray paint (3 to 4 feet diameter is standard)
+2. Excavate 12 to 18 inches deep, removing grass and topsoil
+3. Add 4 inches of gravel for drainage (crucial in clay-heavy Macomb County soil)
+4. Lay your first ring of stones, checking level with a 2-foot level
+5. Stack additional rings, using concrete mortar rated for high heat between each layer
+6. Allow mortar to cure for 48 hours before first use
+7. Add a metal grate or fire ring inside the stone structure to hold logs above ground
+
+## Why Professional Installation Makes a Difference
+
+Fire pits seem straightforward until something goes wrong: stones shift from freeze-thaw cycles, drainage fails and creates rust, or your placement violates setback requirements. Local contractors understand Macomb County's specific soil conditions and local codes. They also have the right materials and tools to ensure your pit handles Michigan winters without cracking or settling.
+
+## Ready to Add Warmth to Your Backyard This Season
+
+Fall and early winter are your best windows for fire pit installation in Macomb County. The soil is still workable, and you'll finish before deep winter cold makes excavation difficult. Whether you're in Washington Township or anywhere else in the area, **Tri-Point Landscaping can design and install a custom fire pit that fits your yard, your budget, and your entertaining needs**.
+
+We handle everything from site prep and drainage to stone selection and finishing, so your fire pit is both beautiful and built to last through Michigan's tough seasonal changes.
+
+**Call [Tri-Point Landscaping](tel:+15863278080) at (586) 327-8080 or visit [tripointlandscaping.com](/contact) to schedule your free estimate.** We're available 7am to 9pm daily, and you can call or text anytime. Don't wait until spring, when soil conditions are less ideal. Get your fire pit built now and start using it this winter.
+    `,
   },
 ];
