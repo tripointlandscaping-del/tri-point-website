@@ -5,12 +5,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { isSnowPath, SNOW_QUOTE_HREF } from "../lib/snow";
 
-// Noah: replace LAWN_SIGNUP_OFFER with the real 2027 residential lawn signup
-// offer before this goes live. Example: "$50 off the first month" or
-// "a free spring cleanup with a full-season mowing plan".
-const LAWN_SIGNUP_OFFER = "[OFFER PLACEHOLDER]";
+const LAWN_SIGNUP_OFFER =
+  "First mow free when you sign up for weekly 2027 lawn care by April 1.";
 
-function getBanner(isSnowPage: boolean): { href: string; text: string } {
+function getBanner(isSnowPage: boolean): { href: string; text: string; finePrint?: string } {
   const now = new Date();
   const month = now.getMonth() + 1;
   const day = now.getDate();
@@ -36,7 +34,8 @@ function getBanner(isSnowPage: boolean): { href: string; text: string } {
 
   return {
     href: "/contact",
-    text: `🌿 Now booking 2027 residential lawn care. Sign up this winter and get ${LAWN_SIGNUP_OFFER}. Reserve your spot →`,
+    text: LAWN_SIGNUP_OFFER,
+    finePrint: "Applies only to a full-season weekly mowing sign-up.",
   };
 }
 
@@ -60,6 +59,9 @@ export default function UrgencyBanner() {
           {banner.text}
         </Link>
       </p>
+      {banner.finePrint ? (
+        <p className="mt-0.5 text-xs font-normal leading-snug text-white/90">{banner.finePrint}</p>
+      ) : null}
 
       <button
         onClick={() => setDismissed(true)}
