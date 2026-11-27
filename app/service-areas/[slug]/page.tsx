@@ -290,7 +290,7 @@ const areas: Record<string, AreaData> = {
   },
   "rochester-hills": {
     name: "Rochester Hills",
-    metaTitle: "Lawn Care in Rochester Hills, MI | Tri-Point",
+    metaTitle: "Lawn Care in Rochester Hills, MI",
     metaDescription:
       "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester Hills homes near Auburn, Adams, and Livernois. Free estimate. (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
@@ -346,9 +346,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const area = areas[slug];
   if (!area) return {};
-  const absoluteTitle = slug === "rochester" || slug === "rochester-hills";
   return {
-    title: absoluteTitle ? { absolute: area.metaTitle } : area.metaTitle,
+    title: area.metaTitle,
     description: area.metaDescription,
     alternates: { canonical: `https://www.tripointlandscaping.com/service-areas/${slug}` },
     openGraph: {

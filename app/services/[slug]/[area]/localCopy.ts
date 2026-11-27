@@ -28,7 +28,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Every visit includes mowing at the right height for cool-season grass, trimming around trees and fences, edging, and blowing clippings off hard surfaces. Because lot sizes vary so much around Romeo, we price the cut after a free look rather than quoting a number over the phone. Call or text (586) 327-8080.",
     ],
     "ray-township": [
-      "Ray Township properties are usually bigger than a subdivision lot, with longer driveways and more lawn between the road and the house. Tri-Point Landscaping mows those parcels along 30 Mile, 31 Mile, 32 Mile, and Card Road on a weekly or bi-weekly schedule through the growing season.",
+      "Ray Township properties are usually bigger than a subdivision lot, with longer driveways and more lawn between the road and the house. Tri-Point Landscaping mows those parcels along 30 Mile, 31 Mile, 32 Mile, and Ray Center Road on a weekly or bi-weekly schedule through the growing season.",
       "The visit is the same work we do everywhere else: mow, trim, edge, and blow it clean. What changes is the time on site. A larger rural lawn is priced from a free on-site look, not from a small-lot rate. We will tell you the price before any work is scheduled.",
     ],
     "bruce-township": [
@@ -63,7 +63,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Where a lot is newer or mostly open, we can start from a simpler plan: beds, a few shrubs, and sod where the lawn needs a clean edge. Every project starts with a free on-site consultation so the plan and the price are clear before any plants go in the ground.",
     ],
     "ray-township": [
-      "On a Ray Township property the landscaping is usually around the house, not across the whole parcel. Tri-Point Landscaping designs beds, shrub and perennial plantings, and sod for homes along 30 Mile, 32 Mile, and Card Road, sized to the area you actually want finished.",
+      "On a Ray Township property the landscaping is usually around the house, not across the whole parcel. Tri-Point Landscaping designs beds, shrub and perennial plantings, and sod for homes along 30 Mile, 32 Mile, and Ray Center Road, sized to the area you actually want finished.",
       "Open rural lots get more wind and more sun than a shaded subdivision yard, so plant choice matters. We walk the property with you, talk through what you want to look at from the kitchen window or the road, and give you a plan and a price before we schedule the work. Consultations are free.",
     ],
     "bruce-township": [
@@ -98,7 +98,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Hardwood, cedar, and dyed mulch are available, along with river rock, lava rock, crushed granite, and pea gravel if you want a bed that does not need a yearly mulch coat. The estimate includes a measurement, so the material amount is based on your beds.",
     ],
     "ray-township": [
-      "On a Ray Township property we mulch the beds and tree rings around the house, not the fields beyond them. Tri-Point Landscaping edges those beds and installs hardwood, cedar, or dyed mulch, or decorative stone, for homes along 30 Mile, 32 Mile, and Card Road.",
+      "On a Ray Township property we mulch the beds and tree rings around the house, not the fields beyond them. Tri-Point Landscaping edges those beds and installs hardwood, cedar, or dyed mulch, or decorative stone, for homes along 30 Mile, 32 Mile, and Ray Center Road.",
       "A larger lot does not automatically mean a larger mulch order. During the free estimate we measure the beds you want done and recommend a depth of about 2–3 inches. If old mulch has built up, we will tell you whether it should come out first.",
     ],
     "bruce-township": [
@@ -133,7 +133,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Spring work covers debris, perennial cutback, bed cleanup, and edges. Fall work covers the leaves, late cutback, and hauling it off the property. Gutter clearing can be added. Call (586) 327-8080 or request the cleanup online.",
     ],
     "ray-township": [
-      "A Ray Township cleanup covers more ground than a subdivision visit. Leaves and winter debris spread across a larger lawn and the beds around the house, along roads like 30 Mile, 32 Mile, and Card Road. Tri-Point Landscaping clears those areas and hauls the material away.",
+      "A Ray Township cleanup covers more ground than a subdivision visit. Leaves and winter debris spread across a larger lawn and the beds around the house, along roads like 30 Mile, 32 Mile, and Ray Center Road. Tri-Point Landscaping clears those areas and hauls the material away.",
       "We are not clearing the woods behind the house. The work is the lawn you mow, the beds, and the area around the drive and walks. Spring includes cutback and edge cleanup. Fall is the full leaf removal before freeze. The price follows the size of that area, from a free look.",
     ],
     "bruce-township": [
@@ -168,7 +168,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "We use seed suited to Michigan conditions and go over watering with you so the new grass has a chance. Fall is the stronger season for this work. If the lawn is only a little thin, we will say so instead of selling a full renovation.",
     ],
     "ray-township": [
-      "A thin lawn on a Ray Township property is a bigger seeding job than a small suburban yard, and it is still usually a renovation rather than a full replacement. Tri-Point Landscaping aerates, overseeds, and dethatches lawns along 30 Mile, 32 Mile, and Card Road.",
+      "A thin lawn on a Ray Township property is a bigger seeding job than a small suburban yard, and it is still usually a renovation rather than a full replacement. Tri-Point Landscaping aerates, overseeds, and dethatches lawns along 30 Mile, 32 Mile, and Ray Center Road.",
       "We look at how much of the lawn is actually thin before recommending the work. Compacted or thatchy areas get the treatment. Areas that are already dense do not need to be torn up. The estimate is free, and fall is the best time to schedule it.",
     ],
     "bruce-township": [
@@ -203,7 +203,7 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "We manage the project and use trusted local hardscaping partners for the installation. Materials and the base are chosen for freeze-thaw, and we walk the site with you before anything is scheduled so the scope and the price are written down.",
     ],
     "ray-township": [
-      "On many Ray Township properties the useful hardscape is the walk from the driveway to the door, plus a patio near the house. The house often sits farther from the road than it would in a subdivision. Tri-Point Landscaping coordinates those walks, patios, and small retaining walls along 30 Mile, 32 Mile, and Card Road.",
+      "On many Ray Township properties the useful hardscape is the walk from the driveway to the door, plus a patio near the house. The house often sits farther from the road than it would in a subdivision. Tri-Point Landscaping coordinates those walks, patios, and small retaining walls along 30 Mile, 32 Mile, and Ray Center Road.",
       "We stay your contact for the whole job and coordinate trusted local hardscaping partners to build it. The base is built for Michigan winters. We can pair the new surface with bed work and mulch so the area around the house is finished together.",
     ],
     "bruce-township": [

@@ -14,7 +14,7 @@ function getBanner(isSnowPage: boolean): { href: string; text: string; finePrint
   const day = now.getDate();
   const mmdd = month * 100 + day;
 
-  if (mmdd >= 301 && mmdd < 515) {
+  if (mmdd >= 401 && mmdd < 515) {
     return { href: "/contact", text: "🌿 Spring cleanup spots are filling fast. Book your free estimate now →" };
   }
   if (mmdd >= 515 && mmdd < 701) {
@@ -24,7 +24,7 @@ function getBanner(isSnowPage: boolean): { href: string; text: string; finePrint
     return { href: "/contact", text: "🌿 Lawn care spots are limited. Book your free estimate now →" };
   }
 
-  // October 1 through the end of February.
+  // October 1 through March 31. Spring starts April 1.
   if (isSnowPage) {
     return {
       href: SNOW_QUOTE_HREF,

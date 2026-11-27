@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 /* ─── Employee persona ─── */
 const EMPLOYEE = {
@@ -63,6 +64,9 @@ const quickReplies = [
 ];
 
 export default function ChatBot() {
+  const pathname = usePathname() ?? "";
+  const onContact = pathname === "/contact" || pathname.startsWith("/contact/");
+  const [isPhone, setIsPhone] = useState(false);
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [apiHistory, setApiHistory] = useState<ApiMessage[]>([]);
@@ -74,13 +78,24 @@ export default function ChatBot() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Show teaser after 6 seconds
   useEffect(() => {
+    const mq = window.matchMedia("(max-width: 767px)");
+    const sync = () => setIsPhone(mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+
+  const hideTeaser = onContact && isPhone;
+
+  // Show teaser after 6 seconds. On /contact phones it would cover the form fallback.
+  useEffect(() => {
+    if (hideTeaser) return;
     const t = setTimeout(() => {
       if (!hasOpened) setShowTeaser(true);
     }, 6000);
     return () => clearTimeout(t);
-  }, [hasOpened]);
+  }, [hasOpened, hideTeaser]);
 
   // Init greeting when opened
   useEffect(() => {
@@ -160,7 +175,7 @@ export default function ChatBot() {
   return (
     <>
       {/* ── Teaser bubble ── */}
-      {showTeaser && !open && !teaserDismissed && (
+      {showTeaser && !open && !teaserDismissed && !hideTeaser && (
         <div
           className="fixed right-4 sm:right-6 z-50 w-72 shadow-2xl overflow-hidden"
           style={{ animation: "chatSlideUp 0.35s ease forwards", bottom: "calc(var(--sticky-bar-h) + 88px)" }}

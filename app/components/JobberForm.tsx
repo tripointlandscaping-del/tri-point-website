@@ -12,7 +12,7 @@ function DirectContact({ prominent }: { prominent: boolean }) {
     <div className={prominent ? "border border-gray-200 bg-[#f5f0e8] p-6" : "pt-2"}>
       {prominent ? (
         <>
-          <p className="font-bold text-gray-900 mb-1">The form is taking too long</p>
+          <p className="font-bold text-gray-900 mb-1">The form isn&apos;t available right now</p>
           <p className="text-gray-600 text-sm leading-relaxed mb-4">
             You can still request an estimate. Call, text, or email, or open the request form in a new tab.
           </p>
@@ -38,20 +38,60 @@ function DirectContact({ prominent }: { prominent: boolean }) {
   );
 }
 
+function embedState(root: HTMLElement): "ready" | "error" | "pending" {
+  const text = (root.textContent || "").toLowerCase();
+  if (
+    root.querySelector(".jobber-flash--error") ||
+    text.includes("form is currently unavailable") ||
+    text.includes("something went wrong")
+  ) {
+    return "error";
+  }
+  const iframe = root.querySelector("iframe");
+  if (iframe && iframe.getBoundingClientRect().height >= 80) return "ready";
+  return "pending";
+}
+
 export default function JobberForm() {
   const loaded = useRef(false);
   const [status, setStatus] = useState<"loading" | "ready" | "fallback">("loading");
+  const [showEmbedError, setShowEmbedError] = useState(false);
 
   useEffect(() => {
     if (loaded.current) return;
     loaded.current = true;
 
     let cancelled = false;
-    const markReady = () => {
-      if (!cancelled) setStatus("ready");
+    const settleTimers: number[] = [];
+    const root = () => document.getElementById(CLIENT_HUB_ID);
+
+    const apply = () => {
+      if (cancelled) return;
+      const el = root();
+      if (!el) return;
+      const state = embedState(el);
+      if (state === "error") {
+        setShowEmbedError(true);
+        setStatus("fallback");
+        return;
+      }
+      if (state === "ready") {
+        setShowEmbedError(false);
+        setStatus("ready");
+      }
     };
+
     const markFallback = () => {
-      if (!cancelled) setStatus((current) => (current === "ready" ? current : "fallback"));
+      if (cancelled) return;
+      const el = root();
+      const state = el ? embedState(el) : "pending";
+      if (state === "ready") {
+        setShowEmbedError(false);
+        setStatus("ready");
+        return;
+      }
+      setShowEmbedError(state === "error");
+      setStatus("fallback");
     };
 
     const link = document.createElement("link");
@@ -65,16 +105,25 @@ export default function JobberForm() {
     script.setAttribute("form_url", FORM_URL);
     script.async = true;
     script.onload = () => {
-      window.setTimeout(markReady, 1500);
+      apply();
+      settleTimers.push(window.setTimeout(apply, 500), window.setTimeout(apply, 2000));
     };
-    script.onerror = markFallback;
+    script.onerror = () => {
+      if (!cancelled) setStatus("fallback");
+    };
     document.body.appendChild(script);
+
+    const el = root();
+    const observer = new MutationObserver(apply);
+    if (el) observer.observe(el, { childList: true, subtree: true, characterData: true, attributes: true });
 
     const timer = window.setTimeout(markFallback, 8000);
 
     return () => {
       cancelled = true;
+      observer.disconnect();
       window.clearTimeout(timer);
+      settleTimers.forEach((id) => window.clearTimeout(id));
       try { document.head.removeChild(link); } catch {}
       try { document.body.removeChild(script); } catch {}
     };
@@ -120,7 +169,9 @@ export default function JobberForm() {
         style={{
           width: "100%",
           minHeight: status === "ready" ? "640px" : "0px",
-          opacity: status === "ready" ? 1 : 0,
+          height: status === "ready" || showEmbedError ? "auto" : "0px",
+          overflow: status === "ready" || showEmbedError ? "visible" : "hidden",
+          opacity: status === "ready" || showEmbedError ? 1 : 0,
           transition: "opacity 0.4s ease",
         }}
       />

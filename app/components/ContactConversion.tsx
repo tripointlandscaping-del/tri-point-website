@@ -22,16 +22,51 @@ function track(method: "call" | "text" | "form") {
   }
 }
 
+const JOBBER_ORIGINS = new Set([
+  "https://clienthub.getjobber.com",
+  "https://secure.getjobber.com",
+  "https://getjobber.com",
+  "https://www.getjobber.com",
+]);
+
+function isJobberOrigin(origin: string): boolean {
+  return JOBBER_ORIGINS.has(origin);
+}
+
+function isSubmitText(value: string): boolean {
+  const text = value.trim().toLowerCase();
+  if (!text || text.length > 160) return false;
+  if (text === "close" || text === "scrolltop" || text === "recaptcha-setup") return false;
+  if (/^\d+(\.\d+)?(px)?$/.test(text)) return false;
+  return (
+    text === "submitted" ||
+    text === "work_request_submitted" ||
+    text === "form_submitted" ||
+    text === "request_submitted" ||
+    /^work request submitted[.!]?$/.test(text) ||
+    /^form submitted[.!]?$/.test(text) ||
+    /^thank you[.!]?$/.test(text) ||
+    /^thank you for (your |submitting )/.test(text)
+  );
+}
+
 function isJobberSubmit(data: unknown): boolean {
-  if (typeof data === "string") {
-    const value = data.trim().toLowerCase();
-    if (!value || value === "close" || value === "scrolltop" || value === "recaptcha-setup") return false;
-    if (/^\d+(\.\d+)?(px)?$/.test(value)) return false;
-    return value.includes("submitted") || value.includes("success") || value.includes("thank");
-  }
+  if (typeof data === "string") return isSubmitText(data);
   if (!data || typeof data !== "object") return false;
-  const blob = JSON.stringify(data).toLowerCase();
-  return blob.includes("submitted") || blob.includes('"success":true') || blob.includes("thank you");
+  const record = data as Record<string, unknown>;
+  if (record.submitted === true) return true;
+  const eventName = [record.type, record.event, record.name, record.action]
+    .filter((value): value is string => typeof value === "string")
+    .join(" ")
+    .toLowerCase();
+  if (!eventName) return false;
+  if (record.success === true && /submit|work_request|request_submitted/.test(eventName)) return true;
+  return (
+    eventName === "submitted" ||
+    eventName === "work_request_submitted" ||
+    eventName === "form_submitted" ||
+    eventName === "request_submitted"
+  );
 }
 
 // Fires quote_request on a real call, text, or (when Jobber reports one) form
@@ -57,7 +92,7 @@ export default function ContactConversion() {
     };
 
     const onMessage = (event: MessageEvent) => {
-      if (!event.origin.endsWith("getjobber.com")) return;
+      if (!isJobberOrigin(event.origin)) return;
       if (isJobberSubmit(event.data)) fire("form");
     };
 

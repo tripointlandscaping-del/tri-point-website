@@ -237,7 +237,7 @@ const areas: Record<string, {
   "ray-township": {
     name: "Ray Township",
     county: "Macomb County",
-    roads: "30 Mile Road, 31 Mile Road & Card Road",
+    roads: "30 Mile Road, 31 Mile Road & Ray Center Road",
     heroImage: "/photos/IMG_3369.jpeg",
     localDesc: "Ray Township's larger rural lots and properties near the Macomb Orchard Trail require the heavy-duty equipment and local expertise that Tri-Point Landscaping brings to every job.",
   },

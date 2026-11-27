@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { activePosts as posts } from "../activePosts";
-import LawnEstimateCta from "../../components/LawnEstimateCta";
+import LawnEstimateCta, { isCommercialSnowCategory } from "../../components/LawnEstimateCta";
 
 const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
   "Lawn Care": [
@@ -179,6 +179,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     )
     .slice(0, 2);
   const relatedServices = categoryServiceMap[post.category] ?? [];
+  const ctaService = isCommercialSnowCategory(post.category) ? "snow" : "lawn";
   const [opening, closing] = splitNearMiddle(post.content);
 
   const breadcrumbSchema = {
@@ -263,7 +264,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
         <div className="border-t border-gray-100 pt-10 space-y-2">
           {renderContent(opening)}
-          <LawnEstimateCta placement="mid" />
+          <LawnEstimateCta placement="mid" service={ctaService} />
           {renderContent(closing)}
         </div>
 
@@ -285,7 +286,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         )}
 
-        <LawnEstimateCta placement="end" />
+        <LawnEstimateCta placement="end" service={ctaService} />
 
         {/* Related posts */}
         {related.length > 0 && (

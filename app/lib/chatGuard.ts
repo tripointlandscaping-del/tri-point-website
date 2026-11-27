@@ -2,7 +2,7 @@
 // server instance, which is the best we can do without a shared store.
 
 const WINDOW_MS = 10 * 60 * 1000;
-const IP_LIMIT = 8;
+const IP_LIMIT = 20;
 const GLOBAL_LIMIT = 40;
 const MAX_MESSAGES = 12;
 const MAX_CHARS = 500;
@@ -95,13 +95,17 @@ export function parseChatBody(rawBody: string): { messages: ChatMessage[] } | { 
     if (typeof content !== "string") return { error: "Invalid request" };
     const trimmed = content.trim();
     if (!trimmed) continue;
-    if (trimmed.length > MAX_CHARS) {
+    if (role === "user" && trimmed.length > MAX_CHARS) {
       return { error: "Please keep each message under 500 characters, or call (586) 327-8080." };
     }
     messages.push({ role, content: trimmed });
   }
 
-  if (!messages.some((message) => message.role === "user")) return { error: "Invalid request" };
+  while (messages[0]?.role === "assistant") messages.shift();
+
+  if (!messages.some((message) => message.role === "user") || messages[0]?.role !== "user") {
+    return { error: "Invalid request" };
+  }
   return { messages };
 }
 
