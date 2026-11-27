@@ -202,8 +202,6 @@ const photos = [
   },
 ];
 
-const categories = ["All", "Lawn Care", "Landscaping", "Mulch & Stone", "Seasonal Cleanup"];
-
 const imageGallerySchema = {
   "@context": "https://schema.org",
   "@type": "ImageGallery",

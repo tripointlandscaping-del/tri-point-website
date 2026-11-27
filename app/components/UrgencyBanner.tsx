@@ -2,39 +2,66 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { SNOW_QUOTE_HREF } from "../lib/snow";
+import { usePathname } from "next/navigation";
+import { isSnowPath, SNOW_QUOTE_HREF } from "../lib/snow";
 
-function getBannerMessage(): string {
+const LAWN_SIGNUP_OFFER =
+  "First mow free when you sign up for weekly 2027 lawn care by April 1.";
+
+function getBanner(isSnowPage: boolean): { href: string; text: string; finePrint?: string } {
   const now = new Date();
-  const month = now.getMonth() + 1; // 1-12
+  const month = now.getMonth() + 1;
   const day = now.getDate();
-  const mmdd = month * 100 + day; // e.g. March 15 = 315
+  const mmdd = month * 100 + day;
 
-  if (mmdd >= 301 && mmdd < 515) return "🌿 Spring cleanup spots are filling fast. Book your free estimate now →";
-  if (mmdd >= 515 && mmdd < 701) return "🌳 Landscaping slots are booking up. Get your free estimate now →";
-  if (mmdd >= 701 && mmdd < 1001) return "🌿 Lawn care spots are limited. Book your free estimate now →";
-  // October 1 through end of February
-  return "❄️ Now booking 2026/27 commercial snow contracts. Limited route capacity. Get a quote →";
+  if (mmdd >= 401 && mmdd < 515) {
+    return { href: "/contact", text: "🌿 Spring cleanup spots are filling fast. Book your free estimate now →" };
+  }
+  if (mmdd >= 515 && mmdd < 701) {
+    return { href: "/contact", text: "🌳 Landscaping slots are booking up. Get your free estimate now →" };
+  }
+  if (mmdd >= 701 && mmdd < 1001) {
+    return { href: "/contact", text: "🌿 Lawn care spots are limited. Book your free estimate now →" };
+  }
+
+  // October 1 through March 31. Spring starts April 1.
+  if (isSnowPage) {
+    return {
+      href: SNOW_QUOTE_HREF,
+      text: "❄️ Now booking 2026/27 commercial snow contracts. Limited route capacity. Get a quote →",
+    };
+  }
+
+  return {
+    href: "/contact",
+    text: LAWN_SIGNUP_OFFER,
+    finePrint: "Applies only to a full-season weekly mowing sign-up.",
+  };
 }
 
 export default function UrgencyBanner() {
   const [dismissed, setDismissed] = useState(false);
+  const pathname = usePathname() ?? "";
+  const banner = getBanner(isSnowPath(pathname));
 
   if (dismissed) return null;
 
   return (
     <div
-      className="relative w-full py-2 px-4 text-center text-sm text-white"
+      className="relative w-full py-2 px-10 text-center text-sm text-white"
       style={{ backgroundColor: "#2C5F2E" }}
     >
       <p className="leading-snug">
         <Link
-          href={getBannerMessage().startsWith("❄️") ? SNOW_QUOTE_HREF : "/contact"}
+          href={banner.href}
           className="font-semibold underline underline-offset-2 hover:text-[#7ecb82] transition-colors"
         >
-          {getBannerMessage()}
+          {banner.text}
         </Link>
       </p>
+      {banner.finePrint ? (
+        <p className="mt-0.5 text-xs font-normal leading-snug text-white/90">{banner.finePrint}</p>
+      ) : null}
 
       <button
         onClick={() => setDismissed(true)}

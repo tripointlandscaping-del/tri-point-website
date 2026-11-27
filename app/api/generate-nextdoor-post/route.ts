@@ -82,10 +82,17 @@ Return ONLY the post text. No labels, no quotes, no commentary.`,
     return NextResponse.json({ error: "Empty post generated" }, { status: 500 });
   }
 
+  const to = process.env.NEXTDOOR_POST_TO;
+  const from = process.env.NEXTDOOR_POST_FROM;
+  if (!to || !from) {
+    console.error("Nextdoor post email is not configured. Set NEXTDOOR_POST_TO and NEXTDOOR_POST_FROM.");
+    return NextResponse.json({ error: "Email is not configured" }, { status: 500 });
+  }
+
   try {
     await resend.emails.send({
-      from: "Tri-Point Posts <onboarding@resend.dev>",
-      to: "noahschmueser21@gmail.com",
+      from,
+      to,
       subject: `Your Nextdoor Post: ${month} ${now.getDate()}`,
       html: `
         <div style="font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 32px 24px; background: #ffffff;">

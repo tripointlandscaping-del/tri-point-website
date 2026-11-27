@@ -19,6 +19,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Rochester Hills homeowners put real investment into their properties, and a consistently mowed lawn is the base everything else sits on. Tri-Point Landscaping mows lawns across Rochester Hills, from neighborhoods off Auburn Road and Adams Road to homes along Livernois and up toward Tienken.",
       "You get the same crew routine every visit: mowing at the right height, trimming around obstacles, crisp edging on hard surfaces and beds, and a full blow-off. Weekly service keeps turf thick and helps it crowd out weeds through the summer. Pricing runs $40–$100 per cut based on lot size, with a free, no-obligation estimate first.",
     ],
+    "macomb-township": [
+      "A lot of Macomb Township lawns are still filling in. Newer homes along 23 Mile, 25 Mile, 26 Mile, and Romeo Plank often have turf that was laid over compacted soil, so the cutting height and the schedule matter more than they do on an older, thick lawn. Tri-Point Landscaping mows these properties weekly or bi-weekly from April through October.",
+      "Each visit is mowing, string trimming, edging, and a blow-off of the walks and driveway. Clippings are mulched back into the lawn unless you want them bagged. Residential mowing is $40–$100 per cut depending on the lot, and the exact price comes from a free look at the property. If rain moves your day, we reschedule and let you know.",
+    ],
+    romeo: [
+      "Romeo lawns are not all the same size. Village lots near Main Street are tighter, with more edges around walks and older plantings, while properties out toward 32 Mile and Van Dyke can take a longer mowing run. Tri-Point Landscaping handles both on a weekly or bi-weekly schedule, April through October.",
+      "Every visit includes mowing at the right height for cool-season grass, trimming around trees and fences, edging, and blowing clippings off hard surfaces. Because lot sizes vary so much around Romeo, we price the cut after a free look rather than quoting a number over the phone. Call or text (586) 327-8080.",
+    ],
+    "ray-township": [
+      "Ray Township properties are usually bigger than a subdivision lot, with longer driveways and more lawn between the road and the house. Tri-Point Landscaping mows those parcels along 30 Mile, 31 Mile, 32 Mile, and Ray Center Road on a weekly or bi-weekly schedule through the growing season.",
+      "The visit is the same work we do everywhere else: mow, trim, edge, and blow it clean. What changes is the time on site. A larger rural lawn is priced from a free on-site look, not from a small-lot rate. We will tell you the price before any work is scheduled.",
+    ],
+    "bruce-township": [
+      "Bruce Township sits at the north end of our route, along 32 Mile, 33 Mile, and Van Dyke. Homes here are more spread out than in the southern townships, and many lots are larger than a typical subdivision yard. Tri-Point Landscaping mows them weekly or bi-weekly from April through October.",
+      "Each stop covers mowing, trimming around obstacles, edging, and a blow-off. Because the properties are spread out and the lawns vary in size, the price comes from a free look at your place. Call or text (586) 327-8080 and we will set that up.",
+    ],
   },
 
   landscaping: {
@@ -37,6 +53,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     "rochester-hills": [
       "In Rochester Hills, curb appeal standards are high, and landscaping is often what sets a property apart. Tri-Point Landscaping provides landscape design and installation for homes near Auburn Road, Adams Road, and Livernois: new beds, shrub and perennial plantings, sod, and stone features.",
       "Our process is straightforward: a free on-site consultation, a design that fits your home and budget, then installation and full cleanup by our crew. Small projects can wrap in a day, while larger installations usually take two to five days. We pick plants for Michigan's climate so your investment holds up long after we finish.",
+    ],
+    "macomb-township": [
+      "Many newer Macomb Township homes come with a lawn and not much else: a few builder shrubs and open ground where beds could be. Tri-Point Landscaping designs and installs planting beds, shrubs, sod, and stone borders for properties along 23 Mile, 25 Mile, and Romeo Plank, and for established yards in the township that need a refresh.",
+      "We start with a free walk of the property. You tell us what you want the front or the back to do, and we pick plants that can handle a Michigan winter. A single new bed is often a one-day job. A full front-yard install usually takes two to five days, and you get the timeline before we start.",
+    ],
+    romeo: [
+      "Older homes in the Village of Romeo already have a landscape, and the job is usually to work with it. Mature trees, older shrubs, and beds that have drifted out of shape need thinning, reshaping, and replacement of plants that have failed, not a design that ignores what is there. Tri-Point Landscaping does that work in the village and on properties along 32 Mile and Van Dyke.",
+      "Where a lot is newer or mostly open, we can start from a simpler plan: beds, a few shrubs, and sod where the lawn needs a clean edge. Every project starts with a free on-site consultation so the plan and the price are clear before any plants go in the ground.",
+    ],
+    "ray-township": [
+      "On a Ray Township property the landscaping is usually around the house, not across the whole parcel. Tri-Point Landscaping designs beds, shrub and perennial plantings, and sod for homes along 30 Mile, 32 Mile, and Ray Center Road, sized to the area you actually want finished.",
+      "Open rural lots get more wind and more sun than a shaded subdivision yard, so plant choice matters. We walk the property with you, talk through what you want to look at from the kitchen window or the road, and give you a plan and a price before we schedule the work. Consultations are free.",
+    ],
+    "bruce-township": [
+      "Bruce Township homes often sit back from 32 Mile, 33 Mile, or Van Dyke, with more yard around them than a subdivision lot. Tri-Point Landscaping installs beds, shrubs, and sod in the area around the house, and refreshes plantings that have gotten thin or overgrown.",
+      "We pick plants for Michigan winters and for sites that are more open than a neighborhood street. The first step is a free on-site consultation. Small bed work can be done in a day. Larger installs usually take a few days, and we tell you which one yours is before we begin.",
     ],
   },
 
@@ -57,6 +89,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "Rochester Hills homeowners keep their properties looking sharp, and mulch is the detail that ties the whole landscape together. Tri-Point Landscaping edges and mulches beds for homes off Auburn Road, Adams Road, and Livernois, giving each property clean lines and consistent color.",
       "We remove old mulch where it's built up too deep, add weed barrier where needed, and finish tree rings and garden beds at the right depth. Pick from hardwood, cedar, or dyed mulch, or switch to decorative stone for a lower-maintenance look. Estimates are free, and most properties are done in a single visit.",
     ],
+    "macomb-township": [
+      "Newer Macomb Township yards often need mulch for the first time, once the beds are actually in. Older ones along 23 Mile and Romeo Plank need a spring refresh and a clean edge. Tri-Point Landscaping does both: spade-edge the bed, then install mulch at about 2–3 inches so it holds moisture without piling against the trunks.",
+      "Choose shredded hardwood, cedar, or black or brown dyed mulch, or switch the bed to river rock, crushed granite, lava rock, or pea gravel. If the old layer is already several inches deep, we will say so and can remove it first. We measure the beds during a free estimate.",
+    ],
+    romeo: [
+      "Beds around older Romeo homes, in the village and out along 32 Mile, often have years of mulch stacked up around mature shrubs. That buildup can sit against the trunks and hold too much moisture. Tri-Point Landscaping re-cuts the edges, pulls excess material when it is too deep, and puts down a fresh layer at the right depth.",
+      "Hardwood, cedar, and dyed mulch are available, along with river rock, lava rock, crushed granite, and pea gravel if you want a bed that does not need a yearly mulch coat. The estimate includes a measurement, so the material amount is based on your beds.",
+    ],
+    "ray-township": [
+      "On a Ray Township property we mulch the beds and tree rings around the house, not the fields beyond them. Tri-Point Landscaping edges those beds and installs hardwood, cedar, or dyed mulch, or decorative stone, for homes along 30 Mile, 32 Mile, and Ray Center Road.",
+      "A larger lot does not automatically mean a larger mulch order. During the free estimate we measure the beds you want done and recommend a depth of about 2–3 inches. If old mulch has built up, we will tell you whether it should come out first.",
+    ],
+    "bruce-township": [
+      "Bruce Township mulch jobs are usually the beds, foundation plantings, and tree rings close to the house, on properties along 32 Mile, 33 Mile, and Van Dyke. Tri-Point Landscaping spade-edges them first so the line stays crisp, then installs the material.",
+      "Options are shredded hardwood, cedar, black or brown dyed mulch, and stone such as river rock, lava rock, crushed granite, and pea gravel. Most of these visits are finished in one trip. We measure during a free estimate so you know how much is going down.",
+    ],
   },
 
   "seasonal-cleanup": {
@@ -75,6 +123,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     "rochester-hills": [
       "Rochester Hills properties with mature landscaping need more than a quick leaf blow in the fall. Tri-Point Landscaping provides complete spring and fall cleanups for homes near Auburn Road, Adams Road, Livernois, and Tienken.",
       "Spring service covers debris removal, perennial cutback, bed cleanup, and edge refresh; fall service covers full leaf removal from lawns and beds, final cutback, and bed cleanup before winter. We haul everything off-site. If you want a spring cleanup, book in January or February for the best available dates.",
+    ],
+    "macomb-township": [
+      "Macomb Township subdivisions collect leaves in the fall and a winter's worth of debris in the beds by April. Tri-Point Landscaping clears both for homes along 23 Mile, 25 Mile, 26 Mile, and Romeo Plank, and hauls the material away instead of leaving piles at the curb.",
+      "Spring cleanup is leaf and debris removal, perennial cutback, bed cleanup, and a fresh edge. Fall cleanup is the leaves off the lawn and out of the beds, cutback of what is done for the year, and a haul-away. Spring dates fill up, so earlier requests get the better spots on the schedule.",
+    ],
+    romeo: [
+      "Mature trees around the Village of Romeo and on the larger lots toward 32 Mile drop a heavy leaf load. Leaving that mat on the lawn through winter is how dead patches start. Tri-Point Landscaping clears lawns and beds in the fall, and does the spring reset once the snow is gone.",
+      "Spring work covers debris, perennial cutback, bed cleanup, and edges. Fall work covers the leaves, late cutback, and hauling it off the property. Gutter clearing can be added. Call (586) 327-8080 or request the cleanup online.",
+    ],
+    "ray-township": [
+      "A Ray Township cleanup covers more ground than a subdivision visit. Leaves and winter debris spread across a larger lawn and the beds around the house, along roads like 30 Mile, 32 Mile, and Ray Center Road. Tri-Point Landscaping clears those areas and hauls the material away.",
+      "We are not clearing the woods behind the house. The work is the lawn you mow, the beds, and the area around the drive and walks. Spring includes cutback and edge cleanup. Fall is the full leaf removal before freeze. The price follows the size of that area, from a free look.",
+    ],
+    "bruce-township": [
+      "Fall cleanup in Bruce Township means more leaves and more lawn than a small lot in town. Properties along 32 Mile, 33 Mile, and Van Dyke need the turf and the beds cleared before the leaves mat down. Tri-Point Landscaping does that haul-away, plus the spring cleanup when the beds need to be opened back up.",
+      "Spring service is debris, perennial cutback, bed cleanup, and edges. Fall service is leaf removal from the lawn and beds and a final cutback. If you want a spring date, ask ahead of March. Those weeks book up.",
     ],
   },
 
@@ -95,6 +159,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "A dense, healthy lawn is the backdrop for every Rochester Hills landscape. When yours starts thinning out, Tri-Point Landscaping can bring it back with core aeration, overseeding, and dethatching for homes off Auburn Road, Adams Road, and Livernois.",
       "The process is simple: aerate to break up compaction, remove thatch where it's choking new growth, overseed bare and thin areas, and top dress where needed. Late summer into fall gives the best results in Michigan. If your lawn hasn't been aerated in the last two seasons, it's probably time: and the estimate is free.",
     ],
+    "macomb-township": [
+      "Newer lawns in Macomb Township often struggle because the soil under them was compacted during construction, and Macomb County soil runs heavy with clay. Core aeration pulls plugs so water and seed can get in. Tri-Point Landscaping pairs that with overseeding for thin areas on properties along 23 Mile, 25 Mile, and Romeo Plank.",
+      "Late August through October is the best window here. Seed usually germinates in 7–14 days, and the lawn looks thicker within a few weeks if it gets watered. We will tell you during a free estimate whether the lawn needs aeration and seed or whether regular mowing is enough.",
+    ],
+    romeo: [
+      "Shade from older trees is a common reason Romeo lawns thin out, both in the village and on lots along 32 Mile. Tri-Point Landscaping renovates those lawns with core aeration, overseeding, and dethatching where a dead layer is blocking water.",
+      "We use seed suited to Michigan conditions and go over watering with you so the new grass has a chance. Fall is the stronger season for this work. If the lawn is only a little thin, we will say so instead of selling a full renovation.",
+    ],
+    "ray-township": [
+      "A thin lawn on a Ray Township property is a bigger seeding job than a small suburban yard, and it is still usually a renovation rather than a full replacement. Tri-Point Landscaping aerates, overseeds, and dethatches lawns along 30 Mile, 32 Mile, and Ray Center Road.",
+      "We look at how much of the lawn is actually thin before recommending the work. Compacted or thatchy areas get the treatment. Areas that are already dense do not need to be torn up. The estimate is free, and fall is the best time to schedule it.",
+    ],
+    "bruce-township": [
+      "Larger Bruce Township lawns along 32 Mile, 33 Mile, and Van Dyke can go thin in patches without the whole yard failing. Tri-Point Landscaping uses core aeration and overseeding on those areas, and dethatching when the dead layer is part of the problem.",
+      "You get an honest read during the free estimate: renovate, or keep mowing and feeding the lawn you have. Late summer into fall gives new seed the best start in northern Macomb County. We leave you with watering guidance for the first few weeks.",
+    ],
   },
 
   hardscaping: {
@@ -114,6 +194,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
       "For Rochester Hills homeowners, a well-built patio or outdoor living space is one of the most valuable additions to a property. Tri-Point Landscaping coordinates paver and natural stone patios, walkways, retaining walls, and fire pits for homes near Auburn Road, Adams Road, and Livernois.",
       "We work with trusted local hardscaping partners and stay involved from design through final cleanup, so you deal with one company the whole time. Every project is built on a base meant for Michigan winters and finished to blend with your lawn and planting beds.",
     ],
+    "macomb-township": [
+      "A lot of newer Macomb Township backyards are still a blank lawn. A paver patio, a walk to the side door, or a small retaining wall is often the first real structure in the yard. Tri-Point Landscaping coordinates those projects for homes along 23 Mile, 25 Mile, and Romeo Plank.",
+      "You work with us from the first look through cleanup. We bring in trusted local hardscaping partners for the build, and the base is prepared for Michigan freeze-thaw. The patio or wall is planned to meet the lawn and any new beds so it does not look dropped in.",
+    ],
+    romeo: [
+      "Hardscaping around an older Romeo home has to fit the house. A stone walk, a short run of steps, or a patio out back should sit with the mature plantings instead of paving over them. Tri-Point Landscaping coordinates that work in the village and along 32 Mile and Van Dyke.",
+      "We manage the project and use trusted local hardscaping partners for the installation. Materials and the base are chosen for freeze-thaw, and we walk the site with you before anything is scheduled so the scope and the price are written down.",
+    ],
+    "ray-township": [
+      "On many Ray Township properties the useful hardscape is the walk from the driveway to the door, plus a patio near the house. The house often sits farther from the road than it would in a subdivision. Tri-Point Landscaping coordinates those walks, patios, and small retaining walls along 30 Mile, 32 Mile, and Ray Center Road.",
+      "We stay your contact for the whole job and coordinate trusted local hardscaping partners to build it. The base is built for Michigan winters. We can pair the new surface with bed work and mulch so the area around the house is finished together.",
+    ],
+    "bruce-township": [
+      "Bruce Township homes set back from 32 Mile, 33 Mile, or Van Dyke often need a walkway that actually reaches the door, and a patio sized to how the family uses the yard. Tri-Point Landscaping coordinates paver and natural stone work for those properties.",
+      "You have one point of contact. We plan the project with you and coordinate trusted local hardscaping partners for the build, on a base meant for freeze-thaw. The finished work is tied into the lawn and the beds around it.",
+    ],
   },
 
   commercial: {
@@ -132,6 +228,22 @@ export const localCopy: Record<string, Record<string, string[]>> = {
     "rochester-hills": [
       "Rochester Hills offices, retail centers, and HOAs are held to the same high standard as the community's homes. Tri-Point Landscaping provides commercial grounds maintenance for properties near Auburn Road, Adams Road, Livernois, and Tienken.",
       "We set up recurring programs for mowing, bed maintenance, mulching, cleanups, and snow and ice management, with one point of contact for all of it. HOA boards and property managers get certificates of insurance and documentation on request. Contact us for a free on-site walk-through and proposal.",
+    ],
+    "macomb-township": [
+      "Macomb Township commercial properties sit along 23 Mile, 21 Mile, 26 Mile, and Romeo Plank, often next to the subdivisions they serve. Tri-Point Landscaping maintains grounds for the plazas, offices, and associations on those roads: mowing, beds, mulch, and seasonal cleanup.",
+      "Snow and ice work is available for the same commercial properties, under a separate written agreement. We do not plow residential driveways. Larger sites start with a walk-through so the proposal matches the property. Certificates of insurance are available for your file.",
+    ],
+    romeo: [
+      "Commercial properties in Romeo are smaller and closer together than a highway plaza: businesses along Main Street, and offices and other lots near 32 Mile and Van Dyke. Tri-Point Landscaping handles the grounds work those sites need, including mowing, bed care, mulch, and seasonal cleanup.",
+      "Winter service, where you want it, is commercial snow removal only, with trigger depths and priorities written down after a site walk. You get one contact for the landscape work and, if you add it, the snow agreement. Proof of insurance is available on request.",
+    ],
+    "ray-township": [
+      "Ray Township does not have long commercial strips. The properties we maintain here are the smaller ones: churches, small businesses, and other lots along 32 Mile and Romeo Plank. Tri-Point Landscaping mows, edges, and looks after the beds and seasonal cleanup for those sites.",
+      "If the property also needs winter service, that is a commercial snow agreement, not a driveway plow. We walk the site, write down what is included, and can provide certificates of insurance. The grounds proposal starts with that same visit.",
+    ],
+    "bruce-township": [
+      "Bruce Township commercial sites are spread along Van Dyke and the mile roads, including 32 Mile and 33 Mile. Tri-Point Landscaping provides mowing, bed maintenance, mulch, and seasonal cleanup for businesses and other commercial properties in the township.",
+      "Snow removal is offered for those commercial properties only, as a seasonal contract or per-push service. Residential driveways are not part of it. Ask for a walk-through and we will separate the growing-season work from any winter scope in the proposal.",
     ],
   },
   "snow-removal": {

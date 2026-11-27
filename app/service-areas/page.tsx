@@ -116,7 +116,7 @@ export default function ServiceAreasPage() {
         <section className="bg-gray-50 py-12 px-6 text-center">
           <h2 className="text-2xl font-bold mb-3">Not Sure if We Cover Your Address?</h2>
           <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-            Call or text us at <a href="tel:+15863278080" className="text-green-700 font-semibold">(586) 327-8080</a> and we'll let you know right away. If we can't serve you, we'll point you in the right direction.
+            Call or text us at <a href="tel:+15863278080" className="text-green-700 font-semibold">(586) 327-8080</a> and we&apos;ll let you know right away. If we can&apos;t serve you, we&apos;ll point you in the right direction.
           </p>
           <Link
             href="/contact"

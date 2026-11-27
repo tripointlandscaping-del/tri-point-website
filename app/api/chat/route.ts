@@ -1,5 +1,12 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { googleReviews } from "../../lib/business";
+import {
+  allowChatRequest,
+  CHAT_MAX_TOKENS,
+  clientIp,
+  isAllowedChatOrigin,
+  parseChatBody,
+} from "../../lib/chatGuard";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
@@ -49,18 +56,28 @@ IMPORTANT RULES:
 - Keep responses SHORT unless detailed info is needed. Customers are on mobile often.
 - Do NOT use markdown formatting like ** or bullet points in your responses. Write in plain conversational sentences.`;
 
-type Message = {
-  role: "user" | "assistant";
-  content: string;
-};
+const BUSY_TEXT =
+  "We're getting a lot of messages right now. Call or text (586) 327-8080 and we'll help you directly.";
 
 export async function POST(request: Request) {
   try {
-    const { messages } = (await request.json()) as { messages: Message[] };
-
-    if (!messages || !Array.isArray(messages)) {
-      return Response.json({ error: "Invalid request" }, { status: 400 });
+    if (!isAllowedChatOrigin(request)) {
+      return Response.json({ text: BUSY_TEXT }, { status: 403 });
     }
+
+    if (!allowChatRequest(clientIp(request))) {
+      return Response.json({ text: BUSY_TEXT }, { status: 429 });
+    }
+
+    const parsed = parseChatBody(await request.text());
+    if ("error" in parsed) {
+      const status = parsed.error === "Invalid request" ? 400 : 413;
+      return Response.json(
+        { text: parsed.error === "Invalid request" ? "Sorry, that message didn't come through. Call us at (586) 327-8080." : parsed.error },
+        { status }
+      );
+    }
+    const { messages } = parsed;
 
     const now = new Date().toLocaleString("en-US", {
       weekday: "long",
@@ -77,7 +94,7 @@ export async function POST(request: Request) {
 
     const response = await client.messages.create({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 300,
+      max_tokens: CHAT_MAX_TOKENS,
       system: systemWithDate,
       messages: messages.map((m) => ({
         role: m.role,

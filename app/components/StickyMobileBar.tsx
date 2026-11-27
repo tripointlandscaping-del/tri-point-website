@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { SNOW_QUOTE_HREF, SNOW_URGENCY } from "../lib/snow";
+import { isSnowPath, SNOW_QUOTE_HREF, SNOW_URGENCY } from "../lib/snow";
 
 const phoneIcon = (
   <svg className="w-5 h-5 shrink-0" style={{ color: "#7ecb82" }} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -16,17 +16,13 @@ const textIcon = (
   </svg>
 );
 
-function isSnowPage(pathname: string) {
-  return pathname.startsWith("/services/snow-removal") || pathname === "/commercial";
-}
-
-// Sticky bottom bar. Commercial snow pages get a quote bar on every screen size;
-// all other pages keep the mobile-only call/estimate bar.
+// Sticky bottom bar. Commercial snow pages get a quote bar on every screen size.
+// Every other page keeps a mobile-only call, text, and estimate bar.
 // --sticky-bar-h (see globals.css) keeps the chat button and cookie banner above it.
 export default function StickyMobileBar() {
   const pathname = usePathname() ?? "";
 
-  if (isSnowPage(pathname)) {
+  if (isSnowPath(pathname)) {
     return (
       <>
         <style>{`:root { --sticky-bar-h: 64px; }`}</style>
@@ -64,18 +60,26 @@ export default function StickyMobileBar() {
       <div className="fixed bottom-0 left-0 right-0 z-40 flex md:hidden" style={{ backgroundColor: "#111111" }}>
         <a
           href="tel:+15863278080"
-          className="flex-1 flex items-center justify-center gap-2 py-4 text-white font-semibold text-sm border-r border-white/10 active:bg-white/10 transition-colors"
+          aria-label="Call (586) 327-8080"
+          className="flex-1 flex items-center justify-center gap-1.5 py-4 text-white font-semibold text-sm border-r border-white/10 active:bg-white/10 transition-colors"
         >
           {phoneIcon}
-          <span>(586) 327-8080</span>
+          <span>Call</span>
         </a>
-
+        <a
+          href="sms:+15863278080"
+          aria-label="Text (586) 327-8080"
+          className="flex-1 flex items-center justify-center gap-1.5 py-4 text-white font-semibold text-sm border-r border-white/10 active:bg-white/10 transition-colors"
+        >
+          {textIcon}
+          <span>Text</span>
+        </a>
         <Link
           href="/contact"
-          className="flex-1 flex items-center justify-center py-4 text-white font-bold text-sm active:opacity-80 transition-opacity"
+          className="flex-[1.15] flex items-center justify-center py-4 text-white font-bold text-sm active:opacity-80 transition-opacity"
           style={{ backgroundColor: "#2C5F2E" }}
         >
-          Get Estimate
+          Estimate
         </Link>
       </div>
       {/* Spacer so the bar doesn't cover the footer on mobile */}
