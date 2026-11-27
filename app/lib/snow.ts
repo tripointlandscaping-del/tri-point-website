@@ -4,6 +4,10 @@
 export const SNOW_QUOTE_HREF = "/contact#request-form";
 export const SNOW_URGENCY = "Now booking 2026/27 commercial snow contracts. Limited route capacity.";
 
+export function isSnowPath(pathname: string) {
+  return pathname.startsWith("/services/snow-removal") || pathname === "/commercial";
+}
+
 export const snowCities = [
   { slug: "washington-township", name: "Washington Township", short: "Washington Twp" },
   { slug: "shelby-township", name: "Shelby Township", short: "Shelby Twp" },

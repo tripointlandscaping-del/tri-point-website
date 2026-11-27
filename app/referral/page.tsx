@@ -203,7 +203,7 @@ export default function ReferralPage() {
             <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl font-bold mb-4">
               Know Someone Who Needs a Great Crew?
             </h2>
-            <p className="text-white/50 text-sm mb-8">Send them to Tri-Point Landscaping: Macomb County's locally owned, fully insured landscaping company. Free estimates, same-day response.</p>
+            <p className="text-white/50 text-sm mb-8">Send them to Tri-Point Landscaping: Macomb County&apos;s locally owned, fully insured landscaping company. Free estimates, same-day response.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+15863278080"

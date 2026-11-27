@@ -95,7 +95,7 @@ export default function CareersPage() {
             Landscaping Jobs in <span style={{ color: "#7ecb82" }}>Macomb County, MI</span>: Join Tri-Point
           </h1>
           <p className="text-white/60 text-lg leading-relaxed max-w-xl mx-auto">
-            We're a fast-growing, {googleReviews.rating}★ rated landscaping company based in Washington Township. If you take pride in your work and want to be part of a team that does things the right way. We want to hear from you.
+            We&apos;re a fast-growing, {googleReviews.rating}★ rated landscaping company based in Washington Township. If you take pride in your work and want to be part of a team that does things the right way. We want to hear from you.
           </p>
         </div>
       </section>
@@ -137,7 +137,7 @@ export default function CareersPage() {
               What We Look For
             </h2>
             <p className="text-white/70 max-w-xl mx-auto">
-              Experience helps but attitude is everything. We can teach the skills. We can't teach work ethic.
+              Experience helps but attitude is everything. We can teach the skills. We can&apos;t teach work ethic.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">

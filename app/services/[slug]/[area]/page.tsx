@@ -225,7 +225,7 @@ const areas: Record<string, {
     county: "Macomb County",
     roads: "25 Mile Road, 26 Mile Road & Hall Road",
     heroImage: "/photos/mulch.jpg",
-    localDesc: "Macomb Township's rapid residential growth, from new builds near Partridge Creek to established neighborhoods along Hall Road, has created a vibrant community of homeowners who take real pride in their properties.",
+    localDesc: "Macomb Township's residential growth, from newer subdivisions along 23 Mile and Romeo Plank to established neighborhoods, has created a community of homeowners who take real pride in their properties.",
   },
   "romeo": {
     name: "Romeo",
@@ -246,7 +246,7 @@ const areas: Record<string, {
     county: "Macomb County",
     roads: "32 Mile Road, 33 Mile Road & Van Dyke Avenue",
     heroImage: "/photos/boxwood.jpg",
-    localDesc: "Bruce Township, home to Wolcott Mill Metropark and sitting at the northern edge of Macomb County's growth corridor, offers a blend of rural character and residential development that calls for experienced, adaptable crews.",
+    localDesc: "Bruce Township sits at the northern edge of Macomb County, with a mix of rural lots and residential development along 32 Mile, 33 Mile, and Van Dyke.",
   },
   "rochester": {
     name: "Rochester",
@@ -317,6 +317,19 @@ const allAreaSlugs = Object.keys(areas);
 /* ─────────────────────────────────────────
    PRIMARY SEARCH TERM PER SERVICE (used for the page title and H1)
 ───────────────────────────────────────── */
+const serviceMetaOverrides: Record<string, { title: string; description: string }> = {
+  "landscaping/shelby-township": {
+    title: "Shelby Township Landscaping | Free Estimate",
+    description:
+      "New beds, plantings, and sod for Shelby Township homes along 23 Mile, 24 Mile, and Schoenherr. Free on-site plan and price. (586) 327-8080.",
+  },
+  "lawn-maintenance/shelby-township": {
+    title: "Shelby Township Lawn Mowing | Weekly Cuts",
+    description:
+      "Weekly and bi-weekly mowing, edging, and trimming in Shelby Township, April through October. $40–$100 per cut after a free look. (586) 327-8080.",
+  },
+};
+
 const serviceSearchVariants: Record<string, string[]> = {
   "lawn-maintenance": ["lawn mowing"],
   "landscaping": ["landscaping"],
@@ -372,16 +385,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const variants = serviceSearchVariants[slug] ?? [svc.name.toLowerCase()];
   const pageTitle = `${variants[0].replace(/\b\w/g, (c) => c.toUpperCase())} in ${areaData.name}, MI`;
+  const metaOverride = serviceMetaOverrides[`${slug}/${area}`];
+  const title = metaOverride?.title ?? pageTitle;
+  const description = metaOverride?.description ?? `${googleReviews.rating}★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates, same-day response. Call (586) 327-8080.`;
 
   return {
-    title: pageTitle,
-    description: `${googleReviews.rating}★ rated ${variants[0]} in ${areaData.name}, MI. Locally owned & fully insured. Free estimates, same-day response. Call (586) 327-8080.`,
+    title: metaOverride ? { absolute: title } : title,
+    description,
     alternates: {
       canonical: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
     },
     openGraph: {
-      title: `${pageTitle} | Tri-Point Landscaping`,
-      description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
+      title: metaOverride ? title : `${pageTitle} | Tri-Point Landscaping`,
+      description: metaOverride ? description : `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       url: `https://www.tripointlandscaping.com/services/${slug}/${area}`,
       siteName: "Tri-Point Landscaping",
       type: "website",
@@ -389,8 +405,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${pageTitle} | Tri-Point Landscaping`,
-      description: `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
+      title: metaOverride ? title : `${pageTitle} | Tri-Point Landscaping`,
+      description: metaOverride ? description : `${svc.shortDesc} Proudly serving ${areaData.name} and all of ${areaData.county}.`,
       images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },
   };

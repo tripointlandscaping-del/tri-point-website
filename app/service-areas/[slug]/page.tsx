@@ -251,9 +251,9 @@ const areas: Record<string, AreaData> = {
   },
   "rochester": {
     name: "Rochester",
-    metaTitle: "Lawn Mowing & Landscaping | Rochester, MI",
+    metaTitle: "Lawn Care in Rochester, MI | Free Estimate",
     metaDescription:
-      "Premium landscaping, lawn mowing, grass cutting & leaf removal in Rochester, MI, plus commercial snow removal. Serving Oakland County's most prestigious properties. Free estimates. Call (586) 327-8080.",
+      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester, MI homes. Free on-site estimate from a Washington Township crew. (586) 327-8080.",
     heroImage: "/photos/bills-google2.jpeg",
     heroAlt: "Premium landscaping and lawn care in Rochester Michigan",
     intro:
@@ -290,9 +290,9 @@ const areas: Record<string, AreaData> = {
   },
   "rochester-hills": {
     name: "Rochester Hills",
-    metaTitle: "Lawn Care & Landscaping | Rochester Hills, MI",
+    metaTitle: "Lawn Care in Rochester Hills, MI | Tri-Point",
     metaDescription:
-      "Premium landscaping, lawn mowing, grass cutting & leaf removal in Rochester Hills, MI, plus commercial snow removal. Professional service for Oakland County's premier community. Free estimates. Call (586) 327-8080.",
+      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester Hills homes near Auburn, Adams, and Livernois. Free estimate. (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
     heroAlt: "Premium landscaping and lawn care in Rochester Hills Michigan",
     intro:
@@ -346,8 +346,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const area = areas[slug];
   if (!area) return {};
+  const absoluteTitle = slug === "rochester" || slug === "rochester-hills";
   return {
-    title: area.metaTitle,
+    title: absoluteTitle ? { absolute: area.metaTitle } : area.metaTitle,
     description: area.metaDescription,
     alternates: { canonical: `https://www.tripointlandscaping.com/service-areas/${slug}` },
     openGraph: {

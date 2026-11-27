@@ -385,6 +385,7 @@ export default function ChatBot() {
               ref={inputRef}
               type="text"
               value={input}
+              maxLength={500}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && sendMessage(input)}
               placeholder={`Message ${EMPLOYEE.name}...`}

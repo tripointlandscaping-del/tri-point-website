@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { activePosts as posts } from "../activePosts";
+import LawnEstimateCta from "../../components/LawnEstimateCta";
 
 const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
   "Lawn Care": [
@@ -150,6 +151,21 @@ function renderContent(content: string) {
   return elements;
 }
 
+function splitNearMiddle(content: string): [string, string] {
+  const lines = content.trim().split("\n");
+  const blankIndexes = lines
+    .map((line, index) => (line.trim() === "" ? index : -1))
+    .filter((index) => index > lines.length * 0.25 && index < lines.length * 0.75);
+
+  const splitAt = blankIndexes.length
+    ? blankIndexes.reduce((best, index) =>
+        Math.abs(index - lines.length / 2) < Math.abs(best - lines.length / 2) ? index : best
+      )
+    : Math.floor(lines.length / 2);
+
+  return [lines.slice(0, splitAt).join("\n"), lines.slice(splitAt).join("\n")];
+}
+
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
@@ -163,6 +179,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     )
     .slice(0, 2);
   const relatedServices = categoryServiceMap[post.category] ?? [];
+  const [opening, closing] = splitNearMiddle(post.content);
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -244,19 +261,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </p>
         </div>
 
-        {/* Mid-article CTA strip */}
-        <div className="my-10 p-6 border-l-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4" style={{ borderColor: "#2C5F2E", backgroundColor: "#f5f0e8" }}>
-          <div>
-            <p className="font-bold text-gray-900 text-sm">Need help with your property in Macomb County?</p>
-            <p className="text-gray-500 text-xs mt-0.5">Free estimates, same-day response, (586) 327-8080</p>
-          </div>
-          <Link href="/contact" className="shrink-0 inline-flex items-center gap-2 text-white px-5 py-2.5 text-sm font-bold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#2C5F2E" }}>
-            Get a Free Estimate →
-          </Link>
-        </div>
-
         <div className="border-t border-gray-100 pt-10 space-y-2">
-          {renderContent(post.content)}
+          {renderContent(opening)}
+          <LawnEstimateCta placement="mid" />
+          {renderContent(closing)}
         </div>
 
         {/* Related services */}
@@ -277,21 +285,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         )}
 
-        {/* CTA */}
-        <div className="mt-16 p-8 text-center" style={{ backgroundColor: "#2C5F2E" }}>
-          <p style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-xl font-bold text-white mb-2">
-            Ready to get started?
-          </p>
-          <p className="text-white/70 text-sm mb-6">Free estimates for all services in Macomb County.</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 px-6 py-3 font-bold text-sm hover:bg-green-50 transition-colors">
-              Get a Free Estimate →
-            </Link>
-            <a href="tel:+15863278080" className="inline-flex items-center justify-center gap-2 border border-white/40 text-white px-6 py-3 font-semibold text-sm hover:bg-white/10 transition-colors">
-              Call (586) 327-8080
-            </a>
-          </div>
-        </div>
+        <LawnEstimateCta placement="end" />
 
         {/* Related posts */}
         {related.length > 0 && (

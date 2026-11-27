@@ -9,6 +9,7 @@ import StickyMobileBar from "./components/StickyMobileBar";
 import SnowPlowIntro from "./components/SnowPlowIntro";
 import ExitIntentPopup from "./components/ExitIntentPopup";
 import CookieBanner from "./components/CookieBanner";
+import ContactConversion from "./components/ContactConversion";
 import { aggregateRatingSchema, FOUNDING_DATE, GBP_URL, openingHoursSpecification } from "./lib/business";
 
 const playfair = Playfair_Display({
@@ -89,7 +90,12 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-0E3BSQGJ9Z');
-            gtag('config', 'AW-17037272520');
+            // Page views still go to Google Ads everywhere except /contact.
+            // A visit to the estimate page is not a conversion. quote_request
+            // fires from ContactConversion on a call, text, or detected form submit.
+            gtag('config', 'AW-17037272520', {
+              send_page_view: window.location.pathname !== '/contact'
+            });
           `}
         </Script>
         <script
@@ -221,6 +227,7 @@ export default function RootLayout({
         <SnowPlowIntro />
         <ExitIntentPopup />
         <CookieBanner />
+        <ContactConversion />
       </body>
     </html>
   );
