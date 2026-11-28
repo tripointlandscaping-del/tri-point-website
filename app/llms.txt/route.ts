@@ -55,8 +55,16 @@ Fall cleanups (October–November): full leaf removal, bed prep, winter-ready pr
 More info: https://www.tripointlandscaping.com/services/seasonal-cleanup
 
 ### Commercial Snow Removal & Ice Management
-Commercial properties only: parking lot plowing, sidewalk and entrance clearing, salting, and ice management for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal contracts and per-push pricing, trigger depths set in the service agreement, 24/7 storm response, service logs, and certificates of insurance (general liability and workers' comp). Tri-Point does not offer residential driveway plowing.
+Commercial properties only: parking lot plowing, sidewalk and entrance clearing, salting, and ice management for businesses, HOAs, and commercial lots, including property managers, retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal contracts and per-push pricing, trigger depths set in the service agreement, 24/7 storm response, service logs, and certificates of insurance (general liability and workers' comp). Tri-Point does not plow residential driveways.
 More info: https://www.tripointlandscaping.com/services/snow-removal
+- Washington Township: https://www.tripointlandscaping.com/services/snow-removal/washington-township
+- Shelby Township: https://www.tripointlandscaping.com/services/snow-removal/shelby-township
+- Rochester: https://www.tripointlandscaping.com/services/snow-removal/rochester
+- Rochester Hills: https://www.tripointlandscaping.com/services/snow-removal/rochester-hills
+- Macomb Township: https://www.tripointlandscaping.com/services/snow-removal/macomb-township
+- Romeo: https://www.tripointlandscaping.com/services/snow-removal/romeo
+- Ray Township: https://www.tripointlandscaping.com/services/snow-removal/ray-township
+- Bruce Township: https://www.tripointlandscaping.com/services/snow-removal/bruce-township
 
 ### Lawn Renovations & Aeration
 Core aeration, overseeding, dethatching, and top dressing to restore thin, patchy, or damaged lawns. Best performed late August through September in Michigan.
@@ -100,6 +108,18 @@ More info: https://www.tripointlandscaping.com/commercial
 - **Reviews**: https://www.tripointlandscaping.com/testimonials
 - **Service area pages**: https://www.tripointlandscaping.com/service-areas/washington-township
 
+## Key Pages
+- FAQ: https://www.tripointlandscaping.com/faq
+- Full FAQ answers: https://www.tripointlandscaping.com/llms-full.txt
+- Hardscaping: https://www.tripointlandscaping.com/services/hardscaping
+- Hardscaping in Shelby Township: https://www.tripointlandscaping.com/services/hardscaping/shelby-township
+- Shelby Township: https://www.tripointlandscaping.com/service-areas/shelby-township
+- Rochester: https://www.tripointlandscaping.com/service-areas/rochester
+- Rochester Hills: https://www.tripointlandscaping.com/service-areas/rochester-hills
+- Commercial snow removal in Rochester Hills: https://www.tripointlandscaping.com/services/snow-removal/rochester-hills
+- Service areas: https://www.tripointlandscaping.com/service-areas
+- Contact: https://www.tripointlandscaping.com/contact
+
 ## Frequently Asked Questions
 
 **Who owns Tri-Point Landscaping?**
@@ -124,7 +144,7 @@ Yes. Call or text (586) 327-8080 for a free, no-obligation estimate. Same-day re
 Yes. Tri-Point Landscaping LLC is a registered Michigan LLC carrying general liability and workers' comp insurance.
 
 **Do you offer snow removal?**
-For commercial properties only. Tri-Point provides parking lot plowing, sidewalk and entrance clearing, salting, and ice management for businesses, HOAs, and property managers across Macomb County and Oakland County, with seasonal or per-push contracts. Residential driveway plowing is not offered.
+Snow removal is commercial only: businesses, HOAs, and commercial lots. Tri-Point provides parking lot plowing, sidewalk and entrance clearing, salting, and ice management across Macomb County and Oakland County, with seasonal or per-push contracts. Residential driveway plowing is not offered.
 
 **When does the lawn care season run in Michigan?**
 Lawn maintenance typically runs April through October. Commercial snow services are available November through March.

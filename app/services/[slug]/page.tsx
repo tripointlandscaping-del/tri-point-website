@@ -337,8 +337,9 @@ const services: Record<string, ServiceData> = {
   "hardscaping": {
     title: "Hardscaping Services in Macomb County, MI",
     metaTitle: "Hardscaping & Patios | Macomb County, MI",
+    absoluteTitle: "Patios & Hardscaping in Macomb County | Tri-Point",
     metaDescription:
-      "Professional hardscaping in Macomb County & Oakland County, MI: patios, walkways, retaining walls, fire pits & outdoor living spaces. Coordinated by Tri-Point Landscaping with trusted local partners. Free estimates. Call (586) 327-8080.",
+      "Paver patios, walkways, retaining walls, and fire pits for Macomb and Oakland County, MI homes. Tri-Point Landscaping. Free estimate: (586) 327-8080.",
     heroImage: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
     heroAlt: "Custom hardscaping and outdoor living space installation in Macomb County Michigan",
     heroTagline: "Patios · Walkways · Retaining Walls · Fire Pits",
@@ -390,12 +391,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const service = services[slug];
   if (!service) return {};
+  const socialTitle =
+    service.absoluteTitle && slug === "hardscaping"
+      ? service.absoluteTitle
+      : `${service.metaTitle} | Tri-Point Landscaping`;
   return {
     title: service.absoluteTitle ? { absolute: service.absoluteTitle } : service.metaTitle,
     description: service.metaDescription,
     alternates: { canonical: `https://www.tripointlandscaping.com/services/${slug}` },
     openGraph: {
-      title: `${service.metaTitle} | Tri-Point Landscaping`,
+      title: socialTitle,
       description: service.metaDescription,
       url: `https://www.tripointlandscaping.com/services/${slug}`,
       siteName: "Tri-Point Landscaping",
@@ -404,7 +409,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${service.metaTitle} | Tri-Point Landscaping`,
+      title: socialTitle,
       description: service.metaDescription,
       images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },

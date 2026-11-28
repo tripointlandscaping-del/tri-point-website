@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { activePosts as posts } from "../activePosts";
+import { blogSeoOverrides } from "../seoOverrides";
 import LawnEstimateCta, { isCommercialSnowCategory } from "../../components/LawnEstimateCta";
 
 const categoryServiceMap: Record<string, { name: string; href: string }[]> = {
@@ -59,13 +60,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
+  const override = blogSeoOverrides[post.slug];
+  const title = override?.title ?? post.title;
+  const description = override?.description ?? post.description;
   return {
-    title: post.title,
-    description: post.description,
+    title: override ? { absolute: title } : title,
+    description,
     alternates: { canonical: `https://www.tripointlandscaping.com/blog/${post.slug}` },
     openGraph: {
-      title: `${post.title} | Tri-Point Landscaping`,
-      description: post.description,
+      title: override ? title : `${post.title} | Tri-Point Landscaping`,
+      description,
       url: `https://www.tripointlandscaping.com/blog/${post.slug}`,
       siteName: "Tri-Point Landscaping",
       type: "article",
@@ -81,8 +85,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.description,
+      title: override ? title : post.title,
+      description,
       images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },
   };

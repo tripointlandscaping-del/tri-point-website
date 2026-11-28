@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
+export const faqs = [
   {
     q: "How much does lawn care cost in Macomb County?",
     a: "Lawn care pricing varies based on property size, frequency, and the specific services you need. The best way to get an accurate number is to request a free estimate. We'll assess your property and give you a transparent, no-obligation quote same day. Call (586) 327-8080 or fill out our contact form.",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Do you offer snow removal?",
-    a: "Yes, for commercial properties only. We provide parking lot plowing, sidewalk and entrance clearing, salting, and ice management for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots throughout Macomb County and Oakland County. We do not offer residential driveway plowing.",
+    a: "Snow removal is commercial only. We serve businesses, HOAs, and commercial lots with parking lot plowing, sidewalk and entrance clearing, salting, and ice management throughout Macomb County and Oakland County. We do not plow residential driveways.",
   },
   {
     q: "What is included in a seasonal cleanup?",
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "Do you work on weekends?",
-    a: "Yes, our crews work Monday through Saturday. Business hours are 7am to 9pm daily, and you can call or text (586) 327-8080 24/7 for estimates, scheduling, and questions. Emergency snow removal service is also available outside of normal hours during Michigan's winter months.",
+    a: "Yes, our crews work Monday through Saturday. Business hours are 7am to 9pm daily, and you can call or text (586) 327-8080 24/7 for estimates, scheduling, and questions. Commercial snow response for businesses, HOAs, and commercial lots is available outside normal hours in winter. We do not plow residential driveways.",
   },
   {
     q: "What's included in weekly lawn maintenance?",
@@ -119,7 +119,7 @@ const faqs = [
   },
   {
     q: "When should my business set up a snow contract?",
-    a: "Before the first storm. Setting up a commercial snow contract in the fall gives us time to walk your site, agree on trigger depths and clearing priorities, and add your property to our storm route. Seasonal and per-push options are both available.",
+    a: "Before the first storm. Setting up a commercial snow contract in the fall gives us time to walk your site, agree on trigger depths and clearing priorities, and add your property to our storm route. Seasonal and per-push options are both available for businesses, HOAs, and commercial lots. We do not plow residential driveways.",
   },
   {
     q: "What should I do to prepare my lawn for spring?",
@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     q: "How much does commercial snow removal cost in Macomb County?",
-    a: "Commercial snow removal pricing depends on lot size, sidewalk area, trigger depth, salting needs, and whether you choose a seasonal contract or per-push service. We walk the site first and give you a written quote. Call (586) 327-8080 or request a snow contract quote online.",
+    a: "Commercial snow removal pricing depends on lot size, sidewalk area, trigger depth, salting needs, and whether you choose a seasonal contract or per-push service. This service is for businesses, HOAs, and commercial lots only. We do not plow residential driveways. We walk the site first and give you a written quote. Call (586) 327-8080 or request a snow contract quote online.",
   },
   {
     q: "When is the best time to overseed a lawn in Michigan?",

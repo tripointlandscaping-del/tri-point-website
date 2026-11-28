@@ -1,0 +1,37 @@
+# llms.txt: https://www.tripointlandscaping.com/llms.txt
+
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Claude-SearchBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: cohere-ai
+Allow: /
+
+User-Agent: Applebot
+Allow: /
+
+Sitemap: https://www.tripointlandscaping.com/sitemap.xml

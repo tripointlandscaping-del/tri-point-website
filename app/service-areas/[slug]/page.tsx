@@ -11,6 +11,8 @@ type AreaData = {
   name: string;
   metaTitle: string;
   metaDescription: string;
+  // When true, metaTitle is the full document title and skips the layout template.
+  absoluteMeta?: boolean;
   heroImage: string;
   heroAlt: string;
   intro: string;
@@ -63,9 +65,10 @@ const areas: Record<string, AreaData> = {
   },
   "shelby-township": {
     name: "Shelby Township",
-    metaTitle: "Lawn Mowing & Landscaping | Shelby Township, MI",
+    metaTitle: "Shelby Township Lawn Mowing & Cleanup | Tri-Point",
+    absoluteMeta: true,
     metaDescription:
-      "Professional landscaping, lawn mowing, grass cutting & leaf removal in Shelby Township, MI, plus commercial snow removal. Trusted Macomb County experts. Free estimates. Call (586) 327-8080.",
+      "Weekly mowing, crisp edging, mulch, and leaf cleanup for Shelby Township, MI homes. Locally owned Tri-Point Landscaping. Free estimate: (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
     heroAlt: "Professional landscaping services in Shelby Township Michigan",
     intro:
@@ -251,9 +254,10 @@ const areas: Record<string, AreaData> = {
   },
   "rochester": {
     name: "Rochester",
-    metaTitle: "Lawn Care in Rochester, MI | Free Estimate",
+    metaTitle: "Lawn Care & Landscaping in Rochester | Tri-Point",
+    absoluteMeta: true,
     metaDescription:
-      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester, MI homes. Free on-site estimate from a Washington Township crew. (586) 327-8080.",
+      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester, MI homes in Oakland County. Local Tri-Point Landscaping. Free estimate: (586) 327-8080.",
     heroImage: "/photos/bills-google2.jpeg",
     heroAlt: "Premium landscaping and lawn care in Rochester Michigan",
     intro:
@@ -290,9 +294,10 @@ const areas: Record<string, AreaData> = {
   },
   "rochester-hills": {
     name: "Rochester Hills",
-    metaTitle: "Lawn Care in Rochester Hills, MI",
+    metaTitle: "Weekly Lawn Care in Rochester Hills | Tri-Point",
+    absoluteMeta: true,
     metaDescription:
-      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester Hills homes near Auburn, Adams, and Livernois. Free estimate. (586) 327-8080.",
+      "Weekly mowing, landscaping, mulch, and leaf cleanup for Rochester Hills, MI homes. Locally owned Tri-Point Landscaping. Free estimate: (586) 327-8080.",
     heroImage: "/photos/IMG_4417.jpeg",
     heroAlt: "Premium landscaping and lawn care in Rochester Hills Michigan",
     intro:
@@ -346,21 +351,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const area = areas[slug];
   if (!area) return {};
+  const socialTitle = area.absoluteMeta ? area.metaTitle : `${area.metaTitle} | Tri-Point Landscaping`;
   return {
-    title: area.metaTitle,
+    title: area.absoluteMeta ? { absolute: area.metaTitle } : area.metaTitle,
     description: area.metaDescription,
     alternates: { canonical: `https://www.tripointlandscaping.com/service-areas/${slug}` },
     openGraph: {
-      title: `${area.metaTitle} | Tri-Point Landscaping`,
+      title: socialTitle,
       description: area.metaDescription,
       url: `https://www.tripointlandscaping.com/service-areas/${slug}`,
       siteName: "Tri-Point Landscaping",
       type: "website",
-      images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: `${area.metaTitle} | Tri-Point Landscaping` }],
+      images: [{ url: "https://www.tripointlandscaping.com/og-image.jpg", width: 1200, height: 630, alt: socialTitle }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${area.metaTitle} | Tri-Point Landscaping`,
+      title: socialTitle,
       description: area.metaDescription,
       images: ["https://www.tripointlandscaping.com/og-image.jpg"],
     },
