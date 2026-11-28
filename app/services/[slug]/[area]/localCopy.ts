@@ -312,10 +312,11 @@ export const localFaqs: Record<string, Record<string, { q: string; a: string }[]
       { q: "Do you plow residential driveways in Rochester?", a: "No. Our snow removal is commercial only. For Rochester homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
     ],
     "rochester-hills": [
-      { q: "Do you provide commercial snow removal along Rochester Road?", a: "Yes. We plow and salt plazas, offices, and other commercial properties along Rochester Road, Auburn Road, Adams Road, Walton Boulevard, Tienken Road, Avon Road, and elsewhere in Rochester Hills." },
-      { q: "Do you work with HOAs in Rochester Hills?", a: "Yes. We clear HOA entrances, common walkways, mailbox areas, and shared parking under a written agreement with the board or management company." },
-      { q: "Is Rochester Hills in your service area?", a: "Yes. We serve Rochester Hills and Rochester in Oakland County along with our Macomb County communities." },
-      { q: "Do you plow residential driveways in Rochester Hills?", a: "No. Our snow removal is commercial only. For Rochester Hills homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+      { q: "Is snow removal in Rochester Hills commercial only?", a: "Yes. Snow removal in Rochester Hills is commercial only. We plow parking lots and drive lanes and clear sidewalks and entrances for businesses, HOAs, and property managers, and we do not plow residential driveways." },
+      { q: "Do you offer commercial snow plowing and parking lot snow removal in Rochester Hills?", a: "Yes. We plow parking lots and drive lanes for retail plazas, office buildings, medical offices, churches, HOAs, and industrial lots in Rochester Hills, including properties along Rochester Road, Auburn Road, Adams Road, Walton Boulevard, Tienken Road, and Avon Road. Every account starts with a site walk and a written agreement that sets trigger depths and clearing priorities." },
+      { q: "Do you salt parking lots in Rochester Hills?", a: "Yes. Salting and ice management are part of our commercial snow service in Rochester Hills. We salt walkways and drive lanes, and we pre-treat ahead of freezing rain when conditions call for it." },
+      { q: "Do you offer commercial snow and ice management in Rochester Hills?", a: "Yes. We provide commercial snow and ice management in Rochester Hills, and we also serve Rochester in Oakland County. We monitor storms 24/7, keep a service log for every visit, and can provide certificates of insurance on request." },
+      { q: "How do I get a snow removal quote in Rochester Hills?", a: "Call or text (586) 327-8080, or request a snow contract quote on our contact page. We walk the site and give you a written quote for a seasonal contract or per-push service. The quote is free and there is no obligation." },
     ],
     "macomb-township": [
       { q: "Do you service plazas along 23 Mile Road?", a: "Yes. We provide commercial snow removal for plazas, offices, and other businesses along 23 Mile Road, 21 Mile Road, 26 Mile Road, Romeo Plank Road, and elsewhere in Macomb Township." },
@@ -337,6 +338,38 @@ export const localFaqs: Record<string, Record<string, { q: string; a: string }[]
       { q: "Do you plow church parking lots in Ray Township?", a: "Yes. We provide commercial snow removal for churches, small businesses, and other commercial properties in Ray Township, with priorities set around when your property is busiest." },
       { q: "Is per-push service available for small commercial lots?", a: "Yes. Per-push service is billed by visit, and seasonal contracts are available too. We'll walk the site and quote what fits." },
       { q: "Do you plow residential driveways in Ray Township?", a: "No. Our snow removal is commercial only. For Ray Township homeowners, we offer lawn care, landscaping, and seasonal cleanups." },
+    ],
+  },
+  hardscaping: {
+    "ray-township": [
+      { q: "Do you install retaining walls in Ray Township?", a: "Yes, we design retaining walls for Ray Township properties, including block, natural stone, and timber, and we coordinate trusted local hardscaping partners to build them. Base preparation is built for Michigan's freeze-thaw cycles, and estimates are free. Call (586) 327-8080." },
+      { q: "Do you install paver patios in Ray Township?", a: "Yes. We design paver patios and natural stone patios for Ray Township homes, including properties along 30 Mile, 32 Mile, and Ray Center Road. On many lots the patio sits near the house, and we can pair it with bed work and mulch." },
+      { q: "Do you install landscape edging in Ray Township?", a: "Yes, landscape edging, borders, and garden steps are part of our hardscaping work in Ray Township. We also cut clean bed edges when we install mulch or decorative stone. Call (586) 327-8080 for a free estimate." },
+      { q: "How do homeowners in Ray Township, MI plan a backyard renovation?", a: "Start with a free on-site visit. We walk the property with you, talk through the patio, walkway, retaining wall, fire pit, or planting beds you want, and give you a plan and a price before any work is scheduled. Outdoor living spaces can be paired with bed work and mulch so the area around the house is finished together." },
+      { q: "How do I get a free hardscaping estimate in Ray Township?", a: "Call or text (586) 327-8080, or request an estimate on our contact page. We look at the property before we give you a price. The estimate is free and there is no obligation." },
+    ],
+    "shelby-township": [
+      { q: "Do you install stone and paver patios in Shelby Township?", a: "Yes. We design paver patios and natural stone patios for Shelby Township homes, including properties along 23 Mile, 24 Mile, and Schoenherr. You work with Tri-Point from design through cleanup, and we coordinate trusted local hardscaping partners for the build." },
+      { q: "Do you install retaining walls in Shelby Township?", a: "Yes, we design retaining walls in Shelby Township in block, natural stone, or timber, and we coordinate trusted local hardscaping partners to build them. The base is designed for Michigan winters, and estimates are free. Call (586) 327-8080." },
+      { q: "Do you build custom patios and outdoor living spaces in Shelby Township?", a: "Yes. We plan custom patios, walkways, fire pits, and outdoor living spaces for Shelby Township yards, including newer subdivisions that are still mostly open lawn. Hardscaping can be combined with new planting beds and mulch." },
+      { q: "Do you install landscape edging in Shelby Township?", a: "Yes, landscape edging, borders, and garden steps are part of our hardscaping services in Shelby Township. Bed edging is also included when we install mulch or decorative stone. Call (586) 327-8080 for a free estimate." },
+      { q: "How do I get a free hardscaping estimate in Shelby Township?", a: "Call or text (586) 327-8080, or use the contact form on our website. We walk the property and give you a quote before any work begins. The estimate is free and there is no obligation." },
+    ],
+  },
+  landscaping: {
+    "shelby-township": [
+      { q: "Do you offer landscape design in Shelby Township?", a: "Yes, Tri-Point Landscaping provides custom landscape design and installation for Shelby Township homes along 23 Mile, 24 Mile, and Schoenherr, and throughout the township. Every project starts with a free on-site consultation. Call (586) 327-8080." },
+      { q: "Do you offer full landscape design consultations in Shelby Township?", a: "Yes. Consultations are free. We walk the property, talk through your goals, and handle design, plant selection, installation, and cleanup." },
+      { q: "Do you install plantings in Shelby Township?", a: "Yes, we install shrubs, perennials, ornamental grasses, and new planting beds, and we choose plants for Michigan's climate. Sod installation is available as part of the landscape work. Call (586) 327-8080 for a free estimate." },
+      { q: "Can you renovate an existing landscape in Shelby Township?", a: "Yes. For established Shelby Township properties, landscape renovation often means thinning what is overgrown, reshaping beds, and replacing plants that have struggled. You get a plan and a price at the free consultation before work starts." },
+      { q: "Do you include hardscape design with Shelby Township landscaping?", a: "Yes. A landscape project can include stone features, edging, and retaining walls. Paver patios, walkways, and fire pits are planned through our hardscaping service, and one free on-site visit can cover both." },
+    ],
+    "washington-township": [
+      { q: "Do you offer landscape design in Washington Township?", a: "Yes, Tri-Point Landscaping designs and installs landscapes in Washington Township, where we are based, for homes from 26 Mile up to 32 Mile Road between Van Dyke and Romeo Plank. Every project starts with a free on-site consultation. Call (586) 327-8080." },
+      { q: "Do you install planting beds and shrubs in Washington Township?", a: "Yes, we create new planting beds and install shrubs, perennials, and other plants chosen for Michigan winters and local drainage. You get a plan and a timeline before we start. Call (586) 327-8080 for a free consultation." },
+      { q: "Do you install decorative stone in Washington Township?", a: "Yes, we install decorative stone, including river rock, crushed granite, lava rock, and pea gravel, for Washington Township beds. We measure the beds during a free estimate. Call (586) 327-8080." },
+      { q: "Do you offer landscaping services in Washington Township?", a: "Yes, we offer landscape design and installation in Washington Township, and separate weekly lawn maintenance from April through October with mowing, edging, and trimming. Spring and fall cleanups are available too. Call (586) 327-8080." },
+      { q: "How do I get a free landscape estimate in Washington Township?", a: "Call or text (586) 327-8080, or request an estimate on our contact page. We walk the property, talk through your goals, and give you a plan and a price before any work begins. The consultation is free." },
     ],
   },
 };
