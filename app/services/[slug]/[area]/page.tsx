@@ -8,7 +8,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import { localCopy, localFaqs } from "./localCopy";
 import PropertyTypePage, { propertyTypeMetadata } from "./PropertyTypePage";
 import PropertyManagerSection from "../../../components/PropertyManagerSection";
-import { SNOW_QUOTE_HREF, SNOW_URGENCY, snowCities, propertyTypes, citySnowPost } from "../../../lib/snow";
+import { SNOW_QUOTE_HREF, SNOW_URGENCY, snowCities, propertyTypes, citySnowPost, snowCityMetadata } from "../../../lib/snow";
 import { activePosts as posts } from "../../../blog/activePosts";
 import { googleReviews, aggregateRatingSchema, googleRatingLabel } from "../../../lib/business";
 
@@ -328,6 +328,11 @@ const serviceMetaOverrides: Record<string, { title: string; description: string 
     description:
       "Weekly and bi-weekly mowing, edging, and trimming in Shelby Township, April through October. $40–$100 per cut after a free look. (586) 327-8080.",
   },
+  "hardscaping/shelby-township": {
+    title: "Paver Patios in Shelby Township, MI | Tri-Point",
+    description:
+      "Paver patios, walkways, retaining walls, and fire pits for Shelby Township, MI. Tri-Point Landscaping coordinates the work. Free estimate: (586) 327-8080.",
+  },
 };
 
 const serviceSearchVariants: Record<string, string[]> = {
@@ -370,9 +375,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!svc || !areaData) return {};
 
   if (slug === "snow-removal") {
-    const short = snowCities.find((c) => c.slug === area)?.short ?? areaData.name;
-    const title = `Commercial Snow Removal in ${short}, MI | Tri-Point`;
-    const description = `Commercial snow removal in ${areaData.name}, MI: parking lot plowing, salting & sidewalk clearing for businesses & HOAs. Get a snow contract quote.`;
+    const city = snowCities.find((c) => c.slug === area);
+    const { title, description } = snowCityMetadata(
+      city ?? { slug: area, name: areaData.name, short: areaData.name }
+    );
     const url = `https://www.tripointlandscaping.com/services/snow-removal/${area}`;
     return {
       title: { absolute: title },

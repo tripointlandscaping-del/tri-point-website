@@ -19,6 +19,36 @@ export const snowCities = [
   { slug: "bruce-township", name: "Bruce Township", short: "Bruce Twp" },
 ];
 
+// Shared <title> and meta description for every /services/snow-removal/<city> page.
+// Titles stay near 55–60 characters. Descriptions stay near 150–160 and name
+// commercial snow removal, parking lots, ice management, salting, businesses, and HOAs.
+const snowDescriptionTail: Record<string, string> = {
+  "washington-township": " Free quote.",
+  "shelby-township": " Get a free snow quote.",
+  rochester: " Free snow contract quote.",
+  "rochester-hills": " Get a free snow quote.",
+  "macomb-township": " Get a free snow quote.",
+  romeo: " Free snow contract quote.",
+  "ray-township": " Free snow contract quote.",
+  "bruce-township": " Get a free snow quote.",
+};
+
+export function snowCityMetadata(city: { slug: string; name: string; short: string }) {
+  const fullTitle = `Commercial Snow Removal in ${city.name}, MI | Tri-Point`;
+  const label = fullTitle.length > 60 ? city.short : city.name;
+  let title = `Commercial Snow Removal in ${label}, MI | Tri-Point`;
+  if (title.length < 54) {
+    title = `Commercial Snow & Ice Removal in ${city.name}, MI | Tri-Point`;
+  }
+  if (title.length < 55) {
+    title = `Commercial Snow and Ice Removal in ${city.name}, MI | Tri-Point`;
+  }
+  const description =
+    `Commercial snow removal in ${city.name}, MI: parking lots, ice management, and salting for businesses and HOAs. Tri-Point Landscaping.` +
+    (snowDescriptionTail[city.slug] ?? " Free quote.");
+  return { title, description };
+}
+
 // Commercial snow blog posts linked from the hub (active posts only).
 export const snowGuideSlugs = [
   "commercial-snow-contract-checklist-macomb-county",

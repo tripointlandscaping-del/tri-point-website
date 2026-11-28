@@ -11,8 +11,9 @@ import CursorGlow from "./components/CursorGlow";
 import LiveReviewFeed from "./components/LiveReviewFeed";
 import ServiceAreaChecker from "./components/ServiceAreaChecker";
 import SeasonalTip from "./components/SeasonalTip";
+import FaqAccordion from "./components/FaqAccordion";
 import { activePosts as posts } from "./blog/activePosts";
-import { googleReviews, aggregateRatingSchema, googleRatingLabel } from "./lib/business";
+import { googleReviews, googleRatingLabel } from "./lib/business";
 import { SNOW_QUOTE_HREF, SNOW_URGENCY } from "./lib/snow";
 
 export const metadata: Metadata = {
@@ -62,7 +63,7 @@ const homepageFaqSchema = {
       name: "What landscaping services does Tri-Point Landscaping offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tri-Point Landscaping offers lawn maintenance, landscaping & design, mulch & stone installation, seasonal cleanup, lawn renovations, and hardscaping, plus commercial snow removal & ice management for businesses, throughout Macomb County, Michigan.",
+        text: "Tri-Point Landscaping offers lawn maintenance, landscaping and design, mulch and stone installation, seasonal cleanup, lawn renovations, and hardscaping throughout Macomb County, Michigan. Snow removal is commercial only, for businesses, HOAs, and commercial lots. We do not plow residential driveways.",
       },
     },
     {
@@ -94,7 +95,7 @@ const homepageFaqSchema = {
       name: "Do you offer commercial snow removal in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, for commercial properties only. Tri-Point Landscaping provides commercial snow removal for property managers, HOAs, retail plazas, office buildings, churches, medical offices, and industrial lots: parking lot plowing, sidewalk and entrance clearing, and salting under seasonal or per-push contracts. We do not offer residential driveway plowing. Call (586) 327-8080 for a snow contract quote.",
+        text: "Yes. Snow removal is commercial only, for businesses, HOAs, and commercial lots. Tri-Point Landscaping plows parking lots, clears sidewalks and entrances, and handles salting and ice management under seasonal or per-push contracts. We do not plow residential driveways. Call (586) 327-8080 for a snow contract quote.",
       },
     },
     {
@@ -134,35 +135,40 @@ const homepageFaqSchema = {
       name: "Can you handle commercial landscaping in Macomb County?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Tri-Point Landscaping provides commercial landscaping for offices, retail centers, HOAs, apartment complexes, and property management companies throughout Macomb County and southeast Michigan. We offer recurring maintenance contracts, snow removal, and all certificates of insurance required.",
+        text: "Yes. Tri-Point Landscaping provides commercial landscaping for offices, retail centers, HOAs, apartment complexes, and property management companies throughout Macomb County and southeast Michigan. Recurring grounds maintenance is available, and snow removal on those properties is commercial only: businesses, HOAs, and commercial lots. We do not plow residential driveways. Certificates of insurance are available on request.",
       },
     },
   ],
 };
 
-const homepageBusinessSchema = {
+const homepageBreadcrumbSchema = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "LandscapingBusiness"],
-  name: "Tri-Point Landscaping LLC",
-  url: "https://www.tripointlandscaping.com",
-  telephone: "+15863278080",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Washington Township",
-    addressRegion: "MI",
-    postalCode: "48094",
-    addressCountry: "US",
-  },
-  aggregateRating: aggregateRatingSchema,
-  priceRange: "$$",
-  areaServed: "Macomb County, Michigan",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: {
+        "@type": "WebPage",
+        "@id": "https://www.tripointlandscaping.com/",
+        name: "Home",
+        url: "https://www.tripointlandscaping.com/",
+      },
+    },
+  ],
 };
+
+const homepageFaqs = homepageFaqSchema.mainEntity.map((item) => ({
+  q: item.name,
+  a: item.acceptedAnswer.text,
+}));
 
 export default function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageFaqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageBusinessSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageBreadcrumbSchema) }} />
       <Navbar />
       <main>
 
@@ -305,7 +311,7 @@ export default function HomePage() {
                 Commercial Snow Removal
               </h2>
               <p className="text-white/65 leading-relaxed max-w-2xl">
-                Parking lot plowing, sidewalk and entrance clearing, and salting for retail plazas, office buildings, churches, medical offices, and industrial lots. Seasonal or per-push contracts, 24/7 storm response, service logs, and certificates of insurance. Our snow service is commercial only.
+                Parking lot plowing, sidewalk and entrance clearing, salting, and ice management for businesses, HOAs, and commercial lots, including retail plazas, office buildings, churches, medical offices, and industrial sites. Seasonal or per-push contracts, 24/7 storm response, service logs, and certificates of insurance. We do not plow residential driveways.
               </p>
               <p style={{ color: "#7ecb82" }} className="text-sm font-semibold mt-4">{SNOW_URGENCY}</p>
             </div>
@@ -992,6 +998,19 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* ═══ FAQ ═══ */}
+        <section className="py-24 bg-white border-t border-gray-100">
+          <div className="max-w-3xl mx-auto px-6">
+            <div className="text-center mb-10">
+              <p className="text-green-700 text-sm font-semibold uppercase tracking-widest mb-3">FAQ</p>
+              <h2 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }} className="text-3xl sm:text-4xl font-bold text-gray-900">
+                Common Questions
+              </h2>
+            </div>
+            <FaqAccordion faqs={homepageFaqs} />
           </div>
         </section>
 
