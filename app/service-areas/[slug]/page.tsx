@@ -345,6 +345,14 @@ const otherAreas: Record<string, string> = {
   "rochester-hills": "Rochester Hills",
 };
 
+const townServiceLinks = [
+  { label: "Lawn Maintenance", href: "/services/lawn-maintenance" },
+  { label: "Landscaping", href: "/services/landscaping" },
+  { label: "Hardscaping", href: "/services/hardscaping" },
+  { label: "Mulch and Decorative Stone", href: "/services/mulch-and-stone" },
+  { label: "Commercial Snow Removal", href: "/services/snow-removal" },
+];
+
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -443,6 +451,11 @@ export default async function ServiceAreaPage({ params }: Props) {
   const { slug } = await params;
   const area = areas[slug];
   if (!area) notFound();
+
+  const serviceLinks = [
+    ...townServiceLinks,
+    ...area.services.filter((service) => !townServiceLinks.some((core) => core.href === service.href)),
+  ];
 
   const county = oaklandCountyAreas.has(slug) ? "Oakland County" : "Macomb County";
 
@@ -594,10 +607,10 @@ export default async function ServiceAreaPage({ params }: Props) {
                   style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
                   className="text-2xl font-bold text-gray-900 mb-6"
                 >
-                  Our Services in {area.name}
+                  Services in {area.name}
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-12">
-                  {area.services.map((s) => (
+                  {serviceLinks.map((s) => (
                     <Link
                       key={s.href}
                       href={`${s.href}/${slug}`}
@@ -605,7 +618,7 @@ export default async function ServiceAreaPage({ params }: Props) {
                     >
                       <div className="flex items-center gap-3">
                         <div style={{ backgroundColor: "#2C5F2E" }} className="w-2 h-2 shrink-0" />
-                        <span className="font-medium text-gray-900 group-hover:text-[#2C5F2E] transition-colors text-[15px]">{s.label}</span>
+                        <span className="font-medium text-gray-900 group-hover:text-[#2C5F2E] transition-colors text-[15px]">{`${s.label} in ${area.name}`}</span>
                       </div>
                       <svg className="w-4 h-4 text-gray-300 group-hover:text-[#2C5F2E] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

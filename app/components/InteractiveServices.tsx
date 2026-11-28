@@ -58,7 +58,7 @@ const services = [
     title: "Hardscaping",
     slug: "hardscaping",
     tagline: "Patios, walkways, retaining walls & more.",
-    desc: "Custom patio installations, natural stone walkways, retaining walls, fire pits, and outdoor living spaces: designed and coordinated to transform your outdoor space.",
+    desc: "Custom patio installations, natural stone walkways, retaining walls, fire pits, and outdoor living spaces, designed and built by Tri-Point.",
     img: "/photos/0728A183-FBB6-4A53-AA3D-103C3E39A7EF.jpeg",
   },
   {
