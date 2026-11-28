@@ -47,7 +47,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
 
 "Client" shall mean the individual, entity, property owner, tenant, or authorized agent who engages or requests services from the Company, and who is financially and legally responsible for payment of all amounts due hereunder.
 
-"Company" shall mean Tri-Point Landscaping LLC, its members, managers, officers, employees, agents, independent contractors, subcontractors, successors, and permitted assigns.
+"Company" shall mean Tri-Point Landscaping LLC, its members, managers, officers, employees, agents, successors, and permitted assigns.
 
 "Design Materials" shall mean any landscape designs, architectural drawings, CAD files, renderings, plant plans, planting diagrams, sketches, or other creative or technical works produced by the Company in connection with the provision of design services.
 
@@ -57,9 +57,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
 
 "Service Property" shall mean the real property, lot, parcel, or premises identified in the applicable Estimate or Proposal at which the Company is engaged to perform services.
 
-"Services" shall mean all landscaping, lawn maintenance, garden installation, snow removal, salting, sanding, pressure washing, outdoor lighting installation and maintenance, hardscape installation, and any other property improvement or maintenance services provided by the Company pursuant to this Agreement.
-
-"Subcontractor" shall mean any licensed, insured, and qualified individual or entity engaged by the Company to perform specific components of the Services on the Company's behalf.`,
+"Services" shall mean all landscaping, lawn maintenance, garden installation, snow removal, salting, sanding, pressure washing, outdoor lighting installation and maintenance, hardscape installation, and any other property improvement or maintenance services provided by the Company pursuant to this Agreement.`,
       },
     ],
   },
@@ -79,8 +77,8 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
         body: `The Client shall be solely responsible for ensuring that the Company's personnel and equipment have safe, adequate, and unobstructed access to all areas of the Service Property on each scheduled service date. Client obligations with respect to property access include, without limitation: (i) ensuring that all gates, access points, and locked enclosures are unlocked and accessible prior to the scheduled service time; (ii) restraining, confining, or removing all pets, livestock, and animals from service areas; (iii) removing or relocating vehicles, equipment, furniture, and personal property that would obstruct service areas or impede access; (iv) providing advance written disclosure of the location of all in-ground irrigation systems, invisible pet fencing, electrical conduit, drainage systems, and other subsurface infrastructure; and (v) ensuring that the general condition of the property does not present unreasonable hazards to Company personnel. Tri-Point Landscaping LLC shall bear no liability for delays, incomplete service performance, or any additional charges necessitated by restricted, obstructed, or unsafe property access conditions attributable to the Client's failure to comply with this Section.`,
       },
       {
-        heading: "D. Use of Subcontractors",
-        body: `The Company expressly reserves the right, exercisable in its sole discretion, to engage licensed, bonded, insured, and professionally qualified Subcontractors to perform all or any portion of the Services. All Subcontractors engaged by the Company shall be required to maintain professional standards consistent with those required of the Company's direct employees and shall be subject to oversight and quality control by the Company. The engagement of Subcontractors shall not relieve the Company of its obligations under this Agreement with respect to the quality and completion of Services, except as otherwise expressly provided herein. The Client shall not directly engage, solicit, or contract with any Subcontractor identified through the Company during the term of any active service agreement and for a period of twelve (12) months thereafter.`,
+        heading: "D. Who Performs the Work",
+        body: `The Company designs and builds the Services itself.`,
       },
     ],
   },
@@ -122,7 +120,7 @@ BY REQUESTING A QUOTE, SIGNING A SERVICE ESTIMATE OR PROPOSAL, AUTHORIZING WORK 
       },
       {
         heading: "C. Deposit Forfeiture on Project Cancellations",
-        body: `In the event that a project for which a deposit has been collected is subsequently cancelled by the Client, the following deposit refund provisions shall apply: (i) if cancellation occurs before the Company has procured materials, ordered plant materials, or committed to subcontractor scheduling, the Client shall receive a full refund of the deposit less any reasonable administrative and processing costs actually incurred by the Company; (ii) if cancellation occurs after the Company has ordered or procured materials, engaged subcontractors, or performed design or planning work in reliance on the engagement, the Client shall forfeit such portion of the deposit as is necessary to cover the Company's non-recoverable costs, including without limitation special-order materials, non-refundable vendor deposits, design fees, and committed subcontractor costs, with any remaining balance of the deposit refunded to the Client within a commercially reasonable time.`,
+        body: `In the event that a project for which a deposit has been collected is subsequently cancelled by the Client, the following deposit refund provisions shall apply: (i) if cancellation occurs before the Company has procured materials or ordered plant materials, the Client shall receive a full refund of the deposit less any reasonable administrative and processing costs actually incurred by the Company; (ii) if cancellation occurs after the Company has ordered or procured materials or performed design or planning work in reliance on the engagement, the Client shall forfeit such portion of the deposit as is necessary to cover the Company's non-recoverable costs, including without limitation special-order materials, non-refundable vendor deposits, and design fees, with any remaining balance of the deposit refunded to the Client within a commercially reasonable time.`,
       },
       {
         heading: "D. Cancellation by the Company",
@@ -231,7 +229,7 @@ The Client expressly acknowledges and agrees that the Company's insurance covera
     subsections: [
       {
         heading: "Client's Obligation to Indemnify the Company",
-        body: `To the fullest extent permitted by applicable law, the Client hereby agrees to defend, indemnify, and hold harmless Tri-Point Landscaping LLC and its members, managers, officers, employees, agents, independent contractors, Subcontractors, successors, and assigns (collectively, the "Indemnified Parties") from and against any and all claims, demands, actions, causes of action, suits, proceedings, losses, damages, liabilities, judgments, settlements, penalties, fines, costs, and expenses (including without limitation reasonable attorney's fees and court costs) arising out of or related to:
+        body: `To the fullest extent permitted by applicable law, the Client hereby agrees to defend, indemnify, and hold harmless Tri-Point Landscaping LLC and its members, managers, officers, employees, agents, successors, and assigns (collectively, the "Indemnified Parties") from and against any and all claims, demands, actions, causes of action, suits, proceedings, losses, damages, liabilities, judgments, settlements, penalties, fines, costs, and expenses (including without limitation reasonable attorney's fees and court costs) arising out of or related to:
 
 (i) The Client's material breach of any representation, warranty, covenant, or obligation under this Agreement;
 
@@ -276,11 +274,11 @@ The Client's indemnification obligations under this Section shall survive the te
       },
       {
         heading: "G. No Third-Party Beneficiaries",
-        body: `This Agreement is made solely for the benefit of the Company and the Client. Nothing in this Agreement, express or implied, is intended to or shall confer upon any other person or entity any legal or equitable right, benefit, or remedy of any nature whatsoever under or by reason of this Agreement, except that the Company's Subcontractors and the Indemnified Parties described in Section 10 shall be third-party beneficiaries of the indemnification provisions of this Agreement.`,
+        body: `This Agreement is made solely for the benefit of the Company and the Client. Nothing in this Agreement, express or implied, is intended to or shall confer upon any other person or entity any legal or equitable right, benefit, or remedy of any nature whatsoever under or by reason of this Agreement, except that the Indemnified Parties described in Section 10 shall be third-party beneficiaries of the indemnification provisions of this Agreement.`,
       },
       {
         heading: "H. Assignment",
-        body: `The Client may not assign, transfer, delegate, or subcontract any of its rights or obligations under this Agreement without the prior written consent of the Company. The Company may freely assign this Agreement and any of its rights or obligations hereunder to any affiliate, successor entity, or purchaser of all or substantially all of the Company's business assets, without the Client's consent.`,
+        body: `The Client may not assign, transfer, or delegate any of its rights or obligations under this Agreement without the prior written consent of the Company. The Company may freely assign this Agreement and any of its rights or obligations hereunder to any affiliate, successor entity, or purchaser of all or substantially all of the Company's business assets, without the Client's consent.`,
       },
     ],
   },

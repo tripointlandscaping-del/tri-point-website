@@ -179,36 +179,36 @@ export const localCopy: Record<string, Record<string, string[]>> = {
 
   hardscaping: {
     "washington-township": [
-      "A paver patio off the back door, a stone walkway to the front entry, or a retaining wall to tame a sloped yard can change how a Washington Township property looks and works. Tri-Point Landscaping coordinates hardscaping projects for properties between 26 Mile and 32 Mile Road.",
-      "We work with trusted local hardscaping partners and manage the project start to finish, so you have one point of contact the whole way through. Base preparation is built for Michigan's freeze-thaw cycles, and we tie the finished patio or wall into your existing lawn and beds so it looks like it was always there.",
+      "A paver patio off the back door, a stone walkway to the front entry, or a retaining wall to tame a sloped yard can change how a Washington Township property looks and works. Tri-Point Landscaping designs and builds hardscaping projects for properties between 26 Mile and 32 Mile Road.",
+      "We design and build every project ourselves, from start to finish. Base preparation is built for Michigan's freeze-thaw cycles, and we tie the finished patio or wall into your existing lawn and beds so it looks like it was always there.",
     ],
     "shelby-township": [
-      "Newer Shelby Township subdivisions often leave homeowners with a mostly bare backyard. Tri-Point Landscaping coordinates paver patios, walkways, fire pits, and retaining walls that turn that space into somewhere you actually want to spend time, for homes along 23 Mile, 24 Mile, and Schoenherr.",
-      "You work with Tri-Point from design through cleanup while we coordinate trusted local hardscaping partners for the build. Every project gets a base designed for Michigan winters, and we can combine the hardscape with new planting beds and mulch so the whole yard comes together at once.",
+      "Newer Shelby Township subdivisions often leave homeowners with a mostly bare backyard. Tri-Point Landscaping designs and builds paver patios, walkways, fire pits, and retaining walls that turn that space into somewhere you actually want to spend time, for homes along 23 Mile, 24 Mile, and Schoenherr.",
+      "We design and build every project ourselves, from design through cleanup. Every project gets a base designed for Michigan winters, and we can combine the hardscape with new planting beds and mulch so the whole yard comes together at once.",
     ],
     rochester: [
-      "Natural stone walkways and garden steps suit the character of Rochester's older homes, while paver patios and fire pits add usable space out back. Tri-Point Landscaping coordinates hardscaping projects for Rochester homeowners near downtown and along Walton Boulevard and University Drive.",
-      "We manage the full project and work with trusted local hardscaping partners, keeping you informed through every phase. Materials and base prep are chosen to stand up to Michigan's freeze-thaw cycles, and the finished work is planned to fit your existing landscape rather than fight it.",
+      "Natural stone walkways and garden steps suit the character of Rochester's older homes, while paver patios and fire pits add usable space out back. Tri-Point Landscaping designs and builds hardscaping projects for Rochester homeowners near downtown and along Walton Boulevard and University Drive.",
+      "We design and build the full project ourselves. Materials and base prep are chosen to stand up to Michigan's freeze-thaw cycles, and the finished work is planned to fit your existing landscape.",
     ],
     "rochester-hills": [
-      "For Rochester Hills homeowners, a well-built patio or outdoor living space is one of the most valuable additions to a property. Tri-Point Landscaping coordinates paver and natural stone patios, walkways, retaining walls, and fire pits for homes near Auburn Road, Adams Road, and Livernois.",
-      "We work with trusted local hardscaping partners and stay involved from design through final cleanup, so you deal with one company the whole time. Every project is built on a base meant for Michigan winters and finished to blend with your lawn and planting beds.",
+      "For Rochester Hills homeowners, a well-built patio or outdoor living space is one of the most valuable additions to a property. Tri-Point Landscaping designs and builds paver and natural stone patios, walkways, retaining walls, and fire pits for homes near Auburn Road, Adams Road, and Livernois.",
+      "We design and build every project ourselves, from design through final cleanup. Every project is built on a base meant for Michigan winters and finished to blend with your lawn and planting beds.",
     ],
     "macomb-township": [
-      "A lot of newer Macomb Township backyards are still a blank lawn. A paver patio, a walk to the side door, or a small retaining wall is often the first real structure in the yard. Tri-Point Landscaping coordinates those projects for homes along 23 Mile, 25 Mile, and Romeo Plank.",
-      "You work with us from the first look through cleanup. We bring in trusted local hardscaping partners for the build, and the base is prepared for Michigan freeze-thaw. The patio or wall is planned to meet the lawn and any new beds so it does not look dropped in.",
+      "A lot of newer Macomb Township backyards are still a blank lawn. A paver patio, a walk to the side door, or a small retaining wall is often the first real structure in the yard. Tri-Point Landscaping designs and builds those projects for homes along 23 Mile, 25 Mile, and Romeo Plank.",
+      "We design and build every project ourselves, from the first look through cleanup. The base is prepared for Michigan freeze-thaw. The patio or wall is planned to meet the lawn and any new beds so it does not look dropped in.",
     ],
     romeo: [
-      "Hardscaping around an older Romeo home has to fit the house. A stone walk, a short run of steps, or a patio out back should sit with the mature plantings instead of paving over them. Tri-Point Landscaping coordinates that work in the village and along 32 Mile and Van Dyke.",
-      "We manage the project and use trusted local hardscaping partners for the installation. Materials and the base are chosen for freeze-thaw, and we walk the site with you before anything is scheduled so the scope and the price are written down.",
+      "Hardscaping around an older Romeo home has to fit the house. A stone walk, a short run of steps, or a patio out back should sit with the mature plantings instead of paving over them. Tri-Point Landscaping designs and builds that work in the village and along 32 Mile and Van Dyke.",
+      "We design and build the installation ourselves. Materials and the base are chosen for freeze-thaw, and we walk the site with you before anything is scheduled so the scope and the price are written down.",
     ],
     "ray-township": [
-      "On many Ray Township properties the useful hardscape is the walk from the driveway to the door, plus a patio near the house. The house often sits farther from the road than it would in a subdivision. Tri-Point Landscaping coordinates those walks, patios, and small retaining walls along 30 Mile, 32 Mile, and Ray Center Road.",
-      "We stay your contact for the whole job and coordinate trusted local hardscaping partners to build it. The base is built for Michigan winters. We can pair the new surface with bed work and mulch so the area around the house is finished together.",
+      "On many Ray Township properties the useful hardscape is the walk from the driveway to the door, plus a patio near the house. The house often sits farther from the road than it would in a subdivision. Tri-Point Landscaping designs and builds those walks, patios, and small retaining walls along 30 Mile, 32 Mile, and Ray Center Road.",
+      "We design and build every project ourselves. The base is built for Michigan winters. We can pair the new surface with bed work and mulch so the area around the house is finished together.",
     ],
     "bruce-township": [
-      "Bruce Township homes set back from 32 Mile, 33 Mile, or Van Dyke often need a walkway that actually reaches the door, and a patio sized to how the family uses the yard. Tri-Point Landscaping coordinates paver and natural stone work for those properties.",
-      "You have one point of contact. We plan the project with you and coordinate trusted local hardscaping partners for the build, on a base meant for freeze-thaw. The finished work is tied into the lawn and the beds around it.",
+      "Bruce Township homes set back from 32 Mile, 33 Mile, or Van Dyke often need a walkway that actually reaches the door, and a patio sized to how the family uses the yard. Tri-Point Landscaping designs and builds paver and natural stone work for those properties.",
+      "We design and build every project ourselves. We plan the project with you, on a base meant for freeze-thaw. The finished work is tied into the lawn and the beds around it.",
     ],
   },
 
@@ -342,16 +342,16 @@ export const localFaqs: Record<string, Record<string, { q: string; a: string }[]
   },
   hardscaping: {
     "ray-township": [
-      { q: "Do you install retaining walls in Ray Township?", a: "Yes, we design retaining walls for Ray Township properties, including block, natural stone, and timber, and we coordinate trusted local hardscaping partners to build them. Base preparation is built for Michigan's freeze-thaw cycles, and estimates are free. Call (586) 327-8080." },
-      { q: "Do you install paver patios in Ray Township?", a: "Yes. We design paver patios and natural stone patios for Ray Township homes, including properties along 30 Mile, 32 Mile, and Ray Center Road, and we coordinate trusted local hardscaping partners for the build. On many lots the patio sits near the house, and we can pair it with bed work and mulch." },
+      { q: "Do you install retaining walls in Ray Township?", a: "Yes, we design and build retaining walls for Ray Township properties, including block, natural stone, and timber. Base preparation is built for Michigan's freeze-thaw cycles, and estimates are free. Call (586) 327-8080." },
+      { q: "Do you install paver patios in Ray Township?", a: "Yes. We design and build paver patios and natural stone patios for Ray Township homes, including properties along 30 Mile, 32 Mile, and Ray Center Road. On many lots the patio sits near the house, and we can pair it with bed work and mulch." },
       { q: "Do you install landscape edging in Ray Township?", a: "Yes, landscape edging, borders, and garden steps are part of our hardscaping work in Ray Township. We also cut clean bed edges when we install mulch or decorative stone. Call (586) 327-8080 for a free estimate." },
       { q: "How do homeowners in Ray Township, MI plan a backyard renovation?", a: "Start with a free on-site visit. We walk the property with you, talk through the patio, walkway, retaining wall, fire pit, or planting beds you want, and give you a plan and a price before any work is scheduled. Outdoor living spaces can be paired with bed work and mulch so the area around the house is finished together." },
       { q: "How do I get a free hardscaping estimate in Ray Township?", a: "Call or text (586) 327-8080, or request an estimate on our contact page. We look at the property before we give you a price. The estimate is free and there is no obligation." },
     ],
     "shelby-township": [
-      { q: "Do you install stone and paver patios in Shelby Township?", a: "Yes. We design paver patios and natural stone patios for Shelby Township homes, including properties along 23 Mile, 24 Mile, and Schoenherr. You work with Tri-Point from design through cleanup, and we coordinate trusted local hardscaping partners for the build." },
-      { q: "Do you install retaining walls in Shelby Township?", a: "Yes, we design retaining walls in Shelby Township in block, natural stone, or timber, and we coordinate trusted local hardscaping partners to build them. The base is designed for Michigan winters, and estimates are free. Call (586) 327-8080." },
-      { q: "Do you build custom patios and outdoor living spaces in Shelby Township?", a: "Yes. We plan custom patios, walkways, fire pits, and outdoor living spaces for Shelby Township yards, including newer subdivisions that are still mostly open lawn. We coordinate trusted local hardscaping partners for the build. Hardscaping can be combined with new planting beds and mulch." },
+      { q: "Do you install stone and paver patios in Shelby Township?", a: "Yes. We design and build paver patios and natural stone patios for Shelby Township homes, including properties along 23 Mile, 24 Mile, and Schoenherr. You work with Tri-Point from design through cleanup." },
+      { q: "Do you install retaining walls in Shelby Township?", a: "Yes, we design and build retaining walls in Shelby Township in block, natural stone, or timber. The base is designed for Michigan winters, and estimates are free. Call (586) 327-8080." },
+      { q: "Do you build custom patios and outdoor living spaces in Shelby Township?", a: "Yes. We design and build custom patios, walkways, fire pits, and outdoor living spaces for Shelby Township yards, including newer subdivisions that are still mostly open lawn. Hardscaping can be combined with new planting beds and mulch." },
       { q: "Do you install landscape edging in Shelby Township?", a: "Yes, landscape edging, borders, and garden steps are part of our hardscaping services in Shelby Township. Bed edging is also included when we install mulch or decorative stone. Call (586) 327-8080 for a free estimate." },
       { q: "How do I get a free hardscaping estimate in Shelby Township?", a: "Call or text (586) 327-8080, or use the contact form on our website. We walk the property and give you a quote before any work begins. The estimate is free and there is no obligation." },
     ],

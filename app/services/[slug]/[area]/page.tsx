@@ -161,17 +161,17 @@ const services: Record<string, {
       "Custom fire pits and outdoor fire features",
       "Garden steps, borders, and landscape edging",
       "Outdoor room design and living space planning",
-      "Project coordination with trusted local hardscaping partners",
+      "We design and build every project ourselves",
       "Full site cleanup after installation",
     ],
     benefits: [
       "Dramatically expanded outdoor living space that adds real value to your home",
-      "One point of contact. We coordinate partners and manage the project end to end",
+      "We design and build every project ourselves",
       "Materials and base prep engineered for Michigan's freeze-thaw cycles",
       "Finished result integrates seamlessly with your existing lawn and landscape",
     ],
     bodyTemplate: (area, roads) =>
-      `Homeowners in ${area} are investing more in their outdoor spaces than ever, and hardscaping is one of the highest-ROI improvements you can make. Whether you want a paver patio off the back door, a natural stone walkway through the front yard, or a retaining wall to manage the grade on a sloped property, Tri-Point Landscaping coordinates every detail for properties throughout ${area}, including homes along ${roads}. We work with trusted local hardscaping partners and stay on-site through every phase, ensuring quality, cleanliness, and a finished product that complements your existing landscape. One call to Tri-Point Landscaping is all it takes to get started.`,
+      `Homeowners in ${area} are investing more in their outdoor spaces than ever, and hardscaping is one of the highest-ROI improvements you can make. Whether you want a paver patio off the back door, a natural stone walkway through the front yard, or a retaining wall to manage the grade on a sloped property, Tri-Point Landscaping designs and builds the work for properties throughout ${area}, including homes along ${roads}. We design and build every project ourselves and stay on-site through every phase, so the finished work complements your existing landscape. One call to Tri-Point Landscaping is all it takes to get started.`,
   },
   "commercial": {
     name: "Commercial Landscaping",
@@ -300,7 +300,7 @@ const serviceFaqs: Record<string, { q: string; a: string }[]> = {
     { q: "Does my lawn need renovation or just maintenance?", a: "If more than 50% of your lawn is thin, bare, or weedy, renovation is the better investment. We'll assess your lawn during the free estimate and give you an honest recommendation." },
   ],
   "hardscaping": [
-    { q: "Do you install hardscaping directly or use partners?", a: "We coordinate with trusted local hardscaping partners and manage the project from start to finish. You work with Tri-Point Landscaping throughout: one point of contact, one standard of quality." },
+    { q: "Do you design and build the hardscaping yourselves?", a: "Yes. We design and build every hardscaping project ourselves, from start to finish. You work with Tri-Point Landscaping throughout." },
     { q: "What types of hardscaping do you offer?", a: "Paver and natural stone patios, flagstone and paver walkways, block and natural stone retaining walls, custom fire pits, garden steps, and full outdoor living space design and installation." },
     { q: "Can hardscaping be combined with my landscaping project?", a: "Absolutely, we recommend it. Combining hardscaping with planting beds, mulch, and lawn work creates a fully cohesive outdoor space that looks intentional and dramatically improves curb appeal." },
   ],
@@ -331,7 +331,7 @@ const serviceMetaOverrides: Record<string, { title: string; description: string 
   "hardscaping/shelby-township": {
     title: "Paver Patios in Shelby Township, MI | Tri-Point",
     description:
-      "Paver patios, walkways, retaining walls, and fire pits for Shelby Township, MI. Tri-Point Landscaping coordinates the work. Free estimate: (586) 327-8080.",
+      "Paver patios, walkways, retaining walls, and fire pits for Shelby Township, MI. Tri-Point Landscaping designs and builds the work. Free estimate: (586) 327-8080.",
   },
 };
 
